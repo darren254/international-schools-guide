@@ -43,8 +43,8 @@ export function FeesTable({
   note,
 }: FeesTableProps) {
   return (
-    <section className="mb-10 pb-10 border-b border-warm-border-light">
-      <SectionHeader label="Annual Tuition" title="Fees" id="fees" />
+    <section id="fees" className="pt-10 mb-10 pb-10 border-b border-warm-border-light">
+      <SectionHeader label="Annual Tuition" title="Fees" />
 
       <p className="text-sm text-charcoal-muted mb-6">
         {academicYear} fees shown in USD equivalent.{" "}

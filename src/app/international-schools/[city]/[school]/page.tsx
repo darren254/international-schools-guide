@@ -137,7 +137,7 @@ export default function JISProfilePage() {
           />
 
           {/* ── Warm band: Fees ── */}
-          <div className="section-band -mx-5 md:-mx-8 px-5 md:px-8 py-8 bg-warm-white border-y border-warm-border-light">
+          <div className="section-band -mx-5 md:-mx-8 px-5 md:px-8 pb-2 bg-warm-white border-y border-warm-border-light">
           <FeesTable
             academicYear="2025–2026"
             exchangeRate={EXCHANGE_RATE}
@@ -252,7 +252,7 @@ export default function JISProfilePage() {
           />
 
           {/* ── Warm band: Student Body ── */}
-          <div className="section-band -mx-5 md:-mx-8 px-5 md:px-8 py-8 bg-warm-white border-y border-warm-border-light">
+          <div className="section-band -mx-5 md:-mx-8 px-5 md:px-8 pb-2 bg-warm-white border-y border-warm-border-light">
           <StudentBody
             paragraphs={[
               "JIS draws a mix of expatriate children and internationally-minded Indonesian families. The student body includes children of diplomats, multinational executives, and entrepreneurs. Many students have lived in multiple countries.",

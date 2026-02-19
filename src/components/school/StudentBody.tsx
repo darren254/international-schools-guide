@@ -14,11 +14,10 @@ interface StudentBodyProps {
 
 export function StudentBody({ paragraphs, inspection }: StudentBodyProps) {
   return (
-    <section className="mb-10 pb-10 border-b border-warm-border-light">
+    <section id="student-body" className="pt-10 mb-10 pb-10 border-b border-warm-border-light">
       <SectionHeader
         label="Community"
         title="Student Body & Academics"
-        id="student-body"
       />
 
       {paragraphs.map((p, i) => (

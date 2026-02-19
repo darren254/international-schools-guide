@@ -98,8 +98,8 @@ export function CampusMap({ campuses }: CampusMapProps) {
   }, [campuses]);
 
   return (
-    <section className="mb-10 pb-10 border-b border-warm-border-light">
-      <SectionHeader label="Getting There" title="Location" id="location" />
+    <section id="location" className="pt-10 mb-10 pb-10 border-b border-warm-border-light">
+      <SectionHeader label="Getting There" title="Location" />
 
       <div
         ref={mapContainer}

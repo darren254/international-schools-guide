@@ -14,8 +14,8 @@ export function Intelligence({
   considerations,
 }: IntelligenceProps) {
   return (
-    <section className="mb-10 pb-10 border-b border-warm-border-light">
-      <SectionHeader label="Editorial" title="The Intelligence" id="intelligence" />
+    <section id="intelligence" className="pt-10 mb-10 pb-10 border-b border-warm-border-light">
+      <SectionHeader label="Editorial" title="The Intelligence" />
 
       <p className="text-[0.75rem] text-charcoal-muted italic mb-6">
         Schools don&apos;t pay to be listed here. Our reviews are independent, written for parents, not for schools.

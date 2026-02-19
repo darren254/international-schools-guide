@@ -14,11 +14,10 @@ export function SchoolLife({
   paragraphs,
 }: SchoolLifeProps) {
   return (
-    <section className="mb-10 pb-10 border-b border-warm-border-light">
+    <section id="school-life" className="pt-10 mb-10 pb-10 border-b border-warm-border-light">
       <SectionHeader
         label="Campus & Culture"
         title="School Life"
-        id="school-life"
       />
 
       <div className="flex flex-col sm:flex-row gap-8 mb-8">

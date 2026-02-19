@@ -12,11 +12,10 @@ interface AcademicResultsProps {
 
 export function AcademicResults({ results, paragraphs }: AcademicResultsProps) {
   return (
-    <section className="mb-10 pb-10 border-b border-warm-border-light">
+    <section id="academics" className="pt-10 mb-10 pb-10 border-b border-warm-border-light">
       <SectionHeader
         label="Academic Performance"
         title="Academic Results"
-        id="academics"
       />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
