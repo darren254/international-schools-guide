@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream text-charcoal font-body antialiased;
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display font-medium leading-tight;
+  }
+
+  /* Scroll offset for sticky header + nav */
+  [id] {
+    scroll-margin-top: 120px;
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: theme("colors.cream.300");
+    border-radius: 3px;
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply max-w-content mx-auto px-5 md:px-8;
+  }
+
+  /* Sections inside warm bands lose their own border/spacing */
+  .section-band > section {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
