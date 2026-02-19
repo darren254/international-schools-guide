@@ -232,13 +232,10 @@ export default function HomePage() {
       {/* ─── Trust strip ─── */}
       <section className="border-y border-warm-border py-8 mb-16">
         <div className="container-site">
-          <div className="flex flex-wrap justify-center gap-x-10 gap-y-3 text-center text-sm text-charcoal-muted">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-y-4 gap-x-6 text-center text-sm text-charcoal-muted">
             <span>600+ schools profiled</span>
-            <span className="text-cream-400">·</span>
             <span>20+ cities</span>
-            <span className="text-cream-400">·</span>
             <span>Independent reviews</span>
-            <span className="text-cream-400">·</span>
             <span>Updated weekly</span>
           </div>
         </div>

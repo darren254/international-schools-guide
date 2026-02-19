@@ -136,11 +136,26 @@ const JAKARTA_SCHOOLS = [
     editorialSummary:
       "Part of the Bina Nusantara group — strong in STEM and technology. Cambridge curriculum, modern campus, and competitive fees. Predominantly Indonesian student body with growing international intake.",
   },
+  {
+    name: "The Independent School of Jakarta",
+    slug: "independent-school-of-jakarta",
+    verified: true,
+    curricula: ["British Curriculum", "IGCSEs", "A-Levels"],
+    area: "South Jakarta (Pondok Pinang)",
+    ageRange: "2–13",
+    studentCount: "200",
+    feeRange: "US$9.2K – US$30K",
+    examResults: [
+      { label: "Class Size", value: "Max 16" },
+    ],
+    editorialSummary:
+      "A small British prep school in Pondok Pinang, part of The Schools Trust. Staff recruited from well-regarded UK schools, class sizes capped at 16. Currently ages 2–13 only, so families need a senior school plan. Strong fit for those who want the British independent school feel.",
+  },
 ];
 
 const CURRICULA_OPTIONS = [
   { label: "IB (any)", value: "ib", count: 6 },
-  { label: "British / Cambridge", value: "british", count: 2 },
+  { label: "British / Cambridge", value: "british", count: 3 },
   { label: "Australian", value: "australian", count: 1 },
   { label: "American / AP", value: "american", count: 1 },
 ];
