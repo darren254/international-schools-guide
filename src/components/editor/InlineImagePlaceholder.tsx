@@ -161,6 +161,13 @@ export function InlineImagePlaceholder({
             Replace
           </button>
         </div>
+        {(caption || photoCredit) && (
+          <p className="image-caption mt-2 text-left">
+            {caption}
+            {caption && photoCredit && ". "}
+            {photoCredit}
+          </p>
+        )}
         <div className="mt-2 space-y-2">
           <input
             type="text"
@@ -171,7 +178,7 @@ export function InlineImagePlaceholder({
               updateAttributes({ caption: newCaption });
             }}
             placeholder="Caption (optional)"
-            className="w-full text-xs text-charcoal-muted border border-warm-border rounded-sm px-2 py-1"
+            className="w-full text-xs text-charcoal-muted border border-warm-border rounded-sm px-2 py-1 font-sans"
           />
           <input
             type="text"
@@ -182,7 +189,7 @@ export function InlineImagePlaceholder({
               updateAttributes({ photoCredit: newCredit });
             }}
             placeholder="Photo credit (e.g., Photographer Name / Source)"
-            className="w-full text-xs text-charcoal-muted border border-warm-border rounded-sm px-2 py-1"
+            className="w-full text-xs text-charcoal-muted border border-warm-border rounded-sm px-2 py-1 font-sans"
           />
         </div>
       </NodeViewWrapper>

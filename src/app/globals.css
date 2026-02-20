@@ -56,4 +56,103 @@
     padding-bottom: 0;
     border-bottom: none;
   }
+
+  /* NYT-style article formatting */
+  .article-content {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #1A1A1A;
+  }
+
+  .article-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+  }
+
+  .article-content h2 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #1A1A1A;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .article-content h3 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #1A1A1A;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .article-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    display: block;
+  }
+
+  .article-content .image-caption {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 13px;
+    color: #7A756E;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+
+  .article-content .pull-quote-block {
+    margin: 3rem auto;
+    max-width: 80%;
+  }
+
+  .article-content .pull-quote-rule {
+    width: 60px;
+    height: 1px;
+    background: #E8E2D9;
+    margin-bottom: 1.5rem;
+  }
+
+  .article-content .pull-quote-text {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-style: normal;
+  }
+
+  .article-content .pull-quote-attribution {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 13px;
+    color: #7A756E;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .article-content a {
+    color: #E8722A;
+    text-decoration: underline;
+  }
+
+  .article-content a:hover {
+    color: #D4641F;
+  }
+
+  .article-content strong {
+    font-weight: 600;
+    color: #1A1A1A;
+  }
 }

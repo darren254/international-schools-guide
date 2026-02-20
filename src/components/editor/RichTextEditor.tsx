@@ -43,7 +43,7 @@ export function RichTextEditor({
     editorProps: {
       attributes: {
         class:
-          "prose-hermes space-y-8 text-charcoal leading-relaxed focus:outline-none min-h-[600px]",
+          "focus:outline-none min-h-[600px]",
       },
     },
     onUpdate: ({ editor }) => {
@@ -196,10 +196,10 @@ export function RichTextEditor({
       {editor && <FloatingToolbar editor={editor} />}
       <style dangerouslySetInnerHTML={{ __html: `
         .ProseMirror {
-          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-          color: #4A4540;
-          line-height: 1.75;
-          font-size: 1rem;
+          font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+          color: #1A1A1A;
+          line-height: 1.8;
+          font-size: 18px;
           max-width: 100%;
           padding: 0;
         }
@@ -216,27 +216,30 @@ export function RichTextEditor({
           margin-bottom: 1.5rem;
         }
         .ProseMirror h2 {
-          font-family: 'Cormorant Garamond', Georgia, serif;
-          font-size: 1.875rem;
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          font-size: 1.25rem;
+          font-weight: 600;
+          line-height: 1.3;
+          color: #1A1A1A;
+          margin-top: 3rem;
+          margin-bottom: 1.5rem;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+        }
+        .ProseMirror h3 {
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          font-size: 1rem;
           font-weight: 600;
           line-height: 1.3;
           color: #1A1A1A;
           margin-top: 2rem;
-          margin-bottom: 1.5rem;
-        }
-        .ProseMirror h3 {
-          font-family: 'Cormorant Garamond', Georgia, serif;
-          font-size: 1.5rem;
-          font-weight: 600;
-          line-height: 1.3;
-          color: #1A1A1A;
-          margin-top: 1.5rem;
           margin-bottom: 1rem;
         }
         .ProseMirror p {
-          margin-bottom: 1.25rem;
-          color: #4A4540;
-          line-height: 1.75;
+          margin-bottom: 1.5rem;
+          color: #1A1A1A;
+          line-height: 1.8;
+          font-size: 18px;
         }
         .ProseMirror p.research-placeholder {
           background: #FEE2E2 !important;
@@ -264,8 +267,48 @@ export function RichTextEditor({
         .ProseMirror img {
           max-width: 100%;
           height: auto;
-          margin: 1.5rem 0;
-          border-radius: 4px;
+          margin: 2rem 0;
+          display: block;
+        }
+        .ProseMirror .image-caption {
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          font-size: 13px;
+          color: #7A756E;
+          line-height: 1.5;
+          margin-top: 0.5rem;
+          margin-bottom: 2rem;
+          text-align: left;
+        }
+        .ProseMirror .pull-quote-block {
+          margin: 3rem 0;
+          max-width: 80%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .ProseMirror .pull-quote-rule {
+          width: 60px;
+          height: 1px;
+          background: #E8E2D9;
+          margin-bottom: 1.5rem;
+        }
+        .ProseMirror .pull-quote-text {
+          font-family: 'Cormorant Garamond', Georgia, serif;
+          font-size: 26px;
+          font-weight: 300;
+          line-height: 1.5;
+          color: #1A1A1A;
+          margin: 0;
+          padding: 0;
+          border: none;
+          font-style: normal;
+        }
+        .ProseMirror .pull-quote-attribution {
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          font-size: 13px;
+          color: #7A756E;
+          margin-top: 1rem;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
         }
         .ProseMirror .image-placeholder-block {
           display: flex !important;

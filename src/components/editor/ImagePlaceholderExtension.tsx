@@ -89,10 +89,11 @@ export const ImagePlaceholderExtension = Node.create({
       ];
       
       if (HTMLAttributes.caption || HTMLAttributes.photoCredit) {
+        const captionText = `${HTMLAttributes.caption || ""}${HTMLAttributes.caption && HTMLAttributes.photoCredit ? ". " : ""}${HTMLAttributes.photoCredit || ""}`;
         children.push([
           "p",
           { class: "image-caption" },
-          `${HTMLAttributes.caption || ""}${HTMLAttributes.caption && HTMLAttributes.photoCredit ? ". " : ""}${HTMLAttributes.photoCredit || ""}`,
+          captionText,
         ]);
       }
       

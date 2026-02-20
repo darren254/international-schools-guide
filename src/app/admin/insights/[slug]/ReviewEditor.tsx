@@ -198,13 +198,15 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
           )}
         </div>
 
-        {/* Rich Text Editor - Full Width, Matches Live Site */}
-        <div className="w-full">
-          <RichTextEditor
-            content={draft.content}
-            onChange={(html) => setDraft({ ...draft, content: html })}
-            onPlaceholderCountChange={setPlaceholderCount}
-          />
+        {/* Rich Text Editor - NYT Style: Narrow Centered Column */}
+        <div className="w-full flex justify-center">
+          <div className="w-full max-w-[680px]">
+            <RichTextEditor
+              content={draft.content}
+              onChange={(html) => setDraft({ ...draft, content: html })}
+              onPlaceholderCountChange={setPlaceholderCount}
+            />
+          </div>
         </div>
       </div>
     </div>

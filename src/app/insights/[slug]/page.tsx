@@ -113,19 +113,20 @@ function JakartaGuide() {
       </div>
 
       {/* ─── Article ─── */}
-      <article className="container-site pt-6 pb-16">
-        <div className="max-w-4xl">
-          {/* Headline */}
-          <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] text-charcoal leading-tight mb-8">
-            Best International Schools in Jakarta (2025) - The Expat Family Guide
-          </h1>
+      <article className="w-full">
+        {/* NYT Style: Narrow Centered Column */}
+        <div className="w-full flex justify-center">
+          <div className="w-full max-w-[680px] px-5 md:px-8 pt-6 pb-16">
+            {/* Headline */}
+            <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] text-charcoal leading-tight mb-8">
+              Best International Schools in Jakarta (2025) - The Expat Family Guide
+            </h1>
 
-          {/* Article body */}
-          <div className="prose-hermes space-y-8 text-charcoal leading-relaxed">
-            
-            {/* Jakarta for Expat Families */}
+            {/* Article body */}
+            <div className="article-content">
+              {/* Jakarta for Expat Families */}
             <section>
-              <h2 className="font-display text-2xl md:text-3xl text-charcoal mb-4 mt-12 first:mt-0">
+              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 first:mt-0 uppercase tracking-wider">
                 Jakarta for Expat Families
               </h2>
               <p>
@@ -141,7 +142,7 @@ function JakartaGuide() {
 
             {/* Where Expat Families Live */}
             <section>
-              <h2 className="font-display text-2xl md:text-3xl text-charcoal mb-4 mt-12">
+              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
                 Where Expat Families Live in Jakarta
               </h2>
               <p>
@@ -163,7 +164,7 @@ function JakartaGuide() {
 
             {/* The Best International Schools */}
             <section>
-              <h2 className="font-display text-2xl md:text-3xl text-charcoal mb-4 mt-12">
+              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
                 The Best International Schools in Jakarta
               </h2>
               <p className="mb-6">
@@ -283,7 +284,7 @@ function JakartaGuide() {
 
             {/* Fees */}
             <section>
-              <h2 className="font-display text-2xl md:text-3xl text-charcoal mb-4 mt-12">
+              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
                 International School Fees in Jakarta
               </h2>
               <p>
@@ -299,7 +300,7 @@ function JakartaGuide() {
 
             {/* Waiting Lists */}
             <section>
-              <h2 className="font-display text-2xl md:text-3xl text-charcoal mb-4 mt-12">
+              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
                 Waiting Lists and Admissions Reality
               </h2>
               <p>
@@ -315,7 +316,7 @@ function JakartaGuide() {
 
             {/* Life Outside School */}
             <section>
-              <h2 className="font-display text-2xl md:text-3xl text-charcoal mb-4 mt-12">
+              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
                 Life Outside School: Hospitals, Activities and Where Families Go
               </h2>
               <p>
@@ -334,7 +335,7 @@ function JakartaGuide() {
 
             {/* Cost of Living */}
             <section>
-              <h2 className="font-display text-2xl md:text-3xl text-charcoal mb-4 mt-12">
+              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
                 Cost of Living in Jakarta for Expat Families
               </h2>
               <p>
@@ -344,7 +345,7 @@ function JakartaGuide() {
 
             {/* FAQ */}
             <section>
-              <h2 className="font-display text-2xl md:text-3xl text-charcoal mb-4 mt-12">
+              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
                 Frequently Asked Questions
               </h2>
               
@@ -390,6 +391,7 @@ function JakartaGuide() {
                 Traffic congestion is severe. A 10-kilometre drive can take 90 minutes during rush hour. Most expat families choose a school first, then find housing within 15 minutes to avoid long commutes. School bus services exist but add cost and time. Factor traffic into your school choice.
               </p>
             </section>
+            </div>
           </div>
         </div>
       </article>
@@ -408,30 +410,40 @@ function PublishedArticleView({ article }: { article: PublishedArticle }) {
           <span>←</span> Back to Insights
         </Link>
       </div>
-      <article className="container-site pt-6 pb-16">
-        <div className="max-w-4xl">
-          <span className="text-xs font-semibold uppercase tracking-widest text-amber-700 mb-3 block">
-            {article.category}
-          </span>
-          <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] text-charcoal leading-tight mb-4">
-            {article.title}
-          </h1>
-          <p className="text-lg text-charcoal-muted leading-relaxed mb-6 max-w-2xl">
-            {article.summary}
-          </p>
-          <div className="flex items-center gap-3 text-sm text-charcoal-muted border-b border-warm-border pb-6 mb-8">
-            {article.author && (
-              <>
-                <span className="font-medium text-charcoal">{article.author}</span>
-                <span>·</span>
-              </>
-            )}
-            <time>{article.date}</time>
-            <span>·</span>
-            <span>{article.readTime}</span>
-          </div>
-          <div className="prose-hermes space-y-8 text-charcoal leading-relaxed">
-            <div dangerouslySetInnerHTML={{ __html: article.content }} />
+      <article className="w-full">
+        {/* NYT Style: Narrow Centered Column */}
+        <div className="w-full flex justify-center">
+          <div className="w-full max-w-[680px] px-5 md:px-8">
+            <span className="text-xs font-semibold uppercase tracking-widest text-amber-700 mb-3 block font-sans">
+              {article.category}
+            </span>
+            <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] text-charcoal leading-tight mb-4">
+              {article.title}
+            </h1>
+            <p className="text-lg text-charcoal-muted leading-relaxed mb-6" style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}>
+              {article.summary}
+            </p>
+            <div className="flex items-center gap-3 text-sm text-charcoal-muted border-b border-warm-border pb-6 mb-8 font-sans">
+              {article.author && (
+                <>
+                  <span className="font-medium text-charcoal">{article.author}</span>
+                  <span>·</span>
+                </>
+              )}
+              <time>{article.date}</time>
+              <span>·</span>
+              <span>{article.readTime}</span>
+            </div>
+            <div 
+              className="article-content"
+              dangerouslySetInnerHTML={{ __html: article.content }}
+              style={{
+                fontFamily: "'Cormorant Garamond', Georgia, serif",
+                fontSize: '18px',
+                lineHeight: '1.8',
+                color: '#1A1A1A',
+              }}
+            />
           </div>
         </div>
       </article>
