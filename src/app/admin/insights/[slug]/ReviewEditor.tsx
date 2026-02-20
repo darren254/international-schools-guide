@@ -8,6 +8,158 @@ interface ReviewEditorProps {
   draft: InsightDraft;
 }
 
+interface ImageEditorProps {
+  image: string;
+  index: number;
+  onUpdate: (index: number, newUrl: string) => void;
+  onDelete: (index: number) => void;
+}
+
+function ImageEditor({ image, index, onUpdate, onDelete }: ImageEditorProps) {
+  const [editing, setEditing] = useState(false);
+  const [imageUrl, setImageUrl] = useState(image);
+
+  if (image.startsWith("[IMAGE NEEDED:")) {
+    return (
+      <div className="bg-cream-50 border border-warm-border rounded-sm overflow-hidden">
+        <div className="p-6">
+          {editing ? (
+            <div>
+              <textarea
+                value={imageUrl}
+                onChange={(e) => setImageUrl(e.target.value)}
+                className="w-full text-sm bg-white border-2 border-hermes rounded-sm p-3 mb-2 resize-y min-h-[80px]"
+                placeholder="Enter image URL or placeholder text"
+                rows={3}
+                autoFocus
+              />
+              <div className="flex gap-2">
+                <button
+                  onClick={() => {
+                    onUpdate(index, imageUrl);
+                    setEditing(false);
+                  }}
+                  className="px-4 py-2 bg-hermes text-white text-sm rounded-sm hover:bg-hermes-hover"
+                >
+                  Save
+                </button>
+                <button
+                  onClick={() => {
+                    setImageUrl(image);
+                    setEditing(false);
+                  }}
+                  className="px-4 py-2 border border-warm-border text-charcoal text-sm rounded-sm hover:bg-cream-100"
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={() => onDelete(index)}
+                  className="px-4 py-2 text-red-600 text-sm hover:bg-red-50 rounded-sm ml-auto"
+                >
+                  Delete
+                </button>
+              </div>
+            </div>
+          ) : (
+            <div>
+              <div className="font-semibold mb-2 text-charcoal-muted">Placeholder {index + 1}</div>
+              <div className="text-sm text-charcoal-muted mb-3">{image}</div>
+              <div className="flex gap-2">
+                <button
+                  onClick={() => setEditing(true)}
+                  className="px-4 py-2 border border-warm-border text-charcoal text-sm rounded-sm hover:bg-cream-100"
+                >
+                  Edit
+                </button>
+                <button
+                  onClick={() => onDelete(index)}
+                  className="px-4 py-2 text-red-600 text-sm hover:bg-red-50 rounded-sm"
+                >
+                  Delete
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="bg-cream-50 border border-warm-border rounded-sm overflow-hidden">
+      <div className="relative">
+        <img
+          src={image}
+          alt={`Image ${index + 1}`}
+          className="w-full h-48 object-cover"
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.style.display = 'none';
+            const errorDiv = target.nextElementSibling as HTMLElement;
+            if (errorDiv) errorDiv.classList.remove('hidden');
+          }}
+        />
+        <div className="hidden absolute inset-0 bg-cream-200 flex items-center justify-center text-charcoal-muted text-sm">
+          Image failed to load
+        </div>
+      </div>
+      {editing ? (
+        <div className="p-4 border-t border-warm-border">
+          <input
+            type="text"
+            value={imageUrl}
+            onChange={(e) => setImageUrl(e.target.value)}
+            className="w-full text-sm bg-white border-2 border-hermes rounded-sm p-2 mb-2"
+            placeholder="Enter image URL"
+            autoFocus
+          />
+          <div className="flex gap-2">
+            <button
+              onClick={() => {
+                onUpdate(index, imageUrl);
+                setEditing(false);
+              }}
+              className="px-4 py-2 bg-hermes text-white text-sm rounded-sm hover:bg-hermes-hover"
+            >
+              Save
+            </button>
+            <button
+              onClick={() => {
+                setImageUrl(image);
+                setEditing(false);
+              }}
+              className="px-4 py-2 border border-warm-border text-charcoal text-sm rounded-sm hover:bg-cream-100"
+            >
+              Cancel
+            </button>
+            <button
+              onClick={() => onDelete(index)}
+              className="px-4 py-2 text-red-600 text-sm hover:bg-red-50 rounded-sm ml-auto"
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+      ) : (
+        <div className="p-4 border-t border-warm-border flex gap-2">
+          <button
+            onClick={() => setEditing(true)}
+            className="px-4 py-2 border border-warm-border text-charcoal text-sm rounded-sm hover:bg-cream-100"
+          >
+            Replace
+          </button>
+          <button
+            onClick={() => onDelete(index)}
+            className="px-4 py-2 text-red-600 text-sm hover:bg-red-50 rounded-sm"
+          >
+            Delete
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
 export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
   const [draft, setDraft] = useState(initialDraft);
   const [editingTitle, setEditingTitle] = useState(false);
@@ -190,38 +342,195 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
       </div>
 
       {/* Images */}
-      {draft.images && draft.images.length > 0 && (
-        <div className="mb-8">
-          <h3 className="font-display text-lg mb-4">Images</h3>
+      <div className="mb-8">
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="font-display text-lg">Images</h3>
+          <button
+            onClick={() => {
+              const newImages = [...(draft.images || []), "[IMAGE NEEDED: New image]"];
+              setDraft({ ...draft, images: newImages });
+            }}
+            className="text-sm text-hermes hover:text-hermes-hover font-medium"
+          >
+            + Add Image
+          </button>
+        </div>
+        {draft.images && draft.images.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {draft.images.map((img, i) => {
-              if (img.startsWith("[IMAGE NEEDED:")) {
-                return (
-                  <div
-                    key={i}
-                    className="bg-cream-200 border border-warm-border rounded-sm p-6 text-sm text-charcoal-muted"
-                  >
-                    <div className="font-semibold mb-2">Placeholder {i + 1}</div>
-                    <div>{img}</div>
-                  </div>
-                );
-              }
+              const [editing, setEditing] = useState(false);
+              const [imageUrl, setImageUrl] = useState(img);
+              
               return (
                 <div
                   key={i}
-                  className="bg-cream-200 rounded-sm overflow-hidden border border-warm-border"
+                  className="bg-cream-50 border border-warm-border rounded-sm overflow-hidden"
                 >
-                  <img
-                    src={img}
-                    alt={`Image ${i + 1}`}
-                    className="w-full h-48 object-cover"
-                  />
+                  {img.startsWith("[IMAGE NEEDED:") ? (
+                    <div className="p-6">
+                      {editing ? (
+                        <div>
+                          <textarea
+                            value={imageUrl}
+                            onChange={(e) => setImageUrl(e.target.value)}
+                            className="w-full text-sm bg-white border-2 border-hermes rounded-sm p-3 mb-2 resize-y min-h-[80px]"
+                            placeholder="Enter image URL or placeholder text"
+                            rows={3}
+                            autoFocus
+                          />
+                          <div className="flex gap-2">
+                            <button
+                              onClick={() => {
+                                const newImages = [...draft.images!];
+                                newImages[i] = imageUrl;
+                                setDraft({ ...draft, images: newImages });
+                                setEditing(false);
+                              }}
+                              className="px-4 py-2 bg-hermes text-white text-sm rounded-sm hover:bg-hermes-hover"
+                            >
+                              Save
+                            </button>
+                            <button
+                              onClick={() => {
+                                setImageUrl(img);
+                                setEditing(false);
+                              }}
+                              className="px-4 py-2 border border-warm-border text-charcoal text-sm rounded-sm hover:bg-cream-100"
+                            >
+                              Cancel
+                            </button>
+                            <button
+                              onClick={() => {
+                                const newImages = draft.images!.filter((_, idx) => idx !== i);
+                                setDraft({ ...draft, images: newImages.length > 0 ? newImages : undefined });
+                              }}
+                              className="px-4 py-2 text-red-600 text-sm hover:bg-red-50 rounded-sm ml-auto"
+                            >
+                              Delete
+                            </button>
+                          </div>
+                        </div>
+                      ) : (
+                        <div>
+                          <div className="font-semibold mb-2 text-charcoal-muted">Placeholder {i + 1}</div>
+                          <div className="text-sm text-charcoal-muted mb-3">{img}</div>
+                          <div className="flex gap-2">
+                            <button
+                              onClick={() => setEditing(true)}
+                              className="px-4 py-2 border border-warm-border text-charcoal text-sm rounded-sm hover:bg-cream-100"
+                            >
+                              Edit
+                            </button>
+                            <button
+                              onClick={() => {
+                                const newImages = draft.images!.filter((_, idx) => idx !== i);
+                                setDraft({ ...draft, images: newImages.length > 0 ? newImages : undefined });
+                              }}
+                              className="px-4 py-2 text-red-600 text-sm hover:bg-red-50 rounded-sm"
+                            >
+                              Delete
+                            </button>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <div>
+                      <div className="relative">
+                        <img
+                          src={img}
+                          alt={`Image ${i + 1}`}
+                          className="w-full h-48 object-cover"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).style.display = 'none';
+                            (e.target as HTMLImageElement).nextElementSibling?.classList.remove('hidden');
+                          }}
+                        />
+                        <div className="hidden absolute inset-0 bg-cream-200 flex items-center justify-center text-charcoal-muted text-sm">
+                          Image failed to load
+                        </div>
+                      </div>
+                      {editing ? (
+                        <div className="p-4 border-t border-warm-border">
+                          <input
+                            type="text"
+                            value={imageUrl}
+                            onChange={(e) => setImageUrl(e.target.value)}
+                            className="w-full text-sm bg-white border-2 border-hermes rounded-sm p-2 mb-2"
+                            placeholder="Enter image URL"
+                            autoFocus
+                          />
+                          <div className="flex gap-2">
+                            <button
+                              onClick={() => {
+                                const newImages = [...draft.images!];
+                                newImages[i] = imageUrl;
+                                setDraft({ ...draft, images: newImages });
+                                setEditing(false);
+                              }}
+                              className="px-4 py-2 bg-hermes text-white text-sm rounded-sm hover:bg-hermes-hover"
+                            >
+                              Save
+                            </button>
+                            <button
+                              onClick={() => {
+                                setImageUrl(img);
+                                setEditing(false);
+                              }}
+                              className="px-4 py-2 border border-warm-border text-charcoal text-sm rounded-sm hover:bg-cream-100"
+                            >
+                              Cancel
+                            </button>
+                            <button
+                              onClick={() => {
+                                const newImages = draft.images!.filter((_, idx) => idx !== i);
+                                setDraft({ ...draft, images: newImages.length > 0 ? newImages : undefined });
+                              }}
+                              className="px-4 py-2 text-red-600 text-sm hover:bg-red-50 rounded-sm ml-auto"
+                            >
+                              Delete
+                            </button>
+                          </div>
+                        </div>
+                      ) : (
+                        <div className="p-4 border-t border-warm-border flex gap-2">
+                          <button
+                            onClick={() => setEditing(true)}
+                            className="px-4 py-2 border border-warm-border text-charcoal text-sm rounded-sm hover:bg-cream-100"
+                          >
+                            Replace
+                          </button>
+                          <button
+                            onClick={() => {
+                              const newImages = draft.images!.filter((_, idx) => idx !== i);
+                              setDraft({ ...draft, images: newImages.length > 0 ? newImages : undefined });
+                            }}
+                            className="px-4 py-2 text-red-600 text-sm hover:bg-red-50 rounded-sm"
+                          >
+                            Delete
+                          </button>
+                        </div>
+                      )}
+                    </div>
+                  )}
                 </div>
               );
             })}
           </div>
-        </div>
-      )}
+        ) : (
+          <div className="bg-cream-50 border border-warm-border rounded-sm p-8 text-center text-charcoal-muted">
+            <p className="mb-4">No images added yet</p>
+            <button
+              onClick={() => {
+                setDraft({ ...draft, images: ["[IMAGE NEEDED: New image]"] });
+              }}
+              className="px-6 py-2 bg-hermes text-white rounded-sm hover:bg-hermes-hover"
+            >
+              Add First Image
+            </button>
+          </div>
+        )}
+      </div>
 
       {/* Publish Button (sticky at bottom) */}
       <div className="sticky bottom-0 bg-cream border-t border-warm-border p-6 -mx-6 mt-8 shadow-lg">
