@@ -1,123 +1,50 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
+import { getDraft, getAllDrafts } from "@/lib/insights/draft";
+import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getDraft, updateDraftStatus, type InsightDraft } from "@/lib/insights/draft";
 
-export default function ReviewPage() {
-  const params = useParams();
-  const slug = params.slug as string;
-  const [draft, setDraft] = useState<InsightDraft | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [editing, setEditing] = useState(false);
-  const [editedContent, setEditedContent] = useState("");
-  const [publishing, setPublishing] = useState(false);
+// Generate static params for all drafts
+export async function generateStaticParams() {
+  const drafts = await getAllDrafts();
+  return drafts.map((draft) => ({
+    slug: draft.slug,
+  }));
+}
 
-  useEffect(() => {
-    // Note: This won't work with static export - needs API route or database
-    // For now, this is a template for when we switch to server rendering
-    loadDraft();
-  }, [slug]);
-
-  async function loadDraft() {
-    try {
-      // This would call an API route in a server-rendered setup
-      // For static export, drafts would be loaded differently
-      const response = await fetch(`/api/admin/drafts/${slug}`);
-      if (response.ok) {
-        const data = await response.json();
-        setDraft(data);
-        setEditedContent(data.content);
-      } else {
-        console.error("Failed to load draft");
-      }
-    } catch (error) {
-      console.error("Error loading draft:", error);
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  async function handleApprove() {
-    if (!draft) return;
-    
-    setPublishing(true);
-    try {
-      const response = await fetch(`/api/admin/drafts/${slug}/approve`, {
-        method: "POST",
-      });
-      
-      if (response.ok) {
-        alert("Article approved and published!");
-        window.location.href = "/admin/insights";
-      } else {
-        alert("Failed to publish article");
-      }
-    } catch (error) {
-      console.error("Error approving:", error);
-      alert("Error publishing article");
-    } finally {
-      setPublishing(false);
-    }
-  }
-
-  async function handleSaveEdit() {
-    if (!draft) return;
-    
-    try {
-      const response = await fetch(`/api/admin/drafts/${slug}`, {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ content: editedContent }),
-      });
-      
-      if (response.ok) {
-        setEditing(false);
-        await loadDraft();
-        alert("Changes saved");
-      } else {
-        alert("Failed to save changes");
-      }
-    } catch (error) {
-      console.error("Error saving:", error);
-      alert("Error saving changes");
-    }
-  }
-
-  if (loading) {
-    return (
-      <div className="container-site pt-6 pb-16">
-        <p>Loading...</p>
-      </div>
-    );
-  }
+export default async function ReviewPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const draft = await getDraft(slug);
 
   if (!draft) {
-    return (
-      <div className="container-site pt-6 pb-16">
-        <h1>Draft not found</h1>
-        <Link href="/admin/insights">Back to drafts</Link>
-      </div>
-    );
+    notFound();
   }
 
   return (
     <div className="container-site pt-6 pb-16">
       {/* Header */}
       <div className="mb-8">
-        <Link href="/admin/insights" className="text-sm text-charcoal-muted hover:text-hermes mb-4 inline-block">
+        <Link
+          href="/admin/insights"
+          className="text-sm text-charcoal-muted hover:text-hermes mb-4 inline-block"
+        >
           ← Back to drafts
         </Link>
         <h1 className="font-display text-3xl md:text-4xl text-charcoal mb-2">
           Review Article
         </h1>
         <div className="flex items-center gap-4 text-sm text-charcoal-muted">
-          <span>Status: <strong className="text-charcoal">{draft.status}</strong></span>
+          <span>
+            Status: <strong className="text-charcoal">{draft.status}</strong>
+          </span>
           <span>•</span>
           <span>Category: {draft.category}</span>
           <span>•</span>
-          <span>Created: {new Date(draft.createdAt).toLocaleDateString()}</span>
+          <span>
+            Created: {new Date(draft.createdAt).toLocaleDateString()}
+          </span>
         </div>
       </div>
 
@@ -125,9 +52,20 @@ export default function ReviewPage() {
       <div className="bg-cream-50 border border-warm-border rounded-sm p-6 mb-8">
         <h2 className="font-display text-xl mb-4">Article Details</h2>
         <div className="space-y-2 text-sm">
-          <div><strong>Title:</strong> {draft.title}</div>
-          <div><strong>Slug:</strong> {draft.slug}</div>
-          <div><strong>Summary:</strong> {draft.summary}</div>
+          <div>
+            <strong>Title:</strong> {draft.title}
+          </div>
+          <div>
+            <strong>Slug:</strong> {draft.slug}
+          </div>
+          <div>
+            <strong>Summary:</strong> {draft.summary}
+          </div>
+          {draft.author && (
+            <div>
+              <strong>Author:</strong> {draft.author}
+            </div>
+          )}
         </div>
       </div>
 
@@ -135,79 +73,104 @@ export default function ReviewPage() {
       {draft.images && draft.images.length > 0 && (
         <div className="mb-8">
           <h2 className="font-display text-xl mb-4">Images</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {draft.images.map((img, i) => (
-              <div key={i} className="bg-cream-200 rounded-sm overflow-hidden">
-                <img src={img} alt={`Image ${i + 1}`} className="w-full h-48 object-cover" />
-              </div>
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {draft.images.map((img, i) => {
+              // Handle placeholder images
+              if (img.startsWith("[IMAGE NEEDED:")) {
+                return (
+                  <div
+                    key={i}
+                    className="bg-cream-200 border border-warm-border rounded-sm p-6 text-sm text-charcoal-muted"
+                  >
+                    <div className="font-semibold mb-2">Placeholder {i + 1}</div>
+                    <div>{img}</div>
+                  </div>
+                );
+              }
+              return (
+                <div
+                  key={i}
+                  className="bg-cream-200 rounded-sm overflow-hidden border border-warm-border"
+                >
+                  <img
+                    src={img}
+                    alt={`Image ${i + 1}`}
+                    className="w-full h-48 object-cover"
+                  />
+                </div>
+              );
+            })}
           </div>
         </div>
       )}
 
-      {/* Content Editor/Viewer */}
+      {/* Content Viewer */}
       <div className="mb-8">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="font-display text-xl">Content</h2>
-          {!editing && (
-            <button
-              onClick={() => setEditing(true)}
-              className="px-4 py-2 border border-charcoal text-charcoal text-sm rounded-sm hover:bg-charcoal hover:text-cream transition-colors"
-            >
-              Edit Content
-            </button>
-          )}
+        <h2 className="font-display text-xl mb-4">Content</h2>
+        <div className="prose-hermes bg-white border border-warm-border rounded-sm p-8">
+          <div dangerouslySetInnerHTML={{ __html: draft.content }} />
         </div>
-        
-        {editing ? (
-          <div>
-            <textarea
-              value={editedContent}
-              onChange={(e) => setEditedContent(e.target.value)}
-              className="w-full h-96 p-4 border border-warm-border rounded-sm font-mono text-sm"
-            />
-            <div className="mt-4 flex gap-3">
-              <button
-                onClick={handleSaveEdit}
-                className="px-6 py-2 bg-hermes text-white rounded-sm hover:bg-hermes-hover transition-colors"
-              >
-                Save Changes
-              </button>
-              <button
-                onClick={() => {
-                  setEditing(false);
-                  setEditedContent(draft.content);
-                }}
-                className="px-6 py-2 border border-warm-border text-charcoal rounded-sm hover:bg-cream-100 transition-colors"
-              >
-                Cancel
-              </button>
-            </div>
-          </div>
-        ) : (
-          <div className="prose-hermes bg-white border border-warm-border rounded-sm p-8">
-            <div dangerouslySetInnerHTML={{ __html: draft.content }} />
-          </div>
-        )}
       </div>
 
-      {/* Actions */}
+      {/* Approval Instructions */}
       <div className="border-t border-warm-border pt-8">
-        <div className="flex gap-4">
-          <button
-            onClick={handleApprove}
-            disabled={publishing}
-            className="px-8 py-3 bg-hermes text-white font-semibold rounded-sm hover:bg-hermes-hover transition-colors disabled:opacity-50"
-          >
-            {publishing ? "Publishing..." : "Approve & Publish"}
-          </button>
-          <button className="px-8 py-3 border border-warm-border text-charcoal rounded-sm hover:bg-cream-100 transition-colors">
-            Request Changes
-          </button>
+        <div className="bg-hermes/10 border border-hermes/20 rounded-sm p-6 mb-6">
+          <h2 className="font-display text-xl mb-3 text-charcoal">
+            How to Approve This Article
+          </h2>
+          <p className="text-sm text-charcoal mb-4">
+            Since this site uses static export, approval requires updating the
+            draft file and rebuilding. Follow these steps:
+          </p>
+          <ol className="list-decimal list-inside space-y-2 text-sm text-charcoal mb-4">
+            <li>
+              Open the draft file:{" "}
+              <code className="bg-white px-2 py-1 rounded text-xs">
+                src/content/insights/drafts/{slug}.json
+              </code>
+            </li>
+            <li>
+              Change the <code className="bg-white px-2 py-1 rounded text-xs">
+                "status"
+              </code>{" "}
+              field from <code className="bg-white px-2 py-1 rounded text-xs">
+                "{draft.status}"
+              </code>{" "}
+              to <code className="bg-white px-2 py-1 rounded text-xs">
+                "approved"
+              </code>
+            </li>
+            <li>
+              Commit and push the change to GitHub:
+              <pre className="bg-white mt-2 p-3 rounded text-xs overflow-x-auto">
+                git add src/content/insights/drafts/{slug}.json{`\n`}
+                git commit -m "Approve {slug}"{`\n`}
+                git push
+              </pre>
+            </li>
+            <li>
+              The next build will automatically process approved drafts and
+              publish them.
+            </li>
+          </ol>
         </div>
-        <p className="text-sm text-charcoal-muted mt-4">
-          Note: With static export, publishing requires a rebuild. This button will trigger a GitHub Action or manual deploy.
-        </p>
+
+        <div className="flex gap-4">
+          <a
+            href={`https://github.com/darren254/international-schools-guide/edit/main/src/content/insights/drafts/${slug}.json`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 bg-hermes text-white font-semibold rounded-sm hover:bg-hermes-hover transition-colors inline-block"
+          >
+            Edit Draft File on GitHub
+          </a>
+          <Link
+            href="/admin/insights"
+            className="px-8 py-3 border border-warm-border text-charcoal rounded-sm hover:bg-cream-100 transition-colors inline-block"
+          >
+            Back to All Drafts
+          </Link>
+        </div>
       </div>
     </div>
   );
