@@ -1,0 +1,55 @@
+name: Send Draft Review Notification
+
+on:
+  push:
+    paths:
+      - 'src/content/insights/drafts/*.json'
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Draft slug'
+        required: true
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Find changed drafts
+        id: find-drafts
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "slugs=${{ github.event.inputs.slug }}" >> $GITHUB_OUTPUT
+          else
+            # Find JSON files in drafts directory that were added or modified
+            git diff --name-only --diff-filter=AM ${{ github.event.before }} ${{ github.sha }} | \
+              grep "^src/content/insights/drafts/.*\.json$" | \
+              sed 's|src/content/insights/drafts/||' | \
+              sed 's|\.json||' > /tmp/drafts.txt
+            if [ -s /tmp/drafts.txt ]; then
+              echo "slugs=$(cat /tmp/drafts.txt | tr '\n' ' ')" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Send review emails
+        if: steps.find-drafts.outputs.slugs != ''
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NEXT_PUBLIC_BASE_URL: https://international-schools-guide.darren-1a2.workers.dev
+        run: |
+          for slug in ${{ steps.find-drafts.outputs.slugs }}; do
+            echo "Sending notification for draft: $slug"
+            node scripts/send-review-email.js "$slug" || echo "Failed to send for $slug"
+          done

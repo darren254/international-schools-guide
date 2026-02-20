@@ -31,7 +31,7 @@ async function ensureDraftsDir() {
   }
 }
 
-export async function saveDraft(draft: Omit<InsightDraft, "createdAt" | "updatedAt" | "status">): Promise<InsightDraft> {
+export async function saveDraft(draft: Omit<InsightDraft, "createdAt" | "updatedAt" | "status">, sendEmail = true): Promise<InsightDraft> {
   await ensureDraftsDir();
   
   const now = new Date().toISOString();
@@ -44,6 +44,17 @@ export async function saveDraft(draft: Omit<InsightDraft, "createdAt" | "updated
   
   const filePath = join(DRAFTS_DIR, `${draft.slug}.json`);
   await writeFile(filePath, JSON.stringify(fullDraft, null, 2), "utf-8");
+  
+  // Send email notification if requested and we're not in a build environment
+  if (sendEmail && typeof process !== "undefined" && process.env.RESEND_API_KEY) {
+    try {
+      const { sendReviewNotification } = await import("./email");
+      await sendReviewNotification(fullDraft);
+    } catch (error) {
+      // Don't fail draft creation if email fails - log and continue
+      console.warn("Failed to send review email:", error);
+    }
+  }
   
   return fullDraft;
 }

@@ -8,7 +8,7 @@ import type { InsightDraft } from "./draft";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 const REVIEW_EMAIL = "darren@schoolstrust.co.uk";
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://international-schools-guide.com";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://international-schools-guide.darren-1a2.workers.dev";
 
 export async function sendReviewNotification(draft: InsightDraft): Promise<void> {
   if (!process.env.RESEND_API_KEY) {
@@ -19,7 +19,7 @@ export async function sendReviewNotification(draft: InsightDraft): Promise<void>
   const reviewUrl = `${BASE_URL}/admin/insights/${draft.slug}`;
   
   try {
-    await resend.emails.send({
+    const result = await resend.emails.send({
       from: "International Schools Guide <noreply@international-schools-guide.com>",
       to: REVIEW_EMAIL,
       subject: `New Insights Article Ready for Review: ${draft.title}`,
@@ -54,11 +54,15 @@ export async function sendReviewNotification(draft: InsightDraft): Promise<void>
                   ${draft.author ? `<div class="meta-item"><strong>Author:</strong> ${draft.author}</div>` : ""}
                 </div>
                 
-                <p>You can review, edit, and approve the content at:</p>
-                <a href="${reviewUrl}" class="button">Review Article</a>
+                <p>To review the draft:</p>
+                <ol style="margin: 20px 0; padding-left: 20px;">
+                  <li style="margin-bottom: 10px;"><strong>Local HTML preview:</strong> Run <code style="background: #f0f0f0; padding: 2px 6px; border-radius: 3px;">node scripts/generate-preview.js ${draft.slug}</code> then open <code>draft-preview.html</code></li>
+                  <li style="margin-bottom: 10px;"><strong>JSON file:</strong> Edit <code>src/content/insights/drafts/${draft.slug}.json</code> directly</li>
+                  <li style="margin-bottom: 10px;"><strong>Cloudflare URL:</strong> <a href="${reviewUrl}">${reviewUrl}</a> (admin UI requires domain setup)</li>
+                </ol>
                 
                 <p style="margin-top: 30px; font-size: 14px; color: #666;">
-                  This link will take you to the admin review interface where you can read the full content, edit if needed, preview images, and publish when ready.
+                  <strong>To approve:</strong> Edit the JSON file and change "status" from "pending_review" to "approved", then run <code>npm run build</code>
                 </p>
               </div>
             </div>
@@ -73,9 +77,16 @@ Slug: ${draft.slug}
 Category: ${draft.category}
 ${draft.author ? `Author: ${draft.author}` : ""}
 
-Review and approve: ${reviewUrl}
+Review options:
+1. Local preview: Run "node scripts/generate-preview.js ${draft.slug}" then open draft-preview.html
+2. JSON file: src/content/insights/drafts/${draft.slug}.json
+3. Cloudflare: ${reviewUrl}
+
+To approve: Edit JSON file, change status to "approved", then run "npm run build"
       `.trim(),
     });
+    
+    return result;
   } catch (error) {
     console.error("Failed to send review email:", error);
     throw error;
