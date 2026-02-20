@@ -297,19 +297,73 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
         </div>
         
         {editingContent ? (
-          <div>
-            <textarea
-              value={draft.content}
-              onChange={(e) => setDraft({ ...draft, content: e.target.value })}
-              className="w-full h-[600px] font-mono text-sm bg-white border-2 border-hermes rounded-sm p-4 resize-y"
-              placeholder="Enter HTML content"
-            />
-            <div className="flex gap-2 mt-4">
+          <div className="space-y-4">
+            <div className="grid grid-cols-2 gap-4" style={{ height: '600px' }}>
+              {/* Left: Editable HTML */}
+              <div className="flex flex-col">
+                <label className="text-sm font-semibold text-charcoal mb-2">Edit HTML</label>
+                <textarea
+                  value={draft.content}
+                  onChange={(e) => setDraft({ ...draft, content: e.target.value })}
+                  className="flex-1 font-mono text-xs bg-white border-2 border-hermes rounded-sm p-4 resize-none"
+                  placeholder="Enter HTML content"
+                  style={{ fontFamily: 'Monaco, Menlo, "Courier New", monospace' }}
+                />
+              </div>
+              {/* Right: Live Preview */}
+              <div className="flex flex-col">
+                <label className="text-sm font-semibold text-charcoal mb-2">Live Preview</label>
+                <div className="flex-1 overflow-auto bg-cream-50 border-2 border-warm-border rounded-sm p-6">
+                  <style dangerouslySetInnerHTML={{ __html: `
+                    .preview-content section {
+                      margin-bottom: 2rem;
+                      padding-bottom: 1.5rem;
+                      border-bottom: 1px solid #E8E2D9;
+                    }
+                    .preview-content section:last-child {
+                      border-bottom: none;
+                    }
+                    .preview-content h2 {
+                      font-family: 'Cormorant Garamond', Georgia, serif;
+                      font-size: 1.5rem;
+                      font-weight: 600;
+                      margin-top: 1.5rem;
+                      margin-bottom: 1rem;
+                      color: #1A1A1A;
+                      line-height: 1.3;
+                    }
+                    .preview-content h3 {
+                      font-family: 'Cormorant Garamond', Georgia, serif;
+                      font-size: 1.25rem;
+                      font-weight: 600;
+                      margin-top: 1.25rem;
+                      margin-bottom: 0.75rem;
+                      color: #1A1A1A;
+                    }
+                    .preview-content p {
+                      margin-bottom: 1rem;
+                      color: #4A4540;
+                      line-height: 1.75;
+                      font-size: 0.9375rem;
+                    }
+                    .preview-content strong {
+                      font-weight: 600;
+                      color: #1A1A1A;
+                    }
+                  `}} />
+                  <div
+                    className="preview-content"
+                    dangerouslySetInnerHTML={{ __html: draft.content }}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="flex gap-2">
               <button
                 onClick={() => setEditingContent(false)}
                 className="px-6 py-2 bg-hermes text-white rounded-sm hover:bg-hermes-hover"
               >
-                Save & Preview
+                Save & Close Editor
               </button>
               <button
                 onClick={() => {
@@ -318,7 +372,7 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
                 }}
                 className="px-6 py-2 border border-warm-border text-charcoal rounded-sm hover:bg-cream-100"
               >
-                Cancel
+                Cancel & Discard Changes
               </button>
             </div>
           </div>
