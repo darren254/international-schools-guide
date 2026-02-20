@@ -3,6 +3,10 @@ import Link from "next/link";
 import { SchoolCard } from "@/components/school/SchoolCard";
 import { FilterSidebar } from "@/components/school/FilterSidebar";
 import { SortBar } from "@/components/school/SortBar";
+import { ALL_SCHOOL_SLUGS } from "@/data/schools";
+
+// Schools with full profile pages
+const PROFILE_SLUGS = new Set(ALL_SCHOOL_SLUGS);
 
 // Static params for export — add cities as we build them
 export function generateStaticParams() {
@@ -240,6 +244,7 @@ export default function CityPage({
               <SchoolCard
                 key={school.slug}
                 citySlug={params.city}
+                hasProfile={PROFILE_SLUGS.has(school.slug)}
                 {...school}
               />
             ))}

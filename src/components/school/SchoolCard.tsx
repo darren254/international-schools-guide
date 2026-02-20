@@ -22,6 +22,7 @@ interface SchoolCardProps {
   examResults?: ExamResult[];
   editorialSummary: string;
   imageUrl?: string;
+  hasProfile?: boolean;
 }
 
 export function SchoolCard({
@@ -37,6 +38,7 @@ export function SchoolCard({
   examResults,
   editorialSummary,
   imageUrl,
+  hasProfile = false,
 }: SchoolCardProps) {
   const [shortlisted, setShortlisted] = useState(false);
 
@@ -85,12 +87,18 @@ export function SchoolCard({
         <div className="flex-1 min-w-0 p-5">
           {/* Name + verified */}
           <div className="flex items-start justify-between gap-3 mb-1.5">
-            <Link
-              href={`/international-schools/${citySlug}/${slug}/`}
-              className="font-display text-display-sm font-medium text-charcoal hover:text-hermes transition-colors leading-tight"
-            >
-              {name}
-            </Link>
+            {hasProfile ? (
+              <Link
+                href={`/international-schools/${citySlug}/${slug}/`}
+                className="font-display text-display-sm font-medium text-charcoal hover:text-hermes transition-colors leading-tight"
+              >
+                {name}
+              </Link>
+            ) : (
+              <span className="font-display text-display-sm font-medium text-charcoal leading-tight">
+                {name}
+              </span>
+            )}
             {verified && <VerifiedBadge verified={verified} />}
           </div>
 
@@ -138,12 +146,18 @@ export function SchoolCard({
                 </div>
               ))}
             </div>
-            <Link
-              href={`/international-schools/${citySlug}/${slug}/`}
-              className="text-[0.75rem] font-medium uppercase tracking-wider text-hermes hover:text-hermes-hover transition-colors"
-            >
-              View details →
-            </Link>
+            {hasProfile ? (
+              <Link
+                href={`/international-schools/${citySlug}/${slug}/`}
+                className="text-[0.75rem] font-medium uppercase tracking-wider text-hermes hover:text-hermes-hover transition-colors"
+              >
+                Full profile →
+              </Link>
+            ) : (
+              <span className="text-[0.75rem] font-medium uppercase tracking-wider text-charcoal-muted/50">
+                Profile coming soon
+              </span>
+            )}
           </div>
         </div>
       </div>
