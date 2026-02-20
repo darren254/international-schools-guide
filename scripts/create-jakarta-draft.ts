@@ -3,7 +3,8 @@
  * Create a draft from the existing Jakarta guide and send review email
  */
 
-import { saveDraft, sendReviewNotification } from "../src/lib/insights/draft";
+import { saveDraft } from "../src/lib/insights/draft";
+import { sendReviewNotification } from "../src/lib/insights/email";
 
 // Extract the HTML content from the Jakarta guide
 // This is a simplified version - in production, you'd render the React component to HTML
