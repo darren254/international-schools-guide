@@ -62,9 +62,27 @@ export async function getDraft(slug: string): Promise<InsightDraft | null> {
 export async function getAllDrafts(): Promise<InsightDraft[]> {
   await ensureDraftsDir();
   
-  // For now, return empty array - would need to read directory
-  // This is a placeholder for database migration
-  return [];
+  if (!existsSync(DRAFTS_DIR)) {
+    return [];
+  }
+  
+  const { readdir } = await import("fs/promises");
+  const files = await readdir(DRAFTS_DIR);
+  const drafts: InsightDraft[] = [];
+  
+  for (const file of files) {
+    if (file.endsWith(".json")) {
+      try {
+        const content = await readFile(join(DRAFTS_DIR, file), "utf-8");
+        const draft = JSON.parse(content) as InsightDraft;
+        drafts.push(draft);
+      } catch (error) {
+        console.error(`Error reading draft ${file}:`, error);
+      }
+    }
+  }
+  
+  return drafts;
 }
 
 export async function updateDraftStatus(

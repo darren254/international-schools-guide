@@ -2,12 +2,22 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { JAKARTA_SCHOOLS } from "@/data/jakarta-schools";
 import { SCHOOL_PROFILES } from "@/data/schools";
+import { getPublishedArticle } from "@/lib/insights/registry";
 
 const BASE_URL = "https://international-schools-guide.com";
 
-// Static params for export — add articles as we publish them
-export function generateStaticParams() {
-  return [{ slug: "best-international-schools-jakarta" }];
+// Static params for export — generated from published articles
+export async function generateStaticParams() {
+  const { getPublishedArticles } = await import("@/lib/insights/registry");
+  const articles = await getPublishedArticles();
+  
+  // Always include hardcoded articles
+  const hardcoded = [{ slug: "best-international-schools-jakarta" }];
+  
+  // Add published articles from drafts
+  const published = articles.map((a) => ({ slug: a.slug }));
+  
+  return [...hardcoded, ...published];
 }
 
 export async function generateMetadata({
@@ -18,6 +28,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const canonical = `${BASE_URL}/insights/${slug}`;
   
+  // Hardcoded articles
   if (slug === "best-international-schools-jakarta") {
     return {
       title: "Best International Schools in Jakarta (2025) - The Expat Family Guide",
@@ -28,6 +39,22 @@ export async function generateMetadata({
         title: "Best International Schools in Jakarta (2025) - The Expat Family Guide",
         description:
           "Jakarta has 66 international schools serving expat families. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, AIS, and 60+ other options.",
+        url: canonical,
+        type: "article",
+      },
+    };
+  }
+  
+  // Published articles from drafts
+  const article = await getPublishedArticle(slug);
+  if (article) {
+    return {
+      title: article.title,
+      description: article.summary,
+      alternates: { canonical },
+      openGraph: {
+        title: article.title,
+        description: article.summary,
         url: canonical,
         type: "article",
       },
@@ -370,11 +397,75 @@ function JakartaGuide() {
   );
 }
 
+function PublishedArticleView({ article }: { article: PublishedArticle }) {
+  return (
+    <>
+      <div className="container-site pt-6">
+        <Link
+          href="/insights"
+          className="text-sm text-charcoal-muted hover:text-hermes transition-colors inline-flex items-center gap-1"
+        >
+          <span>←</span> Back to Insights
+        </Link>
+      </div>
+      <article className="container-site pt-6 pb-16">
+        <div className="max-w-4xl">
+          <span className="text-xs font-semibold uppercase tracking-widest text-amber-700 mb-3 block">
+            {article.category}
+          </span>
+          <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] text-charcoal leading-tight mb-4">
+            {article.title}
+          </h1>
+          <p className="text-lg text-charcoal-muted leading-relaxed mb-6 max-w-2xl">
+            {article.summary}
+          </p>
+          <div className="flex items-center gap-3 text-sm text-charcoal-muted border-b border-warm-border pb-6 mb-8">
+            {article.author && (
+              <>
+                <span className="font-medium text-charcoal">{article.author}</span>
+                <span>·</span>
+              </>
+            )}
+            <time>{article.date}</time>
+            <span>·</span>
+            <span>{article.readTime}</span>
+          </div>
+          <div className="prose-hermes space-y-8 text-charcoal leading-relaxed">
+            <div dangerouslySetInnerHTML={{ __html: article.content }} />
+          </div>
+        </div>
+      </article>
+    </>
+  );
+}
+
+interface PublishedArticle {
+  slug: string;
+  title: string;
+  summary: string;
+  category: string;
+  content: string;
+  images?: string[];
+  author?: string;
+  publishedAt: string;
+  date: string;
+  readTime: string;
+}
+
 export default async function InsightPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   
+  // Hardcoded articles
   if (slug === "best-international-schools-jakarta") {
     return <JakartaGuide />;
+  }
+  
+  // Check published articles from drafts
+  const { getPublishedArticle } = await import("@/lib/insights/registry");
+  const publishedArticle = await getPublishedArticle(slug);
+  
+  if (publishedArticle) {
+    return <PublishedArticleView article={publishedArticle} />;
   }
   
   return (
