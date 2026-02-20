@@ -13,9 +13,9 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const slug = params.slug;
+  const { slug } = await params;
   const canonical = `${BASE_URL}/insights/${slug}`;
   
   if (slug === "best-international-schools-jakarta") {
@@ -370,8 +370,10 @@ function JakartaGuide() {
   );
 }
 
-export default function InsightPage({ params }: { params: { slug: string } }) {
-  if (params.slug === "best-international-schools-jakarta") {
+export default async function InsightPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  
+  if (slug === "best-international-schools-jakarta") {
     return <JakartaGuide />;
   }
   
