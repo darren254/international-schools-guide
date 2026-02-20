@@ -127,7 +127,11 @@ export function RichTextEditor({
   // Update content when prop changes externally
   useEffect(() => {
     if (editor && content !== editor.getHTML()) {
-      editor.commands.setContent(content);
+      // Only update if content actually changed to avoid loops
+      const currentHtml = editor.getHTML();
+      if (content !== currentHtml) {
+        editor.commands.setContent(content, false); // false = don't emit update event
+      }
     }
   }, [content, editor]);
 
