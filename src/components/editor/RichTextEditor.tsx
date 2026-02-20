@@ -39,7 +39,7 @@ export function RichTextEditor({
     editorProps: {
       attributes: {
         class:
-          "focus:outline-none min-h-[600px]",
+          "prose-hermes space-y-8 text-charcoal leading-relaxed focus:outline-none min-h-[600px]",
       },
     },
     onUpdate: ({ editor }) => {
