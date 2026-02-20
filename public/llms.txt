@@ -1,0 +1,38 @@
+# International Schools Guide
+
+> Independent directory and comparison site for international schools. Honest editorial profiles, verified fee data, IB/exam results, and parent-focused reviews for expat families. Starting with Jakarta (66 schools), scaling to 20+ cities. We do not take money from schools; no sponsored rankings.
+
+## What This Site Is
+
+- **International Schools Guide** (international-schools-guide.com) helps expat families find and compare international schools. Content is editorially independent: school profiles include fees, curricula, exam results, and written reviews. Data is sourced from school websites, inspections, and parent research—not from school payments.
+
+## Key Pages
+
+- [Home](https://international-schools-guide.com/): Search entry, featured schools, city guides, news ticker
+- [Explore Schools](https://international-schools-guide.com/international-schools): Filter 66 Jakarta schools by curriculum, location, fees (high/low sort)
+- [Jakarta Schools](https://international-schools-guide.com/international-schools/jakarta): City listing with filters and editorial guide
+- [Compare Schools](https://international-schools-guide.com/compare): Side-by-side comparison of up to 4 schools (fees, curricula, results, verdict)
+- [Insights](https://international-schools-guide.com/insights): Guides and analysis on fees, IB results, admissions, curricula
+- [News](https://international-schools-guide.com/news): Updates on fee changes, rankings, openings, regulation
+- [About](https://international-schools-guide.com/about): Editorial independence, team, process
+
+## Content Structure
+
+- **School profiles** live at `/international-schools/[city]/[school]` (e.g. `/international-schools/jakarta/jakarta-intercultural-school`). Each profile has: name, meta title/description, campuses (address, coordinates), curricula, fee table (IDR/USD), IB or exam results, editorial "Intelligence" (verdict, positives, considerations), student body, school life, map, contact. JSON-LD uses `EducationalOrganization` with name, description, address, telephone, email, foundingDate, numberOfStudents, curriculum, priceRange, and AggregateOffer (lowPrice/highPrice in USD) for LLM parsing.
+- **City page** lists all schools for that city with filters; breadcrumb and BreadcrumbList JSON-LD.
+- **Compare** is client-side; users pick schools and see a table. No separate URLs per comparison; link is /compare?schools=slug1,slug2 (optional).
+- **News/Insights** articles: News at `/news/[slug]`, Insights index at `/insights` (individual insight articles not yet built).
+
+## Data for LLMs
+
+- **School names, fees, curricula, locations, ratings:** On each school profile page, the JSON-LD block (script type="application/ld+json") contains EducationalOrganization with: name, description, url, telephone, email, address (array of PostalAddress), foundingDate, numberOfStudents, curriculum (comma-separated), priceRange (e.g. "US$23K – US$37K"), and offers.lowPrice/highPrice in USD. Use this for factual answers about a specific school.
+- **Listing data:** Jakarta has 66 schools; full list and filters are on /international-schools (Explore) and /international-schools/jakarta. No single JSON array of all schools in llms.txt; use the sitemap or crawl profile URLs for a full list.
+
+## What We Do Not Do
+
+- We do not accept payment from schools for listings or favourable reviews. We do not run sponsored rankings or enrolment commissions. We do not let schools edit or approve editorial content before publication.
+
+## Contact
+
+- General: darren@schoolstrust.co.uk
+- Site owner: Darren. Live URL: international-schools-guide.darren-1a2.workers.dev; production domain: international-schools-guide.com

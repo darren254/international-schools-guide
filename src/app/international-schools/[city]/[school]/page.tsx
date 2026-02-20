@@ -18,6 +18,7 @@ import {
   EXCHANGE_RATE,
   EXCHANGE_RATE_DATE,
 } from "@/data/schools";
+import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 
 // ═══════════════════════════════════════════════════════
 // STATIC PARAMS — generates a page for every school slug
@@ -34,6 +35,8 @@ export function generateStaticParams() {
 // METADATA — dynamic per school
 // ═══════════════════════════════════════════════════════
 
+const BASE_URL = "https://international-schools-guide.com";
+
 export function generateMetadata({
   params,
 }: {
@@ -42,9 +45,18 @@ export function generateMetadata({
   const school = SCHOOL_PROFILES[params.school];
   if (!school) return { title: "School Not Found" };
 
+  const canonical = `${BASE_URL}/international-schools/${school.citySlug}/${params.school}`;
   return {
     title: school.metaTitle,
     description: school.metaDescription,
+    alternates: { canonical },
+    openGraph: {
+      title: school.metaTitle,
+      description: school.metaDescription,
+      url: canonical,
+      type: "profile",
+      images: [{ url: `${BASE_URL}/og-default.png`, width: 1200, height: 630, alt: school.name }],
+    },
   };
 }
 
@@ -60,8 +72,60 @@ export default function SchoolProfilePage({
   const s = SCHOOL_PROFILES[params.school];
   if (!s) return notFound();
 
+  const canonicalUrl = `${BASE_URL}/international-schools/${s.citySlug}/${params.school}`;
+  const cityName = s.citySlug.charAt(0).toUpperCase() + s.citySlug.slice(1);
+  const feeStat = s.stats.find((st) => st.label === "Annual Fees");
+  const feeRangeStr = feeStat?.value ?? "";
+  const lowK = extractLowestFee(feeRangeStr);
+  const highK = extractHighestFee(feeRangeStr);
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "International Schools", item: `${BASE_URL}/international-schools` },
+      { "@type": "ListItem", position: 2, name: cityName, item: `${BASE_URL}/international-schools/${s.citySlug}` },
+      { "@type": "ListItem", position: 3, name: s.name, item: canonicalUrl },
+    ],
+  };
+
+  const educationalOrgJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    name: s.name,
+    description: s.jsonLd.description,
+    url: s.contact.website || canonicalUrl,
+    telephone: s.contact.phone || undefined,
+    email: s.contact.email || undefined,
+    address: s.campuses.map((c) => ({
+      "@type": "PostalAddress",
+      name: c.name,
+      streetAddress: c.address,
+      addressLocality: cityName,
+      addressCountry: "ID",
+    })),
+    foundingDate: s.jsonLd.foundingDate || undefined,
+    numberOfStudents: s.jsonLd.numberOfStudents || undefined,
+    ...(s.curricula?.length ? { curriculum: s.curricula.join(", ") } : {}),
+    ...(feeRangeStr && (lowK > 0 || highK > 0)
+      ? {
+          priceRange: feeRangeStr,
+          offers: {
+            "@type": "AggregateOffer",
+            priceCurrency: "USD",
+            lowPrice: lowK > 0 ? String(lowK * 1000) : undefined,
+            highPrice: highK > 0 ? String(highK * 1000) : undefined,
+          },
+        }
+      : {}),
+  };
+
   return (
     <div className="container-site">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       {/* Breadcrumb */}
       <nav
         className="py-5 text-[0.8125rem] text-charcoal-muted"
@@ -202,24 +266,7 @@ export default function SchoolProfilePage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "EducationalOrganization",
-            name: s.name,
-            description: s.jsonLd.description,
-            url: s.contact.website,
-            telephone: s.contact.phone,
-            email: s.contact.email,
-            address: s.campuses.map((c) => ({
-              "@type": "PostalAddress",
-              name: c.name,
-              streetAddress: c.address,
-              addressLocality: s.citySlug.charAt(0).toUpperCase() + s.citySlug.slice(1),
-              addressCountry: "ID",
-            })),
-            foundingDate: s.jsonLd.foundingDate,
-            numberOfStudents: s.jsonLd.numberOfStudents,
-          }),
+          __html: JSON.stringify(educationalOrgJsonLd),
         }}
       />
     </div>

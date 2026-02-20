@@ -2,9 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us — International Schools Guide",
+  title: "About Us",
   description:
     "Independent, editorially-driven school profiles built for expat families. No sponsored rankings, no school advertising, no commissions.",
+  alternates: { canonical: "https://international-schools-guide.com/about" },
+  openGraph: {
+    title: "About Us — International Schools Guide",
+    description:
+      "Independent, editorially-driven school profiles built for expat families. No sponsored rankings, no school advertising, no commissions.",
+    url: "https://international-schools-guide.com/about",
+  },
 };
 
 const TEAM = [

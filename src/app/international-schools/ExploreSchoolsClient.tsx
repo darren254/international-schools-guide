@@ -51,9 +51,11 @@ function schoolMatchesLocation(school: JakartaSchoolListing, locationFilter: Loc
 
 interface ExploreSchoolsClientProps {
   profileSlugs: string[];
+  citySlug: string;
+  cityName: string;
 }
 
-export function ExploreSchoolsClient({ profileSlugs }: ExploreSchoolsClientProps) {
+export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: ExploreSchoolsClientProps) {
   const schools = JAKARTA_SCHOOLS;
   const [curriculum, setCurriculum] = useState("");
   const [location, setLocation] = useState<"" | LocationFilter>("");
@@ -78,15 +80,19 @@ export function ExploreSchoolsClient({ profileSlugs }: ExploreSchoolsClientProps
   return (
     <div className="container-site">
       <nav className="py-5 text-[0.8125rem] text-charcoal-muted" aria-label="Breadcrumb">
-        <span className="text-charcoal">International Schools</span>
+        <Link href="/international-schools/" className="hover:text-hermes transition-colors">
+          International Schools
+        </Link>
+        <span className="mx-1.5 opacity-50">›</span>
+        <span className="text-charcoal">{cityName}</span>
       </nav>
 
       <section className="pb-6 border-b border-warm-border">
         <h1 className="font-display text-[clamp(1.75rem,4vw,2.5rem)] font-medium tracking-tight leading-tight mb-1.5">
-          Explore Schools
+          International Schools in {cityName}
         </h1>
         <p className="text-[0.9375rem] text-charcoal-muted mb-4 font-body">
-          {schools.length} schools in Jakarta. Filter by curriculum or location; sort by fees.
+          {schools.length} schools · Filter by curriculum or location; sort by fees.
         </p>
 
         {/* One row: Curriculum dropdown · Location dropdown · Fees toggle (up/down arrow) */}
@@ -142,20 +148,13 @@ export function ExploreSchoolsClient({ profileSlugs }: ExploreSchoolsClientProps
             <button
               type="button"
               onClick={() => setFeeSort((s) => (s === "high-low" ? "low-high" : "high-low"))}
-              className="flex items-center gap-1.5 border border-warm-border bg-cream px-2.5 py-1.5 text-[0.8125rem] text-charcoal font-body hover:border-charcoal-muted transition-colors"
-              aria-label={feeSort === "high-low" ? "Sort fees high to low (click to switch to low to high)" : "Sort fees low to high (click to switch to high to low)"}
+              className="flex items-center justify-center border border-warm-border bg-cream p-2 text-charcoal hover:border-charcoal-muted transition-colors"
+              aria-label={feeSort === "high-low" ? "Sort fees high to low (click for low to high)" : "Sort fees low to high (click for high to low)"}
+              title={feeSort === "high-low" ? "High → Low" : "Low → High"}
             >
-              {feeSort === "high-low" ? (
-                <>
-                  <span className="text-charcoal-muted" aria-hidden>↓</span>
-                  <span>High → Low</span>
-                </>
-              ) : (
-                <>
-                  <span className="text-charcoal-muted" aria-hidden>↑</span>
-                  <span>Low → High</span>
-                </>
-              )}
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                <path d="M5 7l4-4 4 4M5 11l4 4 4-4" />
+              </svg>
             </button>
           </div>
         </div>
@@ -169,7 +168,7 @@ export function ExploreSchoolsClient({ profileSlugs }: ExploreSchoolsClientProps
           {filteredAndSorted.map((school) => (
             <SchoolCard
               key={school.slug}
-              citySlug="jakarta"
+              citySlug={citySlug}
               hasProfile={profileSet.has(school.slug)}
               name={school.name}
               slug={school.slug}
@@ -192,13 +191,13 @@ export function ExploreSchoolsClient({ profileSlugs }: ExploreSchoolsClientProps
       <section className="pt-10 pb-12 border-t border-warm-border">
         <h2 className="font-display text-display-sm font-medium mb-2">Browse by city</h2>
         <p className="text-[0.9375rem] text-charcoal-muted mb-3">
-          Jakarta is the first city we&apos;ve built out. More cities coming soon.
+          More cities coming soon.
         </p>
         <Link
-          href="/international-schools/jakarta/"
+          href="/international-schools/"
           className="text-[0.9375rem] font-medium text-hermes hover:text-hermes-hover transition-colors"
         >
-          View all Jakarta schools →
+          International schools →
         </Link>
       </section>
     </div>

@@ -1,9 +1,11 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { extractHighestFee } from "@/lib/utils/fees";
 import { JAKARTA_SCHOOLS } from "@/data/jakarta-schools";
+import { SCHOOL_PROFILES } from "@/data/schools";
 
 interface CompareSchool {
   slug: string;
@@ -42,27 +44,32 @@ const SHORT_NAMES: Record<string, string> = {
   "jakarta-nanyang-school": "JNY",
 };
 
+function getQuickFact(profile: { sidebar: { quickFacts: { label: string; value: string }[] } }, label: string): string {
+  return profile.sidebar.quickFacts.find((f) => f.label === label)?.value ?? "";
+}
+
 function toCompareSchool(s: (typeof JAKARTA_SCHOOLS)[0]): CompareSchool {
   const shortName = SHORT_NAMES[s.slug] ?? s.name.split(" ").slice(0, 2).join(" ");
   const highK = extractHighestFee(s.feeRange);
+  const profile = SCHOOL_PROFILES[s.slug];
   return {
     slug: s.slug,
     name: s.name,
     shortName,
     verified: s.verified,
     area: s.area,
-    founded: "",
-    type: "Co-ed",
+    founded: profile ? getQuickFact(profile, "Founded") : "",
+    type: profile ? getQuickFact(profile, "Type") || "Co-ed" : "Co-ed",
     curricula: s.curricula,
     ageRange: s.ageRange,
     studentCount: s.studentCount,
-    nationalities: "",
+    nationalities: profile ? getQuickFact(profile, "Nationalities") : "",
     feeRange: s.feeRange,
     feeFromUSD: highK * 1000,
     examResults: s.examResults,
-    accreditation: "",
-    facilities: [],
-    classSize: "",
+    accreditation: profile ? getQuickFact(profile, "Accreditation") : "",
+    facilities: profile?.schoolLife?.facilities ?? [],
+    classSize: profile ? getQuickFact(profile, "Class Size") : "",
     editorialVerdict: s.editorialSummary,
   };
 }
@@ -86,10 +93,12 @@ const COMPARE_ROWS: { key: string; label: string; render: (s: CompareSchool) => 
   { key: "verdict", label: "Our Verdict", render: (s) => s.editorialVerdict },
 ];
 
-export default function ComparePage() {
+function CompareContent() {
+  const searchParams = useSearchParams();
   const [selected, setSelected] = useState<string[]>([]);
   const [mobileIndex, setMobileIndex] = useState(0);
   const [showPicker, setShowPicker] = useState(true);
+  const [urlParsed, setUrlParsed] = useState(false);
 
   // Sort schools by highest fee (descending) - default sort order
   const sortedSchools = useMemo(() => {
@@ -99,6 +108,23 @@ export default function ComparePage() {
       return feeB - feeA; // Descending order (high to low)
     });
   }, []);
+
+  // Pre-select schools from ?schools=slug1,slug2,slug3 and show table immediately
+  useEffect(() => {
+    if (urlParsed) return;
+    const param = searchParams.get("schools");
+    if (!param) {
+      setUrlParsed(true);
+      return;
+    }
+    const slugs = param.split(",").map((x) => x.trim()).filter(Boolean);
+    const valid = slugs.filter((slug) => sortedSchools.some((sc) => sc.slug === slug));
+    if (valid.length >= 2) {
+      setSelected(valid);
+      setShowPicker(false);
+    }
+    setUrlParsed(true);
+  }, [searchParams, sortedSchools, urlParsed]);
 
   const selectedSchools = selected
     .map((slug) => sortedSchools.find((s) => s.slug === slug)!)
@@ -395,5 +421,13 @@ export default function ComparePage() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function ComparePage() {
+  return (
+    <Suspense fallback={<div className="container-site py-16 text-charcoal-muted">Loading…</div>}>
+      <CompareContent />
+    </Suspense>
   );
 }

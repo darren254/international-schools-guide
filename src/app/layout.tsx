@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
@@ -19,6 +20,8 @@ const inter = Inter({
   display: "swap",
 });
 
+const baseUrl = "https://international-schools-guide.com";
+
 export const metadata: Metadata = {
   title: {
     template: "%s — International Schools Guide",
@@ -26,7 +29,20 @@ export const metadata: Metadata = {
   },
   description:
     "Compare international schools worldwide. Honest profiles, real fee data, and editorial reviews for expat families.",
-  metadataBase: new URL("https://international-schools-guide.com"),
+  metadataBase: new URL(baseUrl),
+  openGraph: {
+    type: "website",
+    locale: "en",
+    siteName: "International Schools Guide",
+    images: [{ url: "/og-default.png", width: 1200, height: 630, alt: "International Schools Guide" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
@@ -34,12 +50,25 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+
   return (
     <html lang="en" className={`${cormorant.variable} ${inter.variable}`}>
       <body>
         <SiteHeader />
         <main>{children}</main>
         <SiteFooter />
+        {gaId ? (
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+            strategy="afterInteractive"
+          />
+        ) : null}
+        {gaId ? (
+          <Script id="ga4" strategy="afterInteractive">
+            {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${gaId}');`}
+          </Script>
+        ) : null}
       </body>
     </html>
   );

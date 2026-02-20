@@ -1,17 +1,34 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+const BASE_URL = "https://international-schools-guide.com";
+
 // Static params for export — add articles as we publish them
 export function generateStaticParams() {
   return [{ slug: "isj-claims-top-ranking-jakarta" }];
 }
 
-export const metadata: Metadata = {
-  title:
-    "Independent School of Jakarta claims top ranking on international schools platform — International Schools Guide",
-  description:
-    "The British preparatory school serving students aged 2–13 has been named number one in Jakarta by what it describes as the world's leading platform.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const slug = params.slug;
+  const canonical = `${BASE_URL}/news/${slug}`;
+  return {
+    title: "ISJ claims top ranking on international schools platform",
+    description:
+      "The British preparatory school serving students aged 2–13 has been named number one in Jakarta by what it describes as the world's leading platform.",
+    alternates: { canonical },
+    openGraph: {
+      title: "Independent School of Jakarta claims top ranking — International Schools Guide",
+      description:
+        "The British preparatory school serving students aged 2–13 has been named number one in Jakarta by what it describes as the world's leading platform.",
+      url: canonical,
+      type: "article",
+    },
+  };
+}
 
 // ═══════════════════════════════════════════════════════
 // ARTICLE DATA — will come from CMS/DB later

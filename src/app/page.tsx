@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { extractHighestFee } from "@/lib/utils/fees";
+import { CITIES, LIVE_CITIES, TOTAL_SCHOOLS_LIVE } from "@/data/cities";
 
 export const metadata: Metadata = {
-  title: "Find the Right International School — International Schools Guide",
+  title: "Find the Right International School",
   description:
     "Compare international schools worldwide. Fees, IB results, honest editorial reviews. Built for expat families.",
+  alternates: { canonical: "https://international-schools-guide.com/" },
+  openGraph: {
+    title: "Find the Right International School — International Schools Guide",
+    description:
+      "Compare international schools worldwide. Fees, IB results, honest editorial reviews. Built for expat families.",
+    url: "https://international-schools-guide.com/",
+  },
 };
 
 const FEATURED_SCHOOLS_RAW = [
@@ -62,62 +70,7 @@ const FEATURED_SCHOOLS = [...FEATURED_SCHOOLS_RAW].sort((a, b) => {
   return feeB - feeA; // Descending order (high to low)
 });
 
-const FEATURED_CITIES = [
-  {
-    name: "Jakarta",
-    country: "Indonesia",
-    slug: "jakarta",
-    schoolCount: 90,
-    feeRange: "US$5K – $36K / year",
-    topCurricula: ["IB", "British", "Australian"],
-    tagline: "Southeast Asia's largest city, home to JIS, BSJ, and 80+ international schools",
-  },
-  {
-    name: "Singapore",
-    country: "Singapore",
-    slug: "singapore",
-    schoolCount: 70,
-    feeRange: "US$15K – $45K / year",
-    topCurricula: ["IB", "British", "Singaporean"],
-    tagline: "Asia's education hub with world-class IB and British curriculum schools",
-  },
-  {
-    name: "Bangkok",
-    country: "Thailand",
-    slug: "bangkok",
-    schoolCount: 100,
-    feeRange: "US$4K – $30K / year",
-    topCurricula: ["IB", "British", "American"],
-    tagline: "Exceptional value with top-tier schools at a fraction of Singapore prices",
-  },
-  {
-    name: "Dubai",
-    country: "UAE",
-    slug: "dubai",
-    schoolCount: 200,
-    feeRange: "US$6K – $35K / year",
-    topCurricula: ["British", "IB", "American"],
-    tagline: "The world's most competitive international school market",
-  },
-  {
-    name: "Hong Kong",
-    country: "China",
-    slug: "hong-kong",
-    schoolCount: 55,
-    feeRange: "US$12K – $40K / year",
-    topCurricula: ["IB", "British", "Canadian"],
-    tagline: "Premier Asian hub blending British, IB, and local curricula",
-  },
-  {
-    name: "Kuala Lumpur",
-    country: "Malaysia",
-    slug: "kuala-lumpur",
-    schoolCount: 65,
-    feeRange: "US$4K – $25K / year",
-    topCurricula: ["British", "IB", "Australian"],
-    tagline: "Outstanding value and quality — increasingly popular with expat families",
-  },
-];
+// City grid and Popular row use CITIES from @/data/cities (live vs coming soon)
 
 const FEATURED_NEWS = [
   {
@@ -185,7 +138,7 @@ export default function HomePage() {
       {/* ─── Hero ─── */}
       <section className="pt-20 pb-16 md:pt-28 md:pb-24 text-center px-4">
         <p className="text-label-sm uppercase text-charcoal-muted tracking-wider mb-5">
-          Independent reviews · Real fee data · 20+ cities
+          Independent reviews · Real fee data{LIVE_CITIES.length > 1 ? ` · ${LIVE_CITIES.length}+ cities` : ""}
         </p>
         <h1 className="font-display text-[clamp(2.25rem,5.5vw,3.75rem)] font-medium tracking-tight leading-[1.1] mb-6 max-w-3xl mx-auto">
           Find the right international school
@@ -194,9 +147,12 @@ export default function HomePage() {
           Honest profiles, verified fee data, and independent editorial reviews — built for expat families, not for schools.
         </p>
 
-        {/* Search block */}
+        {/* Search block — single action: go to Jakarta schools (only live city for now) */}
         <div className="w-full max-w-3xl mx-auto">
-          <div className="bg-warm-white border border-warm-border rounded-sm shadow-sm">
+          <Link
+            href="/international-schools/jakarta/"
+            className="block bg-warm-white border border-warm-border rounded-sm shadow-sm hover:border-charcoal-muted transition-colors"
+          >
             <div className="grid grid-cols-1 sm:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-warm-border">
               <div className="px-4 py-3.5 text-left">
                 <p className="text-label-xs uppercase text-charcoal-muted mb-1">City</p>
@@ -211,28 +167,32 @@ export default function HomePage() {
                 <p className="text-sm text-charcoal">Child&apos;s age</p>
               </div>
               <div className="px-4 py-3.5 flex items-end justify-center">
-                <button className="w-full bg-hermes text-white px-6 py-2.5 text-sm font-medium uppercase tracking-wider hover:bg-hermes-hover transition-colors">
+                <span className="w-full bg-hermes text-white px-6 py-2.5 text-sm font-medium uppercase tracking-wider hover:bg-hermes-hover transition-colors inline-block text-center">
                   Search
-                </button>
+                </span>
               </div>
             </div>
-          </div>
+          </Link>
 
           <p className="text-sm text-charcoal-muted mt-5">
             Popular:{" "}
-            {["Jakarta", "Singapore", "Bangkok", "Dubai", "Tokyo", "Shanghai"].map(
-              (city, i) => (
-                <span key={city}>
-                  {i > 0 && <span className="mx-1.5 text-cream-400">·</span>}
+            {CITIES.map((city, i) => (
+              <span key={city.slug}>
+                {i > 0 && <span className="mx-1.5 text-cream-400">·</span>}
+                {city.live ? (
                   <Link
-                    href={`/international-schools/${city.toLowerCase()}/`}
+                    href={`/international-schools/${city.slug}/`}
                     className="text-hermes hover:text-hermes-hover transition-colors"
                   >
-                    {city}
+                    {city.name}
                   </Link>
-                </span>
-              )
-            )}
+                ) : (
+                  <span className="text-charcoal-muted/70" title="Coming soon">
+                    {city.name}
+                  </span>
+                )}
+              </span>
+            ))}
           </p>
         </div>
       </section>
@@ -241,8 +201,8 @@ export default function HomePage() {
       <section className="border-y border-warm-border py-8 mb-16">
         <div className="container-site">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-y-4 gap-x-6 text-center text-sm text-charcoal-muted">
-            <span>600+ schools profiled</span>
-            <span>20+ cities</span>
+            <span>{TOTAL_SCHOOLS_LIVE} schools in {LIVE_CITIES.map((c) => c.name).join(", ")}</span>
+            <span>{LIVE_CITIES.length} {LIVE_CITIES.length === 1 ? "city" : "cities"} live</span>
             <span>Independent reviews</span>
             <span>Updated weekly</span>
           </div>
@@ -332,43 +292,62 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {FEATURED_CITIES.map((city) => (
-              <Link
-                key={city.slug}
-                href={`/international-schools/${city.slug}/`}
-                className="group border border-warm-border rounded-sm overflow-hidden hover:border-charcoal-muted transition-colors bg-cream-50"
-              >
-                {/* Placeholder city image */}
-                <div className="aspect-[16/8] bg-cream-300 group-hover:bg-cream-400 transition-colors" />
-                <div className="p-5">
-                  <div className="flex items-baseline justify-between mb-2">
-                    <h3 className="font-display text-display-sm group-hover:text-hermes transition-colors">
-                      {city.name}
-                    </h3>
-                    <span className="text-label-xs uppercase text-charcoal-muted">
-                      {city.country}
-                    </span>
-                  </div>
-                  <p className="text-sm text-charcoal-light leading-relaxed mb-3">
-                    {city.tagline}
-                  </p>
-                  <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[0.8125rem] text-charcoal-muted mb-3">
-                    <span>{city.schoolCount}+ schools</span>
-                    <span>{city.feeRange}</span>
-                  </div>
-                  <div className="flex gap-2">
-                    {city.topCurricula.map((c) => (
-                      <span
-                        key={c}
-                        className="text-label-xs uppercase text-charcoal-muted bg-cream-200 px-2 py-0.5 rounded-sm"
-                      >
-                        {c}
+            {CITIES.map((city) => {
+              const content = (
+                <>
+                  <div className="aspect-[16/8] bg-cream-300 group-hover:bg-cream-400 transition-colors" />
+                  <div className="p-5">
+                    <div className="flex items-baseline justify-between mb-2">
+                      <h3 className="font-display text-display-sm group-hover:text-hermes transition-colors">
+                        {city.name}
+                      </h3>
+                      <span className="text-label-xs uppercase text-charcoal-muted">
+                        {city.country}
                       </span>
-                    ))}
+                    </div>
+                    <p className="text-sm text-charcoal-light leading-relaxed mb-3">
+                      {city.tagline ?? ""}
+                    </p>
+                    <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[0.8125rem] text-charcoal-muted mb-3">
+                      <span>{city.schoolCount ?? "—"}+ schools</span>
+                      <span>{city.feeRange ?? ""}</span>
+                    </div>
+                    <div className="flex gap-2">
+                      {(city.topCurricula ?? []).map((c) => (
+                        <span
+                          key={c}
+                          className="text-label-xs uppercase text-charcoal-muted bg-cream-200 px-2 py-0.5 rounded-sm"
+                        >
+                          {c}
+                        </span>
+                      ))}
+                    </div>
+                    {!city.live && (
+                      <p className="text-[0.75rem] uppercase tracking-wider text-charcoal-muted/70 mt-3">
+                        Coming soon
+                      </p>
+                    )}
                   </div>
+                </>
+              );
+              return city.live ? (
+                <Link
+                  key={city.slug}
+                  href={`/international-schools/${city.slug}/`}
+                  className="group border border-warm-border rounded-sm overflow-hidden hover:border-charcoal-muted transition-colors bg-cream-50"
+                >
+                  {content}
+                </Link>
+              ) : (
+                <div
+                  key={city.slug}
+                  className="border border-warm-border rounded-sm overflow-hidden bg-cream-50 opacity-80"
+                  title="Coming soon"
+                >
+                  {content}
                 </div>
-              </Link>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -384,7 +363,7 @@ export default function HomePage() {
           {CURRICULA.map((c) => (
             <Link
               key={c}
-              href={`/international-schools/?curriculum=${encodeURIComponent(c)}`}
+              href="/international-schools/jakarta/"
               className="border border-warm-border rounded-sm px-5 py-2.5 text-sm text-charcoal-light hover:border-hermes hover:text-hermes transition-colors bg-warm-white"
             >
               {c}

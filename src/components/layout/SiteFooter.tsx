@@ -18,34 +18,34 @@ export function SiteFooter() {
           <div>
             <p className="text-label-xs uppercase text-[#8A857E] mb-5">Explore</p>
             <ul className="flex flex-col gap-2.5">
-              {["Schools", "Insights", "News", "About", "Contact"].map((label) => (
-                <li key={label}>
-                  <Link
-                    href={`/${label.toLowerCase() === "schools" ? "international-schools" : label.toLowerCase()}/`}
-                    className="text-sm hover:text-cream transition-colors"
-                  >
-                    {label}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link href="/international-schools/" className="text-sm hover:text-cream transition-colors">Schools</Link>
+              </li>
+              <li>
+                <Link href="/insights/" className="text-sm hover:text-cream transition-colors">Insights</Link>
+              </li>
+              <li>
+                <Link href="/news/" className="text-sm hover:text-cream transition-colors">News</Link>
+              </li>
+              <li>
+                <Link href="/about/" className="text-sm hover:text-cream transition-colors">About</Link>
+              </li>
+              <li>
+                <Link href="/contact/" className="text-sm hover:text-cream transition-colors">Contact</Link>
+              </li>
             </ul>
           </div>
 
           <div>
             <p className="text-label-xs uppercase text-[#8A857E] mb-5">For Schools</p>
             <ul className="flex flex-col gap-2.5">
-              {["Update Your Info", "Featured Listings", "Partner With Us"].map(
-                (label) => (
-                  <li key={label}>
-                    <Link
-                      href="/contact/"
-                      className="text-sm hover:text-cream transition-colors"
-                    >
-                      {label}
-                    </Link>
-                  </li>
-                )
-              )}
+              {["Claim your profile", "Update Your Info", "Partner With Us"].map((label) => (
+                <li key={label}>
+                  <Link href="/for-schools/" className="text-sm hover:text-cream transition-colors">
+                    {label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

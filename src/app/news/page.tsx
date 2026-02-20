@@ -2,9 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "News — International Schools Guide",
+  title: "News",
   description:
     "The latest news on international schools in Jakarta and across Asia. Independent reporting on admissions, rankings, openings, and the education market.",
+  alternates: { canonical: "https://international-schools-guide.com/news" },
+  openGraph: {
+    title: "News — International Schools Guide",
+    description:
+      "The latest news on international schools in Jakarta and across Asia. Independent reporting on admissions, rankings, openings, and the education market.",
+    url: "https://international-schools-guide.com/news",
+  },
 };
 
 // ═══════════════════════════════════════════════════════

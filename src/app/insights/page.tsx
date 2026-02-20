@@ -2,9 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Insights — International Schools Guide",
+  title: "Insights",
   description:
     "Expert analysis on international school fees, exam results, admissions trends, and expat education across Asia. Independent research for families.",
+  alternates: { canonical: "https://international-schools-guide.com/insights" },
+  openGraph: {
+    title: "Insights — International Schools Guide",
+    description:
+      "Expert analysis on international school fees, exam results, admissions trends, and expat education across Asia. Independent research for families.",
+    url: "https://international-schools-guide.com/insights",
+  },
 };
 
 // ═══════════════════════════════════════════════════════
