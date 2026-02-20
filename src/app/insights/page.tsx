@@ -64,6 +64,16 @@ const FEATURED_PAIR: Article[] = [
 
 const TOPIC_GRID: Article[] = [
   {
+    slug: "best-international-schools-jakarta",
+    title: "Best International Schools in Jakarta (2025) — The Expat Family Guide",
+    summary:
+      "Jakarta has 66 international schools serving expat families. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, AIS, and 60+ other options.",
+    category: "GUIDE",
+    date: "20 Feb 2026",
+    readTime: "15 min read",
+    imageAlt: "Jakarta international schools guide",
+  },
+  {
     slug: "choosing-international-school-jakarta",
     title: "How to Choose an International School in Jakarta",
     summary:
@@ -106,6 +116,16 @@ const TOPIC_GRID: Article[] = [
 ];
 
 const LATEST_ARTICLES: Article[] = [
+  {
+    slug: "best-international-schools-jakarta",
+    title: "Best International Schools in Jakarta (2025) — The Expat Family Guide",
+    summary:
+      "Jakarta has 66 international schools serving expat families. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, AIS, and 60+ other options.",
+    category: "GUIDE",
+    date: "20 Feb 2026",
+    readTime: "15 min read",
+    imageAlt: "Jakarta international schools guide",
+  },
   {
     slug: "singapore-school-fees-2026",
     title: "Singapore International School Fees Are Now the Highest in Asia",
