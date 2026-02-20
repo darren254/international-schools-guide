@@ -39,7 +39,7 @@ export function SiteFooter() {
           <div>
             <p className="text-label-xs uppercase text-[#8A857E] mb-5">For Schools</p>
             <ul className="flex flex-col gap-2.5">
-              {["Claim your profile", "Update Your Info", "Partner With Us"].map((label) => (
+              {["Claim your profile"].map((label) => (
                 <li key={label}>
                   <Link href="/for-schools/" className="text-sm hover:text-cream transition-colors">
                     {label}

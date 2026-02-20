@@ -14,7 +14,7 @@ Starting with Jakarta, scaling to 20+ cities globally.
 - **Domain:** international-schools-guide.com
 - **Live URL:** international-schools-guide.darren-1a2.workers.dev
 - **Repo:** github.com/darren254/international-schools-guide
-- **Owner:** Darren (darren@schoolstrust.co.uk)
+- **Owner:** Darren (mia@international-schools-guide.com)
 
 The editorial voice is independent — written for parents, not schools.
 Think: luxury editorial magazine handling data. Honest, direct, treats parents as adults.

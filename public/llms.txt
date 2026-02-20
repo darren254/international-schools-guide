@@ -34,5 +34,5 @@
 
 ## Contact
 
-- General: darren@schoolstrust.co.uk
+- General: mia@international-schools-guide.com
 - Site owner: Darren. Live URL: international-schools-guide.darren-1a2.workers.dev; production domain: international-schools-guide.com
