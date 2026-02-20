@@ -4,163 +4,14 @@ import { SchoolCard } from "@/components/school/SchoolCard";
 import { FilterSidebar } from "@/components/school/FilterSidebar";
 import { SortBar } from "@/components/school/SortBar";
 import { ALL_SCHOOL_SLUGS } from "@/data/schools";
+import { JAKARTA_SCHOOLS } from "@/data/jakarta-schools";
+import { extractHighestFee } from "@/lib/utils/fees";
 
-// Schools with full profile pages
 const PROFILE_SLUGS = new Set(ALL_SCHOOL_SLUGS);
 
-// Static params for export — add cities as we build them
 export function generateStaticParams() {
   return [{ city: "jakarta" }];
 }
-
-// ═══════════════════════════════════════════════════════
-// HARDCODED JAKARTA DATA — wire to DB after approval
-// ═══════════════════════════════════════════════════════
-
-const JAKARTA_SCHOOLS = [
-  {
-    name: "Jakarta Intercultural School",
-    slug: "jakarta-intercultural-school",
-    verified: true,
-    curricula: ["IB PYP", "IB MYP", "IB DP", "AP"],
-    area: "South Jakarta",
-    ageRange: "3–18",
-    studentCount: "2,500+",
-    feeRange: "US$17K – US$36K",
-    examResults: [
-      { label: "IB Average", value: "35.8" },
-      { label: "IB Pass Rate", value: "97.5%" },
-    ],
-    editorialSummary:
-      "The big, established name — the school most corporate packages are written around. Strong university placements, huge range of activities, but expensive and the campus is ageing.",
-  },
-  {
-    name: "British School Jakarta",
-    slug: "british-school-jakarta",
-    verified: true,
-    curricula: ["English National", "IGCSE", "A-Levels"],
-    area: "South Jakarta",
-    ageRange: "3–18",
-    studentCount: "1,800+",
-    feeRange: "US$18K – US$32K",
-    examResults: [
-      { label: "A*–A at A-Level", value: "62%" },
-      { label: "9–7 at IGCSE", value: "58%" },
-    ],
-    editorialSummary:
-      "The strongest British option in Jakarta. Modern Bintaro campus, solid A-Level results, and a strong expat community. Popular with British and European families.",
-  },
-  {
-    name: "Australian Independent School Jakarta",
-    slug: "australian-independent-school-jakarta",
-    verified: false,
-    curricula: ["Australian", "IB DP"],
-    area: "South Jakarta",
-    ageRange: "3–18",
-    studentCount: "900+",
-    feeRange: "US$12K – US$22K",
-    examResults: [
-      { label: "IB Average", value: "33.5" },
-    ],
-    editorialSummary:
-      "Smaller and more personal than JIS or BSJ. Australian curriculum with IB Diploma option in senior years. Strong community feel and good value relative to the top tier.",
-  },
-  {
-    name: "Mentari Intercultural School Jakarta",
-    slug: "mentari-intercultural-school-jakarta",
-    verified: false,
-    curricula: ["IB PYP", "IB MYP", "IB DP"],
-    area: "South Jakarta",
-    ageRange: "3–18",
-    studentCount: "600+",
-    feeRange: "US$8K – US$16K",
-    examResults: [
-      { label: "IB Average", value: "32.1" },
-      { label: "IB Pass Rate", value: "95%" },
-    ],
-    editorialSummary:
-      "A mid-range IB school that punches above its weight. Smaller classes, attentive staff, and significantly cheaper than JIS. Good option for self-funding families who want IB.",
-  },
-  {
-    name: "ACG School Jakarta",
-    slug: "acg-school-jakarta",
-    verified: false,
-    curricula: ["IB PYP", "IB MYP", "IB DP"],
-    area: "South Jakarta",
-    ageRange: "3–18",
-    studentCount: "400+",
-    feeRange: "US$14K – US$24K",
-    examResults: [
-      { label: "IB Average", value: "34.0" },
-      { label: "IB Pass Rate", value: "96%" },
-    ],
-    editorialSummary:
-      "Part of the Inspired group. Modern campus, full IB programme, and growing reputation. Smaller than the big three but investing heavily in facilities and faculty.",
-  },
-  {
-    name: "Sekolah Pelita Harapan",
-    slug: "sekolah-pelita-harapan",
-    verified: false,
-    curricula: ["IB PYP", "IB MYP", "IB DP"],
-    area: "West Jakarta (Lippo Village)",
-    ageRange: "3–18",
-    studentCount: "2,000+",
-    feeRange: "US$6K – US$14K",
-    examResults: [
-      { label: "IB Average", value: "31.4" },
-      { label: "IB Pass Rate", value: "92%" },
-    ],
-    editorialSummary:
-      "The largest Christian international school in Jakarta. Multiple campuses across the city. Strong community and faith-based values. Significantly more affordable than top-tier schools.",
-  },
-  {
-    name: "Global Jaya School",
-    slug: "global-jaya-school",
-    verified: false,
-    curricula: ["IB PYP", "IB MYP", "IB DP"],
-    area: "South Tangerang (BSD)",
-    ageRange: "3–18",
-    studentCount: "800+",
-    feeRange: "US$6K – US$12K",
-    examResults: [
-      { label: "IB Average", value: "30.8" },
-      { label: "IB Pass Rate", value: "90%" },
-    ],
-    editorialSummary:
-      "A solid IB school in BSD City with a diverse student body. Good value for money and a genuine international atmosphere. The commute from central Jakarta is the main trade-off.",
-  },
-  {
-    name: "Binus School Serpong",
-    slug: "binus-school-serpong",
-    verified: false,
-    curricula: ["Cambridge", "IGCSE", "A-Levels"],
-    area: "South Tangerang",
-    ageRange: "3–18",
-    studentCount: "1,200+",
-    feeRange: "US$5K – US$10K",
-    examResults: [
-      { label: "A*–A at IGCSE", value: "45%" },
-      { label: "A*–A at A-Level", value: "40%" },
-    ],
-    editorialSummary:
-      "Part of the Bina Nusantara group — strong in STEM and technology. Cambridge curriculum, modern campus, and competitive fees. Predominantly Indonesian student body with growing international intake.",
-  },
-  {
-    name: "The Independent School of Jakarta",
-    slug: "independent-school-of-jakarta",
-    verified: true,
-    curricula: ["British Curriculum", "IGCSEs", "A-Levels"],
-    area: "South Jakarta (Pondok Pinang)",
-    ageRange: "2–13",
-    studentCount: "200",
-    feeRange: "US$9.2K – US$30K",
-    examResults: [
-      { label: "Class Size", value: "Max 16" },
-    ],
-    editorialSummary:
-      "A small British prep school in Pondok Pinang, part of The Schools Trust. Staff recruited from well-regarded UK schools, class sizes capped at 16. Currently ages 2–13 only, so families need a senior school plan. Strong fit for those who want the British independent school feel.",
-  },
-];
 
 const CURRICULA_OPTIONS = [
   { label: "IB (any)", value: "ib", count: 6 },
@@ -179,7 +30,7 @@ const AREA_OPTIONS = [
 export const metadata: Metadata = {
   title: "International Schools in Jakarta — Fees, Reviews & Comparison",
   description:
-    "Browse 47 international schools in Jakarta. Compare fees, curricula, IB results, and read honest editorial reviews. Filter by area, age range, and budget.",
+    "Browse 66 international schools in Jakarta. Compare fees, curricula, IB results, and read honest editorial reviews. Filter by area, age range, and budget.",
 };
 
 export default function CityPage({
@@ -191,6 +42,13 @@ export default function CityPage({
     .split("-")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ");
+
+  // Sort schools by highest fee (descending) - default sort order
+  const sortedSchools = [...JAKARTA_SCHOOLS].sort((a, b) => {
+    const feeA = extractHighestFee(a.feeRange);
+    const feeB = extractHighestFee(b.feeRange);
+    return feeB - feeA; // Descending order (high to low)
+  });
 
   return (
     <div className="container-site">
@@ -212,7 +70,7 @@ export default function CityPage({
           International Schools in {cityName}
         </h1>
         <p className="text-[0.9375rem] text-charcoal-muted">
-          {JAKARTA_SCHOOLS.length} schools · 8 curricula · Fees from US$5K/yr
+          {JAKARTA_SCHOOLS.length} schools · Multiple curricula · Fees from US$1.6K/yr
         </p>
       </section>
 
@@ -237,10 +95,10 @@ export default function CityPage({
 
         {/* School listings */}
         <div>
-          <SortBar totalSchools={JAKARTA_SCHOOLS.length} />
+          <SortBar totalSchools={sortedSchools.length} />
 
           <div className="space-y-4">
-            {JAKARTA_SCHOOLS.map((school) => (
+            {sortedSchools.map((school) => (
               <SchoolCard
                 key={school.slug}
                 citySlug={params.city}

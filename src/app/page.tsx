@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { extractHighestFee } from "@/lib/utils/fees";
 
 export const metadata: Metadata = {
   title: "Find the Right International School — International Schools Guide",
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
     "Compare international schools worldwide. Fees, IB results, honest editorial reviews. Built for expat families.",
 };
 
-const FEATURED_SCHOOLS = [
+const FEATURED_SCHOOLS_RAW = [
   {
     name: "Jakarta Intercultural School",
     slug: "jakarta-intercultural-school",
@@ -53,6 +54,13 @@ const FEATURED_SCHOOLS = [
     hook: "Strong IB programme with the best value fees in South Jakarta",
   },
 ];
+
+// Sort by highest fee (descending) - default sort order
+const FEATURED_SCHOOLS = [...FEATURED_SCHOOLS_RAW].sort((a, b) => {
+  const feeA = extractHighestFee(a.feeRange);
+  const feeB = extractHighestFee(b.feeRange);
+  return feeB - feeA; // Descending order (high to low)
+});
 
 const FEATURED_CITIES = [
   {

@@ -165,7 +165,6 @@ SiteHeader, SiteFooter
 - [ ] SEO foundations: sitemap.xml, robots.txt, JSON-LD on all pages, OG tags
 - [ ] GA4 script injection
 - [ ] "Suggest a correction" form on school profiles
-- [ ] Connect custom domain (international-schools-guide.com)
 
 ### Priority 2 — Do Soon
 - [ ] Wire Neon database to pages (replace hardcoded data)
@@ -175,6 +174,7 @@ SiteHeader, SiteFooter
 - [ ] Proper search functionality
 
 ### Priority 3 — Do Later
+- [ ] Connect custom domain (international-schools-guide.com) — **deferred until Jakarta is complete**
 - [ ] i18n routing middleware + translation pipeline
 - [ ] User shortlisting (localStorage first, auth later)
 - [ ] "From the School" pages (separate page, only when school has engaged)
@@ -218,6 +218,7 @@ SiteHeader, SiteFooter
 | Feb 2026 | No tabs on school profiles | All content in HTML, scroll-accessible, fully indexed |
 | Feb 2026 | Comparison via URL params | Shareable without login, SEO surface |
 | Feb 2026 | USD default currency | Target audience is expats, toggle to persist via localStorage |
+| Feb 2026 | Defer custom domain connection | Wait until Jakarta is built out and complete before connecting international-schools-guide.com |
 
 ---
 

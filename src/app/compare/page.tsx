@@ -1,11 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
-
-// ═══════════════════════════════════════════════════════
-// HARDCODED COMPARISON DATA — wire to DB later
-// ═══════════════════════════════════════════════════════
+import { extractHighestFee } from "@/lib/utils/fees";
+import { JAKARTA_SCHOOLS } from "@/data/jakarta-schools";
 
 interface CompareSchool {
   slug: string;
@@ -20,7 +18,7 @@ interface CompareSchool {
   studentCount: string;
   nationalities: string;
   feeRange: string;
-  feeFromUSD: number; // for sorting
+  feeFromUSD: number;
   examResults: { label: string; value: string }[];
   accreditation: string;
   facilities: string[];
@@ -28,213 +26,48 @@ interface CompareSchool {
   editorialVerdict: string;
 }
 
-const ALL_SCHOOLS: CompareSchool[] = [
-  {
-    slug: "jakarta-intercultural-school",
-    name: "Jakarta Intercultural School",
-    shortName: "JIS",
-    verified: true,
-    area: "South Jakarta (Cilandak)",
-    founded: "1951",
-    type: "Non-profit, Co-ed",
-    curricula: ["IB PYP", "IB MYP", "IB DP", "AP"],
-    ageRange: "3–18",
-    studentCount: "2,500+",
-    nationalities: "60+",
-    feeRange: "US$17K – US$36K",
-    feeFromUSD: 17000,
-    examResults: [
-      { label: "IB Average", value: "35.8" },
-      { label: "IB Pass Rate", value: "97.5%" },
-    ],
-    accreditation: "CIS / WASC",
-    facilities: ["Olympic pool", "800-seat theatre", "3 gyms", "2 libraries"],
-    classSize: "18–20",
-    editorialVerdict: "Safe, solid choice if your company is paying. Huge breadth of activities and strong university placements.",
-  },
-  {
-    slug: "british-school-jakarta",
-    name: "British School Jakarta",
-    shortName: "BSJ",
-    verified: true,
-    area: "South Jakarta (Bintaro)",
-    founded: "1974",
-    type: "Non-profit, Co-ed",
-    curricula: ["English National", "IGCSE", "A-Levels"],
-    ageRange: "3–18",
-    studentCount: "1,800+",
-    nationalities: "50+",
-    feeRange: "US$18K – US$32K",
-    feeFromUSD: 18000,
-    examResults: [
-      { label: "A*–A at A-Level", value: "62%" },
-      { label: "9–7 at IGCSE", value: "58%" },
-    ],
-    accreditation: "BSO / CIS",
-    facilities: ["25m pool", "Performing arts centre", "2 gyms", "Science labs"],
-    classSize: "20–22",
-    editorialVerdict: "Strongest British option in Jakarta. Modern campus, strong expat community. Popular with British and European families.",
-  },
-  {
-    slug: "australian-independent-school-jakarta",
-    name: "Australian Independent School Jakarta",
-    shortName: "AIS",
-    verified: false,
-    area: "South Jakarta (Kemang)",
-    founded: "1996",
-    type: "For-profit, Co-ed",
-    curricula: ["Australian", "IB DP"],
-    ageRange: "3–18",
-    studentCount: "900+",
-    nationalities: "40+",
-    feeRange: "US$12K – US$22K",
-    feeFromUSD: 12000,
-    examResults: [
-      { label: "IB Average", value: "33.5" },
-    ],
-    accreditation: "NEASC",
-    facilities: ["Pool", "Sports hall", "Library", "Science labs"],
-    classSize: "16–20",
-    editorialVerdict: "Smaller and more personal. Strong community feel and good value relative to the top tier.",
-  },
-  {
-    slug: "mentari-intercultural-school-jakarta",
-    name: "Mentari Intercultural School Jakarta",
-    shortName: "Mentari",
-    verified: false,
-    area: "South Jakarta (Pondok Indah)",
-    founded: "2004",
-    type: "For-profit, Co-ed",
-    curricula: ["IB PYP", "IB MYP", "IB DP"],
-    ageRange: "3–18",
-    studentCount: "600+",
-    nationalities: "35+",
-    feeRange: "US$8K – US$16K",
-    feeFromUSD: 8000,
-    examResults: [
-      { label: "IB Average", value: "32.1" },
-      { label: "IB Pass Rate", value: "95%" },
-    ],
-    accreditation: "CIS",
-    facilities: ["Pool", "Gym", "Library", "Art studios"],
-    classSize: "14–18",
-    editorialVerdict: "Punches above its weight. Best value IB option in South Jakarta. Smaller classes, attentive staff.",
-  },
-  {
-    slug: "acg-school-jakarta",
-    name: "ACG School Jakarta",
-    shortName: "ACG",
-    verified: false,
-    area: "South Jakarta",
-    founded: "2014",
-    type: "For-profit (Inspired Group), Co-ed",
-    curricula: ["IB PYP", "IB MYP", "IB DP"],
-    ageRange: "3–18",
-    studentCount: "400+",
-    nationalities: "30+",
-    feeRange: "US$14K – US$24K",
-    feeFromUSD: 14000,
-    examResults: [
-      { label: "IB Average", value: "34.0" },
-      { label: "IB Pass Rate", value: "96%" },
-    ],
-    accreditation: "CIS",
-    facilities: ["Pool", "Sports centre", "Library", "STEAM labs"],
-    classSize: "16–20",
-    editorialVerdict: "Modern campus, growing reputation. Investing heavily in facilities. Worth watching.",
-  },
-  {
-    slug: "sekolah-pelita-harapan",
-    name: "Sekolah Pelita Harapan",
-    shortName: "SPH",
-    verified: false,
-    area: "West Jakarta (Lippo Village)",
-    founded: "1993",
-    type: "Non-profit (Christian), Co-ed",
-    curricula: ["IB PYP", "IB MYP", "IB DP"],
-    ageRange: "3–18",
-    studentCount: "2,000+",
-    nationalities: "20+",
-    feeRange: "US$6K – US$14K",
-    feeFromUSD: 6000,
-    examResults: [
-      { label: "IB Average", value: "31.4" },
-      { label: "IB Pass Rate", value: "92%" },
-    ],
-    accreditation: "ACSI / IBO",
-    facilities: ["Pool", "Auditorium", "Sports fields", "Chapel"],
-    classSize: "20–24",
-    editorialVerdict: "Largest Christian international school. Strong community and faith-based values. Very affordable.",
-  },
-  {
-    slug: "global-jaya-school",
-    name: "Global Jaya School",
-    shortName: "Global Jaya",
-    verified: false,
-    area: "South Tangerang (BSD)",
-    founded: "1996",
-    type: "Non-profit, Co-ed",
-    curricula: ["IB PYP", "IB MYP", "IB DP"],
-    ageRange: "3–18",
-    studentCount: "800+",
-    nationalities: "25+",
-    feeRange: "US$6K – US$12K",
-    feeFromUSD: 6000,
-    examResults: [
-      { label: "IB Average", value: "30.8" },
-      { label: "IB Pass Rate", value: "90%" },
-    ],
-    accreditation: "CIS / IBO",
-    facilities: ["Pool", "Sports hall", "Library", "Science labs"],
-    classSize: "18–22",
-    editorialVerdict: "Solid IB school in BSD. Good value, genuine international atmosphere. Commute from central Jakarta is the trade-off.",
-  },
-  {
-    slug: "binus-school-serpong",
-    name: "Binus School Serpong",
-    shortName: "Binus",
-    verified: false,
-    area: "South Tangerang",
-    founded: "2007",
-    type: "For-profit, Co-ed",
-    curricula: ["Cambridge", "IGCSE", "A-Levels"],
-    ageRange: "3–18",
-    studentCount: "1,200+",
-    nationalities: "15+",
-    feeRange: "US$5K – US$10K",
-    feeFromUSD: 5000,
-    examResults: [
-      { label: "A*–A at IGCSE", value: "45%" },
-      { label: "A*–A at A-Level", value: "40%" },
-    ],
-    accreditation: "Cambridge International",
-    facilities: ["Sports hall", "Library", "IT labs", "Science labs"],
-    classSize: "22–26",
-    editorialVerdict: "Strong in STEM. Cambridge curriculum, competitive fees. Predominantly Indonesian with growing international intake.",
-  },
-  {
-    slug: "independent-school-of-jakarta",
-    name: "The Independent School of Jakarta",
-    shortName: "ISJ",
-    verified: true,
-    area: "South Jakarta (Pondok Pinang)",
-    founded: "2018",
-    type: "For-profit, Co-ed",
-    curricula: ["British Curriculum", "IGCSEs", "A-Levels"],
-    ageRange: "2–13",
-    studentCount: "200",
-    nationalities: "30+",
-    feeRange: "US$9.2K – US$30K",
-    feeFromUSD: 9200,
-    examResults: [
-      { label: "Class Size", value: "Max 16" },
-    ],
-    accreditation: "COBIS, BSO, IAPS",
-    facilities: ["Pool", "Football pitch", "Playground", "Science labs", "Art spaces", "Green grounds"],
-    classSize: "Up to 16",
-    editorialVerdict: "Small British prep school (ages 2–13) with UK-recruited staff, class sizes capped at 16, and strong pastoral care. Part of The Schools Trust. Families need a senior school plan from Year 8.",
-  },
-];
+const SHORT_NAMES: Record<string, string> = {
+  "jakarta-intercultural-school": "JIS",
+  "british-school-jakarta": "BSJ",
+  "australian-independent-school-jakarta": "AIS",
+  "mentari-intercultural-school-jakarta": "Mentari",
+  "acg-school-jakarta": "ACG",
+  "sekolah-pelita-harapan": "SPH",
+  "global-jaya-school": "Global Jaya",
+  "binus-school-serpong": "Binus",
+  "independent-school-of-jakarta": "ISJ",
+  "sinarmas-world-academy": "SWA",
+  "nord-anglia-school-jakarta": "NAS Jakarta",
+  "new-zealand-school-jakarta": "NZSJ",
+  "jakarta-nanyang-school": "JNY",
+};
+
+function toCompareSchool(s: (typeof JAKARTA_SCHOOLS)[0]): CompareSchool {
+  const shortName = SHORT_NAMES[s.slug] ?? s.name.split(" ").slice(0, 2).join(" ");
+  const highK = extractHighestFee(s.feeRange);
+  return {
+    slug: s.slug,
+    name: s.name,
+    shortName,
+    verified: s.verified,
+    area: s.area,
+    founded: "",
+    type: "Co-ed",
+    curricula: s.curricula,
+    ageRange: s.ageRange,
+    studentCount: s.studentCount,
+    nationalities: "",
+    feeRange: s.feeRange,
+    feeFromUSD: highK * 1000,
+    examResults: s.examResults,
+    accreditation: "",
+    facilities: [],
+    classSize: "",
+    editorialVerdict: s.editorialSummary,
+  };
+}
+
+const ALL_SCHOOLS: CompareSchool[] = JAKARTA_SCHOOLS.map(toCompareSchool);
 
 // Comparison rows definition
 const COMPARE_ROWS: { key: string; label: string; render: (s: CompareSchool) => string }[] = [
@@ -258,8 +91,17 @@ export default function ComparePage() {
   const [mobileIndex, setMobileIndex] = useState(0);
   const [showPicker, setShowPicker] = useState(true);
 
+  // Sort schools by highest fee (descending) - default sort order
+  const sortedSchools = useMemo(() => {
+    return [...ALL_SCHOOLS].sort((a, b) => {
+      const feeA = extractHighestFee(a.feeRange);
+      const feeB = extractHighestFee(b.feeRange);
+      return feeB - feeA; // Descending order (high to low)
+    });
+  }, []);
+
   const selectedSchools = selected
-    .map((slug) => ALL_SCHOOLS.find((s) => s.slug === slug)!)
+    .map((slug) => sortedSchools.find((s) => s.slug === slug)!)
     .filter(Boolean);
 
   const toggleSchool = (slug: string) => {
@@ -316,7 +158,7 @@ export default function ComparePage() {
             )}
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            {ALL_SCHOOLS.map((school) => {
+            {sortedSchools.map((school) => {
               const isSelected = selected.includes(school.slug);
               const isDisabled = !isSelected && selected.length >= 4;
               return (

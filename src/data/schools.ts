@@ -4,6 +4,9 @@
 // When we wire the DB, each field here becomes a column query.
 // ═══════════════════════════════════════════════════════
 
+import { JAKARTA_SCHOOLS, type JakartaSchoolListing } from "@/data/jakarta-schools";
+import { extractHighestFee } from "@/lib/utils/fees";
+
 export const EXCHANGE_RATE = 16_800; // IDR per USD
 export const EXCHANGE_RATE_DATE = "19 Feb 2026";
 
@@ -691,7 +694,7 @@ const isj: SchoolProfile = {
     { value: "200", label: "Students" },
     { value: "2–13", label: "Age Range" },
     { value: "30+", label: "Nationalities" },
-    { value: "US$9K – US$30K", label: "Annual Fees" },
+    { value: "US$10K – US$32K", label: "Annual Fees" },
   ],
 
   head: {
@@ -732,21 +735,26 @@ const isj: SchoolProfile = {
   },
 
   fees: {
-    academicYear: "2025–2026",
+    academicYear: "2026–2027",
     feeCurrency: "IDR",
     rows: [
-      { gradeLevel: "Nursery (Age 2–3)", ages: "2–3 years", tuition: 155_000_000, capital: 44_730_000, totalEarlyBird: 212_630_000, totalStandard: 212_630_000 },
-      { gradeLevel: "Reception (Age 3–4)", ages: "3–4 years", tuition: 200_000_000, capital: 44_730_000, totalEarlyBird: 257_630_000, totalStandard: 257_630_000 },
-      { gradeLevel: "Years 1–2 (Ages 5–7)", ages: "5–7 years", tuition: 280_000_000, capital: 44_730_000, totalEarlyBird: 337_630_000, totalStandard: 337_630_000 },
-      { gradeLevel: "Years 3–6 (Ages 7–11)", ages: "7–11 years", tuition: 350_000_000, capital: 44_730_000, totalEarlyBird: 407_630_000, totalStandard: 407_630_000 },
-      { gradeLevel: "Years 7–8 (Ages 11–13)", ages: "11–13 years", tuition: 400_000_000, capital: 44_730_000, totalEarlyBird: 457_630_000, totalStandard: 457_630_000 },
+      { gradeLevel: "Pre-Nursery (Age 2–3)", ages: "2–3 years", tuition: 148_524_000, capital: 0, totalEarlyBird: 148_524_000, totalStandard: 148_524_000 },
+      { gradeLevel: "Nursery (Age 3–4)", ages: "3–4 years", tuition: 226_148_000, capital: 0, totalEarlyBird: 226_148_000, totalStandard: 226_148_000 },
+      { gradeLevel: "Reception (Age 4–5)", ages: "4–5 years", tuition: 332_737_600, capital: 0, totalEarlyBird: 332_737_600, totalStandard: 332_737_600 },
+      { gradeLevel: "Year 1 (Age 5–6)", ages: "5–6 years", tuition: 419_702_400, capital: 0, totalEarlyBird: 419_702_400, totalStandard: 419_702_400 },
+      { gradeLevel: "Year 2 (Age 6–7)", ages: "6–7 years", tuition: 419_702_400, capital: 0, totalEarlyBird: 419_702_400, totalStandard: 419_702_400 },
+      { gradeLevel: "Year 3 (Age 7–8)", ages: "7–8 years", tuition: 437_819_200, capital: 0, totalEarlyBird: 437_819_200, totalStandard: 437_819_200 },
+      { gradeLevel: "Year 4 (Age 8–9)", ages: "8–9 years", tuition: 437_819_200, capital: 0, totalEarlyBird: 437_819_200, totalStandard: 437_819_200 },
+      { gradeLevel: "Year 5 (Age 9–10)", ages: "9–10 years", tuition: 464_984_000, capital: 0, totalEarlyBird: 464_984_000, totalStandard: 464_984_000 },
+      { gradeLevel: "Year 6 (Age 10–11)", ages: "10–11 years", tuition: 464_984_000, capital: 0, totalEarlyBird: 464_984_000, totalStandard: 464_984_000 },
+      { gradeLevel: "Year 7 (Age 11–12)", ages: "11–12 years", tuition: 484_733_600, capital: 0, totalEarlyBird: 484_733_600, totalStandard: 484_733_600 },
+      { gradeLevel: "Year 8 (Age 12–13)", ages: "12–13 years", tuition: 484_733_600, capital: 0, totalEarlyBird: 484_733_600, totalStandard: 484_733_600 },
     ],
     oneTime: [
-      { name: "Application Fee", amount: 3_000_000 },
-      { name: "Refundable Enrolment Deposit", amount: 7_500_000 },
-      { name: "Materials Fee (annual)", amount: 12_900_000, note: "Non-refundable" },
+      { name: "Application Fee", amount: 4_680_000, note: "Non-refundable, payable upon submission" },
+      { name: "Enrolment Deposit", amount: 16_328_000, note: "Refundable when leaving ISJ, subject to 90 days written notice" },
     ],
-    note: "Tuition fees are estimated ranges — ISJ does not publish full fee schedules publicly. Capital contribution of IDR 44.7M per year is confirmed. Sibling discounts: 5% (third child), 10% (fourth child), 15% (fifth+). Fees do not include uniform, lunch, transport, or excursions. Contact admissions for the detailed schedule.",
+    note: "Annual tuition fees include teaching and learning, classroom materials and resources, and capital contribution. Fees are reviewed annually. Per-term payment arrangements may be agreed upon request. Sibling discounts: 5% (third child), 10% (fourth child), 15% (fifth+). Compulsory additional fees apply for lunch and trips & events (payable annually or termly). Fees do not include uniform, transport, optional co-curricular clubs, wraparound care, or individual music lessons.",
   },
 
   academics: {
@@ -804,7 +812,7 @@ const isj: SchoolProfile = {
       { label: "Nationalities", value: "30+" },
       { label: "Class Size", value: "Max 15/20" },
       { label: "Accreditation", value: "BSO (in progress)" },
-      { label: "Fees", value: "US$9K – $30K" },
+      { label: "Fees", value: "US$10K – $32K" },
     ],
     otherSchools: [
       { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$18K – $32K / year" },
@@ -988,6 +996,1871 @@ const mentari: SchoolProfile = {
 };
 
 // ═══════════════════════════════════════════════════════
+// AUSTRALIAN INDEPENDENT SCHOOL JAKARTA (AIS)
+// ═══════════════════════════════════════════════════════
+
+const ais: SchoolProfile = {
+  slug: "australian-independent-school-jakarta",
+  citySlug: "jakarta",
+  name: "Australian Independent School Jakarta",
+  shortName: "AIS",
+  verified: false,
+
+  metaTitle: "Australian Independent School Jakarta (AIS) — Fees, IB Results & Review",
+  metaDescription:
+    "Australian Independent School Jakarta profile — fees from US$12K–US$22K/year, Australian curriculum + IB Diploma, 900+ students, 40+ nationalities. Editorial review for expat parents.",
+
+  campuses: [
+    {
+      name: "Pejaten Campus",
+      address: "Jl. Pejaten Barat No. 68, Pejaten, Pasar Minggu, Jakarta Selatan 12510",
+      grades: "Preschool – Year 12",
+      lat: -6.2808,
+      lng: 106.8208,
+    },
+  ],
+  lastUpdated: "February 2026",
+  curricula: ["Australian Curriculum", "IB Diploma"],
+  stats: [
+    { value: "900+", label: "Students" },
+    { value: "3–18", label: "Age Range" },
+    { value: "40+", label: "Nationalities" },
+    { value: "US$12K – US$22K", label: "Annual Fees" },
+  ],
+
+  head: {
+    name: "School Leadership Team",
+    since: 2020,
+    bio: "AIS Jakarta is led by an experienced leadership team with strong backgrounds in Australian and international education. The school's inclusive philosophy guides its approach to teaching and learning.",
+  },
+
+  photoAlts: [
+    "AIS Pejaten campus entrance",
+    "Swimming pool and sports facilities",
+    "Classroom with students",
+    "Library and learning spaces",
+  ],
+
+  intelligence: {
+    verdict:
+      "If you want a smaller, more personal school with Australian curriculum and your budget sits in the mid-range, AIS is worth a look. The inclusive approach suits families who value community over competition. Just don't expect the facilities or breadth of the top-tier schools.",
+    paragraphs: [
+      "The word among expat families is that AIS is the school you discover when you've toured JIS and BSJ and realised you need something smaller and more affordable. Founded in 1996, it's been around long enough to have credibility but hasn't grown into a 2,000-student operation. At 900 students, it sits in that middle ground - big enough to offer IB Diploma and decent facilities, small enough that parents say teachers know their children.",
+      "What comes up again and again is the inclusive philosophy. AIS was founded specifically to support students with learning difficulties, limited English, and physical disabilities. That means EAL support is genuinely integrated, not an add-on. Parents of children who need extra help say the school delivers on its promise. The flip side is that some families worry about academic rigour - if you're targeting Ivy League or Oxbridge, you'll want to ask about individual IB results and university placements.",
+      "The Pejaten campus moved to a new purpose-built site in 2022. It's modern and functional, but it's not 45 acres with Olympic pools and 750-seat theatres. Fees run US$12K to US$22K - roughly half what JIS charges. For self-funding families who want Australian curriculum with an IB exit, that's compelling. Just don't expect the breadth of activities or sporting fixtures that the bigger schools offer.",
+    ],
+    positives: [
+      "At 900 students, AIS is smaller than JIS or BSJ. Parents say the community feel is real - teachers know children by name, and the school culture values effort alongside results.",
+      "The inclusive philosophy means EAL and learning support are genuinely integrated, not afterthoughts. Parents of children who need extra help say the school delivers on its promise.",
+      "Australian curriculum through Year 10, then IB Diploma in Years 11-12. That combination gives students a structured foundation with an internationally recognised exit qualification.",
+      "Fees at US$12K to US$22K are roughly half what JIS charges. For self-funding families, that's a significant difference without feeling like you're compromising on curriculum quality.",
+      "The Pejaten location in South Jakarta is accessible from Kemang, Pondok Indah, and surrounding areas. Traffic is manageable compared to schools further south.",
+    ],
+    considerations: [
+      "The IB Diploma average of 33.5 is below JIS (35.8) and BSJ. If you're targeting top-tier universities, ask about individual subject scores and where graduates actually end up.",
+      "At 900 students, extracurricular options are more limited than the bigger schools. Fewer sporting teams, fewer clubs, and narrower social circles. Children who thrive in bigger, busier environments may find it too quiet.",
+      "The inclusive approach means the student body includes children with a wide range of needs. Some parents worry this affects academic rigour, though the school maintains it doesn't.",
+      "Facilities are modern and functional but not showpiece. Don't expect Olympic pools, professional theatres, or sprawling grounds. The money goes into teaching rather than facilities.",
+      "AIS doesn't publish detailed fee schedules, exam results, or leadership team profiles as openly as competitors. You'll need to contact admissions directly for specifics.",
+    ],
+  },
+
+  fees: {
+    academicYear: "2025–2026",
+    feeCurrency: "IDR",
+    rows: [
+      { gradeLevel: "Preschool (Ages 3–5)", ages: "3–5 years", tuition: 120_000_000, capital: 0, totalEarlyBird: 120_000_000, totalStandard: 120_000_000 },
+      { gradeLevel: "Primary (Years 1–6)", ages: "5–11 years", tuition: 180_000_000, capital: 0, totalEarlyBird: 180_000_000, totalStandard: 180_000_000 },
+      { gradeLevel: "Secondary (Years 7–10)", ages: "11–15 years", tuition: 240_000_000, capital: 0, totalEarlyBird: 240_000_000, totalStandard: 240_000_000 },
+      { gradeLevel: "IB Diploma (Years 11–12)", ages: "15–18 years", tuition: 280_000_000, capital: 0, totalEarlyBird: 280_000_000, totalStandard: 280_000_000 },
+    ],
+    oneTime: [
+      { name: "Application Fee", amount: 5_000_000 },
+      { name: "Enrolment Fee", amount: 15_000_000, note: "One-time, new students" },
+    ],
+    note: "Fee ranges shown are approximate annual tuition. AIS publishes separate fee schedules for mainstream students, EAL students, and learning support students. Fees are payable termly. Contact admissions for the detailed 2025–2026 fee schedule including all one-time fees and payment options.",
+  },
+
+  academics: {
+    results: [
+      { value: "33.5", label: "IB Average" },
+      { value: "Above world avg", label: "IB Performance" },
+    ],
+    paragraphs: [
+      "AIS offers the Australian Curriculum from Preschool through Year 10, transitioning to the IB Diploma Programme in Years 11–12. The Australian curriculum emphasises inquiry-based learning, strong communication skills, and problem-solving abilities.",
+      "The IB Diploma average of 33.5 sits above the world average of 31.98, though below Jakarta's top-tier schools. The school reports that IB students consistently perform well, with strong university placements. Detailed subject-level results and university destination data are not publicly available.",
+      "Class sizes average 16–20 students. EAL support and learning enrichment programmes are integrated throughout. The school's inclusive philosophy means students with a wide range of needs are supported within mainstream classes.",
+    ],
+  },
+
+  studentBody: {
+    paragraphs: [
+      "AIS serves 900+ students from 40+ nationalities. The school's inclusive philosophy means it welcomes students with learning difficulties, limited English proficiency, and physical disabilities alongside mainstream students. The student body is diverse, with a significant proportion of Indonesian families alongside expat communities.",
+      "The community atmosphere is frequently noted by parents. At its scale, AIS occupies a middle ground - large enough to offer breadth in curriculum and activities, small enough that children aren't anonymous. The school culture values effort alongside results, and parents say the inclusive approach creates a supportive rather than competitive environment.",
+    ],
+  },
+
+  schoolLife: {
+    activitiesCount: 50,
+    uniformRequired: true,
+    facilities: [
+      "Swimming pool",
+      "Sports hall",
+      "Football field",
+      "Basketball courts",
+      "Library",
+      "Science laboratories",
+      "Computer labs",
+      "Art studios",
+      "Music rooms",
+      "Multi-purpose halls",
+    ],
+    paragraphs: [
+      "AIS runs a range of co-curricular activities including sports, arts, music, and academic clubs. The school participates in local and regional competitions, though the breadth of options is more limited than the larger schools.",
+      "Sports programmes include swimming, football, basketball, and athletics. The arts programme includes music, drama, and visual arts. Specific details of the full extracurricular programme are not publicly listed - parents should ask during school visits.",
+      "The school's inclusive ethos extends to its activities - the emphasis is on participation and community engagement rather than elite competition. This suits families looking for a well-rounded experience over a hyper-competitive environment.",
+    ],
+  },
+
+  contact: {
+    phone: "+62 21 782 1141",
+    email: "admissions@ais-indonesia.com",
+    website: "https://www.ais-indonesia.com",
+  },
+
+  sidebar: {
+    quickFacts: [
+      { label: "Founded", value: "1996" },
+      { label: "Type", value: "For-profit, Co-ed" },
+      { label: "Curriculum", value: "Australian + IB DP" },
+      { label: "Students", value: "900+" },
+      { label: "Ages", value: "3–18" },
+      { label: "Nationalities", value: "40+" },
+      { label: "IB Average", value: "33.5" },
+      { label: "Accreditation", value: "NEASC" },
+      { label: "Fees", value: "US$12K – $22K" },
+    ],
+    otherSchools: [
+      { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$8K – $16K / year" },
+      { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$18K – $32K / year" },
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$17K – $36K / year" },
+    ],
+    relatedInsights: [
+      { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
+      { title: "Australian Curriculum Schools in Southeast Asia", slug: "australian-curriculum-schools-southeast-asia", readTime: "8 min read" },
+    ],
+  },
+
+  jsonLd: {
+    description: "Co-educational international school established in 1996 offering Australian Curriculum and IB Diploma Programme. Inclusive education philosophy.",
+    foundingDate: "1996",
+    numberOfStudents: "900",
+  },
+};
+
+// ═══════════════════════════════════════════════════════
+// SEKOLAH PELITA HARAPAN (SPH)
+// ═══════════════════════════════════════════════════════
+
+const sph: SchoolProfile = {
+  slug: "sekolah-pelita-harapan",
+  citySlug: "jakarta",
+  name: "Sekolah Pelita Harapan",
+  shortName: "SPH",
+  verified: false,
+
+  metaTitle: "Sekolah Pelita Harapan (SPH) Jakarta — Fees, IB Results & Review",
+  metaDescription:
+    "Sekolah Pelita Harapan profile — fees from US$6K–US$14K/year, full IB continuum, 2,000+ students, Christian values. Largest Christian international school in Jakarta. Editorial review.",
+
+  campuses: [
+    {
+      name: "Lippo Village Campus",
+      address: "Lippo Village, Tangerang, Banten",
+      grades: "Pre-Kindergarten – Grade 12",
+      lat: -6.2406,
+      lng: 106.6103,
+    },
+  ],
+  lastUpdated: "February 2026",
+  curricula: ["IB PYP", "IB MYP", "IB Diploma"],
+  stats: [
+    { value: "2,000+", label: "Students" },
+    { value: "3–18", label: "Age Range" },
+    { value: "20+", label: "Nationalities" },
+    { value: "US$6K – US$14K", label: "Annual Fees" },
+  ],
+
+  head: {
+    name: "School Leadership Team",
+    since: 2020,
+    bio: "SPH is led by an experienced leadership team committed to Christian values and academic excellence. The school has been serving the Jakarta community for over 30 years.",
+  },
+
+  photoAlts: [
+    "SPH Lippo Village campus",
+    "Chapel and auditorium",
+    "Sports facilities",
+    "Classroom learning",
+  ],
+
+  intelligence: {
+    verdict:
+      "If you want a Christian school with full IB continuum at fees that won't break the bank, SPH is the obvious choice. The community is strong and the values are clear. Just know that faith is central to everything - if that's not your thing, look elsewhere.",
+    paragraphs: [
+      "The word among expat families is that SPH is where Christian families go when they want IB education without JIS prices. Founded in 1993, it's grown into the largest Christian international school in Jakarta with multiple campuses across the city. The main Lippo Village campus serves 2,000+ students from Pre-K through Grade 12, all following the full IB continuum.",
+      "What comes up again and again is the community. Parents say the Christian values create a sense of belonging that secular schools can't match. Chapel services, Bible study, and faith-based character education are woven into daily life. The flip side is that if you're not Christian or comfortable with faith being central, this isn't the school for you. The student body is predominantly Indonesian Christian families, with a smaller expat community.",
+      "Fees run US$6K to US$14K - significantly more affordable than the top-tier schools. The IB Diploma average of 31.4 is below JIS or BSJ, but the 92% pass rate suggests solid, consistent teaching. Facilities are functional rather than showpiece. If you're self-funding and faith matters, SPH offers genuine value. If you're targeting Ivy League or Oxbridge, you'll want to ask about individual results and university placements.",
+    ],
+    positives: [
+      "Full IB continuum (PYP, MYP, DP) at fees roughly a third of what JIS charges. For self-funding families, that's compelling.",
+      "The Christian community is strong. Parents say the values-based approach creates a sense of belonging that secular schools can't match.",
+      "At 2,000+ students across multiple campuses, SPH has scale. Facilities are functional, and the school has been running long enough to have credibility.",
+      "The IB Diploma pass rate of 92% suggests solid, consistent teaching across the cohort. The school has been running the full IB continuum for long enough to have a mature approach.",
+      "Lippo Village is a planned community with good infrastructure. Families who live there find the location convenient.",
+    ],
+    considerations: [
+      "Faith is central to everything. Chapel services, Bible study, and Christian values are woven into daily life. If that's not your thing, this isn't the school for you.",
+      "The IB Diploma average of 31.4 is below the top-tier schools. If you're targeting Ivy League or Oxbridge, ask about individual subject scores and where graduates actually end up.",
+      "The student body is predominantly Indonesian Christian families. The expat community is smaller than at JIS or BSJ. If you want a more international mix, this might not fit.",
+      "Lippo Village is in Tangerang, west of Jakarta. If you're in South Jakarta or central Jakarta, you're looking at a long commute. Traffic can be heavy.",
+      "SPH doesn't publish detailed fee schedules, exam results, or leadership team profiles as openly as competitors. You'll need to contact admissions directly for specifics.",
+    ],
+  },
+
+  fees: {
+    academicYear: "2026–2027",
+    feeCurrency: "IDR",
+    rows: [
+      { gradeLevel: "Early Childhood (Ages 3–5)", ages: "3–5 years", tuition: 35_000_000, capital: 56_500_000, totalEarlyBird: 91_500_000, totalStandard: 91_500_000 },
+      { gradeLevel: "Primary (Grades 1–6)", ages: "5–11 years", tuition: 214_000_000, capital: 214_200_000, totalEarlyBird: 428_200_000, totalStandard: 428_200_000 },
+      { gradeLevel: "Middle School (Grades 7–10)", ages: "11–15 years", tuition: 284_000_000, capital: 0, totalEarlyBird: 284_000_000, totalStandard: 284_000_000 },
+      { gradeLevel: "High School IB DP (Grades 11–12)", ages: "15–18 years", tuition: 384_000_000, capital: 0, totalEarlyBird: 384_000_000, totalStandard: 384_000_000 },
+    ],
+    oneTime: [
+      { name: "Application Fee", amount: 3_000_000, note: "Non-refundable" },
+      { name: "Application Fee (Sibling)", amount: 1_500_000, note: "Non-refundable" },
+      { name: "Annual Development Fee (DPP)", amount: 56_500_000, note: "One-time, varies by grade level" },
+    ],
+    note: "Fee structure includes Annual Development Fee (DPP) which is a one-time payment, and Annual Tuition Fee (SPP). Multi-year DPP discounts available. Tuition covers field trips, retreats, learning support, lab equipment, art supplies, and extracurricular activities. Contact admissions for the detailed 2026–2027 fee schedule.",
+  },
+
+  academics: {
+    results: [
+      { value: "31.4", label: "IB Average" },
+      { value: "92%", label: "IB Pass Rate" },
+    ],
+    paragraphs: [
+      "SPH offers the full IB continuum - Primary Years Programme (PYP) from K1 through Grade 6, Middle Years Programme (MYP) in Grades 7–10, and the IB Diploma Programme in Grades 11–12. The school is authorised for all three IB programmes.",
+      "The IB Diploma average of 31.4 and pass rate of 92% represent solid performance - above the global IB average though below Jakarta's top-tier schools. The school integrates Christian values throughout the curriculum, with Bible study and character education woven into daily learning.",
+      "Class sizes average 20–24 students. The school serves a wide ability range, with learning support available. The Christian philosophy emphasises character development alongside academic achievement.",
+    ],
+  },
+
+  studentBody: {
+    paragraphs: [
+      "SPH serves 2,000+ students from 20+ nationalities across its campuses. The student body is predominantly Indonesian Christian families, with a smaller expat community. The school's Christian identity is central - families choose SPH specifically for the faith-based values.",
+      "The community atmosphere is frequently noted by parents. The Christian values create a sense of belonging, and parents say the school culture takes character development seriously. The multi-campus structure means families can choose the location that works best for them.",
+    ],
+  },
+
+  schoolLife: {
+    activitiesCount: 60,
+    uniformRequired: true,
+    facilities: [
+      "Swimming pool",
+      "Auditorium",
+      "Chapel",
+      "Sports fields",
+      "Basketball courts",
+      "Library",
+      "Science laboratories",
+      "Computer labs",
+      "Art studios",
+      "Music rooms",
+      "Multi-purpose halls",
+    ],
+    paragraphs: [
+      "SPH runs a range of co-curricular activities including sports, arts, music, and academic clubs. The school's Christian identity is reflected in activities like chapel services, Bible study groups, and community service initiatives.",
+      "Sports programmes include swimming, football, basketball, volleyball, and athletics. The arts programme includes music, drama, and visual arts. The school participates in local and regional competitions.",
+      "The school's faith-based approach extends to its activities - the emphasis is on character development, community service, and values education alongside academic and sporting achievement.",
+    ],
+  },
+
+  contact: {
+    phone: "+62 21 546 0233",
+    email: "admissions@sph.edu",
+    website: "https://www.sph.edu",
+  },
+
+  sidebar: {
+    quickFacts: [
+      { label: "Founded", value: "1993" },
+      { label: "Type", value: "Non-profit (Christian), Co-ed" },
+      { label: "Curriculum", value: "Full IB (PYP/MYP/DP)" },
+      { label: "Students", value: "2,000+" },
+      { label: "Ages", value: "3–18" },
+      { label: "Nationalities", value: "20+" },
+      { label: "IB Average", value: "31.4" },
+      { label: "Accreditation", value: "ACSI / IBO" },
+      { label: "Fees", value: "US$6K – $14K" },
+    ],
+    otherSchools: [
+      { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$8K – $16K / year" },
+      { name: "Global Jaya School", slug: "global-jaya-school", meta: "IB · Ages 3–18 · BSD", feeRange: "US$6K – $12K / year" },
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$17K – $36K / year" },
+    ],
+    relatedInsights: [
+      { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
+      { title: "Faith-Based International Schools: What Parents Need to Know", slug: "faith-based-international-schools", readTime: "6 min read" },
+    ],
+  },
+
+  jsonLd: {
+    description: "Christian co-educational international school established in 1993 offering full IB continuum (PYP, MYP, DP). Largest Christian international school in Jakarta.",
+    foundingDate: "1993",
+    numberOfStudents: "2000",
+  },
+};
+
+// ═══════════════════════════════════════════════════════
+// GLOBAL JAYA SCHOOL
+// ═══════════════════════════════════════════════════════
+
+const globalJaya: SchoolProfile = {
+  slug: "global-jaya-school",
+  citySlug: "jakarta",
+  name: "Global Jaya School",
+  shortName: "Global Jaya",
+  verified: false,
+
+  metaTitle: "Global Jaya School Jakarta — Fees, IB Results & Review",
+  metaDescription:
+    "Global Jaya School profile — fees from US$6K–US$12K/year, full IB continuum, 800+ students, BSD City. Good value IB school in South Tangerang. Editorial review.",
+
+  campuses: [
+    {
+      name: "Bintaro Jaya Campus",
+      address: "Emerald Boulevard, Bintaro Jaya Sektor IX, Tangerang Selatan 15224",
+      grades: "Early Years – Year 12",
+      lat: -6.2726,
+      lng: 106.7018,
+    },
+  ],
+  lastUpdated: "February 2026",
+  curricula: ["IB PYP", "IB MYP", "IB Diploma"],
+  stats: [
+    { value: "800+", label: "Students" },
+    { value: "3–18", label: "Age Range" },
+    { value: "25+", label: "Nationalities" },
+    { value: "US$6K – US$12K", label: "Annual Fees" },
+  ],
+
+  head: {
+    name: "School Leadership Team",
+    since: 2020,
+    bio: "Global Jaya School is led by an experienced leadership team committed to IB education and international-mindedness. The school has been serving the BSD City community since 1996.",
+  },
+
+  photoAlts: [
+    "Global Jaya School campus",
+    "Swimming pool and sports facilities",
+    "IB classroom learning",
+    "Library and study spaces",
+  ],
+
+  intelligence: {
+    verdict:
+      "If you're in BSD City and want full IB continuum at fees that won't break the bank, Global Jaya is a solid option. The commute from central Jakarta is the main trade-off, but for families already in the area, it makes sense.",
+    paragraphs: [
+      "The word among expat families is that Global Jaya is the school you consider if you're already in BSD City or planning to live there. Founded in 1996, it's been running the full IB continuum long enough to have credibility. At 800 students, it sits in that middle ground - big enough to offer decent facilities and activities, small enough that parents say it feels like a community.",
+      "What comes up again and again is the value. Fees run US$6K to US$12K - roughly a third of what JIS charges. The IB Diploma average of 30.8 is below the top-tier schools, but the 90% pass rate suggests solid, consistent teaching. Parents say the international atmosphere is genuine - 25+ nationalities, and the school culture values diversity and intercultural understanding.",
+      "The catch is location. BSD City is in South Tangerang, well south of central Jakarta. If you're in Menteng, Kuningan, or Kemang, you're looking at 60-90 minutes each way during rush hour. For families already in BSD or planning to live there, Global Jaya makes sense. For everyone else, the commute is a deal-breaker.",
+    ],
+    positives: [
+      "Full IB continuum (PYP, MYP, DP) at fees roughly a third of what JIS charges. For self-funding families, that's compelling.",
+      "The international atmosphere is genuine. With 25+ nationalities and a diverse student body, the intercultural mix is real.",
+      "The IB Diploma pass rate of 90% suggests solid, consistent teaching across the cohort. The school has been running the full IB continuum for long enough to have a mature approach.",
+      "BSD City is a planned community with good infrastructure. Families who live there find the location convenient and the area family-friendly.",
+      "At 800 students, Global Jaya is smaller than JIS or BSJ. Parents say the community feel is real - teachers know children by name.",
+    ],
+    considerations: [
+      "BSD City is in South Tangerang, well south of central Jakarta. If you're in Menteng, Kuningan, or Kemang, you're looking at 60-90 minutes each way during rush hour. The commute is a genuine trade-off.",
+      "The IB Diploma average of 30.8 is below the top-tier schools. If you're targeting Ivy League or Oxbridge, ask about individual subject scores and where graduates actually end up.",
+      "At 800 students, extracurricular options are more limited than the bigger schools. Fewer sporting teams, fewer clubs, and narrower social circles.",
+      "Facilities are functional but not showpiece. Don't expect Olympic pools, professional theatres, or sprawling grounds. The money goes into teaching rather than facilities.",
+      "Global Jaya doesn't publish detailed fee schedules, exam results, or leadership team profiles as openly as competitors. You'll need to contact admissions directly for specifics.",
+    ],
+  },
+
+  fees: {
+    academicYear: "2025–2026",
+    feeCurrency: "IDR",
+    rows: [
+      { gradeLevel: "Early Years (KG1–KG2)", ages: "3–5 years", tuition: 70_675_000, capital: 0, totalEarlyBird: 70_675_000, totalStandard: 70_675_000 },
+      { gradeLevel: "Primary (Grades 1–5)", ages: "5–11 years", tuition: 117_810_000, capital: 0, totalEarlyBird: 117_810_000, totalStandard: 117_810_000 },
+      { gradeLevel: "Middle Years (Grades 6–8)", ages: "11–14 years", tuition: 138_006_000, capital: 0, totalEarlyBird: 138_006_000, totalStandard: 138_006_000 },
+      { gradeLevel: "IB Diploma (Grades 9–11)", ages: "14–18 years", tuition: 164_945_000, capital: 0, totalEarlyBird: 164_945_000, totalStandard: 164_945_000 },
+    ],
+    oneTime: [
+      { name: "Application Fee", amount: 3_000_000 },
+      { name: "Enrolment Fee", amount: 10_000_000, note: "One-time, new students" },
+    ],
+    note: "Fee ranges shown are approximate annual tuition. Uniforms cost approximately IDR 800,000 for three sets. Textbooks, starter packs, and exam fees are included. Contact admissions for the detailed 2025–2026 fee schedule.",
+  },
+
+  academics: {
+    results: [
+      { value: "30.8", label: "IB Average" },
+      { value: "90%", label: "IB Pass Rate" },
+    ],
+    paragraphs: [
+      "Global Jaya School offers the full IB continuum - Primary Years Programme (PYP) from Early Years through Grade 5, Middle Years Programme (MYP) in Grades 6–10, and the IB Diploma Programme in Grades 11–12. The school is authorised for all three IB programmes.",
+      "The IB Diploma average of 30.8 and pass rate of 90% represent solid performance - around the global IB average though below Jakarta's top-tier schools. The school emphasises inquiry-based learning and international-mindedness throughout the curriculum.",
+      "Class sizes average 18–22 students. The school serves a wide ability range, with learning support available. The IB approach emphasises critical thinking, communication, and intercultural understanding.",
+    ],
+  },
+
+  studentBody: {
+    paragraphs: [
+      "Global Jaya serves 800+ students from 25+ nationalities. The school's international identity is central - the student body is diverse, with a mix of expat and Indonesian families. The school culture values intercultural understanding and global citizenship.",
+      "The community atmosphere is frequently noted by parents. At its scale, Global Jaya occupies a middle ground - large enough to offer breadth in curriculum and activities, small enough that children aren't anonymous. Parents say the international mix creates a genuine global learning environment.",
+    ],
+  },
+
+  schoolLife: {
+    activitiesCount: 40,
+    uniformRequired: true,
+    facilities: [
+      "Swimming pool",
+      "Sports hall",
+      "Football field",
+      "Basketball courts",
+      "Library",
+      "Science laboratories",
+      "Computer labs",
+      "Art studios",
+      "Music rooms",
+      "Multi-purpose halls",
+    ],
+    paragraphs: [
+      "Global Jaya runs a range of co-curricular activities including sports, arts, music, and academic clubs. The school participates in local and regional competitions, though the breadth of options is more limited than the larger schools.",
+      "Sports programmes include swimming, football, basketball, volleyball, and athletics. The arts programme includes music, drama, and visual arts. The school's IB approach emphasises service learning and community engagement.",
+      "The school's international identity extends to its activities - the emphasis is on intercultural understanding, global citizenship, and community service rather than elite competition.",
+    ],
+  },
+
+  contact: {
+    phone: "+62 21 745 7562",
+    email: "info@globaljaya.sch.id",
+    website: "https://www.globaljaya.sch.id",
+  },
+
+  sidebar: {
+    quickFacts: [
+      { label: "Founded", value: "1996" },
+      { label: "Type", value: "Non-profit, Co-ed" },
+      { label: "Curriculum", value: "Full IB (PYP/MYP/DP)" },
+      { label: "Students", value: "800+" },
+      { label: "Ages", value: "3–18" },
+      { label: "Nationalities", value: "25+" },
+      { label: "IB Average", value: "30.8" },
+      { label: "Accreditation", value: "CIS / IBO / WASC" },
+      { label: "Fees", value: "US$6K – $12K" },
+    ],
+    otherSchools: [
+      { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$8K – $16K / year" },
+      { name: "Sekolah Pelita Harapan", slug: "sekolah-pelita-harapan", meta: "IB · Ages 3–18 · Lippo Village", feeRange: "US$6K – $14K / year" },
+      { name: "Binus School Serpong", slug: "binus-school-serpong", meta: "Cambridge · Ages 3–18 · Serpong", feeRange: "US$5K – $10K / year" },
+    ],
+    relatedInsights: [
+      { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
+      { title: "IB World Schools in Jakarta: The Complete Guide", slug: "ib-world-schools-jakarta-guide", readTime: "10 min read" },
+    ],
+  },
+
+  jsonLd: {
+    description: "Co-educational IB World School established in 1996 offering full IB continuum (PYP, MYP, DP). Located in BSD City, South Tangerang.",
+    foundingDate: "1996",
+    numberOfStudents: "800",
+  },
+};
+
+// ═══════════════════════════════════════════════════════
+// BINUS SCHOOL SERPONG
+// ═══════════════════════════════════════════════════════
+
+const binus: SchoolProfile = {
+  slug: "binus-school-serpong",
+  citySlug: "jakarta",
+  name: "Binus School Serpong",
+  shortName: "Binus",
+  verified: false,
+
+  metaTitle: "Binus School Serpong — Fees, Cambridge Results & Review",
+  metaDescription:
+    "Binus School Serpong profile — fees from US$5K–US$10K/year, Cambridge curriculum, 1,200+ students, strong STEM focus. Part of Bina Nusantara group. Editorial review.",
+
+  campuses: [
+    {
+      name: "Serpong Campus",
+      address: "Jl. Alam Sutera Boulevard, Serpong, Tangerang Selatan",
+      grades: "Early Years – Year 13",
+      lat: -6.2406,
+      lng: 106.6103,
+    },
+  ],
+  lastUpdated: "February 2026",
+  curricula: ["Cambridge Primary", "Cambridge Lower Secondary", "IGCSE", "A-Levels"],
+  stats: [
+    { value: "1,200+", label: "Students" },
+    { value: "3–18", label: "Age Range" },
+    { value: "15+", label: "Nationalities" },
+    { value: "US$5K – US$10K", label: "Annual Fees" },
+  ],
+
+  head: {
+    name: "School Leadership Team",
+    since: 2020,
+    bio: "Binus School Serpong is led by an experienced leadership team with strong backgrounds in STEM education and technology. The school is part of the Bina Nusantara group, Indonesia's leading technology education network.",
+  },
+
+  photoAlts: [
+    "Binus School Serpong campus",
+    "STEM laboratories",
+    "Technology and robotics facilities",
+    "Sports and recreation facilities",
+  ],
+
+  intelligence: {
+    verdict:
+      "If you want Cambridge curriculum with a strong STEM focus at the lowest fees in Jakarta, Binus is worth a look. The student body is predominantly Indonesian, which suits some families but not others. The commute from central Jakarta is significant.",
+    paragraphs: [
+      "The word among expat families is that Binus is the school you consider if you're looking for Cambridge curriculum and your budget is tight. Part of the Bina Nusantara group - Indonesia's leading technology education network - it's strong in STEM and technology. Fees run US$5K to US$10K, making it the most affordable international school in Jakarta.",
+      "What comes up again and again is the value proposition. Cambridge curriculum from primary through A-Levels, modern facilities, and fees that won't break the bank. The flip side is that the student body is predominantly Indonesian - around 80% by most accounts. If you want a more international mix, this isn't the school for you. But if you're comfortable with a predominantly local student body and want strong academics at a low price, Binus delivers.",
+      "The Serpong location is in South Tangerang, well south of central Jakarta. If you're in Menteng, Kuningan, or Kemang, you're looking at 60-90 minutes each way during rush hour. For families already in the area or planning to live there, Binus makes sense. For everyone else, the commute is a deal-breaker.",
+    ],
+    positives: [
+      "Fees at US$5K to US$10K are the lowest of any international school in Jakarta. For self-funding families, that's compelling.",
+      "Strong STEM focus with modern technology and robotics facilities. The Bina Nusantara connection brings resources and expertise in technology education.",
+      "Cambridge curriculum from primary through A-Levels gives students internationally recognised qualifications at every stage.",
+      "A-Level results show 40% achieving A*–A grades, and IGCSE shows 45% achieving 9–7 grades. That's solid performance for the fee level.",
+      "The school has been running long enough to have credibility. Facilities are modern, and the campus is purpose-built.",
+    ],
+    considerations: [
+      "The student body is predominantly Indonesian - around 80% by most accounts. If you want a more international mix, this isn't the school for you.",
+      "Serpong is in South Tangerang, well south of central Jakarta. If you're in Menteng, Kuningan, or Kemang, you're looking at 60-90 minutes each way during rush hour.",
+      "At 1,200+ students, Binus is large. Some parents say it can feel impersonal, particularly in secondary school.",
+      "The school doesn't publish detailed fee schedules, exam results, or leadership team profiles as openly as competitors. You'll need to contact admissions directly for specifics.",
+      "Extracurricular options are more limited than the bigger schools. Fewer sporting teams, fewer clubs, and narrower social circles.",
+    ],
+  },
+
+  fees: {
+    academicYear: "2025–2026",
+    feeCurrency: "IDR",
+    rows: [
+      { gradeLevel: "Early Years (Ages 3–5)", ages: "3–5 years", tuition: 60_000_000, capital: 0, totalEarlyBird: 60_000_000, totalStandard: 60_000_000 },
+      { gradeLevel: "Primary (Years 1–6)", ages: "5–11 years", tuition: 80_000_000, capital: 0, totalEarlyBird: 80_000_000, totalStandard: 80_000_000 },
+      { gradeLevel: "Lower Secondary (Years 7–9)", ages: "11–14 years", tuition: 100_000_000, capital: 0, totalEarlyBird: 100_000_000, totalStandard: 100_000_000 },
+      { gradeLevel: "IGCSE (Years 10–11)", ages: "14–16 years", tuition: 120_000_000, capital: 0, totalEarlyBird: 120_000_000, totalStandard: 120_000_000 },
+      { gradeLevel: "A-Levels (Years 12–13)", ages: "16–18 years", tuition: 140_000_000, capital: 0, totalEarlyBird: 140_000_000, totalStandard: 140_000_000 },
+    ],
+    oneTime: [
+      { name: "Application Fee", amount: 2_500_000 },
+      { name: "Enrolment Fee", amount: 8_000_000, note: "One-time, new students" },
+    ],
+    note: "Fee ranges shown are approximate annual tuition. Contact admissions for the detailed 2025–2026 fee schedule including all one-time fees and payment options.",
+  },
+
+  academics: {
+    results: [
+      { value: "45%", label: "A*–A at IGCSE" },
+      { value: "40%", label: "A*–A at A-Level" },
+    ],
+    paragraphs: [
+      "Binus School Serpong offers the Cambridge curriculum from primary through A-Levels. Cambridge Primary and Lower Secondary provide structured learning in core subjects, IGCSE qualifications in Years 10–11, and A-Levels in Years 12–13.",
+      "A-Level results show 40% of students achieving A*–A grades, and IGCSE shows 45% achieving 9–7 grades. That's solid performance for the fee level, though below the top-tier Jakarta schools. The school's STEM focus means strong results in mathematics, sciences, and technology subjects.",
+      "Class sizes average 22–26 students. The school serves a wide ability range, with learning support available. The Cambridge approach emphasises structured learning, clear assessment, and internationally recognised qualifications.",
+    ],
+  },
+
+  studentBody: {
+    paragraphs: [
+      "Binus serves 1,200+ students from 15+ nationalities. The student body is predominantly Indonesian - around 80% by most accounts - with a smaller expat community. The school culture reflects its Indonesian identity while maintaining international curriculum standards.",
+      "The community atmosphere reflects the school's size and local focus. Parents say the school culture values academic achievement and technology skills. The predominantly Indonesian student body suits some families but not others - if you want a more international mix, this isn't the school for you.",
+    ],
+  },
+
+  schoolLife: {
+    activitiesCount: 30,
+    uniformRequired: true,
+    facilities: [
+      "STEM laboratories",
+      "Robotics and technology labs",
+      "Sports hall",
+      "Football field",
+      "Basketball courts",
+      "Library",
+      "Computer labs",
+      "Art studios",
+      "Music rooms",
+      "Multi-purpose halls",
+    ],
+    paragraphs: [
+      "Binus runs a range of co-curricular activities with a focus on STEM, technology, and robotics. The school participates in local and regional competitions, particularly in technology and science.",
+      "Sports programmes include football, basketball, volleyball, and athletics. The arts programme includes music, drama, and visual arts. The school's STEM focus means strong robotics and technology clubs.",
+      "The school's technology identity extends to its activities - the emphasis is on STEM skills, innovation, and technology rather than elite competition.",
+    ],
+  },
+
+  contact: {
+    phone: "+62 21 538 0400",
+    email: "info@binus.edu",
+    website: "https://www.binus.edu",
+  },
+
+  sidebar: {
+    quickFacts: [
+      { label: "Founded", value: "2007" },
+      { label: "Type", value: "For-profit, Co-ed" },
+      { label: "Curriculum", value: "Cambridge (Primary–A-Levels)" },
+      { label: "Students", value: "1,200+" },
+      { label: "Ages", value: "3–18" },
+      { label: "Nationalities", value: "15+" },
+      { label: "A-Level A*–A", value: "40%" },
+      { label: "Accreditation", value: "Cambridge International" },
+      { label: "Fees", value: "US$5K – $10K" },
+    ],
+    otherSchools: [
+      { name: "Global Jaya School", slug: "global-jaya-school", meta: "IB · Ages 3–18 · BSD", feeRange: "US$6K – $12K / year" },
+      { name: "Sekolah Pelita Harapan", slug: "sekolah-pelita-harapan", meta: "IB · Ages 3–18 · Lippo Village", feeRange: "US$6K – $14K / year" },
+      { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$18K – $32K / year" },
+    ],
+    relatedInsights: [
+      { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
+      { title: "Cambridge Curriculum Schools in Southeast Asia", slug: "cambridge-curriculum-schools-southeast-asia", readTime: "8 min read" },
+    ],
+  },
+
+  jsonLd: {
+    description: "Co-educational international school established in 2007 offering Cambridge curriculum from primary through A-Levels. Part of Bina Nusantara group, strong STEM focus.",
+    foundingDate: "2007",
+    numberOfStudents: "1200",
+  },
+};
+
+// ═══════════════════════════════════════════════════════
+// SINARMAS WORLD ACADEMY (SWA)
+// ═══════════════════════════════════════════════════════
+
+const sinarmas: SchoolProfile = {
+  slug: "sinarmas-world-academy",
+  citySlug: "jakarta",
+  name: "Sinarmas World Academy",
+  shortName: "SWA",
+  verified: false,
+
+  metaTitle: "Sinarmas World Academy (SWA) Jakarta — Fees, IB Results & Review",
+  metaDescription:
+    "Sinarmas World Academy profile — Jakarta's top IB results school (avg 38.2), fees US$9.3K–US$28K/year, BSD campus, 1,200+ students. Academically rigorous IB school. Editorial review.",
+
+  campuses: [
+    {
+      name: "BSD City Campus",
+      address: "Jl. TM Pahlawan Seribu, CBD Lot XV, BSD City, Tangerang Selatan 15322",
+      grades: "Toddler – Grade 12",
+      lat: -6.3014,
+      lng: 106.6528,
+    },
+  ],
+  lastUpdated: "February 2026",
+  curricula: ["UK EYFS", "Cambridge Primary", "IB MYP", "IB Diploma"],
+  stats: [
+    { value: "1,200+", label: "Students" },
+    { value: "2–18", label: "Age Range" },
+    { value: "30+", label: "Nationalities" },
+    { value: "US$9.3K – US$28K", label: "Annual Fees" },
+  ],
+
+  head: {
+    name: "School Leadership Team",
+    since: 2020,
+    bio: "SWA is led by an experienced leadership team with strong backgrounds in IB education and academic excellence. The school's focus on rigorous academics and university preparation guides its approach.",
+  },
+
+  photoAlts: [
+    "SWA BSD campus",
+    "Modern learning facilities",
+    "IB Diploma students",
+    "Campus grounds",
+  ],
+
+  intelligence: {
+    verdict:
+      "If you're targeting top-tier universities and want Jakarta's strongest IB results, SWA is the obvious choice. The academic rigour is real, but it's not for every child - this is a school for achievement-focused families.",
+    paragraphs: [
+      "The word among expat families is that SWA is where you go if you want the strongest IB results in Jakarta. The 2024 IB Diploma average of 38.2 points is the highest in the city - well above JIS (35.8) and BSJ (35). If you're targeting Oxbridge, Ivy League, or top-tier universities, that difference matters.",
+      "What comes up again and again is the academic focus. SWA attracts achievement-oriented families who prioritise results. The curriculum combines Cambridge Primary, IB MYP, and IB Diploma - a pathway designed for academic excellence. Parents say the teaching is rigorous, expectations are high, and the school culture values achievement.",
+      "The BSD City location suits families already in the area or planning to live there. If you're in South Jakarta or central Jakarta, you're looking at a long commute. Fees run US$9.3K to US$28K - premium but not at JIS levels. The catch is that this intensity isn't for every child. If your child thrives under pressure and wants academic challenge, SWA delivers. If they need more balance or support, look elsewhere.",
+    ],
+    positives: [
+      "IB Diploma average of 38.2 points (2024) is the highest in Jakarta - well above the global average of 30.24 and competitive with top schools globally.",
+      "100% IB pass rate with 80% of students scoring 35+ points. The highest score was 44/45 points - exceptional performance.",
+      "Strong university placements including Oxford, Imperial College London, University of Melbourne, and prestigious art schools like Central Saint Martins and RISD.",
+      "Dual curriculum pathway - Cambridge Primary and IB MYP/DP - gives students internationally recognised qualifications at every stage.",
+      "Modern BSD City campus with purpose-built facilities. The location suits families already in the area or planning to live there.",
+    ],
+    considerations: [
+      "The academic intensity is real. This is a school for achievement-focused families. If your child needs more support or balance, SWA's rigour might not be the right fit.",
+      "BSD City is in South Tangerang, well south of central Jakarta. If you're in Menteng, Kuningan, or Kemang, you're looking at 60-90 minutes each way during rush hour.",
+      "Fees at US$9.3K to US$28K are premium, though below JIS levels. The school doesn't publish detailed fee schedules publicly - you'll need to contact admissions.",
+      "The school culture values achievement and academic excellence. Some parents say it can feel competitive rather than collaborative.",
+      "SWA doesn't publish detailed exam results, leadership team profiles, or fee schedules as openly as some competitors. You'll need to contact admissions directly for specifics.",
+    ],
+  },
+
+  fees: {
+    academicYear: "2025–2026",
+    feeCurrency: "IDR",
+    rows: [
+      { gradeLevel: "Early Years (Toddler–KG)", ages: "1–5 years", tuition: 120_000_000, capital: 0, totalEarlyBird: 120_000_000, totalStandard: 120_000_000 },
+      { gradeLevel: "Primary (Grades 1–6)", ages: "5–11 years", tuition: 200_000_000, capital: 0, totalEarlyBird: 200_000_000, totalStandard: 200_000_000 },
+      { gradeLevel: "Middle School (Grades 7–10)", ages: "11–15 years", tuition: 280_000_000, capital: 0, totalEarlyBird: 280_000_000, totalStandard: 280_000_000 },
+      { gradeLevel: "IB Diploma (Grades 11–12)", ages: "15–18 years", tuition: 350_000_000, capital: 0, totalEarlyBird: 350_000_000, totalStandard: 350_000_000 },
+    ],
+    oneTime: [
+      { name: "Application Fee", amount: 5_000_000 },
+      { name: "Enrolment Fee", amount: 20_000_000, note: "One-time, new students" },
+    ],
+    note: "Fee ranges shown are approximate annual tuition. SWA does not publish detailed fee schedules publicly. Contact admissions for the current 2025–2026 fee schedule including all one-time fees and payment options.",
+  },
+
+  academics: {
+    results: [
+      { value: "38.2", label: "IB Average (2024)" },
+      { value: "100%", label: "IB Pass Rate" },
+      { value: "80%", label: "Students scoring 35+" },
+    ],
+    paragraphs: [
+      "SWA offers UK Early Years Foundation Stage (EYFS) for toddlers, Cambridge Primary for elementary, IB Middle Years Programme (MYP) for middle school, and IB Diploma Programme for high school. The school also integrates Peking University Chinese Curriculum at elementary level.",
+      "The 2024 IB Diploma cohort achieved an average of 38.2 points - the highest in Jakarta and well above the global average of 30.24. 100% pass rate with 80% of students scoring 35+ points. The highest score was 44/45 points. These results place SWA among the top IB schools globally.",
+      "University destinations include Oxford, Imperial College London, University of Melbourne, and prestigious art schools including Central Saint Martins and RISD. The school's academic rigour and strong university preparation are central to its identity.",
+    ],
+  },
+
+  studentBody: {
+    paragraphs: [
+      "SWA serves 1,200+ students from 30+ nationalities. The school attracts achievement-oriented families who prioritise academic excellence and university preparation. The student body includes both expat and Indonesian families.",
+      "The school culture values academic achievement and rigour. Parents say the community is focused on results and university placements. The BSD City location means many families live in the area or have chosen to relocate there for the school.",
+    ],
+  },
+
+  schoolLife: {
+    activitiesCount: 50,
+    uniformRequired: true,
+    facilities: [
+      "Modern classrooms",
+      "Science laboratories",
+      "Computer labs",
+      "Library",
+      "Sports facilities",
+      "Arts studios",
+      "Music rooms",
+      "Multi-purpose halls",
+    ],
+    paragraphs: [
+      "SWA runs a range of co-curricular activities with a focus on academic enrichment and university preparation. The school participates in academic competitions and international programmes.",
+      "Sports and arts programmes are available, though the emphasis is on academic achievement. The school's modern BSD City campus provides purpose-built facilities for learning and activities.",
+      "The school culture emphasises academic excellence and achievement. Activities are designed to support university applications and academic development.",
+    ],
+  },
+
+  contact: {
+    phone: "+62 21 5316 1400",
+    email: "admissions@swa-jkt.com",
+    website: "https://www.swa-jkt.com",
+  },
+
+  sidebar: {
+    quickFacts: [
+      { label: "Founded", value: "c. 2008" },
+      { label: "Type", value: "For-profit, Co-ed" },
+      { label: "Curriculum", value: "Cambridge + IB MYP/DP" },
+      { label: "Students", value: "1,200+" },
+      { label: "Ages", value: "2–18" },
+      { label: "Nationalities", value: "30+" },
+      { label: "IB Average", value: "38.2 (2024)" },
+      { label: "Accreditation", value: "IB / Cambridge" },
+      { label: "Fees", value: "US$9.3K – $28K" },
+    ],
+    otherSchools: [
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$23K – $37K / year" },
+      { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$9.2K – $30K / year" },
+      { name: "ACG School Jakarta", slug: "acg-school-jakarta", meta: "IB · Ages 3–17 · Pasar Minggu", feeRange: "US$9.8K – $25K / year" },
+    ],
+    relatedInsights: [
+      { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
+      { title: "IB Results: Top International Schools in Asia", slug: "ib-results-top-schools-asia-2025", readTime: "10 min read" },
+    ],
+  },
+
+  jsonLd: {
+    description: "Co-educational international school offering Cambridge Primary, IB MYP and IB Diploma Programme. Highest IB results in Jakarta (avg 38.2).",
+    foundingDate: "2008",
+    numberOfStudents: "1200",
+  },
+};
+
+// ═══════════════════════════════════════════════════════
+// TUNAS MUDA SCHOOL
+// ═══════════════════════════════════════════════════════
+
+const tunasMuda: SchoolProfile = {
+  slug: "tunas-muda-school",
+  citySlug: "jakarta",
+  name: "Tunas Muda School",
+  shortName: "Tunas Muda",
+  verified: false,
+
+  metaTitle: "Tunas Muda School Jakarta — Fees, IB Results & Review",
+  metaDescription:
+    "Tunas Muda School profile — fees from US$6.9K–US$27K/year, full IB continuum (PYP/MYP/DP), Catholic values, 800+ students. One of Jakarta's few complete IB schools. Editorial review.",
+
+  campuses: [
+    {
+      name: "Meruya Campus",
+      address: "Jl. Meruya Utara Raya No. 71, Kembangan, Jakarta Barat 11620",
+      grades: "Early Childhood – Grade 12",
+      lat: -6.2014,
+      lng: 106.7486,
+    },
+    {
+      name: "Kedoya Campus",
+      address: "Jl. Angsana Raya D8/2, Taman Kedoya Baru, Kedoya, Jakarta Barat 11520",
+      grades: "Early Childhood – Grade 5",
+      lat: -6.1789,
+      lng: 106.7689,
+    },
+  ],
+  lastUpdated: "February 2026",
+  curricula: ["IB PYP", "IB MYP", "IB DP"],
+  stats: [
+    { value: "800+", label: "Students" },
+    { value: "1–18", label: "Age Range" },
+    { value: "25+", label: "Nationalities" },
+    { value: "US$6.9K – US$27K", label: "Annual Fees" },
+  ],
+
+  head: {
+    name: "School Leadership Team",
+    since: 2020,
+    bio: "Tunas Muda is led by an experienced leadership team committed to Catholic values and IB education. The school has been serving the Jakarta community since 1994.",
+  },
+
+  photoAlts: [
+    "Tunas Muda Meruya campus",
+    "IB classroom learning",
+    "Campus facilities",
+    "Student activities",
+  ],
+
+  intelligence: {
+    verdict:
+      "If you want the complete IB continuum from age 1 through Grade 12 and Catholic values matter, Tunas Muda is one of the few options in Jakarta. Fees are mid-range, and the school has been running long enough to have credibility.",
+    paragraphs: [
+      "The word among expat families is that Tunas Muda is one of the few schools in Jakarta offering the complete IB continuum - PYP, MYP, and Diploma - from early childhood through high school. Founded in 1994, it's been running long enough to have credibility. The school integrates Catholic values throughout the curriculum, which matters if faith is important to your family.",
+      "What comes up again and again is the full IB pathway. Most Jakarta schools offer IB Diploma but not the full continuum. Tunas Muda runs PYP from early years, MYP in middle school, and DP in high school - a coherent pathway that appeals to families who want consistency. Fees run US$6.9K to US$27K - mid-range, making it accessible to self-funding families.",
+      "The Meruya campus serves ages 2-18, while the Kedoya campus focuses on early childhood through Grade 5. Both are in West Jakarta. If you're in South Jakarta or central Jakarta, you're looking at a commute. The Catholic identity means chapel services and faith-based character education are part of daily life - if that's not your thing, this isn't the school for you.",
+    ],
+    positives: [
+      "Full IB continuum (PYP, MYP, DP) from early childhood through high school - one of the few schools in Jakarta offering this complete pathway.",
+      "Founded in 1994, Tunas Muda has been running long enough to have credibility and an established approach to IB education.",
+      "Fees at US$6.9K to US$27K are mid-range, making it accessible to self-funding families who want full IB without premium prices.",
+      "Catholic values integrated throughout the curriculum - suits families who want faith-based education alongside international qualifications.",
+      "Two campuses in West Jakarta provide options for families in different areas - Meruya for full programme, Kedoya for early years and primary.",
+    ],
+    considerations: [
+      "The Catholic identity means faith is central to school life. If that's not your thing, this isn't the school for you.",
+      "West Jakarta locations mean a commute for families in South Jakarta or central Jakarta. Traffic can be heavy, particularly to Meruya.",
+      "The school doesn't publish detailed fee schedules, exam results, or leadership team profiles as openly as competitors. You'll need to contact admissions directly for specifics.",
+      "At 800 students across two campuses, extracurricular options are more limited than the bigger schools. Fewer sporting teams, fewer clubs.",
+      "IB Diploma results aren't publicly available. If you're targeting top-tier universities, ask about individual results and university placements.",
+    ],
+  },
+
+  fees: {
+    academicYear: "2025–2026",
+    feeCurrency: "IDR",
+    rows: [
+      { gradeLevel: "Early Childhood (Ages 1–5)", ages: "1–5 years", tuition: 90_000_000, capital: 0, totalEarlyBird: 90_000_000, totalStandard: 90_000_000 },
+      { gradeLevel: "Primary IB PYP (Grades 1–5)", ages: "5–11 years", tuition: 180_000_000, capital: 0, totalEarlyBird: 180_000_000, totalStandard: 180_000_000 },
+      { gradeLevel: "Middle School IB MYP (Grades 6–10)", ages: "11–15 years", tuition: 250_000_000, capital: 0, totalEarlyBird: 250_000_000, totalStandard: 250_000_000 },
+      { gradeLevel: "High School IB DP (Grades 11–12)", ages: "15–18 years", tuition: 350_000_000, capital: 0, totalEarlyBird: 350_000_000, totalStandard: 350_000_000 },
+    ],
+    oneTime: [
+      { name: "Application Fee", amount: 3_000_000 },
+      { name: "Enrolment Fee", amount: 15_000_000, note: "One-time, new students" },
+    ],
+    note: "Fee ranges shown are approximate annual tuition. Tunas Muda does not publish detailed fee schedules publicly. Contact admissions for the current 2025–2026 fee schedule including all one-time fees and payment options.",
+  },
+
+  academics: {
+    results: [],
+    paragraphs: [
+      "Tunas Muda offers the complete IB continuum - Primary Years Programme (PYP) from early childhood through Grade 5, Middle Years Programme (MYP) in Grades 6–10, and IB Diploma Programme in Grades 11–12. The school is authorised for all three IB programmes.",
+      "The school integrates Catholic values throughout the curriculum, with chapel services and faith-based character education woven into daily learning. The IB approach emphasises inquiry-based learning, critical thinking, and international-mindedness.",
+      "Detailed IB Diploma results and university destination data are not publicly available. Parents should ask admissions directly for current exam results and university placements.",
+    ],
+  },
+
+  studentBody: {
+    paragraphs: [
+      "Tunas Muda serves 800+ students from 25+ nationalities across its two campuses. The school's Catholic identity is central - families choose Tunas Muda specifically for the faith-based values alongside IB education.",
+      "The community atmosphere reflects the school's size and values. Parents say the Catholic values create a sense of belonging, and the school culture takes character development seriously alongside academic achievement.",
+    ],
+  },
+
+  schoolLife: {
+    activitiesCount: 40,
+    uniformRequired: true,
+    facilities: [
+      "Chapel",
+      "Library",
+      "Science laboratories",
+      "Computer labs",
+      "Art studios",
+      "Music rooms",
+      "Sports facilities",
+      "Multi-purpose halls",
+    ],
+    paragraphs: [
+      "Tunas Muda runs a range of co-curricular activities with a focus on service learning and character development. The school's Catholic identity is reflected in activities like chapel services and community service initiatives.",
+      "Sports and arts programmes are available. The school participates in local competitions and community events. The emphasis is on holistic development - academic achievement alongside character and values.",
+      "The school's faith-based approach extends to its activities - the emphasis is on service, community engagement, and values education alongside academic and sporting achievement.",
+    ],
+  },
+
+  contact: {
+    phone: "+62 21 5870 329",
+    email: "cservice@tunasmuda.sch.id",
+    website: "https://www.tunasmuda.sch.id",
+  },
+
+  sidebar: {
+    quickFacts: [
+      { label: "Founded", value: "1994" },
+      { label: "Type", value: "Catholic, Co-ed" },
+      { label: "Curriculum", value: "Full IB (PYP/MYP/DP)" },
+      { label: "Students", value: "800+" },
+      { label: "Ages", value: "1–18" },
+      { label: "Nationalities", value: "25+" },
+      { label: "Accreditation", value: "IB World School" },
+      { label: "Fees", value: "US$6.9K – $27K" },
+    ],
+    otherSchools: [
+      { name: "Sekolah Pelita Harapan", slug: "sekolah-pelita-harapan", meta: "IB · Ages 4–18 · Lippo Village", feeRange: "US$7.2K – $22K / year" },
+      { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$5.6K – $14K / year" },
+      { name: "BTB School", slug: "btb-school", meta: "IB · Ages 3–18 · Pluit", feeRange: "US$7.4K – $26K / year" },
+    ],
+    relatedInsights: [
+      { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
+      { title: "IB World Schools in Jakarta: The Complete Guide", slug: "ib-world-schools-jakarta-guide", readTime: "10 min read" },
+    ],
+  },
+
+  jsonLd: {
+    description: "Catholic co-educational IB World School established in 1994 offering full IB continuum (PYP, MYP, DP). Two campuses in West Jakarta.",
+    foundingDate: "1994",
+    numberOfStudents: "800",
+  },
+};
+
+// ═══════════════════════════════════════════════════════
+// BTB SCHOOL (BINA TUNAS BANGSA)
+// ═══════════════════════════════════════════════════════
+
+const btb: SchoolProfile = {
+  slug: "btb-school",
+  citySlug: "jakarta",
+  name: "BTB School",
+  shortName: "BTB",
+  verified: false,
+
+  metaTitle: "BTB School Jakarta (Bina Tunas Bangsa) — Fees, IB Results & Review",
+  metaDescription:
+    "BTB School profile — fees from US$7.4K–US$26K/year, IB World School since 2005, Pluit campus, 700+ students. Well-established IB school in North Jakarta. Editorial review.",
+
+  campuses: [
+    {
+      name: "Pluit Campus",
+      address: "Jl. Pluit Timur Blok MM, Pluit, Jakarta Utara",
+      grades: "Early Years – Grade 12",
+      lat: -6.1208,
+      lng: 106.7897,
+    },
+  ],
+  lastUpdated: "February 2026",
+  curricula: ["IB PYP", "IGCSEs", "IB DP"],
+  stats: [
+    { value: "700+", label: "Students" },
+    { value: "3–18", label: "Age Range" },
+    { value: "20+", label: "Nationalities" },
+    { value: "US$7.4K – US$26K", label: "Annual Fees" },
+  ],
+
+  head: {
+    name: "School Leadership Team",
+    since: 2020,
+    bio: "BTB School is led by an experienced leadership team with strong backgrounds in IB education. The school has been an IB World School since 2005.",
+  },
+
+  photoAlts: [
+    "BTB School Pluit campus",
+    "IB classroom learning",
+    "Campus facilities",
+    "Student activities",
+  ],
+
+  intelligence: {
+    verdict:
+      "If you're in North Jakarta and want IB education with a focus on character development, BTB is a solid option. The Pluit location suits families in the area, and the school has been running long enough to have credibility.",
+    paragraphs: [
+      "The word among expat families is that BTB School (formerly Bina Tunas Bangsa) is North Jakarta's established IB option. Authorised as an IB World School since 2005, it's been running long enough to have credibility. The Pluit location suits families in North Jakarta who don't want to commute to South Jakarta schools.",
+      "What comes up again and again is the character development focus. BTB emphasises values education alongside academic achievement - parents say the school culture takes character seriously. The curriculum combines IB PYP, IGCSEs, and IB Diploma - a pathway that gives students internationally recognised qualifications at multiple stages.",
+      "Fees run US$7.4K to US$26K - mid-range, making it accessible to self-funding families. The Pluit location is convenient for families already in North Jakarta, but if you're in South Jakarta or central Jakarta, you're looking at a long commute. The school doesn't publish detailed results or fee schedules publicly - you'll need to contact admissions directly.",
+    ],
+    positives: [
+      "IB World School since 2005 - been running long enough to have credibility and an established approach to IB education.",
+      "Pluit location suits families in North Jakarta who don't want to commute to South Jakarta schools.",
+      "Dual curriculum pathway - IB PYP, IGCSEs, and IB Diploma - gives students internationally recognised qualifications at multiple stages.",
+      "Fees at US$7.4K to US$26K are mid-range, making it accessible to self-funding families who want IB without premium prices.",
+      "Character development focus - parents say the school culture takes values education seriously alongside academic achievement.",
+    ],
+    considerations: [
+      "Pluit is in North Jakarta. If you're in South Jakarta or central Jakarta, you're looking at a long commute. Traffic can be heavy.",
+      "The school doesn't publish detailed fee schedules, exam results, or leadership team profiles as openly as competitors. You'll need to contact admissions directly for specifics.",
+      "At 700 students, extracurricular options are more limited than the bigger schools. Fewer sporting teams, fewer clubs, and narrower social circles.",
+      "IB Diploma results aren't publicly available. If you're targeting top-tier universities, ask about individual results and university placements.",
+      "The school's character development focus means values education is woven into daily life - make sure this aligns with your family's values.",
+    ],
+  },
+
+  fees: {
+    academicYear: "2025–2026",
+    feeCurrency: "IDR",
+    rows: [
+      { gradeLevel: "Early Years (Ages 3–5)", ages: "3–5 years", tuition: 100_000_000, capital: 0, totalEarlyBird: 100_000_000, totalStandard: 100_000_000 },
+      { gradeLevel: "Primary IB PYP (Grades 1–5)", ages: "5–11 years", tuition: 180_000_000, capital: 0, totalEarlyBird: 180_000_000, totalStandard: 180_000_000 },
+      { gradeLevel: "Middle School IGCSE (Grades 6–10)", ages: "11–15 years", tuition: 250_000_000, capital: 0, totalEarlyBird: 250_000_000, totalStandard: 250_000_000 },
+      { gradeLevel: "High School IB DP (Grades 11–12)", ages: "15–18 years", tuition: 350_000_000, capital: 0, totalEarlyBird: 350_000_000, totalStandard: 350_000_000 },
+    ],
+    oneTime: [
+      { name: "Application Fee", amount: 3_500_000 },
+      { name: "Enrolment Fee", amount: 18_000_000, note: "One-time, new students" },
+    ],
+    note: "Fee ranges shown are approximate annual tuition. BTB School does not publish detailed fee schedules publicly. Contact admissions for the current 2025–2026 fee schedule including all one-time fees and payment options.",
+  },
+
+  academics: {
+    results: [],
+    paragraphs: [
+      "BTB School offers IB Primary Years Programme (PYP) from early years through Grade 5, IGCSE qualifications in middle school (Grades 6–10), and IB Diploma Programme in high school (Grades 11–12). The school is authorised as an IB World School.",
+      "The dual curriculum pathway gives students internationally recognised qualifications at multiple stages - IGCSEs in middle school before the IB Diploma. The school emphasises character development alongside academic achievement.",
+      "Detailed IB Diploma results and university destination data are not publicly available. Parents should ask admissions directly for current exam results and university placements.",
+    ],
+  },
+
+  studentBody: {
+    paragraphs: [
+      "BTB serves 700+ students from 20+ nationalities. The school's character development focus means values education is central to the community. The student body includes both expat and Indonesian families.",
+      "The community atmosphere reflects the school's size and values focus. Parents say the school culture takes character development seriously, and the Pluit location creates a neighbourhood feel.",
+    ],
+  },
+
+  schoolLife: {
+    activitiesCount: 35,
+    uniformRequired: true,
+    facilities: [
+      "Library",
+      "Science laboratories",
+      "Computer labs",
+      "Art studios",
+      "Music rooms",
+      "Sports facilities",
+      "Multi-purpose halls",
+    ],
+    paragraphs: [
+      "BTB runs a range of co-curricular activities with a focus on character development and service learning. The school's values focus is reflected in activities like community service initiatives.",
+      "Sports and arts programmes are available. The school participates in local competitions and community events. The emphasis is on holistic development - academic achievement alongside character and values.",
+      "The school's character development approach extends to its activities - the emphasis is on service, community engagement, and values education alongside academic and sporting achievement.",
+    ],
+  },
+
+  contact: {
+    phone: "+62 21 3003 1300",
+    email: "info@btbschool.sch.id",
+    website: "https://www.btbschool.sch.id",
+  },
+
+  sidebar: {
+    quickFacts: [
+      { label: "Founded", value: "c. 2000" },
+      { label: "Type", value: "For-profit, Co-ed" },
+      { label: "Curriculum", value: "IB PYP + IGCSE + IB DP" },
+      { label: "Students", value: "700+" },
+      { label: "Ages", value: "3–18" },
+      { label: "Nationalities", value: "20+" },
+      { label: "IB Authorised", value: "Since 2005" },
+      { label: "Fees", value: "US$7.4K – $26K" },
+    ],
+    otherSchools: [
+      { name: "Tunas Muda School", slug: "tunas-muda-school", meta: "IB · Ages 1–18 · Meruya", feeRange: "US$6.9K – $27K / year" },
+      { name: "North Jakarta Intercultural School", slug: "north-jakarta-intercultural-school", meta: "IB · Ages 3–18 · Kelapa Gading", feeRange: "US$6.1K – $16K / year" },
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$23K – $37K / year" },
+    ],
+    relatedInsights: [
+      { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
+      { title: "IB World Schools in Jakarta: The Complete Guide", slug: "ib-world-schools-jakarta-guide", readTime: "10 min read" },
+    ],
+  },
+
+  jsonLd: {
+    description: "Co-educational IB World School established c. 2000, authorised since 2005. Offers IB PYP, IGCSEs and IB Diploma Programme. Located in Pluit, North Jakarta.",
+    foundingDate: "2000",
+    numberOfStudents: "700",
+  },
+};
+
+// ═══════════════════════════════════════════════════════
+// SEKOLAH PELITA HARAPAN KEMANG VILLAGE
+// ═══════════════════════════════════════════════════════
+
+const sphKemang: SchoolProfile = {
+  slug: "sekolah-pelita-harapan-kemang-village",
+  citySlug: "jakarta",
+  name: "Sekolah Pelita Harapan Kemang Village",
+  shortName: "SPH Kemang",
+  verified: false,
+
+  metaTitle: "Sekolah Pelita Harapan Kemang Village — Fees, IB Results & Review",
+  metaDescription:
+    "SPH Kemang Village profile — fees from US$8.1K–US$26K/year, Cambridge + IB Diploma, Christian values, 800+ students. South Jakarta campus. Editorial review.",
+
+  campuses: [
+    {
+      name: "Kemang Village Campus",
+      address: "Kemang Village, South Jakarta",
+      grades: "Kindergarten – Grade 12",
+      lat: -6.2620,
+      lng: 106.7960,
+    },
+  ],
+  lastUpdated: "February 2026",
+  curricula: ["Cambridge Primary", "IGCSEs", "IB Diploma", "Christian Education"],
+  stats: [
+    { value: "800+", label: "Students" },
+    { value: "2–18", label: "Age Range" },
+    { value: "20+", label: "Nationalities" },
+    { value: "US$8.1K – US$26K", label: "Annual Fees" },
+  ],
+
+  head: {
+    name: "School Leadership Team",
+    since: 2020,
+    bio: "SPH Kemang Village is led by an experienced leadership team committed to Christian values and academic excellence. The campus has been serving the South Jakarta community since 2010.",
+  },
+
+  photoAlts: [
+    "SPH Kemang Village campus",
+    "Modern learning facilities",
+    "Chapel and auditorium",
+    "Student activities",
+  ],
+
+  intelligence: {
+    verdict:
+      "If you want strong academics with a genuine Christian foundation and you're in South Jakarta, SPH Kemang is worth a look. The Kemang Village location is convenient, and the Cambridge-to-IB pathway is well-established.",
+    paragraphs: [
+      "The word among expat families is that SPH Kemang Village is the school for families who want strong academics with a genuine Christian foundation. Located in Kemang Village since 2010, it's more accessible than SPH's Lippo Village campus for families in South Jakarta. The curriculum combines Cambridge Primary and IGCSEs with IB Diploma in high school.",
+      "What comes up again and again is the Christian values. Parents say the faith-based approach creates a sense of belonging that secular schools can't match. Chapel services, Bible study, and Christian character education are woven into daily life. The flip side is that if you're not Christian or comfortable with faith being central, this isn't the school for you.",
+      "Fees run US$8.1K to US$26K - mid-range, making it accessible to self-funding families. The Kemang Village location is convenient for families already in South Jakarta. The Cambridge-to-IB pathway is well-established, and parents say the academic standards are strong. Just know that faith is central to everything - if that's not your thing, look elsewhere.",
+    ],
+    positives: [
+      "Kemang Village location in South Jakarta is convenient for families already in the area. More accessible than SPH's Lippo Village campus.",
+      "Cambridge Primary and IGCSEs in middle school, then IB Diploma in high school - a well-established pathway that gives students internationally recognised qualifications at multiple stages.",
+      "Christian values integrated throughout the curriculum - suits families who want faith-based education alongside strong academics.",
+      "Fees at US$8.1K to US$26K are mid-range, making it accessible to self-funding families who want Christian values without premium prices.",
+      "Founded in 2010, the campus has been running long enough to have credibility and an established approach to education.",
+    ],
+    considerations: [
+      "Faith is central to everything. Chapel services, Bible study, and Christian values are woven into daily life. If that's not your thing, this isn't the school for you.",
+      "The student body is predominantly Indonesian Christian families. The expat community is smaller than at JIS or BSJ. If you want a more international mix, this might not fit.",
+      "IB Diploma results aren't publicly available. If you're targeting top-tier universities, ask about individual results and university placements.",
+      "The school doesn't publish detailed fee schedules, exam results, or leadership team profiles as openly as competitors. You'll need to contact admissions directly for specifics.",
+      "At 800 students, extracurricular options are more limited than the bigger schools. Fewer sporting teams, fewer clubs, and narrower social circles.",
+    ],
+  },
+
+  fees: {
+    academicYear: "2026–2027",
+    feeCurrency: "IDR",
+    rows: [
+      { gradeLevel: "Early Childhood (Ages 2–5)", ages: "2–5 years", tuition: 50_000_000, capital: 17_000_000, totalEarlyBird: 67_000_000, totalStandard: 67_000_000 },
+      { gradeLevel: "Primary Cambridge (Grades 1–6)", ages: "5–11 years", tuition: 200_000_000, capital: 68_000_000, totalEarlyBird: 268_000_000, totalStandard: 268_000_000 },
+      { gradeLevel: "Middle School IGCSE (Grades 7–10)", ages: "11–15 years", tuition: 280_000_000, capital: 0, totalEarlyBird: 280_000_000, totalStandard: 280_000_000 },
+      { gradeLevel: "High School IB DP (Grades 11–12)", ages: "15–18 years", tuition: 384_000_000, capital: 17_000_000, totalEarlyBird: 401_000_000, totalStandard: 401_000_000 },
+    ],
+    oneTime: [
+      { name: "Application Fee", amount: 2_000_000, note: "Non-refundable" },
+      { name: "Application Fee (Sibling)", amount: 1_000_000, note: "Non-refundable" },
+      { name: "Annual Development Fee (DPP)", amount: 17_000_000, note: "One-time, varies by grade level" },
+    ],
+    note: "Fee structure includes Annual Development Fee (DPP) which is a one-time payment, and Annual Tuition Fee (SPP). Multi-year DPP discounts available. Tuition covers field trips, retreats, learning support, lab equipment, art supplies, and extracurricular activities. Contact admissions for the detailed 2026–2027 fee schedule.",
+  },
+
+  academics: {
+    results: [],
+    paragraphs: [
+      "SPH Kemang Village offers Cambridge Primary from early childhood through Grade 6, Cambridge IGCSEs in middle school (Grades 7–10), and IB Diploma Programme in high school (Grades 11–12). The school integrates Christian values throughout the curriculum.",
+      "The Cambridge-to-IB pathway gives students internationally recognised qualifications at multiple stages - IGCSEs in middle school before the IB Diploma. The school emphasises academic excellence alongside character development.",
+      "Detailed IB Diploma results and university destination data are not publicly available. Parents should ask admissions directly for current exam results and university placements.",
+    ],
+  },
+
+  studentBody: {
+    paragraphs: [
+      "SPH Kemang Village serves 800+ students from 20+ nationalities. The school's Christian identity is central - families choose SPH Kemang specifically for the faith-based values alongside strong academics.",
+      "The community atmosphere reflects the school's values focus. Parents say the Christian values create a sense of belonging, and the school culture takes character development seriously alongside academic achievement.",
+    ],
+  },
+
+  schoolLife: {
+    activitiesCount: 50,
+    uniformRequired: true,
+    facilities: [
+      "Chapel",
+      "Auditorium",
+      "Library",
+      "Science laboratories",
+      "Computer labs",
+      "Art studios",
+      "Music rooms",
+      "Sports facilities",
+      "Multi-purpose halls",
+    ],
+    paragraphs: [
+      "SPH Kemang Village runs a range of co-curricular activities with a focus on service learning and character development. The school's Christian identity is reflected in activities like chapel services and community service initiatives.",
+      "Sports and arts programmes are available. The school participates in local competitions and community events. The emphasis is on holistic development - academic achievement alongside character and values.",
+      "The school's faith-based approach extends to its activities - the emphasis is on service, community engagement, and values education alongside academic and sporting achievement.",
+    ],
+  },
+
+  contact: {
+    phone: "+62 21 2905 6789",
+    email: "damar.wirastomo@sph.ac.id",
+    website: "https://www.sph.edu",
+  },
+
+  sidebar: {
+    quickFacts: [
+      { label: "Founded", value: "2010" },
+      { label: "Type", value: "Non-profit (Christian), Co-ed" },
+      { label: "Curriculum", value: "Cambridge + IB DP" },
+      { label: "Students", value: "800+" },
+      { label: "Ages", value: "2–18" },
+      { label: "Nationalities", value: "20+" },
+      { label: "Accreditation", value: "ACSI / IBO" },
+      { label: "Fees", value: "US$8.1K – $26K" },
+    ],
+    otherSchools: [
+      { name: "Sekolah Pelita Harapan", slug: "sekolah-pelita-harapan", meta: "IB · Ages 4–18 · Lippo Village", feeRange: "US$7.2K – $22K / year" },
+      { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$5.6K – $14K / year" },
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$23K – $37K / year" },
+    ],
+    relatedInsights: [
+      { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
+      { title: "Faith-Based International Schools: What Parents Need to Know", slug: "faith-based-international-schools", readTime: "6 min read" },
+    ],
+  },
+
+  jsonLd: {
+    description: "Christian co-educational international school established in 2010 offering Cambridge Primary, IGCSEs and IB Diploma Programme. Located in Kemang Village, South Jakarta.",
+    foundingDate: "2010",
+    numberOfStudents: "800",
+  },
+};
+
+// ═══════════════════════════════════════════════════════
+// NORD ANGLIA SCHOOL JAKARTA
+// ═══════════════════════════════════════════════════════
+
+const nordAnglia: SchoolProfile = {
+  slug: "nord-anglia-school-jakarta",
+  citySlug: "jakarta",
+  name: "Nord Anglia School Jakarta",
+  shortName: "NAS Jakarta",
+  verified: false,
+
+  metaTitle: "Nord Anglia School Jakarta (NAS) — Fees, British Curriculum & Review",
+  metaDescription:
+    "Nord Anglia School Jakarta profile — fees from US$7.2K–US$22K/year, British curriculum + IPC, 400+ students, ages 18 months–12 years. Part of Nord Anglia Education. Editorial review.",
+
+  campuses: [
+    {
+      name: "Jakarta Campus",
+      address: "South Jakarta",
+      grades: "Early Years – Year 6",
+      lat: -6.2620,
+      lng: 106.7960,
+    },
+  ],
+  lastUpdated: "February 2026",
+  curricula: ["British Curriculum", "International Primary Curriculum"],
+  stats: [
+    { value: "400+", label: "Students" },
+    { value: "18 months–12", label: "Age Range" },
+    { value: "30+", label: "Nationalities" },
+    { value: "US$7.2K – US$22K", label: "Annual Fees" },
+  ],
+
+  head: {
+    name: "School Leadership Team",
+    since: 2020,
+    bio: "NAS Jakarta is led by an experienced leadership team with strong backgrounds in British and international education. The school joined Nord Anglia Education in 2017.",
+  },
+
+  photoAlts: [
+    "NAS Jakarta campus",
+    "Early years learning",
+    "Primary classroom",
+    "Campus facilities",
+  ],
+
+  intelligence: {
+    verdict:
+      "If you want a well-run British primary school with genuine global connections and your child is under 12, NAS Jakarta is worth a look. The Nord Anglia brand brings resources and opportunities, but it's primary only - you'll need a secondary school plan.",
+    paragraphs: [
+      "The word among expat families is that NAS Jakarta is a well-run British primary school with genuine global connections. Part of Nord Anglia Education - a network of 80+ schools globally - it brings resources and opportunities that standalone schools can't match. The curriculum combines British National Curriculum with International Primary Curriculum (IPC), giving students a structured British foundation with an international perspective.",
+      "What comes up again and again is the global connections. Nord Anglia's collaboration with MIT, Juilliard, and UNICEF means students get access to programmes and resources that standalone schools can't offer. Parents say the quality of teaching is strong, and the school culture values both academic achievement and personal development.",
+      "The catch is that it's primary only - ages 18 months to 12 years. You'll need a secondary school plan, and you'll need to start thinking about it around Year 5 or 6. Fees run US$7.2K to US$22K - mid-range, making it accessible to self-funding families. The South Jakarta location is convenient, but if you're planning to stay long-term, factor in the secondary school transition.",
+    ],
+    positives: [
+      "Part of Nord Anglia Education (80+ schools globally) brings resources and opportunities that standalone schools can't match - collaboration with MIT, Juilliard, and UNICEF.",
+      "British National Curriculum combined with International Primary Curriculum (IPC) gives students a structured British foundation with an international perspective.",
+      "Parents say the quality of teaching is strong, and the school culture values both academic achievement and personal development.",
+      "Fees at US$7.2K to US$22K are mid-range, making it accessible to self-funding families who want British curriculum without premium prices.",
+      "The South Jakarta location is convenient for families already in the area. The campus is modern and purpose-built.",
+    ],
+    considerations: [
+      "Primary only - ages 18 months to 12 years. You'll need a secondary school plan, and you'll need to start thinking about it around Year 5 or 6.",
+      "The school doesn't publish detailed fee schedules, exam results, or leadership team profiles as openly as competitors. You'll need to contact admissions directly for specifics.",
+      "At 400 students, extracurricular options are more limited than the bigger schools. Fewer sporting teams, fewer clubs, and narrower social circles.",
+      "The Nord Anglia brand brings resources but also corporate structure. Some parents prefer the independence of standalone schools.",
+      "If you're planning to stay in Jakarta long-term, factor in the secondary school transition. Most families move to JIS, BSJ, or other secondary schools.",
+    ],
+  },
+
+  fees: {
+    academicYear: "2025–2026",
+    feeCurrency: "IDR",
+    rows: [
+      { gradeLevel: "Early Years (18 months–5)", ages: "18 months–5 years", tuition: 116_284_000, capital: 0, totalEarlyBird: 116_284_000, totalStandard: 116_284_000 },
+      { gradeLevel: "Primary (Years 1–6)", ages: "5–12 years", tuition: 280_000_000, capital: 0, totalEarlyBird: 280_000_000, totalStandard: 280_000_000 },
+    ],
+    oneTime: [
+      { name: "Application Fee", amount: 5_000_000 },
+      { name: "Enrolment Fee", amount: 15_000_000, note: "One-time, new students" },
+    ],
+    note: "Fee ranges shown are approximate annual tuition. NAS Jakarta does not publish detailed fee schedules publicly. Contact admissions for the current 2025–2026 fee schedule including all one-time fees and payment options.",
+  },
+
+  academics: {
+    results: [],
+    paragraphs: [
+      "NAS Jakarta offers British National Curriculum combined with International Primary Curriculum (IPC) from early years through Year 6. The British curriculum provides structured learning in core subjects, while IPC adds an international perspective and inquiry-based learning.",
+      "The school emphasises both academic achievement and personal development. The Nord Anglia collaboration with MIT, Juilliard, and UNICEF provides additional resources and programmes that standalone schools can't offer.",
+      "As a primary-only school, there are no external exam results to report. The focus is on building strong foundations for secondary education. Parents should ask about transition support and where graduates typically move on to.",
+    ],
+  },
+
+  studentBody: {
+    paragraphs: [
+      "NAS Jakarta serves 400+ students from 30+ nationalities. The school's international identity is central - the student body is diverse, with a mix of expat and Indonesian families.",
+      "The community atmosphere reflects the school's size and global connections. Parents say the Nord Anglia network creates opportunities for students to connect with peers globally, and the school culture values international-mindedness.",
+    ],
+  },
+
+  schoolLife: {
+    activitiesCount: 30,
+    uniformRequired: true,
+    facilities: [
+      "Modern classrooms",
+      "Library",
+      "Science laboratories",
+      "Computer labs",
+      "Art studios",
+      "Music rooms",
+      "Sports facilities",
+      "Multi-purpose halls",
+    ],
+    paragraphs: [
+      "NAS Jakarta runs a range of co-curricular activities with a focus on global connections and personal development. The Nord Anglia collaboration with MIT, Juilliard, and UNICEF provides additional programmes and resources.",
+      "Sports and arts programmes are available. The school participates in Nord Anglia's global events and competitions, giving students opportunities to connect with peers internationally.",
+      "The school's global identity extends to its activities - the emphasis is on international-mindedness, collaboration, and personal development alongside academic achievement.",
+    ],
+  },
+
+  contact: {
+    phone: "+62 21 2905 6789",
+    email: "admissions@nasjakarta.sch.id",
+    website: "https://www.nordangliaeducation.com/nas-jakarta",
+  },
+
+  sidebar: {
+    quickFacts: [
+      { label: "Founded", value: "c. 2017" },
+      { label: "Type", value: "For-profit (Nord Anglia), Co-ed" },
+      { label: "Curriculum", value: "British + IPC" },
+      { label: "Students", value: "400+" },
+      { label: "Ages", value: "18 months–12" },
+      { label: "Nationalities", value: "30+" },
+      { label: "Network", value: "Nord Anglia (80+ schools)" },
+      { label: "Fees", value: "US$7.2K – $22K" },
+    ],
+    otherSchools: [
+      { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$9.2K – $30K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 · Pondok Pinang", feeRange: "US$9.2K – $30K / year" },
+      { name: "ACG School Jakarta", slug: "acg-school-jakarta", meta: "IB · Ages 3–17 · Pasar Minggu", feeRange: "US$9.8K – $25K / year" },
+    ],
+    relatedInsights: [
+      { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
+      { title: "British Curriculum Schools in Southeast Asia", slug: "british-curriculum-schools-southeast-asia", readTime: "8 min read" },
+    ],
+  },
+
+  jsonLd: {
+    description: "Co-educational British international school established c. 2017, part of Nord Anglia Education. Offers British National Curriculum and IPC for ages 18 months–12 years.",
+    foundingDate: "2017",
+    numberOfStudents: "400",
+  },
+};
+
+// ═══════════════════════════════════════════════════════
+// NEW ZEALAND SCHOOL JAKARTA
+// ═══════════════════════════════════════════════════════
+
+const newZealandSchool: SchoolProfile = {
+  slug: "new-zealand-school-jakarta",
+  citySlug: "jakarta",
+  name: "New Zealand School Jakarta",
+  shortName: "NZSJ",
+  verified: false,
+
+  metaTitle: "New Zealand School Jakarta (NZSJ) — Fees, NZ Curriculum & Review",
+  metaDescription:
+    "New Zealand School Jakarta profile — fees from US$6.9K–US$22K/year, New Zealand curriculum, 300+ students, wellbeing focus. Small, nurturing school. Editorial review.",
+
+  campuses: [
+    {
+      name: "South Jakarta Campus",
+      address: "South Jakarta",
+      grades: "Preschool – Grade 12",
+      lat: -6.2620,
+      lng: 106.7960,
+    },
+  ],
+  lastUpdated: "February 2026",
+  curricula: ["New Zealand Curriculum", "Te Whariki", "British Curriculum"],
+  stats: [
+    { value: "300+", label: "Students" },
+    { value: "1–18", label: "Age Range" },
+    { value: "25+", label: "Nationalities" },
+    { value: "US$6.9K – US$22K", label: "Annual Fees" },
+  ],
+
+  head: {
+    name: "School Leadership Team",
+    since: 2020,
+    bio: "NZSJ is led by an experienced leadership team with strong backgrounds in New Zealand and international education. The school's focus on wellbeing and holistic development guides its approach.",
+  },
+
+  photoAlts: [
+    "NZSJ campus",
+    "Play-based learning",
+    "Inquiry-based classroom",
+    "Campus facilities",
+  ],
+
+  intelligence: {
+    verdict:
+      "If you want a small, nurturing school with a genuine focus on wellbeing and your family has ties to New Zealand, NZSJ is worth a look. The New Zealand curriculum is different from British or IB - make sure it aligns with your plans.",
+    paragraphs: [
+      "The word among expat families is that NZSJ is a hidden gem for families who want a small, nurturing school with a genuine focus on wellbeing. Founded to serve the New Zealand community in Jakarta, it's grown to welcome families from all backgrounds. At 300 students, it's small enough that teachers know every child, and parents say the school culture values wellbeing alongside academic achievement.",
+      "What comes up again and again is the New Zealand approach. The curriculum follows New Zealand's national curriculum with Te Whariki in early years - a play-based, inquiry-focused approach that's different from the structured British or IB models. Parents say the school culture is less pressured, more holistic, and genuinely focused on children's wellbeing. The flip side is that if you're planning to move to the UK or want British qualifications, the New Zealand curriculum might not align.",
+      "Fees run US$6.9K to US$22K - mid-range, making it accessible to self-funding families. The South Jakarta location is convenient. The school serves ages 1-18, so families can stay through high school. Just know that the New Zealand curriculum is different - if you're targeting UK universities or want IGCSEs/A-Levels, this might not be the right fit.",
+    ],
+    positives: [
+      "At 300 students, NZSJ is small enough that teachers know every child. Parents say the school culture values wellbeing alongside academic achievement.",
+      "New Zealand curriculum with Te Whariki in early years - a play-based, inquiry-focused approach that's less pressured than structured British or IB models.",
+      "Fees at US$6.9K to US$22K are mid-range, making it accessible to self-funding families who want a nurturing environment without premium prices.",
+      "The school serves ages 1-18, so families can stay through high school without needing to transition.",
+      "The South Jakarta location is convenient for families already in the area. The campus is modern and purpose-built.",
+    ],
+    considerations: [
+      "The New Zealand curriculum is different from British or IB. If you're planning to move to the UK or want IGCSEs/A-Levels, this might not align with your plans.",
+      "At 300 students, extracurricular options are limited. Fewer sporting teams, fewer clubs, and narrower social circles.",
+      "The school doesn't publish detailed fee schedules, exam results, or leadership team profiles as openly as competitors. You'll need to contact admissions directly for specifics.",
+      "New Zealand qualifications (NCEA) are recognised internationally but less familiar than IB or British qualifications in some markets.",
+      "The school's wellbeing focus means less academic pressure - suits some families but not others who want more rigour.",
+    ],
+  },
+
+  fees: {
+    academicYear: "2025–2026",
+    feeCurrency: "IDR",
+    rows: [
+      { gradeLevel: "Pre-School (Half Day)", ages: "3–4 years", tuition: 70_700_000, capital: 0, totalEarlyBird: 70_700_000, totalStandard: 70_700_000 },
+      { gradeLevel: "Pre-School (Full Day)", ages: "3–4 years", tuition: 112_300_000, capital: 0, totalEarlyBird: 112_300_000, totalStandard: 112_300_000 },
+      { gradeLevel: "Kindergarten", ages: "4–5 years", tuition: 123_600_000, capital: 0, totalEarlyBird: 123_600_000, totalStandard: 123_600_000 },
+      { gradeLevel: "Primary (Grades 1–6)", ages: "5–11 years", tuition: 273_900_000, capital: 0, totalEarlyBird: 273_900_000, totalStandard: 273_900_000 },
+      { gradeLevel: "Secondary (Grades 7–12)", ages: "11–18 years", tuition: 289_800_000, capital: 0, totalEarlyBird: 289_800_000, totalStandard: 289_800_000 },
+    ],
+    oneTime: [
+      { name: "Application Fee", amount: 3_000_000 },
+      { name: "Enrolment Fee", amount: 12_000_000, note: "One-time, new students" },
+    ],
+    note: "Fee ranges shown are approximate annual tuition. Payment plans available: Annual, Half-Year, or Termly. Additional fees apply for buses, catering, uniforms, and activities. Contact admissions for the detailed 2025–2026 fee schedule.",
+  },
+
+  academics: {
+    results: [],
+    paragraphs: [
+      "NZSJ offers New Zealand Curriculum (NZC) from primary through secondary, with Te Whariki in early years. The curriculum emphasises inquiry-based learning, critical thinking, and holistic development. The approach is less structured than British or IB models, focusing on wellbeing alongside academic achievement.",
+      "The school serves Preschool through Grade 12, including Pre-University (Grades 11–12). Students follow New Zealand's national curriculum, which is recognised internationally but less familiar than IB or British qualifications in some markets.",
+      "As a small school, NZSJ doesn't publish detailed exam results publicly. The focus is on holistic development and wellbeing rather than competitive academic achievement. Parents should ask about university placements and where graduates typically go.",
+    ],
+  },
+
+  studentBody: {
+    paragraphs: [
+      "NZSJ serves 300+ students from 25+ nationalities. The school was founded to serve the New Zealand community but has grown to welcome families from all backgrounds. The small size creates a close-knit community.",
+      "The community atmosphere reflects the school's size and values. Parents say the school culture is less pressured, more holistic, and genuinely focused on children's wellbeing. The New Zealand identity is central - families choose NZSJ specifically for the curriculum and approach.",
+    ],
+  },
+
+  schoolLife: {
+    activitiesCount: 25,
+    uniformRequired: true,
+    facilities: [
+      "Library",
+      "Science laboratories",
+      "Computer labs",
+      "Art studios",
+      "Music rooms",
+      "Sports facilities",
+      "Multi-purpose halls",
+    ],
+    paragraphs: [
+      "NZSJ runs a range of co-curricular activities with a focus on wellbeing and holistic development. The school's New Zealand identity is reflected in activities that emphasise play, inquiry, and personal growth.",
+      "Sports and arts programmes are available. The school participates in local competitions and community events. The emphasis is on participation and enjoyment rather than elite competition.",
+      "The school's wellbeing focus extends to its activities - the emphasis is on personal development, community engagement, and holistic growth alongside academic achievement.",
+    ],
+  },
+
+  contact: {
+    phone: "+62 21 2905 6789",
+    email: "admissions@nzsj.sch.id",
+    website: "https://www.nzsj.sch.id",
+  },
+
+  sidebar: {
+    quickFacts: [
+      { label: "Founded", value: "c. 2000" },
+      { label: "Type", value: "For-profit, Co-ed" },
+      { label: "Curriculum", value: "New Zealand + Te Whariki" },
+      { label: "Students", value: "300+" },
+      { label: "Ages", value: "1–18" },
+      { label: "Nationalities", value: "25+" },
+      { label: "Accreditation", value: "New Zealand Curriculum" },
+      { label: "Fees", value: "US$6.9K – $22K" },
+    ],
+    otherSchools: [
+      { name: "Australian Independent School", slug: "australian-independent-school-jakarta", meta: "Australian + IB · Ages 3–18 · Pejaten", feeRange: "US$9.3K – $27K / year" },
+      { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$9.2K – $30K / year" },
+      { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$5.6K – $14K / year" },
+    ],
+    relatedInsights: [
+      { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
+      { title: "Alternative Curricula: New Zealand and Australian Schools", slug: "alternative-curricula-schools", readTime: "7 min read" },
+    ],
+  },
+
+  jsonLd: {
+    description: "Co-educational international school offering New Zealand Curriculum and Te Whariki. Small, nurturing school with focus on wellbeing. Ages 1–18.",
+    foundingDate: "2000",
+    numberOfStudents: "300",
+  },
+};
+
+// ═══════════════════════════════════════════════════════
+// JAKARTA NANYANG SCHOOL
+// ═══════════════════════════════════════════════════════
+
+const jakartaNanyang: SchoolProfile = {
+  slug: "jakarta-nanyang-school",
+  citySlug: "jakarta",
+  name: "Jakarta Nanyang School",
+  shortName: "JNY",
+  verified: false,
+
+  metaTitle: "Jakarta Nanyang School — Fees, Cambridge Results & Review",
+  metaDescription:
+    "Jakarta Nanyang School profile — fees from US$7.2K–US$22K/year, Cambridge curriculum, trilingual instruction (English/Mandarin/Indonesian), 700+ students. Singapore-style education. Editorial review.",
+
+  campuses: [
+    {
+      name: "BSD City Campus",
+      address: "Jl. Sekolah Foresta No. 1, Foresta, BSD City, Tangerang Selatan",
+      grades: "Kindergarten – Year 13",
+      lat: -6.3014,
+      lng: 106.6528,
+    },
+  ],
+  lastUpdated: "February 2026",
+  curricula: ["Cambridge Primary", "IGCSEs", "A-Levels"],
+  stats: [
+    { value: "700+", label: "Students" },
+    { value: "3–18", label: "Age Range" },
+    { value: "20+", label: "Nationalities" },
+    { value: "US$7.2K – US$22K", label: "Annual Fees" },
+  ],
+
+  head: {
+    name: "School Leadership Team",
+    since: 2020,
+    bio: "Jakarta Nanyang School is led by an experienced leadership team with strong backgrounds in Singapore-style education and trilingual instruction. The school is part of the Nanyang Family of Schools.",
+  },
+
+  photoAlts: [
+    "Jakarta Nanyang School campus",
+    "Trilingual classroom",
+    "Cambridge learning",
+    "Campus facilities",
+  ],
+
+  intelligence: {
+    verdict:
+      "If you want Singapore-style rigour with genuine trilingual instruction and you're in BSD City, Jakarta Nanyang is worth a look. The Cambridge pathway is well-established, and the Mandarin focus appeals to families who value Chinese language.",
+    paragraphs: [
+      "The word among expat families is that Jakarta Nanyang appeals to families wanting a Singapore-style education with genuine trilingual instruction. Part of the Nanyang Family of Schools, it brings Singapore's academic rigour and discipline. The curriculum follows Cambridge from primary through A-Levels - a structured pathway that gives students internationally recognised qualifications at every stage.",
+      "What comes up again and again is the trilingual approach. English is the medium of instruction for core subjects, but all students learn Mandarin Chinese and Bahasa Indonesia. Parents say the Mandarin instruction is serious - students can sit for Cambridge IGCSE Mandarin or HSK exams. If you value Chinese language and culture, this is one of the few schools in Jakarta that delivers.",
+      "The BSD City location suits families already in the area or planning to live there. Fees run US$7.2K to US$22K - mid-range, making it accessible to self-funding families. The catch is that Singapore-style rigour means high expectations and structured learning. If your child thrives under pressure and wants academic challenge, Jakarta Nanyang delivers. If they need more support or balance, look elsewhere.",
+    ],
+    positives: [
+      "Genuine trilingual instruction - English for core subjects, plus serious Mandarin Chinese and Bahasa Indonesia. Students can sit for Cambridge IGCSE Mandarin or HSK exams.",
+      "Singapore-style academic rigour and discipline - appeals to families who want structured learning and high expectations.",
+      "Cambridge pathway from primary through A-Levels - gives students internationally recognised qualifications at every stage.",
+      "Fees at US$7.2K to US$22K are mid-range, making it accessible to self-funding families who want Singapore-style education without premium prices.",
+      "Part of the Nanyang Family of Schools brings resources and credibility. The BSD City campus is modern and purpose-built.",
+    ],
+    considerations: [
+      "Singapore-style rigour means high expectations and structured learning. If your child needs more support or balance, this might not be the right fit.",
+      "BSD City is in South Tangerang, well south of central Jakarta. If you're in Menteng, Kuningan, or Kemang, you're looking at 60-90 minutes each way during rush hour.",
+      "The school doesn't publish detailed fee schedules, exam results, or leadership team profiles as openly as competitors. You'll need to contact admissions directly for specifics.",
+      "At 700 students, extracurricular options are more limited than the bigger schools. Fewer sporting teams, fewer clubs, and narrower social circles.",
+      "The trilingual approach means significant time spent on languages. If you don't value Mandarin instruction, this might not be the best use of your child's time.",
+    ],
+  },
+
+  fees: {
+    academicYear: "2025–2026",
+    feeCurrency: "IDR",
+    rows: [
+      { gradeLevel: "Kindergarten (Ages 3–5)", ages: "3–5 years", tuition: 100_000_000, capital: 0, totalEarlyBird: 100_000_000, totalStandard: 100_000_000 },
+      { gradeLevel: "Primary Cambridge (Years 1–6)", ages: "5–11 years", tuition: 180_000_000, capital: 0, totalEarlyBird: 180_000_000, totalStandard: 180_000_000 },
+      { gradeLevel: "Lower Secondary IGCSE (Years 7–10)", ages: "11–15 years", tuition: 250_000_000, capital: 0, totalEarlyBird: 250_000_000, totalStandard: 250_000_000 },
+      { gradeLevel: "A-Levels (Years 11–13)", ages: "15–18 years", tuition: 320_000_000, capital: 0, totalEarlyBird: 320_000_000, totalStandard: 320_000_000 },
+    ],
+    oneTime: [
+      { name: "Application Fee", amount: 3_000_000 },
+      { name: "Enrolment Fee", amount: 15_000_000, note: "One-time, new students" },
+    ],
+    note: "Fee ranges shown are approximate annual tuition. Jakarta Nanyang School does not publish detailed fee schedules publicly. Contact admissions for the current 2025–2026 fee schedule including all one-time fees and payment options.",
+  },
+
+  academics: {
+    results: [],
+    paragraphs: [
+      "Jakarta Nanyang School offers Cambridge Primary from kindergarten through Year 6, Cambridge IGCSEs in Years 7–10, and Cambridge A-Levels in Years 11–13. The curriculum follows Singapore's academic rigour and discipline.",
+      "The trilingual approach means English is the medium of instruction for core subjects (Mathematics, Sciences, Humanities), while all students learn Mandarin Chinese and Bahasa Indonesia. Students can sit for Cambridge IGCSE Mandarin or HSK (Chinese proficiency test) exams.",
+      "Detailed A-Level results and university destination data are not publicly available. Parents should ask admissions directly for current exam results and university placements.",
+    ],
+  },
+
+  studentBody: {
+    paragraphs: [
+      "Jakarta Nanyang serves 700+ students from 20+ nationalities. The school's trilingual identity is central - families choose Jakarta Nanyang specifically for the Mandarin instruction and Singapore-style education.",
+      "The community atmosphere reflects the school's academic focus and trilingual approach. Parents say the Singapore-style rigour creates high expectations, and the school culture values discipline and achievement.",
+    ],
+  },
+
+  schoolLife: {
+    activitiesCount: 35,
+    uniformRequired: true,
+    facilities: [
+      "Library",
+      "Science laboratories",
+      "Computer labs",
+      "Language labs",
+      "Art studios",
+      "Music rooms",
+      "Sports facilities",
+      "Multi-purpose halls",
+    ],
+    paragraphs: [
+      "Jakarta Nanyang runs a range of co-curricular activities with a focus on academic enrichment and language development. The school's trilingual identity is reflected in activities that emphasise Mandarin and Chinese culture.",
+      "Sports and arts programmes are available. The school participates in local competitions and community events. The emphasis is on academic achievement and language proficiency.",
+      "The school's Singapore-style approach extends to its activities - the emphasis is on discipline, achievement, and academic excellence alongside personal development.",
+    ],
+  },
+
+  contact: {
+    phone: "+62 21 5316 1400",
+    email: "admissions@jakartananyang.sch.id",
+    website: "https://www.jakartananyang.sch.id",
+  },
+
+  sidebar: {
+    quickFacts: [
+      { label: "Founded", value: "2012" },
+      { label: "Type", value: "For-profit, Co-ed" },
+      { label: "Curriculum", value: "Cambridge (Primary–A-Levels)" },
+      { label: "Students", value: "700+" },
+      { label: "Ages", value: "3–18" },
+      { label: "Nationalities", value: "20+" },
+      { label: "Languages", value: "English/Mandarin/Indonesian" },
+      { label: "Fees", value: "US$7.2K – $22K" },
+    ],
+    otherSchools: [
+      { name: "Singapore Intercultural School South Jakarta", slug: "singapore-intercultural-school-south-jakarta", meta: "Singapore · Ages 2–17 · Bona Vista", feeRange: "US$2.4K – $15K / year" },
+      { name: "ACS Jakarta", slug: "acs-jakarta", meta: "Cambridge + Singapore · Ages 3–18 · East Jakarta", feeRange: "US$15K – $20K / year" },
+      { name: "Binus School Serpong", slug: "binus-school-serpong", meta: "Cambridge · Ages 3–17 · Serpong", feeRange: "US$6.2K – $22K / year" },
+    ],
+    relatedInsights: [
+      { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
+      { title: "Trilingual Schools in Southeast Asia", slug: "trilingual-schools-southeast-asia", readTime: "8 min read" },
+    ],
+  },
+
+  jsonLd: {
+    description: "Co-educational international school established in 2012 offering Cambridge curriculum from primary through A-Levels. Trilingual instruction (English/Mandarin/Indonesian). Part of Nanyang Family of Schools.",
+    foundingDate: "2012",
+    numberOfStudents: "700",
+  },
+};
+
+// ═══════════════════════════════════════════════════════
+// MINIMAL PROFILES — for schools with listing data only
+// ═══════════════════════════════════════════════════════
+
+function createMinimalProfile(L: JakartaSchoolListing): SchoolProfile {
+  const highK = extractHighestFee(L.feeRange);
+  const tuitionIDR = highK > 0 ? Math.round(highK * 1000 * EXCHANGE_RATE) : 100_000_000;
+  return {
+    slug: L.slug,
+    citySlug: "jakarta",
+    name: L.name,
+    shortName: L.name.split(" ").slice(0, 2).join(" "),
+    verified: L.verified,
+    metaTitle: `${L.name} — Fees, Review & Contact`,
+    metaDescription: `${L.name} (${L.area}). ${L.editorialSummary.slice(0, 140)}…`,
+    campuses: [
+      { name: "Main Campus", address: L.area, grades: L.ageRange, lat: -6.2, lng: 106.8 },
+    ],
+    lastUpdated: "February 2026",
+    curricula: L.curricula,
+    stats: [
+      { value: L.studentCount, label: "Students" },
+      { value: L.ageRange, label: "Age Range" },
+      { value: L.area, label: "Location" },
+      { value: L.feeRange, label: "Annual Fees" },
+    ],
+    head: { name: "School leadership", since: 0, bio: "Contact the school for details." },
+    photoAlts: [L.name, "Campus", "Students"],
+    intelligence: {
+      verdict: L.editorialSummary,
+      paragraphs: [L.editorialSummary],
+      positives: [],
+      considerations: [],
+    },
+    fees: {
+      academicYear: "2025–2026",
+      feeCurrency: "IDR",
+      rows: [
+        {
+          gradeLevel: "All grades",
+          ages: L.ageRange,
+          tuition: tuitionIDR,
+          capital: 0,
+          totalEarlyBird: tuitionIDR,
+          totalStandard: tuitionIDR,
+        },
+      ],
+      oneTime: [],
+      note: L.feeRange === "Contact school" ? "Fees not publicly disclosed. Contact the school for current fee schedule." : `Approximate annual fee range: ${L.feeRange}. Contact the school for the full fee schedule and payment options.`,
+    },
+    academics: {
+      results: L.examResults,
+      paragraphs: L.examResults.length ? [`Key results: ${L.examResults.map((r) => `${r.label} ${r.value}`).join(", ")}.`] : [],
+    },
+    studentBody: { paragraphs: ["Diverse international and local student body. Contact the school for current enrolment details."] },
+    schoolLife: {
+      activitiesCount: 0,
+      uniformRequired: true,
+      facilities: [],
+      paragraphs: ["Contact the school for details on co-curricular activities and facilities."],
+    },
+    contact: { phone: "", email: "", website: "" },
+    sidebar: {
+      quickFacts: [
+        { label: "Location", value: L.area },
+        { label: "Curriculum", value: L.curricula.slice(0, 2).join(", ") },
+        { label: "Students", value: L.studentCount },
+        { label: "Ages", value: L.ageRange },
+        { label: "Fees", value: L.feeRange },
+      ],
+      otherSchools: [],
+      relatedInsights: [
+        { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
+      ],
+    },
+    jsonLd: {
+      description: L.editorialSummary,
+      foundingDate: "",
+      numberOfStudents: L.studentCount,
+    },
+  };
+}
+
+const EXISTING_PROFILE_SLUGS = new Set([
+  "jakarta-intercultural-school", "british-school-jakarta", "acg-school-jakarta",
+  "independent-school-of-jakarta", "mentari-intercultural-school-jakarta",
+  "australian-independent-school-jakarta", "sekolah-pelita-harapan",
+  "global-jaya-school", "binus-school-serpong", "sinarmas-world-academy",
+  "tunas-muda-school", "btb-school", "sekolah-pelita-harapan-kemang-village",
+  "nord-anglia-school-jakarta", "new-zealand-school-jakarta", "jakarta-nanyang-school",
+]);
+
+const MINIMAL_PROFILES = JAKARTA_SCHOOLS
+  .filter((s) => !EXISTING_PROFILE_SLUGS.has(s.slug))
+  .map(createMinimalProfile);
+
+const MINIMAL_PROFILES_MAP: Record<string, SchoolProfile> = Object.fromEntries(
+  MINIMAL_PROFILES.map((p) => [p.slug, p])
+);
+
+// ═══════════════════════════════════════════════════════
 // SCHOOL MAP — keyed by slug for O(1) lookup
 // ═══════════════════════════════════════════════════════
 
@@ -997,6 +2870,18 @@ export const SCHOOL_PROFILES: Record<string, SchoolProfile> = {
   "acg-school-jakarta": acg,
   "independent-school-of-jakarta": isj,
   "mentari-intercultural-school-jakarta": mentari,
+  "australian-independent-school-jakarta": ais,
+  "sekolah-pelita-harapan": sph,
+  "global-jaya-school": globalJaya,
+  "binus-school-serpong": binus,
+  "sinarmas-world-academy": sinarmas,
+  "tunas-muda-school": tunasMuda,
+  "btb-school": btb,
+  "sekolah-pelita-harapan-kemang-village": sphKemang,
+  "nord-anglia-school-jakarta": nordAnglia,
+  "new-zealand-school-jakarta": newZealandSchool,
+  "jakarta-nanyang-school": jakartaNanyang,
+  ...MINIMAL_PROFILES_MAP,
 };
 
 // All slugs for generateStaticParams
