@@ -6,6 +6,7 @@ import Link from "@tiptap/extension-link";
 import { useEffect, useRef } from "react";
 import { FloatingToolbar } from "./FloatingToolbar";
 import { ImageWithPlaceholder } from "./ImageWithPlaceholder";
+import { MapboxPlaceholder } from "./MapboxPlaceholder";
 
 interface RichTextEditorProps {
   content: string;
@@ -28,6 +29,7 @@ export function RichTextEditor({
         },
       }),
       ImageWithPlaceholder,
+      MapboxPlaceholder,
       Link.configure({
         openOnClick: false,
         HTMLAttributes: {
@@ -69,9 +71,14 @@ export function RichTextEditor({
         ...(html.match(/\[IMAGE NEEDED:[^\]]*\]/g) || []),
         ...(text.match(/\[IMAGE NEEDED:[^\]]*\]/g) || []),
       ];
+      const mapboxMatches = [
+        ...(html.match(/\[MAPBOX MAP NEEDED:[^\]]*\]/g) || []),
+        ...(text.match(/\[MAPBOX MAP NEEDED:[^\]]*\]/g) || []),
+        ...(html.match(/data-type="mapbox-placeholder"/g) || []),
+      ];
       
       // Use Set to deduplicate
-      const total = new Set([...researchMatches, ...pullquoteMatches, ...imageMatches]).size;
+      const total = new Set([...researchMatches, ...pullquoteMatches, ...imageMatches, ...mapboxMatches]).size;
       
       onPlaceholderCountChange(total);
 
@@ -91,6 +98,12 @@ export function RichTextEditor({
         } else if (text.includes("[IMAGE NEEDED:") || html.includes("[IMAGE NEEDED:")) {
           p.classList.add("image-placeholder");
         }
+      });
+      
+      // Style mapbox placeholder blocks
+      const mapboxBlocks = editorElement.querySelectorAll('[data-type="mapbox-placeholder"]');
+      mapboxBlocks.forEach((block) => {
+        block.classList.add("mapbox-placeholder-block");
       });
     };
 
@@ -129,6 +142,34 @@ export function RichTextEditor({
   return (
     <div ref={editorRef} className="relative">
       {editor && <FloatingToolbar editor={editor} />}
+      {/* Insert Image/Map Toolbar - appears on empty line click */}
+      {editor && (
+        <div className="absolute top-4 right-4 z-40 flex gap-2">
+          <button
+            onClick={() => {
+              const url = window.prompt("Enter image URL:");
+              if (url) {
+                editor.chain().focus().setImage({ src: url }).run();
+              }
+            }}
+            className="px-3 py-1.5 text-xs bg-white border border-warm-border rounded-sm shadow-sm hover:bg-cream-50 text-charcoal"
+            title="Insert Image"
+          >
+            📷 Image
+          </button>
+          <button
+            onClick={() => {
+              const city = window.prompt("Enter city name (optional):") || "";
+              const html = `<div data-type="mapbox-placeholder" ${city ? `data-city="${city}"` : ""} class="mapbox-placeholder-block">[MAPBOX MAP NEEDED: ${city || "Interactive map"} - showing schools, neighborhoods, and POIs]</div>`;
+              editor.chain().focus().insertContent(html).run();
+            }}
+            className="px-3 py-1.5 text-xs bg-white border border-warm-border rounded-sm shadow-sm hover:bg-cream-50 text-charcoal"
+            title="Insert Mapbox Map"
+          >
+            🗺️ Map
+          </button>
+        </div>
+      )}
       <style dangerouslySetInnerHTML={{ __html: `
         .ProseMirror {
           font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -216,6 +257,27 @@ export function RichTextEditor({
           min-height: 150px;
           margin: 1.5rem 0 !important;
           border-radius: 4px;
+        }
+        .ProseMirror .mapbox-placeholder-block {
+          display: flex !important;
+          align-items: center;
+          justify-content: center;
+          background: #E0F2FE !important;
+          border: 2px dashed #0284C7 !important;
+          border-left: 4px solid #0284C7 !important;
+          padding: 3rem 2rem !important;
+          text-align: center;
+          color: #0C4A6E !important;
+          font-weight: 500 !important;
+          min-height: 400px;
+          margin: 2rem 0 !important;
+          border-radius: 4px;
+          flex-direction: column;
+          gap: 1rem;
+        }
+        .ProseMirror .mapbox-placeholder-block::before {
+          content: "🗺️";
+          font-size: 3rem;
         }
         .ProseMirror section {
           margin-bottom: 3rem;

@@ -34,7 +34,15 @@ export const ImageWithPlaceholder = Image.extend({
         src,
       ];
     }
-    return ["img", HTMLAttributes];
+    // Render actual image - matches live site styling
+    return [
+      "img",
+      {
+        ...HTMLAttributes,
+        class: "w-full h-auto my-6 rounded-sm",
+        style: "max-width: 100%; height: auto; margin: 1.5rem 0; border-radius: 4px;",
+      },
+    ];
   },
 }).configure({
   inline: false,
