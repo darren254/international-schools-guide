@@ -1,8 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import type { InsightDraft } from "@/lib/insights/draft";
+import { RichTextEditor } from "@/components/editor/RichTextEditor";
+import { FloatingToolbar } from "@/components/editor/FloatingToolbar";
 
 interface ReviewEditorProps {
   draft: InsightDraft;
@@ -164,10 +166,42 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
   const [draft, setDraft] = useState(initialDraft);
   const [editingTitle, setEditingTitle] = useState(false);
   const [editingSummary, setEditingSummary] = useState(false);
-  const [editingContent, setEditingContent] = useState(false);
   const [publishing, setPublishing] = useState(false);
+  const [placeholderCount, setPlaceholderCount] = useState(0);
+  const autoSaveTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const lastSavedRef = useRef<string>(JSON.stringify(draft));
+
+  // Auto-save every 30 seconds
+  useEffect(() => {
+    const currentDraft = JSON.stringify(draft);
+    if (currentDraft !== lastSavedRef.current) {
+      // Clear existing timer
+      if (autoSaveTimerRef.current) {
+        clearTimeout(autoSaveTimerRef.current);
+      }
+
+      // Set new timer
+      autoSaveTimerRef.current = setTimeout(() => {
+        // In a real implementation, you'd save to localStorage or API
+        // For now, we'll just update the ref
+        lastSavedRef.current = currentDraft;
+        console.log("Auto-saved draft");
+      }, 30000);
+    }
+
+    return () => {
+      if (autoSaveTimerRef.current) {
+        clearTimeout(autoSaveTimerRef.current);
+      }
+    };
+  }, [draft]);
 
   const handlePublish = async () => {
+    if (placeholderCount > 0) {
+      alert(`Please resolve all ${placeholderCount} placeholder(s) before publishing.`);
+      return;
+    }
+
     setPublishing(true);
     
     // For static export, we'll open GitHub edit page with updated content
@@ -282,145 +316,23 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
         )}
       </div>
 
-      {/* Article Content - Nicely Formatted */}
-      <div className="bg-white border border-warm-border rounded-sm p-8 mb-8">
-        <div className="flex items-center justify-between mb-4">
+      {/* Article Content - Rich Text Editor */}
+      <div className="bg-white border border-warm-border rounded-sm mb-8">
+        <div className="border-b border-warm-border p-4 flex items-center justify-between">
           <h3 className="font-display text-lg">Article Content</h3>
-          {!editingContent && (
-            <button
-              onClick={() => setEditingContent(true)}
-              className="px-4 py-2 border border-warm-border text-charcoal text-sm rounded-sm hover:bg-cream-100"
-            >
-              Edit Content
-            </button>
+          {placeholderCount > 0 && (
+            <div className="text-sm text-red-600 font-medium">
+              ⚠️ {placeholderCount} placeholder{placeholderCount > 1 ? "s" : ""} need{placeholderCount === 1 ? "s" : ""} resolution
+            </div>
           )}
         </div>
-        
-        {editingContent ? (
-          <div className="space-y-4">
-            <div className="grid grid-cols-2 gap-4" style={{ height: '600px' }}>
-              {/* Left: Editable HTML */}
-              <div className="flex flex-col">
-                <label className="text-sm font-semibold text-charcoal mb-2">Edit HTML</label>
-                <textarea
-                  value={draft.content}
-                  onChange={(e) => setDraft({ ...draft, content: e.target.value })}
-                  className="flex-1 font-mono text-xs bg-white border-2 border-hermes rounded-sm p-4 resize-none"
-                  placeholder="Enter HTML content"
-                  style={{ fontFamily: 'Monaco, Menlo, "Courier New", monospace' }}
-                />
-              </div>
-              {/* Right: Live Preview */}
-              <div className="flex flex-col">
-                <label className="text-sm font-semibold text-charcoal mb-2">Live Preview</label>
-                <div className="flex-1 overflow-auto bg-cream-50 border-2 border-warm-border rounded-sm p-6">
-                  <style dangerouslySetInnerHTML={{ __html: `
-                    .preview-content section {
-                      margin-bottom: 2rem;
-                      padding-bottom: 1.5rem;
-                      border-bottom: 1px solid #E8E2D9;
-                    }
-                    .preview-content section:last-child {
-                      border-bottom: none;
-                    }
-                    .preview-content h2 {
-                      font-family: 'Cormorant Garamond', Georgia, serif;
-                      font-size: 1.5rem;
-                      font-weight: 600;
-                      margin-top: 1.5rem;
-                      margin-bottom: 1rem;
-                      color: #1A1A1A;
-                      line-height: 1.3;
-                    }
-                    .preview-content h3 {
-                      font-family: 'Cormorant Garamond', Georgia, serif;
-                      font-size: 1.25rem;
-                      font-weight: 600;
-                      margin-top: 1.25rem;
-                      margin-bottom: 0.75rem;
-                      color: #1A1A1A;
-                    }
-                    .preview-content p {
-                      margin-bottom: 1rem;
-                      color: #4A4540;
-                      line-height: 1.75;
-                      font-size: 0.9375rem;
-                    }
-                    .preview-content strong {
-                      font-weight: 600;
-                      color: #1A1A1A;
-                    }
-                  `}} />
-                  <div
-                    className="preview-content"
-                    dangerouslySetInnerHTML={{ __html: draft.content }}
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="flex gap-2">
-              <button
-                onClick={() => setEditingContent(false)}
-                className="px-6 py-2 bg-hermes text-white rounded-sm hover:bg-hermes-hover"
-              >
-                Save & Close Editor
-              </button>
-              <button
-                onClick={() => {
-                  setDraft({ ...draft, content: initialDraft.content });
-                  setEditingContent(false);
-                }}
-                className="px-6 py-2 border border-warm-border text-charcoal rounded-sm hover:bg-cream-100"
-              >
-                Cancel & Discard Changes
-              </button>
-            </div>
-          </div>
-        ) : (
-          <>
-            <style dangerouslySetInnerHTML={{ __html: `
-              .review-content section {
-                margin-bottom: 3rem;
-                padding-bottom: 2rem;
-                border-bottom: 1px solid #E8E2D9;
-              }
-              .review-content section:last-child {
-                border-bottom: none;
-              }
-              .review-content h2 {
-                font-family: 'Cormorant Garamond', Georgia, serif;
-                font-size: 1.875rem;
-                font-weight: 600;
-                margin-top: 2.5rem;
-                margin-bottom: 1.5rem;
-                color: #1A1A1A;
-                line-height: 1.3;
-              }
-              .review-content h3 {
-                font-family: 'Cormorant Garamond', Georgia, serif;
-                font-size: 1.5rem;
-                font-weight: 600;
-                margin-top: 2rem;
-                margin-bottom: 1rem;
-                color: #1A1A1A;
-              }
-              .review-content p {
-                margin-bottom: 1.25rem;
-                color: #4A4540;
-                line-height: 1.75;
-                font-size: 1rem;
-              }
-              .review-content strong {
-                font-weight: 600;
-                color: #1A1A1A;
-              }
-            `}} />
-            <div
-              className="review-content"
-              dangerouslySetInnerHTML={{ __html: draft.content }}
-            />
-          </>
-        )}
+        <div className="relative">
+          <RichTextEditor
+            content={draft.content}
+            onChange={(html) => setDraft({ ...draft, content: html })}
+            onPlaceholderCountChange={setPlaceholderCount}
+          />
+        </div>
       </div>
 
       {/* Metadata */}
@@ -633,14 +545,21 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
       <div className="sticky bottom-0 bg-cream border-t border-warm-border p-6 -mx-6 mt-8 shadow-lg">
         <div className="container-site flex items-center justify-between">
           <div className="text-sm text-charcoal-muted">
-            Ready to publish? Click the button above to approve this article.
+            {placeholderCount > 0
+              ? `⚠️ ${placeholderCount} placeholder${placeholderCount > 1 ? "s" : ""} must be resolved before publishing`
+              : "Ready to publish? Click the button to approve this article."}
           </div>
           <button
             onClick={handlePublish}
-            disabled={publishing}
-            className="px-8 py-3 bg-hermes text-white font-semibold rounded-sm hover:bg-hermes-hover transition-colors disabled:opacity-50"
+            disabled={publishing || placeholderCount > 0}
+            className="px-8 py-3 bg-hermes text-white font-semibold rounded-sm hover:bg-hermes-hover transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            title={placeholderCount > 0 ? `Resolve ${placeholderCount} placeholder(s) before publishing` : ""}
           >
-            {publishing ? "Preparing..." : "Publish"}
+            {publishing
+              ? "Preparing..."
+              : placeholderCount > 0
+              ? `Resolve ${placeholderCount} issue${placeholderCount > 1 ? "s" : ""} before publishing`
+              : "Publish"}
           </button>
         </div>
       </div>
