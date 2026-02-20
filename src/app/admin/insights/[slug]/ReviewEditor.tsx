@@ -135,10 +135,45 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
           className="prose-hermes prose-lg max-w-none"
           dangerouslySetInnerHTML={{ __html: draft.content }}
           style={{
-            // Ensure sections are visually separated
             lineHeight: "1.75",
           }}
         />
+        <style jsx global>{`
+          .prose-hermes section {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #E8E2D9;
+          }
+          .prose-hermes section:last-child {
+            border-bottom: none;
+          }
+          .prose-hermes h2 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.875rem;
+            font-weight: 600;
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #1A1A1A;
+            line-height: 1.3;
+          }
+          .prose-hermes h3 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: #1A1A1A;
+          }
+          .prose-hermes p {
+            margin-bottom: 1.25rem;
+            color: #4A4540;
+            line-height: 1.75;
+          }
+          .prose-hermes strong {
+            font-weight: 600;
+            color: #1A1A1A;
+          }
+        `}</style>
       </div>
 
       {/* Metadata */}
