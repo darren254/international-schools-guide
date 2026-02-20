@@ -90,6 +90,29 @@ export function FloatingToolbar({ editor }: FloatingToolbarProps) {
       >
         🔗
       </button>
+      <div className="w-px bg-warm-border mx-1" />
+      <button
+        onClick={() => editor.chain().focus().toggleHeading({ level: 2 }).run()}
+        className={`px-3 py-1.5 text-sm rounded-sm transition-colors ${
+          editor.isActive("heading", { level: 2 })
+            ? "bg-hermes text-white"
+            : "bg-cream-50 text-charcoal hover:bg-cream-100"
+        }`}
+        title="Heading 2"
+      >
+        H2
+      </button>
+      <button
+        onClick={() => editor.chain().focus().toggleHeading({ level: 3 }).run()}
+        className={`px-3 py-1.5 text-sm rounded-sm transition-colors ${
+          editor.isActive("heading", { level: 3 })
+            ? "bg-hermes text-white"
+            : "bg-cream-50 text-charcoal hover:bg-cream-100"
+        }`}
+        title="Heading 3"
+      >
+        H3
+      </button>
     </div>
   );
 }

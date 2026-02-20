@@ -231,126 +231,132 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
   };
 
   return (
-    <div className="container-site pt-6 pb-16">
-      {/* Header */}
-      <div className="mb-8">
-        <Link
-          href="/admin/insights"
-          className="text-sm text-charcoal-muted hover:text-hermes mb-4 inline-block"
-        >
-          ← Back to drafts
-        </Link>
-        <div className="flex items-center justify-between mb-4">
-          <h1 className="font-display text-3xl md:text-4xl text-charcoal">
-            Review Article
-          </h1>
-          <button
-            onClick={handlePublish}
-            disabled={publishing}
-            className="px-8 py-3 bg-hermes text-white font-semibold rounded-sm hover:bg-hermes-hover transition-colors disabled:opacity-50"
-          >
-            {publishing ? "Preparing..." : "Publish"}
-          </button>
-        </div>
-        <div className="flex items-center gap-4 text-sm text-charcoal-muted">
-          <span>
-            Status: <strong className="text-charcoal">{draft.status}</strong>
-          </span>
-          <span>•</span>
-          <span>Category: {draft.category}</span>
-          <span>•</span>
-          <span>
-            Created: {new Date(draft.createdAt).toLocaleDateString()}
-          </span>
-        </div>
-      </div>
-
-      {/* Editable Title */}
-      <div className="mb-6">
-        {editingTitle ? (
-          <div>
-            <input
-              type="text"
-              value={draft.title}
-              onChange={(e) => setDraft({ ...draft, title: e.target.value })}
-              className="w-full text-3xl md:text-4xl font-display text-charcoal bg-white border-2 border-hermes rounded-sm p-4 mb-2"
-              onBlur={() => setEditingTitle(false)}
-              onKeyDown={(e) => {
-                if (e.key === "Enter") {
-                  setEditingTitle(false);
-                }
-              }}
-              autoFocus
-            />
-            <p className="text-xs text-charcoal-muted">Press Enter to save, or click outside</p>
+    <div className="min-h-screen bg-cream">
+      {/* Top Bar - Fixed */}
+      <div className="sticky top-0 z-40 bg-white border-b border-warm-border shadow-sm">
+        <div className="container-site py-4">
+          <div className="flex items-center justify-between mb-4">
+            <Link
+              href="/admin/insights"
+              className="text-sm text-charcoal-muted hover:text-hermes"
+            >
+              ← Back to drafts
+            </Link>
+            <button
+              onClick={handlePublish}
+              disabled={publishing || placeholderCount > 0}
+              className="px-8 py-3 bg-hermes text-white font-semibold rounded-sm hover:bg-hermes-hover transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              title={placeholderCount > 0 ? `Resolve ${placeholderCount} placeholder(s) before publishing` : ""}
+            >
+              {publishing
+                ? "Preparing..."
+                : placeholderCount > 0
+                ? `Resolve ${placeholderCount} issue${placeholderCount > 1 ? "s" : ""} before publishing`
+                : "Publish"}
+            </button>
           </div>
-        ) : (
-          <h2
-            onClick={() => setEditingTitle(true)}
-            className="text-3xl md:text-4xl font-display text-charcoal cursor-pointer hover:bg-cream-50 p-2 -m-2 rounded-sm transition-colors"
-            title="Click to edit"
-          >
-            {draft.title}
-          </h2>
-        )}
-      </div>
-
-      {/* Editable Summary */}
-      <div className="mb-8">
-        {editingSummary ? (
-          <div>
-            <textarea
-              value={draft.summary}
-              onChange={(e) => setDraft({ ...draft, summary: e.target.value })}
-              className="w-full text-base text-charcoal bg-white border-2 border-hermes rounded-sm p-4 mb-2 resize-y min-h-[80px]"
-              onBlur={() => setEditingSummary(false)}
-              rows={3}
-              autoFocus
-            />
-            <p className="text-xs text-charcoal-muted">Click outside to save</p>
-          </div>
-        ) : (
-          <p
-            onClick={() => setEditingSummary(true)}
-            className="text-lg text-charcoal-light cursor-pointer hover:bg-cream-50 p-2 -m-2 rounded-sm transition-colors"
-            title="Click to edit"
-          >
-            {draft.summary}
-          </p>
-        )}
-      </div>
-
-      {/* Article Content - Rich Text Editor */}
-      <div className="bg-white border border-warm-border rounded-sm mb-8">
-        <div className="border-b border-warm-border p-4 flex items-center justify-between">
-          <h3 className="font-display text-lg">Article Content</h3>
-          {placeholderCount > 0 && (
-            <div className="text-sm text-red-600 font-medium">
-              ⚠️ {placeholderCount} placeholder{placeholderCount > 1 ? "s" : ""} need{placeholderCount === 1 ? "s" : ""} resolution
+          
+          {/* Metadata Row */}
+          <div className="flex items-center gap-6 text-xs text-charcoal-muted">
+            <div>
+              Status: <strong className="text-charcoal">{draft.status}</strong>
             </div>
+            <div>•</div>
+            <div>Category: {draft.category}</div>
+            <div>•</div>
+            <div>Created: {new Date(draft.createdAt).toLocaleDateString()}</div>
+            {placeholderCount > 0 && (
+              <>
+                <div>•</div>
+                <div className="text-red-600 font-medium">
+                  ⚠️ {placeholderCount} placeholder{placeholderCount > 1 ? "s" : ""} unresolved
+                </div>
+              </>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* Article Content - Full Width, Matches Live Site */}
+      <div className="container-site pt-12 pb-16">
+        {/* Editable Title */}
+        <div className="mb-6">
+          {editingTitle ? (
+            <div>
+              <input
+                type="text"
+                value={draft.title}
+                onChange={(e) => setDraft({ ...draft, title: e.target.value })}
+                className="w-full text-3xl md:text-4xl font-display text-charcoal bg-white border-2 border-hermes rounded-sm p-4 mb-2"
+                onBlur={() => setEditingTitle(false)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    setEditingTitle(false);
+                  }
+                }}
+                autoFocus
+              />
+              <p className="text-xs text-charcoal-muted">Press Enter to save, or click outside</p>
+            </div>
+          ) : (
+            <h1
+              onClick={() => setEditingTitle(true)}
+              className="text-3xl md:text-4xl font-display text-charcoal cursor-pointer hover:bg-cream-50 p-2 -m-2 rounded-sm transition-colors"
+              title="Click to edit"
+            >
+              {draft.title}
+            </h1>
           )}
         </div>
-        <div className="relative">
+
+        {/* Editable Summary */}
+        <div className="mb-8">
+          {editingSummary ? (
+            <div>
+              <textarea
+                value={draft.summary}
+                onChange={(e) => setDraft({ ...draft, summary: e.target.value })}
+                className="w-full text-base text-charcoal bg-white border-2 border-hermes rounded-sm p-4 mb-2 resize-y min-h-[80px]"
+                onBlur={() => setEditingSummary(false)}
+                rows={3}
+                autoFocus
+              />
+              <p className="text-xs text-charcoal-muted">Click outside to save</p>
+            </div>
+          ) : (
+            <p
+              onClick={() => setEditingSummary(true)}
+              className="text-lg text-charcoal-light cursor-pointer hover:bg-cream-50 p-2 -m-2 rounded-sm transition-colors"
+              title="Click to edit"
+            >
+              {draft.summary}
+            </p>
+          )}
+        </div>
+
+        {/* Metadata - Inline */}
+        <div className="mb-8 flex items-center gap-4 text-sm text-charcoal-muted pb-4 border-b border-warm-border">
+          <div>
+            <span className="font-medium text-charcoal">Slug:</span>{" "}
+            <code className="bg-cream-100 px-2 py-1 rounded text-xs">{draft.slug}</code>
+          </div>
+          {draft.author && (
+            <>
+              <div>•</div>
+              <div>
+                <span className="font-medium text-charcoal">Author:</span> {draft.author}
+              </div>
+            </>
+          )}
+        </div>
+
+        {/* Rich Text Editor - Full Width, Matches Live Site */}
+        <div className="w-full">
           <RichTextEditor
             content={draft.content}
             onChange={(html) => setDraft({ ...draft, content: html })}
             onPlaceholderCountChange={setPlaceholderCount}
           />
-        </div>
-      </div>
-
-      {/* Metadata */}
-      <div className="bg-cream-50 border border-warm-border rounded-sm p-6 mb-8">
-        <h3 className="font-display text-lg mb-4">Article Metadata</h3>
-        <div className="grid grid-cols-2 gap-4 text-sm">
-          <div>
-            <strong>Slug:</strong> <code className="bg-white px-2 py-1 rounded">{draft.slug}</code>
-          </div>
-          {draft.author && (
-            <div>
-              <strong>Author:</strong> {draft.author}
-            </div>
-          )}
         </div>
       </div>
 

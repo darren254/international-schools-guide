@@ -39,7 +39,7 @@ export function RichTextEditor({
     editorProps: {
       attributes: {
         class:
-          "prose prose-lg max-w-none focus:outline-none min-h-[600px] p-8",
+          "focus:outline-none min-h-[600px]",
       },
     },
     onUpdate: ({ editor }) => {
@@ -135,6 +135,8 @@ export function RichTextEditor({
           color: #4A4540;
           line-height: 1.75;
           font-size: 1rem;
+          max-width: 100%;
+          padding: 0;
         }
         .ProseMirror:focus {
           outline: none;
@@ -201,7 +203,9 @@ export function RichTextEditor({
           border-radius: 4px;
         }
         .ProseMirror .image-placeholder-block {
-          display: block;
+          display: flex !important;
+          align-items: center;
+          justify-content: center;
           background: #FEF3C7 !important;
           border: 2px dashed #F59E0B !important;
           border-left: 4px solid #F59E0B !important;
@@ -212,9 +216,6 @@ export function RichTextEditor({
           min-height: 150px;
           margin: 1.5rem 0 !important;
           border-radius: 4px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
         }
         .ProseMirror section {
           margin-bottom: 3rem;
