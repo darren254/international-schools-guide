@@ -3,10 +3,13 @@
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Link from "@tiptap/extension-link";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FloatingToolbar } from "./FloatingToolbar";
 import { ImageWithPlaceholder } from "./ImageWithPlaceholder";
 import { MapboxPlaceholder } from "./MapboxPlaceholder";
+import { InlineImagePlaceholder } from "./InlineImagePlaceholder";
+import { InlineMapPlaceholder } from "./InlineMapPlaceholder";
+import { InlinePullQuotePlaceholder } from "./InlinePullQuotePlaceholder";
 
 interface RichTextEditorProps {
   content: string;
@@ -139,47 +142,71 @@ export function RichTextEditor({
     return <div className="h-[600px] bg-cream-50 animate-pulse" />;
   }
 
+  // Extract placeholders from content for inline rendering
+  const [imagePlaceholders, setImagePlaceholders] = useState<Array<{ text: string; position: number }>>([]);
+  const [mapPlaceholders, setMapPlaceholders] = useState<Array<{ city?: string; text?: string; position: number }>>([]);
+  const [pullQuotePlaceholders, setPullQuotePlaceholders] = useState<Array<{ text: string; position: number }>>([]);
+
+  useEffect(() => {
+    if (!editor) return;
+
+    const updatePlaceholders = () => {
+      const html = editor.getHTML();
+      const text = editor.getText();
+
+      // Find image placeholders
+      const imageMatches = [
+        ...(html.match(/\[IMAGE NEEDED:[^\]]*\]/gi) || []),
+        ...(text.match(/\[IMAGE NEEDED:[^\]]*\]/gi) || []),
+      ];
+      setImagePlaceholders(
+        Array.from(new Set(imageMatches)).map((match, idx) => ({
+          text: match,
+          position: idx,
+        }))
+      );
+
+      // Find map placeholders
+      const mapMatches = [
+        ...(html.match(/\[MAPBOX MAP NEEDED:[^\]]*\]/gi) || []),
+        ...(html.match(/\[MAP:[^\]]*\]/gi) || []),
+        ...(html.match(/data-type="mapbox-placeholder"/gi) || []),
+      ];
+      setMapPlaceholders(
+        Array.from(new Set(mapMatches)).map((match, idx) => {
+          const cityMatch = match.match(/data-city="([^"]*)"/);
+          return {
+            city: cityMatch ? cityMatch[1] : undefined,
+            text: match,
+            position: idx,
+          };
+        })
+      );
+
+      // Find pull quote placeholders
+      const pullQuoteMatches = [
+        ...(html.match(/\[PULL QUOTE NEEDED:[^\]]*\]/gi) || []),
+        ...(text.match(/\[PULL QUOTE NEEDED:[^\]]*\]/gi) || []),
+      ];
+      setPullQuotePlaceholders(
+        Array.from(new Set(pullQuoteMatches)).map((match, idx) => ({
+          text: match,
+          position: idx,
+        }))
+      );
+    };
+
+    editor.on("update", updatePlaceholders);
+    updatePlaceholders();
+
+    return () => {
+      editor.off("update", updatePlaceholders);
+    };
+  }, [editor]);
+
   return (
     <div ref={editorRef} className="relative">
       {editor && <FloatingToolbar editor={editor} />}
-      {/* Insert Image/Map Toolbar - appears on empty line click */}
-      {editor && (
-        <div className="absolute top-4 right-4 z-40 flex gap-2">
-          <button
-            onClick={() => {
-              try {
-                const url = window.prompt("Enter image URL:");
-                if (url) {
-                  editor.chain().focus().setImage({ src: url }).run();
-                }
-              } catch (error) {
-                console.error("Failed to insert image:", error);
-                alert("Failed to insert image. Please check the URL and try again.");
-              }
-            }}
-            className="px-3 py-1.5 text-xs bg-white border border-warm-border rounded-sm shadow-sm hover:bg-cream-50 text-charcoal"
-            title="Insert Image"
-          >
-            📷 Image
-          </button>
-          <button
-            onClick={() => {
-              try {
-                const city = window.prompt("Enter city name (optional):") || "";
-                const html = `<div data-type="mapbox-placeholder" ${city ? `data-city="${city.replace(/"/g, "&quot;")}"` : ""} class="mapbox-placeholder-block">[MAPBOX MAP NEEDED: ${city || "Interactive map"} - showing schools, neighborhoods, and POIs]</div>`;
-                editor.chain().focus().insertContent(html).run();
-              } catch (error) {
-                console.error("Failed to insert mapbox placeholder:", error);
-                alert("Failed to insert map. Please try again.");
-              }
-            }}
-            className="px-3 py-1.5 text-xs bg-white border border-warm-border rounded-sm shadow-sm hover:bg-cream-50 text-charcoal"
-            title="Insert Mapbox Map"
-          >
-            🗺️ Map
-          </button>
-        </div>
-      )}
       <style dangerouslySetInnerHTML={{ __html: `
         .ProseMirror {
           font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
