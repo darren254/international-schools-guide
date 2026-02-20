@@ -40,10 +40,13 @@ gh repo create international-schools-guide --public --source=. --push
 1. Go to dash.cloudflare.com → Pages → Create a project
 2. Connect to GitHub → select `international-schools-guide`
 3. Build settings:
-   - Framework preset: Next.js
-   - Build command: `npx @cloudflare/next-on-pages@1`
-   - Build output directory: `.vercel/output/static`
-4. Add environment variables (same as .env.local)
+   - Framework preset: **Static Site** (or None)
+   - Build command: `npm run build`
+   - Build output directory: `out`
+   - Node version: `18` or `20`
+4. Add environment variables (same as .env.local) - optional for static export
 5. Deploy
 
 That's it. Every push to `main` will auto-deploy.
+
+**Note:** The project uses static export (`output: 'export'`), so it outputs to `out/` directory, not `.vercel/output/static`.
