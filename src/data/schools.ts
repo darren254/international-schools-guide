@@ -374,25 +374,25 @@ const bsj: SchoolProfile = {
 
   intelligence: {
     verdict:
-      "The strongest British-curriculum option in Jakarta. A 45-acre campus, genuine community spirit, and a culture that takes pastoral care seriously. Fees are high but below JIS — and for families wanting a British education through to A-Levels or IB, it's the obvious first choice.",
+      "If you want a British school feel with IB credentials and your budget stretches to the upper tier, BSJ is the natural first choice. Families in Pondok Indah or BSD find it easy. From central Jakarta, factor in the commute before you commit.",
     paragraphs: [
-      "BSJ is the school that British and European families in Jakarta gravitate towards, and for understandable reasons. Founded in 1974, it's the longest-established British school in the city, with a 45-acre campus in Bintaro that feels more like a British independent school than most of its competitors. It runs the English National Curriculum through primary, IB MYP in secondary, and IB Diploma in Sixth Form — a combination that gives students both the structured British grounding and the IB's broader approach at the exit point.",
-      "Parents consistently praise the community feel. At 1,400 students it's large enough to offer breadth — 260+ extracurricular activities, FOBISIA competitions across Asia, and a Manchester City FC football partnership — but small enough that staff know children by name. The Bintaro location is a trade-off: it's south of the city centre, which suits families in Pondok Indah and BSD but means a longer commute from Central or North Jakarta.",
-      "The campus itself has had significant investment. A new all-weather Arena opened in 2025, joining the 750-seat theatre, Olympic pool, and extensive sports fields. The facilities are among the best in Jakarta. The school earned joint CIS/WASC reaccreditation in 2023 for five years, and is a founding member of FOBISIA.",
+      "The word among expat families is that BSJ is where British and European families end up, and it's not hard to see why. It's the longest-established British school in Jakarta, founded in 1974, with a 45-acre campus in Bintaro that feels closer to a UK independent school than anything else in the city. English National Curriculum through primary, IB MYP in secondary, IB Diploma in Sixth Form. That combination gives students a structured British grounding with the IB's broader approach at the exit point.",
+      "Families who've been here a few years say the community feel is the real draw. At 1,400 students it's big enough to offer 260+ activities, FOBISIA competitions across Asia, and a Manchester City FC football partnership, but parents say staff still know their children by name. The Bintaro location suits families in Pondok Indah and BSD. From Menteng or Kuningan, you're looking at 40 minutes on a good day.",
+      "The facilities have had serious investment. A new all-weather Arena opened in 2025, sitting alongside the 750-seat theatre, Olympic pool, and five football fields. Joint CIS/WASC reaccreditation came through in 2023 for five years. The school is currently led by an Interim Principal, and some parents say they're waiting to see who gets the permanent role before judging the strategic direction.",
     ],
     positives: [
-      "Genuine British school culture with strong pastoral care — parents report that staff know their children well, and the house system creates a sense of belonging that larger schools struggle to replicate.",
-      "Excellent facilities including a 750-seat professional theatre, Olympic pool, 5 football fields, 12 badminton courts, 5 tennis courts, and the new all-weather Arena (2025). The 45-acre campus is the largest of any international school in Jakarta.",
-      "260+ extracurricular activities with both before-school, lunchtime, after-school, and Saturday options. The Manchester City FC partnership offers professional football coaching methodology.",
-      "Joint CIS/WASC reaccreditation (2023–2028) plus IB authorisation for all three programmes. Founding member of FOBISIA with strong regional competition schedule.",
-      "Strong expat community with active PTA. Many families describe BSJ as feeling like a 'village' — children socialise together at weekends, and the campus is used as a community hub.",
+      "Parents say the house system and pastoral care create a sense of belonging that the bigger schools struggle to match. Staff know children by name, and the school culture takes wellbeing seriously.",
+      "The 45-acre Bintaro campus is the largest of any international school in Jakarta. Facilities include a 750-seat theatre, Olympic pool, five football fields, 12 badminton courts, five tennis courts, and the new all-weather Arena (2025).",
+      "260+ extracurricular activities running before school, lunchtime, after school, and Saturdays. The Manchester City FC partnership provides professional football coaching.",
+      "Joint CIS/WASC reaccreditation (2023-2028) plus IB authorisation for all three programmes. Founding member of FOBISIA with a strong regional competition schedule.",
+      "Families say BSJ feels like a village. Children socialise at weekends, the PTA is active, and the campus doubles as a community hub. That matters when you're new to Jakarta.",
     ],
     considerations: [
-      "The Bintaro location is 25–40 minutes south of central Jakarta, depending on traffic. Families in Menteng, Kuningan, or Kemang face a meaningful commute. School bus services are available but add cost.",
-      "Academic results are not publicly published — BSJ does not release A-Level or IGCSE statistics. This makes it harder for parents to benchmark performance against competitors. Ask admissions directly for data.",
-      "The school is in a leadership transition with an Interim Principal. While day-to-day operations appear unaffected, some parents report uncertainty about strategic direction until a permanent appointment is made.",
-      "Fees are high — second only to JIS in Jakarta. Early Years starts around IDR 224M in the first year including one-time fees. The 3% early payment discount (reduced from 5%) has been noted by parents.",
-      "The IB MYP/DP pathway means students don't take IGCSEs or A-Levels despite the British brand. Families specifically wanting IGCSE/A-Level qualifications may find this confusing — worth clarifying during admissions.",
+      "Bintaro is 25-40 minutes south of central Jakarta depending on traffic. If you're in Menteng, Kuningan, or Kemang, the commute is real. School bus services exist but add cost.",
+      "BSJ doesn't publish A-Level or IGCSE results publicly. That makes it harder to benchmark against competitors. You'll need to ask admissions directly for data.",
+      "The school is in a leadership transition. Day-to-day operations seem unaffected, but parents say there's uncertainty about strategic direction until a permanent Principal is appointed.",
+      "Fees are second only to JIS in Jakarta. Early Years starts around IDR 224M in the first year including one-time fees. The early payment discount dropped from 5% to 3%, which parents have noticed.",
+      "Despite the British brand, students take IB MYP and DP rather than IGCSEs or A-Levels. If you specifically want British qualifications rather than British culture, clarify this during admissions.",
     ],
   },
 
@@ -546,25 +546,25 @@ const acg: SchoolProfile = {
 
   intelligence: {
     verdict:
-      "A smaller school with a growing reputation and strong IB results. Part of the Inspired Education Group, which means investment is coming. Best suited to families who want a more intimate setting than JIS or BSJ, with class sizes of 12–14 in senior school.",
+      "If your child does better with individual attention and you don't need a 2,000-student campus, ACG is worth a serious look. Strong IB results, small classes, and fees well below JIS. Ask for updated exam data when you visit.",
     paragraphs: [
-      "ACG School Jakarta occupies a curious position in the market — small enough to feel personal, backed by a corporate group (Inspired Education) large enough to invest in facilities. Founded in 2004 as part of New Zealand's ACG network, it became part of the Inspired Education Group and has been slowly building its reputation since. The campus in Pasar Minggu, near Ragunan Zoo, is compact but modern.",
-      "What parents notice first is the class sizes — 12 to 14 in senior school. That's significantly smaller than JIS (18–20) or BSJ (20–22). For children who benefit from individual attention, this is a genuine differentiator. The IB Diploma average of 35 in 2022 is also notable — above the world average of 32, and competitive with much more expensive schools.",
-      "The trade-off is scale. With 300 students, ACG can't match the breadth of activities or sporting competition of the larger schools. The campus, while well-equipped for its size, doesn't have the sprawling grounds of BSJ's 45 acres. And Inspired Education's involvement means the school operates as a for-profit enterprise, which some families weigh in their decision-making.",
+      "If you ask around, ACG comes up as the school families discover after they've toured the big names. It's small - 300 students, founded in 2004 as part of New Zealand's ACG network, now owned by Inspired Education Group. The campus in Pasar Minggu, near Ragunan Zoo, is compact but modern. The pitch is simple: smaller classes, personal attention, strong IB results, and fees that don't require a corporate package.",
+      "The class sizes are the thing parents mention first - 12 to 14 in senior school, compared to 18-20 at JIS and 20-22 at BSJ. For children who need to be known rather than just counted, that difference matters. The IB Diploma average of 35 points in 2022 backs up the approach - above the world average of 32 and competitive with schools charging significantly more.",
+      "The catch is scale. With 300 students, ACG can't offer the breadth of activities or sporting fixtures that the bigger schools run. The campus is well-equipped for its size but it's not 45 acres of playing fields. And Inspired Education is a for-profit group, which some families factor into their thinking when comparing with non-profit schools like JIS or BSJ.",
     ],
     positives: [
-      "Small class sizes (12–14 in senior school) mean teachers know students individually. Parents report high levels of individual attention and pastoral care that larger schools can't match.",
-      "Strong IB results — average of 35 points (2022 cohort), well above the world average. One in three graduates reportedly attends Ivy League or Russell Group universities.",
-      "Dual curriculum pathway: IB PYP in primary, Cambridge in middle years (including IGCSE), and IB Diploma in Sixth Form. This gives students internationally recognised qualifications at both stages.",
-      "Modern, purpose-built facilities including swimming pool, paddle courts, gymnasium, 30 classrooms, STEAM labs, and a dedicated dance studio. Compact but well-designed.",
-      "Part of Inspired Education Group (120+ schools globally), which brings investment, shared resources, and an international network. Radio Wolf, a student-run radio station, is a unique feature.",
+      "At 12-14 per class in senior school, teachers know students individually. Parents say the level of personal attention is something the bigger schools can't replicate.",
+      "IB Diploma average of 35 points (2022 cohort), well above the world average. One in three graduates reportedly reaches Ivy League or Russell Group universities.",
+      "Dual curriculum pathway - IB PYP in primary, Cambridge IGCSE in middle years, IB Diploma in Sixth Form. Students get internationally recognised qualifications at both stages.",
+      "Modern, purpose-built facilities including a swimming pool, paddle courts, gymnasium, STEAM labs, and a dance studio. The campus is compact but thoughtfully designed.",
+      "Part of Inspired Education Group (120+ schools globally), which brings investment and shared resources. Radio Wolf, the student-run radio station, is a genuinely distinctive feature.",
     ],
     considerations: [
-      "At 300 students, ACG is small. This limits the range of extracurricular activities, sporting teams, and social circles. Students who thrive in larger, busier environments may find it too quiet.",
-      "The Pasar Minggu location, near Ragunan Zoo, is less convenient than Cilandak or Pondok Indah. Traffic in the area is manageable but the school is further from the main expat clusters.",
-      "For-profit ownership under Inspired Education Group means decisions are ultimately commercial. Some parents prefer the non-profit governance model of JIS or BSJ where fees go back into the school.",
-      "The school is relatively young (founded 2004) and doesn't yet have the alumni network or established reputation of Jakarta's longer-standing schools. It's building, but it's not there yet.",
-      "Recent IB results (2023–2025) are not publicly available. The 35-point average from 2022 is strong, but parents should ask for current data during admissions.",
+      "At 300 students, the school is small. Fewer extracurricular options, fewer sporting teams, and narrower social circles. Children who thrive in bigger, busier environments may find it too quiet.",
+      "Pasar Minggu is further from the main expat clusters than Cilandak or Pondok Indah. Traffic is manageable, but families in Kemang or Menteng should check the commute.",
+      "Inspired Education is a for-profit group. Some parents prefer the non-profit governance at JIS or BSJ, where fees go back into the school rather than to shareholders.",
+      "ACG was founded in 2004 and doesn't have the alumni network or established reputation of Jakarta's older schools. It's building credibility, but it's not there yet.",
+      "The 35-point IB average is from 2022. More recent results (2023-2025) aren't publicly available. Ask admissions for current data before you make a decision.",
     ],
   },
 
@@ -709,25 +709,25 @@ const isj: SchoolProfile = {
 
   intelligence: {
     verdict:
-      "A small, personal British prep school that does one thing well: educating children aged 2–13 in small classes with UK-recruited staff. Families need a secondary school plan from Year 8 — but for the prep years, ISJ offers something Jakarta's bigger schools can't match on pastoral care.",
+      "If you want the British prep school experience for children aged 2-13, ISJ is the only game in Jakarta. Small classes, UK staff, and serious pastoral care. You'll need a secondary school plan from Year 5 or 6, but for the prep years it's hard to beat.",
     paragraphs: [
-      "ISJ is a different proposition from the large through-schools that dominate Jakarta's international scene. It's a British preparatory school — ages 2 to 13, full stop. No secondary, no IB Diploma, no university pathway. Children leave after Year 8 and move on to BSJ, JIS, or boarding schools in the UK. For families who understand and value the British prep school model, that's a feature, not a limitation.",
-      "What parents consistently mention is the size. Class sizes are capped at 15 in Early Years and 20 in primary, with two adults per class in the younger years. At 200 students total, teachers know every child. The staff are recruited from the UK, which matters to families who want continuity with the British system — particularly if they're planning to return or send children to UK boarding schools later.",
-      "The school joined The Schools Trust in October 2025, a UK-registered charity operating 15+ international schools globally. This provides curriculum support, staff training, and the governance structure of a larger network while preserving ISJ's local identity. The school is working towards BSO (British Schools Overseas) accreditation, guided by the same standards that earned other Schools Trust schools 'Excellent' ratings.",
+      "ISJ is a different kind of school from the large through-schools that dominate Jakarta. It's a British prep school - ages 2 to 13, no secondary, no IB Diploma, no university pathway. Children leave after Year 8 and move on to BSJ, JIS, or boarding schools in the UK. Families who know the British prep model understand this immediately. Those who don't should think of it as an intentionally focused school that does one stage really well.",
+      "What parents say first is how well the teachers know their children. Classes are capped at 15 in Early Years and 20 in primary, with two adults per class in the younger years. At 200 students, there's nowhere to hide. Staff are recruited from the UK with British qualified teacher status, which matters if you're planning to move back or send children to UK boarding schools later.",
+      "The school joined The Schools Trust in October 2025 - a UK-registered charity running 15+ international schools globally. That brings curriculum support, staff training, and the governance structure of a larger network. ISJ is working towards BSO accreditation, guided by the same standards that earned other Schools Trust schools 'Excellent' ratings. It's early days, but the direction is clear.",
     ],
     positives: [
-      "Genuinely small class sizes — 15 in Early Years, 20 in primary, with two adults per classroom. This is the closest you'll get to a British independent prep school experience in Jakarta.",
-      "UK-recruited teaching staff with British qualified teacher status. Specialist teaching from Year 1 in subjects including music, PE, languages, and science.",
-      "Purpose-built modern campus in leafy Pondok Pinang — newer and more purpose-designed than most competitors. On-site swimming pool, football pitch, science labs, and art studios.",
-      "Part of The Schools Trust (UK charity, 15+ schools globally) since October 2025. This provides external governance, curriculum development support, and peer review with partner schools in the UK and Europe.",
-      "Strong pastoral care ethos — the school's size means issues are noticed quickly and relationships with parents are close. Safeguarding lead on the senior leadership team.",
+      "Classes of 15 in Early Years, 20 in primary, with two adults per room. This is the closest you'll get to a British independent prep school experience in Jakarta.",
+      "Staff are recruited from the UK with qualified teacher status. Specialist teaching starts from Year 1 in music, PE, languages, and science.",
+      "Purpose-built campus in Pondok Pinang with on-site swimming pool, football pitch, science labs, and art studios. It's newer and more thoughtfully designed than most competitors' primary sections.",
+      "Part of The Schools Trust (UK charity, 15+ schools globally) since October 2025. External governance, curriculum development support, and peer review with partner schools in the UK and Europe.",
+      "Parents say issues get noticed fast and relationships with families are close. A safeguarding lead sits on the senior leadership team. At this size, pastoral care isn't a policy - it's how the school works.",
     ],
     considerations: [
-      "ISJ only goes to Year 8 (age 13). Families must plan a secondary school transition — either to a Jakarta through-school (BSJ, JIS) or UK boarding school. This requires active planning from Year 5 or 6.",
-      "At 200 students, the school is very small. Extracurricular options are more limited than larger schools, and friendship groups in each year are inevitably narrow.",
-      "The school opened in September 2021 — it's only four years old. There's no track record of exam results, university placements, or long-term alumni outcomes. You're betting on the team and the model.",
-      "Fees are not fully transparent — the school publishes capital contribution and materials fees but tuition by year group requires direct contact with admissions. First-year costs include a refundable enrolment deposit of IDR 7.5M.",
-      "COBIS and IAPS membership status is unclear from public sources. BSO accreditation is in progress but not yet achieved. The Schools Trust affiliation is recent (October 2025).",
+      "ISJ stops at Year 8 (age 13). You need a secondary school plan, and you need to start thinking about it around Year 5 or 6. Most families move to BSJ, JIS, or UK boarding schools.",
+      "At 200 students, extracurricular options are limited compared to the bigger schools. Friendship groups in each year are inevitably small.",
+      "The school opened in September 2021. It's four years old. There's no track record of exam results, university placements, or alumni outcomes. You're trusting the team and the model.",
+      "Fees aren't fully transparent. The school publishes capital contribution and materials fees, but tuition by year group requires a conversation with admissions. First-year costs include a refundable enrolment deposit of IDR 7.5M.",
+      "BSO accreditation is in progress but not yet achieved. COBIS and IAPS membership status is unclear from public sources. The Schools Trust affiliation is recent.",
     ],
   },
 
@@ -872,25 +872,25 @@ const mentari: SchoolProfile = {
 
   intelligence: {
     verdict:
-      "The best value full-IB school in South Jakarta. Smaller classes, attentive staff, and fees roughly half what JIS charges. Not the flashiest campus, but for families who want the IB continuum without the premium price tag, Mentari punches above its weight.",
+      "If you're self-funding and want the full IB continuum, Mentari should be on your shortlist. Fees are roughly half what JIS charges, classes are smaller, and the teaching is solid. The campus won't win any architecture awards, but the education is the point.",
     paragraphs: [
-      "Mentari is the school Jakarta's international education insiders quietly recommend when asked about value. It offers the full IB continuum — PYP, MYP, and Diploma — at fees that are roughly half what JIS or BSJ charge. For families self-funding their children's education (rather than relying on corporate packages), that arithmetic is hard to ignore.",
-      "The school started as Sunshine Preschool over thirty years ago and has grown organically into a multi-campus operation. The main Kebayoran Baru campus, on Jl. H. Jian near Cipete, serves both elementary and high school. There's also a Grand Surya campus in West Jakarta for secondary students. The feel is more community-oriented than corporate — less polished than the premium schools, but warmer.",
-      "Class sizes are reported at 14–18 students, smaller than JIS or BSJ. Parents describe attentive teachers who know their children well, and a school culture that values effort and character alongside academic results. The IB Diploma average of 32.1 is below JIS (35.8) but respectable, and the 95% pass rate suggests solid teaching across the cohort.",
+      "Mentari is the school that families who know Jakarta's education scene quietly recommend when someone asks about value. Full IB continuum - PYP, MYP, and Diploma - at fees roughly half what JIS or BSJ charge. If you're self-funding rather than relying on a corporate package, that arithmetic is hard to ignore.",
+      "The school started as Sunshine Preschool over thirty years ago and has grown into a multi-campus operation. The main Kebayoran Baru campus on Jl. H. Jian near Cipete serves elementary and high school. There's also a Grand Surya campus in West Jakarta for some secondary students. The feel is more community than corporate - less polished than the premium schools, but parents say it's warmer.",
+      "Class sizes run at 14-18 students, smaller than JIS or BSJ. Parents say the teachers are attentive and know their children well, and the school culture values effort alongside results. The IB Diploma average of 32.1 is below JIS (35.8) but the 95% pass rate suggests solid, consistent teaching across the cohort rather than a few high-scorers pulling up the average.",
     ],
     positives: [
-      "Full IB continuum (PYP, MYP, DP) at roughly half the price of JIS. For self-funding families, this is the most cost-effective route to an IB Diploma in South Jakarta.",
-      "Smaller class sizes (14–18) than the premium schools. Teachers reportedly know students individually, and the pastoral approach is more hands-on.",
-      "Genuine intercultural community — the school's name reflects its ethos. With 35+ nationalities and a more even distribution than the expat-heavy premium schools, students experience genuine diversity.",
-      "The MYP and PYP programmes are well-established. As a full IB World School, Mentari has been running the continuum long enough to have developed its approach — this isn't a school bolting on IB status as a marketing exercise.",
-      "Annual MISMUN (Model UN) conference attracting 200+ students from across Indonesia shows the school punching above its weight in enrichment activities.",
+      "Full IB continuum (PYP, MYP, DP) at roughly half JIS prices. For self-funding families, this is the most cost-effective route to an IB Diploma in South Jakarta.",
+      "At 14-18 per class, teachers know students individually. Parents say the pastoral approach is more hands-on than the bigger schools.",
+      "With 35+ nationalities and a more even distribution than the expat-heavy premium schools, the intercultural mix is real. The school's name isn't just branding.",
+      "Mentari has been running the full IB continuum long enough to have a mature approach to PYP and MYP. This isn't a school that bolted on IB status as an afterthought.",
+      "The annual MISMUN conference attracts 200+ students from across Indonesia. For a mid-range school, that's a seriously impressive enrichment programme.",
     ],
     considerations: [
-      "The campus on Jl. H. Jian is urban and compact — don't expect the sprawling grounds of BSJ or even JIS. Facilities are adequate but not luxurious. The school invests in teaching rather than showpiece buildings.",
-      "IB Diploma average of 32.1 is below the top-tier schools. Families targeting highly competitive university placements (Ivy League, Oxbridge) may want to ask about individual subject scores and university destination data.",
-      "Publicly available information is limited — the school doesn't publish detailed fee schedules, exam results, or leadership team profiles as openly as some competitors. Parents need to engage with admissions directly for specifics.",
-      "The multi-campus structure can feel fragmented. Elementary and high school operate from the same Kebayoran Baru campus, but the Grand Surya campus in West Jakarta serves some secondary students separately.",
-      "Head of school information is not publicly disclosed. The founding organisation (YPAI, established 1994) provides continuity, but families may want clarity on who is leading the school day-to-day.",
+      "The campus on Jl. H. Jian is urban and compact. Don't expect sprawling grounds or showpiece buildings. Facilities are functional, not flashy. The money goes into teaching.",
+      "IB Diploma average of 32.1 is below the top-tier schools. If you're targeting Ivy League or Oxbridge, ask about individual subject scores and where graduates actually end up.",
+      "The school doesn't publish detailed fee schedules, exam results, or leadership team profiles as openly as competitors. You'll need to contact admissions directly for specifics.",
+      "The multi-campus structure can feel fragmented. Elementary and high school share the Kebayoran Baru campus, but some secondary students are at the Grand Surya campus in West Jakarta.",
+      "Who runs the school day-to-day isn't clear from public sources. The founding organisation (YPAI, established 1994) provides continuity, but families should ask about leadership when they visit.",
     ],
   },
 

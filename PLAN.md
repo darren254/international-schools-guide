@@ -120,6 +120,8 @@ School profiles are created by Darren working with Claude/AI:
 3. **Other data** — scraped/gathered from individual school pages
 4. **Images** — 4 per school (sourced from school press photos or editorial images)
 
+**Editorial voice:** All copy must follow `TONE.md` (project root). This defines the banned phrases list, attribution style, dash rules, and the research-first pipeline. The `school-profile` skill (`.skills/school-profile/`) automates this for new profiles.
+
 Schools can submit corrections via a "suggest a correction" form (not yet built).
 
 ---
