@@ -89,33 +89,39 @@ export function ExploreSchoolsClient({ profileSlugs }: ExploreSchoolsClientProps
           {schools.length} schools in Jakarta. Filter by curriculum or location; sort by fees.
         </p>
 
-        {/* Single tight row: curriculum pills left, location dropdown right, sort as text links */}
-        <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 py-3">
-          <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body mr-1">Curriculum</span>
-            {CURRICULUM_OPTIONS.map((opt) => (
-              <button
-                key={opt.value || "all"}
-                onClick={() => setCurriculum(opt.value)}
-                className={`px-2 py-0.5 text-[0.6875rem] uppercase tracking-wider font-body transition-colors whitespace-nowrap border ${
-                  curriculum === opt.value
-                    ? "border-charcoal text-charcoal bg-cream-300"
-                    : "border-warm-border text-charcoal-muted hover:text-charcoal hover:border-charcoal-muted"
-                }`}
-              >
-                {opt.label}
-              </button>
-            ))}
+        {/* One row: Curriculum dropdown · Location dropdown · Fees toggle (up/down arrow) */}
+        <div className="flex flex-wrap items-center gap-4 sm:gap-6 py-3">
+          <div className="flex items-center gap-2">
+            <label htmlFor="curriculum-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body whitespace-nowrap">
+              Curriculum
+            </label>
+            <select
+              id="curriculum-filter"
+              value={curriculum}
+              onChange={(e) => setCurriculum(e.target.value)}
+              className="bg-cream border border-warm-border text-[0.8125rem] text-charcoal font-body py-1.5 pl-2 pr-7 min-w-[160px] appearance-none cursor-pointer focus:outline-none focus:border-charcoal-muted"
+              style={{
+                backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237A756E' fill='none' stroke-width='1.5'/%3E%3C/svg%3E")`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "right 6px center",
+              }}
+            >
+              {CURRICULUM_OPTIONS.map((opt) => (
+                <option key={opt.value || "all"} value={opt.value}>
+                  {opt.label}
+                </option>
+              ))}
+            </select>
           </div>
-          <div className="flex items-center gap-3 flex-shrink-0">
-            <label htmlFor="location-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
+          <div className="flex items-center gap-2">
+            <label htmlFor="location-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body whitespace-nowrap">
               Location
             </label>
             <select
               id="location-filter"
               value={location}
               onChange={(e) => setLocation(e.target.value as "" | LocationFilter)}
-              className="bg-cream border border-warm-border text-[0.8125rem] text-charcoal font-body py-1.5 pl-2 pr-7 appearance-none cursor-pointer focus:outline-none focus:border-charcoal-muted"
+              className="bg-cream border border-warm-border text-[0.8125rem] text-charcoal font-body py-1.5 pl-2 pr-7 min-w-[160px] appearance-none cursor-pointer focus:outline-none focus:border-charcoal-muted"
               style={{
                 backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237A756E' fill='none' stroke-width='1.5'/%3E%3C/svg%3E")`,
                 backgroundRepeat: "no-repeat",
@@ -129,24 +135,27 @@ export function ExploreSchoolsClient({ profileSlugs }: ExploreSchoolsClientProps
               ))}
             </select>
           </div>
-          <div className="flex items-center gap-2 sm:ml-auto border-l border-warm-border pl-4">
-            <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">Fees</span>
+          <div className="flex items-center gap-2 sm:ml-auto">
+            <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body whitespace-nowrap">
+              Fees
+            </span>
             <button
-              onClick={() => setFeeSort("high-low")}
-              className={`text-[0.75rem] font-body uppercase tracking-wider ${
-                feeSort === "high-low" ? "text-charcoal" : "text-charcoal-muted hover:text-charcoal"
-              }`}
+              type="button"
+              onClick={() => setFeeSort((s) => (s === "high-low" ? "low-high" : "high-low"))}
+              className="flex items-center gap-1.5 border border-warm-border bg-cream px-2.5 py-1.5 text-[0.8125rem] text-charcoal font-body hover:border-charcoal-muted transition-colors"
+              aria-label={feeSort === "high-low" ? "Sort fees high to low (click to switch to low to high)" : "Sort fees low to high (click to switch to high to low)"}
             >
-              High → Low
-            </button>
-            <span className="text-charcoal-muted/50">/</span>
-            <button
-              onClick={() => setFeeSort("low-high")}
-              className={`text-[0.75rem] font-body uppercase tracking-wider ${
-                feeSort === "low-high" ? "text-charcoal" : "text-charcoal-muted hover:text-charcoal"
-              }`}
-            >
-              Low → High
+              {feeSort === "high-low" ? (
+                <>
+                  <span className="text-charcoal-muted" aria-hidden>↓</span>
+                  <span>High → Low</span>
+                </>
+              ) : (
+                <>
+                  <span className="text-charcoal-muted" aria-hidden>↑</span>
+                  <span>Low → High</span>
+                </>
+              )}
             </button>
           </div>
         </div>
