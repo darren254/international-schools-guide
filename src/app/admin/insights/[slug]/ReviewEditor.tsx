@@ -164,6 +164,7 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
   const [draft, setDraft] = useState(initialDraft);
   const [editingTitle, setEditingTitle] = useState(false);
   const [editingSummary, setEditingSummary] = useState(false);
+  const [editingContent, setEditingContent] = useState(false);
   const [publishing, setPublishing] = useState(false);
 
   const handlePublish = async () => {
@@ -283,47 +284,89 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
 
       {/* Article Content - Nicely Formatted */}
       <div className="bg-white border border-warm-border rounded-sm p-8 mb-8">
-        <style dangerouslySetInnerHTML={{ __html: `
-          .review-content section {
-            margin-bottom: 3rem;
-            padding-bottom: 2rem;
-            border-bottom: 1px solid #E8E2D9;
-          }
-          .review-content section:last-child {
-            border-bottom: none;
-          }
-          .review-content h2 {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 1.875rem;
-            font-weight: 600;
-            margin-top: 2.5rem;
-            margin-bottom: 1.5rem;
-            color: #1A1A1A;
-            line-height: 1.3;
-          }
-          .review-content h3 {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-            color: #1A1A1A;
-          }
-          .review-content p {
-            margin-bottom: 1.25rem;
-            color: #4A4540;
-            line-height: 1.75;
-            font-size: 1rem;
-          }
-          .review-content strong {
-            font-weight: 600;
-            color: #1A1A1A;
-          }
-        `}} />
-        <div
-          className="review-content"
-          dangerouslySetInnerHTML={{ __html: draft.content }}
-        />
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="font-display text-lg">Article Content</h3>
+          {!editingContent && (
+            <button
+              onClick={() => setEditingContent(true)}
+              className="px-4 py-2 border border-warm-border text-charcoal text-sm rounded-sm hover:bg-cream-100"
+            >
+              Edit Content
+            </button>
+          )}
+        </div>
+        
+        {editingContent ? (
+          <div>
+            <textarea
+              value={draft.content}
+              onChange={(e) => setDraft({ ...draft, content: e.target.value })}
+              className="w-full h-[600px] font-mono text-sm bg-white border-2 border-hermes rounded-sm p-4 resize-y"
+              placeholder="Enter HTML content"
+            />
+            <div className="flex gap-2 mt-4">
+              <button
+                onClick={() => setEditingContent(false)}
+                className="px-6 py-2 bg-hermes text-white rounded-sm hover:bg-hermes-hover"
+              >
+                Save & Preview
+              </button>
+              <button
+                onClick={() => {
+                  setDraft({ ...draft, content: initialDraft.content });
+                  setEditingContent(false);
+                }}
+                className="px-6 py-2 border border-warm-border text-charcoal rounded-sm hover:bg-cream-100"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        ) : (
+          <>
+            <style dangerouslySetInnerHTML={{ __html: `
+              .review-content section {
+                margin-bottom: 3rem;
+                padding-bottom: 2rem;
+                border-bottom: 1px solid #E8E2D9;
+              }
+              .review-content section:last-child {
+                border-bottom: none;
+              }
+              .review-content h2 {
+                font-family: 'Cormorant Garamond', Georgia, serif;
+                font-size: 1.875rem;
+                font-weight: 600;
+                margin-top: 2.5rem;
+                margin-bottom: 1.5rem;
+                color: #1A1A1A;
+                line-height: 1.3;
+              }
+              .review-content h3 {
+                font-family: 'Cormorant Garamond', Georgia, serif;
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+                color: #1A1A1A;
+              }
+              .review-content p {
+                margin-bottom: 1.25rem;
+                color: #4A4540;
+                line-height: 1.75;
+                font-size: 1rem;
+              }
+              .review-content strong {
+                font-weight: 600;
+                color: #1A1A1A;
+              }
+            `}} />
+            <div
+              className="review-content"
+              dangerouslySetInnerHTML={{ __html: draft.content }}
+            />
+          </>
+        )}
       </div>
 
       {/* Metadata */}
