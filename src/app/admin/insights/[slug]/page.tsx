@@ -4,10 +4,23 @@ import Link from "next/link";
 
 // Generate static params for all drafts
 export async function generateStaticParams() {
-  const drafts = await getAllDrafts();
-  return drafts.map((draft) => ({
-    slug: draft.slug,
-  }));
+  try {
+    const drafts = await getAllDrafts();
+    const params = drafts.map((draft) => ({
+      slug: draft.slug,
+    }));
+    // Log for debugging during build
+    if (params.length === 0) {
+      console.warn("[Admin Insights] No drafts found - route will not be generated");
+    } else {
+      console.log(`[Admin Insights] Generated ${params.length} static params:`, params.map(p => p.slug));
+    }
+    return params;
+  } catch (error) {
+    console.error("Error generating static params for admin insights:", error);
+    // Return empty array - route won't be generated without params in static export
+    return [];
+  }
 }
 
 export default async function ReviewPage({
