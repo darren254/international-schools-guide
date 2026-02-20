@@ -122,9 +122,13 @@ export function RichTextEditor({
     return <div className="h-[600px] bg-cream-50 animate-pulse" />;
   }
 
+  if (!editor) {
+    return <div className="h-[600px] bg-cream-50 animate-pulse" />;
+  }
+
   return (
     <div ref={editorRef} className="relative">
-      <FloatingToolbar editor={editor} />
+      {editor && <FloatingToolbar editor={editor} />}
       <style dangerouslySetInnerHTML={{ __html: `
         .ProseMirror {
           font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;

@@ -182,10 +182,14 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
 
       // Set new timer
       autoSaveTimerRef.current = setTimeout(() => {
-        // In a real implementation, you'd save to localStorage or API
-        // For now, we'll just update the ref
-        lastSavedRef.current = currentDraft;
-        console.log("Auto-saved draft");
+        // Save to localStorage as backup
+        try {
+          localStorage.setItem(`draft-${draft.slug}`, currentDraft);
+          lastSavedRef.current = currentDraft;
+          console.log("Auto-saved draft to localStorage");
+        } catch (error) {
+          console.warn("Failed to auto-save:", error);
+        }
       }, 30000);
     }
 
