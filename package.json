@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "tsx scripts/process-drafts.ts",
+    "prebuild": "tsx scripts/process-drafts.ts || echo 'Warning: Draft processing failed, continuing build...'",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
