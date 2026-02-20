@@ -10,7 +10,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 const REVIEW_EMAIL = "darren@schoolstrust.co.uk";
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://international-schools-guide.darren-1a2.workers.dev";
 
-export async function sendReviewNotification(draft: InsightDraft): Promise<void> {
+export async function sendReviewNotification(draft: InsightDraft): Promise<any> {
   if (!process.env.RESEND_API_KEY) {
     console.warn("RESEND_API_KEY not configured, skipping email");
     return;
