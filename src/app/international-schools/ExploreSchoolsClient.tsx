@@ -141,7 +141,7 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
               ))}
             </select>
           </div>
-          <div className="flex items-center gap-2 sm:ml-auto">
+          <div className="flex items-center gap-2">
             <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body whitespace-nowrap">
               Fees
             </span>

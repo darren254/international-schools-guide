@@ -29,6 +29,17 @@ const FEATURED_SCHOOLS_RAW = [
     hook: "Jakarta's largest and most established international school",
   },
   {
+    name: "The Independent School of Jakarta",
+    slug: "independent-school-of-jakarta",
+    city: "Jakarta",
+    citySlug: "jakarta",
+    curricula: ["British", "IGCSE", "A-Levels"],
+    feeRange: "US$9.2K – $30K",
+    ibAverage: "—",
+    students: "200",
+    hook: "Small, personal British school with standout pastoral care and class sizes capped at 16",
+  },
+  {
     name: "British School Jakarta",
     slug: "british-school-jakarta",
     city: "Jakarta",
@@ -49,17 +60,6 @@ const FEATURED_SCHOOLS_RAW = [
     ibAverage: "33.5",
     students: "1,200+",
     hook: "Well-regarded Australian curriculum at a competitive price point",
-  },
-  {
-    name: "Mentari Intercultural School",
-    slug: "mentari-intercultural-school-jakarta",
-    city: "Jakarta",
-    citySlug: "jakarta",
-    curricula: ["IB"],
-    feeRange: "US$8K – $16K",
-    ibAverage: "32.1",
-    students: "850+",
-    hook: "Strong IB programme with the best value fees in South Jakarta",
   },
 ];
 
