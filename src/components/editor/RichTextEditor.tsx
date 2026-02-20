@@ -135,10 +135,6 @@ export function RichTextEditor({
     return <div className="h-[600px] bg-cream-50 animate-pulse" />;
   }
 
-  if (!editor) {
-    return <div className="h-[600px] bg-cream-50 animate-pulse" />;
-  }
-
   return (
     <div ref={editorRef} className="relative">
       {editor && <FloatingToolbar editor={editor} />}
@@ -147,9 +143,14 @@ export function RichTextEditor({
         <div className="absolute top-4 right-4 z-40 flex gap-2">
           <button
             onClick={() => {
-              const url = window.prompt("Enter image URL:");
-              if (url) {
-                editor.chain().focus().setImage({ src: url }).run();
+              try {
+                const url = window.prompt("Enter image URL:");
+                if (url) {
+                  editor.chain().focus().setImage({ src: url }).run();
+                }
+              } catch (error) {
+                console.error("Failed to insert image:", error);
+                alert("Failed to insert image. Please check the URL and try again.");
               }
             }}
             className="px-3 py-1.5 text-xs bg-white border border-warm-border rounded-sm shadow-sm hover:bg-cream-50 text-charcoal"
@@ -159,9 +160,14 @@ export function RichTextEditor({
           </button>
           <button
             onClick={() => {
-              const city = window.prompt("Enter city name (optional):") || "";
-              const html = `<div data-type="mapbox-placeholder" ${city ? `data-city="${city}"` : ""} class="mapbox-placeholder-block">[MAPBOX MAP NEEDED: ${city || "Interactive map"} - showing schools, neighborhoods, and POIs]</div>`;
-              editor.chain().focus().insertContent(html).run();
+              try {
+                const city = window.prompt("Enter city name (optional):") || "";
+                const html = `<div data-type="mapbox-placeholder" ${city ? `data-city="${city.replace(/"/g, "&quot;")}"` : ""} class="mapbox-placeholder-block">[MAPBOX MAP NEEDED: ${city || "Interactive map"} - showing schools, neighborhoods, and POIs]</div>`;
+                editor.chain().focus().insertContent(html).run();
+              } catch (error) {
+                console.error("Failed to insert mapbox placeholder:", error);
+                alert("Failed to insert map. Please try again.");
+              }
             }}
             className="px-3 py-1.5 text-xs bg-white border border-warm-border rounded-sm shadow-sm hover:bg-cream-50 text-charcoal"
             title="Insert Mapbox Map"
