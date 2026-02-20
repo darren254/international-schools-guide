@@ -8,6 +8,7 @@ import { FloatingToolbar } from "./FloatingToolbar";
 import { ImagePlaceholderExtension } from "./ImagePlaceholderExtension";
 import { MapPlaceholderExtension } from "./MapPlaceholderExtension";
 import { PullQuotePlaceholderExtension } from "./PullQuotePlaceholderExtension";
+import { ResearchPlaceholderExtension } from "./ResearchPlaceholderExtension";
 
 interface RichTextEditorProps {
   content: string;
@@ -32,6 +33,7 @@ export function RichTextEditor({
       ImagePlaceholderExtension,
       MapPlaceholderExtension,
       PullQuotePlaceholderExtension,
+      ResearchPlaceholderExtension,
       Link.configure({
         openOnClick: false,
         HTMLAttributes: {
@@ -72,6 +74,7 @@ export function RichTextEditor({
       const imagePlaceholderNodes = editorElement.querySelectorAll('[data-type="image-placeholder"]:not([data-image-url])');
       const mapPlaceholderNodes = editorElement.querySelectorAll('[data-type="map-placeholder"]');
       const pullQuotePlaceholderNodes = editorElement.querySelectorAll('[data-type="pull-quote-placeholder"]:not([data-quote])');
+      const researchPlaceholderNodes = editorElement.querySelectorAll('[data-type="research-placeholder"]');
       
       // Also check for text-based placeholders
       const pullquoteTextMatches = [
@@ -87,8 +90,9 @@ export function RichTextEditor({
         ...(html.match(/\[MAP:[^\]]*\]/g) || []),
       ];
       
-      // Count: research (text only) + unresolved placeholder nodes + text placeholders
+      // Count: research nodes + unresolved placeholder nodes + text placeholders
       const total = 
+        researchPlaceholderNodes.length +
         researchMatches.length +
         imagePlaceholderNodes.length +
         mapPlaceholderNodes.length +
@@ -148,10 +152,22 @@ export function RichTextEditor({
       let transformed = html;
 
       // Transform [IMAGE NEEDED:...] to imagePlaceholder nodes
+      // Handle both <p> wrapped and standalone text
       transformed = transformed.replace(
         /<p>\[IMAGE NEEDED:([^\]]*)\]<\/p>/gi,
         (match, description) => {
           return `<div data-type="image-placeholder" data-placeholder-text="[IMAGE NEEDED:${description}]"></div>`;
+        }
+      );
+      // Also handle placeholders not wrapped in <p> tags
+      transformed = transformed.replace(
+        /\[IMAGE NEEDED:([^\]]*)\]/gi,
+        (match, description) => {
+          // Only replace if not already transformed
+          if (!transformed.includes(`data-type="image-placeholder"`)) {
+            return `<div data-type="image-placeholder" data-placeholder-text="[IMAGE NEEDED:${description}]"></div>`;
+          }
+          return match;
         }
       );
 
@@ -164,12 +180,52 @@ export function RichTextEditor({
           return `<div data-type="map-placeholder" data-city="${city || ""}" data-placeholder-text="[MAPBOX MAP NEEDED:${description}]"></div>`;
         }
       );
+      // Also handle standalone map placeholders
+      transformed = transformed.replace(
+        /\[(?:MAPBOX MAP NEEDED|MAP):\s*([^\]]*)\]/gi,
+        (match, description) => {
+          if (!transformed.includes(`data-type="map-placeholder"`)) {
+            const cityMatch = description.match(/^([^|]+)/);
+            const city = cityMatch ? cityMatch[1].trim() : null;
+            return `<div data-type="map-placeholder" data-city="${city || ""}" data-placeholder-text="[MAPBOX MAP NEEDED:${description}]"></div>`;
+          }
+          return match;
+        }
+      );
 
       // Transform [PULL QUOTE NEEDED:...] to pullQuotePlaceholder nodes
       transformed = transformed.replace(
         /<p>\[PULL QUOTE NEEDED:([^\]]*)\]<\/p>/gi,
         (match, description) => {
           return `<div data-type="pull-quote-placeholder" data-placeholder-text="[PULL QUOTE NEEDED:${description}]"></div>`;
+        }
+      );
+      // Also handle standalone pull quote placeholders
+      transformed = transformed.replace(
+        /\[PULL QUOTE NEEDED:([^\]]*)\]/gi,
+        (match, description) => {
+          if (!transformed.includes(`data-type="pull-quote-placeholder"`)) {
+            return `<div data-type="pull-quote-placeholder" data-placeholder-text="[PULL QUOTE NEEDED:${description}]"></div>`;
+          }
+          return match;
+        }
+      );
+
+      // Transform [RESEARCH NEEDED:...] to researchPlaceholder nodes
+      transformed = transformed.replace(
+        /<p>\[RESEARCH NEEDED:([^\]]*)\]<\/p>/gi,
+        (match, description) => {
+          return `<div data-type="research-placeholder" data-placeholder-text="[RESEARCH NEEDED:${description}]"></div>`;
+        }
+      );
+      // Also handle standalone research placeholders
+      transformed = transformed.replace(
+        /\[RESEARCH NEEDED:([^\]]*)\]/gi,
+        (match, description) => {
+          if (!transformed.includes(`data-type="research-placeholder"`)) {
+            return `<div data-type="research-placeholder" data-placeholder-text="[RESEARCH NEEDED:${description}]"></div>`;
+          }
+          return match;
         }
       );
 

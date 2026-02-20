@@ -19,6 +19,44 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
   const autoSaveTimerRef = useRef<NodeJS.Timeout | null>(null);
   const lastSavedRef = useRef<string>(JSON.stringify(draft));
 
+  // Inject image placeholders from images array into content if they're not already there
+  const getContentWithImagePlaceholders = () => {
+    let content = draft.content;
+    
+    // Check if images array placeholders are already in content
+    if (draft.images && draft.images.length > 0) {
+      const existingPlaceholders = draft.images.filter((img) => 
+        content.includes(img) || content.includes(img.replace(/\[IMAGE NEEDED:\s*/i, "").replace(/\]/g, ""))
+      );
+      
+      // Inject missing placeholders
+      const missingPlaceholders = draft.images.filter((img) => 
+        !existingPlaceholders.includes(img)
+      );
+      
+      if (missingPlaceholders.length > 0) {
+        const imagePlaceholders = missingPlaceholders
+          .map((img) => {
+            const cleanText = img.replace(/\[IMAGE NEEDED:\s*/i, "").replace(/\]/g, "");
+            return `<p>[IMAGE NEEDED:${cleanText}]</p>`;
+          })
+          .join("");
+        
+        // Insert after the title/summary section (after first </section> or at start)
+        const firstSectionEnd = content.indexOf("</section>");
+        if (firstSectionEnd !== -1) {
+          const insertPos = firstSectionEnd + 10; // After "</section>"
+          content = content.slice(0, insertPos) + imagePlaceholders + content.slice(insertPos);
+        } else {
+          // Insert at the beginning if no sections
+          content = imagePlaceholders + content;
+        }
+      }
+    }
+    
+    return content;
+  };
+
   // Auto-save every 30 seconds
   useEffect(() => {
     const currentDraft = JSON.stringify(draft);
@@ -202,8 +240,12 @@ export function ReviewEditor({ draft: initialDraft }: ReviewEditorProps) {
         <div className="w-full flex justify-center">
           <div className="w-full max-w-[680px]">
             <RichTextEditor
-              content={draft.content}
-              onChange={(html) => setDraft({ ...draft, content: html })}
+              content={getContentWithImagePlaceholders()}
+              onChange={(html) => {
+                // Remove image placeholders that were injected (they're managed separately)
+                // But keep any that were added/edited in the editor
+                setDraft({ ...draft, content: html });
+              }}
               onPlaceholderCountChange={setPlaceholderCount}
             />
           </div>
