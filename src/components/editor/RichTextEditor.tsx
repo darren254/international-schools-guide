@@ -3,13 +3,11 @@
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Link from "@tiptap/extension-link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { FloatingToolbar } from "./FloatingToolbar";
-import { ImageWithPlaceholder } from "./ImageWithPlaceholder";
-import { MapboxPlaceholder } from "./MapboxPlaceholder";
-import { InlineImagePlaceholder } from "./InlineImagePlaceholder";
-import { InlineMapPlaceholder } from "./InlineMapPlaceholder";
-import { InlinePullQuotePlaceholder } from "./InlinePullQuotePlaceholder";
+import { ImagePlaceholderExtension } from "./ImagePlaceholderExtension";
+import { MapPlaceholderExtension } from "./MapPlaceholderExtension";
+import { PullQuotePlaceholderExtension } from "./PullQuotePlaceholderExtension";
 
 interface RichTextEditorProps {
   content: string;
@@ -31,8 +29,9 @@ export function RichTextEditor({
           levels: [1, 2, 3],
         },
       }),
-      ImageWithPlaceholder,
-      MapboxPlaceholder,
+      ImagePlaceholderExtension,
+      MapPlaceholderExtension,
+      PullQuotePlaceholderExtension,
       Link.configure({
         openOnClick: false,
         HTMLAttributes: {
@@ -61,32 +60,46 @@ export function RichTextEditor({
       const html = editor.getHTML();
       const text = editor.getText();
       
-      // Count placeholders in both HTML and text (covers all cases)
+      // Count placeholders - check for both text placeholders and node placeholders
+      const editorElement = editor.view.dom;
+      
       const researchMatches = [
         ...(html.match(/\[RESEARCH NEEDED:[^\]]*\]/g) || []),
         ...(text.match(/\[RESEARCH NEEDED:[^\]]*\]/g) || []),
       ];
-      const pullquoteMatches = [
+      
+      // Count placeholder nodes (unresolved ones don't have imageUrl/quote attributes)
+      const imagePlaceholderNodes = editorElement.querySelectorAll('[data-type="image-placeholder"]:not([data-image-url])');
+      const mapPlaceholderNodes = editorElement.querySelectorAll('[data-type="map-placeholder"]');
+      const pullQuotePlaceholderNodes = editorElement.querySelectorAll('[data-type="pull-quote-placeholder"]:not([data-quote])');
+      
+      // Also check for text-based placeholders
+      const pullquoteTextMatches = [
         ...(html.match(/\[PULL QUOTE NEEDED:[^\]]*\]/g) || []),
         ...(text.match(/\[PULL QUOTE NEEDED:[^\]]*\]/g) || []),
       ];
-      const imageMatches = [
+      const imageTextMatches = [
         ...(html.match(/\[IMAGE NEEDED:[^\]]*\]/g) || []),
         ...(text.match(/\[IMAGE NEEDED:[^\]]*\]/g) || []),
       ];
-      const mapboxMatches = [
+      const mapboxTextMatches = [
         ...(html.match(/\[MAPBOX MAP NEEDED:[^\]]*\]/g) || []),
-        ...(text.match(/\[MAPBOX MAP NEEDED:[^\]]*\]/g) || []),
-        ...(html.match(/data-type="mapbox-placeholder"/g) || []),
+        ...(html.match(/\[MAP:[^\]]*\]/g) || []),
       ];
       
-      // Use Set to deduplicate
-      const total = new Set([...researchMatches, ...pullquoteMatches, ...imageMatches, ...mapboxMatches]).size;
+      // Count: research (text only) + unresolved placeholder nodes + text placeholders
+      const total = 
+        researchMatches.length +
+        imagePlaceholderNodes.length +
+        mapPlaceholderNodes.length +
+        pullQuotePlaceholderNodes.length +
+        pullquoteTextMatches.length +
+        imageTextMatches.length +
+        mapboxTextMatches.length;
       
       onPlaceholderCountChange(total);
 
       // Apply styling to paragraphs containing placeholders
-      const editorElement = editor.view.dom;
       const paragraphs = editorElement.querySelectorAll("p");
       
       paragraphs.forEach((p) => {
@@ -127,13 +140,48 @@ export function RichTextEditor({
     };
   }, [editor, onPlaceholderCountChange]);
 
-  // Update content when prop changes externally
+  // Transform placeholder text to nodes and update content
   useEffect(() => {
-    if (editor && content !== editor.getHTML()) {
-      // Only update if content actually changed to avoid loops
+    if (!editor) return;
+
+    const transformPlaceholders = (html: string): string => {
+      let transformed = html;
+
+      // Transform [IMAGE NEEDED:...] to imagePlaceholder nodes
+      transformed = transformed.replace(
+        /<p>\[IMAGE NEEDED:([^\]]*)\]<\/p>/gi,
+        (match, description) => {
+          return `<div data-type="image-placeholder" data-placeholder-text="[IMAGE NEEDED:${description}]"></div>`;
+        }
+      );
+
+      // Transform [MAPBOX MAP NEEDED:...] or [MAP:...] to mapPlaceholder nodes
+      transformed = transformed.replace(
+        /<p>\[(?:MAPBOX MAP NEEDED|MAP):\s*([^\]]*)\]<\/p>/gi,
+        (match, description) => {
+          const cityMatch = description.match(/^([^|]+)/);
+          const city = cityMatch ? cityMatch[1].trim() : null;
+          return `<div data-type="map-placeholder" data-city="${city || ""}" data-placeholder-text="[MAPBOX MAP NEEDED:${description}]"></div>`;
+        }
+      );
+
+      // Transform [PULL QUOTE NEEDED:...] to pullQuotePlaceholder nodes
+      transformed = transformed.replace(
+        /<p>\[PULL QUOTE NEEDED:([^\]]*)\]<\/p>/gi,
+        (match, description) => {
+          return `<div data-type="pull-quote-placeholder" data-placeholder-text="[PULL QUOTE NEEDED:${description}]"></div>`;
+        }
+      );
+
+      return transformed;
+    };
+
+    // Update content when prop changes externally
+    if (content !== editor.getHTML()) {
+      const transformedContent = transformPlaceholders(content);
       const currentHtml = editor.getHTML();
-      if (content !== currentHtml) {
-        editor.commands.setContent(content, false); // false = don't emit update event
+      if (transformedContent !== currentHtml) {
+        editor.commands.setContent(transformedContent, { emitUpdate: false });
       }
     }
   }, [content, editor]);
@@ -142,67 +190,6 @@ export function RichTextEditor({
     return <div className="h-[600px] bg-cream-50 animate-pulse" />;
   }
 
-  // Extract placeholders from content for inline rendering
-  const [imagePlaceholders, setImagePlaceholders] = useState<Array<{ text: string; position: number }>>([]);
-  const [mapPlaceholders, setMapPlaceholders] = useState<Array<{ city?: string; text?: string; position: number }>>([]);
-  const [pullQuotePlaceholders, setPullQuotePlaceholders] = useState<Array<{ text: string; position: number }>>([]);
-
-  useEffect(() => {
-    if (!editor) return;
-
-    const updatePlaceholders = () => {
-      const html = editor.getHTML();
-      const text = editor.getText();
-
-      // Find image placeholders
-      const imageMatches = [
-        ...(html.match(/\[IMAGE NEEDED:[^\]]*\]/gi) || []),
-        ...(text.match(/\[IMAGE NEEDED:[^\]]*\]/gi) || []),
-      ];
-      setImagePlaceholders(
-        Array.from(new Set(imageMatches)).map((match, idx) => ({
-          text: match,
-          position: idx,
-        }))
-      );
-
-      // Find map placeholders
-      const mapMatches = [
-        ...(html.match(/\[MAPBOX MAP NEEDED:[^\]]*\]/gi) || []),
-        ...(html.match(/\[MAP:[^\]]*\]/gi) || []),
-        ...(html.match(/data-type="mapbox-placeholder"/gi) || []),
-      ];
-      setMapPlaceholders(
-        Array.from(new Set(mapMatches)).map((match, idx) => {
-          const cityMatch = match.match(/data-city="([^"]*)"/);
-          return {
-            city: cityMatch ? cityMatch[1] : undefined,
-            text: match,
-            position: idx,
-          };
-        })
-      );
-
-      // Find pull quote placeholders
-      const pullQuoteMatches = [
-        ...(html.match(/\[PULL QUOTE NEEDED:[^\]]*\]/gi) || []),
-        ...(text.match(/\[PULL QUOTE NEEDED:[^\]]*\]/gi) || []),
-      ];
-      setPullQuotePlaceholders(
-        Array.from(new Set(pullQuoteMatches)).map((match, idx) => ({
-          text: match,
-          position: idx,
-        }))
-      );
-    };
-
-    editor.on("update", updatePlaceholders);
-    updatePlaceholders();
-
-    return () => {
-      editor.off("update", updatePlaceholders);
-    };
-  }, [editor]);
 
   return (
     <div ref={editorRef} className="relative">

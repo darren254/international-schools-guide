@@ -1,24 +1,20 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import type { Editor } from "@tiptap/react";
+import { NodeViewWrapper, type NodeViewWrapperProps } from "@tiptap/react";
 
-interface InlineImagePlaceholderProps {
-  editor: Editor;
-  placeholderText: string;
-  position: number;
-}
+interface InlineImagePlaceholderProps extends NodeViewWrapperProps {}
 
 export function InlineImagePlaceholder({
-  editor,
-  placeholderText,
-  position,
+  node,
+  updateAttributes,
 }: InlineImagePlaceholderProps) {
+  const placeholderText = node.attrs.placeholderText || "[IMAGE NEEDED: Image]";
+  const imageUrl = node.attrs.imageUrl;
   const [suggestions, setSuggestions] = useState<string[]>([]);
   const [loading, setLoading] = useState(false);
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const [caption, setCaption] = useState("");
-  const [photoCredit, setPhotoCredit] = useState("");
+  const [caption, setCaption] = useState(node.attrs.caption || "");
+  const [photoCredit, setPhotoCredit] = useState(node.attrs.photoCredit || "");
   const [isDragging, setIsDragging] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const dropZoneRef = useRef<HTMLDivElement>(null);
@@ -31,7 +27,7 @@ export function InlineImagePlaceholder({
 
   // Fetch Unsplash suggestions
   useEffect(() => {
-    if (!searchQuery || selectedImage) return;
+    if (!searchQuery || imageUrl) return;
 
     setLoading(true);
     // Use Unsplash API - you'll need to add NEXT_PUBLIC_UNSPLASH_ACCESS_KEY to .env.local
@@ -65,7 +61,7 @@ export function InlineImagePlaceholder({
       .catch(() => {
         setLoading(false);
       });
-  }, [searchQuery, selectedImage]);
+  }, [searchQuery, imageUrl]);
 
   // Handle drag and drop
   useEffect(() => {
@@ -110,19 +106,13 @@ export function InlineImagePlaceholder({
     };
   }, []);
 
-  const handleImageSelect = (imageUrl: string) => {
-    setSelectedImage(imageUrl);
-    // Replace placeholder with actual image in editor
-    const html = `<img src="${imageUrl}" alt="${searchQuery}" />${caption ? `<p class="image-caption">${caption}${photoCredit ? `. ${photoCredit}` : ""}</p>` : ""}`;
-    
-    // Find and replace the placeholder in the editor content
-    const currentContent = editor.getHTML();
-    const placeholderRegex = new RegExp(
-      `\\[IMAGE NEEDED:[^\\]]*\\]`,
-      "gi"
-    );
-    const newContent = currentContent.replace(placeholderRegex, html);
-    editor.commands.setContent(newContent, false);
+  const handleImageSelect = (selectedUrl: string) => {
+    // Update the node to show the image
+    updateAttributes({
+      imageUrl: selectedUrl,
+      caption: caption || "",
+      photoCredit: photoCredit || "",
+    });
   };
 
   const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -137,18 +127,32 @@ export function InlineImagePlaceholder({
     }
   };
 
-  if (selectedImage) {
+  // Sync local state with node attributes
+  useEffect(() => {
+    if (node.attrs.caption !== caption) {
+      setCaption(node.attrs.caption || "");
+    }
+    if (node.attrs.photoCredit !== photoCredit) {
+      setPhotoCredit(node.attrs.photoCredit || "");
+    }
+  }, [node.attrs.caption, node.attrs.photoCredit]);
+
+  if (imageUrl) {
     return (
-      <div className="inline-image-block my-8 group">
+      <NodeViewWrapper className="inline-image-block my-8 group">
         <div className="relative">
           <img
-            src={selectedImage}
+            src={imageUrl}
             alt={searchQuery}
             className="w-full h-auto"
           />
           <button
             onClick={() => {
-              setSelectedImage(null);
+              updateAttributes({
+                imageUrl: null,
+                caption: "",
+                photoCredit: "",
+              });
               setCaption("");
               setPhotoCredit("");
             }}
@@ -161,24 +165,32 @@ export function InlineImagePlaceholder({
           <input
             type="text"
             value={caption}
-            onChange={(e) => setCaption(e.target.value)}
+            onChange={(e) => {
+              const newCaption = e.target.value;
+              setCaption(newCaption);
+              updateAttributes({ caption: newCaption });
+            }}
             placeholder="Caption (optional)"
             className="w-full text-xs text-charcoal-muted border border-warm-border rounded-sm px-2 py-1"
           />
           <input
             type="text"
             value={photoCredit}
-            onChange={(e) => setPhotoCredit(e.target.value)}
+            onChange={(e) => {
+              const newCredit = e.target.value;
+              setPhotoCredit(newCredit);
+              updateAttributes({ photoCredit: newCredit });
+            }}
             placeholder="Photo credit (e.g., Photographer Name / Source)"
             className="w-full text-xs text-charcoal-muted border border-warm-border rounded-sm px-2 py-1"
           />
         </div>
-      </div>
+      </NodeViewWrapper>
     );
   }
 
   return (
-    <div
+    <NodeViewWrapper
       ref={dropZoneRef}
       className={`inline-image-placeholder my-8 p-8 border-2 border-dashed ${
         isDragging ? "border-hermes bg-cream-50" : "border-warm-border bg-cream-50"
@@ -231,6 +243,6 @@ export function InlineImagePlaceholder({
           No suggestions available. Please drag an image or choose a file.
         </div>
       )}
-    </div>
+    </NodeViewWrapper>
   );
 }

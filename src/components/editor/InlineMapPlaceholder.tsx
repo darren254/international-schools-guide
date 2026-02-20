@@ -1,16 +1,15 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { NodeViewWrapper, type NodeViewWrapperProps } from "@tiptap/react";
 
-interface InlineMapPlaceholderProps {
-  city?: string;
-  placeholderText?: string;
-}
+interface InlineMapPlaceholderProps extends NodeViewWrapperProps {}
 
 export function InlineMapPlaceholder({
-  city,
-  placeholderText,
+  node,
 }: InlineMapPlaceholderProps) {
+  const city = node.attrs.city;
+  const placeholderText = node.attrs.placeholderText || "[MAPBOX MAP NEEDED: Interactive map]";
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<any>(null);
   const [mapReady, setMapReady] = useState(false);
@@ -75,7 +74,7 @@ export function InlineMapPlaceholder({
 
   if (hasError || !process.env.NEXT_PUBLIC_MAPBOX_TOKEN) {
     return (
-      <div className="inline-map-placeholder my-8 p-8 border-2 border-dashed border-warm-border bg-cream-50 rounded-sm text-center">
+      <NodeViewWrapper className="inline-map-placeholder my-8 p-8 border-2 border-dashed border-warm-border bg-cream-50 rounded-sm text-center">
         <div className="text-sm font-medium text-charcoal mb-2">
           Map will appear here
         </div>
@@ -92,12 +91,12 @@ export function InlineMapPlaceholder({
         >
           Configure map
         </a>
-      </div>
+      </NodeViewWrapper>
     );
   }
 
   return (
-    <div className="inline-map-block my-8">
+    <NodeViewWrapper className="inline-map-block my-8">
       <div
         ref={mapContainer}
         className="w-full h-[400px] bg-cream-300 rounded-sm"
@@ -107,6 +106,6 @@ export function InlineMapPlaceholder({
           Loading map...
         </div>
       )}
-    </div>
+    </NodeViewWrapper>
   );
 }
