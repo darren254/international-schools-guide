@@ -4,7 +4,8 @@
  * Usage: tsx scripts/create-draft.ts --slug="my-article" --title="My Article" --summary="..." --category="GUIDE" --content="..."
  */
 
-import { saveDraft, sendReviewNotification } from "../src/lib/insights/draft";
+import { saveDraft } from "../src/lib/insights/draft";
+import { sendReviewNotification } from "../src/lib/insights/email";
 
 async function main() {
   const args = process.argv.slice(2);
