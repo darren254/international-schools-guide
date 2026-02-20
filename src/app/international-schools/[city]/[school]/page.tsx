@@ -12,6 +12,11 @@ import { CampusMap } from "@/components/school/CampusMap";
 import { ContactSection } from "@/components/school/ContactSection";
 import { ProfileSidebar } from "@/components/school/ProfileSidebar";
 
+// Static params for export — add schools as we build them
+export function generateStaticParams() {
+  return [{ city: "jakarta", school: "jakarta-intercultural-school" }];
+}
+
 // ═══════════════════════════════════════════════════════
 // HARDCODED JIS DATA — wire to DB after template approval
 // ═══════════════════════════════════════════════════════

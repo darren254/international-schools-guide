@@ -4,6 +4,11 @@ import { SchoolCard } from "@/components/school/SchoolCard";
 import { FilterSidebar } from "@/components/school/FilterSidebar";
 import { SortBar } from "@/components/school/SortBar";
 
+// Static params for export — add cities as we build them
+export function generateStaticParams() {
+  return [{ city: "jakarta" }];
+}
+
 // ═══════════════════════════════════════════════════════
 // HARDCODED JAKARTA DATA — wire to DB after approval
 // ═══════════════════════════════════════════════════════
