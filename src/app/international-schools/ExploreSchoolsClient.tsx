@@ -80,65 +80,72 @@ export function ExploreSchoolsClient({ schools, profileSlugs }: ExploreSchoolsCl
         <span className="text-charcoal">International Schools</span>
       </nav>
 
-      <section className="pb-6 border-b border-warm-border">
-        <h1 className="font-display text-[clamp(1.75rem,4vw,2.5rem)] font-medium tracking-tight leading-tight mb-2">
+      <section className="pb-8">
+        <h1 className="font-display text-[clamp(1.75rem,4vw,2.5rem)] font-medium tracking-tight leading-tight mb-1.5">
           Explore Schools
         </h1>
-        <p className="text-[0.9375rem] text-charcoal-muted mb-6">
-          {schools.length} international schools in Jakarta. Use the filters below to narrow by curriculum or location, and sort by fees (high to low or low to high).
+        <p className="text-[0.9375rem] text-charcoal-muted mb-5">
+          {schools.length} schools in Jakarta. Filter by curriculum or location; sort by fees.
         </p>
 
-        <div className="flex flex-col gap-4">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="text-label-xs uppercase text-charcoal-muted tracking-wider mr-1">Curriculum</span>
-            {CURRICULUM_OPTIONS.map((opt) => (
-              <button
-                key={opt.value || "all"}
-                onClick={() => setCurriculum(opt.value)}
-                className={`px-3 py-1.5 text-[0.8125rem] rounded-sm border transition-colors ${
-                  curriculum === opt.value
-                    ? "bg-hermes text-white border-hermes"
-                    : "bg-warm-white border-warm-border text-charcoal-light hover:border-charcoal-muted hover:text-charcoal"
-                }`}
-              >
-                {opt.label}
-              </button>
-            ))}
+        {/* Filter bar — single panel so chips wrap in a grid and avoid orphan lines */}
+        <div className="bg-warm-white border border-warm-border rounded-sm p-4 sm:p-5">
+          <div className="grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-4 sm:gap-6">
+            <div>
+              <p className="text-label-xs uppercase text-charcoal-muted tracking-wider mb-2.5">Curriculum</p>
+              <div className="flex flex-wrap gap-2">
+                {CURRICULUM_OPTIONS.map((opt) => (
+                  <button
+                    key={opt.value || "all"}
+                    onClick={() => setCurriculum(opt.value)}
+                    className={`px-2.5 py-1 text-[0.75rem] rounded-sm border transition-colors whitespace-nowrap ${
+                      curriculum === opt.value
+                        ? "bg-hermes text-white border-hermes"
+                        : "bg-white border-warm-border text-charcoal-light hover:border-charcoal-muted hover:text-charcoal"
+                    }`}
+                  >
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div>
+              <p className="text-label-xs uppercase text-charcoal-muted tracking-wider mb-2.5">Location</p>
+              <div className="flex flex-wrap gap-2">
+                {LOCATION_OPTIONS.map((opt) => (
+                  <button
+                    key={opt.value || "all"}
+                    onClick={() => setLocation(opt.value)}
+                    className={`px-2.5 py-1 text-[0.75rem] rounded-sm border transition-colors whitespace-nowrap ${
+                      location === opt.value
+                        ? "bg-hermes text-white border-hermes"
+                        : "bg-white border-warm-border text-charcoal-light hover:border-charcoal-muted hover:text-charcoal"
+                    }`}
+                  >
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+            </div>
           </div>
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="text-label-xs uppercase text-charcoal-muted tracking-wider mr-1">Location</span>
-            {LOCATION_OPTIONS.map((opt) => (
-              <button
-                key={opt.value || "all"}
-                onClick={() => setLocation(opt.value)}
-                className={`px-3 py-1.5 text-[0.8125rem] rounded-sm border transition-colors ${
-                  location === opt.value
-                    ? "bg-hermes text-white border-hermes"
-                    : "bg-warm-white border-warm-border text-charcoal-light hover:border-charcoal-muted hover:text-charcoal"
-                }`}
-              >
-                {opt.label}
-              </button>
-            ))}
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="text-label-xs uppercase text-charcoal-muted tracking-wider">Fees</span>
+          <div className="mt-4 pt-4 border-t border-warm-border-light flex flex-wrap items-center gap-2">
+            <p className="text-label-xs uppercase text-charcoal-muted tracking-wider">Sort by fees</p>
             <button
               onClick={() => setFeeSort("high-low")}
-              className={`px-3 py-1.5 text-[0.8125rem] rounded-sm border transition-colors ${
+              className={`px-2.5 py-1 text-[0.75rem] rounded-sm border transition-colors ${
                 feeSort === "high-low"
                   ? "bg-hermes text-white border-hermes"
-                  : "bg-warm-white border-warm-border text-charcoal-light hover:border-charcoal-muted"
+                  : "bg-white border-warm-border text-charcoal-light hover:border-charcoal-muted"
               }`}
             >
               High → Low
             </button>
             <button
               onClick={() => setFeeSort("low-high")}
-              className={`px-3 py-1.5 text-[0.8125rem] rounded-sm border transition-colors ${
+              className={`px-2.5 py-1 text-[0.75rem] rounded-sm border transition-colors ${
                 feeSort === "low-high"
                   ? "bg-hermes text-white border-hermes"
-                  : "bg-warm-white border-warm-border text-charcoal-light hover:border-charcoal-muted"
+                  : "bg-white border-warm-border text-charcoal-light hover:border-charcoal-muted"
               }`}
             >
               Low → High
@@ -147,8 +154,8 @@ export function ExploreSchoolsClient({ schools, profileSlugs }: ExploreSchoolsCl
         </div>
       </section>
 
-      <div className="py-6">
-        <p className="text-[0.8125rem] text-charcoal-muted mb-4">
+      <div className="pt-2 pb-10">
+        <p className="text-[0.8125rem] text-charcoal-muted mb-3">
           Showing {filteredAndSorted.length} school{filteredAndSorted.length !== 1 ? "s" : ""}
         </p>
         <div className="space-y-4">
@@ -175,14 +182,14 @@ export function ExploreSchoolsClient({ schools, profileSlugs }: ExploreSchoolsCl
         )}
       </div>
 
-      <section className="pt-8 pb-12 border-t border-warm-border">
-        <h2 className="font-display text-display-sm font-medium mb-3">Browse by city</h2>
-        <p className="text-[0.9375rem] text-charcoal-muted mb-4">
+      <section className="pt-10 pb-12 border-t border-warm-border">
+        <h2 className="font-display text-display-sm font-medium mb-2">Browse by city</h2>
+        <p className="text-[0.9375rem] text-charcoal-muted mb-3">
           Jakarta is the first city we&apos;ve built out. More cities coming soon.
         </p>
         <Link
           href="/international-schools/jakarta/"
-          className="inline-block font-medium text-hermes hover:text-hermes-hover transition-colors"
+          className="text-[0.9375rem] font-medium text-hermes hover:text-hermes-hover transition-colors"
         >
           View all Jakarta schools →
         </Link>
