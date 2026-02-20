@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { SchoolCard } from "@/components/school/SchoolCard";
 import {
+  JAKARTA_SCHOOLS,
   getLocationFilter,
   getCurriculumFilterLabels,
   type LocationFilter,
@@ -49,11 +50,11 @@ function schoolMatchesLocation(school: JakartaSchoolListing, locationFilter: Loc
 }
 
 interface ExploreSchoolsClientProps {
-  schools: JakartaSchoolListing[];
   profileSlugs: string[];
 }
 
-export function ExploreSchoolsClient({ schools, profileSlugs }: ExploreSchoolsClientProps) {
+export function ExploreSchoolsClient({ profileSlugs }: ExploreSchoolsClientProps) {
+  const schools = JAKARTA_SCHOOLS;
   const [curriculum, setCurriculum] = useState("");
   const [location, setLocation] = useState<"" | LocationFilter>("");
   const [feeSort, setFeeSort] = useState<FeeSort>("high-low");
@@ -72,7 +73,7 @@ export function ExploreSchoolsClient({ schools, profileSlugs }: ExploreSchoolsCl
       return (extractLowestFee(a.feeRange) - extractLowestFee(b.feeRange)) * sortMultiplier;
     });
     return list;
-  }, [schools, curriculum, location, feeSort]);
+  }, [curriculum, location, feeSort]);
 
   return (
     <div className="container-site">
@@ -80,72 +81,69 @@ export function ExploreSchoolsClient({ schools, profileSlugs }: ExploreSchoolsCl
         <span className="text-charcoal">International Schools</span>
       </nav>
 
-      <section className="pb-8">
+      <section className="pb-6 border-b border-warm-border">
         <h1 className="font-display text-[clamp(1.75rem,4vw,2.5rem)] font-medium tracking-tight leading-tight mb-1.5">
           Explore Schools
         </h1>
-        <p className="text-[0.9375rem] text-charcoal-muted mb-5">
+        <p className="text-[0.9375rem] text-charcoal-muted mb-4 font-body">
           {schools.length} schools in Jakarta. Filter by curriculum or location; sort by fees.
         </p>
 
-        {/* Filter bar — single panel so chips wrap in a grid and avoid orphan lines */}
-        <div className="bg-warm-white border border-warm-border rounded-sm p-4 sm:p-5">
-          <div className="grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-4 sm:gap-6">
-            <div>
-              <p className="text-label-xs uppercase text-charcoal-muted tracking-wider mb-2.5">Curriculum</p>
-              <div className="flex flex-wrap gap-2">
-                {CURRICULUM_OPTIONS.map((opt) => (
-                  <button
-                    key={opt.value || "all"}
-                    onClick={() => setCurriculum(opt.value)}
-                    className={`px-2.5 py-1 text-[0.75rem] rounded-sm border transition-colors whitespace-nowrap ${
-                      curriculum === opt.value
-                        ? "bg-hermes text-white border-hermes"
-                        : "bg-white border-warm-border text-charcoal-light hover:border-charcoal-muted hover:text-charcoal"
-                    }`}
-                  >
-                    {opt.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-            <div>
-              <p className="text-label-xs uppercase text-charcoal-muted tracking-wider mb-2.5">Location</p>
-              <div className="flex flex-wrap gap-2">
-                {LOCATION_OPTIONS.map((opt) => (
-                  <button
-                    key={opt.value || "all"}
-                    onClick={() => setLocation(opt.value)}
-                    className={`px-2.5 py-1 text-[0.75rem] rounded-sm border transition-colors whitespace-nowrap ${
-                      location === opt.value
-                        ? "bg-hermes text-white border-hermes"
-                        : "bg-white border-warm-border text-charcoal-light hover:border-charcoal-muted hover:text-charcoal"
-                    }`}
-                  >
-                    {opt.label}
-                  </button>
-                ))}
-              </div>
-            </div>
+        {/* Single tight row: curriculum pills left, location dropdown right, sort as text links */}
+        <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 py-3">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body mr-1">Curriculum</span>
+            {CURRICULUM_OPTIONS.map((opt) => (
+              <button
+                key={opt.value || "all"}
+                onClick={() => setCurriculum(opt.value)}
+                className={`px-2 py-0.5 text-[0.6875rem] uppercase tracking-wider font-body transition-colors whitespace-nowrap border ${
+                  curriculum === opt.value
+                    ? "border-charcoal text-charcoal bg-cream-300"
+                    : "border-warm-border text-charcoal-muted hover:text-charcoal hover:border-charcoal-muted"
+                }`}
+              >
+                {opt.label}
+              </button>
+            ))}
           </div>
-          <div className="mt-4 pt-4 border-t border-warm-border-light flex flex-wrap items-center gap-2">
-            <p className="text-label-xs uppercase text-charcoal-muted tracking-wider">Sort by fees</p>
+          <div className="flex items-center gap-3 flex-shrink-0">
+            <label htmlFor="location-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
+              Location
+            </label>
+            <select
+              id="location-filter"
+              value={location}
+              onChange={(e) => setLocation(e.target.value as "" | LocationFilter)}
+              className="bg-cream border border-warm-border text-[0.8125rem] text-charcoal font-body py-1.5 pl-2 pr-7 appearance-none cursor-pointer focus:outline-none focus:border-charcoal-muted"
+              style={{
+                backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237A756E' fill='none' stroke-width='1.5'/%3E%3C/svg%3E")`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "right 6px center",
+              }}
+            >
+              {LOCATION_OPTIONS.map((opt) => (
+                <option key={opt.value || "all"} value={opt.value}>
+                  {opt.label}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div className="flex items-center gap-2 sm:ml-auto border-l border-warm-border pl-4">
+            <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">Fees</span>
             <button
               onClick={() => setFeeSort("high-low")}
-              className={`px-2.5 py-1 text-[0.75rem] rounded-sm border transition-colors ${
-                feeSort === "high-low"
-                  ? "bg-hermes text-white border-hermes"
-                  : "bg-white border-warm-border text-charcoal-light hover:border-charcoal-muted"
+              className={`text-[0.75rem] font-body uppercase tracking-wider ${
+                feeSort === "high-low" ? "text-charcoal" : "text-charcoal-muted hover:text-charcoal"
               }`}
             >
               High → Low
             </button>
+            <span className="text-charcoal-muted/50">/</span>
             <button
               onClick={() => setFeeSort("low-high")}
-              className={`px-2.5 py-1 text-[0.75rem] rounded-sm border transition-colors ${
-                feeSort === "low-high"
-                  ? "bg-hermes text-white border-hermes"
-                  : "bg-white border-warm-border text-charcoal-light hover:border-charcoal-muted"
+              className={`text-[0.75rem] font-body uppercase tracking-wider ${
+                feeSort === "low-high" ? "text-charcoal" : "text-charcoal-muted hover:text-charcoal"
               }`}
             >
               Low → High
@@ -154,8 +152,8 @@ export function ExploreSchoolsClient({ schools, profileSlugs }: ExploreSchoolsCl
         </div>
       </section>
 
-      <div className="pt-2 pb-10">
-        <p className="text-[0.8125rem] text-charcoal-muted mb-3">
+      <div className="pt-6 pb-10">
+        <p className="text-[0.8125rem] text-charcoal-muted mb-4 font-body">
           Showing {filteredAndSorted.length} school{filteredAndSorted.length !== 1 ? "s" : ""}
         </p>
         <div className="space-y-4">
