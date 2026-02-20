@@ -20,12 +20,12 @@ export async function generateMetadata({
   
   if (slug === "best-international-schools-jakarta") {
     return {
-      title: "Best International Schools in Jakarta (2025) — The Expat Family Guide",
+      title: "Best International Schools in Jakarta (2025) - The Expat Family Guide",
       description:
         "Jakarta has 66 international schools serving expat families. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, AIS, and 60+ other options.",
       alternates: { canonical },
       openGraph: {
-        title: "Best International Schools in Jakarta (2025) — The Expat Family Guide",
+        title: "Best International Schools in Jakarta (2025) - The Expat Family Guide",
         description:
           "Jakarta has 66 international schools serving expat families. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, AIS, and 60+ other options.",
         url: canonical,
@@ -90,7 +90,7 @@ function JakartaGuide() {
         <div className="max-w-4xl">
           {/* Headline */}
           <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] text-charcoal leading-tight mb-8">
-            Best International Schools in Jakarta (2025) — The Expat Family Guide
+            Best International Schools in Jakarta (2025) - The Expat Family Guide
           </h1>
 
           {/* Article body */}

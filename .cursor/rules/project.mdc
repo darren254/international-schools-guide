@@ -1,0 +1,248 @@
+# International Schools Guide — Project Plan
+
+> **This file is the single source of truth for the project.**
+> Read this at the start of every session. Update it when decisions change.
+> Last updated: 20 February 2026
+
+---
+
+## What We're Building
+
+An international schools directory and comparison site for expat families.
+Starting with Jakarta, scaling to 20+ cities globally.
+
+- **Domain:** international-schools-guide.com
+- **Live URL:** international-schools-guide.darren-1a2.workers.dev
+- **Repo:** github.com/darren254/international-schools-guide
+- **Owner:** Darren (mia@international-schools-guide.com)
+
+The editorial voice is independent — written for parents, not schools.
+Think: luxury editorial magazine handling data. Honest, direct, treats parents as adults.
+
+Main competitor: international-schools-database.com (weak product).
+Our edge: faster UX (Google Flights-style), genuinely better editorial content, honest profiles.
+
+---
+
+## Stack
+
+| Layer | Technology | Status |
+|-------|-----------|--------|
+| Framework | Next.js 14 App Router + TypeScript | ✅ Built |
+| Styling | Tailwind CSS + Hermès design system | ✅ Built |
+| Database | Neon Postgres (serverless) | ⚠️ Schema written, not yet wired to pages |
+| ORM | Drizzle ORM + Zod | ⚠️ Installed, schema defined, not queried |
+| Hosting | Cloudflare Workers & Pages | ✅ Auto-deploy on push to main |
+| Storage | Cloudflare R2 | ❌ Not configured yet |
+| Maps | Mapbox GL JS | ✅ Token configured, used on JIS profile |
+| Email | Resend | ❌ Not configured yet |
+| Analytics | GA4 | ❌ Not injected yet |
+| External APIs | NewsData.io, Pexels, Bluesky/AT Protocol | ❌ Not connected |
+
+**Current rendering mode:** Static export (`output: 'export'` in next.config.mjs).
+When we wire the database, switch to `@opennextjs/cloudflare` for server rendering.
+
+---
+
+## Design System — Hermès Aesthetic
+
+Non-negotiable. Every component should feel like hermes.com.
+
+### Colours
+- Background cream: `#F8F4EE` (Tailwind: `cream`)
+- Primary accent (Hermès orange): `#E8722A` (Tailwind: `hermes`)
+- Text charcoal: `#1A1A1A` (Tailwind: `charcoal`)
+- Muted text: `#7A756E` (Tailwind: `charcoal-muted`)
+- Card background: warm white `#FDFBF8` (Tailwind: `warm-white`)
+- Borders: warm-toned `#E8E2D9` (Tailwind: `warm-border`)
+- No cold greys. No pure white. No blue.
+
+### Typography
+- Headlines: `font-display` → Cormorant Garamond (serif)
+- Body: `font-body` → Inter (sans-serif)
+- NOT `font-serif`. NOT `font-sans`. Use the custom class names.
+
+### Layout Rules
+- Generous whitespace
+- Hairline borders (1px), warm-toned
+- No drop shadows (or extremely subtle)
+- Buttons: thin outlined OR solid orange, not rounded/bubbly
+- High information density must feel editorial
+
+### Hover Behaviour
+- Use `card-title-hover` class on Link elements
+- CSS in globals.css uses `@media (hover: hover)` to prevent sticky hover on mobile
+- Do NOT use `group-hover:text-hermes` inline — it breaks on touch devices
+
+---
+
+## URL Structure
+
+```
+/                                           → Homepage
+/international-schools/                     → All cities index
+/international-schools/[city]/              → City listing (e.g., /jakarta/)
+/international-schools/[city]/[school]/     → School profile
+/compare?schools=slug1,slug2,slug3          → Comparison tool
+/insights/[slug]/                           → Insights articles
+/news/[slug]/                               → News articles
+/about                                      → About page
+```
+
+Future i18n: `/ko/international-schools/jakarta/` (subdirectory approach).
+
+---
+
+## Database Schema (Neon Postgres)
+
+15 tables defined in `src/lib/db/schema.ts`:
+
+**Core:** cities, neighbourhoods, schools, schoolCampuses
+**Fees:** schoolFees, schoolOneTimeFees
+**Academic:** schoolResults (flexible — IB, A-Levels, AP, IGCSE)
+**Content:** guides, newsDrafts
+**i18n:** schoolTranslations, cityTranslations
+**Utility:** exchangeRates, contactMessages
+
+Key fields on schools table: verified_status, head_name/bio/photo/since,
+phone/email/website (nullable — not shown when empty), premium_listing support.
+
+Connection: `src/lib/db/index.ts` (Neon HTTP client).
+Config: `drizzle.config.ts`.
+
+---
+
+## Content Pipeline
+
+School profiles are created by Darren working with Claude/AI:
+1. **Factual data** — sourced manually from school websites (fees, ages, campus addresses, coordinates)
+2. **Editorial "Intelligence" sections** — written from social media research (Reddit, Quora, Facebook groups), presented in our own editorial voice as parent knowledge
+3. **Other data** — scraped/gathered from individual school pages
+4. **Images** — 4 per school (sourced from school press photos or editorial images)
+
+**Editorial voice:** All copy must follow `TONE.md` (project root). This defines the banned phrases list, attribution style, dash rules, and the research-first pipeline. The `school-profile` skill (`.skills/school-profile/`) automates this for new profiles.
+
+Schools can submit corrections via a "suggest a correction" form (not yet built).
+
+---
+
+## What's Built (as of 20 Feb 2026)
+
+### Pages
+- [x] Homepage — search bar, featured schools, city guides, news ticker
+- [x] City listing (/international-schools/jakarta/) — 9 schools, filters, fee sliders
+- [x] School profile (JIS only) — full template with all sections
+- [x] Comparison tool — 9 schools, side-by-side table
+- [x] Insights page — McKinsey-inspired layout
+- [x] News page — FT-inspired layout with Editor's Picks, Most Read
+- [x] News article page — ISJ ranking story
+- [x] About page
+
+### Components (14 school + 4 UI + 2 layout)
+SchoolMasthead, HeadOfSchool, PhotoStrip, Intelligence, FeesTable,
+AcademicResults, StudentBody, SchoolLife, CampusMap, ContactSection,
+ProfileSidebar, SchoolCard, FilterSidebar, SortBar,
+Button, CurriculumTag, SectionHeader, VerifiedBadge,
+SiteHeader, SiteFooter
+
+### Jakarta Schools in Data (listing + comparison)
+1. Jakarta Intercultural School (JIS) — **full profile built**
+2. British School Jakarta (BSJ) — listing/compare data only
+3. Australian Independent School (AIS) — listing/compare data only
+4. Mentari Intercultural School — listing/compare data only
+5. ACG School Jakarta — listing/compare data only
+6. Sekolah Pelita Harapan (SPH) — listing/compare data only
+7. Global Jaya School — listing/compare data only
+8. Binus School Serpong — listing/compare data only
+9. The Independent School of Jakarta (ISJ) — listing/compare data only
+
+---
+
+## What's NOT Built Yet
+
+### Priority 1 — Do Now
+- [ ] Remaining Jakarta school profiles (BSJ, ISJ, Mentari, ACG at minimum)
+- [ ] SEO foundations: sitemap.xml, robots.txt, JSON-LD on all pages, OG tags
+- [ ] GA4 script injection
+- [ ] "Suggest a correction" form on school profiles
+- [ ] Connect custom domain (international-schools-guide.com)
+
+### Priority 2 — Do Soon
+- [ ] Wire Neon database to pages (replace hardcoded data)
+- [ ] Switch from static export to @opennextjs/cloudflare (server rendering)
+- [ ] Cloudflare R2 for school images (replace placeholder boxes)
+- [ ] Curriculum filter landing pages for SEO (e.g., /jakarta/british-curriculum/)
+- [ ] Proper search functionality
+
+### Priority 3 — Do Later
+- [ ] i18n routing middleware + translation pipeline
+- [ ] User shortlisting (localStorage first, auth later)
+- [ ] "From the School" pages (separate page, only when school has engaged)
+- [ ] Resend email integration (contact forms, newsletter)
+- [ ] NewsData.io / Pexels / Bluesky API connections
+- [ ] More cities beyond Jakarta
+
+### NOT Building Yet
+- User authentication / login
+- "From the School" pages (architecture ready, not built)
+- Monetisation features
+- Full multilingual content (structure only)
+
+---
+
+## SEO Checklist (per page)
+
+- [ ] Unique title tag (<70 chars)
+- [ ] Meta description (<160 chars, compelling)
+- [ ] H1 tag (one per page)
+- [ ] JSON-LD EducationalOrganization schema (school profiles)
+- [ ] Open Graph tags (og:title, og:description, og:image)
+- [ ] Canonical URL
+- [ ] Breadcrumb structured data
+- [ ] Internal linking to related pages
+- [ ] Alt text on all images
+- [ ] Server-rendered content (no client-only rendering for important content)
+
+---
+
+## Key Decisions Log
+
+| Date | Decision | Rationale |
+|------|----------|-----------|
+| Feb 2026 | Cloudflare over Vercel | Better pricing at scale, R2 for images |
+| Feb 2026 | Static export for now | Fast, cheap, all data hardcoded anyway |
+| Feb 2026 | Hermès design system | Non-negotiable brand identity |
+| Feb 2026 | JIS as first profile template | Largest school, most data available |
+| Feb 2026 | Hardcode then database | Get editorial tone right before wiring DB |
+| Feb 2026 | Default sort: fees high-to-low | Matches how parents actually compare |
+| Feb 2026 | No tabs on school profiles | All content in HTML, scroll-accessible, fully indexed |
+| Feb 2026 | Comparison via URL params | Shareable without login, SEO surface |
+| Feb 2026 | USD default currency | Target audience is expats, toggle to persist via localStorage |
+
+---
+
+## Environment Variables
+
+```
+DATABASE_URL=              # Neon Postgres connection string
+NEXT_PUBLIC_MAPBOX_TOKEN=  # Mapbox GL JS
+RESEND_API_KEY=            # Email (not yet connected)
+NEWSDATA_API_KEY=          # News feed (not yet connected)
+PEXELS_API_KEY=            # Stock photos (not yet connected)
+CLOUDFLARE_R2_*=           # Image storage (not yet connected)
+NEXT_PUBLIC_GA_ID=         # Google Analytics 4 (not yet injected)
+```
+
+---
+
+## For AI Assistants
+
+When starting a new session on this project:
+1. Read this file first
+2. Check git log for recent changes
+3. Use Tailwind classes from the design system (hermes, cream, charcoal, font-display, font-body)
+4. Never use `font-serif`, `bg-orange`, or `group-hover:text-hermes`
+5. All data is currently hardcoded — pages don't query the database yet
+6. The site is statically exported — no server-side features work until we switch to @opennextjs/cloudflare
+7. Push to main triggers auto-deploy to Cloudflare (~2 min build)
+8. git push from Claude's environment is blocked by proxy — user must push from their terminal

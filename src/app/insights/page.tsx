@@ -65,7 +65,7 @@ const FEATURED_PAIR: Article[] = [
 const TOPIC_GRID: Article[] = [
   {
     slug: "best-international-schools-jakarta",
-    title: "Best International Schools in Jakarta (2025) — The Expat Family Guide",
+    title: "Best International Schools in Jakarta (2025) - The Expat Family Guide",
     summary:
       "Jakarta has 66 international schools serving expat families. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, AIS, and 60+ other options.",
     category: "GUIDE",
@@ -118,7 +118,7 @@ const TOPIC_GRID: Article[] = [
 const LATEST_ARTICLES: Article[] = [
   {
     slug: "best-international-schools-jakarta",
-    title: "Best International Schools in Jakarta (2025) — The Expat Family Guide",
+    title: "Best International Schools in Jakarta (2025) - The Expat Family Guide",
     summary:
       "Jakarta has 66 international schools serving expat families. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, AIS, and 60+ other options.",
     category: "GUIDE",
