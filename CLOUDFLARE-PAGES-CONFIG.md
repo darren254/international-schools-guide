@@ -14,14 +14,13 @@ The project uses **static export** (`output: 'export'` in `next.config.mjs`), wh
 ### Why This Matters
 
 - With static export, Next.js outputs to `out/` directory
-- The build command runs `prebuild` (process-drafts script) then `next build`
+- The build command is `npm run build`
 - All routes must be generated at build time via `generateStaticParams`
 
 ### If You See 404 Errors
 
 1. Check that the route exists in `generateStaticParams`
-2. Verify the draft file exists in `src/content/insights/drafts/`
-3. Check Cloudflare Pages build logs for errors
+2. Check Cloudflare Pages build logs for errors
 4. Ensure the build output directory is set to `out`
 
 ### Future: Server-Side Rendering

@@ -65,12 +65,12 @@ const FEATURED_PAIR: Article[] = [
 const TOPIC_GRID: Article[] = [
   {
     slug: "best-international-schools-jakarta",
-    title: "Best International Schools in Jakarta (2025) - The Expat Family Guide",
+    title: "International Schools in Jakarta — A Practical Guide for Expat Families (2026)",
     summary:
-      "Jakarta has 66 international schools serving expat families. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, AIS, and 60+ other options.",
+      "More than 60 international schools; most families choose between five. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, ISJ, AIS, and 60+ options.",
     category: "GUIDE",
     date: "20 Feb 2026",
-    readTime: "15 min read",
+    readTime: "18 min read",
     imageAlt: "Jakarta international schools guide",
   },
   {
@@ -118,12 +118,12 @@ const TOPIC_GRID: Article[] = [
 const LATEST_ARTICLES: Article[] = [
   {
     slug: "best-international-schools-jakarta",
-    title: "Best International Schools in Jakarta (2025) - The Expat Family Guide",
+    title: "International Schools in Jakarta — A Practical Guide for Expat Families (2026)",
     summary:
-      "Jakarta has 66 international schools serving expat families. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, AIS, and 60+ other options.",
+      "More than 60 international schools; most families choose between five. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, ISJ, AIS, and 60+ options.",
     category: "GUIDE",
     date: "20 Feb 2026",
-    readTime: "15 min read",
+    readTime: "18 min read",
     imageAlt: "Jakarta international schools guide",
   },
   {

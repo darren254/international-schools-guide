@@ -1,23 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { JAKARTA_SCHOOLS } from "@/data/jakarta-schools";
-import { SCHOOL_PROFILES } from "@/data/schools";
-import { getPublishedArticle } from "@/lib/insights/registry";
+import { SortableSchoolsTableSection1, SortableSchoolsTableSection2 } from "@/components/insights/SortableSchoolsTable";
+import {
+  SECTION1_POPULAR_SCHOOLS,
+  SECTION2_ALL_SCHOOLS,
+} from "./jakarta-guide-data";
 
 const BASE_URL = "https://international-schools-guide.com";
 
-// Static params for export — generated from published articles
+const INSIGHT_SLUGS = ["best-international-schools-jakarta"] as const;
+
 export async function generateStaticParams() {
-  const { getPublishedArticles } = await import("@/lib/insights/registry");
-  const articles = await getPublishedArticles();
-  
-  // Always include hardcoded articles
-  const hardcoded = [{ slug: "best-international-schools-jakarta" }];
-  
-  // Add published articles from drafts
-  const published = articles.map((a) => ({ slug: a.slug }));
-  
-  return [...hardcoded, ...published];
+  return INSIGHT_SLUGS.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -28,33 +22,16 @@ export async function generateMetadata({
   const { slug } = await params;
   const canonical = `${BASE_URL}/insights/${slug}`;
   
-  // Hardcoded articles
   if (slug === "best-international-schools-jakarta") {
     return {
-      title: "Best International Schools in Jakarta (2025) - The Expat Family Guide",
+      title: "International Schools in Jakarta — A Practical Guide for Expat Families (2026)",
       description:
-        "Jakarta has 66 international schools serving expat families. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, AIS, and 60+ other options.",
+        "More than 60 international schools in Jakarta; most families choose between five. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, ISJ, AIS, and 60+ options.",
       alternates: { canonical },
       openGraph: {
-        title: "Best International Schools in Jakarta (2025) - The Expat Family Guide",
+        title: "International Schools in Jakarta — A Practical Guide for Expat Families (2026)",
         description:
-          "Jakarta has 66 international schools serving expat families. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, AIS, and 60+ other options.",
-        url: canonical,
-        type: "article",
-      },
-    };
-  }
-  
-  // Published articles from drafts
-  const article = await getPublishedArticle(slug);
-  if (article) {
-    return {
-      title: article.title,
-      description: article.summary,
-      alternates: { canonical },
-      openGraph: {
-        title: article.title,
-        description: article.summary,
+          "More than 60 international schools in Jakarta; most families choose between five. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, ISJ, AIS, and 60+ options.",
         url: canonical,
         type: "article",
       },
@@ -68,41 +45,12 @@ export async function generateMetadata({
 }
 
 // ═══════════════════════════════════════════════════════
-// JAKARTA GUIDE CONTENT
+// JAKARTA GUIDE CONTENT — 2026 Edition
 // ═══════════════════════════════════════════════════════
 
 function JakartaGuide() {
-  // Group schools by category
-  const mostRecommended = JAKARTA_SCHOOLS.filter(
-    (s) => ["jakarta-intercultural-school", "british-school-jakarta", "sinarmas-world-academy", "australian-independent-school-jakarta"].includes(s.slug)
-  );
-  
-  const britishSchools = JAKARTA_SCHOOLS.filter((s) =>
-    s.curricula.some((c) => c.toLowerCase().includes("british") || c.toLowerCase().includes("cambridge") || c.toLowerCase().includes("igcse") || c.toLowerCase().includes("a-level"))
-  ).slice(0, 8);
-  
-  const mostAccessible = JAKARTA_SCHOOLS.filter((s) => {
-    const fees = s.feeRange.match(/\$(\d+\.?\d*)K/);
-    if (!fees) return false;
-    const low = parseFloat(fees[1]);
-    return low >= 5 && low <= 12;
-  }).slice(0, 6);
-  
-  const earlyYears = JAKARTA_SCHOOLS.filter((s) => {
-    const ageStart = parseInt(s.ageRange.split("–")[0]);
-    return ageStart <= 2;
-  }).slice(0, 6);
-  
-  const mostAffordable = JAKARTA_SCHOOLS.filter((s) => {
-    const fees = s.feeRange.match(/\$(\d+\.?\d*)K/);
-    if (!fees) return false;
-    const low = parseFloat(fees[1]);
-    return low < 5;
-  }).slice(0, 5);
-
   return (
     <>
-      {/* ─── Back link ─── */}
       <div className="container-site pt-6">
         <Link
           href="/insights"
@@ -112,372 +60,305 @@ function JakartaGuide() {
         </Link>
       </div>
 
-      {/* ─── Article ─── */}
       <article className="w-full">
-        {/* NYT Style: Narrow Centered Column */}
         <div className="w-full flex justify-center">
           <div className="w-full max-w-[680px] px-5 md:px-8 pt-6 pb-16">
-            {/* Headline */}
-            <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] text-charcoal leading-tight mb-8">
-              Best International Schools in Jakarta (2025) - The Expat Family Guide
+            <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] text-charcoal leading-tight mb-2">
+              International Schools in Jakarta
             </h1>
-
-            {/* Article body */}
-            <div className="article-content">
-              {/* Jakarta for Expat Families */}
-            <section>
-              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 first:mt-0 uppercase tracking-wider">
-                Jakarta for Expat Families
-              </h2>
-              <p>
-                Jakarta is home to 66 international schools, the largest concentration in Southeast Asia outside Singapore. The city has 10.5 million residents, with an expat population estimated at 100,000. Bahasa Indonesia is the official language, but English is widely spoken in business districts and international schools. Most expat families live in South Jakarta — Kemang, Pondok Indah, Cilandak — or in Greater Jakarta developments like BSD City and Bintaro.
-              </p>
-              <p>
-                Jakarta sits in a tropical climate zone. The wet season runs from November to March, bringing daily afternoon storms and occasional flooding. Air quality is poor year-round, with AQI readings often above 150. Traffic congestion is severe. A 10-kilometre drive can take 90 minutes during rush hour. Most expat families choose a school first, then find housing nearby to minimise commute time.
-              </p>
-              <p>
-                Cost of living is moderate compared to Singapore or Hong Kong. A three-bedroom house in Kemang rents for US$2,500 to US$4,500 per month. Groceries cost roughly 30% less than London or Sydney. School fees range from US$2,400 to US$37,000 per year. Corporate relocation packages typically cover JIS or BSJ. Self-funding families often choose mid-tier options like AIS, Mentari, or Global Jaya.
-              </p>
-            </section>
-
-            {/* Where Expat Families Live */}
-            <section>
-              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
-                Where Expat Families Live in Jakarta
-              </h2>
-              <p>
-                <strong>Kemang</strong> is the most popular area for expat families. It sits in South Jakarta, 15 minutes from JIS and 20 minutes from AIS. Rent for a three-bedroom house ranges from US$3,000 to US$5,500 per month. The area has international restaurants, English-speaking GPs, and a strong expat community. Traffic to central Jakarta is heavy, but families rarely need to leave the area for daily needs. The tradeoff: Kemang is expensive and lacks green space.
-              </p>
-              <p>
-                <strong>Pondok Indah</strong> offers larger houses and better value than Kemang. A three-bedroom house rents for US$2,500 to US$4,500 per month. The area is 10 minutes from JIS Pattimura campus and 15 minutes from AIS. Pondok Indah Mall provides shopping and dining. The school run is easier than Kemang, but the area feels less connected to Jakarta's expat scene. Families here tend to socialise through school networks rather than neighbourhood groups.
-              </p>
-              <p>
-                <strong>BSD City</strong> sits in South Tangerang, 30 kilometres south of central Jakarta. Rent is lower (US$1,500 to US$3,000 for a three-bedroom house) and the area has newer infrastructure. BSJ, Sinarmas World Academy, and Binus School Serpong are nearby. The commute to central Jakarta takes 60 to 90 minutes during rush hour. Families who work in BSD or can work remotely find it suits them. Those with central Jakarta offices often find the commute unsustainable.
-              </p>
-              <p>
-                <strong>Cilandak</strong> is close to JIS Cilandak campus and sits in South Jakarta. Rent ranges from US$2,000 to US$4,000 per month. The area is quieter than Kemang and has better air quality. Families here are mostly JIS families who prioritise a short commute. The tradeoff: Cilandak has fewer international amenities and feels isolated from Jakarta's expat hubs.
-              </p>
-              <p>
-                <strong>Bintaro</strong> is home to BSJ and sits in South Tangerang. Rent is US$1,800 to US$3,500 per month. The area has good schools, shopping malls, and a growing expat community. The commute to central Jakarta takes 40 to 60 minutes. Families choose Bintaro for BSJ proximity and lower costs than South Jakarta. The area lacks the density of expat services found in Kemang.
-              </p>
-            </section>
-
-            {/* The Best International Schools */}
-            <section>
-              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
-                The Best International Schools in Jakarta
-              </h2>
-              <p className="mb-6">
-                Jakarta has 66 international schools. The following are the ones expat families most often recommend, grouped by what they offer.
-              </p>
-
-              <h3 className="font-display text-xl md:text-2xl text-charcoal mb-4 mt-8">
-                Most Recommended
-              </h3>
-              
-              {mostRecommended.map((school) => {
-                const hasProfile = school.slug in SCHOOL_PROFILES;
-                return (
-                  <div key={school.slug} className="mb-6">
-                    <p>
-                      {hasProfile ? (
-                        <Link href={`/international-schools/jakarta/${school.slug}/`} className="font-semibold text-hermes hover:underline">
-                          {school.name}
-                        </Link>
-                      ) : (
-                        <strong>{school.name}</strong>
-                      )}{" "}
-                      ({school.area}) offers {school.curricula.join(", ")} for ages {school.ageRange}. Fees range from {school.feeRange} per year. {school.editorialSummary}
-                    </p>
-                  </div>
-                );
-              })}
-
-              <h3 className="font-display text-xl md:text-2xl text-charcoal mb-4 mt-8">
-                Best British Curriculum Schools in Jakarta
-              </h3>
-              
-              {britishSchools.map((school) => {
-                const hasProfile = school.slug in SCHOOL_PROFILES;
-                return (
-                  <div key={school.slug} className="mb-6">
-                    <p>
-                      {hasProfile ? (
-                        <Link href={`/international-schools/jakarta/${school.slug}/`} className="font-semibold text-hermes hover:underline">
-                          {school.name}
-                        </Link>
-                      ) : (
-                        <strong>{school.name}</strong>
-                      )}{" "}
-                      ({school.area}) offers {school.curricula.join(", ")} for ages {school.ageRange}. Fees range from {school.feeRange} per year. {school.editorialSummary}
-                    </p>
-                  </div>
-                );
-              })}
-
-              <h3 className="font-display text-xl md:text-2xl text-charcoal mb-4 mt-8">
-                Most Accessible - Realistic Admissions
-              </h3>
-              
-              {mostAccessible.map((school) => {
-                const hasProfile = school.slug in SCHOOL_PROFILES;
-                return (
-                  <div key={school.slug} className="mb-6">
-                    <p>
-                      {hasProfile ? (
-                        <Link href={`/international-schools/jakarta/${school.slug}/`} className="font-semibold text-hermes hover:underline">
-                          {school.name}
-                        </Link>
-                      ) : (
-                        <strong>{school.name}</strong>
-                      )}{" "}
-                      ({school.area}) offers {school.curricula.join(", ")} for ages {school.ageRange}. Fees range from {school.feeRange} per year. {school.editorialSummary}
-                    </p>
-                  </div>
-                );
-              })}
-
-              <h3 className="font-display text-xl md:text-2xl text-charcoal mb-4 mt-8">
-                Best for Early Years
-              </h3>
-              
-              {earlyYears.map((school) => {
-                const hasProfile = school.slug in SCHOOL_PROFILES;
-                return (
-                  <div key={school.slug} className="mb-6">
-                    <p>
-                      {hasProfile ? (
-                        <Link href={`/international-schools/jakarta/${school.slug}/`} className="font-semibold text-hermes hover:underline">
-                          {school.name}
-                        </Link>
-                      ) : (
-                        <strong>{school.name}</strong>
-                      )}{" "}
-                      ({school.area}) accepts children from age {school.ageRange.split("–")[0]}. Fees range from {school.feeRange} per year. {school.editorialSummary}
-                    </p>
-                  </div>
-                );
-              })}
-
-              <h3 className="font-display text-xl md:text-2xl text-charcoal mb-4 mt-8">
-                Most Affordable
-              </h3>
-              
-              {mostAffordable.map((school) => {
-                const hasProfile = school.slug in SCHOOL_PROFILES;
-                return (
-                  <div key={school.slug} className="mb-6">
-                    <p>
-                      {hasProfile ? (
-                        <Link href={`/international-schools/jakarta/${school.slug}/`} className="font-semibold text-hermes hover:underline">
-                          {school.name}
-                        </Link>
-                      ) : (
-                        <strong>{school.name}</strong>
-                      )}{" "}
-                      ({school.area}) offers {school.curricula.join(", ")} for ages {school.ageRange}. Fees range from {school.feeRange} per year. {school.editorialSummary}
-                    </p>
-                  </div>
-                );
-              })}
-            </section>
-
-            {/* Fees */}
-            <section>
-              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
-                International School Fees in Jakarta
-              </h2>
-              <p>
-                Premium schools charge US$23,000 to US$37,000 per year. JIS tops the range at US$23,000 to US$37,000. BSJ charges US$9,200 to US$30,000. Sinarmas World Academy charges US$9,300 to US$28,000. These fees typically include tuition, technology, and basic activities. Registration fees range from US$500 to US$2,000. Building or development fees add US$2,000 to US$5,000 as a one-time payment. Sibling discounts are rare. Most schools charge full fees for each child.
-              </p>
-              <p>
-                Mid-range schools charge US$5,000 to US$15,000 per year. AIS charges US$9,300 to US$27,000. Mentari Intercultural School charges US$5,600 to US$14,000. Global Jaya School charges US$4,900 to US$13,000. Fees include tuition and basic facilities. Registration fees are US$300 to US$1,000. Some schools waive building fees for early payment or offer payment plans.
-              </p>
-              <p>
-                Accessible schools charge US$2,400 to US$8,000 per year. SIS Kelapa Gading charges US$2,400 to US$10,000. Sampoerna Academy charges US$1,600 to US$11,000 and does not charge building fees. Gandhi Memorial International School charges US$3,000 to US$8,600. Fees are lower, but facilities and teacher qualifications may be more limited. Always visit before enrolling.
-              </p>
-            </section>
-
-            {/* Waiting Lists */}
-            <section>
-              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
-                Waiting Lists and Admissions Reality
-              </h2>
-              <p>
-                JIS uses a three-lane application system. Lanes 1 and 2 have no deadlines. Apply anytime. Lane 3 has a fixed deadline of March 1st for August enrollment. If a grade level is full, applications are held until space opens. JIS prioritises children of US, UK, and Australian embassy employees, then siblings of current students, then alumni children.
-              </p>
-              <p>
-                ISJ recommends applying early to secure preferred start dates. Entry to Pre-Nursery, Nursery, and Reception is non-selective. Year 1 and above require entrance assessments. Applications can be submitted up to two years in advance. If no immediate space is available, children are placed on a waiting list.
-              </p>
-              <p>
-                [RESEARCH NEEDED: Specific wait times by year group from Jakarta Expats Facebook group and Reddit threads as of early 2025. Need verified reports of actual wait durations, not just school policy statements.]
-              </p>
-            </section>
-
-            {/* Life Outside School */}
-            <section>
-              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
-                Life Outside School: Hospitals, Activities and Where Families Go
-              </h2>
-              <p>
-                Premier Jatinegara Hospital is the most recommended for expat families. It has international accreditation and International Patient Relations officers who handle communication with foreign patients. The hospital offers cardiology, neurosurgery, digestive care, and pediatrics. Rumah Sakit Pondok Indah Group operates multiple locations (Pondok Indah, Puri Indah, Bintaro) with English-speaking staff and family-friendly care. Siloam Hospitals has branches in Kebon Jeruk, Mampang, Semanggi, and South Jakarta, offering 24-hour emergency service, maternity wards, pediatrics, ICU, and NICU. Most expat families register with a GP clinic before emergencies arise. International Wellbeing Center provides counseling and therapy in English, French, Indonesian, and Korean.
-              </p>
-              <p>
-                Swimming lessons and water activities are available at The Wave Water Park in Pondok Indah, plus water parks in Lippo Cikarang and Pantai Indah Kapuk. Indoor activities include SuperPark Indonesia in Pondok Indah, a Finnish activity park with trampolines, climbing walls, and obstacle courses. KidZania Jakarta at Pacific Place offers 100-plus job simulations in an immersive mini-city. Houbii Spot in Pondok Indah has ropes courses and trampolines. Pororo Park and Kidzooona suit younger children with soft play areas. Sky Rink at Mall Taman Anggrek offers ice skating lessons and hockey teams. JIS Academy runs after-school programs in badminton, baseball, basketball, and soccer. Jakarta Cricket Association runs the JCA Colts League for children's inter-school competitions. Ragunan Zoo in Pasar Minggu is best visited early morning to see the Schmutzer Primate Center.
-              </p>
-              <p>
-                Kemang is the main expat social hub. Restaurants cluster along Jalan Kemang Raya, making it easy to socialise without driving between venues. Amigos serves Tex-Mex and is famous for margaritas. El Asador offers South American cuisine with 50-plus wine options. Warung Turki serves authentic Turkish food with live music. Mamma Rosy serves casual Italian in a traditional Balinese house. Eastern Promise is a long-established Irish pub with sports bar, pool tables, beer garden, and live music. It is described as the favorite hangout for the expat community. Pondok Indah Mall provides shopping and dining for families in that area. Kemang traffic is heavy, especially Friday evenings from 5pm to 8pm and during rainstorms.
-              </p>
-              <p>
-                InterNations Jakarta has 29,489 members and offers 17 interest-based groups plus monthly events. International Schools Parents' Association operates a Facebook group for international school parents. AIS has an active Parents & Friends Association that organises Family Fun Days and Quiz Nights, plus language-specific parent groups for European, Japanese, Korean, and Malaysian families. Most international schools offer bus services, but coverage varies by area. JIS bus service availability depends on residence location. BSJ offers bus services but adds cost. Factor bus routes into your housing decision if you plan to use school transport.
-              </p>
-            </section>
-
-            {/* Cost of Living */}
-            <section>
-              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
-                Cost of Living in Jakarta for Expat Families
-              </h2>
-              <p>
-                A three-bedroom house in Kemang or Pondok Indah rents for US$2,500 to US$5,500 per month. In BSD or Bintaro, the same house costs US$1,500 to US$3,500. Groceries cost roughly 30% less than London or Sydney. A weekly shop for a family of four costs US$150 to US$200 at supermarkets like Ranch Market or Kem Chicks. Eating out is affordable. A meal at a mid-range restaurant costs US$15 to US$30 per person. Domestic help costs US$200 to US$400 per month for a live-in helper. A driver costs US$300 to US$500 per month. School fees are the largest expense. Expect to spend US$10,000 to US$30,000 per child per year. A typical expat package covers housing, school fees for two children, and a car allowance. Self-funding families should budget US$4,000 to US$6,000 per month excluding school fees.
-              </p>
-            </section>
-
-            {/* FAQ */}
-            <section>
-              <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
-                Frequently Asked Questions
-              </h2>
-              
-              <h3 className="font-display text-lg md:text-xl text-charcoal mb-3 mt-6">
-                What is the best international school in Jakarta?
-              </h3>
-              <p>
-                JIS is the largest and most established, with strong IB results and extensive facilities. BSJ offers British curriculum with IB Diploma options. Sinarmas World Academy has the highest IB average scores. The best school depends on your child's needs, your budget, and your location. Visit multiple schools before deciding.
-              </p>
-
-              <h3 className="font-display text-lg md:text-xl text-charcoal mb-3 mt-6">
-                How much do international schools cost in Jakarta?
-              </h3>
-              <p>
-                Fees range from US$2,400 to US$37,000 per year. Premium schools like JIS charge US$23,000 to US$37,000. Mid-range schools charge US$5,000 to US$15,000. Affordable options start at US$2,400. Registration fees add US$300 to US$2,000. Building fees add US$2,000 to US$5,000 as a one-time payment.
-              </p>
-
-              <h3 className="font-display text-lg md:text-xl text-charcoal mb-3 mt-6">
-                Which curriculum is better: IB or British?
-              </h3>
-              <p>
-                British curriculum travels better for mobile families. GCSEs and A-Levels are understood by universities worldwide and transfer easily between schools. IB offers a broader, inquiry-based approach but can be harder to transfer mid-programme. Most Jakarta schools offer IB. British curriculum options include BSJ, ISJ, and several Cambridge schools.
-              </p>
-
-              <h3 className="font-display text-lg md:text-xl text-charcoal mb-3 mt-6">
-                Where do expat families live in Jakarta?
-              </h3>
-              <p>
-                Most expat families live in South Jakarta (Kemang, Pondok Indah, Cilandak) or in Greater Jakarta developments like BSD City and Bintaro. Kemang is the most popular but expensive. BSD offers better value but a longer commute. Choose a school first, then find housing nearby to minimise commute time.
-              </p>
-
-              <h3 className="font-display text-lg md:text-xl text-charcoal mb-3 mt-6">
-                Do Jakarta schools have waiting lists?
-              </h3>
-              <p>
-                JIS and ISJ both maintain waiting lists when grade levels are full. JIS prioritises embassy employees, siblings, and alumni children. ISJ allows applications up to two years in advance. Apply early to secure preferred start dates. [RESEARCH NEEDED: Specific wait times by year group from Jakarta Expats Facebook group and Reddit as of early 2025.]
-              </p>
-
-              <h3 className="font-display text-lg md:text-xl text-charcoal mb-3 mt-6">
-                What is the traffic like for school commutes?
-              </h3>
-              <p>
-                Traffic congestion is severe. A 10-kilometre drive can take 90 minutes during rush hour. Most expat families choose a school first, then find housing within 15 minutes to avoid long commutes. School bus services exist but add cost and time. Factor traffic into your school choice.
-              </p>
-            </section>
-            </div>
-          </div>
-        </div>
-      </article>
-    </>
-  );
-}
-
-function PublishedArticleView({ article }: { article: PublishedArticle }) {
-  return (
-    <>
-      <div className="container-site pt-6">
-        <Link
-          href="/insights"
-          className="text-sm text-charcoal-muted hover:text-hermes transition-colors inline-flex items-center gap-1"
-        >
-          <span>←</span> Back to Insights
-        </Link>
-      </div>
-      <article className="w-full">
-        {/* NYT Style: Narrow Centered Column */}
-        <div className="w-full flex justify-center">
-          <div className="w-full max-w-[680px] px-5 md:px-8">
-            <span className="text-xs font-semibold uppercase tracking-widest text-amber-700 mb-3 block font-sans">
-              {article.category}
-            </span>
-            <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] text-charcoal leading-tight mb-4">
-              {article.title}
-            </h1>
-            <p className="text-lg text-charcoal-muted leading-relaxed mb-6" style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}>
-              {article.summary}
+            <p className="font-display text-xl text-charcoal-muted mb-6">
+              A Practical Guide for Expat Families — 2026 Edition
             </p>
-            <div className="flex items-center gap-3 text-sm text-charcoal-muted border-b border-warm-border pb-6 mb-8 font-sans">
-              {article.author && (
-                <>
-                  <span className="font-medium text-charcoal">{article.author}</span>
-                  <span>·</span>
-                </>
-              )}
-              <time>{article.date}</time>
-              <span>·</span>
-              <span>{article.readTime}</span>
+            <p className="text-sm text-charcoal-muted font-sans mb-10">
+              Published by international-schools-guide.com
+            </p>
+
+            <div className="article-content">
+              {/* Intro */}
+              <p>
+                More than 60 international schools, and most families end up choosing between five. That's the first thing worth saying about Jakarta's school market. The complexity dissolves pretty quickly once you understand that geography eliminates most of your options before curriculum even enters the conversation. As is the case in most places nowadays the international label doesn't necessarily mean an internationally diverse student body. Not a problem in itself but worth knowing before you drive 45 minutes or more for a campus tour. Fees are a surprise to some. Although not as high as regional hubs such as Singapore or Hong Kong, some parents still sometimes flinch. Annual tuition can run past US$35,000 a year. Before various other fees are added.
+              </p>
+              <p>
+                Three things usually determine which school you end up at. Jakarta's traffic is uniquely punishing, worse consistently than Bangkok, KL, or Singapore. A school 10 kilometres away can mean a 90-minute school run at 7.30am. The rule veterans live by: nothing over 20 to 30 minutes each way. Of course you choose the school before you choose the house. Second is school vibe and curriculum. Among the most common choices are JIS which is the most American, ISJ and BSJ both British, and the Australian school. Another is size. Jakarta has 2,500 student mega-campuses and 300 to 500 student schools where the head knows every child's name.
+              </p>
+
+              {/* Section 1: Schools Popular with Expats — interactive table */}
+              <section>
+                <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 first:mt-0 uppercase tracking-wider">
+                  Section 1: Schools Popular with Expats
+                </h2>
+                <SortableSchoolsTableSection1 rows={SECTION1_POPULAR_SCHOOLS} />
+              </section>
+
+              {/* School profiles: JIS, BSJ, ISJ, AIS, NAS, NZSJ */}
+              <section>
+                <h2 id="jis" className="font-display text-2xl text-charcoal mt-12 mb-4">
+                  Jakarta Intercultural School (JIS)
+                </h2>
+                <p>
+                  Founded in 1951, now around 2,500 students across three South Jakarta campuses, 60-plus nationalities, an IB average of 35.8 with a 97.5 per cent pass rate. Facilities that wouldn't embarrass a small American university. Multiple pools, theatres, a purpose-built special education centre. For families on a full corporate package.
+                </p>
+                <p>
+                  Two caveats deserve attention. For many, JIS is at its core, an American-culture school. The campus atmosphere reflects that: loud, confident, sports-obsessed in the American sense, with homecoming, prom, and a social hierarchy that will feel immediately familiar to some. For quiet children the cultural adjustment is worth factoring in. The second issue is the campus geography itself. Three separate sites may mean an awkward commute for some families with children across different sites. Alumni reach Stanford, Cornell, Berkeley with some regularity.
+                </p>
+                <p className="text-sm text-charcoal-muted font-sans mt-4">
+                  Curriculum: American (JIS Diploma) / IB Diploma / AP Ages: 3–18 (Pre-K to Grade 12) Annual fees: US$23,000 – US$37,000 + annual capital levy approx. US$4,100 Location: Cilandak / Pondok Indah / Pattimura, South Jakarta
+                </p>
+              </section>
+
+              <section>
+                <h2 id="bsj" className="font-display text-2xl text-charcoal mt-12 mb-4">
+                  British School Jakarta (BSJ)
+                </h2>
+                <p>
+                  BSJ sits on an 18-hectare campus in Bintaro. A hybrid British-to-IB dual pathway, CIS-accredited, and COBIS-affiliated. Sport and performing arts taken seriously alongside academics. A community warmth that doesn't always exist at larger schools.
+                </p>
+                <p>
+                  Bintaro, though. That's the conversation that follows. Located in South Tangerang, about 18 kilometres from the Kemang and Pondok Indah expat heartlands. Those 18 kilometres translate to 60 to 90 minutes each way in Jakarta traffic. Many families who love BSJ endure the commute. Some burn out and switch schools after a year. BSJ has seen leadership turbulence in recent years, with a newer senior team than the school's established reputation might suggest. Worth asking about directly. And on wellbeing culture: BSJ markets it prominently, but some teacher voices suggest the reality is more variable than the branding implies.
+                </p>
+                <p className="text-sm text-charcoal-muted font-sans mt-4">
+                  Curriculum: British (EYFS / National Curriculum) / IB Diploma Ages: 2–18 Annual fees: US$9,200 – US$30,000 + enrollment deposit IDR 30M Location: Bintaro Sektor 9, South Tangerang (NOT central Jakarta)
+                </p>
+              </section>
+
+              <section>
+                <h2 id="isj" className="font-display text-2xl text-charcoal mt-12 mb-4">
+                  The Independent School of Jakarta (ISJ)
+                </h2>
+                <p>
+                  The most recent addition to Jakarta's premium school set. Around 200 students and growing. Very much a British independent school ethos and faculty. Parents have raved about the teachers. Part of The Schools Trust (UK), 100% British-qualified teacher body, fees that include materials and capital contribution in a single all-in figure.
+                </p>
+                <p>
+                  ISJ is still growing, and with that comes the smaller school experience. The tight-knit community, the teachers who know every child, the sense that nothing falls through the cracks. On the other hand, there is a more limited range of sports, activities, and social breadth that a larger campus naturally provides. For many families that trade off is worth it, particularly for younger children. And the trajectory is clearly upward: a second campus next door is planned, extending all the way through to A-Levels, backed by The Schools Trust's long track record of placing students at leading universities across the UK, the US and Australia.
+                </p>
+                <p className="text-sm text-charcoal-muted font-sans mt-4">
+                  Curriculum: British (EYFS / English National Curriculum) Ages: 2–13 (Pre-Nursery to Year 8) Annual fees: US$9,200 – US$30,000 (all-in, including materials and capital contribution) Location: Pondok Indah, South Jakarta
+                </p>
+              </section>
+
+              <section>
+                <h2 id="ais" className="font-display text-2xl text-charcoal mt-12 mb-4">
+                  Australian Independent School Jakarta (AIS)
+                </h2>
+                <p>
+                  Three conversations bring AIS up reliably: when parents have children with additional learning needs, when families are certain they're heading back to Australia, and when someone asks which school in Jakarta has the warmest, least pretentious culture. The Australian curriculum through Year 10 transitions into IB Diploma for senior years. CIS-accredited since 2015. Class sizes averaging 18 to 22.
+                </p>
+                <p>
+                  Lots of people like the demographic mix at AIS. Less self consciously international than some schools, with a genuine spread of Indonesian, and other families. Most schools in Jakarta have moved this way, but AIS wears it more naturally than most. Facilities are solid without being resort-level, and the school culture is most often described as 'friendly, low-key.' Not a euphemism for mediocre. An honest description of the atmosphere. And for inclusion and SEN support specifically, it's arguably the leading choice in the city. Ask about resource teachers, educational psychologist access, and IEP processes, and you'll get clear answers.
+                </p>
+                <p className="text-sm text-charcoal-muted font-sans mt-4">
+                  Curriculum: Australian Curriculum (ACARA) / IB Diploma Ages: 3–18 Annual fees: US$9,300 – US$27,000 Location: Pejaten, South Jakarta (near Kemang)
+                </p>
+              </section>
+
+              <section>
+                <h2 id="nas" className="font-display text-2xl text-charcoal mt-12 mb-4">
+                  Nord Anglia School Jakarta (NAS)
+                </h2>
+                <p>
+                  Leafy and well worn campus below Kemang. Perhaps around 200 or so students. Compact enough that you'll know people quickly. The Nord Anglia global network brings things that sound like marketing. Some of it delivers. A school with real charm, and the community forms easily at this size.
+                </p>
+                <p>
+                  NAS is part of the Nord Anglia Education corporate group, and since March 2025 ultimately owned by a consortium led by Swedish private equity firm EQT, which completed a US$14.5 billion acquisition of the entire network. Decisions are made with group-level business logic in mind, and the teaching community fairly consistently describes that reality as 'corporate.' Not a dealbreaker for most families, but worth understanding clearly when you're weighing a school that markets itself primarily on warmth and community.
+                </p>
+                <p>
+                  The more immediately relevant point: NAS is launching secondary provision for the first time, with a Year 7 cohort expected in 2026–27. Exciting for families who love the school and don't want to leave at Year 6. Worth tracking closely if continuity matters to your planning.
+                </p>
+                <p className="text-sm text-charcoal-muted font-sans mt-4">
+                  Curriculum: British (EYFS / National Curriculum) / IPC Ages: 18 months–12 (secondary from 2026–27) Annual fees: US$7,200 – US$22,000 Location: Cilandak, South Jakarta
+                </p>
+              </section>
+
+              <section>
+                <h2 id="nzsj" className="font-display text-2xl text-charcoal mt-12 mb-4">
+                  New Zealand School Jakarta (NZSJ)
+                </h2>
+                <p>
+                  While trite the phrase "hidden gem" feels apt. Around 200 or so students in Kemang. A strong pastoral focus using the Te Whariki early childhood framework. Genuine commitment to wellbeing over grade pressure. Fees at the lower end for a full K-12 offering in Jakarta. The families who end up here tend not to be looking for Ivy League positioning, and they tend to be quite content with that.
+                </p>
+                <p>
+                  The NZ curriculum is arguably less portable than others. This may matter if you're likely to move again soon. Worth thinking through before you fall in love with the school. That said, if community, a sane school run, and an environment that doesn't make children anxious about academic performance are the criteria, NZSJ deserves a proper visit, not just a browse of the website.
+                </p>
+                <p className="text-sm text-charcoal-muted font-sans mt-4">
+                  Curriculum: New Zealand Curriculum / Te Whariki / British Curriculum Ages: 1–18 Annual fees: US$6,900 – US$22,000 Location: Kemang, South Jakarta
+                </p>
+              </section>
+
+              {/* Section 2: Compare All 66 — interactive table */}
+              <section>
+                <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
+                  Section 2: Compare All 66 International Schools in Jakarta
+                </h2>
+                <SortableSchoolsTableSection2 rows={SECTION2_ALL_SCHOOLS} />
+                <p className="text-sm text-charcoal-muted font-sans mt-4">
+                  Fees are approximate annual tuition only. Excludes registration, transport, uniforms, and activity costs. May include errors. Verify directly with each school. Exchange rate used: US$1 = IDR 16,000
+                </p>
+              </section>
+
+              {/* Section 3: Popular Expat Neighbourhoods */}
+              <section>
+                <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
+                  Section 3: Popular Expat Neighbourhoods
+                </h2>
+
+                <h3 className="font-display text-lg text-charcoal mt-8 mb-3">Pondok Indah / Cilandak</h3>
+                <p>
+                  Suburbia. Gated compounds, better air quality than most of Jakarta, large houses with gardens, JIS and ISJ nearby. For corporate expats on full packages, Pondok Indah is where many searches begin and end. Rental for a decent three-bed house runs from around US$3,000 to US$5,000 a month. It's safe, and walkable. You'll never be far from another family navigating the same situation.
+                </p>
+                <p>
+                  The area has good infrastructure by Jakarta standards. Reliable roads, established supermarkets, decent air quality relative to the north and west of the city, and a concentration of medical clinics and international hospitals within reasonable reach. Restaurant and café options have grown significantly in recent years, and the Saturday market at Kemang is only 15 minutes away on a quiet morning. For families arriving mid-year with children to settle quickly, the density of other recently arrived families in the same situation is genuinely useful.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-8 mb-3">Kemang</h3>
+                <p>
+                  Kemang is a well established, mixed residential and commercial neighbourhood in South Jakarta. Lively and vibrant, sometimes slightly on the rough side. A good density of restaurants and cafés. NAS, AIS, and NZSJ all within reasonable reach. Rents run slightly lower than Pondok Indah at around US$2,000 to US$4,000 for a three-bed property.
+                </p>
+                <p>
+                  Worth researching carefully before you commit to a specific property… Kemang floods. Not occasionally — the area has genuine, recurring flooding risk during rainy season, and ground-floor properties and basements bear the brunt of it. Check the flood history of any specific address before signing a lease. It's not a reason to avoid the area, but it's the kind of thing that's much better to know in advance than in January.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-8 mb-3">Bintaro / BSD City</h3>
+                <p>
+                  Bintaro and BSD are planned suburban areas in Greater Jakarta. Newer builds, bigger gardens, significantly cheaper than central South Jakarta. If BSJ is your school, living in Bintaro makes obvious sense. The housing is genuinely good value for the money.
+                </p>
+                <p>
+                  Both areas sit a long way from central Jakarta, though. The social infrastructure of Pondok Indah and Kemang requires a commitment to get to. If one or both parents are working in the SCBD financial district, add that commute on top of everything else. Bintaro to SCBD in morning traffic is a serious daily undertaking. And perhaps surprisingly given how far out they sit, air quality in Bintaro and BSD is actually worse than parts of South Jakarta closer to the city. The industrial and transport corridor effects outweigh the distance from the urban core. Plenty of families weigh all of that and still choose Bintaro happily. But go in with eyes open about what the geography means for the whole household, not just the school run.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-8 mb-3">Menteng (Central Jakarta)</h3>
+                <p>
+                  The embassy district. Colonial architecture, tree-lined streets, a prestigious address by Jakarta standards. Popular with diplomatic families and senior executives. Rents are high and commute times to South Jakarta schools can be significant. Works well for families whose work keeps them in central Jakarta and who aren't tethered to a specific school zone. Gandhi Memorial International School, one of the city's oldest and most affordable international schools, is nearby.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-8 mb-3">Kelapa Gading (North Jakarta)</h3>
+                <p>
+                  Kelapa Gading is a growing commercial and residential area in North Jakarta. Built around one of the city's most significant Chinese-Indonesian communities and increasingly home to a growing number of mainland Chinese expats as well. That shapes the neighbourhood distinctly: the food is excellent, the commercial infrastructure is efficient, and the community has a character you won't find in other parts of the city. Rents are noticeably lower than the south. Schools serving the area include North Jakarta Intercultural School, SIS Kelapa Gading, and Beacon Academy nearby in BSD.
+                </p>
+                <p>
+                  Worth being clear about the fit: if your working or social life is anchored in South Jakarta or SCBD, the daily cross-city travel will wear. For families whose schools, work, and lives align with the north, particularly those with Mandarin language in the household, it can be a genuinely good fit that most expat guides don't give enough credit to.
+                </p>
+              </section>
+
+              {/* Section 4: FAQ */}
+              <section>
+                <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
+                  Section 4: Frequently Asked Questions
+                </h2>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">How much does international school cost in Jakarta?</h3>
+                <p>
+                  The range is genuinely vast — from around US$4,500 per year at budget schools up to US$37,000 or more at JIS. Most schools that corporate-package expat families use sit in the US$9,000 to US$30,000 band. What catches nearly everyone off guard is the capital levy — an additional annual charge, typically IDR 54 to 65 million (around US$3,400 to US$4,100) at top schools, on top of tuition, and not a one-off. Budget for it every year. Factor in registration fees, uniforms, school trips, and transport if you're not driving. The total cost of a JIS education can easily exceed US$40,000 per child per year.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">British vs IB vs American — which is right for us?</h3>
+                <p>
+                  Think backwards from your next destination, not forwards from here. British curriculum (IGCSEs then A-Levels) is the most portable across Commonwealth countries and widely recognised internationally. IB is globally transferable and works well for families who genuinely don't know where they're heading next — but check whether the school offers both MYP and DP rather than just one. American pathway makes sense if you're returning to the US. Australian curriculum at AIS is the obvious choice for Australian families. If you're undecided, IB is the lowest-risk option for international mobility.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">School first or house first?</h3>
+                <p>
+                  School first. Always. Find your shortlist, secure a place, then house-hunt within 20 to 25 minutes of the campus. The families who do it the other way — find a house they love in Kemang, discover their preferred school is in Bintaro — regret it with a consistency that's striking. Jakarta's traffic is unforgiving. This is the single most consistent piece of advice from experienced expats here, and it's worth taking more seriously than it sounds.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">How bad is the commute really?</h3>
+                <p>
+                  Worse than you think, and then worse still in Term 2 when the novelty has worn off. Jakarta traffic ranks among the worst in Asia — consistently worse than Bangkok, KL, or Singapore in community comparisons. A school 10km away can mean 60 to 90 minutes in the morning. The '20-minute rule' is almost a mantra: more than 20 to 25 minutes each way will eventually grind you down. Families with toddlers feel it most acutely. Take the rule seriously before you dismiss it.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">Can my child start mid-year?</h3>
+                <p>
+                  Yes, but it's harder at the top schools. JIS and BSJ operate waitlists, especially for popular year groups, and mid-year arrival is a known pain point — apply before you arrive if at all possible. AIS, ISJ, NAS, and mid-tier schools tend to be considerably more flexible. Arriving in Jakarta without a school place and ending up at your second or third choice initially, then transferring later, is common enough that it shouldn't feel like failure.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">How far ahead should we plan?</h3>
+                <p>
+                  For JIS and BSJ, six to twelve months in advance ideally, especially for primary years. Other schools can often accommodate two to three months' notice, though popular year groups fill. The moment your Jakarta posting is confirmed, start the process — even registering tentative interest costs nothing and buys you time.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">We're only here for one or two years — does that change anything?</h3>
+                <p>
+                  It changes curriculum choice significantly. IB is the most transferable globally. British curriculum works fine if you're heading to another British-aligned school next. For a short posting, avoid schools where settling in will consume most of your time — smaller schools with stronger pastoral support (ISJ, AIS, NAS, NZSJ) tend to make that adjustment easier than giant campuses where a new child can genuinely get lost in the crowd.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">My child has additional learning needs — which schools can help?</h3>
+                <p>
+                  AIS is consistently the strongest recommendation for SEN and inclusion support. JIS has the JIS Learning Center — a dedicated SEN programme, though it comes at premium fees. ISJ's small class sizes (capped at 16) and high teacher-to-student ratio mean more individual attention as a structural reality, not a marketing claim. NZSJ's wellbeing focus also makes it worth visiting. Ask specific questions about resource teachers, educational psychologist access, and IEP processes at any school you're seriously considering.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">How do I know if teachers are properly qualified?</h3>
+                <p>
+                  At CIS-accredited schools (JIS, BSJ, AIS, SPH), teacher qualification standards are externally audited. ISJ sources teachers through The Schools Trust (UK) and specifically markets its 100% British-qualified teacher body. For non-accredited schools, ask directly: what percentage of teachers are qualified in their subject, and what qualification standard — UK QTS, Australian TRB, or equivalent? Be appropriately sceptical of any school that can't answer that question with specifics.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">Are the expensive schools actually better?</h3>
+                <p>
+                  Not automatically, and the data makes this reasonably clear. JIS's IB average of 35.8 is excellent. Sinarmas's 38.2 is better — and SWA isn't the most expensive school. Binus Simprug posts an IB average of 34 at roughly a third of JIS fees. What premium fees buy is brand recognition, facilities, and the social network that comes from other corporate-package families in the same situation as you. Whether those things matter depends on your family, not on any objective quality measure.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">What does admissions look like?</h3>
+                <p>
+                  Online application form, application fee (IDR 4 to 7 million depending on school), document submission (passports, previous school reports, immunisation records), assessment (reading and maths, typically informal at primary level and more formal at secondary), and a family interview. Then an offer letter, followed by an enrollment deposit to secure the place — IDR 30 million at BSJ. Top schools may add an enrollment guarantee fee on top. Budget around IDR 5 to 10 million in one-time costs beyond the deposit itself.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">Will my child's education transfer when we move again?</h3>
+                <p>
+                  IB transfers cleanly to almost anywhere in the world. British curriculum (IGCSE/A-Level) transfers well to Commonwealth countries and is recognised in the US and Europe. Australian curriculum transfers cleanly within Australia. American pathway works best for US-bound students. If you have genuinely no idea where you're heading next, lean towards IB or British curriculum at CIS-accredited schools — that accreditation is the most widely recognised external quality mark internationally.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">Is Jakarta safe for school-age children?</h3>
+                <p>
+                  In practical terms: yes. Street crime targeting expat children at school isn't a significant concern. Traffic is the primary physical risk — and a real one. Most schools have secure campuses and vetted transport. Air pollution is consistently underplayed in school guides, though: Jakarta has genuinely poor air quality on many days, and it's worth asking any school what their AQI threshold is for cancelling outdoor sports and whether classrooms have air filtration. Matters more for children with respiratory conditions, but worth knowing regardless.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">My child doesn't speak much English yet — what are the options?</h3>
+                <p>
+                  Most top international schools offer EAL (English as an Additional Language) support, though quality varies. JIS charges a significant additional fee for EAL (IDR 71 million). BSJ, AIS, and ISJ include some EAL support within their programmes. For primarily Mandarin-speaking children, Sinarmas World Academy's trilingual (English/Bahasa/Mandarin) environment is worth considering specifically. For Korean families, the Jakarta Indonesia Korean School (JIKS) serves the Korean-language community.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">I've heard the JIS incident mentioned online — should I be concerned?</h3>
+                <p>
+                  This refers to a 2014 safeguarding case involving staff that resulted in criminal convictions. JIS's response at the time was broadly considered appropriate, and the school has undergone significant leadership and policy changes since. It continues to surface in online expat discussions eleven years on. Raise it directly with the admissions team and ask about current safeguarding protocols. Form your own view with current information rather than headlines from 2014.
+                </p>
+
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">Are the 'international' schools actually international in their student body?</h3>
+                <p>
+                  Not always — and this catches newly arriving families off guard more than almost anything else. Several well-regarded schools have student bodies that are predominantly local Indonesian, Korean, or Chinese-Indonesian rather than globally diverse. Not inherently a problem. But if your child's prior school had 40 nationalities in one classroom, the adjustment can be noticeable. Ask each school directly about nationality breakdown before you visit; most will give you an honest answer.
+                </p>
+              </section>
+
+              {/* Final note */}
+              <section className="mt-12">
+                <h2 className="font-display text-xl text-charcoal mb-4">A Final Note</h2>
+                <p>
+                  No guide replaces a campus visit. Read the profiles, study the fee schedules, ask the hard questions — and then go and sit in the school for an hour. Talk to the head of admissions, walk the corridors, watch how staff interact with children. The school that reads well on paper sometimes doesn't feel right in person; occasionally the reverse is true. Jakarta has genuinely good schools across a wide range of sizes, curricula, and fee levels. The right one for your family exists. Find it.
+                </p>
+              </section>
+
+              {/* Footer */}
+              <footer className="mt-12 pt-8 border-t border-warm-border text-sm text-charcoal-muted font-sans">
+                <p>
+                  This guide is published by International Schools Guide (international-schools-guide.com) with a commitment to factual accuracy and editorial independence. We don't accept payment for school rankings or placements. Fee data and school details are verified at time of publication but change frequently - always confirm directly with each school before making decisions. If you find an error or a significant change, we'd genuinely like to know.
+                </p>
+                <p className="mt-4">
+                  Contact us through the website.
+                </p>
+                <p className="mt-4">
+                  Exchange rate used throughout: US$1 = IDR 16,000 (February 2026 estimate). | © 2026 International Schools Guide. All rights reserved.
+                </p>
+              </footer>
             </div>
-            <div 
-              className="article-content"
-              dangerouslySetInnerHTML={{ __html: article.content }}
-              style={{
-                fontFamily: "'Cormorant Garamond', Georgia, serif",
-                fontSize: '18px',
-                lineHeight: '1.8',
-                color: '#1A1A1A',
-              }}
-            />
           </div>
         </div>
       </article>
     </>
   );
-}
-
-interface PublishedArticle {
-  slug: string;
-  title: string;
-  summary: string;
-  category: string;
-  content: string;
-  images?: string[];
-  author?: string;
-  publishedAt: string;
-  date: string;
-  readTime: string;
 }
 
 export default async function InsightPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   
-  // Hardcoded articles
   if (slug === "best-international-schools-jakarta") {
     return <JakartaGuide />;
-  }
-  
-  // Check published articles from drafts
-  const { getPublishedArticle } = await import("@/lib/insights/registry");
-  const publishedArticle = await getPublishedArticle(slug);
-  
-  if (publishedArticle) {
-    return <PublishedArticleView article={publishedArticle} />;
   }
   
   return (

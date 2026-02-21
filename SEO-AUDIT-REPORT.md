@@ -134,3 +134,4 @@ Set `NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX` in `.env.local` (and in Cloudflare build en
 2. Add **/contact**, **/for-schools**, **/privacy**, **/terms** (or replace links with mailto/#).
 3. Add **app/insights/[slug]/page.tsx** and list insight articles in sitemap when you have content.
 4. When moving to server rendering, consider dynamic sitemap/robots if URLs become dynamic.
+git push origin main
