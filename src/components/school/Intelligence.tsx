@@ -1,10 +1,14 @@
 import { SectionHeader } from "@/components/ui/SectionHeader";
 
+type ConsiderationItem =
+  | string
+  | { text: string; link: { url: string; label: string } };
+
 interface IntelligenceProps {
   verdict?: string;
   paragraphs: string[];
   positives: string[];
-  considerations: string[];
+  considerations: ConsiderationItem[];
 }
 
 export function Intelligence({
@@ -79,7 +83,27 @@ export function Intelligence({
                 key={i}
                 className="py-2.5 border-b border-warm-border-light last:border-b-0 text-[0.8125rem] text-charcoal-light leading-relaxed"
               >
-                {item}
+                {typeof item === "string" ? (
+                  item
+                ) : (
+                  <>
+                    {item.text.split(item.link.label).map((part, j, parts) => (
+                      <span key={j}>
+                        {part}
+                        {j < parts.length - 1 ? (
+                          <a
+                            href={item.link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-hermes hover:underline"
+                          >
+                            {item.link.label}
+                          </a>
+                        ) : null}
+                      </span>
+                    ))}
+                  </>
+                )}
               </li>
             ))}
           </ul>

@@ -70,7 +70,8 @@ export interface SchoolProfile {
     verdict: string;
     paragraphs: string[];
     positives: string[];
-    considerations: string[];
+    /** Plain string or { text, link } for one consideration that includes a linked phrase (e.g. "GL Assessment"). */
+    considerations: (string | { text: string; link: { url: string; label: string } })[];
   };
 
   // ── Fees ──
@@ -147,7 +148,7 @@ const jis: SchoolProfile = {
   citySlug: "jakarta",
   name: "Jakarta Intercultural School",
   shortName: "JIS",
-  verified: true,
+  verified: false,
 
   metaTitle: "Jakarta Intercultural School (JIS) — Fees, IB Results & Review",
   metaDescription:
@@ -340,7 +341,7 @@ const bsj: SchoolProfile = {
   citySlug: "jakarta",
   name: "British School Jakarta",
   shortName: "BSJ",
-  verified: true,
+  verified: false,
 
   metaTitle: "British School Jakarta (BSJ) — Fees, A-Level Results & Review",
   metaDescription:
@@ -681,17 +682,17 @@ const isj: SchoolProfile = {
   citySlug: "jakarta",
   name: "The Independent School of Jakarta",
   shortName: "ISJ",
-  verified: true,
+  verified: false,
 
   metaTitle: "The Independent School of Jakarta (ISJ) — Fees, Review & Profile",
   metaDescription:
-    "ISJ profile — British prep school for ages 2–13, class sizes capped at 20, UK-recruited staff. Part of The Schools Trust. Editorial review for expat parents.",
+    "ISJ profile — British school for ages 2–13 (expanding to GCSE and A-Level), class sizes capped at 20, UK-recruited staff. Part of The Schools Trust. Editorial review for expat parents.",
 
   campuses: [
     {
       name: "Pondok Pinang Campus",
       address: "Jl. T.B. Simatupang Raya Kav. 12, Pondok Pinang, Kebayoran Lama, Jakarta Selatan 12310",
-      grades: "Nursery – Year 8 (Ages 2–13)",
+      grades: "Nursery – Year 8 (Ages 2–13), expanding to GCSE & A-Level",
       lat: -6.2785,
       lng: 106.7750,
     },
@@ -706,9 +707,9 @@ const isj: SchoolProfile = {
   ],
 
   head: {
-    name: "Lord Edward Manners",
+    name: "Ms. Eileen Fisher",
     since: 2024,
-    bio: "The Independent School of Jakarta is linked to Ipswich High School (UK) and follows British National Curriculum standards. Lord Edward Manners leads the school.",
+    bio: "Ms. Eileen Fisher leads ISJ. The school follows the British National Curriculum and is part of The Schools Trust (schoolstrust.co.uk).",
   },
 
   photoAlts: [
@@ -720,24 +721,26 @@ const isj: SchoolProfile = {
 
   intelligence: {
     verdict:
-      "If you want the British prep school experience for children aged 2-13, ISJ is the only game in Jakarta. Small classes, UK staff, and serious pastoral care. You'll need a secondary school plan from Year 5 or 6, but for the prep years it's hard to beat.",
+      "If you want the British prep school experience for children aged 2–13, ISJ is the only game in Jakarta. Small classes, UK staff, and serious pastoral care. ISJ is planning to expand through to GCSEs and A-Levels, so the full British pathway is in sight.",
     paragraphs: [
-      "ISJ is a different kind of school from the large through-schools that dominate Jakarta. It's a British prep school - ages 2 to 13, no secondary, no IB Diploma, no university pathway. Children leave after Year 8 and move on to BSJ, JIS, or boarding schools in the UK. Families who know the British prep model understand this immediately. Those who don't should think of it as an intentionally focused school that does one stage really well.",
+      "ISJ is a different kind of school from the large through-schools that dominate Jakarta. It's a British school currently serving ages 2 to 13 (Nursery to Year 8), with plans to expand through to GCSE and A-Level. Families who know the British prep model understand the focus on one stage at a time; the expansion will give continuity for families who want to stay through to 18.",
       "What parents say first is how well the teachers know their children. Classes are capped at 15 in Early Years and 20 in primary, with two adults per class in the younger years. At 200 students, there's nowhere to hide. Staff are recruited from the UK with British qualified teacher status, which matters if you're planning to move back or send children to UK boarding schools later.",
-      "The school joined The Schools Trust in October 2025 - a UK-registered charity running 15+ international schools globally. That brings curriculum support, staff training, and the governance structure of a larger network. ISJ is working towards BSO accreditation, guided by the same standards that earned other Schools Trust schools 'Excellent' ratings. It's early days, but the direction is clear.",
+      "The school is part of The Schools Trust (schoolstrust.co.uk), a UK-registered charity running 15+ international schools globally. ISJ joined in October 2025, which brings curriculum support, staff training, and the governance structure of a larger network. ISJ is working towards BSO accreditation, guided by the same standards that earned other Schools Trust schools 'Excellent' ratings. It's early days, but the direction is clear.",
     ],
     positives: [
       "Classes of 15 in Early Years, 20 in primary, with two adults per room. This is the closest you'll get to a British independent prep school experience in Jakarta.",
       "Staff are recruited from the UK with qualified teacher status. Specialist teaching starts from Year 1 in music, PE, languages, and science.",
       "Purpose-built campus in Pondok Pinang with on-site swimming pool, football pitch, science labs, and art studios. It's newer and more thoughtfully designed than most competitors' primary sections.",
-      "Part of The Schools Trust (UK charity, 15+ schools globally) since October 2025. External governance, curriculum development support, and peer review with partner schools in the UK and Europe.",
+      "Part of The Schools Trust (schoolstrust.co.uk) since October 2025. External governance, curriculum development support, and peer review with partner schools in the UK and Europe. Expansion through to GCSE and A-Level is planned.",
       "Parents say issues get noticed fast and relationships with families are close. A safeguarding lead sits on the senior leadership team. At this size, pastoral care isn't a policy - it's how the school works.",
     ],
     considerations: [
-      "ISJ stops at Year 8 (age 13). You need a secondary school plan, and you need to start thinking about it around Year 5 or 6. Most families move to BSJ, JIS, or UK boarding schools.",
+      "Currently ISJ runs from Nursery to Year 8 (ages 2–13). Expansion to GCSE and A-Level is planned; until then, families in older year groups may need to consider a move to BSJ, JIS, or UK boarding schools.",
       "At 200 students, extracurricular options are limited compared to the bigger schools. Friendship groups in each year are inevitably small.",
-      "The school opened in September 2021. It's four years old. There's no track record of exam results, university placements, or alumni outcomes. You're trusting the team and the model.",
-      "Fees aren't fully transparent. The school publishes capital contribution and materials fees, but tuition by year group requires a conversation with admissions. First-year costs include a refundable enrolment deposit of IDR 7.5M.",
+      {
+        text: "No public exam results yet. The school opened in September 2021 and its first IGCSE cohort won't sit exams until 2026. However, GL Assessment benchmarking data published on the school's website shows students performing significantly above UK national averages across core subjects, which is the strongest available proxy for academic outcomes at this stage.",
+        link: { url: "https://www.isj.id/insights/jakartas-leading-british-school", label: "GL Assessment" },
+      },
       "BSO accreditation is in progress but not yet achieved. COBIS and IAPS membership status is unclear from public sources. The Schools Trust affiliation is recent.",
     ],
   },
@@ -771,9 +774,9 @@ const isj: SchoolProfile = {
       { value: "Max 20", label: "Class Size (Primary)" },
     ],
     paragraphs: [
-      "ISJ follows the English National Curriculum throughout, with specialist teaching from Year 1. The school reports that students consistently achieve results in the top 10% nationally in English, Mathematics, and Science — though as a prep school with no external exams (no IGCSEs or A-Levels), these are internal assessments benchmarked against UK standards.",
+      "ISJ follows the English National Curriculum throughout, with specialist teaching from Year 1. The school reports that students consistently achieve results in the top 10% nationally in English, Mathematics, and Science. Currently there are no external exams at ISJ (expansion to GCSE and A-Level is planned); these are internal assessments benchmarked against UK standards.",
       "Class sizes are capped at 15 in Early Years (with three adults per room) and 20 in primary (with two adults per class). Older pupils in Years 7–8 are taught in small groups by subject specialists. The pupil-to-adult ratio is one of the lowest in Jakarta's international school market.",
-      "The curriculum includes STEAM activities, French language instruction, swimming, and music. Residential trips for older pupils combine academic enrichment with outdoor adventure. The school is working towards alignment with BSO standards through its Schools Trust membership.",
+      "The curriculum includes STEAM activities, French language instruction, swimming, and music. The school is working towards alignment with BSO standards through its Schools Trust membership.",
     ],
   },
 
@@ -781,12 +784,13 @@ const isj: SchoolProfile = {
     paragraphs: [
       "ISJ serves approximately 200 students from 30+ nationalities. The school is co-educational and serves an international community, with a significant proportion of British and European families alongside families from across Asia and the Middle East.",
       "The small size creates a close community where children across year groups know each other. The school's British identity is central — assemblies, pastoral care, and values education follow British independent school traditions. A dedicated safeguarding lead sits on the senior leadership team.",
+      "ISJ has a partnership with Ipswich High School (UK). Each year the school sends its top-year pupils to Ipswich High School for residentials, combining academic enrichment with the experience of a UK independent school.",
     ],
     inspection: {
-      date: "Recent",
-      body: "Ipswich High School (UK) link",
+      date: "Ongoing",
+      body: "The Schools Trust / BSO (in progress)",
       rating: "British National Curriculum standards",
-      findings: "The Independent School of Jakarta is linked to Ipswich High School (UK) and follows British National Curriculum standards.",
+      findings: "ISJ is part of The Schools Trust (schoolstrust.co.uk) and follows British National Curriculum standards. BSO accreditation is in progress.",
     },
   },
 
@@ -806,7 +810,7 @@ const isj: SchoolProfile = {
     paragraphs: [
       "ISJ runs co-curricular clubs including football, climbing, choir, coding, enterprise, dance, robotics, creative writing, and bouldering (the latter at IndoClimb Kemang). Clubs are led by ISJ staff and external specialists.",
       "The sports programme includes specialist-led sessions in gymnastics, athletics, football, badminton, dance, and swimming. The on-site pool is used for enhanced weekday swimming. The school is planning a Saturday football initiative.",
-      "Educational enrichment includes museum and gallery visits, science centre trips, and community projects. Residential trips for older pupils combine academic enrichment with adventure. The campus is still developing — a new gymnasium is under construction for sports, assemblies, and community events.",
+      "Educational enrichment includes museum and gallery visits, science centre trips, and community projects. Residential trips for older pupils — including the annual residential at partner school Ipswich High School (UK) — combine academic enrichment with adventure. The campus is still developing — a new gymnasium is under construction for sports, assemblies, and community events.",
     ],
   },
 
@@ -819,10 +823,11 @@ const isj: SchoolProfile = {
   sidebar: {
     quickFacts: [
       { label: "Founded", value: "2021" },
-      { label: "Type", value: "For-profit (Schools Trust), Co-ed" },
+      { label: "Type", value: "Co-ed · Part of The Schools Trust" },
+      { label: "Schools Trust", value: "schoolstrust.co.uk" },
       { label: "Curriculum", value: "English National" },
       { label: "Students", value: "~200" },
-      { label: "Ages", value: "2–13" },
+      { label: "Ages", value: "2–13 (expanding to 18)" },
       { label: "Nationalities", value: "30+" },
       { label: "Class Size", value: "Max 15/20" },
       { label: "Accreditation", value: "BSO (in progress)" },
@@ -2513,7 +2518,7 @@ const nordAnglia: SchoolProfile = {
     ],
     otherSchools: [
       { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$9.2K – $30K / year" },
-      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 · Pondok Pinang", feeRange: "US$9.2K – $30K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$9.2K – $30K / year" },
       { name: "ACG School Jakarta", slug: "acg-school-jakarta", meta: "IB · Ages 3–17 · Pasar Minggu", feeRange: "US$9.8K – $25K / year" },
     ],
     relatedInsights: [

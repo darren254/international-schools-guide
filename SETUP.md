@@ -49,4 +49,8 @@ gh repo create international-schools-guide --public --source=. --push
 
 That's it. Every push to `main` will auto-deploy.
 
+**Deployment (record here once connected):**
+- **Target:** Cloudflare Pages
+- **Live URL:** _e.g. https://international-schools-guide.pages.dev_ ← paste your Pages URL here after first deploy
+
 **Note:** The project uses static export (`output: 'export'`), so it outputs to `out/` directory, not `.vercel/output/static`.

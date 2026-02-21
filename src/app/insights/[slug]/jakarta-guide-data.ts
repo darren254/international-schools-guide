@@ -24,7 +24,7 @@ export interface Section2Row {
 export const SECTION1_POPULAR_SCHOOLS: Section1Row[] = [
   { school: "Jakarta Intercultural School (JIS)", curriculum: "American / IB / AP", ages: "3–18", fees: "US$23K – US$37K", location: "South Jakarta", slug: "jakarta-intercultural-school" },
   { school: "British School Jakarta (BSJ)", curriculum: "British / IB Diploma", ages: "2–18", fees: "US$9.2K – US$30K", location: "Bintaro", slug: "british-school-jakarta" },
-  { school: "The Independent School of Jakarta (ISJ)", curriculum: "British", ages: "2–13", fees: "US$9.2K – US$30K", location: "Pondok Indah", slug: "independent-school-of-jakarta" },
+  { school: "The Independent School of Jakarta (ISJ)", curriculum: "British", ages: "2–13 (expanding to 18)", fees: "US$9.2K – US$30K", location: "Pondok Indah", slug: "independent-school-of-jakarta" },
   { school: "Australian Independent School (AIS)", curriculum: "Australian / IB Diploma", ages: "3–18", fees: "US$9.3K – US$27K", location: "South Jakarta", slug: "australian-independent-school-jakarta" },
   { school: "Nord Anglia School Jakarta (NAS)", curriculum: "British / IPC", ages: "18m–12", fees: "US$7.2K – US$22K", location: "South Jakarta", slug: "nord-anglia-school-jakarta" },
   { school: "Sekolah Pelita Harapan (SPH)", curriculum: "IB continuum", ages: "4–18", fees: "US$7.2K – US$22K", location: "Lippo Village / Kemang", slug: "sekolah-pelita-harapan" },

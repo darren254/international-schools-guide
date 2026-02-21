@@ -252,7 +252,7 @@ function JakartaGuide() {
                   <dt className="font-medium text-charcoal">Curriculum</dt>
                   <dd className="text-charcoal-muted">British (EYFS / English National Curriculum)</dd>
                   <dt className="font-medium text-charcoal">Ages</dt>
-                  <dd className="text-charcoal-muted">2–13 (Pre-Nursery to Year 8)</dd>
+                  <dd className="text-charcoal-muted">2–13 currently (expanding through to GCSE and A-Level)</dd>
                   <dt className="font-medium text-charcoal">Fees</dt>
                   <dd className="text-charcoal-muted">US$9,200 – US$30,000 (all-in, including materials and capital contribution)</dd>
                   <dt className="font-medium text-charcoal">Location</dt>
