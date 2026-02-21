@@ -64,7 +64,7 @@ export function ShareButton(props: ShareButtonProps) {
   const getEmailBody = (): string => {
     const url = getShareUrl();
     if (props.variant === "article") return `${props.title}\n\n${url}`;
-    return `Here are the schools I'm considering — ${url}`;
+    return `Here are the schools I'm considering:\n\n${url}`;
   };
 
   const url = getShareUrl();

@@ -27,9 +27,9 @@ export function SiteHeader() {
       <div className="container-site">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="font-display text-lg font-semibold tracking-tight">
-            International Schools{" "}
-            <span className="text-hermes">Guide</span>
+          <Link href="/" className="flex items-center shrink-0" aria-label="International Schools Guide home">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.svg" alt="" className="h-6 w-auto" width="380" height="28" />
           </Link>
 
           {/* Nav */}
