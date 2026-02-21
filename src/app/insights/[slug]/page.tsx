@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { SortableSchoolsTableSection1, SortableSchoolsTableSection2 } from "@/components/insights/SortableSchoolsTable";
+import { ArticleShareButton } from "@/components/insights/ArticleShareButton";
 import {
   SECTION1_POPULAR_SCHOOLS,
   SECTION2_ALL_SCHOOLS,
@@ -69,9 +71,62 @@ function JakartaGuide() {
             <p className="font-display text-xl text-charcoal-muted mb-6">
               A Practical Guide for Expat Families — 2026 Edition
             </p>
-            <p className="text-sm text-charcoal-muted font-sans mb-10">
+            <p className="text-sm text-charcoal-muted font-sans mb-6">
               Published by international-schools-guide.com
             </p>
+
+            {/* Share */}
+            <ArticleShareButton
+              url={`${BASE_URL}/insights/best-international-schools-jakarta`}
+              title="International Schools in Jakarta — A Practical Guide for Expat Families (2026)"
+            />
+
+            {/* Author */}
+            <div className="flex items-center gap-4 mt-8 mb-10 pb-8 border-b border-warm-border">
+              <Image
+                src="/images/mia-windsor.png"
+                alt="Mia Windsor"
+                width={80}
+                height={80}
+                className="rounded-full object-cover flex-shrink-0"
+              />
+              <div>
+                <p className="font-sans font-semibold text-charcoal">Mia Windsor</p>
+                <p className="font-sans text-sm text-charcoal-muted">Managing Editor</p>
+                <a
+                  href="https://bsky.app/profile/mia-isg.bsky.social"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-sans text-sm text-hermes hover:underline mt-1 inline-flex items-center gap-1"
+                >
+                  @mia-isg.bsky.social
+                  <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden>
+                    <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 4.278c0 1.197.378 2.042.646 2.481.268.439 1.072.878 2.392 1.757C4.273 9.505 6.006 10.794 12 15.689c5.994-4.895 7.727-6.184 8.962-7.173 1.32-.879 2.124-1.318 2.392-1.757.268-.439.646-1.284.646-2.481 0-1.198-.139-2.37-.902-2.713-.659-.299-1.664-.621-4.3 1.24C16.046 4.747 13.087 8.686 12 10.8z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            {/* TL;DR */}
+            <div className="bg-cream-50 border-l-4 border-hermes py-4 px-5 mb-10 font-sans">
+              <p className="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-2">TL;DR</p>
+              <p className="text-charcoal leading-relaxed">
+                Jakarta has 60+ international schools but geography and school community narrows most families to four or five. Pick your school first, then find a house within 20–25 minutes. The traffic is brutal. JIS is the American behemoth with the best facilities. Top British options are ISJ (new and expanding) and BSJ (full K-12 but a punishing commute from Bintaro). AIS might be the warmest culture and best for SEN. Fees run US$9K–$37K.
+              </p>
+            </div>
+
+            {/* Table of contents */}
+            <nav className="font-sans mb-10 pb-8 border-b border-warm-border" aria-label="Article contents">
+              <p className="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-3">Contents</p>
+              <ul className="space-y-2 text-sm text-charcoal">
+                <li><a href="#schools-popular" className="text-hermes hover:underline">Schools Popular with Expats</a></li>
+                <li><a href="#jis" className="text-hermes hover:underline">JIS</a> · <a href="#bsj" className="text-hermes hover:underline">BSJ</a> · <a href="#isj" className="text-hermes hover:underline">ISJ</a> · <a href="#ais" className="text-hermes hover:underline">AIS</a> · <a href="#nas" className="text-hermes hover:underline">NAS</a> · <a href="#nzsj" className="text-hermes hover:underline">NZSJ</a></li>
+                <li><a href="#compare-all" className="text-hermes hover:underline">Compare All 66 Schools</a></li>
+                <li><a href="#neighbourhoods" className="text-hermes hover:underline">Popular Expat Neighbourhoods</a></li>
+                <li><a href="#faq" className="text-hermes hover:underline">Frequently Asked Questions</a></li>
+                <li><a href="#final-note" className="text-hermes hover:underline">A Final Note</a></li>
+              </ul>
+            </nav>
 
             <div className="article-content">
               {/* Intro */}
@@ -82,17 +137,17 @@ function JakartaGuide() {
                 Three things usually determine which school you end up at. Jakarta's traffic is uniquely punishing, worse consistently than Bangkok, KL, or Singapore. A school 10 kilometres away can mean a 90-minute school run at 7.30am. The rule veterans live by: nothing over 20 to 30 minutes each way. Of course you choose the school before you choose the house. Second is school vibe and curriculum. Among the most common choices are JIS which is the most American, ISJ and BSJ both British, and the Australian school. Another is size. Jakarta has 2,500 student mega-campuses and 300 to 500 student schools where the head knows every child's name.
               </p>
 
-              {/* Section 1: Schools Popular with Expats — interactive table */}
+              {/* Schools Popular with Expats — interactive table */}
               <section>
-                <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 first:mt-0 uppercase tracking-wider">
-                  Section 1: Schools Popular with Expats
+                <h2 id="schools-popular" className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 first:mt-0 uppercase tracking-wider scroll-mt-24">
+                  Schools Popular with Expats
                 </h2>
                 <SortableSchoolsTableSection1 rows={SECTION1_POPULAR_SCHOOLS} />
               </section>
 
               {/* School profiles: JIS, BSJ, ISJ, AIS, NAS, NZSJ */}
               <section>
-                <h2 id="jis" className="font-display text-2xl text-charcoal mt-12 mb-4">
+                <h2 id="jis" className="font-display text-2xl text-charcoal mt-12 mb-4 scroll-mt-24">
                   Jakarta Intercultural School (JIS)
                 </h2>
                 <p>
@@ -107,7 +162,7 @@ function JakartaGuide() {
               </section>
 
               <section>
-                <h2 id="bsj" className="font-display text-2xl text-charcoal mt-12 mb-4">
+                <h2 id="bsj" className="font-display text-2xl text-charcoal mt-12 mb-4 scroll-mt-24">
                   British School Jakarta (BSJ)
                 </h2>
                 <p>
@@ -122,7 +177,7 @@ function JakartaGuide() {
               </section>
 
               <section>
-                <h2 id="isj" className="font-display text-2xl text-charcoal mt-12 mb-4">
+                <h2 id="isj" className="font-display text-2xl text-charcoal mt-12 mb-4 scroll-mt-24">
                   The Independent School of Jakarta (ISJ)
                 </h2>
                 <p>
@@ -137,7 +192,7 @@ function JakartaGuide() {
               </section>
 
               <section>
-                <h2 id="ais" className="font-display text-2xl text-charcoal mt-12 mb-4">
+                <h2 id="ais" className="font-display text-2xl text-charcoal mt-12 mb-4 scroll-mt-24">
                   Australian Independent School Jakarta (AIS)
                 </h2>
                 <p>
@@ -152,7 +207,7 @@ function JakartaGuide() {
               </section>
 
               <section>
-                <h2 id="nas" className="font-display text-2xl text-charcoal mt-12 mb-4">
+                <h2 id="nas" className="font-display text-2xl text-charcoal mt-12 mb-4 scroll-mt-24">
                   Nord Anglia School Jakarta (NAS)
                 </h2>
                 <p>
@@ -170,7 +225,7 @@ function JakartaGuide() {
               </section>
 
               <section>
-                <h2 id="nzsj" className="font-display text-2xl text-charcoal mt-12 mb-4">
+                <h2 id="nzsj" className="font-display text-2xl text-charcoal mt-12 mb-4 scroll-mt-24">
                   New Zealand School Jakarta (NZSJ)
                 </h2>
                 <p>
@@ -184,10 +239,10 @@ function JakartaGuide() {
                 </p>
               </section>
 
-              {/* Section 2: Compare All 66 — interactive table */}
+              {/* Compare All 66 — interactive table */}
               <section>
-                <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
-                  Section 2: Compare All 66 International Schools in Jakarta
+                <h2 id="compare-all" className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider scroll-mt-24">
+                  Compare All 66 International Schools in Jakarta
                 </h2>
                 <SortableSchoolsTableSection2 rows={SECTION2_ALL_SCHOOLS} />
                 <p className="text-sm text-charcoal-muted font-sans mt-4">
@@ -195,10 +250,10 @@ function JakartaGuide() {
                 </p>
               </section>
 
-              {/* Section 3: Popular Expat Neighbourhoods */}
+              {/* Popular Expat Neighbourhoods */}
               <section>
-                <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
-                  Section 3: Popular Expat Neighbourhoods
+                <h2 id="neighbourhoods" className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider scroll-mt-24">
+                  Popular Expat Neighbourhoods
                 </h2>
 
                 <h3 className="font-display text-lg text-charcoal mt-8 mb-3">Pondok Indah / Cilandak</h3>
@@ -239,10 +294,10 @@ function JakartaGuide() {
                 </p>
               </section>
 
-              {/* Section 4: FAQ */}
+              {/* FAQ */}
               <section>
-                <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider">
-                  Section 4: Frequently Asked Questions
+                <h2 id="faq" className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider scroll-mt-24">
+                  Frequently Asked Questions
                 </h2>
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">How much does international school cost in Jakarta?</h3>
@@ -327,7 +382,7 @@ function JakartaGuide() {
               </section>
 
               {/* Final note */}
-              <section className="mt-12">
+              <section id="final-note" className="mt-12 scroll-mt-24">
                 <h2 className="font-display text-xl text-charcoal mb-4">A Final Note</h2>
                 <p>
                   No guide replaces a campus visit. Read the profiles, study the fee schedules, ask the hard questions — and then go and sit in the school for an hour. Talk to the head of admissions, walk the corridors, watch how staff interact with children. The school that reads well on paper sometimes doesn't feel right in person; occasionally the reverse is true. Jakarta has genuinely good schools across a wide range of sizes, curricula, and fee levels. The right one for your family exists. Find it.
