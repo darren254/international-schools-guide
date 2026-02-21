@@ -6,6 +6,8 @@
 
 import { JAKARTA_SCHOOLS, type JakartaSchoolListing } from "@/data/jakarta-schools";
 import { extractHighestFee } from "@/lib/utils/fees";
+// Optional CSV export for minimal profiles (address, facilities, nationalities, founded)
+import JAKARTA_CSV_EXPORT from "@/data/jakarta_csv_export.json";
 
 export const EXCHANGE_RATE = 16_800; // IDR per USD
 export const EXCHANGE_RATE_DATE = "19 Feb 2026";
@@ -363,9 +365,9 @@ const bsj: SchoolProfile = {
   ],
 
   head: {
-    name: "Interim Principal",
-    since: 2024,
-    bio: "BSJ is currently led by an Interim Principal following the departure of David Butcher, who served as Principal from 2019. The school's leadership team includes a Head of Primary, Interim Head of Secondary, and Head of Wellbeing. A permanent appointment is expected.",
+    name: "Phil Edwards",
+    since: 2026,
+    bio: "Phil Edwards is currently serving as Interim Principal at British School Jakarta (2026). The school holds BSO inspection (Outstanding) and CIS accreditation.",
   },
 
   photoAlts: [
@@ -436,7 +438,7 @@ const bsj: SchoolProfile = {
       body: "CIS / WASC",
       rating: "Reaccredited (5 years)",
       findings:
-        "Joint CIS/WASC evaluation team of 13 members conducted a full accreditation review. The school was reaccredited for five years (2023–2028). The school is also authorised for all three IB programmes.",
+        "CIS/WASC accreditation reaffirmed July 2023 (visit June 2023); accreditation extended to 2028. The school is also authorised for all three IB programmes. BSJ is a COBIS member; no separate BSO inspection report is published on the school website.",
     },
   },
 
@@ -535,9 +537,9 @@ const acg: SchoolProfile = {
   ],
 
   head: {
-    name: "Mr. Myles D'Airelle",
+    name: "Shawn Hutchinson",
     since: 2024,
-    bio: "Myles D'Airelle holds a BSc from Aberdeen University and a Master of Education from Framingham State University. He has nine years of experience in Indonesia and has previously led schools in Ukraine, Germany, and China, including Western International School of Shanghai.",
+    bio: "Shawn Hutchinson is Head of School at ACG School Jakarta. The school is CIS accredited and an IB World School, with consistent IB Diploma scores above global averages.",
   },
 
   photoAlts: [
@@ -601,6 +603,12 @@ const acg: SchoolProfile = {
       "ACG serves a diverse community of 300+ students from 35+ nationalities. Around 20% of students are Indonesian nationals. The school is co-educational and non-selective, welcoming students across the ability range.",
       "The smaller student body creates a close-knit community. Parents describe a family-like atmosphere where students across year groups know each other. The Eco-Warriors sustainability programme and community service initiatives reflect the school's values.",
     ],
+    inspection: {
+      date: "Recent",
+      body: "CIS",
+      rating: "Accredited",
+      findings: "ACG School Jakarta is CIS accredited and an IB World School. Consistent IB DP scores above global averages.",
+    },
   },
 
   schoolLife: {
@@ -698,9 +706,9 @@ const isj: SchoolProfile = {
   ],
 
   head: {
-    name: "Eileen Fisher",
-    since: 2021,
-    bio: "Eileen Fisher previously served as Head of Preparatory School at Ipswich High School for ten years. She has international experience including founding headship of Craigclowan Prep in China and Head of Junior School at The British School of Cairo. She is an ISI and Penta Inspector.",
+    name: "Lord Edward Manners",
+    since: 2024,
+    bio: "The Independent School of Jakarta is linked to Ipswich High School (UK) and follows British National Curriculum standards. Lord Edward Manners leads the school.",
   },
 
   photoAlts: [
@@ -774,6 +782,12 @@ const isj: SchoolProfile = {
       "ISJ serves approximately 200 students from 30+ nationalities. The school is co-educational and serves an international community, with a significant proportion of British and European families alongside families from across Asia and the Middle East.",
       "The small size creates a close community where children across year groups know each other. The school's British identity is central — assemblies, pastoral care, and values education follow British independent school traditions. A dedicated safeguarding lead sits on the senior leadership team.",
     ],
+    inspection: {
+      date: "Recent",
+      body: "Ipswich High School (UK) link",
+      rating: "British National Curriculum standards",
+      findings: "The Independent School of Jakarta is linked to Ipswich High School (UK) and follows British National Curriculum standards.",
+    },
   },
 
   schoolLife: {
@@ -866,9 +880,9 @@ const mentari: SchoolProfile = {
   ],
 
   head: {
-    name: "School Leadership Team",
+    name: "Clarissa Subagyo",
     since: 2020,
-    bio: "Mentari's leadership oversees multiple campuses across Jakarta. The school was founded by Yayasan Perkembangan Anak Indonesia (YPAI) and has grown from a single preschool into a multi-campus IB World School over three decades.",
+    bio: "Clarissa Subagyo is Head of School at Mentari Intercultural School Jakarta. The school is accredited by CIS and WASC and maintains high IB Diploma pass rates.",
   },
 
   photoAlts: [
@@ -936,6 +950,12 @@ const mentari: SchoolProfile = {
       "Mentari serves 600+ students from 35+ nationalities across its campuses. The school describes itself as having a 'multi-voiced culture' — reflecting a genuinely intercultural rather than predominantly expatriate community. The mix includes both international and Indonesian families.",
       "The community atmosphere is frequently noted by parents. At its scale, Mentari occupies a middle ground — large enough to offer breadth in curriculum and activities, small enough that children aren't anonymous. The Model UN programme (MISMUN) attracts 200+ participants from across Indonesia, suggesting a school that engages beyond its campus.",
     ],
+    inspection: {
+      date: "Recent",
+      body: "CIS / WASC",
+      rating: "Accredited",
+      findings: "Mentari Intercultural School is accredited by CIS and WASC. High IB Diploma pass rates.",
+    },
   },
 
   schoolLife: {
@@ -1029,9 +1049,9 @@ const ais: SchoolProfile = {
   ],
 
   head: {
-    name: "School Leadership Team",
-    since: 2020,
-    bio: "AIS Jakarta is led by an experienced leadership team with strong backgrounds in Australian and international education. The school's inclusive philosophy guides its approach to teaching and learning.",
+    name: "Dean Cummins",
+    since: 2026,
+    bio: "Dean Cummins took office as Head of School in January 2026 (successor to Craig Eldred). AIS is CIS accredited; last major evaluation summary was released November 2024.",
   },
 
   photoAlts: [
@@ -1098,6 +1118,12 @@ const ais: SchoolProfile = {
       "AIS serves 900+ students from 40+ nationalities. The school's inclusive philosophy means it welcomes students with learning difficulties, limited English proficiency, and physical disabilities alongside mainstream students. The student body is diverse, with a significant proportion of Indonesian families alongside expat communities.",
       "The community atmosphere is frequently noted by parents. At its scale, AIS occupies a middle ground - large enough to offer breadth in curriculum and activities, small enough that children aren't anonymous. The school culture values effort alongside results, and parents say the inclusive approach creates a supportive rather than competitive environment.",
     ],
+    inspection: {
+      date: "November 2024",
+      body: "CIS",
+      rating: "Accredited",
+      findings: "Australian Independent School is CIS accredited. Last major evaluation summary released November 2024.",
+    },
   },
 
   schoolLife: {
@@ -1192,9 +1218,9 @@ const sph: SchoolProfile = {
   ],
 
   head: {
-    name: "School Leadership Team",
+    name: "Helen Schleper",
     since: 2020,
-    bio: "SPH is led by an experienced leadership team committed to Christian values and academic excellence. The school has been serving the Jakarta community for over 30 years.",
+    bio: "Helen Schleper is Head of School at Sekolah Pelita Harapan (Lippo Village). The school is accredited by WASC and ACSI. IB average typically 34–35.",
   },
 
   photoAlts: [
@@ -1262,6 +1288,12 @@ const sph: SchoolProfile = {
       "SPH serves 2,000+ students from 20+ nationalities across its campuses. The student body is predominantly Indonesian Christian families, with a smaller expat community. The school's Christian identity is central - families choose SPH specifically for the faith-based values.",
       "The community atmosphere is frequently noted by parents. The Christian values create a sense of belonging, and parents say the school culture takes character development seriously. The multi-campus structure means families can choose the location that works best for them.",
     ],
+    inspection: {
+      date: "Recent",
+      body: "WASC / ACSI",
+      rating: "Accredited",
+      findings: "Sekolah Pelita Harapan is accredited by WASC and ACSI (Association of Christian Schools International).",
+    },
   },
 
   schoolLife: {
@@ -1357,9 +1389,9 @@ const globalJaya: SchoolProfile = {
   ],
 
   head: {
-    name: "School Leadership Team",
+    name: "Howard Menand",
     since: 2020,
-    bio: "Global Jaya School is led by an experienced leadership team committed to IB education and international-mindedness. The school has been serving the BSD City community since 1996.",
+    bio: "Howard Menand is Head of School at Global Jaya School. The school holds WASC accreditation and IB World School status, with a long-standing IB Diploma programme.",
   },
 
   photoAlts: [
@@ -1426,6 +1458,12 @@ const globalJaya: SchoolProfile = {
       "Global Jaya serves 800+ students from 25+ nationalities. The school's international identity is central - the student body is diverse, with a mix of expat and Indonesian families. The school culture values intercultural understanding and global citizenship.",
       "The community atmosphere is frequently noted by parents. At its scale, Global Jaya occupies a middle ground - large enough to offer breadth in curriculum and activities, small enough that children aren't anonymous. Parents say the international mix creates a genuine global learning environment.",
     ],
+    inspection: {
+      date: "Recent",
+      body: "WASC / IB World School",
+      rating: "Accredited",
+      findings: "Global Jaya School holds WASC accreditation and IB World School status. Long-standing IB Diploma programme.",
+    },
   },
 
   schoolLife: {
@@ -1520,9 +1558,9 @@ const binus: SchoolProfile = {
   ],
 
   head: {
-    name: "School Leadership Team",
+    name: "Anwin Samsudi",
     since: 2020,
-    bio: "Binus School Serpong is led by an experienced leadership team with strong backgrounds in STEM education and technology. The school is part of the Bina Nusantara group, Indonesia's leading technology education network.",
+    bio: "Binus School Serpong has a split leadership structure: Anwin Samsudi (Primary) and Sherrierose Garcia Gonzales (Secondary). The school holds WASC (Candidate) and IB World School status, with a strong focus on STEM and international placements.",
   },
 
   photoAlts: [
@@ -1590,6 +1628,12 @@ const binus: SchoolProfile = {
       "Binus serves 1,200+ students from 15+ nationalities. The student body is predominantly Indonesian - around 80% by most accounts - with a smaller expat community. The school culture reflects its Indonesian identity while maintaining international curriculum standards.",
       "The community atmosphere reflects the school's size and local focus. Parents say the school culture values academic achievement and technology skills. The predominantly Indonesian student body suits some families but not others - if you want a more international mix, this isn't the school for you.",
     ],
+    inspection: {
+      date: "Recent",
+      body: "WASC (Candidate) / IB World School",
+      rating: "Accredited",
+      findings: "Binus School Serpong holds WASC (Candidate) and IB World School status. Strong focus on STEM and international placements.",
+    },
   },
 
   schoolLife: {
@@ -1663,7 +1707,7 @@ const sinarmas: SchoolProfile = {
 
   metaTitle: "Sinarmas World Academy (SWA) Jakarta — Fees, IB Results & Review",
   metaDescription:
-    "Sinarmas World Academy profile — Jakarta's top IB results school (avg 38.2), fees US$9.3K–US$28K/year, BSD campus, 1,200+ students. Academically rigorous IB school. Editorial review.",
+    "Sinarmas World Academy profile — Jakarta's top IB results school (avg 38.2). Fees not published. BSD campus, 1,200+ students. Academically rigorous IB school. Editorial review.",
 
   campuses: [
     {
@@ -1680,13 +1724,13 @@ const sinarmas: SchoolProfile = {
     { value: "1,200+", label: "Students" },
     { value: "2–18", label: "Age Range" },
     { value: "30+", label: "Nationalities" },
-    { value: "US$9.3K – US$28K", label: "Annual Fees" },
+    { value: "Fees not published", label: "Annual Fees" },
   ],
 
   head: {
-    name: "School Leadership Team",
-    since: 2020,
-    bio: "SWA is led by an experienced leadership team with strong backgrounds in IB education and academic excellence. The school's focus on rigorous academics and university preparation guides its approach.",
+    name: "Stanislav K. Sousek",
+    since: 2026,
+    bio: "Stanislav K. Sousek is Head of School and University Counsellor at Sinarmas World Academy (2026). The school is CIS accredited and an IB World School, with high achievement in IGCSE and IB DP.",
   },
 
   photoAlts: [
@@ -1754,6 +1798,12 @@ const sinarmas: SchoolProfile = {
       "SWA serves 1,200+ students from 30+ nationalities. The school attracts achievement-oriented families who prioritise academic excellence and university preparation. The student body includes both expat and Indonesian families.",
       "The school culture values academic achievement and rigour. Parents say the community is focused on results and university placements. The BSD City location means many families live in the area or have chosen to relocate there for the school.",
     ],
+    inspection: {
+      date: "Recent",
+      body: "CIS / IB World School",
+      rating: "Accredited",
+      findings: "Sinarmas World Academy is CIS accredited and an IB World School. High achievement in IGCSE and IB DP.",
+    },
   },
 
   schoolLife: {
@@ -1792,7 +1842,7 @@ const sinarmas: SchoolProfile = {
       { label: "Nationalities", value: "30+" },
       { label: "IB Average", value: "38.2 (2024)" },
       { label: "Accreditation", value: "IB / Cambridge" },
-      { label: "Fees", value: "US$9.3K – $28K" },
+      { label: "Fees", value: "Fees not published" },
     ],
     otherSchools: [
       { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$23K – $37K / year" },
@@ -1806,7 +1856,7 @@ const sinarmas: SchoolProfile = {
   },
 
   jsonLd: {
-    description: "Co-educational international school offering Cambridge Primary, IB MYP and IB Diploma Programme. Highest IB results in Jakarta (avg 38.2).",
+    description: "Co-educational international school offering Cambridge Primary, IB MYP and IB Diploma Programme. Highest IB results in Jakarta (avg 38.2). Fees not published.",
     foundingDate: "2008",
     numberOfStudents: "1200",
   },
@@ -1853,9 +1903,9 @@ const tunasMuda: SchoolProfile = {
   ],
 
   head: {
-    name: "School Leadership Team",
+    name: "Dr. Ridwan Bachtra",
     since: 2020,
-    bio: "Tunas Muda is led by an experienced leadership team committed to Catholic values and IB education. The school has been serving the Jakarta community since 1994.",
+    bio: "Tunas Muda operates with campus-specific heads: Dr. Ridwan Bachtra (Meruya) and Rachel Groves (Kedoya). The school is an IB World School (full continuum: PYP, MYP, DP) with a consistent 100% IB Diploma pass rate; average scores typically 32–35.",
   },
 
   photoAlts: [
@@ -1906,7 +1956,10 @@ const tunasMuda: SchoolProfile = {
   },
 
   academics: {
-    results: [],
+    results: [
+      { value: "100%", label: "IB Diploma Pass Rate" },
+      { value: "32–35", label: "IB Average (typical range)" },
+    ],
     paragraphs: [
       "Tunas Muda offers the complete IB continuum - Primary Years Programme (PYP) from early childhood through Grade 5, Middle Years Programme (MYP) in Grades 6–10, and IB Diploma Programme in Grades 11–12. The school is authorised for all three IB programmes.",
       "The school integrates Catholic values throughout the curriculum, with chapel services and faith-based character education woven into daily learning. The IB approach emphasises inquiry-based learning, critical thinking, and international-mindedness.",
@@ -1919,6 +1972,12 @@ const tunasMuda: SchoolProfile = {
       "Tunas Muda serves 800+ students from 25+ nationalities across its two campuses. The school's Catholic identity is central - families choose Tunas Muda specifically for the faith-based values alongside IB education.",
       "The community atmosphere reflects the school's size and values. Parents say the Catholic values create a sense of belonging, and the school culture takes character development seriously alongside academic achievement.",
     ],
+    inspection: {
+      date: "Recent",
+      body: "IB World School",
+      rating: "Full continuum (PYP, MYP, DP)",
+      findings: "Tunas Muda is an IB World School offering the full continuum. Consistent 100% IB Diploma pass rate; average scores typically 32–35.",
+    },
   },
 
   schoolLife: {
@@ -2010,9 +2069,9 @@ const btb: SchoolProfile = {
   ],
 
   head: {
-    name: "School Leadership Team",
+    name: "Ronald Jimenez",
     since: 2020,
-    bio: "BTB School is led by an experienced leadership team with strong backgrounds in IB education. The school has been an IB World School since 2005.",
+    bio: "Ronald Jimenez is Executive Principal at BTB School. The school is an IB World School with strong performance in IGCSE (Cambridge) and IB Diploma; majority of graduates enter Top 100 global universities.",
   },
 
   photoAlts: [
@@ -2063,7 +2122,10 @@ const btb: SchoolProfile = {
   },
 
   academics: {
-    results: [],
+    results: [
+      { value: "Top 100", label: "Graduate university placement (global)" },
+      { value: "High", label: "IGCSE and IB DP performance" },
+    ],
     paragraphs: [
       "BTB School offers IB Primary Years Programme (PYP) from early years through Grade 5, IGCSE qualifications in middle school (Grades 6–10), and IB Diploma Programme in high school (Grades 11–12). The school is authorised as an IB World School.",
       "The dual curriculum pathway gives students internationally recognised qualifications at multiple stages - IGCSEs in middle school before the IB Diploma. The school emphasises character development alongside academic achievement.",
@@ -2076,6 +2138,12 @@ const btb: SchoolProfile = {
       "BTB serves 700+ students from 20+ nationalities. The school's character development focus means values education is central to the community. The student body includes both expat and Indonesian families.",
       "The community atmosphere reflects the school's size and values focus. Parents say the school culture takes character development seriously, and the Pluit location creates a neighbourhood feel.",
     ],
+    inspection: {
+      date: "Recent",
+      body: "IB World School",
+      rating: "Accredited",
+      findings: "BTB School is an IB World School. Strong performance in IGCSE and IB Diploma; majority of graduates enter Top 100 global universities.",
+    },
   },
 
   schoolLife: {
@@ -2166,9 +2234,9 @@ const sphKemang: SchoolProfile = {
   ],
 
   head: {
-    name: "School Leadership Team",
-    since: 2020,
-    bio: "SPH Kemang Village is led by an experienced leadership team committed to Christian values and academic excellence. The campus has been serving the South Jakarta community since 2010.",
+    name: "Dale Wood",
+    since: 2025,
+    bio: "Dale Wood joined as Head of School for the 2025/26 year. SPH Kemang Village is accredited by WASC and ACSI; part of the SPH group with IB average typically 33–34.",
   },
 
   photoAlts: [
@@ -2220,7 +2288,10 @@ const sphKemang: SchoolProfile = {
   },
 
   academics: {
-    results: [],
+    results: [
+      { value: "33–34", label: "IB Average (SPH group typical)" },
+      { value: "Above global avg", label: "IB performance" },
+    ],
     paragraphs: [
       "SPH Kemang Village offers Cambridge Primary from early childhood through Grade 6, Cambridge IGCSEs in middle school (Grades 7–10), and IB Diploma Programme in high school (Grades 11–12). The school integrates Christian values throughout the curriculum.",
       "The Cambridge-to-IB pathway gives students internationally recognised qualifications at multiple stages - IGCSEs in middle school before the IB Diploma. The school emphasises academic excellence alongside character development.",
@@ -2233,6 +2304,12 @@ const sphKemang: SchoolProfile = {
       "SPH Kemang Village serves 800+ students from 20+ nationalities. The school's Christian identity is central - families choose SPH Kemang specifically for the faith-based values alongside strong academics.",
       "The community atmosphere reflects the school's values focus. Parents say the Christian values create a sense of belonging, and the school culture takes character development seriously alongside academic achievement.",
     ],
+    inspection: {
+      date: "Recent",
+      body: "WASC / ACSI",
+      rating: "Accredited",
+      findings: "SPH Kemang Village is accredited by WASC and ACSI. Part of the SPH group; IB average typically 33–34.",
+    },
   },
 
   schoolLife: {
@@ -2325,9 +2402,9 @@ const nordAnglia: SchoolProfile = {
   ],
 
   head: {
-    name: "School Leadership Team",
+    name: "Rosy Clark",
     since: 2020,
-    bio: "NAS Jakarta is led by an experienced leadership team with strong backgrounds in British and international education. The school joined Nord Anglia Education in 2017.",
+    bio: "Rosy Clark is Principal at Nord Anglia School Jakarta. The school is a CIS Member and follows English National Curriculum standards with high performance.",
   },
 
   photoAlts: [
@@ -2389,6 +2466,12 @@ const nordAnglia: SchoolProfile = {
       "NAS Jakarta serves 400+ students from 30+ nationalities. The school's international identity is central - the student body is diverse, with a mix of expat and Indonesian families.",
       "The community atmosphere reflects the school's size and global connections. Parents say the Nord Anglia network creates opportunities for students to connect with peers globally, and the school culture values international-mindedness.",
     ],
+    inspection: {
+      date: "Recent",
+      body: "CIS Member",
+      rating: "English National Curriculum standards",
+      findings: "Nord Anglia School Jakarta is a CIS Member and follows English National Curriculum standards. High performance in primary curriculum.",
+    },
   },
 
   schoolLife: {
@@ -2480,9 +2563,9 @@ const newZealandSchool: SchoolProfile = {
   ],
 
   head: {
-    name: "School Leadership Team",
+    name: "Tim Sissons",
     since: 2020,
-    bio: "NZSJ is led by an experienced leadership team with strong backgrounds in New Zealand and international education. The school's focus on wellbeing and holistic development guides its approach.",
+    bio: "Tim Sissons leads New Zealand School Jakarta. The school follows NZ Curriculum standards and reports high literacy and numeracy growth compared to international norms.",
   },
 
   photoAlts: [
@@ -2534,7 +2617,10 @@ const newZealandSchool: SchoolProfile = {
   },
 
   academics: {
-    results: [],
+    results: [
+      { value: "High", label: "Literacy/numeracy growth vs NZ norms" },
+      { value: "Progress-based", label: "NZ National Standards" },
+    ],
     paragraphs: [
       "NZSJ offers New Zealand Curriculum (NZC) from primary through secondary, with Te Whariki in early years. The curriculum emphasises inquiry-based learning, critical thinking, and holistic development. The approach is less structured than British or IB models, focusing on wellbeing alongside academic achievement.",
       "The school serves Preschool through Grade 12, including Pre-University (Grades 11–12). Students follow New Zealand's national curriculum, which is recognised internationally but less familiar than IB or British qualifications in some markets.",
@@ -2547,6 +2633,12 @@ const newZealandSchool: SchoolProfile = {
       "NZSJ serves 300+ students from 25+ nationalities. The school was founded to serve the New Zealand community but has grown to welcome families from all backgrounds. The small size creates a close-knit community.",
       "The community atmosphere reflects the school's size and values. Parents say the school culture is less pressured, more holistic, and genuinely focused on children's wellbeing. The New Zealand identity is central - families choose NZSJ specifically for the curriculum and approach.",
     ],
+    inspection: {
+      date: "2025/26",
+      body: "NZ Curriculum",
+      rating: "93% audit (2025/26)",
+      findings: "New Zealand School Jakarta follows NZ Curriculum standards. High literacy and numeracy growth compared to international norms.",
+    },
   },
 
   schoolLife: {
@@ -2637,9 +2729,9 @@ const jakartaNanyang: SchoolProfile = {
   ],
 
   head: {
-    name: "School Leadership Team",
+    name: "Eileen Fisher",
     since: 2020,
-    bio: "Jakarta Nanyang School is led by an experienced leadership team with strong backgrounds in Singapore-style education and trilingual instruction. The school is part of the Nanyang Family of Schools.",
+    bio: "Eileen Fisher is Academic Director and Head of School at Jakarta Nanyang School. The school is accredited by Cambridge (CAIE). 100% of Junior College 2 students matriculate to universities, with strong STEM placements in the UK and Singapore.",
   },
 
   photoAlts: [
@@ -2690,7 +2782,10 @@ const jakartaNanyang: SchoolProfile = {
   },
 
   academics: {
-    results: [],
+    results: [
+      { value: "100%", label: "JC2 university matriculation" },
+      { value: "Strong", label: "STEM placements (UK, Singapore)" },
+    ],
     paragraphs: [
       "Jakarta Nanyang School offers Cambridge Primary from kindergarten through Year 6, Cambridge IGCSEs in Years 7–10, and Cambridge A-Levels in Years 11–13. The curriculum follows Singapore's academic rigour and discipline.",
       "The trilingual approach means English is the medium of instruction for core subjects (Mathematics, Sciences, Humanities), while all students learn Mandarin Chinese and Bahasa Indonesia. Students can sit for Cambridge IGCSE Mandarin or HSK (Chinese proficiency test) exams.",
@@ -2703,6 +2798,12 @@ const jakartaNanyang: SchoolProfile = {
       "Jakarta Nanyang serves 700+ students from 20+ nationalities. The school's trilingual identity is central - families choose Jakarta Nanyang specifically for the Mandarin instruction and Singapore-style education.",
       "The community atmosphere reflects the school's academic focus and trilingual approach. Parents say the Singapore-style rigour creates high expectations, and the school culture values discipline and achievement.",
     ],
+    inspection: {
+      date: "Recent",
+      body: "Cambridge (CAIE)",
+      rating: "Accredited",
+      findings: "Jakarta Nanyang School is accredited by Cambridge Assessment International Education. 100% of Junior College 2 students matriculate to universities; strong STEM placements in the UK and Singapore.",
+    },
   },
 
   schoolLife: {
@@ -2764,9 +2865,17 @@ const jakartaNanyang: SchoolProfile = {
 // MINIMAL PROFILES — for schools with listing data only
 // ═══════════════════════════════════════════════════════
 
+type CsvRow = { addressFull?: string; facilities?: string; nationalitiesCount?: string; foundedYear?: string };
+const getCsvRow = (slug: string): CsvRow | undefined =>
+  (JAKARTA_CSV_EXPORT as Record<string, CsvRow>)[slug];
+
 function createMinimalProfile(L: JakartaSchoolListing): SchoolProfile {
   const highK = extractHighestFee(L.feeRange);
   const tuitionIDR = highK > 0 ? Math.round(highK * 1000 * EXCHANGE_RATE) : 100_000_000;
+  const csv = getCsvRow(L.slug);
+  const address = (csv?.addressFull || L.area).trim() || L.area;
+  const facilitiesList =
+    csv?.facilities?.split("|").map((s) => s.trim()).filter(Boolean) ?? [];
   return {
     slug: L.slug,
     citySlug: "jakarta",
@@ -2776,7 +2885,7 @@ function createMinimalProfile(L: JakartaSchoolListing): SchoolProfile {
     metaTitle: `${L.name} — Fees, Review & Contact`,
     metaDescription: `${L.name} (${L.area}). ${L.editorialSummary.slice(0, 140)}…`,
     campuses: [
-      { name: "Main Campus", address: L.area, grades: L.ageRange, lat: -6.2, lng: 106.8 },
+      { name: "Main Campus", address, grades: L.ageRange, lat: -6.2, lng: 106.8 },
     ],
     lastUpdated: "February 2026",
     curricula: L.curricula,
@@ -2816,18 +2925,24 @@ function createMinimalProfile(L: JakartaSchoolListing): SchoolProfile {
     },
     studentBody: { paragraphs: ["Diverse international and local student body. Contact the school for current enrolment details."] },
     schoolLife: {
-      activitiesCount: 0,
+      activitiesCount: facilitiesList.length > 0 ? Math.min(facilitiesList.length * 2, 50) : 0,
       uniformRequired: true,
-      facilities: [],
-      paragraphs: ["Contact the school for details on co-curricular activities and facilities."],
+      facilities: facilitiesList,
+      paragraphs: facilitiesList.length > 0 ? ["Facilities include: " + facilitiesList.slice(0, 5).join(", ") + (facilitiesList.length > 5 ? "." : ".")] : ["Contact the school for details on co-curricular activities and facilities."],
     },
-    contact: { phone: "", email: "", website: "" },
+    contact: {
+      phone: L.phone ?? "",
+      email: L.email ?? "",
+      website: L.website ?? "",
+    },
     sidebar: {
       quickFacts: [
         { label: "Location", value: L.area },
         { label: "Curriculum", value: L.curricula.slice(0, 2).join(", ") },
         { label: "Students", value: L.studentCount },
         { label: "Ages", value: L.ageRange },
+        ...(csv?.nationalitiesCount ? [{ label: "Nationalities", value: csv.nationalitiesCount + "+" }] : []),
+        ...(csv?.foundedYear ? [{ label: "Founded", value: csv.foundedYear }] : []),
         { label: "Fees", value: L.feeRange },
       ],
       otherSchools: [],
@@ -2837,7 +2952,7 @@ function createMinimalProfile(L: JakartaSchoolListing): SchoolProfile {
     },
     jsonLd: {
       description: L.editorialSummary,
-      foundingDate: "",
+      foundingDate: csv?.foundedYear ?? "",
       numberOfStudents: L.studentCount,
     },
   };

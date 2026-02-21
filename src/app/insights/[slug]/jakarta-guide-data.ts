@@ -97,5 +97,5 @@ export const SECTION2_ALL_SCHOOLS: Section2Row[] = [
   { school: "Sekolah Cita Buana", area: "South Jakarta", curriculum: "IPC / Cambridge", fees: "US$2.5K – US$5.2K", slug: "sekolah-cita-buana" },
   { school: "Sekolah Victory Plus", area: "East Jakarta", curriculum: "IB PYP / MYP / DP", fees: "US$2K – US$5K", slug: "sekolah-victory-plus" },
   { school: "Penabur International School", area: "North Jakarta", curriculum: "IGCSEs / A-Levels", fees: "Contact school", slug: "penabur-international-school" },
-  { school: "Sinarmas World Academy", area: "BSD", curriculum: "IB MYP / IB DP", fees: "Not public", slug: "sinarmas-world-academy" },
+  { school: "Sinarmas World Academy", area: "BSD", curriculum: "IB MYP / IB DP", fees: "Fees not published", slug: "sinarmas-world-academy" },
 ];

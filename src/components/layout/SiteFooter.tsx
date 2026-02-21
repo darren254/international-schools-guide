@@ -37,16 +37,16 @@ export function SiteFooter() {
           </div>
 
           <div>
-            <p className="text-label-xs uppercase text-[#8A857E] mb-5">For Schools</p>
-            <ul className="flex flex-col gap-2.5">
-              {["Claim your profile"].map((label) => (
-                <li key={label}>
-                  <Link href="/for-schools/" className="text-sm hover:text-cream transition-colors">
-                    {label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <p className="text-label-xs uppercase text-[#8A857E] mb-5">Is your school listed?</p>
+            <p className="text-sm text-[#8A857E] leading-relaxed mb-3">
+              We profile every international school independently. Spot something wrong? We&apos;d like to hear from you.
+            </p>
+            <a
+              href="mailto:mia@international-schools-guide.com?subject=School%20listing%20enquiry"
+              className="text-sm hover:text-cream transition-colors inline-block"
+            >
+              Get in touch →
+            </a>
           </div>
         </div>
 

@@ -59,6 +59,11 @@ export function SortableSchoolsTableSection1({ rows }: { rows: Section1Row[] }) 
       if (sortKey === "fees") {
         va = parseFeeLow(a.fees);
         vb = parseFeeLow(b.fees);
+        // Unpublished/contact-school fees (0) always sort to bottom
+        if (va === 0 && vb === 0) return 0;
+        if (va === 0) return 1;
+        if (vb === 0) return -1;
+        return sortDir === "asc" ? va - vb : vb - va;
       }
       if (typeof va === "number" && typeof vb === "number") {
         return sortDir === "asc" ? va - vb : vb - va;
@@ -141,6 +146,11 @@ export function SortableSchoolsTableSection2({ rows }: { rows: Section2Row[] }) 
       if (sortKey === "fees") {
         va = parseFeeLow(a.fees);
         vb = parseFeeLow(b.fees);
+        // Unpublished/contact-school fees (0) always sort to bottom
+        if (va === 0 && vb === 0) return 0;
+        if (va === 0) return 1;
+        if (vb === 0) return -1;
+        return sortDir === "asc" ? va - vb : vb - va;
       }
       if (typeof va === "number" && typeof vb === "number") {
         return sortDir === "asc" ? va - vb : vb - va;

@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { extractHighestFee } from "@/lib/utils/fees";
+import { extractHighestFee, getFeeDisplay, hasPublishableFee } from "@/lib/utils/fees";
 import { ShareButton } from "@/components/share/ShareButton";
 import { JAKARTA_SCHOOLS } from "@/data/jakarta-schools";
 import { SCHOOL_PROFILES } from "@/data/schools";
@@ -51,7 +51,8 @@ function getQuickFact(profile: { sidebar: { quickFacts: { label: string; value: 
 
 function toCompareSchool(s: (typeof JAKARTA_SCHOOLS)[0]): CompareSchool {
   const shortName = SHORT_NAMES[s.slug] ?? s.name.split(" ").slice(0, 2).join(" ");
-  const highK = extractHighestFee(s.feeRange);
+  const displayFee = getFeeDisplay(s.feeRange, s.slug);
+  const highK = extractHighestFee(displayFee);
   const profile = SCHOOL_PROFILES[s.slug];
   return {
     slug: s.slug,
@@ -65,7 +66,7 @@ function toCompareSchool(s: (typeof JAKARTA_SCHOOLS)[0]): CompareSchool {
     ageRange: s.ageRange,
     studentCount: s.studentCount,
     nationalities: profile ? getQuickFact(profile, "Nationalities") : "",
-    feeRange: s.feeRange,
+    feeRange: displayFee,
     feeFromUSD: highK * 1000,
     examResults: s.examResults,
     accreditation: profile ? getQuickFact(profile, "Accreditation") : "",
@@ -77,8 +78,8 @@ function toCompareSchool(s: (typeof JAKARTA_SCHOOLS)[0]): CompareSchool {
 
 const ALL_SCHOOLS: CompareSchool[] = JAKARTA_SCHOOLS.map(toCompareSchool);
 
-// Comparison rows definition
-const COMPARE_ROWS: { key: string; label: string; render: (s: CompareSchool) => string }[] = [
+// Comparison rows definition (render may return string or ReactNode for fee note)
+const COMPARE_ROWS: { key: string; label: string; render: (s: CompareSchool) => React.ReactNode }[] = [
   { key: "area", label: "Location", render: (s) => s.area },
   { key: "founded", label: "Founded", render: (s) => s.founded },
   { key: "type", label: "Type", render: (s) => s.type },
@@ -86,7 +87,21 @@ const COMPARE_ROWS: { key: string; label: string; render: (s: CompareSchool) => 
   { key: "ageRange", label: "Age Range", render: (s) => s.ageRange },
   { key: "studentCount", label: "Students", render: (s) => s.studentCount },
   { key: "nationalities", label: "Nationalities", render: (s) => s.nationalities },
-  { key: "feeRange", label: "Annual Fees", render: (s) => s.feeRange },
+  {
+    key: "feeRange",
+    label: "Annual Fees",
+    render: (s) =>
+      !hasPublishableFee(s.feeRange) ? (
+        <span>
+          {s.feeRange}
+          <span className="block text-[0.75rem] text-charcoal-muted mt-1 font-normal">
+            This school does not publish tuition fees — contact the school directly.
+          </span>
+        </span>
+      ) : (
+        s.feeRange
+      ),
+  },
   { key: "examResults", label: "Exam Results", render: (s) => s.examResults.map((r) => `${r.label}: ${r.value}`).join(" · ") },
   { key: "accreditation", label: "Accreditation", render: (s) => s.accreditation },
   { key: "classSize", label: "Class Size", render: (s) => s.classSize },
@@ -101,12 +116,16 @@ function CompareContent() {
   const [showPicker, setShowPicker] = useState(true);
   const [urlParsed, setUrlParsed] = useState(false);
 
-  // Sort schools by highest fee (descending) - default sort order
+  // Sort schools by highest fee (descending); schools without published fees always at bottom
   const sortedSchools = useMemo(() => {
     return [...ALL_SCHOOLS].sort((a, b) => {
+      const aHasFee = hasPublishableFee(a.feeRange);
+      const bHasFee = hasPublishableFee(b.feeRange);
+      if (aHasFee !== bHasFee) return aHasFee ? -1 : 1;
+      if (!aHasFee) return 0;
       const feeA = extractHighestFee(a.feeRange);
       const feeB = extractHighestFee(b.feeRange);
-      return feeB - feeA; // Descending order (high to low)
+      return feeB - feeA;
     });
   }, []);
 
@@ -187,7 +206,7 @@ function CompareContent() {
               </button>
             )}
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 items-stretch">
             {sortedSchools.map((school) => {
               const isSelected = selected.includes(school.slug);
               const isDisabled = !isSelected && selected.length >= 4;
@@ -196,7 +215,7 @@ function CompareContent() {
                   key={school.slug}
                   onClick={() => !isDisabled && toggleSchool(school.slug)}
                   disabled={isDisabled}
-                  className={`text-left p-4 border rounded-sm transition-all ${
+                  className={`text-left p-4 border rounded-sm transition-all flex flex-col min-h-[7.5rem] ${
                     isSelected
                       ? "border-hermes bg-hermes-light/50"
                       : isDisabled
@@ -225,7 +244,7 @@ function CompareContent() {
                       )}
                     </div>
                   </div>
-                  <div className="flex flex-wrap gap-1 mt-2">
+                  <div className="flex flex-wrap gap-1 mt-auto">
                     {school.curricula.slice(0, 2).map((c) => (
                       <span key={c} className="text-[0.625rem] uppercase tracking-wider text-charcoal-muted">
                         {c}

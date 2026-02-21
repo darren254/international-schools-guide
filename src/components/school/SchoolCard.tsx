@@ -77,7 +77,7 @@ export function SchoolCard({
           </svg>
         </button>
       </div>
-      <div className="flex-1 min-w-0 p-6 sm:p-7">
+      <div className="flex-1 min-w-0 p-6 sm:p-7 flex flex-col min-h-0">
         <div className="flex items-start justify-between gap-3 mb-2">
           <span className="card-title font-display text-display-sm font-medium text-charcoal leading-tight">
             {name}
@@ -90,7 +90,7 @@ export function SchoolCard({
         <p className="text-[0.875rem] text-charcoal-light leading-relaxed mb-4 font-body">
           {editorialSummary}
         </p>
-        <div className="flex flex-wrap gap-x-3 gap-y-1 mb-4">
+        <div className="flex flex-wrap gap-x-3 gap-y-1 mb-4 mt-auto">
           {curricula.map((c) => (
             <span key={c} className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted">
               {c}

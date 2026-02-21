@@ -16,7 +16,18 @@ export const metadata: Metadata = {
   },
 };
 
-const FEATURED_SCHOOLS_RAW = [
+const FEATURED_SCHOOLS_RAW: {
+  name: string;
+  slug: string;
+  city: string;
+  citySlug: string;
+  curricula: string[];
+  feeRange: string;
+  ibAverage: string;
+  students: string;
+  hook: string;
+  sponsored?: boolean;
+}[] = [
   {
     name: "Jakarta Intercultural School",
     slug: "jakarta-intercultural-school",
@@ -27,6 +38,7 @@ const FEATURED_SCHOOLS_RAW = [
     ibAverage: "35.8",
     students: "2,500+",
     hook: "Jakarta's largest and most established international school",
+    sponsored: false,
   },
   {
     name: "The Independent School of Jakarta",
@@ -38,6 +50,7 @@ const FEATURED_SCHOOLS_RAW = [
     ibAverage: "—",
     students: "200",
     hook: "Small, personal British school with standout pastoral care and class sizes capped at 16",
+    sponsored: false,
   },
   {
     name: "British School Jakarta",
@@ -49,6 +62,7 @@ const FEATURED_SCHOOLS_RAW = [
     ibAverage: "34.2",
     students: "1,800+",
     hook: "Top British curriculum school with strong IB Diploma results",
+    sponsored: false,
   },
   {
     name: "Australian Independent School",
@@ -60,6 +74,7 @@ const FEATURED_SCHOOLS_RAW = [
     ibAverage: "33.5",
     students: "1,200+",
     hook: "Well-regarded Australian curriculum at a competitive price point",
+    sponsored: false,
   },
 ];
 
@@ -70,7 +85,27 @@ const FEATURED_SCHOOLS = [...FEATURED_SCHOOLS_RAW].sort((a, b) => {
   return feeB - feeA; // Descending order (high to low)
 });
 
-// City grid and Popular row use CITIES from @/data/cities (live vs coming soon)
+// 3 most recent insights for "From the guide" (by date)
+const FROM_THE_GUIDE = [
+  {
+    slug: "best-international-schools-jakarta",
+    title: "International Schools in Jakarta — A Practical Guide for Expat Families (2026)",
+    category: "Guide",
+    description: "More than 60 international schools; compare fees, curricula, and locations. Honest guide to JIS, BSJ, ISJ, AIS, and 60+ options.",
+  },
+  {
+    slug: "jakarta-fee-increases-2026-27",
+    title: "Jakarta Schools Announce 2026–27 Fee Increases: What Parents Need to Know",
+    category: "Fees",
+    description: "Annual tuition at Jakarta's top international schools is rising 4–8% for 2026–27. We break down the changes school by school.",
+  },
+  {
+    slug: "new-british-school-bsd-city",
+    title: "New International School Opening in BSD City, Tangerang",
+    category: "News",
+    description: "A British curriculum school backed by a UK education group is set to open in August 2026, adding competition in Greater Jakarta.",
+  },
+];
 
 const FEATURED_NEWS = [
   {
@@ -96,39 +131,6 @@ const FEATURED_NEWS = [
     date: "28 Jan 2026",
     excerpt:
       "JIS, BSJ, and Mentari all posted strong IB results this year. We compare averages, pass rates, and top scorers.",
-  },
-];
-
-const CURRICULA = [
-  "International Baccalaureate (IB)",
-  "British Curriculum",
-  "American Curriculum",
-  "Australian Curriculum",
-  "French Curriculum",
-  "Singaporean",
-];
-
-const EDITORIAL_HIGHLIGHTS = [
-  {
-    label: "Guide",
-    title: "How to Choose an International School in Jakarta",
-    slug: "/insights/choosing-international-school-jakarta/",
-    excerpt:
-      "Curriculum, fees, commute, community — a structured framework for the biggest decision expat families make.",
-  },
-  {
-    label: "Fees",
-    title: "International School Fees in Southeast Asia: 2025 Comparison",
-    slug: "/insights/international-school-fees-southeast-asia-2025/",
-    excerpt:
-      "We compared annual fees at 50 schools across Jakarta, Singapore, Bangkok, and KL. Here's what we found.",
-  },
-  {
-    label: "IB Results",
-    title: "2025 IB Results: Top International Schools in Asia",
-    slug: "/insights/ib-results-top-schools-asia-2025/",
-    excerpt:
-      "Average scores, pass rates, and 45-point scholars — the definitive regional IB rankings.",
   },
 ];
 
@@ -213,11 +215,8 @@ export default function HomePage() {
       <section className="container-site mb-20">
         <div className="flex items-baseline justify-between mb-8">
           <div>
-            <p className="text-label-sm uppercase text-charcoal-muted tracking-wider mb-2">
-              Featured Schools
-            </p>
             <h2 className="font-display text-display-lg">
-              Most searched this month
+              Featured Schools
             </h2>
           </div>
           <Link
@@ -236,7 +235,13 @@ export default function HomePage() {
               className="group border border-warm-border rounded-sm overflow-hidden hover:border-charcoal-muted transition-colors bg-warm-white"
             >
               {/* Placeholder hero image */}
-              <div className="aspect-[16/7] bg-cream-300 group-hover:bg-cream-400 transition-colors" />
+              <div className="aspect-[16/7] bg-cream-300 group-hover:bg-cream-400 transition-colors relative">
+                {school.sponsored && (
+                  <span className="absolute top-2 right-2 text-[0.6875rem] uppercase tracking-wider text-charcoal-muted">
+                    Sponsored
+                  </span>
+                )}
+              </div>
               <div className="p-5">
                 <div className="flex items-start justify-between gap-3 mb-2">
                   <h3 className="font-display text-display-sm font-medium group-hover:text-hermes transition-colors leading-tight">
@@ -279,7 +284,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── City Guides ─── */}
+      {/* ─── City Guides grid (exactly 6) ─── */}
       <section className="bg-warm-white border-y border-warm-border-light py-16 mb-20">
         <div className="container-site">
           <div className="text-center mb-10">
@@ -291,11 +296,17 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {CITIES.map((city) => {
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {CITIES.slice(0, 6).map((city) => {
               const content = (
                 <>
-                  <div className="aspect-[16/8] bg-cream-300 group-hover:bg-cream-400 transition-colors" />
+                  <div className="aspect-[16/8] bg-cream-300 group-hover:bg-cream-400 transition-colors relative">
+                    {!city.live && (
+                      <span className="absolute top-2 right-2 text-[0.6875rem] uppercase tracking-wider text-charcoal-muted bg-warm-white/90 px-2 py-1 rounded-sm">
+                        Coming soon
+                      </span>
+                    )}
+                  </div>
                   <div className="p-5">
                     <div className="flex items-baseline justify-between mb-2">
                       <h3 className="font-display text-display-sm group-hover:text-hermes transition-colors">
@@ -349,38 +360,68 @@ export default function HomePage() {
               );
             })}
           </div>
+
+          <p className="text-center mt-8">
+            <Link
+              href="/cities"
+              className="text-sm font-medium text-hermes hover:text-hermes-hover transition-colors"
+            >
+              See all cities →
+            </Link>
+          </p>
         </div>
       </section>
 
-      {/* ─── Browse by curriculum ─── */}
+      {/* ─── From the guide (3 most recent insights) ─── */}
       <section className="container-site mb-20">
-        <div className="text-center mb-8">
-          <p className="text-label-sm uppercase text-charcoal-muted tracking-wider mb-3">
-            Browse by Curriculum
-          </p>
+        <div className="flex items-baseline justify-between mb-8">
+          <h2 className="font-display text-display-lg">
+            From the guide
+          </h2>
+          <Link
+            href="/insights/"
+            className="hidden md:inline-block text-sm text-hermes hover:text-hermes-hover transition-colors"
+          >
+            All insights →
+          </Link>
         </div>
-        <div className="flex flex-wrap justify-center gap-3">
-          {CURRICULA.map((c) => (
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {FROM_THE_GUIDE.map((article) => (
             <Link
-              key={c}
-              href="/international-schools/jakarta/"
-              className="border border-warm-border rounded-sm px-5 py-2.5 text-sm text-charcoal-light hover:border-hermes hover:text-hermes transition-colors bg-warm-white"
+              key={article.slug}
+              href={`/insights/${article.slug}`}
+              className="group border border-warm-border rounded-sm p-5 hover:border-charcoal-muted transition-colors bg-warm-white"
             >
-              {c}
+              <span className="text-label-xs uppercase text-hermes mb-2 block">
+                {article.category}
+              </span>
+              <h3 className="font-display text-[1.0625rem] font-medium leading-snug mb-2 group-hover:text-hermes transition-colors">
+                {article.title}
+              </h3>
+              <p className="text-sm text-charcoal-light leading-relaxed">
+                {article.description}
+              </p>
             </Link>
           ))}
         </div>
+
+        <div className="md:hidden text-center mt-6">
+          <Link
+            href="/insights/"
+            className="text-sm text-hermes hover:text-hermes-hover transition-colors"
+          >
+            All insights →
+          </Link>
+        </div>
       </section>
 
-      {/* ─── Featured News ─── */}
+      {/* ─── News (3 most recent) ─── */}
       <section className="container-site mb-20">
         <div className="flex items-baseline justify-between mb-8">
           <div>
-            <p className="text-label-sm uppercase text-charcoal-muted tracking-wider mb-2">
-              Latest
-            </p>
             <h2 className="font-display text-display-lg">
-              News & updates
+              News
             </h2>
           </div>
           <Link
@@ -421,42 +462,6 @@ export default function HomePage() {
           >
             All news →
           </Link>
-        </div>
-      </section>
-
-      {/* ─── Editorial / Insights ─── */}
-      <section className="bg-warm-white border-y border-warm-border-light py-16 mb-20">
-        <div className="container-site">
-          <div className="text-center mb-10">
-            <p className="text-label-sm uppercase text-charcoal-muted tracking-wider mb-2">
-              Insights
-            </p>
-            <h2 className="font-display text-display-lg">
-              Guides for expat families
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {EDITORIAL_HIGHLIGHTS.map((article) => (
-              <Link
-                key={article.slug}
-                href={article.slug}
-                className="group"
-              >
-                {/* Placeholder image area */}
-                <div className="aspect-[16/10] bg-cream-300 rounded-sm mb-4 group-hover:bg-cream-400 transition-colors" />
-                <p className="text-label-xs uppercase text-hermes mb-2">
-                  {article.label}
-                </p>
-                <h3 className="font-display text-[1.125rem] font-medium leading-snug mb-2 group-hover:text-hermes transition-colors">
-                  {article.title}
-                </h3>
-                <p className="text-sm text-charcoal-light leading-relaxed">
-                  {article.excerpt}
-                </p>
-              </Link>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -508,23 +513,18 @@ export default function HomePage() {
 
       {/* ─── For schools CTA ─── */}
       <section className="container-site py-16 text-center">
-        <p className="text-label-sm uppercase text-charcoal-muted tracking-wider mb-3">
-          For Schools
-        </p>
         <h2 className="font-display text-display-lg mb-4">
           Is your school listed?
         </h2>
         <p className="text-sm text-charcoal-light max-w-lg mx-auto mb-8 leading-relaxed">
-          We profile every international school — whether or not you ask us to.
-          Claim your profile to verify information, update fees, and respond to
-          our editorial review.
+          We profile every international school independently. If you spot anything outdated or incorrect, we&apos;d genuinely like to hear from you.
         </p>
-        <Link
-          href="/for-schools/"
+        <a
+          href="mailto:mia@international-schools-guide.com?subject=School%20listing%20enquiry"
           className="inline-block border border-charcoal text-charcoal px-8 py-3 text-sm font-medium uppercase tracking-wider hover:bg-charcoal hover:text-cream transition-colors"
         >
-          Claim Your Profile
-        </Link>
+          Get in touch →
+        </a>
       </section>
     </div>
   );

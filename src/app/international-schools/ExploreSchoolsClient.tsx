@@ -10,7 +10,7 @@ import {
   type LocationFilter,
   type JakartaSchoolListing,
 } from "@/data/jakarta-schools";
-import { extractHighestFee, extractLowestFee } from "@/lib/utils/fees";
+import { extractHighestFee, extractLowestFee, hasPublishableFee } from "@/lib/utils/fees";
 
 const CURRICULUM_OPTIONS = [
   { value: "", label: "All curricula" },
@@ -69,6 +69,10 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
     );
     const sortMultiplier = feeSort === "high-low" ? -1 : 1;
     list = [...list].sort((a, b) => {
+      const aHasFee = hasPublishableFee(a.feeRange);
+      const bHasFee = hasPublishableFee(b.feeRange);
+      if (aHasFee !== bHasFee) return aHasFee ? -1 : 1; // publishable fees first, then unpublished at bottom
+      if (!aHasFee) return 0;
       const feeA = extractHighestFee(a.feeRange);
       const feeB = extractHighestFee(b.feeRange);
       if (feeA !== feeB) return (feeA - feeB) * sortMultiplier;
