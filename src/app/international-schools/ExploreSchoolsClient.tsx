@@ -92,46 +92,25 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
           International Schools in {cityName}
         </h1>
         <p className="text-[0.9375rem] text-charcoal-muted mb-4 font-body">
-          {schools.length} schools · Filter by curriculum or location; sort by fees.
+          {schools.length} schools · Filter by location or curriculum; sort by fees.
         </p>
 
-        {/* One row: Curriculum dropdown · Location dropdown · Fees toggle (up/down arrow) */}
-        <div className="flex flex-wrap items-center gap-4 sm:gap-6 py-3">
-          <div className="flex items-center gap-2">
-            <label htmlFor="curriculum-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body whitespace-nowrap">
-              Curriculum
-            </label>
-            <select
-              id="curriculum-filter"
-              value={curriculum}
-              onChange={(e) => setCurriculum(e.target.value)}
-              className="bg-cream border border-warm-border text-[0.8125rem] text-charcoal font-body py-1.5 pl-2 pr-7 min-w-[160px] appearance-none cursor-pointer focus:outline-none focus:border-charcoal-muted"
-              style={{
-                backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237A756E' fill='none' stroke-width='1.5'/%3E%3C/svg%3E")`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "right 6px center",
-              }}
-            >
-              {CURRICULUM_OPTIONS.map((opt) => (
-                <option key={opt.value || "all"} value={opt.value}>
-                  {opt.label}
-                </option>
-              ))}
-            </select>
-          </div>
-          <div className="flex items-center gap-2">
-            <label htmlFor="location-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body whitespace-nowrap">
+        {/* Filters: priority order Location, Fees, Curriculum. Mobile: row1 Location+Fees 50/50, row2 Curriculum full; Desktop: single row */}
+        <div className="grid grid-cols-2 gap-4 py-3 md:grid-cols-3 md:gap-6">
+          {/* 1. Location — mobile row1 left, desktop first */}
+          <div className="flex flex-col gap-1.5 md:min-w-[160px]">
+            <label htmlFor="location-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
               Location
             </label>
             <select
               id="location-filter"
               value={location}
               onChange={(e) => setLocation(e.target.value as "" | LocationFilter)}
-              className="bg-cream border border-warm-border text-[0.8125rem] text-charcoal font-body py-1.5 pl-2 pr-7 min-w-[160px] appearance-none cursor-pointer focus:outline-none focus:border-charcoal-muted"
+              className="min-h-[44px] w-full bg-cream border border-warm-border text-[0.8125rem] text-charcoal font-body py-2 pl-3 pr-8 appearance-none cursor-pointer focus:outline-none focus:border-charcoal-muted rounded-none"
               style={{
                 backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237A756E' fill='none' stroke-width='1.5'/%3E%3C/svg%3E")`,
                 backgroundRepeat: "no-repeat",
-                backgroundPosition: "right 6px center",
+                backgroundPosition: "right 10px center",
               }}
             >
               {LOCATION_OPTIONS.map((opt) => (
@@ -141,21 +120,48 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
               ))}
             </select>
           </div>
-          <div className="flex items-center gap-2">
-            <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body whitespace-nowrap">
+
+          {/* 2. Fees sort — mobile row1 right, desktop second */}
+          <div className="flex flex-col gap-1.5 md:min-w-[160px]">
+            <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
               Fees
             </span>
             <button
               type="button"
               onClick={() => setFeeSort((s) => (s === "high-low" ? "low-high" : "high-low"))}
-              className="flex items-center justify-center border border-warm-border bg-cream p-2 text-charcoal hover:border-charcoal-muted transition-colors"
+              className="min-h-[44px] w-full flex items-center justify-center gap-2 border border-warm-border bg-cream text-[0.8125rem] text-charcoal font-body hover:border-charcoal-muted transition-colors focus:outline-none focus:border-charcoal-muted rounded-none"
               aria-label={feeSort === "high-low" ? "Sort fees high to low (click for low to high)" : "Sort fees low to high (click for high to low)"}
               title={feeSort === "high-low" ? "High → Low" : "Low → High"}
             >
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                 <path d="M5 7l4-4 4 4M5 11l4 4 4-4" />
               </svg>
+              <span className="hidden sm:inline">{feeSort === "high-low" ? "High → Low" : "Low → High"}</span>
             </button>
+          </div>
+
+          {/* 3. Curriculum — mobile row2 full width, desktop third */}
+          <div className="col-span-2 flex flex-col gap-1.5 md:col-span-1 md:min-w-[160px]">
+            <label htmlFor="curriculum-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
+              Curriculum
+            </label>
+            <select
+              id="curriculum-filter"
+              value={curriculum}
+              onChange={(e) => setCurriculum(e.target.value)}
+              className="min-h-[44px] w-full bg-cream border border-warm-border text-[0.8125rem] text-charcoal font-body py-2 pl-3 pr-8 appearance-none cursor-pointer focus:outline-none focus:border-charcoal-muted rounded-none"
+              style={{
+                backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237A756E' fill='none' stroke-width='1.5'/%3E%3C/svg%3E")`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "right 10px center",
+              }}
+            >
+              {CURRICULUM_OPTIONS.map((opt) => (
+                <option key={opt.value || "all"} value={opt.value}>
+                  {opt.label}
+                </option>
+              ))}
+            </select>
           </div>
         </div>
       </section>

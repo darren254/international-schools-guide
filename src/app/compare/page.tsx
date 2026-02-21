@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { extractHighestFee } from "@/lib/utils/fees";
+import { ShareButton } from "@/components/share/ShareButton";
 import { JAKARTA_SCHOOLS } from "@/data/jakarta-schools";
 import { SCHOOL_PROFILES } from "@/data/schools";
 
@@ -159,12 +160,15 @@ function CompareContent() {
         <h1 className="font-display text-[clamp(1.75rem,4vw,2.5rem)] font-medium tracking-tight leading-tight mb-2">
           Compare Schools
         </h1>
-        <p className="text-[0.9375rem] text-charcoal-muted">
+        <p className="text-[0.9375rem] text-charcoal-muted mb-4">
           Select up to 4 schools to compare side by side.{" "}
           {selected.length > 0 && (
             <span className="text-hermes font-medium">{selected.length} selected</span>
           )}
         </p>
+        {selected.length >= 2 && (
+          <ShareButton variant="comparison" schoolSlugs={selected} />
+        )}
       </section>
 
       {/* School picker */}

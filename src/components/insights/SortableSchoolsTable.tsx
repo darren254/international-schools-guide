@@ -71,14 +71,14 @@ export function SortableSchoolsTableSection1({ rows }: { rows: Section1Row[] }) 
   }, [rows, sortKey, sortDir]);
 
   return (
-    <div className="overflow-x-auto -mx-4 px-4 md:mx-0 md:px-0 my-8">
+    <div className="overflow-x-auto -mx-4 px-4 md:mx-0 md:px-0 my-8 [-webkit-overflow-scrolling:touch]">
       <table className="w-full border-collapse text-left min-w-[600px]">
         <thead>
           <tr className="border-b-2 border-warm-border">
             {(["school", "curriculum", "ages", "fees", "location"] as const).map((key) => (
               <th
                 key={key}
-                className="font-sans text-xs font-semibold uppercase tracking-wider text-charcoal-muted py-3 pr-4 cursor-pointer hover:text-charcoal select-none"
+                className={`font-sans text-xs font-semibold uppercase tracking-wider text-charcoal-muted py-3 pr-4 cursor-pointer hover:text-charcoal select-none ${key === "school" ? "max-md:sticky max-md:left-0 max-md:z-10 max-md:bg-white max-md:shadow-[4px_0_8px_-4px_rgba(0,0,0,0.08)]" : ""}`}
                 onClick={() => handleSort(key)}
               >
                 <span className="inline-flex items-center gap-1">
@@ -95,8 +95,8 @@ export function SortableSchoolsTableSection1({ rows }: { rows: Section1Row[] }) 
         </thead>
         <tbody>
           {sorted.map((row, i) => (
-            <tr key={i} className="border-b border-warm-border hover:bg-cream-50/50">
-              <td className="py-3 pr-4">
+            <tr key={i} className="group border-b border-warm-border hover:bg-cream-50/50">
+              <td className="py-3 pr-4 max-md:sticky max-md:left-0 max-md:z-[1] max-md:bg-white max-md:group-hover:bg-cream-50/50 max-md:shadow-[4px_0_8px_-4px_rgba(0,0,0,0.08)]">
                 {row.slug ? (
                   <Link
                     href={`/international-schools/jakarta/${row.slug}/`}
@@ -153,14 +153,14 @@ export function SortableSchoolsTableSection2({ rows }: { rows: Section2Row[] }) 
   }, [rows, sortKey, sortDir]);
 
   return (
-    <div className="overflow-x-auto -mx-4 px-4 md:mx-0 md:px-0 my-8">
+    <div className="overflow-x-auto -mx-4 px-4 md:mx-0 md:px-0 my-8 [-webkit-overflow-scrolling:touch]">
       <table className="w-full border-collapse text-left min-w-[500px]">
         <thead>
           <tr className="border-b-2 border-warm-border">
             {(["school", "area", "curriculum", "fees"] as const).map((key) => (
               <th
                 key={key}
-                className="font-sans text-xs font-semibold uppercase tracking-wider text-charcoal-muted py-3 pr-4 cursor-pointer hover:text-charcoal select-none"
+                className={`font-sans text-xs font-semibold uppercase tracking-wider text-charcoal-muted py-3 pr-4 cursor-pointer hover:text-charcoal select-none ${key === "school" ? "max-md:sticky max-md:left-0 max-md:z-10 max-md:bg-white max-md:shadow-[4px_0_8px_-4px_rgba(0,0,0,0.08)]" : ""}`}
                 onClick={() => handleSort(key)}
               >
                 <span className="inline-flex items-center gap-1">
@@ -176,8 +176,8 @@ export function SortableSchoolsTableSection2({ rows }: { rows: Section2Row[] }) 
         </thead>
         <tbody>
           {sorted.map((row, i) => (
-            <tr key={i} className="border-b border-warm-border hover:bg-cream-50/50">
-              <td className="py-3 pr-4">
+            <tr key={i} className="group border-b border-warm-border hover:bg-cream-50/50">
+              <td className="py-3 pr-4 max-md:sticky max-md:left-0 max-md:z-[1] max-md:bg-white max-md:group-hover:bg-cream-50/50 max-md:shadow-[4px_0_8px_-4px_rgba(0,0,0,0.08)]">
                 {row.slug ? (
                   <Link
                     href={`/international-schools/jakarta/${row.slug}/`}

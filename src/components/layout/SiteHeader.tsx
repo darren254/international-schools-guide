@@ -2,9 +2,25 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { useShortlistOptional } from "@/context/ShortlistContext";
 
 export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const shortlist = useShortlistOptional();
+  const shortlistCount = shortlist?.shortlistedSlugs.length ?? 0;
+  const compareHref =
+    shortlist && shortlistCount >= 2
+      ? `/compare?schools=${shortlist.shortlistedSlugs.slice(0, 4).join(",")}`
+      : "/compare";
+
+  const navLinks = [
+    { href: "/international-schools/", label: "Schools" },
+    { href: "/shortlist", label: shortlistCount > 0 ? `Shortlist (${shortlistCount})` : "Shortlist" },
+    { href: compareHref, label: "Compare" },
+    { href: "/insights/", label: "Insights" },
+    { href: "/news/", label: "News" },
+    { href: "/about/", label: "About" },
+  ];
 
   return (
     <header className="bg-warm-white border-b border-warm-border sticky top-0 z-50">
@@ -19,12 +35,7 @@ export function SiteHeader() {
           {/* Nav */}
           <nav className="hidden md:block">
             <ul className="flex items-center gap-8">
-              {[
-                { href: "/international-schools/", label: "Schools" },
-                { href: "/insights/", label: "Insights" },
-                { href: "/news/", label: "News" },
-                { href: "/about/", label: "About" },
-              ].map((link) => (
+              {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -73,12 +84,7 @@ export function SiteHeader() {
         {mobileOpen && (
           <nav className="md:hidden border-t border-warm-border py-4">
             <ul className="flex flex-col gap-4">
-              {[
-                { href: "/international-schools/", label: "Schools" },
-                { href: "/insights/", label: "Insights" },
-                { href: "/news/", label: "News" },
-                { href: "/about/", label: "About" },
-              ].map((link) => (
+              {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}

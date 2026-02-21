@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { SortableSchoolsTableSection1, SortableSchoolsTableSection2 } from "@/components/insights/SortableSchoolsTable";
-import { ArticleShareButton } from "@/components/insights/ArticleShareButton";
+import { ShareButton } from "@/components/share/ShareButton";
 import {
   SECTION1_POPULAR_SCHOOLS,
   SECTION2_ALL_SCHOOLS,
@@ -47,6 +47,28 @@ export async function generateMetadata({
 }
 
 // ═══════════════════════════════════════════════════════
+// Image placeholders — bg #e8e4df, label #999 13px, rounded 4px. Mobile: floats clear, full width, mb-20
+// ═══════════════════════════════════════════════════════
+
+function ImagePlaceholder({
+  label,
+  className = "",
+}: {
+  label: string;
+  className?: string;
+}) {
+  return (
+    <div
+      className={`flex items-center justify-center rounded bg-[#e8e4df] font-sans text-[13px] text-[#999] ${className}`}
+      role="img"
+      aria-label={label}
+    >
+      {label}
+    </div>
+  );
+}
+
+// ═══════════════════════════════════════════════════════
 // JAKARTA GUIDE CONTENT — 2026 Edition
 // ═══════════════════════════════════════════════════════
 
@@ -68,15 +90,13 @@ function JakartaGuide() {
             <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] text-charcoal leading-tight mb-2">
               International Schools in Jakarta
             </h1>
-            <p className="font-display text-xl text-charcoal-muted mb-6">
+            <p className="font-display text-xl text-charcoal-muted mb-8">
               A Practical Guide for Expat Families — 2026 Edition
-            </p>
-            <p className="text-sm text-charcoal-muted font-sans mb-6">
-              Published by international-schools-guide.com
             </p>
 
             {/* Share */}
-            <ArticleShareButton
+            <ShareButton
+              variant="article"
               url={`${BASE_URL}/insights/best-international-schools-jakarta`}
               title="International Schools in Jakarta — A Practical Guide for Expat Families (2026)"
             />
@@ -106,6 +126,12 @@ function JakartaGuide() {
                 </a>
               </div>
             </div>
+
+            {/* Hero image placeholder */}
+            <ImagePlaceholder
+              label="Hero — Jakarta aerial or school campus"
+              className="mb-10 w-full max-w-[800px] h-[220px] md:h-[450px]"
+            />
 
             {/* TL;DR */}
             <div className="bg-cream-50 border-l-4 border-hermes py-4 px-5 mb-10 font-sans">
@@ -153,12 +179,23 @@ function JakartaGuide() {
                 <p>
                   Founded in 1951, now around 2,500 students across three South Jakarta campuses, 60-plus nationalities, an IB average of 35.8 with a 97.5 per cent pass rate. Facilities that wouldn't embarrass a small American university. Multiple pools, theatres, a purpose-built special education centre. For families on a full corporate package.
                 </p>
+                <ImagePlaceholder
+                  label="JIS — campus scale or facilities"
+                  className="mb-5 w-full h-[220px] max-md:clear-both max-md:float-none md:ml-6 md:h-[280px] md:w-[400px] md:float-right md:flex-shrink-0"
+                />
                 <p>
                   Two caveats deserve attention. For many, JIS is at its core, an American-culture school. The campus atmosphere reflects that: loud, confident, sports-obsessed in the American sense, with homecoming, prom, and a social hierarchy that will feel immediately familiar to some. For quiet children the cultural adjustment is worth factoring in. The second issue is the campus geography itself. Three separate sites may mean an awkward commute for some families with children across different sites. Alumni reach Stanford, Cornell, Berkeley with some regularity.
                 </p>
-                <p className="text-sm text-charcoal-muted font-sans mt-4">
-                  Curriculum: American (JIS Diploma) / IB Diploma / AP Ages: 3–18 (Pre-K to Grade 12) Annual fees: US$23,000 – US$37,000 + annual capital levy approx. US$4,100 Location: Cilandak / Pondok Indah / Pattimura, South Jakarta
-                </p>
+                <dl className="mt-4 grid grid-cols-1 gap-y-2 text-sm font-sans sm:grid-cols-2 sm:gap-x-6">
+                  <dt className="font-medium text-charcoal">Curriculum</dt>
+                  <dd className="text-charcoal-muted">American (JIS Diploma) / IB Diploma / AP</dd>
+                  <dt className="font-medium text-charcoal">Ages</dt>
+                  <dd className="text-charcoal-muted">3–18 (Pre-K to Grade 12)</dd>
+                  <dt className="font-medium text-charcoal">Fees</dt>
+                  <dd className="text-charcoal-muted">US$23,000 – US$37,000 + annual capital levy approx. US$4,100</dd>
+                  <dt className="font-medium text-charcoal">Location</dt>
+                  <dd className="text-charcoal-muted">Cilandak / Pondok Indah / Pattimura, South Jakarta</dd>
+                </dl>
               </section>
 
               <section>
@@ -168,12 +205,23 @@ function JakartaGuide() {
                 <p>
                   BSJ sits on an 18-hectare campus in Bintaro. A hybrid British-to-IB dual pathway, CIS-accredited, and COBIS-affiliated. Sport and performing arts taken seriously alongside academics. A community warmth that doesn't always exist at larger schools.
                 </p>
+                <ImagePlaceholder
+                  label="BSJ — Bintaro campus"
+                  className="mb-5 w-full h-[220px] max-md:clear-both max-md:float-none md:mr-6 md:h-[280px] md:w-[400px] md:float-left md:flex-shrink-0"
+                />
                 <p>
                   Bintaro, though. That's the conversation that follows. Located in South Tangerang, about 18 kilometres from the Kemang and Pondok Indah expat heartlands. Those 18 kilometres translate to 60 to 90 minutes each way in Jakarta traffic. Many families who love BSJ endure the commute. Some burn out and switch schools after a year. BSJ has seen leadership turbulence in recent years, with a newer senior team than the school's established reputation might suggest. Worth asking about directly. And on wellbeing culture: BSJ markets it prominently, but some teacher voices suggest the reality is more variable than the branding implies.
                 </p>
-                <p className="text-sm text-charcoal-muted font-sans mt-4">
-                  Curriculum: British (EYFS / National Curriculum) / IB Diploma Ages: 2–18 Annual fees: US$9,200 – US$30,000 + enrollment deposit IDR 30M Location: Bintaro Sektor 9, South Tangerang (NOT central Jakarta)
-                </p>
+                <dl className="mt-4 grid grid-cols-1 gap-y-2 text-sm font-sans sm:grid-cols-2 sm:gap-x-6">
+                  <dt className="font-medium text-charcoal">Curriculum</dt>
+                  <dd className="text-charcoal-muted">British (EYFS / National Curriculum) / IB Diploma</dd>
+                  <dt className="font-medium text-charcoal">Ages</dt>
+                  <dd className="text-charcoal-muted">2–18</dd>
+                  <dt className="font-medium text-charcoal">Fees</dt>
+                  <dd className="text-charcoal-muted">US$9,200 – US$30,000 + enrollment deposit IDR 30M</dd>
+                  <dt className="font-medium text-charcoal">Location</dt>
+                  <dd className="text-charcoal-muted">Bintaro Sektor 9, South Tangerang (NOT central Jakarta)</dd>
+                </dl>
               </section>
 
               <section>
@@ -183,12 +231,33 @@ function JakartaGuide() {
                 <p>
                   The most recent addition to Jakarta's premium school set. Around 200 students and growing. Very much a British independent school ethos and faculty. Parents have raved about the teachers. Part of The Schools Trust (UK), 100% British-qualified teacher body, fees that include materials and capital contribution in a single all-in figure.
                 </p>
+                <ImagePlaceholder
+                  label="ISJ — classroom or teacher with student"
+                  className="mb-5 w-full h-[220px] max-md:clear-both max-md:float-none md:ml-6 md:h-[280px] md:w-[400px] md:float-right md:flex-shrink-0"
+                />
                 <p>
                   ISJ is still growing, and with that comes the smaller school experience. The tight-knit community, the teachers who know every child, the sense that nothing falls through the cracks. On the other hand, there is a more limited range of sports, activities, and social breadth that a larger campus naturally provides. For many families that trade off is worth it, particularly for younger children. And the trajectory is clearly upward: a second campus next door is planned, extending all the way through to A-Levels, backed by The Schools Trust's long track record of placing students at leading universities across the UK, the US and Australia.
                 </p>
-                <p className="text-sm text-charcoal-muted font-sans mt-4">
-                  Curriculum: British (EYFS / English National Curriculum) Ages: 2–13 (Pre-Nursery to Year 8) Annual fees: US$9,200 – US$30,000 (all-in, including materials and capital contribution) Location: Pondok Indah, South Jakarta
-                </p>
+                <div className="flex flex-wrap gap-4 max-md:clear-both md:gap-[4%]">
+                  <ImagePlaceholder
+                    label="ISJ — football pitch"
+                    className="mb-5 h-[220px] w-full md:mb-0 md:w-[48%]"
+                  />
+                  <ImagePlaceholder
+                    label="ISJ — swimming pool"
+                    className="mb-5 h-[220px] w-full md:mb-0 md:w-[48%]"
+                  />
+                </div>
+                <dl className="mt-4 grid grid-cols-1 gap-y-2 text-sm font-sans sm:grid-cols-2 sm:gap-x-6">
+                  <dt className="font-medium text-charcoal">Curriculum</dt>
+                  <dd className="text-charcoal-muted">British (EYFS / English National Curriculum)</dd>
+                  <dt className="font-medium text-charcoal">Ages</dt>
+                  <dd className="text-charcoal-muted">2–13 (Pre-Nursery to Year 8)</dd>
+                  <dt className="font-medium text-charcoal">Fees</dt>
+                  <dd className="text-charcoal-muted">US$9,200 – US$30,000 (all-in, including materials and capital contribution)</dd>
+                  <dt className="font-medium text-charcoal">Location</dt>
+                  <dd className="text-charcoal-muted">Pondok Indah, South Jakarta</dd>
+                </dl>
               </section>
 
               <section>
@@ -198,12 +267,23 @@ function JakartaGuide() {
                 <p>
                   Three conversations bring AIS up reliably: when parents have children with additional learning needs, when families are certain they're heading back to Australia, and when someone asks which school in Jakarta has the warmest, least pretentious culture. The Australian curriculum through Year 10 transitions into IB Diploma for senior years. CIS-accredited since 2015. Class sizes averaging 18 to 22.
                 </p>
+                <ImagePlaceholder
+                  label="AIS — school culture or outdoor activity"
+                  className="mb-5 w-full h-[220px] max-md:clear-both max-md:float-none md:mr-6 md:h-[280px] md:w-[400px] md:float-left md:flex-shrink-0"
+                />
                 <p>
                   Lots of people like the demographic mix at AIS. Less self consciously international than some schools, with a genuine spread of Indonesian, and other families. Most schools in Jakarta have moved this way, but AIS wears it more naturally than most. Facilities are solid without being resort-level, and the school culture is most often described as 'friendly, low-key.' Not a euphemism for mediocre. An honest description of the atmosphere. And for inclusion and SEN support specifically, it's arguably the leading choice in the city. Ask about resource teachers, educational psychologist access, and IEP processes, and you'll get clear answers.
                 </p>
-                <p className="text-sm text-charcoal-muted font-sans mt-4">
-                  Curriculum: Australian Curriculum (ACARA) / IB Diploma Ages: 3–18 Annual fees: US$9,300 – US$27,000 Location: Pejaten, South Jakarta (near Kemang)
-                </p>
+                <dl className="mt-4 grid grid-cols-1 gap-y-2 text-sm font-sans sm:grid-cols-2 sm:gap-x-6">
+                  <dt className="font-medium text-charcoal">Curriculum</dt>
+                  <dd className="text-charcoal-muted">Australian Curriculum (ACARA) / IB Diploma</dd>
+                  <dt className="font-medium text-charcoal">Ages</dt>
+                  <dd className="text-charcoal-muted">3–18</dd>
+                  <dt className="font-medium text-charcoal">Fees</dt>
+                  <dd className="text-charcoal-muted">US$9,300 – US$27,000</dd>
+                  <dt className="font-medium text-charcoal">Location</dt>
+                  <dd className="text-charcoal-muted">Pejaten, South Jakarta (near Kemang)</dd>
+                </dl>
               </section>
 
               <section>
@@ -213,15 +293,26 @@ function JakartaGuide() {
                 <p>
                   Leafy and well worn campus below Kemang. Perhaps around 200 or so students. Compact enough that you'll know people quickly. The Nord Anglia global network brings things that sound like marketing. Some of it delivers. A school with real charm, and the community forms easily at this size.
                 </p>
+                <ImagePlaceholder
+                  label="NAS — leafy campus"
+                  className="mb-5 w-full h-[220px] max-md:clear-both max-md:float-none md:ml-6 md:h-[280px] md:w-[400px] md:float-right md:flex-shrink-0"
+                />
                 <p>
                   NAS is part of the Nord Anglia Education corporate group, and since March 2025 ultimately owned by a consortium led by Swedish private equity firm EQT, which completed a US$14.5 billion acquisition of the entire network. Decisions are made with group-level business logic in mind, and the teaching community fairly consistently describes that reality as 'corporate.' Not a dealbreaker for most families, but worth understanding clearly when you're weighing a school that markets itself primarily on warmth and community.
                 </p>
                 <p>
                   The more immediately relevant point: NAS is launching secondary provision for the first time, with a Year 7 cohort expected in 2026–27. Exciting for families who love the school and don't want to leave at Year 6. Worth tracking closely if continuity matters to your planning.
                 </p>
-                <p className="text-sm text-charcoal-muted font-sans mt-4">
-                  Curriculum: British (EYFS / National Curriculum) / IPC Ages: 18 months–12 (secondary from 2026–27) Annual fees: US$7,200 – US$22,000 Location: Cilandak, South Jakarta
-                </p>
+                <dl className="mt-4 grid grid-cols-1 gap-y-2 text-sm font-sans sm:grid-cols-2 sm:gap-x-6">
+                  <dt className="font-medium text-charcoal">Curriculum</dt>
+                  <dd className="text-charcoal-muted">British (EYFS / National Curriculum) / IPC</dd>
+                  <dt className="font-medium text-charcoal">Ages</dt>
+                  <dd className="text-charcoal-muted">18 months–12 (secondary from 2026–27)</dd>
+                  <dt className="font-medium text-charcoal">Fees</dt>
+                  <dd className="text-charcoal-muted">US$7,200 – US$22,000</dd>
+                  <dt className="font-medium text-charcoal">Location</dt>
+                  <dd className="text-charcoal-muted">Cilandak, South Jakarta</dd>
+                </dl>
               </section>
 
               <section>
@@ -234,9 +325,16 @@ function JakartaGuide() {
                 <p>
                   The NZ curriculum is arguably less portable than others. This may matter if you're likely to move again soon. Worth thinking through before you fall in love with the school. That said, if community, a sane school run, and an environment that doesn't make children anxious about academic performance are the criteria, NZSJ deserves a proper visit, not just a browse of the website.
                 </p>
-                <p className="text-sm text-charcoal-muted font-sans mt-4">
-                  Curriculum: New Zealand Curriculum / Te Whariki / British Curriculum Ages: 1–18 Annual fees: US$6,900 – US$22,000 Location: Kemang, South Jakarta
-                </p>
+                <dl className="mt-4 grid grid-cols-1 gap-y-2 text-sm font-sans sm:grid-cols-2 sm:gap-x-6">
+                  <dt className="font-medium text-charcoal">Curriculum</dt>
+                  <dd className="text-charcoal-muted">New Zealand Curriculum / Te Whariki / British Curriculum</dd>
+                  <dt className="font-medium text-charcoal">Ages</dt>
+                  <dd className="text-charcoal-muted">1–18</dd>
+                  <dt className="font-medium text-charcoal">Fees</dt>
+                  <dd className="text-charcoal-muted">US$6,900 – US$22,000</dd>
+                  <dt className="font-medium text-charcoal">Location</dt>
+                  <dd className="text-charcoal-muted">Kemang, South Jakarta</dd>
+                </dl>
               </section>
 
               {/* Compare All 66 — interactive table */}
@@ -256,6 +354,10 @@ function JakartaGuide() {
                   Popular Expat Neighbourhoods
                 </h2>
 
+                <ImagePlaceholder
+                  label="Pondok Indah / Cilandak"
+                  className="mb-5 w-full max-w-[700px] h-[200px] md:h-[380px]"
+                />
                 <h3 className="font-display text-lg text-charcoal mt-8 mb-3">Pondok Indah / Cilandak</h3>
                 <p>
                   Suburbia. Gated compounds, better air quality than most of Jakarta, large houses with gardens, JIS and ISJ nearby. For corporate expats on full packages, Pondok Indah is where many searches begin and end. Rental for a decent three-bed house runs from around US$3,000 to US$5,000 a month. It's safe, and walkable. You'll never be far from another family navigating the same situation.
@@ -264,6 +366,10 @@ function JakartaGuide() {
                   The area has good infrastructure by Jakarta standards. Reliable roads, established supermarkets, decent air quality relative to the north and west of the city, and a concentration of medical clinics and international hospitals within reasonable reach. Restaurant and café options have grown significantly in recent years, and the Saturday market at Kemang is only 15 minutes away on a quiet morning. For families arriving mid-year with children to settle quickly, the density of other recently arrived families in the same situation is genuinely useful.
                 </p>
 
+                <ImagePlaceholder
+                  label="Kemang"
+                  className="mb-5 w-full max-w-[700px] h-[200px] md:h-[380px]"
+                />
                 <h3 className="font-display text-lg text-charcoal mt-8 mb-3">Kemang</h3>
                 <p>
                   Kemang is a well established, mixed residential and commercial neighbourhood in South Jakarta. Lively and vibrant, sometimes slightly on the rough side. A good density of restaurants and cafés. NAS, AIS, and NZSJ all within reasonable reach. Rents run slightly lower than Pondok Indah at around US$2,000 to US$4,000 for a three-bed property.
@@ -272,6 +378,10 @@ function JakartaGuide() {
                   Worth researching carefully before you commit to a specific property… Kemang floods. Not occasionally — the area has genuine, recurring flooding risk during rainy season, and ground-floor properties and basements bear the brunt of it. Check the flood history of any specific address before signing a lease. It's not a reason to avoid the area, but it's the kind of thing that's much better to know in advance than in January.
                 </p>
 
+                <ImagePlaceholder
+                  label="Bintaro / BSD City"
+                  className="mb-5 w-full max-w-[700px] h-[200px] md:h-[380px]"
+                />
                 <h3 className="font-display text-lg text-charcoal mt-8 mb-3">Bintaro / BSD City</h3>
                 <p>
                   Bintaro and BSD are planned suburban areas in Greater Jakarta. Newer builds, bigger gardens, significantly cheaper than central South Jakarta. If BSJ is your school, living in Bintaro makes obvious sense. The housing is genuinely good value for the money.
@@ -280,11 +390,19 @@ function JakartaGuide() {
                   Both areas sit a long way from central Jakarta, though. The social infrastructure of Pondok Indah and Kemang requires a commitment to get to. If one or both parents are working in the SCBD financial district, add that commute on top of everything else. Bintaro to SCBD in morning traffic is a serious daily undertaking. And perhaps surprisingly given how far out they sit, air quality in Bintaro and BSD is actually worse than parts of South Jakarta closer to the city. The industrial and transport corridor effects outweigh the distance from the urban core. Plenty of families weigh all of that and still choose Bintaro happily. But go in with eyes open about what the geography means for the whole household, not just the school run.
                 </p>
 
+                <ImagePlaceholder
+                  label="Menteng (Central Jakarta)"
+                  className="mb-5 w-full max-w-[700px] h-[200px] md:h-[380px]"
+                />
                 <h3 className="font-display text-lg text-charcoal mt-8 mb-3">Menteng (Central Jakarta)</h3>
                 <p>
                   The embassy district. Colonial architecture, tree-lined streets, a prestigious address by Jakarta standards. Popular with diplomatic families and senior executives. Rents are high and commute times to South Jakarta schools can be significant. Works well for families whose work keeps them in central Jakarta and who aren't tethered to a specific school zone. Gandhi Memorial International School, one of the city's oldest and most affordable international schools, is nearby.
                 </p>
 
+                <ImagePlaceholder
+                  label="Kelapa Gading (North Jakarta)"
+                  className="mb-5 w-full max-w-[700px] h-[200px] md:h-[380px]"
+                />
                 <h3 className="font-display text-lg text-charcoal mt-8 mb-3">Kelapa Gading (North Jakarta)</h3>
                 <p>
                   Kelapa Gading is a growing commercial and residential area in North Jakarta. Built around one of the city's most significant Chinese-Indonesian communities and increasingly home to a growing number of mainland Chinese expats as well. That shapes the neighbourhood distinctly: the food is excellent, the commercial infrastructure is efficient, and the community has a character you won't find in other parts of the city. Rents are noticeably lower than the south. Schools serving the area include North Jakarta Intercultural School, SIS Kelapa Gading, and Beacon Academy nearby in BSD.

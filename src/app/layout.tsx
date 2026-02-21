@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
+import { ClientProviders } from "@/components/ClientProviders";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -55,9 +56,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${cormorant.variable} ${inter.variable}`}>
       <body>
-        <SiteHeader />
-        <main>{children}</main>
-        <SiteFooter />
+        <ClientProviders>
+          <SiteHeader />
+          <main>{children}</main>
+          <SiteFooter />
+        </ClientProviders>
         {gaId ? (
           <Script
             src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
