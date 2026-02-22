@@ -101,7 +101,7 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
 
         {/* Filters: priority order Location, Fees, Curriculum. Mobile: row1 Location+Fees 50/50, row2 Curriculum full; Desktop: single row */}
         <div className="grid grid-cols-2 gap-4 py-3 md:grid-cols-3 md:gap-6">
-          {/* 1. Location — mobile row1 left, desktop first */}
+          {/* 1. Location - mobile row1 left, desktop first */}
           <div className="flex flex-col gap-1.5 md:min-w-[160px]">
             <label htmlFor="location-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
               Location
@@ -125,7 +125,7 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
             </select>
           </div>
 
-          {/* 2. Fees sort — mobile row1 right, desktop second */}
+          {/* 2. Fees sort - mobile row1 right, desktop second */}
           <div className="flex flex-col gap-1.5 md:min-w-[160px]">
             <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
               Fees
@@ -144,7 +144,7 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
             </button>
           </div>
 
-          {/* 3. Curriculum — mobile row2 full width, desktop third */}
+          {/* 3. Curriculum - mobile row2 full width, desktop third */}
           <div className="col-span-2 flex flex-col gap-1.5 md:col-span-1 md:min-w-[160px]">
             <label htmlFor="curriculum-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
               Curriculum

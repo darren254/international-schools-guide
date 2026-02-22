@@ -36,7 +36,7 @@ function CityCard({
           {city.tagline ?? ""}
         </p>
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[0.8125rem] text-charcoal-muted mb-3">
-          <span>{city.schoolCount ?? "—"}+ schools</span>
+          <span>{city.schoolCount ?? "-"}+ schools</span>
           <span>{city.feeRange ?? ""}</span>
         </div>
         <div className="flex gap-2">

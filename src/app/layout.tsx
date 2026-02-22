@@ -25,8 +25,8 @@ const baseUrl = "https://international-schools-guide.com";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s — International Schools Guide",
-    default: "International Schools Guide — Find the Right School",
+    template: "%s - International Schools Guide",
+    default: "International Schools Guide - Find the Right School",
   },
   description:
     "Compare international schools worldwide. Honest profiles, real fee data, and editorial reviews for expat families.",

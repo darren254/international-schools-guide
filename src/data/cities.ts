@@ -78,7 +78,7 @@ export const CITIES: CityConfig[] = [
     feeRange: "US$4K – $25K / year",
     topCurricula: ["British", "IB", "Australian"],
     tagline:
-      "Outstanding value and quality — increasingly popular with expat families",
+      "Outstanding value and quality - increasingly popular with expat families",
   },
 ];
 

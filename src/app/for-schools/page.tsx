@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     "Work with us to keep your profile accurate. Verified badge, From the School section, and Featured placement. Fair, balanced profiles for parents.",
   alternates: { canonical: "https://international-schools-guide.com/for-schools" },
   openGraph: {
-    title: "For Schools — International Schools Guide",
+    title: "For Schools - International Schools Guide",
     description:
       "Work with us to keep your profile accurate. Verified badge, From the School section, and Featured placement.",
     url: "https://international-schools-guide.com/for-schools",
@@ -18,7 +18,7 @@ const TIERS = [
     label: "Verified badge",
     cost: "Free",
     points: [
-      "Confirm your school's data is accurate — fees, contact details, curriculum, accreditation — and we'll add a Verified badge to your profile.",
+      "Confirm your school's data is accurate - fees, contact details, curriculum, accreditation - and we'll add a Verified badge to your profile.",
       "Link to your school website from the profile.",
       "Update your data any time by emailing us.",
     ],
@@ -30,7 +30,7 @@ const TIERS = [
     points: [
       "Send us photos, a message from the head, or anything you want parents to see alongside our editorial.",
       "We'll add a clearly labelled \"From the School\" section to your profile.",
-      "Your content runs alongside our independent review — parents see both perspectives.",
+      "Your content runs alongside our independent review - parents see both perspectives.",
     ],
     footer: "Cost: Free. Send materials to schools@international-schools-guide.com.",
   },
@@ -77,7 +77,7 @@ export default function ForSchoolsPage() {
           Work with us to keep your profile accurate
         </h1>
         <p className="text-[1.0625rem] text-charcoal-light leading-relaxed max-w-2xl mb-6">
-          Every international school in every city we cover gets a profile — fees,
+          Every international school in every city we cover gets a profile - fees,
           data, and an independent editorial review. Our profiles are fair, balanced,
           and written for parents. We want to get it right, and working with schools
           directly helps us do that.

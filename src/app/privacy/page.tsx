@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "How International Schools Guide collects, uses, and protects your data. The Schools Trust Ltd.",
   alternates: { canonical: "https://international-schools-guide.com/privacy" },
   openGraph: {
-    title: "Privacy Policy — International Schools Guide",
+    title: "Privacy Policy - International Schools Guide",
     description: "How we collect, use, and protect your data.",
     url: "https://international-schools-guide.com/privacy",
   },
@@ -42,21 +42,21 @@ export default function PrivacyPage() {
         <ul className="space-y-4 max-w-2xl">
           <li className="flex gap-3">
             <span className="text-hermes font-medium shrink-0">Contact forms and emails</span>
-            <span className="text-charcoal-muted">—</span>
+            <span className="text-charcoal-muted">-</span>
             <span className="text-[0.9375rem] text-charcoal-light leading-relaxed">
               Name, email address, message content. Used to respond to enquiries.
             </span>
           </li>
           <li className="flex gap-3">
             <span className="text-hermes font-medium shrink-0">Analytics</span>
-            <span className="text-charcoal-muted">—</span>
+            <span className="text-charcoal-muted">-</span>
             <span className="text-[0.9375rem] text-charcoal-light leading-relaxed">
               Google Analytics 4 with cookies for anonymised usage data (pages visited, time on site, devices). Not used to identify individuals.
             </span>
           </li>
           <li className="flex gap-3">
             <span className="text-hermes font-medium shrink-0">Technical data</span>
-            <span className="text-charcoal-muted">—</span>
+            <span className="text-charcoal-muted">-</span>
             <span className="text-[0.9375rem] text-charcoal-light leading-relaxed">
               Cloudflare automatically logs IP addresses, browser type, and request data for security and performance.
             </span>

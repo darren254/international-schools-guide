@@ -1,0 +1,24 @@
+---
+description: Deployment and coding conventions — no Vercel, wrangler only, static export, Drizzle, Tailwind
+alwaysApply: true
+---
+
+# Stack & Conventions
+
+## Deployment
+- **Platform:** Cloudflare Workers (static export via `next export` → `./out`)
+- **Config:** `wrangler.jsonc`
+- **Never** suggest Vercel, `vercel.json`, or Vercel CLI
+- **Never** suggest `next start` — we use static export only
+- Deploy with `wrangler` only
+
+## Framework & stack
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS for all styling (no inline styles)
+- Neon (serverless Postgres) via Drizzle ORM
+
+## Code rules
+- All database queries use Drizzle ORM
+- Keep all components in TypeScript
+- Use Tailwind for styling; no inline styles

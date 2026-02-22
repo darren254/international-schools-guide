@@ -26,12 +26,12 @@ export async function generateMetadata({
   
   if (slug === "best-international-schools-jakarta") {
     return {
-      title: "International Schools in Jakarta — A Practical Guide for Expat Families (2026)",
+      title: "International Schools in Jakarta - A Practical Guide for Expat Families (2026)",
       description:
         "More than 60 international schools in Jakarta; most families choose between five. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, ISJ, AIS, and 60+ options.",
       alternates: { canonical },
       openGraph: {
-        title: "International Schools in Jakarta — A Practical Guide for Expat Families (2026)",
+        title: "International Schools in Jakarta - A Practical Guide for Expat Families (2026)",
         description:
           "More than 60 international schools in Jakarta; most families choose between five. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, ISJ, AIS, and 60+ options.",
         url: canonical,
@@ -47,7 +47,7 @@ export async function generateMetadata({
 }
 
 // ═══════════════════════════════════════════════════════
-// Image placeholders — bg #e8e4df, label #999 13px, rounded 4px. Mobile: floats clear, full width, mb-20
+// Image placeholders - bg #e8e4df, label #999 13px, rounded 4px. Mobile: floats clear, full width, mb-20
 // ═══════════════════════════════════════════════════════
 
 function ImagePlaceholder({
@@ -69,7 +69,7 @@ function ImagePlaceholder({
 }
 
 // ═══════════════════════════════════════════════════════
-// JAKARTA GUIDE CONTENT — 2026 Edition
+// JAKARTA GUIDE CONTENT - 2026 Edition
 // ═══════════════════════════════════════════════════════
 
 function JakartaGuide() {
@@ -91,14 +91,14 @@ function JakartaGuide() {
               International Schools in Jakarta
             </h1>
             <p className="font-display text-xl text-charcoal-muted mb-8">
-              A Practical Guide for Expat Families — 2026 Edition
+              A Practical Guide for Expat Families - 2026 Edition
             </p>
 
             {/* Share */}
             <ShareButton
               variant="article"
               url={`${BASE_URL}/insights/best-international-schools-jakarta`}
-              title="International Schools in Jakarta — A Practical Guide for Expat Families (2026)"
+              title="International Schools in Jakarta - A Practical Guide for Expat Families (2026)"
             />
 
             {/* Author */}
@@ -129,7 +129,7 @@ function JakartaGuide() {
 
             {/* Hero image placeholder */}
             <ImagePlaceholder
-              label="Hero — Jakarta aerial or school campus"
+              label="Hero - Jakarta aerial or school campus"
               className="mb-10 w-full max-w-[800px] h-[220px] md:h-[450px]"
             />
 
@@ -163,7 +163,7 @@ function JakartaGuide() {
                 Three things usually determine which school you end up at. Jakarta's traffic is uniquely punishing, worse consistently than Bangkok, KL, or Singapore. A school 10 kilometres away can mean a 90-minute school run at 7.30am. The rule veterans live by: nothing over 20 to 30 minutes each way. Of course you choose the school before you choose the house. Second is school vibe and curriculum. Among the most common choices are JIS which is the most American, ISJ and BSJ both British, and the Australian school. Another is size. Jakarta has 2,500 student mega-campuses and 300 to 500 student schools where the head knows every child's name.
               </p>
 
-              {/* Schools Popular with Expats — interactive table */}
+              {/* Schools Popular with Expats - interactive table */}
               <section>
                 <h2 id="schools-popular" className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 first:mt-0 uppercase tracking-wider scroll-mt-24">
                   Schools Popular with Expats
@@ -180,7 +180,7 @@ function JakartaGuide() {
                   Founded in 1951, now around 2,500 students across three South Jakarta campuses, 60-plus nationalities, an IB average of 35.8 with a 97.5 per cent pass rate. Facilities that wouldn't embarrass a small American university. Multiple pools, theatres, a purpose-built special education centre. For families on a full corporate package.
                 </p>
                 <ImagePlaceholder
-                  label="JIS — campus scale or facilities"
+                  label="JIS - campus scale or facilities"
                   className="mb-5 w-full h-[220px] max-md:clear-both max-md:float-none md:ml-6 md:h-[280px] md:w-[400px] md:float-right md:flex-shrink-0"
                 />
                 <p>
@@ -206,7 +206,7 @@ function JakartaGuide() {
                   BSJ sits on an 18-hectare campus in Bintaro. A hybrid British-to-IB dual pathway, CIS-accredited, and COBIS-affiliated. Sport and performing arts taken seriously alongside academics. A community warmth that doesn't always exist at larger schools.
                 </p>
                 <ImagePlaceholder
-                  label="BSJ — Bintaro campus"
+                  label="BSJ - Bintaro campus"
                   className="mb-5 w-full h-[220px] max-md:clear-both max-md:float-none md:mr-6 md:h-[280px] md:w-[400px] md:float-left md:flex-shrink-0"
                 />
                 <p>
@@ -232,7 +232,7 @@ function JakartaGuide() {
                   The most recent addition to Jakarta's premium school set. Around 200 students and growing. Very much a British independent school ethos and faculty. Parents have raved about the teachers. Part of The Schools Trust (UK), 100% British-qualified teacher body, fees that include materials and capital contribution in a single all-in figure.
                 </p>
                 <ImagePlaceholder
-                  label="ISJ — classroom or teacher with student"
+                  label="ISJ - classroom or teacher with student"
                   className="mb-5 w-full h-[220px] max-md:clear-both max-md:float-none md:ml-6 md:h-[280px] md:w-[400px] md:float-right md:flex-shrink-0"
                 />
                 <p>
@@ -240,11 +240,11 @@ function JakartaGuide() {
                 </p>
                 <div className="flex flex-wrap gap-4 max-md:clear-both md:gap-[4%]">
                   <ImagePlaceholder
-                    label="ISJ — football pitch"
+                    label="ISJ - football pitch"
                     className="mb-5 h-[220px] w-full md:mb-0 md:w-[48%]"
                   />
                   <ImagePlaceholder
-                    label="ISJ — swimming pool"
+                    label="ISJ - swimming pool"
                     className="mb-5 h-[220px] w-full md:mb-0 md:w-[48%]"
                   />
                 </div>
@@ -268,7 +268,7 @@ function JakartaGuide() {
                   Three conversations bring AIS up reliably: when parents have children with additional learning needs, when families are certain they're heading back to Australia, and when someone asks which school in Jakarta has the warmest, least pretentious culture. The Australian curriculum through Year 10 transitions into IB Diploma for senior years. CIS-accredited since 2015. Class sizes averaging 18 to 22.
                 </p>
                 <ImagePlaceholder
-                  label="AIS — school culture or outdoor activity"
+                  label="AIS - school culture or outdoor activity"
                   className="mb-5 w-full h-[220px] max-md:clear-both max-md:float-none md:mr-6 md:h-[280px] md:w-[400px] md:float-left md:flex-shrink-0"
                 />
                 <p>
@@ -294,7 +294,7 @@ function JakartaGuide() {
                   Leafy and well worn campus below Kemang. Perhaps around 200 or so students. Compact enough that you'll know people quickly. The Nord Anglia global network brings things that sound like marketing. Some of it delivers. A school with real charm, and the community forms easily at this size.
                 </p>
                 <ImagePlaceholder
-                  label="NAS — leafy campus"
+                  label="NAS - leafy campus"
                   className="mb-5 w-full h-[220px] max-md:clear-both max-md:float-none md:ml-6 md:h-[280px] md:w-[400px] md:float-right md:flex-shrink-0"
                 />
                 <p>
@@ -337,7 +337,7 @@ function JakartaGuide() {
                 </dl>
               </section>
 
-              {/* Compare All 66 — interactive table */}
+              {/* Compare All 66 - interactive table */}
               <section>
                 <h2 id="compare-all" className="font-sans text-xl font-semibold text-charcoal mb-4 mt-12 uppercase tracking-wider scroll-mt-24">
                   Compare All 66 International Schools in Jakarta
@@ -375,7 +375,7 @@ function JakartaGuide() {
                   Kemang is a well established, mixed residential and commercial neighbourhood in South Jakarta. Lively and vibrant, sometimes slightly on the rough side. A good density of restaurants and cafés. NAS, AIS, and NZSJ all within reasonable reach. Rents run slightly lower than Pondok Indah at around US$2,000 to US$4,000 for a three-bed property.
                 </p>
                 <p>
-                  Worth researching carefully before you commit to a specific property… Kemang floods. Not occasionally — the area has genuine, recurring flooding risk during rainy season, and ground-floor properties and basements bear the brunt of it. Check the flood history of any specific address before signing a lease. It's not a reason to avoid the area, but it's the kind of thing that's much better to know in advance than in January.
+                  Worth researching carefully before you commit to a specific property… Kemang floods. Not occasionally - the area has genuine, recurring flooding risk during rainy season, and ground-floor properties and basements bear the brunt of it. Check the flood history of any specific address before signing a lease. It's not a reason to avoid the area, but it's the kind of thing that's much better to know in advance than in January.
                 </p>
 
                 <ImagePlaceholder
@@ -420,82 +420,82 @@ function JakartaGuide() {
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">How much does international school cost in Jakarta?</h3>
                 <p>
-                  The range is genuinely vast — from around US$4,500 per year at budget schools up to US$37,000 or more at JIS. Most schools that corporate-package expat families use sit in the US$9,000 to US$30,000 band. What catches nearly everyone off guard is the capital levy — an additional annual charge, typically IDR 54 to 65 million (around US$3,400 to US$4,100) at top schools, on top of tuition, and not a one-off. Budget for it every year. Factor in registration fees, uniforms, school trips, and transport if you're not driving. The total cost of a JIS education can easily exceed US$40,000 per child per year.
+                  The range is genuinely vast - from around US$4,500 per year at budget schools up to US$37,000 or more at JIS. Most schools that corporate-package expat families use sit in the US$9,000 to US$30,000 band. What catches nearly everyone off guard is the capital levy - an additional annual charge, typically IDR 54 to 65 million (around US$3,400 to US$4,100) at top schools, on top of tuition, and not a one-off. Budget for it every year. Factor in registration fees, uniforms, school trips, and transport if you're not driving. The total cost of a JIS education can easily exceed US$40,000 per child per year.
                 </p>
 
-                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">British vs IB vs American — which is right for us?</h3>
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">British vs IB vs American - which is right for us?</h3>
                 <p>
-                  Think backwards from your next destination, not forwards from here. British curriculum (IGCSEs then A-Levels) is the most portable across Commonwealth countries and widely recognised internationally. IB is globally transferable and works well for families who genuinely don't know where they're heading next — but check whether the school offers both MYP and DP rather than just one. American pathway makes sense if you're returning to the US. Australian curriculum at AIS is the obvious choice for Australian families. If you're undecided, IB is the lowest-risk option for international mobility.
+                  Think backwards from your next destination, not forwards from here. British curriculum (IGCSEs then A-Levels) is the most portable across Commonwealth countries and widely recognised internationally. IB is globally transferable and works well for families who genuinely don't know where they're heading next - but check whether the school offers both MYP and DP rather than just one. American pathway makes sense if you're returning to the US. Australian curriculum at AIS is the obvious choice for Australian families. If you're undecided, IB is the lowest-risk option for international mobility.
                 </p>
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">School first or house first?</h3>
                 <p>
-                  School first. Always. Find your shortlist, secure a place, then house-hunt within 20 to 25 minutes of the campus. The families who do it the other way — find a house they love in Kemang, discover their preferred school is in Bintaro — regret it with a consistency that's striking. Jakarta's traffic is unforgiving. This is the single most consistent piece of advice from experienced expats here, and it's worth taking more seriously than it sounds.
+                  School first. Always. Find your shortlist, secure a place, then house-hunt within 20 to 25 minutes of the campus. The families who do it the other way - find a house they love in Kemang, discover their preferred school is in Bintaro - regret it with a consistency that's striking. Jakarta's traffic is unforgiving. This is the single most consistent piece of advice from experienced expats here, and it's worth taking more seriously than it sounds.
                 </p>
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">How bad is the commute really?</h3>
                 <p>
-                  Worse than you think, and then worse still in Term 2 when the novelty has worn off. Jakarta traffic ranks among the worst in Asia — consistently worse than Bangkok, KL, or Singapore in community comparisons. A school 10km away can mean 60 to 90 minutes in the morning. The '20-minute rule' is almost a mantra: more than 20 to 25 minutes each way will eventually grind you down. Families with toddlers feel it most acutely. Take the rule seriously before you dismiss it.
+                  Worse than you think, and then worse still in Term 2 when the novelty has worn off. Jakarta traffic ranks among the worst in Asia - consistently worse than Bangkok, KL, or Singapore in community comparisons. A school 10km away can mean 60 to 90 minutes in the morning. The '20-minute rule' is almost a mantra: more than 20 to 25 minutes each way will eventually grind you down. Families with toddlers feel it most acutely. Take the rule seriously before you dismiss it.
                 </p>
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">Can my child start mid-year?</h3>
                 <p>
-                  Yes, but it's harder at the top schools. JIS and BSJ operate waitlists, especially for popular year groups, and mid-year arrival is a known pain point — apply before you arrive if at all possible. AIS, ISJ, NAS, and mid-tier schools tend to be considerably more flexible. Arriving in Jakarta without a school place and ending up at your second or third choice initially, then transferring later, is common enough that it shouldn't feel like failure.
+                  Yes, but it's harder at the top schools. JIS and BSJ operate waitlists, especially for popular year groups, and mid-year arrival is a known pain point - apply before you arrive if at all possible. AIS, ISJ, NAS, and mid-tier schools tend to be considerably more flexible. Arriving in Jakarta without a school place and ending up at your second or third choice initially, then transferring later, is common enough that it shouldn't feel like failure.
                 </p>
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">How far ahead should we plan?</h3>
                 <p>
-                  For JIS and BSJ, six to twelve months in advance ideally, especially for primary years. Other schools can often accommodate two to three months' notice, though popular year groups fill. The moment your Jakarta posting is confirmed, start the process — even registering tentative interest costs nothing and buys you time.
+                  For JIS and BSJ, six to twelve months in advance ideally, especially for primary years. Other schools can often accommodate two to three months' notice, though popular year groups fill. The moment your Jakarta posting is confirmed, start the process - even registering tentative interest costs nothing and buys you time.
                 </p>
 
-                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">We're only here for one or two years — does that change anything?</h3>
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">We're only here for one or two years - does that change anything?</h3>
                 <p>
-                  It changes curriculum choice significantly. IB is the most transferable globally. British curriculum works fine if you're heading to another British-aligned school next. For a short posting, avoid schools where settling in will consume most of your time — smaller schools with stronger pastoral support (ISJ, AIS, NAS, NZSJ) tend to make that adjustment easier than giant campuses where a new child can genuinely get lost in the crowd.
+                  It changes curriculum choice significantly. IB is the most transferable globally. British curriculum works fine if you're heading to another British-aligned school next. For a short posting, avoid schools where settling in will consume most of your time - smaller schools with stronger pastoral support (ISJ, AIS, NAS, NZSJ) tend to make that adjustment easier than giant campuses where a new child can genuinely get lost in the crowd.
                 </p>
 
-                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">My child has additional learning needs — which schools can help?</h3>
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">My child has additional learning needs - which schools can help?</h3>
                 <p>
-                  AIS is consistently the strongest recommendation for SEN and inclusion support. JIS has the JIS Learning Center — a dedicated SEN programme, though it comes at premium fees. ISJ's small class sizes (capped at 16) and high teacher-to-student ratio mean more individual attention as a structural reality, not a marketing claim. NZSJ's wellbeing focus also makes it worth visiting. Ask specific questions about resource teachers, educational psychologist access, and IEP processes at any school you're seriously considering.
+                  AIS is consistently the strongest recommendation for SEN and inclusion support. JIS has the JIS Learning Center - a dedicated SEN programme, though it comes at premium fees. ISJ's small class sizes (capped at 16) and high teacher-to-student ratio mean more individual attention as a structural reality, not a marketing claim. NZSJ's wellbeing focus also makes it worth visiting. Ask specific questions about resource teachers, educational psychologist access, and IEP processes at any school you're seriously considering.
                 </p>
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">How do I know if teachers are properly qualified?</h3>
                 <p>
-                  At CIS-accredited schools (JIS, BSJ, AIS, SPH), teacher qualification standards are externally audited. ISJ sources teachers through The Schools Trust (UK) and specifically markets its 100% British-qualified teacher body. For non-accredited schools, ask directly: what percentage of teachers are qualified in their subject, and what qualification standard — UK QTS, Australian TRB, or equivalent? Be appropriately sceptical of any school that can't answer that question with specifics.
+                  At CIS-accredited schools (JIS, BSJ, AIS, SPH), teacher qualification standards are externally audited. ISJ sources teachers through The Schools Trust (UK) and specifically markets its 100% British-qualified teacher body. For non-accredited schools, ask directly: what percentage of teachers are qualified in their subject, and what qualification standard - UK QTS, Australian TRB, or equivalent? Be appropriately sceptical of any school that can't answer that question with specifics.
                 </p>
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">Are the expensive schools actually better?</h3>
                 <p>
-                  Not automatically, and the data makes this reasonably clear. JIS's IB average of 35.8 is excellent. Sinarmas's 38.2 is better — and SWA isn't the most expensive school. Binus Simprug posts an IB average of 34 at roughly a third of JIS fees. What premium fees buy is brand recognition, facilities, and the social network that comes from other corporate-package families in the same situation as you. Whether those things matter depends on your family, not on any objective quality measure.
+                  Not automatically, and the data makes this reasonably clear. JIS's IB average of 35.8 is excellent. Sinarmas's 38.2 is better - and SWA isn't the most expensive school. Binus Simprug posts an IB average of 34 at roughly a third of JIS fees. What premium fees buy is brand recognition, facilities, and the social network that comes from other corporate-package families in the same situation as you. Whether those things matter depends on your family, not on any objective quality measure.
                 </p>
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">What does admissions look like?</h3>
                 <p>
-                  Online application form, application fee (IDR 4 to 7 million depending on school), document submission (passports, previous school reports, immunisation records), assessment (reading and maths, typically informal at primary level and more formal at secondary), and a family interview. Then an offer letter, followed by an enrollment deposit to secure the place — IDR 30 million at BSJ. Top schools may add an enrollment guarantee fee on top. Budget around IDR 5 to 10 million in one-time costs beyond the deposit itself.
+                  Online application form, application fee (IDR 4 to 7 million depending on school), document submission (passports, previous school reports, immunisation records), assessment (reading and maths, typically informal at primary level and more formal at secondary), and a family interview. Then an offer letter, followed by an enrollment deposit to secure the place - IDR 30 million at BSJ. Top schools may add an enrollment guarantee fee on top. Budget around IDR 5 to 10 million in one-time costs beyond the deposit itself.
                 </p>
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">Will my child's education transfer when we move again?</h3>
                 <p>
-                  IB transfers cleanly to almost anywhere in the world. British curriculum (IGCSE/A-Level) transfers well to Commonwealth countries and is recognised in the US and Europe. Australian curriculum transfers cleanly within Australia. American pathway works best for US-bound students. If you have genuinely no idea where you're heading next, lean towards IB or British curriculum at CIS-accredited schools — that accreditation is the most widely recognised external quality mark internationally.
+                  IB transfers cleanly to almost anywhere in the world. British curriculum (IGCSE/A-Level) transfers well to Commonwealth countries and is recognised in the US and Europe. Australian curriculum transfers cleanly within Australia. American pathway works best for US-bound students. If you have genuinely no idea where you're heading next, lean towards IB or British curriculum at CIS-accredited schools - that accreditation is the most widely recognised external quality mark internationally.
                 </p>
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">Is Jakarta safe for school-age children?</h3>
                 <p>
-                  In practical terms: yes. Street crime targeting expat children at school isn't a significant concern. Traffic is the primary physical risk — and a real one. Most schools have secure campuses and vetted transport. Air pollution is consistently underplayed in school guides, though: Jakarta has genuinely poor air quality on many days, and it's worth asking any school what their AQI threshold is for cancelling outdoor sports and whether classrooms have air filtration. Matters more for children with respiratory conditions, but worth knowing regardless.
+                  In practical terms: yes. Street crime targeting expat children at school isn't a significant concern. Traffic is the primary physical risk - and a real one. Most schools have secure campuses and vetted transport. Air pollution is consistently underplayed in school guides, though: Jakarta has genuinely poor air quality on many days, and it's worth asking any school what their AQI threshold is for cancelling outdoor sports and whether classrooms have air filtration. Matters more for children with respiratory conditions, but worth knowing regardless.
                 </p>
 
-                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">My child doesn't speak much English yet — what are the options?</h3>
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">My child doesn't speak much English yet - what are the options?</h3>
                 <p>
                   Most top international schools offer EAL (English as an Additional Language) support, though quality varies. JIS charges a significant additional fee for EAL (IDR 71 million). BSJ, AIS, and ISJ include some EAL support within their programmes. For primarily Mandarin-speaking children, Sinarmas World Academy's trilingual (English/Bahasa/Mandarin) environment is worth considering specifically. For Korean families, the Jakarta Indonesia Korean School (JIKS) serves the Korean-language community.
                 </p>
 
-                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">I've heard the JIS incident mentioned online — should I be concerned?</h3>
+                <h3 className="font-display text-lg text-charcoal mt-6 mb-2">I've heard the JIS incident mentioned online - should I be concerned?</h3>
                 <p>
                   This refers to a 2014 safeguarding case involving staff that resulted in criminal convictions. JIS's response at the time was broadly considered appropriate, and the school has undergone significant leadership and policy changes since. It continues to surface in online expat discussions eleven years on. Raise it directly with the admissions team and ask about current safeguarding protocols. Form your own view with current information rather than headlines from 2014.
                 </p>
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">Are the 'international' schools actually international in their student body?</h3>
                 <p>
-                  Not always — and this catches newly arriving families off guard more than almost anything else. Several well-regarded schools have student bodies that are predominantly local Indonesian, Korean, or Chinese-Indonesian rather than globally diverse. Not inherently a problem. But if your child's prior school had 40 nationalities in one classroom, the adjustment can be noticeable. Ask each school directly about nationality breakdown before you visit; most will give you an honest answer.
+                  Not always - and this catches newly arriving families off guard more than almost anything else. Several well-regarded schools have student bodies that are predominantly local Indonesian, Korean, or Chinese-Indonesian rather than globally diverse. Not inherently a problem. But if your child's prior school had 40 nationalities in one classroom, the adjustment can be noticeable. Ask each school directly about nationality breakdown before you visit; most will give you an honest answer.
                 </p>
               </section>
 
@@ -503,7 +503,7 @@ function JakartaGuide() {
               <section id="final-note" className="mt-12 scroll-mt-24">
                 <h2 className="font-display text-xl text-charcoal mb-4">A Final Note</h2>
                 <p>
-                  No guide replaces a campus visit. Read the profiles, study the fee schedules, ask the hard questions — and then go and sit in the school for an hour. Talk to the head of admissions, walk the corridors, watch how staff interact with children. The school that reads well on paper sometimes doesn't feel right in person; occasionally the reverse is true. Jakarta has genuinely good schools across a wide range of sizes, curricula, and fee levels. The right one for your family exists. Find it.
+                  No guide replaces a campus visit. Read the profiles, study the fee schedules, ask the hard questions - and then go and sit in the school for an hour. Talk to the head of admissions, walk the corridors, watch how staff interact with children. The school that reads well on paper sometimes doesn't feel right in person; occasionally the reverse is true. Jakarta has genuinely good schools across a wide range of sizes, curricula, and fee levels. The right one for your family exists. Find it.
                 </p>
               </section>
 

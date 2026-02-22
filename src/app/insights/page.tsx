@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Expert analysis on international school fees, exam results, admissions trends, and expat education across Asia. Independent research for families.",
   alternates: { canonical: "https://international-schools-guide.com/insights" },
   openGraph: {
-    title: "Insights — International Schools Guide",
+    title: "Insights - International Schools Guide",
     description:
       "Expert analysis on international school fees, exam results, admissions trends, and expat education across Asia. Independent research for families.",
     url: "https://international-schools-guide.com/insights",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 // ═══════════════════════════════════════════════════════
-// HARDCODED CONTENT — wire to CMS later
+// HARDCODED CONTENT - wire to CMS later
 // ═══════════════════════════════════════════════════════
 
 interface Article {
@@ -65,7 +65,7 @@ const FEATURED_PAIR: Article[] = [
 const TOPIC_GRID: Article[] = [
   {
     slug: "best-international-schools-jakarta",
-    title: "International Schools in Jakarta — A Practical Guide for Expat Families (2026)",
+    title: "International Schools in Jakarta - A Practical Guide for Expat Families (2026)",
     summary:
       "More than 60 international schools; most families choose between five. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, ISJ, AIS, and 60+ options.",
     category: "GUIDE",
@@ -77,7 +77,7 @@ const TOPIC_GRID: Article[] = [
     slug: "choosing-international-school-jakarta",
     title: "How to Choose an International School in Jakarta",
     summary:
-      "Curriculum, fees, commute, community — a structured framework for the biggest decision expat families make.",
+      "Curriculum, fees, commute, community - a structured framework for the biggest decision expat families make.",
     category: "GUIDE",
     date: "20 Jan 2026",
     readTime: "12 min read",
@@ -97,7 +97,7 @@ const TOPIC_GRID: Article[] = [
     slug: "ib-vs-a-levels-which-is-right",
     title: "IB vs A-Levels: Which Curriculum Is Right for Your Child?",
     summary:
-      "Two of the most popular international curricula compared — workload, university recognition, and what parents say.",
+      "Two of the most popular international curricula compared - workload, university recognition, and what parents say.",
     category: "GUIDE",
     date: "8 Jan 2026",
     readTime: "9 min read",
@@ -107,7 +107,7 @@ const TOPIC_GRID: Article[] = [
     slug: "expat-family-relocation-jakarta",
     title: "Relocating to Jakarta with Children: The School Question",
     summary:
-      "A practical timeline for families arriving in Jakarta — when to apply, what to visit, and how to shortlist.",
+      "A practical timeline for families arriving in Jakarta - when to apply, what to visit, and how to shortlist.",
     category: "GUIDE",
     date: "2 Jan 2026",
     readTime: "7 min read",
@@ -118,7 +118,7 @@ const TOPIC_GRID: Article[] = [
 const LATEST_ARTICLES: Article[] = [
   {
     slug: "best-international-schools-jakarta",
-    title: "International Schools in Jakarta — A Practical Guide for Expat Families (2026)",
+    title: "International Schools in Jakarta - A Practical Guide for Expat Families (2026)",
     summary:
       "More than 60 international schools; most families choose between five. Compare fees, curricula, and locations. Honest guide to JIS, BSJ, ISJ, AIS, and 60+ options.",
     category: "GUIDE",
@@ -140,7 +140,7 @@ const LATEST_ARTICLES: Article[] = [
     slug: "admissions-timeline-jakarta-2026",
     title: "Jakarta International School Admissions: 2026–27 Key Dates",
     summary:
-      "Application deadlines, assessment windows, and offer timelines for the top Jakarta schools — updated for the 2026–27 intake.",
+      "Application deadlines, assessment windows, and offer timelines for the top Jakarta schools - updated for the 2026–27 intake.",
     category: "ADMISSIONS",
     date: "12 Dec 2025",
     readTime: "5 min read",
@@ -350,7 +350,7 @@ export default function InsightsPage() {
             Our Insights
           </h1>
           <p className="text-cream-300 text-lg md:text-xl max-w-2xl leading-relaxed">
-            Independent research, fee analysis, and expert guides — written for
+            Independent research, fee analysis, and expert guides - written for
             parents navigating international school decisions across Asia.
           </p>
         </div>
@@ -362,7 +362,7 @@ export default function InsightsPage() {
           This Week&apos;s Highlights
         </h2>
 
-        {/* Hero article — full-width card */}
+        {/* Hero article - full-width card */}
         <div className="mb-8">
           <ArticleCardLarge article={HERO_ARTICLE} />
         </div>
@@ -447,7 +447,7 @@ export default function InsightsPage() {
             Stay informed
           </h2>
           <p className="text-cream-300 mb-8 leading-relaxed">
-            Fee updates, new school openings, results analysis — delivered to
+            Fee updates, new school openings, results analysis - delivered to
             your inbox every fortnight. No spam. Unsubscribe anytime.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">

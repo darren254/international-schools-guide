@@ -95,7 +95,7 @@ const COMPARE_ROWS: { key: string; label: string; render: (s: CompareSchool) => 
         <span>
           {s.feeRange}
           <span className="block text-[0.75rem] text-charcoal-muted mt-1 font-normal">
-            This school does not publish tuition fees — contact the school directly.
+            This school does not publish tuition fees - contact the school directly.
           </span>
         </span>
       ) : (
@@ -261,7 +261,7 @@ function CompareContent() {
         </section>
       )}
 
-      {/* Comparison table — only show when 2+ schools selected */}
+      {/* Comparison table - only show when 2+ schools selected */}
       {selectedSchools.length >= 2 && (
         <>
           {/* Back to picker */}

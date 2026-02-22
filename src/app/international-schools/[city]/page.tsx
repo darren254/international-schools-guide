@@ -20,12 +20,12 @@ export async function generateMetadata({
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ");
   return {
-    title: `International Schools in ${cityName} — Fees, Reviews & Comparison`,
+    title: `International Schools in ${cityName} - Fees, Reviews & Comparison`,
     description:
       "Browse 66 international schools in Jakarta. Compare fees, curricula, IB results, and read honest editorial reviews. Filter by area, age range, and budget.",
     alternates: { canonical: `${baseUrl}/international-schools/${params.city}` },
     openGraph: {
-      title: `International Schools in ${cityName} — International Schools Guide`,
+      title: `International Schools in ${cityName} - International Schools Guide`,
       description:
         "Browse 66 international schools in Jakarta. Compare fees, curricula, IB results, and read honest editorial reviews. Filter by area, age range, and budget.",
       url: `${baseUrl}/international-schools/${params.city}`,
@@ -55,7 +55,7 @@ export default function CityPage({
         citySlug={params.city}
         cityName={cityName}
       />
-      {/* City editorial content — Jakarta only for now */}
+      {/* City editorial content - Jakarta only for now */}
       {params.city === "jakarta" && (
         <section className="container-site mt-16 pt-12 border-t border-warm-border pb-12">
           <h2 className="font-display text-display-lg font-medium mb-6">
@@ -66,15 +66,15 @@ export default function CityPage({
               Jakarta has one of the largest concentrations of international
               schools in Southeast Asia, serving a diverse expat community of
               diplomats, corporate executives, and entrepreneurs. The range is
-              wide — from premium schools charging over US$35K per year to
+              wide - from premium schools charging over US$35K per year to
               solid mid-range options at a fraction of the price.
             </p>
             <p className="text-[0.9375rem] text-charcoal-light leading-[1.75] mb-5">
               The dominant curricula are IB (offered at six or more schools),
               British/Cambridge, and Australian. American-style education is
               primarily available through JIS. Most top-tier schools are
-              concentrated in South Jakarta — Cilandak, Pondok Indah, and
-              Kemang — with a growing cluster in BSD City and South Tangerang
+              concentrated in South Jakarta - Cilandak, Pondok Indah, and
+              Kemang - with a growing cluster in BSD City and South Tangerang
               offering lower fees and newer campuses.
             </p>
             <p className="text-[0.9375rem] text-charcoal-light leading-[1.75] mb-5">
@@ -86,8 +86,8 @@ export default function CityPage({
             </p>
             <p className="text-[0.9375rem] text-charcoal-light leading-[1.75]">
               Corporate relocation packages typically cover JIS or BSJ. If
-              you&apos;re self-funding, the mid-tier schools — Mentari, AIS,
-              Global Jaya — offer genuine quality at significantly lower cost.
+              you&apos;re self-funding, the mid-tier schools - Mentari, AIS,
+              Global Jaya - offer genuine quality at significantly lower cost.
               Don&apos;t assume expensive means better. Read the profiles,
               compare the data, and visit in person.
             </p>

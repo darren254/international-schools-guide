@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const BASE_URL = "https://international-schools-guide.com";
 
-// Static params for export — add articles as we publish them
+// Static params for export - add articles as we publish them
 export function generateStaticParams() {
   return [{ slug: "isj-claims-top-ranking-jakarta" }];
 }
@@ -21,7 +21,7 @@ export async function generateMetadata({
       "The British preparatory school serving students aged 2–13 has been named number one in Jakarta by what it describes as the world's leading platform.",
     alternates: { canonical },
     openGraph: {
-      title: "Independent School of Jakarta claims top ranking — International Schools Guide",
+      title: "Independent School of Jakarta claims top ranking - International Schools Guide",
       description:
         "The British preparatory school serving students aged 2–13 has been named number one in Jakarta by what it describes as the world's leading platform.",
       url: canonical,
@@ -31,7 +31,7 @@ export async function generateMetadata({
 }
 
 // ═══════════════════════════════════════════════════════
-// ARTICLE DATA — will come from CMS/DB later
+// ARTICLE DATA - will come from CMS/DB later
 // ═══════════════════════════════════════════════════════
 
 const ARTICLE = {
@@ -98,7 +98,7 @@ export default function ArticlePage() {
       {/* ─── Article ─── */}
       <article className="container-site pt-6 pb-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
-          {/* Main content — 8 cols */}
+          {/* Main content - 8 cols */}
           <div className="lg:col-span-8">
             {/* Category badge */}
             <span className="text-xs font-semibold uppercase tracking-widest text-emerald-700 mb-3 block">
@@ -197,11 +197,11 @@ export default function ArticlePage() {
             {/* Source attribution */}
             <div className="mt-6 p-4 bg-cream-50 border-l-2 border-cream-300 text-sm text-charcoal-muted">
               <span className="font-medium">Commentary on:</span>{" "}
-              {ARTICLE.source.label} — via {ARTICLE.source.outlet}
+              {ARTICLE.source.label} - via {ARTICLE.source.outlet}
             </div>
           </div>
 
-          {/* Sidebar — 4 cols */}
+          {/* Sidebar - 4 cols */}
           <aside className="lg:col-span-4">
             {/* More News */}
             <div className="lg:sticky lg:top-24">
@@ -232,7 +232,7 @@ export default function ArticlePage() {
               <div className="mt-8 p-5 bg-charcoal rounded-sm text-cream">
                 <h3 className="font-display text-lg mb-2">Stay informed</h3>
                 <p className="text-cream-300 text-sm mb-4 leading-relaxed">
-                  School news and fee updates — delivered fortnightly.
+                  School news and fee updates - delivered fortnightly.
                 </p>
                 <input
                   type="email"

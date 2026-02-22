@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Independent, editorially-driven school profiles built for expat families. No sponsored rankings, no school advertising, no commissions.",
   alternates: { canonical: "https://international-schools-guide.com/about" },
   openGraph: {
-    title: "About Us — International Schools Guide",
+    title: "About Us - International Schools Guide",
     description:
       "Independent, editorially-driven school profiles built for expat families. No sponsored rankings, no school advertising, no commissions.",
     url: "https://international-schools-guide.com/about",
@@ -23,12 +23,12 @@ const TEAM = [
   {
     name: "James Chen",
     role: "Head of Development",
-    bio: "James builds the platform — the search tools, comparison features, and data pipelines that keep fee information and school profiles accurate. Previously he led product engineering at a Singapore-based edtech company.",
+    bio: "James builds the platform - the search tools, comparison features, and data pipelines that keep fee information and school profiles accurate. Previously he led product engineering at a Singapore-based edtech company.",
   },
   {
     name: "Emma Torres",
     role: "Content & Research Lead",
-    bio: "Emma visits schools, interviews heads, and writes the editorial reviews. She's a former IB teacher who taught in Bangkok, Hong Kong, and Jakarta before joining ISG. She knows what good teaching looks like — and what marketing copy looks like.",
+    bio: "Emma visits schools, interviews heads, and writes the editorial reviews. She's a former IB teacher who taught in Bangkok, Hong Kong, and Jakarta before joining ISG. She knows what good teaching looks like - and what marketing copy looks like.",
   },
 ];
 
@@ -46,7 +46,7 @@ const PROCESS_STEPS = [
   {
     step: "03",
     title: "We write what we think",
-    desc: "Every school profile includes an editorial review — our honest assessment of who the school suits, what it does well, and where it falls short. Schools don't get to approve or edit these reviews before publication.",
+    desc: "Every school profile includes an editorial review - our honest assessment of who the school suits, what it does well, and where it falls short. Schools don't get to approve or edit these reviews before publication.",
   },
   {
     step: "04",
@@ -68,8 +68,8 @@ export default function AboutPage() {
         </h1>
         <p className="text-[1.0625rem] text-charcoal-light leading-relaxed max-w-2xl mb-6">
           International Schools Guide is an independent editorial platform. We
-          profile international schools across Asia — fees, results, facilities,
-          and an honest written review — so expat families can make informed
+          profile international schools across Asia - fees, results, facilities,
+          and an honest written review - so expat families can make informed
           decisions instead of relying on school marketing and word of mouth.
         </p>
         <p className="text-[1.0625rem] text-charcoal-light leading-relaxed max-w-2xl">
@@ -93,8 +93,8 @@ export default function AboutPage() {
             </div>
             <div className="space-y-4 text-[0.9375rem] text-charcoal-light leading-relaxed">
               <p>
-                If you&apos;re an expat family arriving in Jakarta — or Singapore,
-                or Bangkok, or Dubai — finding the right school for your child is
+                If you&apos;re an expat family arriving in Jakarta - or Singapore,
+                or Bangkok, or Dubai - finding the right school for your child is
                 one of the most consequential decisions you&apos;ll make. It&apos;s
                 also one of the least well-served by good information.
               </p>
@@ -107,7 +107,7 @@ export default function AboutPage() {
                 think?
               </p>
               <p>
-                We started with Jakarta because it&apos;s the city we know best —
+                We started with Jakarta because it&apos;s the city we know best -
                 90+ international schools, fee ranges from US$5K to US$36K a year,
                 and very little independent information to help parents navigate it
                 all. We&apos;re expanding across Southeast Asia and beyond, one
@@ -133,7 +133,7 @@ export default function AboutPage() {
           {[
             {
               title: "Editorially independent",
-              desc: "Schools don't pay to be listed, can't pay to improve their review, and don't see our editorial before it's published. Our revenue comes from parents (premium features) and advertising that is clearly labelled — never from schools.",
+              desc: "Schools don't pay to be listed, can't pay to improve their review, and don't see our editorial before it's published. Our revenue comes from parents (premium features) and advertising that is clearly labelled - never from schools.",
             },
             {
               title: "Data you can trust",
@@ -220,7 +220,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-[0.9375rem] text-charcoal-light max-w-lg mx-auto mb-8 leading-relaxed">
             If you&apos;re a parent with a school recommendation, a head of school
-            who wants to update your profile, or a journalist who wants to talk —
+            who wants to update your profile, or a journalist who wants to talk -
             we&apos;d like to hear from you.
           </p>
           <Link

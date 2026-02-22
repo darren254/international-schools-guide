@@ -1,10 +1,10 @@
 /**
  * Currency conversion utilities.
- * Exchange rate updated weekly — see exchangeRates table.
+ * Exchange rate updated weekly - see exchangeRates table.
  * Display note: "Exchange rate updated [date]"
  */
 
-// Hardcoded fallback rate — overridden by DB value at runtime
+// Hardcoded fallback rate - overridden by DB value at runtime
 const FALLBACK_IDR_USD = 16800;
 
 export type SupportedCurrency = "USD" | "IDR" | "SGD" | "GBP" | "EUR" | "AUD";

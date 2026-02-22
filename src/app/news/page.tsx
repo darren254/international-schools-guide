@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "The latest news on international schools in Jakarta and across Asia. Independent reporting on admissions, rankings, openings, and the education market.",
   alternates: { canonical: "https://international-schools-guide.com/news" },
   openGraph: {
-    title: "News — International Schools Guide",
+    title: "News - International Schools Guide",
     description:
       "The latest news on international schools in Jakarta and across Asia. Independent reporting on admissions, rankings, openings, and the education market.",
     url: "https://international-schools-guide.com/news",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 // ═══════════════════════════════════════════════════════
-// HARDCODED CONTENT — wire to CMS later
+// HARDCODED CONTENT - wire to CMS later
 // ═══════════════════════════════════════════════════════
 
 interface NewsArticle {
@@ -30,7 +30,7 @@ interface NewsArticle {
   tags?: string[];
 }
 
-// Category colour helper — matches insights page
+// Category colour helper - matches insights page
 function categoryColour(cat: string): string {
   switch (cat.toUpperCase()) {
     case "FEES":
@@ -303,7 +303,7 @@ export default function NewsPage() {
               Top Stories
             </h2>
 
-            {/* Lead story — large card */}
+            {/* Lead story - large card */}
             <Link
               href={`/news/${LEAD_STORY.slug}`}
               className="group block card-title-hover mb-8"
@@ -336,7 +336,7 @@ export default function NewsPage() {
               </div>
             </Link>
 
-            {/* Secondary stories — compact list */}
+            {/* Secondary stories - compact list */}
             <div className="space-y-0 divide-y divide-warm-border">
               {TOP_STORIES.map((story) => (
                 <Link
@@ -532,7 +532,7 @@ export default function NewsPage() {
             Don&apos;t miss a story
           </h2>
           <p className="text-cream-300 mb-8 leading-relaxed">
-            School news, fee updates, and market intelligence — delivered to
+            School news, fee updates, and market intelligence - delivered to
             your inbox every fortnight.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">

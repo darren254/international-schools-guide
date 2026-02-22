@@ -48,7 +48,7 @@ punches above its weight (max once per ~20 profiles), bang for your buck, hidden
 - **Attribution:** Use “Parents say…”, “Families who’ve been here a few years say…”, “The word among expat families is…”, “The general consensus…”, “One thing families mention…”. Never “Parents note that…”, “It should be noted…”, “Parents report…”.
 - **Sentences:** Lead with human experience, not the raw fact.  
   Bad: “Class sizes average 12–14. This means teachers know students individually.”  
-  Good: “At 12–14 per class, teachers know your child — not just their name, but their personality.”
+  Good: “At 12–14 per class, teachers know your child - not just their name, but their personality.”
 - **Specificity:** Name streets, times, traffic, neighbourhoods.  
   Bad: “The location may involve a commute for some families.”  
   Good: “If you’re in Menteng or Central Jakarta, you’re looking at 40–50 minutes each way at rush hour.”
@@ -63,7 +63,7 @@ punches above its weight (max once per ~20 profiles), bang for your buck, hidden
 
 - **One sentence, or two at most.**
 - **Direct advice to a parent**, not a description of the school.
-- **Always include a qualifier or caveat** — never unconditional praise.
+- **Always include a qualifier or caveat** - never unconditional praise.
 
 Good: “If your company is paying and your child is reasonably outgoing, JIS is a safe, solid choice. If you’re self-funding, it’s worth comparing.”  
 Bad: “BSJ is the strongest British-curriculum option in Jakarta with genuine community spirit and strong pastoral care.”
@@ -72,9 +72,9 @@ Bad: “BSJ is the strongest British-curriculum option in Jakarta with genuine c
 
 ## 6. Intelligence paragraphs (structure)
 
-- **Paragraph 1 — Market positioning:** How the school sits relative to others; what kind of family chooses it. Open with a grounding phrase: “The word among expat families is…”, “If you ask around…”, “The general consensus…”.
-- **Paragraph 2 — Daily reality:** What parents actually experience — strengths, texture, daily life. Use specific details from research (streets, traffic, class dynamics, named programmes). Should feel like someone describing their child’s school to a friend.
-- **Paragraph 3 — Honest trade-offs:** What’s the catch? Be direct. Name the trade-off; don’t hedge.
+- **Paragraph 1 - Market positioning:** How the school sits relative to others; what kind of family chooses it. Open with a grounding phrase: “The word among expat families is…”, “If you ask around…”, “The general consensus…”.
+- **Paragraph 2 - Daily reality:** What parents actually experience - strengths, texture, daily life. Use specific details from research (streets, traffic, class dynamics, named programmes). Should feel like someone describing their child’s school to a friend.
+- **Paragraph 3 - Honest trade-offs:** What’s the catch? Be direct. Name the trade-off; don’t hedge.
 
 ---
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     "Compare international schools in Jakarta side by side. Fees, curricula, exam results, and our editorial verdict. Select up to 4 schools.",
   alternates: { canonical: "https://international-schools-guide.com/compare" },
   openGraph: {
-    title: "Compare Schools — International Schools Guide",
+    title: "Compare Schools - International Schools Guide",
     description:
       "Compare international schools in Jakarta side by side. Fees, curricula, exam results, and our editorial verdict. Select up to 4 schools.",
     url: "https://international-schools-guide.com/compare",

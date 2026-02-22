@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Compare international schools worldwide. Fees, IB results, honest editorial reviews. Built for expat families.",
   alternates: { canonical: "https://international-schools-guide.com/" },
   openGraph: {
-    title: "Find the Right International School — International Schools Guide",
+    title: "Find the Right International School - International Schools Guide",
     description:
       "Compare international schools worldwide. Fees, IB results, honest editorial reviews. Built for expat families.",
     url: "https://international-schools-guide.com/",
@@ -47,7 +47,7 @@ const FEATURED_SCHOOLS_RAW: {
     citySlug: "jakarta",
     curricula: ["British", "IGCSE", "A-Levels"],
     feeRange: "US$9.2K – $30K",
-    ibAverage: "—",
+    ibAverage: "-",
     students: "200",
     hook: "Small, personal British school with standout pastoral care and class sizes capped at 16",
     sponsored: false,
@@ -89,7 +89,7 @@ const FEATURED_SCHOOLS = [...FEATURED_SCHOOLS_RAW].sort((a, b) => {
 const FROM_THE_GUIDE = [
   {
     slug: "best-international-schools-jakarta",
-    title: "International Schools in Jakarta — A Practical Guide for Expat Families (2026)",
+    title: "International Schools in Jakarta - A Practical Guide for Expat Families (2026)",
     category: "Guide",
     description: "More than 60 international schools; compare fees, curricula, and locations. Honest guide to JIS, BSJ, ISJ, AIS, and 60+ options.",
   },
@@ -146,10 +146,10 @@ export default function HomePage() {
           Find the right international school
         </h1>
         <p className="text-charcoal-light max-w-xl mx-auto mb-12 text-[0.9375rem] leading-relaxed">
-          Honest profiles, verified fee data, and independent editorial reviews — built for expat families, not for schools.
+          Honest profiles, verified fee data, and independent editorial reviews - built for expat families, not for schools.
         </p>
 
-        {/* Search block — single action: go to Jakarta schools (only live city for now) */}
+        {/* Search block - single action: go to Jakarta schools (only live city for now) */}
         <div className="w-full max-w-3xl mx-auto">
           <Link
             href="/international-schools/jakarta/"
@@ -320,7 +320,7 @@ export default function HomePage() {
                       {city.tagline ?? ""}
                     </p>
                     <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[0.8125rem] text-charcoal-muted mb-3">
-                      <span>{city.schoolCount ?? "—"}+ schools</span>
+                      <span>{city.schoolCount ?? "-"}+ schools</span>
                       <span>{city.feeRange ?? ""}</span>
                     </div>
                     <div className="flex gap-2">
@@ -487,7 +487,7 @@ export default function HomePage() {
               {
                 step: "02",
                 title: "Shortlist your picks",
-                desc: "Save schools to your shortlist and compare them side by side — tuition, curriculum, results, community fit.",
+                desc: "Save schools to your shortlist and compare them side by side - tuition, curriculum, results, community fit.",
               },
               {
                 step: "03",

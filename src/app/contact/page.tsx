@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     "Get in touch with the International Schools Guide team. Corrections, school updates, editorial enquiries, and partnership proposals.",
   alternates: { canonical: "https://international-schools-guide.com/contact" },
   openGraph: {
-    title: "Contact Us — International Schools Guide",
+    title: "Contact Us - International Schools Guide",
     description:
       "Get in touch with the International Schools Guide team.",
     url: "https://international-schools-guide.com/contact",

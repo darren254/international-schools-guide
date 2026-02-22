@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Terms of use for International Schools Guide. The Schools Trust Ltd.",
   alternates: { canonical: "https://international-schools-guide.com/terms" },
   openGraph: {
-    title: "Terms of Use — International Schools Guide",
+    title: "Terms of Use - International Schools Guide",
     description: "Terms of use for International Schools Guide.",
     url: "https://international-schools-guide.com/terms",
   },

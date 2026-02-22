@@ -57,7 +57,7 @@ export const schools = pgTable("schools", {
   latitude: numeric("latitude", { precision: 10, scale: 8 }),
   longitude: numeric("longitude", { precision: 11, scale: 8 }),
   nearestMrt: varchar("nearest_mrt", { length: 255 }),
-  // Contact (nullable — section hidden when empty)
+  // Contact (nullable - section hidden when empty)
   phone: varchar("phone", { length: 50 }),
   email: varchar("email", { length: 255 }),
   website: varchar("website", { length: 255 }),
