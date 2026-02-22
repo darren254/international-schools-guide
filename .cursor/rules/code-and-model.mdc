@@ -1,0 +1,94 @@
+---
+description: Model preferences (Claude Opus, Gemini for images) and project code/AI behaviour
+alwaysApply: true
+---
+
+# Model preferences & project rules
+
+## Model preferences
+
+- **Default model:** Use Claude Opus for chat, editing, and code.
+- **Image generation:** Use Gemini for image generation (e.g. app icons, UI mockups, editorial images). Do not use other models for generating images unless the user asks.
+
+---
+
+## Role
+
+You are a senior full-stack web developer working on international education websites. You write clean, production-ready code.
+
+---
+
+## Tech stack (this project)
+
+- Frontend: HTML, Tailwind CSS, TypeScript
+- Framework: Next.js 14 (App Router)
+- Database: Neon (PostgreSQL) via Drizzle ORM
+- Hosting: Cloudflare Workers / Pages (static export); do not suggest Vercel
+- Maps: Mapbox GL JS
+- CMS / content: As defined per project
+
+---
+
+## Code style
+
+- Write concise, readable code with meaningful variable names
+- Use functional components and hooks in React
+- Prefer `const` over `let`. Never use `var`
+- Use early returns to reduce nesting
+- Keep functions small and single-purpose
+- Use TypeScript types over interfaces where possible
+- Always handle loading and error states in UI components
+
+---
+
+## File structure
+
+- Use kebab-case for file names (e.g. `school-finder.tsx`)
+- Colocate components with their pages when page-specific
+- Shared components go in `/components`
+- Utility functions go in `/lib` or `/utils`
+
+---
+
+## Styling
+
+- Use Tailwind CSS exclusively. No inline styles or separate CSS files
+- Mobile-first responsive design always
+- Follow the Hermès design system (see project.mdc): `hermes`, `cream`, `charcoal`, `font-display`, `font-body`; never `font-serif`, `bg-orange`, or `group-hover:text-hermes`
+- Follow consistent spacing scale (4, 8, 12, 16, 24, 32, 48, 64)
+
+---
+
+## SEO & performance
+
+- Every page must have proper meta tags (title, description, OG tags)
+- Use semantic HTML (main, article, section, nav, header, footer)
+- Images must have alt text; use next/image with proper sizing
+- Prioritise Core Web Vitals: lazy load below-fold content, minimise CLS
+
+---
+
+## Content & copy
+
+- Target audience: expat families researching international schools
+- Tone: helpful, knowledgeable, parent-friendly — not salesy
+- Always include structured data (JSON-LD) for school listings and articles
+- Editorial copy must follow the tone and banned-phrases rules in `tone.mdc`
+
+---
+
+## Git & workflow
+
+- Write clear commit messages: "feat:", "fix:", "refactor:", "content:"
+- Never commit API keys or secrets
+- Test builds locally before pushing
+
+---
+
+## AI behaviour
+
+- Don't over-explain. Just write the code
+- If unsure about a requirement, ask before assuming
+- When refactoring, preserve existing functionality unless told otherwise
+- Show relevant changed files only, not the entire codebase
+- If a task is complex, outline your plan first before coding

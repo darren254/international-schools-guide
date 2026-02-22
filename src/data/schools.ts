@@ -8,6 +8,8 @@ import { JAKARTA_SCHOOLS, type JakartaSchoolListing } from "@/data/jakarta-schoo
 import { extractHighestFee } from "@/lib/utils/fees";
 // Optional CSV export for minimal profiles (address, facilities, nationalities, founded)
 import JAKARTA_CSV_EXPORT from "@/data/jakarta_csv_export.json";
+// Geocoded lat/lng per campus (run scripts/extract-campus-addresses.ts then scripts/geocode-campuses.mjs to regenerate)
+import geocodedCampuses from "@/data/campus-coordinates.json";
 
 export const EXCHANGE_RATE = 16_800; // IDR per USD
 export const EXCHANGE_RATE_DATE = "19 Feb 2026";
@@ -150,9 +152,9 @@ const jis: SchoolProfile = {
   shortName: "JIS",
   verified: false,
 
-  metaTitle: "Jakarta Intercultural School (JIS) — Fees, IB Results & Review",
+  metaTitle: "Jakarta Intercultural School (JIS) - Fees, IB Results & Review",
   metaDescription:
-    "Jakarta Intercultural School profile — fees from US$17K–US$36K/year, IB average 35.8, 2,500+ students, 60+ nationalities. Honest editorial review for expat parents.",
+    "Jakarta Intercultural School profile - fees from US$17K–US$36K/year, IB average 35.8, 2,500+ students, 60+ nationalities. Honest editorial review for expat parents.",
 
   campuses: [
     {
@@ -201,25 +203,25 @@ const jis: SchoolProfile = {
 
   intelligence: {
     verdict:
-      "If your company is paying and your child is reasonably outgoing, JIS is a safe, solid choice — strong university placements, huge breadth of activities, and a genuinely international community. If you're self-funding, it's worth comparing.",
+      "If your company is paying and your child is reasonably outgoing, JIS is a safe, solid choice - strong university placements, huge breadth of activities, and a genuinely international community. If you're self-funding, it's worth comparing.",
     paragraphs: [
-      "The word among expat families is that JIS is the big, established name — the school most corporate packages are written around and the one relocation agents mention first. Founded in 1951, it has the history, the scale, and the resources that come with being Jakarta's largest international school. Parents describe it as offering an American-influenced education with a broad international mix of students. The main Cilandak campus runs Early Childhood through High School, while Pattimura in Kebayoran Baru takes Elementary (K–5).",
-      "Families who've been here a few years tend to say the strengths are real — strong university placements, a huge range of activities, and a community that feels like a small town. The flip side is that it's expensive (the most expensive in Jakarta), the campus is ageing, and at 2,500+ students it can feel impersonal if your child isn't the type to put their hand up. It suits families who want breadth of opportunity and don't mind a bigger, busier environment.",
+      "The word among expat families is that JIS is the big, established name - the school most corporate packages are written around and the one relocation agents mention first. Founded in 1951, it has the history, the scale, and the resources that come with being Jakarta's largest international school. Parents describe it as offering an American-influenced education with a broad international mix of students. The main Cilandak campus runs Early Childhood through High School, while Pattimura in Kebayoran Baru takes Elementary (K–5).",
+      "Families who've been here a few years tend to say the strengths are real - strong university placements, a huge range of activities, and a community that feels like a small town. The flip side is that it's expensive (the most expensive in Jakarta), the campus is ageing, and at 2,500+ students it can feel impersonal if your child isn't the type to put their hand up. It suits families who want breadth of opportunity and don't mind a bigger, busier environment.",
       "The general consensus: if your company is paying and your child is reasonably outgoing, JIS is a safe and solid choice. If you're self-funding or want a smaller, more personal setup, it's worth looking at what else is out there.",
     ],
     positives: [
-      "Strong university placement track record — graduates regularly go on to well-known US, UK, and Australian universities, with a solid Ivy League and Oxbridge pipeline. Parents say the college counselling team is experienced and well-connected.",
-      "Diverse student body with 60+ nationalities and no single group dominating — parents value the fact that their children mix with families from all over the world rather than one or two dominant communities.",
+      "Strong university placement track record - graduates regularly go on to well-known US, UK, and Australian universities, with a solid Ivy League and Oxbridge pipeline. Parents say the college counselling team is experienced and well-connected.",
+      "Diverse student body with 60+ nationalities and no single group dominating - parents value the fact that their children mix with families from all over the world rather than one or two dominant communities.",
       "Serious sports programme through IASAS, competing against top international schools across Southeast Asia. Good range of team and individual sports, and high participation rates across the secondary school.",
-      "Large-scale arts and performing arts programme — annual musicals, orchestra, and dedicated performance spaces mean students who are into drama, music, or visual arts have real outlets and resources.",
-      "Well-established alumni network going back over 70 years — useful for older students thinking about university applications, internships, and career connections.",
+      "Large-scale arts and performing arts programme - annual musicals, orchestra, and dedicated performance spaces mean students who are into drama, music, or visual arts have real outlets and resources.",
+      "Well-established alumni network going back over 70 years - useful for older students thinking about university applications, internships, and career connections.",
     ],
     considerations: [
-      "At IDR 527M+ per year rising to IDR 604M for IB, JIS is comfortably the most expensive school in Jakarta. The gap between JIS and the next tier down is significant — make sure you're clear on what the premium buys you before committing.",
+      "At IDR 527M+ per year rising to IDR 604M for IB, JIS is comfortably the most expensive school in Jakarta. The gap between JIS and the next tier down is significant - make sure you're clear on what the premium buys you before committing.",
       "The Cilandak campus dates from the mid-1970s and parts of it are showing their age. A renovation programme is underway but it's a big site and there's still plenty of work to do. Don't expect gleaming, purpose-built facilities throughout.",
       "Traffic around the Cilandak campus at drop-off is a genuine headache. Jl. Terogong Raya backs up badly between 7:15 and 7:45 AM. Families who live in BSD or Tangerang should factor in a long commute.",
-      "With 2,500+ students, JIS is a big school. Parents of quieter children sometimes say their kids can get lost in the crowd, particularly in middle school. It works well for confident, outgoing students — less so for those who need to be drawn out.",
-      "The American-influenced approach — first-name basis with teachers, emphasis on student voice and choice — suits some families but feels too informal for those coming from British or more traditional Asian school cultures.",
+      "With 2,500+ students, JIS is a big school. Parents of quieter children sometimes say their kids can get lost in the crowd, particularly in middle school. It works well for confident, outgoing students - less so for those who need to be drawn out.",
+      "The American-influenced approach - first-name basis with teachers, emphasis on student voice and choice - suits some families but feels too informal for those coming from British or more traditional Asian school cultures.",
     ],
   },
 
@@ -343,9 +345,9 @@ const bsj: SchoolProfile = {
   shortName: "BSJ",
   verified: false,
 
-  metaTitle: "British School Jakarta (BSJ) — Fees, A-Level Results & Review",
+  metaTitle: "British School Jakarta (BSJ) - Fees, A-Level Results & Review",
   metaDescription:
-    "British School Jakarta profile — fees from US$18K–US$32K/year, 1,400+ students, 50+ nationalities, IB Diploma & British curriculum. Independent editorial review.",
+    "British School Jakarta profile - fees from US$18K–US$32K/year, 1,400+ students, 50+ nationalities, IB Diploma & British curriculum. Independent editorial review.",
 
   campuses: [
     {
@@ -414,7 +416,7 @@ const bsj: SchoolProfile = {
     oneTime: [
       { name: "Application Fee", amount: 4_000_000 },
     ],
-    note: "Fee ranges are approximate — BSJ invoices termly and specific amounts vary by year group. A 3% discount is available for annual payment in full. Fees do not include examination fees (IB/IGCSE), extracurricular activities, overseas trips, sports events, or technology hire. Contact admissions for the detailed 2025–2026 fee schedule.",
+    note: "Fee ranges are approximate - BSJ invoices termly and specific amounts vary by year group. A 3% discount is available for annual payment in full. Fees do not include examination fees (IB/IGCSE), extracurricular activities, overseas trips, sports events, or technology hire. Contact admissions for the detailed 2025–2026 fee schedule.",
   },
 
   academics: {
@@ -432,7 +434,7 @@ const bsj: SchoolProfile = {
   studentBody: {
     paragraphs: [
       "BSJ draws primarily from British, European, and Australian expat families, though the community has diversified significantly in recent years. The school serves 50+ nationalities, with British families representing the largest single group. A growing number of Indonesian families choose BSJ for its British ethos and IB pathway.",
-      "The school culture is notably British — uniforms are worn, assemblies follow British traditions, and there's a strong emphasis on manners, community service, and character development. The house system runs through all year groups and drives much of the school's social and competitive activity.",
+      "The school culture is notably British - uniforms are worn, assemblies follow British traditions, and there's a strong emphasis on manners, community service, and character development. The house system runs through all year groups and drives much of the school's social and competitive activity.",
     ],
     inspection: {
       date: "June 2023",
@@ -462,9 +464,9 @@ const bsj: SchoolProfile = {
       "Medical centre",
     ],
     paragraphs: [
-      "BSJ runs 260+ extracurricular activities spanning sports, arts, music, and academic clubs. Activities run before school, at lunchtime, after school, and on Saturdays. The Manchester City FC football partnership provides professional coaching methodology — one of the school's distinctive offerings.",
+      "BSJ runs 260+ extracurricular activities spanning sports, arts, music, and academic clubs. Activities run before school, at lunchtime, after school, and on Saturdays. The Manchester City FC football partnership provides professional coaching methodology - one of the school's distinctive offerings.",
       "The school competes regionally through FOBISIA (Federation of British International Schools in Asia), of which BSJ is a founding member. Sports include swimming, football, badminton, basketball, tennis, rugby, volleyball, and cross-country. The annual musical production uses the 750-seat theatre with professional lighting and sound.",
-      "Indonesian cultural activities include Gamelan, Angklung, Sumatran Drumming, and Talempeg ensembles — a genuine effort to connect students with local culture. The 45-acre campus includes extensive green space, and the new Arena provides an all-weather venue for sports, performances, and community events.",
+      "Indonesian cultural activities include Gamelan, Angklung, Sumatran Drumming, and Talempeg ensembles - a genuine effort to connect students with local culture. The 45-acre campus includes extensive green space, and the new Arena provides an all-weather venue for sports, performances, and community events.",
     ],
   },
 
@@ -515,9 +517,9 @@ const acg: SchoolProfile = {
   shortName: "ACG",
   verified: false,
 
-  metaTitle: "ACG School Jakarta — Fees, IB Results & Review",
+  metaTitle: "ACG School Jakarta - Fees, IB Results & Review",
   metaDescription:
-    "ACG School Jakarta profile — fees from US$14K–US$24K/year, IB average 35, 300+ students, 35+ nationalities. Part of Inspired Education Group. Editorial review.",
+    "ACG School Jakarta profile - fees from US$14K–US$24K/year, IB average 35, 300+ students, 35+ nationalities. Part of Inspired Education Group. Editorial review.",
 
   campuses: [
     {
@@ -684,9 +686,9 @@ const isj: SchoolProfile = {
   shortName: "ISJ",
   verified: false,
 
-  metaTitle: "The Independent School of Jakarta (ISJ) — Fees, Review & Profile",
+  metaTitle: "The Independent School of Jakarta (ISJ) - Fees, Review & Profile",
   metaDescription:
-    "ISJ profile — British school for ages 2–13 (expanding to GCSE and A-Level), class sizes capped at 20, UK-recruited staff. Part of The Schools Trust. Editorial review for expat parents.",
+    "ISJ profile - British school for ages 2–13 (expanding to GCSE and A-Level), class sizes capped at 20, UK-recruited staff. Part of The Schools Trust. Editorial review for expat parents.",
 
   campuses: [
     {
@@ -783,7 +785,7 @@ const isj: SchoolProfile = {
   studentBody: {
     paragraphs: [
       "ISJ serves approximately 200 students from 30+ nationalities. The school is co-educational and serves an international community, with a significant proportion of British and European families alongside families from across Asia and the Middle East.",
-      "The small size creates a close community where children across year groups know each other. The school's British identity is central — assemblies, pastoral care, and values education follow British independent school traditions. A dedicated safeguarding lead sits on the senior leadership team.",
+      "The small size creates a close community where children across year groups know each other. The school's British identity is central - assemblies, pastoral care, and values education follow British independent school traditions. A dedicated safeguarding lead sits on the senior leadership team.",
       "ISJ has a partnership with Ipswich High School (UK). Each year the school sends its top-year pupils to Ipswich High School for residentials, combining academic enrichment with the experience of a UK independent school.",
     ],
     inspection: {
@@ -810,7 +812,7 @@ const isj: SchoolProfile = {
     paragraphs: [
       "ISJ runs co-curricular clubs including football, climbing, choir, coding, enterprise, dance, robotics, creative writing, and bouldering (the latter at IndoClimb Kemang). Clubs are led by ISJ staff and external specialists.",
       "The sports programme includes specialist-led sessions in gymnastics, athletics, football, badminton, dance, and swimming. The on-site pool is used for enhanced weekday swimming. The school is planning a Saturday football initiative.",
-      "Educational enrichment includes museum and gallery visits, science centre trips, and community projects. Residential trips for older pupils — including the annual residential at partner school Ipswich High School (UK) — combine academic enrichment with adventure. The campus is still developing — a new gymnasium is under construction for sports, assemblies, and community events.",
+      "Educational enrichment includes museum and gallery visits, science centre trips, and community projects. Residential trips for older pupils - including the annual residential at partner school Ipswich High School (UK) - combine academic enrichment with adventure. The campus is still developing - a new gymnasium is under construction for sports, assemblies, and community events.",
     ],
   },
 
@@ -862,9 +864,9 @@ const mentari: SchoolProfile = {
   shortName: "Mentari",
   verified: false,
 
-  metaTitle: "Mentari Intercultural School Jakarta — Fees, IB Results & Review",
+  metaTitle: "Mentari Intercultural School Jakarta - Fees, IB Results & Review",
   metaDescription:
-    "Mentari Intercultural School profile — fees from US$8K–US$16K/year, full IB continuum, South Jakarta. Best value IB school in the city. Editorial review.",
+    "Mentari Intercultural School profile - fees from US$8K–US$16K/year, full IB continuum, South Jakarta. Best value IB school in the city. Editorial review.",
 
   campuses: [
     {
@@ -935,7 +937,7 @@ const mentari: SchoolProfile = {
       { name: "Development Fee (Elementary, one-time through graduation)", amount: 93_000_000 },
       { name: "Admission Fee (High School)", amount: 67_000_000, note: "Range: IDR 67M–79M" },
     ],
-    note: "Fee structure differs between Early Years, Elementary, and High School. Monthly tuition ranges from IDR 7.5M (Early Years) to IDR 8.7M (Elementary). One-time development/admission fees are significant — factor these into first-year costs. Contact admissions for the current detailed fee schedule as structures may have changed for 2025–2026.",
+    note: "Fee structure differs between Early Years, Elementary, and High School. Monthly tuition ranges from IDR 7.5M (Early Years) to IDR 8.7M (Elementary). One-time development/admission fees are significant - factor these into first-year costs. Contact admissions for the current detailed fee schedule as structures may have changed for 2025–2026.",
   },
 
   academics: {
@@ -945,15 +947,15 @@ const mentari: SchoolProfile = {
     ],
     paragraphs: [
       "Mentari is a full IB World School offering the Primary Years Programme (PYP) through Years 1–5, the Middle Years Programme (MYP) through Years 6–10, and the IB Diploma Programme in Years 11–12. The IB authorisation covers all three programmes.",
-      "The IB Diploma average of 32.1 and pass rate of 95% represent solid performance — above the global IB average though below the top-tier Jakarta schools. Detailed subject-level results and university destination data are not publicly available.",
+      "The IB Diploma average of 32.1 and pass rate of 95% represent solid performance - above the global IB average though below the top-tier Jakarta schools. Detailed subject-level results and university destination data are not publicly available.",
       "The school also holds Cambridge curriculum authorisation alongside the IB, and is accredited by BAN-SM (Indonesia's national school accreditation body). Class sizes of 14–18 allow for more individualised attention than the larger schools.",
     ],
   },
 
   studentBody: {
     paragraphs: [
-      "Mentari serves 600+ students from 35+ nationalities across its campuses. The school describes itself as having a 'multi-voiced culture' — reflecting a genuinely intercultural rather than predominantly expatriate community. The mix includes both international and Indonesian families.",
-      "The community atmosphere is frequently noted by parents. At its scale, Mentari occupies a middle ground — large enough to offer breadth in curriculum and activities, small enough that children aren't anonymous. The Model UN programme (MISMUN) attracts 200+ participants from across Indonesia, suggesting a school that engages beyond its campus.",
+      "Mentari serves 600+ students from 35+ nationalities across its campuses. The school describes itself as having a 'multi-voiced culture' - reflecting a genuinely intercultural rather than predominantly expatriate community. The mix includes both international and Indonesian families.",
+      "The community atmosphere is frequently noted by parents. At its scale, Mentari occupies a middle ground - large enough to offer breadth in curriculum and activities, small enough that children aren't anonymous. The Model UN programme (MISMUN) attracts 200+ participants from across Indonesia, suggesting a school that engages beyond its campus.",
     ],
     inspection: {
       date: "Recent",
@@ -979,8 +981,8 @@ const mentari: SchoolProfile = {
     ],
     paragraphs: [
       "Mentari runs a range of co-curricular activities including sports, arts, music, and academic clubs. The annual MISMUN conference (Mentari Model United Nations) is a highlight, attracting over 200 high school students from across Indonesia. In 2024, a new UNEP council was added to accommodate growing demand.",
-      "Sports programmes and music clubs are available. The campus facilities include a pool, gymnasium, football field, and purpose-built science and art spaces. Specific details of the full extracurricular programme are not publicly listed — parents should ask during school visits.",
-      "The school's intercultural ethos extends to its activities — the emphasis is on building cross-cultural understanding and community engagement rather than elite competition. This suits families looking for a well-rounded experience over a hyper-competitive sporting environment.",
+      "Sports programmes and music clubs are available. The campus facilities include a pool, gymnasium, football field, and purpose-built science and art spaces. Specific details of the full extracurricular programme are not publicly listed - parents should ask during school visits.",
+      "The school's intercultural ethos extends to its activities - the emphasis is on building cross-cultural understanding and community engagement rather than elite competition. This suits families looking for a well-rounded experience over a hyper-competitive sporting environment.",
     ],
   },
 
@@ -1031,9 +1033,9 @@ const ais: SchoolProfile = {
   shortName: "AIS",
   verified: false,
 
-  metaTitle: "Australian Independent School Jakarta (AIS) — Fees, IB Results & Review",
+  metaTitle: "Australian Independent School Jakarta (AIS) - Fees, IB Results & Review",
   metaDescription:
-    "Australian Independent School Jakarta profile — fees from US$12K–US$22K/year, Australian curriculum + IB Diploma, 900+ students, 40+ nationalities. Editorial review for expat parents.",
+    "Australian Independent School Jakarta profile - fees from US$12K–US$22K/year, Australian curriculum + IB Diploma, 900+ students, 40+ nationalities. Editorial review for expat parents.",
 
   campuses: [
     {
@@ -1200,9 +1202,9 @@ const sph: SchoolProfile = {
   shortName: "SPH",
   verified: false,
 
-  metaTitle: "Sekolah Pelita Harapan (SPH) Jakarta — Fees, IB Results & Review",
+  metaTitle: "Sekolah Pelita Harapan (SPH) Jakarta - Fees, IB Results & Review",
   metaDescription:
-    "Sekolah Pelita Harapan profile — fees from US$6K–US$14K/year, full IB continuum, 2,000+ students, Christian values. Largest Christian international school in Jakarta. Editorial review.",
+    "Sekolah Pelita Harapan profile - fees from US$6K–US$14K/year, full IB continuum, 2,000+ students, Christian values. Largest Christian international school in Jakarta. Editorial review.",
 
   campuses: [
     {
@@ -1371,9 +1373,9 @@ const globalJaya: SchoolProfile = {
   shortName: "Global Jaya",
   verified: false,
 
-  metaTitle: "Global Jaya School Jakarta — Fees, IB Results & Review",
+  metaTitle: "Global Jaya School Jakarta - Fees, IB Results & Review",
   metaDescription:
-    "Global Jaya School profile — fees from US$6K–US$12K/year, full IB continuum, 800+ students, BSD City. Good value IB school in South Tangerang. Editorial review.",
+    "Global Jaya School profile - fees from US$6K–US$12K/year, full IB continuum, 800+ students, BSD City. Good value IB school in South Tangerang. Editorial review.",
 
   campuses: [
     {
@@ -1540,9 +1542,9 @@ const binus: SchoolProfile = {
   shortName: "Binus",
   verified: false,
 
-  metaTitle: "Binus School Serpong — Fees, Cambridge Results & Review",
+  metaTitle: "Binus School Serpong - Fees, Cambridge Results & Review",
   metaDescription:
-    "Binus School Serpong profile — fees from US$5K–US$10K/year, Cambridge curriculum, 1,200+ students, strong STEM focus. Part of Bina Nusantara group. Editorial review.",
+    "Binus School Serpong profile - fees from US$5K–US$10K/year, Cambridge curriculum, 1,200+ students, strong STEM focus. Part of Bina Nusantara group. Editorial review.",
 
   campuses: [
     {
@@ -1710,9 +1712,9 @@ const sinarmas: SchoolProfile = {
   shortName: "SWA",
   verified: false,
 
-  metaTitle: "Sinarmas World Academy (SWA) Jakarta — Fees, IB Results & Review",
+  metaTitle: "Sinarmas World Academy (SWA) Jakarta - Fees, IB Results & Review",
   metaDescription:
-    "Sinarmas World Academy profile — Jakarta's top IB results school (avg 38.2). Fees not published. BSD campus, 1,200+ students. Academically rigorous IB school. Editorial review.",
+    "Sinarmas World Academy profile - Jakarta's top IB results school (avg 38.2). Fees not published. BSD campus, 1,200+ students. Academically rigorous IB school. Editorial review.",
 
   campuses: [
     {
@@ -1878,9 +1880,9 @@ const tunasMuda: SchoolProfile = {
   shortName: "Tunas Muda",
   verified: false,
 
-  metaTitle: "Tunas Muda School Jakarta — Fees, IB Results & Review",
+  metaTitle: "Tunas Muda School Jakarta - Fees, IB Results & Review",
   metaDescription:
-    "Tunas Muda School profile — fees from US$6.9K–US$27K/year, full IB continuum (PYP/MYP/DP), Catholic values, 800+ students. One of Jakarta's few complete IB schools. Editorial review.",
+    "Tunas Muda School profile - fees from US$6.9K–US$27K/year, full IB continuum (PYP/MYP/DP), Catholic values, 800+ students. One of Jakarta's few complete IB schools. Editorial review.",
 
   campuses: [
     {
@@ -2051,9 +2053,9 @@ const btb: SchoolProfile = {
   shortName: "BTB",
   verified: false,
 
-  metaTitle: "BTB School Jakarta (Bina Tunas Bangsa) — Fees, IB Results & Review",
+  metaTitle: "BTB School Jakarta (Bina Tunas Bangsa) - Fees, IB Results & Review",
   metaDescription:
-    "BTB School profile — fees from US$7.4K–US$26K/year, IB World School since 2005, Pluit campus, 700+ students. Well-established IB school in North Jakarta. Editorial review.",
+    "BTB School profile - fees from US$7.4K–US$26K/year, IB World School since 2005, Pluit campus, 700+ students. Well-established IB school in North Jakarta. Editorial review.",
 
   campuses: [
     {
@@ -2216,9 +2218,9 @@ const sphKemang: SchoolProfile = {
   shortName: "SPH Kemang",
   verified: false,
 
-  metaTitle: "Sekolah Pelita Harapan Kemang Village — Fees, IB Results & Review",
+  metaTitle: "Sekolah Pelita Harapan Kemang Village - Fees, IB Results & Review",
   metaDescription:
-    "SPH Kemang Village profile — fees from US$8.1K–US$26K/year, Cambridge + IB Diploma, Christian values, 800+ students. South Jakarta campus. Editorial review.",
+    "SPH Kemang Village profile - fees from US$8.1K–US$26K/year, Cambridge + IB Diploma, Christian values, 800+ students. South Jakarta campus. Editorial review.",
 
   campuses: [
     {
@@ -2384,9 +2386,9 @@ const nordAnglia: SchoolProfile = {
   shortName: "NAS Jakarta",
   verified: false,
 
-  metaTitle: "Nord Anglia School Jakarta (NAS) — Fees, British Curriculum & Review",
+  metaTitle: "Nord Anglia School Jakarta (NAS) - Fees, British Curriculum & Review",
   metaDescription:
-    "Nord Anglia School Jakarta profile — fees from US$7.2K–US$22K/year, British curriculum + IPC, 400+ students, ages 18 months–12 years. Part of Nord Anglia Education. Editorial review.",
+    "Nord Anglia School Jakarta profile - fees from US$7.2K–US$22K/year, British curriculum + IPC, 400+ students, ages 18 months–12 years. Part of Nord Anglia Education. Editorial review.",
 
   campuses: [
     {
@@ -2545,9 +2547,9 @@ const newZealandSchool: SchoolProfile = {
   shortName: "NZSJ",
   verified: false,
 
-  metaTitle: "New Zealand School Jakarta (NZSJ) — Fees, NZ Curriculum & Review",
+  metaTitle: "New Zealand School Jakarta (NZSJ) - Fees, NZ Curriculum & Review",
   metaDescription:
-    "New Zealand School Jakarta profile — fees from US$6.9K–US$22K/year, New Zealand curriculum, 300+ students, wellbeing focus. Small, nurturing school. Editorial review.",
+    "New Zealand School Jakarta profile - fees from US$6.9K–US$22K/year, New Zealand curriculum, 300+ students, wellbeing focus. Small, nurturing school. Editorial review.",
 
   campuses: [
     {
@@ -2711,9 +2713,9 @@ const jakartaNanyang: SchoolProfile = {
   shortName: "JNY",
   verified: false,
 
-  metaTitle: "Jakarta Nanyang School — Fees, Cambridge Results & Review",
+  metaTitle: "Jakarta Nanyang School - Fees, Cambridge Results & Review",
   metaDescription:
-    "Jakarta Nanyang School profile — fees from US$7.2K–US$22K/year, Cambridge curriculum, trilingual instruction (English/Mandarin/Indonesian), 700+ students. Singapore-style education. Editorial review.",
+    "Jakarta Nanyang School profile - fees from US$7.2K–US$22K/year, Cambridge curriculum, trilingual instruction (English/Mandarin/Indonesian), 700+ students. Singapore-style education. Editorial review.",
 
   campuses: [
     {
@@ -2867,7 +2869,7 @@ const jakartaNanyang: SchoolProfile = {
 };
 
 // ═══════════════════════════════════════════════════════
-// MINIMAL PROFILES — for schools with listing data only
+// MINIMAL PROFILES - for schools with listing data only
 // ═══════════════════════════════════════════════════════
 
 type CsvRow = { addressFull?: string; facilities?: string; nationalitiesCount?: string; foundedYear?: string };
@@ -2887,7 +2889,7 @@ function createMinimalProfile(L: JakartaSchoolListing): SchoolProfile {
     name: L.name,
     shortName: L.name.split(" ").slice(0, 2).join(" "),
     verified: L.verified,
-    metaTitle: `${L.name} — Fees, Review & Contact`,
+    metaTitle: `${L.name} - Fees, Review & Contact`,
     metaDescription: `${L.name} (${L.area}). ${L.editorialSummary.slice(0, 140)}…`,
     campuses: [
       { name: "Main Campus", address, grades: L.ageRange, lat: -6.2, lng: 106.8 },
@@ -2981,10 +2983,31 @@ const MINIMAL_PROFILES_MAP: Record<string, SchoolProfile> = Object.fromEntries(
 );
 
 // ═══════════════════════════════════════════════════════
-// SCHOOL MAP — keyed by slug for O(1) lookup
+// SCHOOL MAP - keyed by slug for O(1) lookup
 // ═══════════════════════════════════════════════════════
 
-export const SCHOOL_PROFILES: Record<string, SchoolProfile> = {
+type GeocodedEntry = { lat: number | null; lng: number | null };
+const geocoded = geocodedCampuses as Record<string, GeocodedEntry[]>;
+
+function applyGeocodedCampuses(
+  profiles: Record<string, SchoolProfile>
+): Record<string, SchoolProfile> {
+  const out: Record<string, SchoolProfile> = {};
+  for (const [slug, profile] of Object.entries(profiles)) {
+    const coords = geocoded[slug];
+    const campuses = profile.campuses.map((c, i) => {
+      const override = coords?.[i];
+      if (override && override.lat != null && override.lng != null) {
+        return { ...c, lat: override.lat, lng: override.lng };
+      }
+      return c;
+    });
+    out[slug] = { ...profile, campuses };
+  }
+  return out;
+}
+
+const RAW_SCHOOL_PROFILES: Record<string, SchoolProfile> = {
   "jakarta-intercultural-school": jis,
   "british-school-jakarta": bsj,
   "acg-school-jakarta": acg,
@@ -3003,6 +3026,9 @@ export const SCHOOL_PROFILES: Record<string, SchoolProfile> = {
   "jakarta-nanyang-school": jakartaNanyang,
   ...MINIMAL_PROFILES_MAP,
 };
+
+export const SCHOOL_PROFILES: Record<string, SchoolProfile> =
+  applyGeocodedCampuses(RAW_SCHOOL_PROFILES);
 
 // All slugs for generateStaticParams
 export const ALL_SCHOOL_SLUGS = Object.keys(SCHOOL_PROFILES);
