@@ -1,4 +1,5 @@
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { displayValue } from "@/lib/utils/display";
 
 type ConsiderationItem =
   | string
@@ -11,12 +12,25 @@ interface IntelligenceProps {
   considerations: ConsiderationItem[];
 }
 
+
 export function Intelligence({
   verdict,
   paragraphs,
   positives,
   considerations,
 }: IntelligenceProps) {
+  const verdictText = verdict != null ? displayValue(verdict, "") : "";
+  const validParagraphs = paragraphs
+    .map((p) => displayValue(p, ""))
+    .filter((text) => text !== "");
+  const validPositives = positives
+    .map((p) => displayValue(p, ""))
+    .filter((text) => text !== "");
+  const validConsiderations = considerations.filter((item) => {
+    if (typeof item === "string") return displayValue(item, "") !== "";
+    return displayValue(item.text, "") !== "";
+  });
+
   return (
     <section id="intelligence" className="pt-10 mb-10 pb-10 border-b border-warm-border-light">
       <SectionHeader label="Editorial" title="The Intelligence" />
@@ -25,27 +39,27 @@ export function Intelligence({
         Schools don&apos;t pay to be listed here. Our reviews are independent, written for parents, not for schools.
       </p>
 
-      {/* Verdict box — the key takeaway */}
-      {verdict && (
+      {/* Verdict box - the key takeaway */}
+      {verdictText && (
         <div className="bg-amber-bg border-l-[3px] border-amber-highlight px-5 py-4 mb-8">
           <span className="text-[0.6875rem] uppercase tracking-wider text-amber-highlight font-medium block mb-1">
             The Verdict
           </span>
           <p className="text-[0.9375rem] text-charcoal leading-relaxed font-medium">
-            {verdict}
+            {verdictText}
           </p>
         </div>
       )}
 
       {/* Editorial prose */}
-      {paragraphs.slice(0, 2).map((p, i) => (
+      {validParagraphs.slice(0, 2).map((p, i) => (
         <p key={i} className="text-[0.9375rem] text-charcoal-light leading-[1.7] mb-5">
           {p}
         </p>
       ))}
-      {paragraphs.length > 2 && (
+      {validParagraphs.length > 2 && (
         <div className="text-[0.875rem] text-charcoal-muted leading-[1.7] mb-6">
-          {paragraphs.slice(2).map((p, i) => (
+          {validParagraphs.slice(2).map((p, i) => (
             <p key={i} className="mb-4">{p}</p>
           ))}
         </div>
@@ -60,7 +74,7 @@ export function Intelligence({
             What parents value
           </h3>
           <ul className="space-y-0">
-            {positives.map((item, i) => (
+            {validPositives.map((item, i) => (
               <li
                 key={i}
                 className="py-2.5 border-b border-warm-border-light last:border-b-0 text-[0.8125rem] text-charcoal-light leading-relaxed"
@@ -78,7 +92,7 @@ export function Intelligence({
             Points of consideration
           </h3>
           <ul className="space-y-0">
-            {considerations.map((item, i) => (
+            {validConsiderations.map((item, i) => (
               <li
                 key={i}
                 className="py-2.5 border-b border-warm-border-light last:border-b-0 text-[0.8125rem] text-charcoal-light leading-relaxed"

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/Button";
 import Link from "next/link";
+import { displayValue } from "@/lib/utils/display";
 
 interface QuickFact {
   label: string;
@@ -45,7 +46,7 @@ export function ProfileSidebar({
             className="flex justify-between py-2 border-b border-warm-border-light last:border-b-0 text-[0.8125rem]"
           >
             <span className="text-charcoal-muted">{f.label}</span>
-            <span className="font-medium">{f.value}</span>
+            <span className="font-medium">{displayValue(f.value, "Not available")}</span>
           </div>
         ))}
         <div className="flex flex-col gap-2 mt-5">

@@ -21,7 +21,7 @@ import {
 import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 
 // ═══════════════════════════════════════════════════════
-// STATIC PARAMS — generates a page for every school slug
+// STATIC PARAMS - generates a page for every school slug
 // ═══════════════════════════════════════════════════════
 
 export function generateStaticParams() {
@@ -32,7 +32,7 @@ export function generateStaticParams() {
 }
 
 // ═══════════════════════════════════════════════════════
-// METADATA — dynamic per school
+// METADATA - dynamic per school
 // ═══════════════════════════════════════════════════════
 
 const BASE_URL = "https://international-schools-guide.com";
@@ -61,7 +61,7 @@ export function generateMetadata({
 }
 
 // ═══════════════════════════════════════════════════════
-// PAGE — one template, many schools
+// PAGE - one template, many schools
 // ═══════════════════════════════════════════════════════
 
 export default function SchoolProfilePage({

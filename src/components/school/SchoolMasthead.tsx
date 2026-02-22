@@ -1,6 +1,7 @@
 import { CurriculumTag } from "@/components/ui/CurriculumTag";
 import { VerifiedBadge } from "@/components/ui/VerifiedBadge";
 import { Button } from "@/components/ui/Button";
+import { displayValue } from "@/lib/utils/display";
 
 interface Campus {
   name: string;
@@ -31,7 +32,7 @@ export function SchoolMasthead({
         <VerifiedBadge verified={verified} />
       </h1>
 
-      {/* Campus summary — compact */}
+      {/* Campus summary - compact */}
       <p className="text-[0.8125rem] text-charcoal-muted leading-relaxed mb-3">
         {campuses.map((c, i) => (
           <span key={c.name}>
@@ -39,7 +40,7 @@ export function SchoolMasthead({
             <span className="text-charcoal-light font-medium">{c.name.split("(")[0].trim()}</span>
           </span>
         ))}
-        <span className="ml-1">— {campuses.length} campuses in South Jakarta</span>
+        <span className="ml-1">- {campuses.length} campuses in South Jakarta</span>
       </p>
 
       {/* Curricula + updated */}
@@ -52,12 +53,12 @@ export function SchoolMasthead({
         </span>
       </div>
 
-      {/* Stats bar */}
+      {/* Stats bar - never show null or 0 to visitors */}
       <div className="flex flex-wrap gap-6 sm:gap-10 py-4 border-y border-warm-border-light">
         {stats.map((stat) => (
           <div key={stat.label}>
             <span className="font-display text-[1.25rem] font-semibold block leading-none mb-0.5">
-              {stat.value}
+              {displayValue(stat.value, "—")}
             </span>
             <span className="text-[0.6875rem] uppercase tracking-wider text-charcoal-muted">
               {stat.label}
