@@ -243,7 +243,28 @@ export default function SchoolProfilePage({
           />
 
           {/* Location */}
-          <CampusMap campuses={s.campuses} />
+          <CampusMap
+            campuses={s.campuses}
+            currentSchoolName={s.name}
+            citySlug={s.citySlug}
+            otherSchools={s.sidebar.otherSchools
+              .map((os) => {
+                const profile = SCHOOL_PROFILES[os.slug];
+                const first = profile?.campuses?.find(
+                  (c) => typeof c.lat === "number" && typeof c.lng === "number" && c.lat !== 0 && c.lng !== 0
+                );
+                if (!first) return null;
+                return {
+                  name: os.name,
+                  slug: os.slug,
+                  meta: os.meta,
+                  feeRange: os.feeRange,
+                  lat: first.lat,
+                  lng: first.lng,
+                };
+              })
+              .filter((x): x is NonNullable<typeof x> => x != null)}
+          />
 
           {/* Contact */}
           <ContactSection

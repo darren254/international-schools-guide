@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 
 interface Campus {
@@ -11,30 +12,49 @@ interface Campus {
   lng: number;
 }
 
-interface CampusMapProps {
-  campuses: Campus[];
+export interface OtherSchoolMarker {
+  name: string;
+  slug: string;
+  meta: string;
+  feeRange: string;
+  lat: number;
+  lng: number;
 }
 
-// Hermès orange and design tokens for map markers/popups
+interface CampusMapProps {
+  campuses: Campus[];
+  currentSchoolName?: string;
+  citySlug?: string;
+  otherSchools?: OtherSchoolMarker[];
+}
+
+// Hermès design tokens
 const HERMES_ORANGE = "#E8722A";
 const CHARCOAL = "#1A1A1A";
 const CHARCOAL_MUTED = "#7A756E";
 const WARM_WHITE = "#FDFBF8";
 const WARM_BORDER = "#E8E2D9";
+const SECONDARY_MARKER = "#7A756E"; // charcoal-muted
+const SECONDARY_MARKER_BG = "rgba(253, 251, 248, 0.95)";
 
-function escapeHtml(text: string): string {
-  if (typeof document === "undefined") return text;
-  const div = document.createElement("div");
-  div.textContent = text;
-  return div.innerHTML;
-}
+type SelectedPrimary = { type: "primary"; campus: Campus };
+type SelectedSecondary = { type: "secondary"; school: OtherSchoolMarker };
+type Selected = SelectedPrimary | SelectedSecondary | null;
 
-export function CampusMap({ campuses }: CampusMapProps) {
+export function CampusMap({
+  campuses,
+  currentSchoolName,
+  citySlug = "jakarta",
+  otherSchools = [],
+}: CampusMapProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<any>(null);
-  const [mapReady, setMapReady] = useState(false);
+  const markersRef = useRef<any[]>([]);
+  const onSelectRef = useRef<(s: Selected) => void>(() => {});
+  const [selected, setSelected] = useState<Selected>(null);
 
-  // Only show campuses with valid coordinates (no placeholder 0 or null)
+  onSelectRef.current = setSelected;
+
   const validCampuses = campuses.filter(
     (c) =>
       typeof c.lat === "number" &&
@@ -45,11 +65,25 @@ export function CampusMap({ campuses }: CampusMapProps) {
       c.lng !== 0
   );
 
-  const hasToken = typeof process.env.NEXT_PUBLIC_MAPBOX_TOKEN === "string" && process.env.NEXT_PUBLIC_MAPBOX_TOKEN.length > 0;
+  const validOtherSchools = otherSchools.filter(
+    (s) =>
+      typeof s.lat === "number" &&
+      typeof s.lng === "number" &&
+      !Number.isNaN(s.lat) &&
+      !Number.isNaN(s.lng) &&
+      s.lat !== 0 &&
+      s.lng !== 0
+  );
+
+  const hasToken =
+    typeof process.env.NEXT_PUBLIC_MAPBOX_TOKEN === "string" &&
+    process.env.NEXT_PUBLIC_MAPBOX_TOKEN.length > 0;
+
+  const hasAnyPoint = validCampuses.length > 0 || validOtherSchools.length > 0;
 
   useEffect(() => {
     const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
-    if (!token || !mapContainer.current || map.current || validCampuses.length === 0) return;
+    if (!token || !mapContainer.current || map.current || !hasAnyPoint) return;
 
     if (!document.querySelector('link[href*="mapbox-gl"]')) {
       const link = document.createElement("link");
@@ -61,17 +95,26 @@ export function CampusMap({ campuses }: CampusMapProps) {
     import("mapbox-gl").then((mapboxgl) => {
       mapboxgl.default.accessToken = token;
 
-      const isSingle = validCampuses.length === 1;
-      const first = validCampuses[0];
+      const allLngLat = [
+        ...validCampuses.map((c) => [c.lng, c.lat] as [number, number]),
+        ...validOtherSchools.map((s) => [s.lng, s.lat] as [number, number]),
+      ];
       const bounds = new mapboxgl.default.LngLatBounds();
-      validCampuses.forEach((c) => bounds.extend([c.lng, c.lat]));
+      allLngLat.forEach(([lng, lat]) => bounds.extend([lng, lat]));
 
+      const singlePoint = allLngLat.length === 1;
       const m = new mapboxgl.default.Map({
         container: mapContainer.current!,
         style: "mapbox://styles/mapbox/light-v11",
-        ...(isSingle
-          ? { center: [first.lng, first.lat] as [number, number], zoom: 14 }
-          : { bounds, fitBoundsOptions: { padding: 64, maxZoom: 13 } }),
+        ...(singlePoint
+          ? { center: allLngLat[0], zoom: 14 }
+          : {
+              bounds,
+              fitBoundsOptions: {
+                padding: { top: 64, bottom: 64, left: 48, right: 48 },
+                maxZoom: 13,
+              },
+            }),
         attributionControl: true,
       });
 
@@ -79,70 +122,171 @@ export function CampusMap({ campuses }: CampusMapProps) {
       m.scrollZoom.disable();
 
       m.on("load", () => {
+        const toRemove: any[] = [];
+
+        // Primary markers (current school) – prominent
         validCampuses.forEach((campus, i) => {
-          const el = document.createElement("div");
+          const el = document.createElement("button");
+          el.type = "button";
+          el.setAttribute("aria-label", `${campus.name}, tap for details`);
           el.style.cssText = `
-            width: 32px; height: 32px;
+            width: 36px; height: 36px;
             background: ${HERMES_ORANGE};
             border: 2px solid ${WARM_WHITE};
             border-radius: 50%;
             display: flex; align-items: center; justify-content: center;
-            color: white; font-size: 12px; font-weight: 600;
-            box-shadow: 0 2px 8px rgba(26,26,26,0.12);
+            color: white; font-size: 13px; font-weight: 600;
+            box-shadow: 0 2px 10px rgba(26,26,26,0.18);
             cursor: pointer;
             font-family: Inter, -apple-system, sans-serif;
           `;
-          el.textContent = String(i + 1);
+          el.textContent = String(validCampuses.length > 1 ? i + 1 : "");
+          el.addEventListener("click", () => {
+            onSelectRef.current({ type: "primary", campus });
+          });
 
-          const popup = new mapboxgl.default.Popup({
-            offset: 20,
-            closeButton: false,
-            maxWidth: "280px",
-            className: "campus-map-popup",
-          }).setHTML(`
-            <div style="font-family: Inter, -apple-system, sans-serif; padding: 4px 0;">
-              <strong style="font-size: 13px; color: ${CHARCOAL};">${escapeHtml(campus.name)}</strong>
-              ${campus.grades ? `<br><span style="font-size: 11px; color: ${CHARCOAL_MUTED};">${escapeHtml(campus.grades)}</span>` : ""}
-              <br><span style="font-size: 11px; color: ${CHARCOAL_MUTED};">${escapeHtml(campus.address)}</span>
-            </div>
-          `);
-
-          new mapboxgl.default.Marker({ element: el })
+          const marker = new mapboxgl.default.Marker({ element: el })
             .setLngLat([campus.lng, campus.lat])
-            .setPopup(popup)
             .addTo(m);
+          toRemove.push(marker);
         });
-        setMapReady(true);
+
+        // Secondary markers (other schools) – subtle
+        validOtherSchools.forEach((school) => {
+          const el = document.createElement("button");
+          el.type = "button";
+          el.setAttribute("aria-label", `${school.name}, tap for details`);
+          el.style.cssText = `
+            width: 24px; height: 24px;
+            background: ${SECONDARY_MARKER_BG};
+            border: 2px solid ${SECONDARY_MARKER};
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 1px 4px rgba(26,26,26,0.1);
+          `;
+          el.addEventListener("click", () => {
+            onSelectRef.current({ type: "secondary", school });
+          });
+
+          const marker = new mapboxgl.default.Marker({ element: el })
+            .setLngLat([school.lng, school.lat])
+            .addTo(m);
+          toRemove.push(marker);
+        });
+
+        markersRef.current = toRemove;
       });
     });
 
     return () => {
+      markersRef.current.forEach((marker) => marker?.remove());
+      markersRef.current = [];
       if (map.current) {
         map.current.remove();
         map.current = null;
       }
     };
-  }, [validCampuses]);
+  }, [validCampuses, validOtherSchools, hasAnyPoint]);
+
+  const closeCard = useCallback(() => setSelected(null), []);
 
   return (
     <section id="location" className="pt-10 mb-10 pb-10 border-b border-warm-border-light">
       <SectionHeader label="Getting There" title="Location" />
 
-      {validCampuses.length > 0 ? (
+      {hasAnyPoint ? (
         <>
           {!hasToken ? (
             <div className="w-full h-[400px] rounded-sm border border-warm-border bg-warm-white flex items-center justify-center text-center px-6">
               <p className="text-charcoal-muted text-[0.9375rem] max-w-md">
-                The map is not available on this deployment. Set <code className="text-charcoal text-xs bg-cream-300 px-1 rounded">NEXT_PUBLIC_MAPBOX_TOKEN</code> in your build environment and redeploy to show campus locations.
+                The map is not available on this deployment. Set{" "}
+                <code className="text-charcoal text-xs bg-cream-300 px-1 rounded">
+                  NEXT_PUBLIC_MAPBOX_TOKEN
+                </code>{" "}
+                in your build environment and redeploy to show campus locations.
               </p>
             </div>
           ) : (
-            <div
-              ref={mapContainer}
-              className="w-full h-[400px] rounded-sm border border-warm-border bg-cream-300 overflow-hidden"
-              style={{ borderColor: WARM_BORDER }}
-            />
+            <div className="relative">
+              <div
+                ref={mapContainer}
+                className="w-full h-[320px] sm:h-[400px] rounded-sm border border-warm-border bg-cream-300 overflow-hidden"
+                style={{ borderColor: WARM_BORDER }}
+              />
+
+              {/* Marker card: bottom sheet on mobile, same on desktop */}
+              {selected && (
+                <>
+                  <button
+                    type="button"
+                    onClick={closeCard}
+                    className="fixed inset-0 bg-black/20 z-40 sm:z-30"
+                    aria-label="Close"
+                  />
+                  <div
+                    className="fixed left-0 right-0 bottom-0 z-50 sm:z-40 bg-warm-white border-t border-warm-border rounded-t-2xl shadow-[0_-4px_24px_rgba(26,26,26,0.08)] max-h-[45vh] overflow-auto sm:max-h-[320px] sm:absolute sm:bottom-4 sm:left-4 sm:right-4 sm:rounded-xl sm:border sm:max-w-sm"
+                    role="dialog"
+                    aria-label="Location details"
+                  >
+                    <div className="sticky top-0 flex justify-end p-2 sm:p-3 bg-warm-white border-b border-warm-border-light sm:border-b-0">
+                      <button
+                        type="button"
+                        onClick={closeCard}
+                        className="p-2 -m-2 text-charcoal-muted hover:text-charcoal rounded-full touch-manipulation"
+                        aria-label="Close"
+                      >
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden>
+                          <path
+                            stroke="currentColor"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            d="M5 5l10 10M15 5l-10 10"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                    <div className="p-4 sm:p-5 pb-6 safe-area-pb">
+                      {selected.type === "primary" ? (
+                        <>
+                          <p className="font-display text-[1.0625rem] font-semibold text-charcoal">
+                            {selected.campus.name}
+                          </p>
+                          {selected.campus.grades && (
+                            <p className="text-[0.8125rem] text-charcoal-muted mt-0.5">
+                              {selected.campus.grades}
+                            </p>
+                          )}
+                          <p className="text-[0.8125rem] text-charcoal-muted mt-2">
+                            {selected.campus.address}
+                          </p>
+                        </>
+                      ) : (
+                        <>
+                          <p className="font-display text-[1.0625rem] font-semibold text-charcoal">
+                            {selected.school.name}
+                          </p>
+                          <p className="text-[0.8125rem] text-charcoal-muted mt-0.5">
+                            {selected.school.meta}
+                          </p>
+                          <p className="text-[0.8125rem] font-medium text-charcoal mt-1">
+                            {selected.school.feeRange}
+                          </p>
+                          <Link
+                            href={`/international-schools/${citySlug}/${selected.school.slug}/`}
+                            className="inline-block mt-4 text-[0.875rem] font-medium text-hermes hover:text-hermes-hover underline underline-offset-2 touch-manipulation"
+                          >
+                            View profile →
+                          </Link>
+                        </>
+                      )}
+                    </div>
+                  </div>
+                </>
+              )}
+            </div>
           )}
+
+          {/* Campus list below map */}
           <div className="space-y-4 mt-6">
             {campuses.map((campus, i) => (
               <div key={`${campus.name}-${i}`} className="flex gap-3 items-start">
@@ -162,7 +306,8 @@ export function CampusMap({ campuses }: CampusMapProps) {
         </>
       ) : (
         <div className="rounded-sm border border-warm-border bg-warm-white p-6 text-charcoal-muted text-[0.9375rem]">
-          Campus locations will be shown here once coordinates are available. Contact the school for directions.
+          Campus locations will be shown here once coordinates are available. Contact the school for
+          directions.
         </div>
       )}
     </section>
