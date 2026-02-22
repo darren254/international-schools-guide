@@ -45,6 +45,8 @@ export function CampusMap({ campuses }: CampusMapProps) {
       c.lng !== 0
   );
 
+  const hasToken = typeof process.env.NEXT_PUBLIC_MAPBOX_TOKEN === "string" && process.env.NEXT_PUBLIC_MAPBOX_TOKEN.length > 0;
+
   useEffect(() => {
     const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
     if (!token || !mapContainer.current || map.current || validCampuses.length === 0) return;
@@ -128,11 +130,19 @@ export function CampusMap({ campuses }: CampusMapProps) {
 
       {validCampuses.length > 0 ? (
         <>
-          <div
-            ref={mapContainer}
-            className="w-full h-[400px] rounded-sm border border-warm-border bg-cream-300 overflow-hidden"
-            style={{ borderColor: WARM_BORDER }}
-          />
+          {!hasToken ? (
+            <div className="w-full h-[400px] rounded-sm border border-warm-border bg-warm-white flex items-center justify-center text-center px-6">
+              <p className="text-charcoal-muted text-[0.9375rem] max-w-md">
+                The map is not available on this deployment. Set <code className="text-charcoal text-xs bg-cream-300 px-1 rounded">NEXT_PUBLIC_MAPBOX_TOKEN</code> in your build environment and redeploy to show campus locations.
+              </p>
+            </div>
+          ) : (
+            <div
+              ref={mapContainer}
+              className="w-full h-[400px] rounded-sm border border-warm-border bg-cream-300 overflow-hidden"
+              style={{ borderColor: WARM_BORDER }}
+            />
+          )}
           <div className="space-y-4 mt-6">
             {campuses.map((campus, i) => (
               <div key={`${campus.name}-${i}`} className="flex gap-3 items-start">
