@@ -210,7 +210,7 @@ const jis: SchoolProfile = {
       "The general consensus: if your company is paying and your child is reasonably outgoing, JIS is a safe and solid choice. If you're self-funding or want a smaller, more personal setup, it's worth looking at what else is out there.",
     ],
     positives: [
-      "Strong university placement track record - graduates regularly go on to well-known US, UK, and Australian universities, with a solid Ivy League and Oxbridge pipeline. Parents say the college counselling team is experienced and well-connected.",
+      "Strong university placement track record - graduates regularly go on to well-known US, UK, and Australian universities, with a solid Ivy League and Oxbridge pipeline. The college counselling team is experienced and well-connected.",
       "Diverse student body with 60+ nationalities and no single group dominating - parents value the fact that their children mix with families from all over the world rather than one or two dominant communities.",
       "Serious sports programme through IASAS, competing against top international schools across Southeast Asia. Good range of team and individual sports, and high participation rates across the secondary school.",
       "Large-scale arts and performing arts programme - annual musicals, orchestra, and dedicated performance spaces mean students who are into drama, music, or visual arts have real outlets and resources.",
@@ -384,21 +384,21 @@ const bsj: SchoolProfile = {
     verdict:
       "If you want a British school feel with IB credentials and your budget stretches to the upper tier, BSJ is the natural first choice. Families in Pondok Indah or BSD find it easy. From central Jakarta, factor in the commute before you commit.",
     paragraphs: [
-      "The word among expat families is that BSJ is where British and European families end up, and it's not hard to see why. It's the longest-established British school in Jakarta, founded in 1974, with a 45-acre campus in Bintaro that feels closer to a UK independent school than anything else in the city. English National Curriculum through primary, IB MYP in secondary, IB Diploma in Sixth Form. That combination gives students a structured British grounding with the IB's broader approach at the exit point.",
-      "Families who've been here a few years say the community feel is the real draw. At 1,400 students it's big enough to offer 260+ activities, FOBISIA competitions across Asia, and a Manchester City FC football partnership, but parents say staff still know their children by name. The Bintaro location suits families in Pondok Indah and BSD. From Menteng or Kuningan, you're looking at 40 minutes on a good day.",
-      "The facilities have had serious investment. A new all-weather Arena opened in 2025, sitting alongside the 750-seat theatre, Olympic pool, and five football fields. Joint CIS/WASC reaccreditation came through in 2023 for five years. The school is currently led by an Interim Principal, and some parents say they're waiting to see who gets the permanent role before judging the strategic direction.",
+      "The word among expat families is that BSJ is where British and European families end up. It's the longest-established British school in Jakarta, founded in 1974, with a 45-acre campus in Bintaro that feels closer to a UK independent school than anything else in the city. English National Curriculum through primary, IB MYP in secondary, IB Diploma in Sixth Form. That combination gives students a structured British grounding with the IB's broader approach at the exit point.",
+      "Families who've been here a few years say the community feel is the real draw. At 1,400 students it's big enough to offer 260+ activities, FOBISIA competitions across Asia, and a Manchester City FC football partnership, but staff still know their children by name. The Bintaro location suits families in Pondok Indah and BSD. From Menteng or Kuningan, you're looking at 40 minutes on a good day.",
+      "The facilities have had serious investment. A new all-weather Arena opened in 2025, sitting alongside the 750-seat theatre, Olympic pool, and five football fields. Joint CIS/WASC reaccreditation came through in 2023 for five years. The school is currently led by an Interim Principal, and many parents are waiting to see who gets the permanent role before judging the strategic direction.",
     ],
     positives: [
-      "Parents say the house system and pastoral care create a sense of belonging that the bigger schools struggle to match. Staff know children by name, and the school culture takes wellbeing seriously.",
+      "The house system and pastoral care create a sense of belonging that the bigger schools struggle to match. Staff know children by name, and the school culture takes wellbeing seriously.",
       "The 45-acre Bintaro campus is the largest of any international school in Jakarta. Facilities include a 750-seat theatre, Olympic pool, five football fields, 12 badminton courts, five tennis courts, and the new all-weather Arena (2025).",
       "260+ extracurricular activities running before school, lunchtime, after school, and Saturdays. The Manchester City FC partnership provides professional football coaching.",
       "Joint CIS/WASC reaccreditation (2023-2028) plus IB authorisation for all three programmes. Founding member of FOBISIA with a strong regional competition schedule.",
-      "Families say BSJ feels like a village. Children socialise at weekends, the PTA is active, and the campus doubles as a community hub. That matters when you're new to Jakarta.",
+      "BSJ feels like a village. Children socialise at weekends, the PTA is active, and the campus doubles as a community hub. That matters when you're new to Jakarta.",
     ],
     considerations: [
       "Bintaro is 25-40 minutes south of central Jakarta depending on traffic. If you're in Menteng, Kuningan, or Kemang, the commute is real. School bus services exist but add cost.",
       "BSJ doesn't publish A-Level or IGCSE results publicly. That makes it harder to benchmark against competitors. You'll need to ask admissions directly for data.",
-      "The school is in a leadership transition. Day-to-day operations seem unaffected, but parents say there's uncertainty about strategic direction until a permanent Principal is appointed.",
+      "The school is in a leadership transition. Day-to-day operations seem unaffected, but there's uncertainty about strategic direction until a permanent Principal is appointed.",
       "Fees are second only to JIS in Jakarta. Early Years starts around IDR 224M in the first year including one-time fees. The early payment discount dropped from 5% to 3%, which parents have noticed.",
       "Despite the British brand, students take IB MYP and DP rather than IGCSEs or A-Levels. If you specifically want British qualifications rather than British culture, clarify this during admissions.",
     ],
@@ -464,7 +464,7 @@ const bsj: SchoolProfile = {
       "Medical centre",
     ],
     paragraphs: [
-      "BSJ runs 260+ extracurricular activities spanning sports, arts, music, and academic clubs. Activities run before school, at lunchtime, after school, and on Saturdays. The Manchester City FC football partnership provides professional coaching methodology - one of the school's distinctive offerings.",
+      "BSJ runs 260+ extracurricular activities spanning sports, arts, music, and academic clubs. Activities run before school, at lunchtime, after school, and on Saturdays. The Manchester City FC football partnership provides professional football coaching.",
       "The school competes regionally through FOBISIA (Federation of British International Schools in Asia), of which BSJ is a founding member. Sports include swimming, football, badminton, basketball, tennis, rugby, volleyball, and cross-country. The annual musical production uses the 750-seat theatre with professional lighting and sound.",
       "Indonesian cultural activities include Gamelan, Angklung, Sumatran Drumming, and Talempeg ensembles - a genuine effort to connect students with local culture. The 45-acre campus includes extensive green space, and the new Arena provides an all-weather venue for sports, performances, and community events.",
     ],
@@ -526,8 +526,8 @@ const acg: SchoolProfile = {
       name: "Pasar Minggu Campus",
       address: "Jl. Warung Jati Barat (Taman Margasatwa) No. 19, Jati Padang, Pasar Minggu, Jakarta Selatan 12540",
       grades: "Kindergarten – Year 13",
-      lat: -6.2875,
-      lng: 106.8375,
+      lat: -6.2900821481739095,
+      lng: 106.82494296435718,
     },
   ],
   lastUpdated: "February 2026",
@@ -561,7 +561,7 @@ const acg: SchoolProfile = {
       "The catch is scale. With 300 students, ACG can't offer the breadth of activities or sporting fixtures that the bigger schools run. The campus is well-equipped for its size but it's not 45 acres of playing fields. And Inspired Education is a for-profit group, which some families factor into their thinking when comparing with non-profit schools like JIS or BSJ.",
     ],
     positives: [
-      "At 12-14 per class in senior school, teachers know students individually. Parents say the level of personal attention is something the bigger schools can't replicate.",
+      "At 12-14 per class in senior school, teachers know students individually. The level of personal attention is something the bigger schools can't replicate.",
       "IB Diploma average of 35 points (2022 cohort), well above the world average. One in three graduates reportedly reaches Ivy League or Russell Group universities.",
       "Dual curriculum pathway - IB PYP in primary, Cambridge IGCSE in middle years, IB Diploma in Sixth Form. Students get internationally recognised qualifications at both stages.",
       "Modern, purpose-built facilities including a swimming pool, paddle courts, gymnasium, STEAM labs, and a dance studio. The campus is compact but thoughtfully designed.",
@@ -695,8 +695,8 @@ const isj: SchoolProfile = {
       name: "Pondok Pinang Campus",
       address: "Jl. T.B. Simatupang Raya Kav. 12, Pondok Pinang, Kebayoran Lama, Jakarta Selatan 12310",
       grades: "Nursery – Year 8 (Ages 2–13), expanding to GCSE & A-Level",
-      lat: -6.2785,
-      lng: 106.7750,
+      lat: -6.290870651385215,
+      lng: 106.78354523944795,
     },
   ],
   lastUpdated: "February 2026",
@@ -734,7 +734,7 @@ const isj: SchoolProfile = {
       "Staff are recruited from the UK with qualified teacher status. Specialist teaching starts from Year 1 in music, PE, languages, and science.",
       "Purpose-built campus in Pondok Pinang with on-site swimming pool, football pitch, science labs, and art studios. It's newer and more thoughtfully designed than most competitors' primary sections.",
       "Part of The Schools Trust (schoolstrust.co.uk) since October 2025. External governance, curriculum development support, and peer review with partner schools in the UK and Europe. Expansion through to GCSE and A-Level is planned.",
-      "Parents say issues get noticed fast and relationships with families are close. A safeguarding lead sits on the senior leadership team. At this size, pastoral care isn't a policy - it's how the school works.",
+      "Issues get noticed fast and relationships with families are close. A safeguarding lead sits on the senior leadership team. At this size, pastoral care isn't a policy - it's how the school works.",
     ],
     considerations: [
       "Currently ISJ runs from Nursery to Year 8 (ages 2–13). Expansion to GCSE and A-Level is planned; until then, families in older year groups may need to consider a move to BSJ, JIS, or UK boarding schools.",
@@ -905,11 +905,11 @@ const mentari: SchoolProfile = {
     paragraphs: [
       "Mentari is the school that families who know Jakarta's education scene quietly recommend when someone asks about value. Full IB continuum - PYP, MYP, and Diploma - at fees roughly half what JIS or BSJ charge. If you're self-funding rather than relying on a corporate package, that arithmetic is hard to ignore.",
       "The school started as Sunshine Preschool over thirty years ago and has grown into a multi-campus operation. The main Kebayoran Baru campus on Jl. H. Jian near Cipete serves elementary and high school. There's also a Grand Surya campus in West Jakarta for some secondary students. The feel is more community than corporate - less polished than the premium schools, but parents say it's warmer.",
-      "Class sizes run at 14-18 students, smaller than JIS or BSJ. Parents say the teachers are attentive and know their children well, and the school culture values effort alongside results. The IB Diploma average of 32.1 is below JIS (35.8) but the 95% pass rate suggests solid, consistent teaching across the cohort rather than a few high-scorers pulling up the average.",
+      "Class sizes run at 14-18 students, smaller than JIS or BSJ. The teachers are attentive and know their children well, and the school culture values effort alongside results. The IB Diploma average of 32.1 is below JIS (35.8) but the 95% pass rate suggests solid, consistent teaching across the cohort rather than a few high-scorers pulling up the average.",
     ],
     positives: [
       "Full IB continuum (PYP, MYP, DP) at roughly half JIS prices. For self-funding families, this is the most cost-effective route to an IB Diploma in South Jakarta.",
-      "At 14-18 per class, teachers know students individually. Parents say the pastoral approach is more hands-on than the bigger schools.",
+      "At 14-18 per class, teachers know students individually. The pastoral approach is more hands-on than the bigger schools.",
       "With 35+ nationalities and a more even distribution than the expat-heavy premium schools, the intercultural mix is real. The school's name isn't just branding.",
       "Mentari has been running the full IB continuum long enough to have a mature approach to PYP and MYP. This isn't a school that bolted on IB status as an afterthought.",
       "The annual MISMUN conference attracts 200+ students from across Indonesia. For a mid-range school, that's a seriously impressive enrichment programme.",
@@ -1077,7 +1077,7 @@ const ais: SchoolProfile = {
       "The Pejaten campus moved to a new purpose-built site in 2022. It's modern and functional, but it's not 45 acres with Olympic pools and 750-seat theatres. Fees run US$12K to US$22K - roughly half what JIS charges. For self-funding families who want Australian curriculum with an IB exit, that's compelling. Just don't expect the breadth of activities or sporting fixtures that the bigger schools offer.",
     ],
     positives: [
-      "At 900 students, AIS is smaller than JIS or BSJ. Parents say the community feel is real - teachers know children by name, and the school culture values effort alongside results.",
+      "At 900 students, AIS is smaller than JIS or BSJ. The community feel is real - teachers know children by name, and the school culture values effort alongside results.",
       "The inclusive philosophy means EAL and learning support are genuinely integrated, not afterthoughts. Parents of children who need extra help say the school delivers on its promise.",
       "Australian curriculum through Year 10, then IB Diploma in Years 11-12. That combination gives students a structured foundation with an internationally recognised exit qualification.",
       "Fees at US$12K to US$22K are roughly half what JIS charges. For self-funding families, that's a significant difference without feeling like you're compromising on curriculum quality.",
@@ -1123,7 +1123,7 @@ const ais: SchoolProfile = {
   studentBody: {
     paragraphs: [
       "AIS serves 900+ students from 40+ nationalities. The school's inclusive philosophy means it welcomes students with learning difficulties, limited English proficiency, and physical disabilities alongside mainstream students. The student body is diverse, with a significant proportion of Indonesian families alongside expat communities.",
-      "The community atmosphere is frequently noted by parents. At its scale, AIS occupies a middle ground - large enough to offer breadth in curriculum and activities, small enough that children aren't anonymous. The school culture values effort alongside results, and parents say the inclusive approach creates a supportive rather than competitive environment.",
+      "The community atmosphere is frequently noted by parents. At its scale, AIS occupies a middle ground - large enough to offer breadth in curriculum and activities, small enough that children aren't anonymous. The school culture values effort alongside results, and the inclusive approach creates a supportive rather than competitive environment.",
     ],
     inspection: {
       date: "November 2024",
@@ -1242,12 +1242,12 @@ const sph: SchoolProfile = {
       "If you want a Christian school with full IB continuum at fees that won't break the bank, SPH is the obvious choice. The community is strong and the values are clear. Just know that faith is central to everything - if that's not your thing, look elsewhere.",
     paragraphs: [
       "The word among expat families is that SPH is where Christian families go when they want IB education without JIS prices. Founded in 1993, it's grown into the largest Christian international school in Jakarta with multiple campuses across the city. The main Lippo Village campus serves 2,000+ students from Pre-K through Grade 12, all following the full IB continuum.",
-      "What comes up again and again is the community. Parents say the Christian values create a sense of belonging that secular schools can't match. Chapel services, Bible study, and faith-based character education are woven into daily life. The flip side is that if you're not Christian or comfortable with faith being central, this isn't the school for you. The student body is predominantly Indonesian Christian families, with a smaller expat community.",
+      "What comes up again and again is the community. The Christian values create a sense of belonging that secular schools can't match. Chapel services, Bible study, and faith-based character education are woven into daily life. The flip side is that if you're not Christian or comfortable with faith being central, this isn't the school for you. The student body is predominantly Indonesian Christian families, with a smaller expat community.",
       "Fees run US$6K to US$14K - significantly more affordable than the top-tier schools. The IB Diploma average of 31.4 is below JIS or BSJ, but the 92% pass rate suggests solid, consistent teaching. Facilities are functional rather than showpiece. If you're self-funding and faith matters, SPH offers genuine value. If you're targeting Ivy League or Oxbridge, you'll want to ask about individual results and university placements.",
     ],
     positives: [
       "Full IB continuum (PYP, MYP, DP) at fees roughly a third of what JIS charges. For self-funding families, that's compelling.",
-      "The Christian community is strong. Parents say the values-based approach creates a sense of belonging that secular schools can't match.",
+      "The Christian community is strong. The values-based approach creates a sense of belonging that secular schools can't match.",
       "At 2,000+ students across multiple campuses, SPH has scale. Facilities are functional, and the school has been running long enough to have credibility.",
       "The IB Diploma pass rate of 92% suggests solid, consistent teaching across the cohort. The school has been running the full IB continuum for long enough to have a mature approach.",
       "Lippo Village is a planned community with good infrastructure. Families who live there find the location convenient.",
@@ -1293,7 +1293,7 @@ const sph: SchoolProfile = {
   studentBody: {
     paragraphs: [
       "SPH serves 2,000+ students from 20+ nationalities across its campuses. The student body is predominantly Indonesian Christian families, with a smaller expat community. The school's Christian identity is central - families choose SPH specifically for the faith-based values.",
-      "The community atmosphere is frequently noted by parents. The Christian values create a sense of belonging, and parents say the school culture takes character development seriously. The multi-campus structure means families can choose the location that works best for them.",
+      "The community atmosphere is frequently noted by parents. The Christian values create a sense of belonging, and the school culture takes character development seriously. The multi-campus structure means families can choose the location that works best for them.",
     ],
     inspection: {
       date: "Recent",
@@ -1412,8 +1412,8 @@ const globalJaya: SchoolProfile = {
     verdict:
       "If you're in BSD City and want full IB continuum at fees that won't break the bank, Global Jaya is a solid option. The commute from central Jakarta is the main trade-off, but for families already in the area, it makes sense.",
     paragraphs: [
-      "The word among expat families is that Global Jaya is the school you consider if you're already in BSD City or planning to live there. Founded in 1996, it's been running the full IB continuum long enough to have credibility. At 800 students, it sits in that middle ground - big enough to offer decent facilities and activities, small enough that parents say it feels like a community.",
-      "What comes up again and again is the value. Fees run US$6K to US$12K - roughly a third of what JIS charges. The IB Diploma average of 30.8 is below the top-tier schools, but the 90% pass rate suggests solid, consistent teaching. Parents say the international atmosphere is genuine - 25+ nationalities, and the school culture values diversity and intercultural understanding.",
+      "The word among expat families is that Global Jaya is the school you consider if you're already in BSD City or planning to live there. Founded in 1996, it's been running the full IB continuum long enough to have credibility. At 800 students, it sits in that middle ground - big enough to offer decent facilities and activities, small enough that it feels like a community.",
+      "What comes up again and again is the value. Fees run US$6K to US$12K - roughly a third of what JIS charges. The IB Diploma average of 30.8 is below the top-tier schools, but the 90% pass rate suggests solid, consistent teaching. The international atmosphere is genuine - 25+ nationalities, and the school culture values diversity and intercultural understanding.",
       "The catch is location. BSD City is in South Tangerang, well south of central Jakarta. If you're in Menteng, Kuningan, or Kemang, you're looking at 60-90 minutes each way during rush hour. For families already in BSD or planning to live there, Global Jaya makes sense. For everyone else, the commute is a deal-breaker.",
     ],
     positives: [
@@ -1421,7 +1421,7 @@ const globalJaya: SchoolProfile = {
       "The international atmosphere is genuine. With 25+ nationalities and a diverse student body, the intercultural mix is real.",
       "The IB Diploma pass rate of 90% suggests solid, consistent teaching across the cohort. The school has been running the full IB continuum for long enough to have a mature approach.",
       "BSD City is a planned community with good infrastructure. Families who live there find the location convenient and the area family-friendly.",
-      "At 800 students, Global Jaya is smaller than JIS or BSJ. Parents say the community feel is real - teachers know children by name.",
+      "At 800 students, Global Jaya is smaller than JIS or BSJ. The community feel is real - teachers know children by name.",
     ],
     considerations: [
       "BSD City is in South Tangerang, well south of central Jakarta. If you're in Menteng, Kuningan, or Kemang, you're looking at 60-90 minutes each way during rush hour. The commute is a genuine trade-off.",
@@ -1463,7 +1463,7 @@ const globalJaya: SchoolProfile = {
   studentBody: {
     paragraphs: [
       "Global Jaya serves 800+ students from 25+ nationalities. The school's international identity is central - the student body is diverse, with a mix of expat and Indonesian families. The school culture values intercultural understanding and global citizenship.",
-      "The community atmosphere is frequently noted by parents. At its scale, Global Jaya occupies a middle ground - large enough to offer breadth in curriculum and activities, small enough that children aren't anonymous. Parents say the international mix creates a genuine global learning environment.",
+      "The community atmosphere is frequently noted by parents. At its scale, Global Jaya occupies a middle ground - large enough to offer breadth in curriculum and activities, small enough that children aren't anonymous. The international mix creates a genuine global learning environment.",
     ],
     inspection: {
       date: "Recent",
@@ -1633,7 +1633,7 @@ const binus: SchoolProfile = {
   studentBody: {
     paragraphs: [
       "Binus serves 1,200+ students from 15+ nationalities. The student body is predominantly Indonesian - around 80% by most accounts - with a smaller expat community. The school culture reflects its Indonesian identity while maintaining international curriculum standards.",
-      "The community atmosphere reflects the school's size and local focus. Parents say the school culture values academic achievement and technology skills. The predominantly Indonesian student body suits some families but not others - if you want a more international mix, this isn't the school for you.",
+      "The community atmosphere reflects the school's size and local focus. The school culture values academic achievement and technology skills. The predominantly Indonesian student body suits some families but not others - if you want a more international mix, this isn't the school for you.",
     ],
     inspection: {
       date: "Recent",
@@ -1752,7 +1752,7 @@ const sinarmas: SchoolProfile = {
       "If you're targeting top-tier universities and want Jakarta's strongest IB results, SWA is the obvious choice. The academic rigour is real, but it's not for every child - this is a school for achievement-focused families.",
     paragraphs: [
       "The word among expat families is that SWA is where you go if you want the strongest IB results in Jakarta. The 2024 IB Diploma average of 38.2 points is the highest in the city - well above JIS (35.8) and BSJ (35). If you're targeting Oxbridge, Ivy League, or top-tier universities, that difference matters.",
-      "What comes up again and again is the academic focus. SWA attracts achievement-oriented families who prioritise results. The curriculum combines Cambridge Primary, IB MYP, and IB Diploma - a pathway designed for academic excellence. Parents say the teaching is rigorous, expectations are high, and the school culture values achievement.",
+      "What comes up again and again is the academic focus. SWA attracts achievement-oriented families who prioritise results. The curriculum combines Cambridge Primary, IB MYP, and IB Diploma - a pathway designed for academic excellence. The teaching is rigorous, expectations are high, and the school culture values achievement.",
       "The BSD City location suits families already in the area or planning to live there. If you're in South Jakarta or central Jakarta, you're looking at a long commute. Fees run US$9.3K to US$28K - premium but not at JIS levels. The catch is that this intensity isn't for every child. If your child thrives under pressure and wants academic challenge, SWA delivers. If they need more balance or support, look elsewhere.",
     ],
     positives: [
@@ -1803,7 +1803,7 @@ const sinarmas: SchoolProfile = {
   studentBody: {
     paragraphs: [
       "SWA serves 1,200+ students from 30+ nationalities. The school attracts achievement-oriented families who prioritise academic excellence and university preparation. The student body includes both expat and Indonesian families.",
-      "The school culture values academic achievement and rigour. Parents say the community is focused on results and university placements. The BSD City location means many families live in the area or have chosen to relocate there for the school.",
+      "The school culture values academic achievement and rigour. The community is focused on results and university placements. The BSD City location means many families live in the area or have chosen to relocate there for the school.",
     ],
     inspection: {
       date: "Recent",
@@ -1977,7 +1977,7 @@ const tunasMuda: SchoolProfile = {
   studentBody: {
     paragraphs: [
       "Tunas Muda serves 800+ students from 25+ nationalities across its two campuses. The school's Catholic identity is central - families choose Tunas Muda specifically for the faith-based values alongside IB education.",
-      "The community atmosphere reflects the school's size and values. Parents say the Catholic values create a sense of belonging, and the school culture takes character development seriously alongside academic achievement.",
+      "The community atmosphere reflects the school's size and values. The Catholic values create a sense of belonging, and the school culture takes character development seriously alongside academic achievement.",
     ],
     inspection: {
       date: "Recent",
@@ -2093,7 +2093,7 @@ const btb: SchoolProfile = {
       "If you're in North Jakarta and want IB education with a focus on character development, BTB is a solid option. The Pluit location suits families in the area, and the school has been running long enough to have credibility.",
     paragraphs: [
       "The word among expat families is that BTB School (formerly Bina Tunas Bangsa) is North Jakarta's established IB option. Authorised as an IB World School since 2005, it's been running long enough to have credibility. The Pluit location suits families in North Jakarta who don't want to commute to South Jakarta schools.",
-      "What comes up again and again is the character development focus. BTB emphasises values education alongside academic achievement - parents say the school culture takes character seriously. The curriculum combines IB PYP, IGCSEs, and IB Diploma - a pathway that gives students internationally recognised qualifications at multiple stages.",
+      "What comes up again and again is the character development focus. BTB emphasises values education alongside academic achievement - the school culture takes character seriously. The curriculum combines IB PYP, IGCSEs, and IB Diploma - a pathway that gives students internationally recognised qualifications at multiple stages.",
       "Fees run US$7.4K to US$26K - mid-range, making it accessible to self-funding families. The Pluit location is convenient for families already in North Jakarta, but if you're in South Jakarta or central Jakarta, you're looking at a long commute. The school doesn't publish detailed results or fee schedules publicly - you'll need to contact admissions directly.",
     ],
     positives: [
@@ -2101,7 +2101,7 @@ const btb: SchoolProfile = {
       "Pluit location suits families in North Jakarta who don't want to commute to South Jakarta schools.",
       "Dual curriculum pathway - IB PYP, IGCSEs, and IB Diploma - gives students internationally recognised qualifications at multiple stages.",
       "Fees at US$7.4K to US$26K are mid-range, making it accessible to self-funding families who want IB without premium prices.",
-      "Character development focus - parents say the school culture takes values education seriously alongside academic achievement.",
+      "Character development focus - the school culture takes values education seriously alongside academic achievement.",
     ],
     considerations: [
       "Pluit is in North Jakarta. If you're in South Jakarta or central Jakarta, you're looking at a long commute. Traffic can be heavy.",
@@ -2143,7 +2143,7 @@ const btb: SchoolProfile = {
   studentBody: {
     paragraphs: [
       "BTB serves 700+ students from 20+ nationalities. The school's character development focus means values education is central to the community. The student body includes both expat and Indonesian families.",
-      "The community atmosphere reflects the school's size and values focus. Parents say the school culture takes character development seriously, and the Pluit location creates a neighbourhood feel.",
+      "The community atmosphere reflects the school's size and values focus. The school culture takes character development seriously, and the Pluit location creates a neighbourhood feel.",
     ],
     inspection: {
       date: "Recent",
@@ -2258,8 +2258,8 @@ const sphKemang: SchoolProfile = {
       "If you want strong academics with a genuine Christian foundation and you're in South Jakarta, SPH Kemang is worth a look. The Kemang Village location is convenient, and the Cambridge-to-IB pathway is well-established.",
     paragraphs: [
       "The word among expat families is that SPH Kemang Village is the school for families who want strong academics with a genuine Christian foundation. Located in Kemang Village since 2010, it's more accessible than SPH's Lippo Village campus for families in South Jakarta. The curriculum combines Cambridge Primary and IGCSEs with IB Diploma in high school.",
-      "What comes up again and again is the Christian values. Parents say the faith-based approach creates a sense of belonging that secular schools can't match. Chapel services, Bible study, and Christian character education are woven into daily life. The flip side is that if you're not Christian or comfortable with faith being central, this isn't the school for you.",
-      "Fees run US$8.1K to US$26K - mid-range, making it accessible to self-funding families. The Kemang Village location is convenient for families already in South Jakarta. The Cambridge-to-IB pathway is well-established, and parents say the academic standards are strong. Just know that faith is central to everything - if that's not your thing, look elsewhere.",
+      "What comes up again and again is the Christian values. The faith-based approach creates a sense of belonging that secular schools can't match. Chapel services, Bible study, and Christian character education are woven into daily life. The flip side is that if you're not Christian or comfortable with faith being central, this isn't the school for you.",
+      "Fees run US$8.1K to US$26K - mid-range, making it accessible to self-funding families. The Kemang Village location is convenient for families already in South Jakarta. The Cambridge-to-IB pathway is well-established, and the academic standards are strong. Just know that faith is central to everything - if that's not your thing, look elsewhere.",
     ],
     positives: [
       "Kemang Village location in South Jakarta is convenient for families already in the area. More accessible than SPH's Lippo Village campus.",
@@ -2309,7 +2309,7 @@ const sphKemang: SchoolProfile = {
   studentBody: {
     paragraphs: [
       "SPH Kemang Village serves 800+ students from 20+ nationalities. The school's Christian identity is central - families choose SPH Kemang specifically for the faith-based values alongside strong academics.",
-      "The community atmosphere reflects the school's values focus. Parents say the Christian values create a sense of belonging, and the school culture takes character development seriously alongside academic achievement.",
+      "The community atmosphere reflects the school's values focus. The Christian values create a sense of belonging, and the school culture takes character development seriously alongside academic achievement.",
     ],
     inspection: {
       date: "Recent",
@@ -2426,13 +2426,13 @@ const nordAnglia: SchoolProfile = {
       "If you want a well-run British primary school with genuine global connections and your child is under 12, NAS Jakarta is worth a look. The Nord Anglia brand brings resources and opportunities, but it's primary only - you'll need a secondary school plan.",
     paragraphs: [
       "The word among expat families is that NAS Jakarta is a well-run British primary school with genuine global connections. Part of Nord Anglia Education - a network of 80+ schools globally - it brings resources and opportunities that standalone schools can't match. The curriculum combines British National Curriculum with International Primary Curriculum (IPC), giving students a structured British foundation with an international perspective.",
-      "What comes up again and again is the global connections. Nord Anglia's collaboration with MIT, Juilliard, and UNICEF means students get access to programmes and resources that standalone schools can't offer. Parents say the quality of teaching is strong, and the school culture values both academic achievement and personal development.",
+      "What comes up again and again is the global connections. Nord Anglia's collaboration with MIT, Juilliard, and UNICEF means students get access to programmes and resources that standalone schools can't offer. The quality of teaching is strong, and the school culture values both academic achievement and personal development.",
       "The catch is that it's primary only - ages 18 months to 12 years. You'll need a secondary school plan, and you'll need to start thinking about it around Year 5 or 6. Fees run US$7.2K to US$22K - mid-range, making it accessible to self-funding families. The South Jakarta location is convenient, but if you're planning to stay long-term, factor in the secondary school transition.",
     ],
     positives: [
       "Part of Nord Anglia Education (80+ schools globally) brings resources and opportunities that standalone schools can't match - collaboration with MIT, Juilliard, and UNICEF.",
       "British National Curriculum combined with International Primary Curriculum (IPC) gives students a structured British foundation with an international perspective.",
-      "Parents say the quality of teaching is strong, and the school culture values both academic achievement and personal development.",
+      "The quality of teaching is strong, and the school culture values both academic achievement and personal development.",
       "Fees at US$7.2K to US$22K are mid-range, making it accessible to self-funding families who want British curriculum without premium prices.",
       "The South Jakarta location is convenient for families already in the area. The campus is modern and purpose-built.",
     ],
@@ -2471,7 +2471,7 @@ const nordAnglia: SchoolProfile = {
   studentBody: {
     paragraphs: [
       "NAS Jakarta serves 400+ students from 30+ nationalities. The school's international identity is central - the student body is diverse, with a mix of expat and Indonesian families.",
-      "The community atmosphere reflects the school's size and global connections. Parents say the Nord Anglia network creates opportunities for students to connect with peers globally, and the school culture values international-mindedness.",
+      "The community atmosphere reflects the school's size and global connections. The Nord Anglia network creates opportunities for students to connect with peers globally, and the school culture values international-mindedness.",
     ],
     inspection: {
       date: "Recent",
@@ -2586,12 +2586,12 @@ const newZealandSchool: SchoolProfile = {
     verdict:
       "If you want a small, nurturing school with a genuine focus on wellbeing and your family has ties to New Zealand, NZSJ is worth a look. The New Zealand curriculum is different from British or IB - make sure it aligns with your plans.",
     paragraphs: [
-      "The word among expat families is that NZSJ is a hidden gem for families who want a small, nurturing school with a genuine focus on wellbeing. Founded to serve the New Zealand community in Jakarta, it's grown to welcome families from all backgrounds. At 300 students, it's small enough that teachers know every child, and parents say the school culture values wellbeing alongside academic achievement.",
-      "What comes up again and again is the New Zealand approach. The curriculum follows New Zealand's national curriculum with Te Whariki in early years - a play-based, inquiry-focused approach that's different from the structured British or IB models. Parents say the school culture is less pressured, more holistic, and genuinely focused on children's wellbeing. The flip side is that if you're planning to move to the UK or want British qualifications, the New Zealand curriculum might not align.",
+      "The word among expat families is that NZSJ is a hidden gem for families who want a small, nurturing school with a genuine focus on wellbeing. Founded to serve the New Zealand community in Jakarta, it's grown to welcome families from all backgrounds. At 300 students, it's small enough that teachers know every child, and the school culture values wellbeing alongside academic achievement.",
+      "What comes up again and again is the New Zealand approach. The curriculum follows New Zealand's national curriculum with Te Whariki in early years - a play-based, inquiry-focused approach that's different from the structured British or IB models. The school culture is less pressured, more holistic, and genuinely focused on children's wellbeing. The flip side is that if you're planning to move to the UK or want British qualifications, the New Zealand curriculum might not align.",
       "Fees run US$6.9K to US$22K - mid-range, making it accessible to self-funding families. The South Jakarta location is convenient. The school serves ages 1-18, so families can stay through high school. Just know that the New Zealand curriculum is different - if you're targeting UK universities or want IGCSEs/A-Levels, this might not be the right fit.",
     ],
     positives: [
-      "At 300 students, NZSJ is small enough that teachers know every child. Parents say the school culture values wellbeing alongside academic achievement.",
+      "At 300 students, NZSJ is small enough that teachers know every child. The school culture values wellbeing alongside academic achievement.",
       "New Zealand curriculum with Te Whariki in early years - a play-based, inquiry-focused approach that's less pressured than structured British or IB models.",
       "Fees at US$6.9K to US$22K are mid-range, making it accessible to self-funding families who want a nurturing environment without premium prices.",
       "The school serves ages 1-18, so families can stay through high school without needing to transition.",
@@ -2638,7 +2638,7 @@ const newZealandSchool: SchoolProfile = {
   studentBody: {
     paragraphs: [
       "NZSJ serves 300+ students from 25+ nationalities. The school was founded to serve the New Zealand community but has grown to welcome families from all backgrounds. The small size creates a close-knit community.",
-      "The community atmosphere reflects the school's size and values. Parents say the school culture is less pressured, more holistic, and genuinely focused on children's wellbeing. The New Zealand identity is central - families choose NZSJ specifically for the curriculum and approach.",
+      "The community atmosphere reflects the school's size and values. The school culture is less pressured, more holistic, and genuinely focused on children's wellbeing. The New Zealand identity is central - families choose NZSJ specifically for the curriculum and approach.",
     ],
     inspection: {
       date: "2025/26",
@@ -2753,7 +2753,7 @@ const jakartaNanyang: SchoolProfile = {
       "If you want Singapore-style rigour with genuine trilingual instruction and you're in BSD City, Jakarta Nanyang is worth a look. The Cambridge pathway is well-established, and the Mandarin focus appeals to families who value Chinese language.",
     paragraphs: [
       "The word among expat families is that Jakarta Nanyang appeals to families wanting a Singapore-style education with genuine trilingual instruction. Part of the Nanyang Family of Schools, it brings Singapore's academic rigour and discipline. The curriculum follows Cambridge from primary through A-Levels - a structured pathway that gives students internationally recognised qualifications at every stage.",
-      "What comes up again and again is the trilingual approach. English is the medium of instruction for core subjects, but all students learn Mandarin Chinese and Bahasa Indonesia. Parents say the Mandarin instruction is serious - students can sit for Cambridge IGCSE Mandarin or HSK exams. If you value Chinese language and culture, this is one of the few schools in Jakarta that delivers.",
+      "What comes up again and again is the trilingual approach. English is the medium of instruction for core subjects, but all students learn Mandarin Chinese and Bahasa Indonesia. The Mandarin instruction is serious - students can sit for Cambridge IGCSE Mandarin or HSK exams. If you value Chinese language and culture, this is one of the few schools in Jakarta that delivers.",
       "The BSD City location suits families already in the area or planning to live there. Fees run US$7.2K to US$22K - mid-range, making it accessible to self-funding families. The catch is that Singapore-style rigour means high expectations and structured learning. If your child thrives under pressure and wants academic challenge, Jakarta Nanyang delivers. If they need more support or balance, look elsewhere.",
     ],
     positives: [
@@ -2803,7 +2803,7 @@ const jakartaNanyang: SchoolProfile = {
   studentBody: {
     paragraphs: [
       "Jakarta Nanyang serves 700+ students from 20+ nationalities. The school's trilingual identity is central - families choose Jakarta Nanyang specifically for the Mandarin instruction and Singapore-style education.",
-      "The community atmosphere reflects the school's academic focus and trilingual approach. Parents say the Singapore-style rigour creates high expectations, and the school culture values discipline and achievement.",
+      "The community atmosphere reflects the school's academic focus and trilingual approach. The Singapore-style rigour creates high expectations, and the school culture values discipline and achievement.",
     ],
     inspection: {
       date: "Recent",

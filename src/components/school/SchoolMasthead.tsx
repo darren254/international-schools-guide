@@ -40,7 +40,7 @@ export function SchoolMasthead({
             <span className="text-charcoal-light font-medium">{c.name.split("(")[0].trim()}</span>
           </span>
         ))}
-        <span className="ml-1">- {campuses.length} campuses in South Jakarta</span>
+        <span className="ml-1">- {campuses.length} {campuses.length === 1 ? "campus" : "campuses"} in South Jakarta</span>
       </p>
 
       {/* Curricula + updated */}
