@@ -709,7 +709,7 @@ const isj: SchoolProfile = {
   head: {
     name: "Ms. Eileen Fisher",
     since: 2024,
-    bio: "Ms. Eileen Fisher leads ISJ. The school follows the British National Curriculum and is part of The Schools Trust (schoolstrust.co.uk).",
+    bio: "Ms. Eileen Fisher leads ISJ. The school follows the British National Curriculum and is part of The Schools Trust.",
   },
 
   photoAlts: [
@@ -1394,9 +1394,9 @@ const globalJaya: SchoolProfile = {
   ],
 
   head: {
-    name: "Howard Menand",
-    since: 2020,
-    bio: "Howard Menand is Head of School at Global Jaya School. The school holds WASC accreditation and IB World School status, with a long-standing IB Diploma programme.",
+    name: "Dr. Howard Menand IV",
+    since: 2024,
+    bio: "Dr. Howard Menand IV became Head of School at Global Jaya School in July 2024, having previously served as Secondary Principal at the school. His appointment was announced in October 2023. Under his leadership, GJS has continued to develop its IB continuum programmes and community engagement initiatives, including hosting Asia Pacific Regional IB Workshops and the annual Global Connect university guidance event. Dr. Menand emphasises community, Indonesian cultural heritage, and putting students at the heart of decision-making.",
   },
 
   photoAlts: [
@@ -2568,9 +2568,9 @@ const newZealandSchool: SchoolProfile = {
   ],
 
   head: {
-    name: "Tim Sissons",
+    name: "Tim Maitland",
     since: 2020,
-    bio: "Tim Sissons leads New Zealand School Jakarta. The school follows NZ Curriculum standards and reports high literacy and numeracy growth compared to international norms.",
+    bio: "Tim Maitland is Head of School at New Zealand School Jakarta. The school follows NZ Curriculum standards and reports high literacy and numeracy growth compared to international norms.",
   },
 
   photoAlts: [
