@@ -318,6 +318,7 @@ const jis: SchoolProfile = {
     ],
     otherSchools: [
       { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British · Ages 3–18 · Bintaro", feeRange: "US$18K – $32K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "Australian Independent School", slug: "australian-independent-school-jakarta", meta: "Australian · Ages 3–18 · Kemang", feeRange: "US$12K – $22K / year" },
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Pondok Indah", feeRange: "US$8K – $16K / year" },
     ],
@@ -490,6 +491,7 @@ const bsj: SchoolProfile = {
     ],
     otherSchools: [
       { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$17K – $36K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "Australian Independent School", slug: "australian-independent-school-jakarta", meta: "Australian · Ages 3–18 · Kemang", feeRange: "US$12K – $22K / year" },
       { name: "ACG School Jakarta", slug: "acg-school-jakarta", meta: "IB · Ages 3–18 · Pasar Minggu", feeRange: "US$14K – $24K / year" },
     ],
@@ -659,6 +661,7 @@ const acg: SchoolProfile = {
     ],
     otherSchools: [
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$8K – $16K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$17K – $36K / year" },
       { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$18K – $32K / year" },
     ],
@@ -1006,6 +1009,7 @@ const mentari: SchoolProfile = {
     ],
     otherSchools: [
       { name: "ACG School Jakarta", slug: "acg-school-jakarta", meta: "IB + Cambridge · Ages 3–17 · Pasar Minggu", feeRange: "US$14K – $24K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$17K – $36K / year" },
       { name: "Global Jaya School", slug: "global-jaya-school", meta: "IB · Ages 3–18 · BSD", feeRange: "US$6K – $12K / year" },
     ],
@@ -1176,6 +1180,7 @@ const ais: SchoolProfile = {
     otherSchools: [
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$8K – $16K / year" },
       { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$18K – $32K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$17K – $36K / year" },
     ],
     relatedInsights: [
@@ -1347,6 +1352,7 @@ const sph: SchoolProfile = {
     otherSchools: [
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$8K – $16K / year" },
       { name: "Global Jaya School", slug: "global-jaya-school", meta: "IB · Ages 3–18 · BSD", feeRange: "US$6K – $12K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$17K – $36K / year" },
     ],
     relatedInsights: [
@@ -1516,6 +1522,7 @@ const globalJaya: SchoolProfile = {
     otherSchools: [
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$8K – $16K / year" },
       { name: "Sekolah Pelita Harapan", slug: "sekolah-pelita-harapan", meta: "IB · Ages 3–18 · Lippo Village", feeRange: "US$6K – $14K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "Binus School Serpong", slug: "binus-school-serpong", meta: "Cambridge · Ages 3–18 · Serpong", feeRange: "US$5K – $10K / year" },
     ],
     relatedInsights: [
@@ -1854,6 +1861,7 @@ const sinarmas: SchoolProfile = {
     otherSchools: [
       { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$23K – $37K / year" },
       { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$9.2K – $30K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "ACG School Jakarta", slug: "acg-school-jakarta", meta: "IB · Ages 3–17 · Pasar Minggu", feeRange: "US$9.8K – $25K / year" },
     ],
     relatedInsights: [
@@ -2027,6 +2035,7 @@ const tunasMuda: SchoolProfile = {
     otherSchools: [
       { name: "Sekolah Pelita Harapan", slug: "sekolah-pelita-harapan", meta: "IB · Ages 4–18 · Lippo Village", feeRange: "US$7.2K – $22K / year" },
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$5.6K – $14K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "BTB School", slug: "btb-school", meta: "IB · Ages 3–18 · Pluit", feeRange: "US$7.4K – $26K / year" },
     ],
     relatedInsights: [
@@ -2192,6 +2201,7 @@ const btb: SchoolProfile = {
     otherSchools: [
       { name: "Tunas Muda School", slug: "tunas-muda-school", meta: "IB · Ages 1–18 · Meruya", feeRange: "US$6.9K – $27K / year" },
       { name: "North Jakarta Intercultural School", slug: "north-jakarta-intercultural-school", meta: "IB · Ages 3–18 · Kelapa Gading", feeRange: "US$6.1K – $16K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$23K – $37K / year" },
     ],
     relatedInsights: [
@@ -2360,6 +2370,7 @@ const sphKemang: SchoolProfile = {
     otherSchools: [
       { name: "Sekolah Pelita Harapan", slug: "sekolah-pelita-harapan", meta: "IB · Ages 4–18 · Lippo Village", feeRange: "US$7.2K – $22K / year" },
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$5.6K – $14K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$23K – $37K / year" },
     ],
     relatedInsights: [
@@ -2687,6 +2698,7 @@ const newZealandSchool: SchoolProfile = {
     otherSchools: [
       { name: "Australian Independent School", slug: "australian-independent-school-jakarta", meta: "Australian + IB · Ages 3–18 · Pejaten", feeRange: "US$9.3K – $27K / year" },
       { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$9.2K – $30K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$5.6K – $14K / year" },
     ],
     relatedInsights: [
@@ -2853,6 +2865,7 @@ const jakartaNanyang: SchoolProfile = {
     otherSchools: [
       { name: "Singapore Intercultural School South Jakarta", slug: "singapore-intercultural-school-south-jakarta", meta: "Singapore · Ages 2–17 · Bona Vista", feeRange: "US$2.4K – $15K / year" },
       { name: "ACS Jakarta", slug: "acs-jakarta", meta: "Cambridge + Singapore · Ages 3–18 · East Jakarta", feeRange: "US$15K – $20K / year" },
+      { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "Binus School Serpong", slug: "binus-school-serpong", meta: "Cambridge · Ages 3–17 · Serpong", feeRange: "US$6.2K – $22K / year" },
     ],
     relatedInsights: [
