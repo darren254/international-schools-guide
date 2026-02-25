@@ -5,7 +5,8 @@ import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 import { ShareButton } from "@/components/share/ShareButton";
 import { WasHelpful } from "@/components/insights/WasHelpful";
-import { FaqAccordion } from "@/components/insights/FaqAccordion";
+import { FaqList } from "@/components/insights/FaqAccordion";
+import { SchoolSnapshotCard } from "@/components/insights/SchoolSnapshotCard";
 import { SCHOOL_PROFILES } from "@/data/schools";
 import { getAllInsightArticles, getInsightArticleBySlug } from "@/lib/insights/content";
 import { getInsightImageUrl } from "@/lib/insights/images";
@@ -247,6 +248,19 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
               dangerouslySetInnerHTML={{ __html: bodySplit.before }}
             />
 
+            {schoolCards.length > 0 && (
+              <section className="my-8">
+                <p className="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-3">
+                  Schools mentioned in this article
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {schoolCards.slice(0, 3).map((school) => (
+                    <SchoolSnapshotCard key={school.slug} school={school} />
+                  ))}
+                </div>
+              </section>
+            )}
+
             <div className="my-8">
               <ReaderPulseWidget articleId={article.slug} />
             </div>
@@ -293,7 +307,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
             {article.faqs.length > 0 && (
               <section className="mt-12">
                 <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 uppercase tracking-wider">FAQs</h2>
-                <FaqAccordion faqs={article.faqs} />
+                <FaqList faqs={article.faqs} />
               </section>
             )}
 
@@ -332,19 +346,9 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
                 <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 uppercase tracking-wider">
                   Explore school profiles
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {schoolCards.map((school) => (
-                    <Link
-                      key={school.slug}
-                      href={`/international-schools/${school.citySlug}/${school.slug}/`}
-                      className="block border border-warm-border rounded-sm p-4 bg-cream-200 hover:bg-cream-300 hover:border-hermes/30 transition-all duration-200"
-                    >
-                      <p className="font-display text-xl text-charcoal">{school.name}</p>
-                      <p className="text-sm text-charcoal-muted mt-1">
-                        {school.curricula.join(" / ")} ·{" "}
-                        {school.stats.find((stat) => stat.label.toLowerCase().includes("fee"))?.value ?? "Contact school"}
-                      </p>
-                    </Link>
+                    <SchoolSnapshotCard key={school.slug} school={school} />
                   ))}
                 </div>
               </section>

@@ -36,7 +36,7 @@ export function ProfileSidebar({
   return (
     <aside className="lg:sticky lg:top-[88px] self-start space-y-5">
       {/* Quick Facts */}
-      <div className="bg-warm-white border border-warm-border-light p-6">
+      <div className="bg-data-light border border-data-border p-6">
         <h3 className="font-display text-[1.0625rem] font-semibold mb-5">
           Quick Facts
         </h3>

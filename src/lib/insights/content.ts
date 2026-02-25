@@ -278,10 +278,44 @@ function wrapTables(html: string): string {
   return html.replace(/<table>/gi, '<div class="table-wrapper"><table>').replace(/<\/table>/gi, "</table></div>");
 }
 
-/** Wrap consecutive label:value paragraphs (school facts) in a styled grid. */
+/** Transform "Best for:" paragraphs into a styled block with bullet list. */
+function wrapBestForBlocks(html: string): string {
+  const pattern = /<p><strong>Best for:<\/strong>\s*([^<]+)<\/p>/gi;
+  return html.replace(pattern, (_match, content) => {
+    const text = content.trim();
+    const items = text.split(/\.\s+(?=[A-Z])/).map((s: string) => s.trim()).filter(Boolean);
+    const listItems = items.length > 1 ? items : [text];
+    return `<div class="best-for-block"><p class="best-for-label">Best for</p><ul class="best-for-list">${listItems.map((item: string) => `<li>${item}${item.endsWith(".") ? "" : "."}</li>`).join("")}</ul></div>`;
+  });
+}
+
+/** Transform school facts (Label: value) into a structured grid. Handles both single <p> with multiple facts and consecutive <p> blocks. Excludes "Best for" which is handled separately. */
 function wrapFactsBlocks(html: string): string {
-  const factsPattern = /((?:<p><strong>[^<]+:<\/strong>[^<]*<\/p>\s*)+)/g;
-  return html.replace(factsPattern, (match) => `<div class="facts-grid">${match.trim()}</div>`);
+  // Case 1: Single <p> containing multiple <strong>Label:</strong> value (marked merges single-newline blocks). Exclude Best for.
+  const singleParaPattern = /<p>((?:(?:<strong>(?!Best for:)[^<]+:<\/strong>[^<]*)(?:\s*|\s*<strong>)*)+)<\/p>/g;
+  html = html.replace(singleParaPattern, (match, inner) => {
+    const facts: { label: string; value: string }[] = [];
+    const factRegex = /<strong>([^<]+):<\/strong>\s*([\s\S]*?)(?=<strong>|$)/g;
+    let m: RegExpExecArray | null;
+    while ((m = factRegex.exec(inner)) !== null) {
+      facts.push({ label: m[1].trim(), value: m[2].trim().replace(/\s+/g, " ") });
+    }
+    if (facts.length < 2) return match;
+    return `<div class="facts-grid">${facts.map((f) => `<div class="fact-item"><span class="fact-label">${f.label}</span><span class="fact-value">${f.value}</span></div>`).join("")}</div>`;
+  });
+
+  // Case 2: Consecutive <p><strong>Label:</strong> value</p> blocks. Exclude Best for.
+  const multiParaPattern = /((?:<p><strong>(?!Best for:)[^<]+:<\/strong>[^<]*<\/p>\s*)+)/g;
+  return html.replace(multiParaPattern, (match) => {
+    const facts: { label: string; value: string }[] = [];
+    const pRegex = /<p><strong>([^<]+):<\/strong>([^<]*)<\/p>/g;
+    let m: RegExpExecArray | null;
+    while ((m = pRegex.exec(match)) !== null) {
+      facts.push({ label: m[1].trim(), value: m[2].trim() });
+    }
+    if (facts.length === 0) return match;
+    return `<div class="facts-grid">${facts.map((f) => `<div class="fact-item"><span class="fact-label">${f.label}</span><span class="fact-value">${f.value}</span></div>`).join("")}</div>`;
+  });
 }
 
 function extractCategoryTag(breadcrumbs: string): string {
@@ -434,7 +468,9 @@ function toInsightArticle(filePath: string): InsightArticle | null {
 
   const rendered = marked.parse(bodyCore);
   const bodyHtml = wrapFactsBlocks(
-    wrapTables(addHeadingIds(typeof rendered === "string" ? rendered : String(rendered)))
+    wrapBestForBlocks(
+      wrapTables(addHeadingIds(typeof rendered === "string" ? rendered : String(rendered)))
+    )
   );
 
   const titleTagFromData = String(data.title_tag ?? data.title ?? "").trim();

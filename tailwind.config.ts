@@ -39,6 +39,11 @@ const config: Config = {
           "border-light": "#F0EBE3",
           white: "#FDFBF8",
         },
+        data: {
+          DEFAULT: "#2563EB",
+          light: "#EFF6FF",
+          border: "#BFDBFE",
+        },
       },
       fontFamily: {
         display: [
