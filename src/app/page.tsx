@@ -391,7 +391,7 @@ export default function HomePage() {
             <Link
               key={article.slug}
               href={`/insights/${article.slug}`}
-              className="group border border-warm-border rounded-sm p-5 hover:border-charcoal-muted transition-colors bg-warm-white"
+              className="group border border-warm-border rounded-sm p-5 hover:border-charcoal-muted transition-colors bg-cream-200"
             >
               <span className="text-label-xs uppercase text-hermes mb-2 block">
                 {article.category}
@@ -437,7 +437,7 @@ export default function HomePage() {
             <Link
               key={item.slug}
               href={item.slug}
-              className="group border border-warm-border rounded-sm p-5 hover:border-charcoal-muted transition-colors bg-warm-white"
+              className="group border border-warm-border rounded-sm p-5 hover:border-charcoal-muted transition-colors bg-cream-200"
             >
               <div className="flex items-center gap-3 mb-3">
                 <span className="text-label-xs uppercase text-hermes bg-hermes-light px-2.5 py-1 rounded-sm">

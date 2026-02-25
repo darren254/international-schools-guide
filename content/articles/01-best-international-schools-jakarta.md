@@ -246,25 +246,25 @@ This is not a formula. It is a judgement, made by an editorial team that engages
 ## FAQs {#faqs}
 
 **How many international schools are there in Jakarta?**
-Approximately 180 schools operate under the SPK framework. Of these, the 10–15 profiled in this guide offer the infrastructure, accreditation and teaching quality that most international families expect. The rest range from smaller bilingual schools to niche institutions serving specific communities.
+About 180 under the SPK framework. This guide covers the 10–15 that offer premium infrastructure and accreditation.
 
 **Are these rankings official?**
-No. These are editorial rankings produced by The International Schools Guide. They reflect our assessment of the market based on published data, accreditation outcomes, fee analysis, and direct engagement with schools and families. No school has paid for their position. See our [methodology](#how-we-rank).
+No. Editorial rankings from The International Schools Guide. No school has paid for position. See our [methodology](#how-we-rank).
 
 **Can Indonesian nationals attend these schools?**
-Yes. All SPK schools in Jakarta can enrol Indonesian nationals. JIS, BSJ, ISJ and AIS all have significant Indonesian cohorts. Some schools manage nationality ratios to maintain diversity, which can affect wait times for specific passport holders.
+Yes. All SPK schools can enrol Indonesian nationals. JIS, BSJ, ISJ and AIS all have significant Indonesian cohorts. Some schools manage nationality ratios, which can affect wait times for specific passport holders.
 
 **Which school is cheapest?**
-NZ School Jakarta ($4,202–$17,223) has the lowest verified fees. AIS has the lowest entry point in the premium tier ($5,975 for three-day Preschool 3). See our [fees guide](#12) and [affordable schools guide](#6) for the full picture.
+NZ School Jakarta ($4,202–$17,223). AIS has the lowest premium-tier entry ($5,975 for Preschool 3). [Fees guide](#12) and [affordable schools](#6).
 
 **Which school has the best results?**
-BSJ and Binus Simprug are the two schools that publish IB Diploma results. BSJ averages 35 (2024) and 34.7 (2025). Binus Simprug averages 34 with a 95% pass rate. JIS does not publish IB-specific results but its university destination data (Harvard, Stanford, MIT) suggests strong outcomes. See our [IB results guide](#41).
+BSJ (IB avg 35 in 2024, 34.7 in 2025) and Binus Simprug (avg 34, 95% pass) publish results. JIS doesn't publish IB numbers but its US destination data (Harvard, Stanford, MIT) indicates strong outcomes. [IB results guide](#41).
 
 **Should I choose based on fees?**
-Fees are one factor — and an important one. Higher fees fund higher teacher salaries, which is the most significant determinant of teaching quality. But the right school is the one that fits your child's needs, your family's priorities, and your university aspirations. A school that is a perfect fit at $20,000 is a better choice than a school that is wrong at $35,000.
+Fees matter — they fund teacher salaries — but fit matters more. A school that's right at $20,000 beats one that's wrong at $35,000.
 
 **When should I start the admissions process?**
-For nursery entry at premium schools: 12–18 months before the planned start date. For Year 1 and Year 7: 6–12 months. For upper primary and secondary: 3–6 months may be sufficient if places are available. See our [admissions guide](#30) and [hardest year groups guide](#34).
+Nursery at premium schools: 12–18 months ahead. Year 1 and Year 7: 6–12 months. Upper primary/secondary: 3–6 months if places exist. [Admissions guide](#30), [hardest year groups](#34).
 
 ---
 

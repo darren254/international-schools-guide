@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 import { ShareButton } from "@/components/share/ShareButton";
 import { WasHelpful } from "@/components/insights/WasHelpful";
+import { FaqAccordion } from "@/components/insights/FaqAccordion";
 import { SCHOOL_PROFILES } from "@/data/schools";
 import { getAllInsightArticles, getInsightArticleBySlug } from "@/lib/insights/content";
 import { getInsightImageUrl } from "@/lib/insights/images";
@@ -157,8 +158,8 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
       )}
 
       <article className="w-full">
-        <div className="w-full flex justify-center">
-          <div className="w-full max-w-[760px] px-5 md:px-8 pt-6 pb-16">
+        <div className="max-w-[1240px] mx-auto px-5 md:px-8 pt-6 pb-16">
+          <div className="max-w-[760px] mx-auto">
             <nav className="text-xs text-charcoal-muted mb-4" aria-label="Breadcrumb">
               {article.breadcrumbs}
             </nav>
@@ -196,21 +197,24 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
             </p>
 
             <ShareButton variant="article" url={`${BASE_URL}/insights/${article.slug}`} title={article.titleTag} />
+          </div>
 
-            <div className="mt-6 mb-8">
-              {heroImage ? (
-                <Image
-                  src={heroImage}
-                  alt={article.h1}
-                  width={1600}
-                  height={900}
-                  className="w-full h-auto rounded-sm object-cover"
-                  priority
-                />
-              ) : (
-                <div className="w-full h-56 md:h-72 bg-cream-200 rounded-sm" aria-hidden />
-              )}
-            </div>
+          <div className="w-full -mx-5 md:-mx-8 mt-6 mb-8">
+            {heroImage ? (
+              <Image
+                src={heroImage}
+                alt={article.h1}
+                width={1600}
+                height={900}
+                className="w-full h-auto object-cover"
+                priority
+              />
+            ) : (
+              <div className="w-full h-56 md:h-72 bg-cream-200" aria-hidden />
+            )}
+          </div>
+
+          <div className="max-w-[760px] mx-auto">
 
             {article.tldr.length > 0 && (
               <section className="bg-cream-50 border-l-4 border-hermes py-4 px-5 mt-8 mb-8 font-sans">
@@ -260,7 +264,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
             )}
 
             {relatedArticles.length > 0 && (
-              <section className="my-8 p-4 border border-warm-border rounded-sm">
+              <section className="my-8 p-4 border border-warm-border rounded-sm bg-cream-200">
                 <p className="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-3">
                   You might also be interested in
                 </p>
@@ -269,7 +273,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
                     <Link
                       key={related.slug}
                       href={`/insights/${related.slug}`}
-                      className="block p-3 border border-warm-border rounded-sm hover:shadow-sm transition-shadow"
+                      className="block p-3 border border-warm-border rounded-sm bg-cream-50 hover:bg-cream-300 transition-colors"
                     >
                       <p className="text-xs text-charcoal-muted mb-1">{related.categoryTag}</p>
                       <p className="font-display text-lg text-charcoal leading-snug">{related.h1}</p>
@@ -289,18 +293,11 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
             {article.faqs.length > 0 && (
               <section className="mt-12">
                 <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 uppercase tracking-wider">FAQs</h2>
-                <div className="space-y-4">
-                  {article.faqs.map((faq) => (
-                    <div key={faq.question} className="border border-warm-border rounded-sm p-4">
-                      <h3 className="font-display text-lg text-charcoal mb-2">{faq.question}</h3>
-                      <p className="text-charcoal-muted">{faq.answer}</p>
-                    </div>
-                  ))}
-                </div>
+                <FaqAccordion faqs={article.faqs} />
               </section>
             )}
 
-            <section className="mt-10 border border-warm-border rounded-sm p-5 bg-cream-50">
+            <section className="mt-10 border border-warm-border rounded-sm p-5 bg-cream-200">
               <p className="font-display text-xl text-charcoal mb-2">Get our Jakarta schools update</p>
               <p className="text-charcoal-muted mb-4">
                 Fees, admissions and rankings, direct to your inbox.
@@ -309,7 +306,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
                 <input
                   type="email"
                   placeholder="Your email address"
-                  className="flex-1 px-4 py-2.5 rounded-sm border border-warm-border bg-white text-charcoal"
+                  className="flex-1 px-4 py-2.5 rounded-sm border border-warm-border bg-cream-50 text-charcoal"
                 />
                 <button className="px-5 py-2.5 bg-hermes text-white rounded-sm hover:bg-hermes-hover transition-colors">
                   Subscribe
@@ -323,7 +320,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
               <ShareButton variant="article" url={`${BASE_URL}/insights/${article.slug}`} title={article.titleTag} />
             </div>
 
-            <section className="mt-10 p-5 border border-warm-border rounded-sm">
+            <section className="mt-10 p-5 border border-warm-border rounded-sm bg-cream-200">
               <p className="font-display text-xl text-charcoal mb-2">About the author</p>
               <p className="text-charcoal-muted">
                 Mia Windsor is the Managing Editor of The International Schools Guide. She covers school fees, admissions, curriculum and relocation in Jakarta.
@@ -340,7 +337,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
                     <Link
                       key={school.slug}
                       href={`/international-schools/${school.citySlug}/${school.slug}/`}
-                      className="block border border-warm-border rounded-sm p-4 hover:shadow-sm transition-shadow"
+                      className="block border border-warm-border rounded-sm p-4 bg-cream-200 hover:bg-cream-300 hover:border-hermes/30 transition-all duration-200"
                     >
                       <p className="font-display text-xl text-charcoal">{school.name}</p>
                       <p className="text-sm text-charcoal-muted mt-1">

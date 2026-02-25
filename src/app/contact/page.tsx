@@ -65,7 +65,7 @@ export default function ContactPage() {
             {CONTACT_CHANNELS.map((channel) => (
               <div
                 key={channel.label}
-                className="bg-white border border-warm-border-light p-6"
+                className="bg-cream-200 border border-warm-border-light p-6"
               >
                 <p className="text-label-sm uppercase text-charcoal-muted tracking-wider mb-2">
                   {channel.label}

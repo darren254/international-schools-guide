@@ -148,7 +148,7 @@ export default function InsightsPage() {
 
           <aside className="xl:pl-2">
             <div className="sticky top-24 space-y-8">
-              <section className="border border-warm-border rounded-sm p-4 bg-white">
+              <section className="border border-warm-border rounded-sm p-4 bg-cream-200">
                 <h2 className="font-display text-2xl text-charcoal mb-4 border-b border-warm-border pb-2">Editor's picks</h2>
                 <ol className="space-y-3">
                   {editorsPicks.map((article, index) => (
@@ -162,7 +162,7 @@ export default function InsightsPage() {
                 </ol>
               </section>
 
-              <section className="border border-warm-border rounded-sm p-4 bg-white">
+              <section className="border border-warm-border rounded-sm p-4 bg-cream-200">
                 <h2 className="font-display text-2xl text-charcoal mb-4 border-b border-warm-border pb-2">Most read</h2>
                 <ol className="space-y-3">
                   {mostRead.map((article, index) => (

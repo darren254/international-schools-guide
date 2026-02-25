@@ -243,22 +243,45 @@ function parseFaqs(section: string): InsightFaq[] {
   return faqs;
 }
 
-function normalizeHeadingAnchors(md: string): string {
-  const withExplicit = md.replace(/^(#{2,3})\s+(.+?)\s*\{#([a-z0-9-]+)\}\s*$/gim, (_m, hashes, title, id) => {
-    const level = hashes.length;
-    return `<h${level} id="${id}">${title.trim()}</h${level}>`;
+/** Strip {#anchor-id} from heading lines so marked can parse; IDs are added after render. */
+function stripHeadingAnchors(md: string): string {
+  return md.replace(/^(#{2,3})\s+(.+?)\s*\{#([a-z0-9-]+)\}\s*$/gim, (_m, hashes, title) => {
+    return `${hashes} ${title.trim()}`;
   });
+}
 
-  return withExplicit.replace(/^(#{2,3})\s+(.+?)\s*$/gim, (_m, hashes, title) => {
-    const level = hashes.length;
-    const cleanTitle = String(title).trim();
-    const id = cleanTitle
-      .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, "")
-      .trim()
-      .replace(/\s+/g, "-");
-    return `<h${level} id="${id}">${cleanTitle}</h${level}>`;
-  });
+/** Add id attributes to h2/h3 in rendered HTML for anchor links. */
+function addHeadingIds(html: string): string {
+  return html
+    .replace(/<h2>([^<]+)<\/h2>/gi, (_m, text) => {
+      const id = String(text)
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, "")
+        .trim()
+        .replace(/\s+/g, "-");
+      return id ? `<h2 id="${id}">${text.trim()}</h2>` : `<h2>${text.trim()}</h2>`;
+    })
+    .replace(/<h3>([^<]+)<\/h3>/gi, (_m, text) => {
+      const id = String(text)
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, "")
+        .trim()
+        .replace(/\s+/g, "-");
+      return id ? `<h3 id="${id}">${text.trim()}</h3>` : `<h3>${text.trim()}</h3>`;
+    });
+}
+
+/** Wrap tables in a scrollable container for mobile. */
+function wrapTables(html: string): string {
+  return html.replace(/<table>/gi, '<div class="table-wrapper"><table>').replace(/<\/table>/gi, "</table></div>");
+}
+
+/** Wrap consecutive label:value paragraphs (school facts) in a styled grid. */
+function wrapFactsBlocks(html: string): string {
+  const factsPattern = /((?:<p><strong>[^<]+:<\/strong>[^<]*<\/p>\s*)+)/g;
+  return html.replace(factsPattern, (match) => `<div class="facts-grid">${match.trim()}</div>`);
 }
 
 function extractCategoryTag(breadcrumbs: string): string {
@@ -407,10 +430,12 @@ function toInsightArticle(filePath: string): InsightArticle | null {
 
   const firstHeading = cleaned.match(/^#\s+(.+)$/m)?.[1]?.trim() ?? "";
   bodyCore = bodyCore.replace(/^#\s+.+$/m, "").trim();
-  bodyCore = normalizeHeadingAnchors(bodyCore);
+  bodyCore = stripHeadingAnchors(bodyCore);
 
   const rendered = marked.parse(bodyCore);
-  const bodyHtml = typeof rendered === "string" ? rendered : String(rendered);
+  const bodyHtml = wrapFactsBlocks(
+    wrapTables(addHeadingIds(typeof rendered === "string" ? rendered : String(rendered)))
+  );
 
   const titleTagFromData = String(data.title_tag ?? data.title ?? "").trim();
   const standfirst = String(data.standfirst ?? "").trim();

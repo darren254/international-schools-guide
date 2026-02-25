@@ -220,7 +220,7 @@ function CompareContent() {
                       ? "border-hermes bg-hermes-light/50"
                       : isDisabled
                       ? "border-warm-border bg-cream-200 opacity-50 cursor-not-allowed"
-                      : "border-warm-border bg-warm-white hover:border-charcoal-muted"
+                      : "border-warm-border bg-cream-200 hover:bg-cream-300 hover:border-charcoal-muted"
                   }`}
                 >
                   <div className="flex items-start justify-between gap-2">
