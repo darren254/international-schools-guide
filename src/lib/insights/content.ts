@@ -50,6 +50,13 @@ const CONTENT_DIR = path.join(process.cwd(), "content");
 const ARTICLES_DIR = path.join(CONTENT_DIR, "articles");
 const CONTENT_PLAN_PATH = path.join(CONTENT_DIR, "ISG-content-plan-jakarta.md");
 const HUB_SLUG = "best-international-schools-jakarta";
+const INTERNAL_SLUG_ALIASES: Record<string, string> = {
+  "expats-guide-to-international-schools-in-jakarta": "best-international-schools-jakarta",
+  "ultimate-guide-to-jakartas-neighbourhoods-and-international-schools": "best-areas-jakarta-expat-families",
+  "jakarta-school-commute-why-location-matters": "best-international-schools-south-jakarta",
+  "jakartas-leading-british-school": "best-british-schools-jakarta",
+  "academic-excellence-measuring-and-achieving-success-at-isj": "best-british-schools-jakarta",
+};
 
 const nhm = new NodeHtmlMarkdown();
 const planData = parseContentPlan();
@@ -494,6 +501,21 @@ function loadAllArticles(): InsightArticle[] {
   const list = Array.from(bySlug.values()).sort((a, b) => a.slug.localeCompare(b.slug));
   const bySlugMap = new Map<string, InsightArticle>();
   for (const article of list) bySlugMap.set(article.slug, article);
+
+  const validSlugs = new Set(list.map((a) => a.slug));
+
+  // Normalize stale internal /insights links from imported content.
+  for (const article of list) {
+    article.bodyHtml = article.bodyHtml.replace(
+      /href="\/insights\/([a-z0-9-]+)\/?"/gi,
+      (_m, linkedSlugRaw: string) => {
+        const linkedSlug = linkedSlugRaw.toLowerCase();
+        const mappedSlug = INTERNAL_SLUG_ALIASES[linkedSlug] ?? linkedSlug;
+        const target = validSlugs.has(mappedSlug) ? mappedSlug : HUB_SLUG;
+        return `href="/insights/${target}"`;
+      }
+    );
+  }
 
   // Ensure backlinks exist via related links when body link is missing.
   for (const target of list) {

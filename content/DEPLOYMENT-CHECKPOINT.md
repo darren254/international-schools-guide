@@ -45,12 +45,15 @@ Last updated: 2026-02-20
   - moved Reader Pulse + "You might also be interested in" into mid-article insertion point
   - removed pre-body interruption
   - build pass confirmed after change
+- Internal link normalization pass applied:
+  - stale `/insights/...` links from imported HTML sources mapped to valid site slugs
+  - fallback to hub slug for any unresolved internal insight links
+  - broken internal insights links remaining: 0
 
 ## Remaining
 
 - Optional: strict contextual backlink insertion inside article body (currently enforced through related links block).
-- Optional: tighten category/tag derivation and related-article logic.
-- Optional: final visual polish sweep for consistency with existing site styling.
+- Optional: additional visual styling refinements after live review.
 
 ## Resume Instructions
 
