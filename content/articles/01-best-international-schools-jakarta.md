@@ -156,7 +156,7 @@ Fees at the early years level ($5,975–$7,702) are the lowest in the premium ti
 | 5 | **SPH KV** | Cambridge/IB | IGCSE, IB Diploma | $11,797–$26,061 | WASC, ACSI | 4–18 |
 | 6 | **ACG** | IB | IB Diploma | $9,873–$24,673 | IB | 3–18 |
 | 7 | **NAS** | British | — (to Year 7 only) | $6,911–$20,874 | BSO, Nord Anglia | 2–12* |
-| 8 | **ACS Jakarta** | Cambridge/IB | IGCSE, IB Diploma | $15,607–$19,244 | Cambridge, IB | 7–18 |
+| 8 | **ACS** | Cambridge/IB | IGCSE, IB Diploma | $15,607–$19,244 | Cambridge, IB | 7–18 |
 
 *Currently limited age range — expanding.
 

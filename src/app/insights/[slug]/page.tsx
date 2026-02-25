@@ -112,6 +112,42 @@ function topicTagForSlug(slug: string): string {
   return "Insights";
 }
 
+function splitBodyForMidWidget(html: string): { before: string; after: string } {
+  // Prefer splitting between ranked school sections (we insert <figure class="school-section-figure"> before them).
+  const figRegex = /<figure class="school-section-figure">/gi;
+  const figStarts: number[] = [];
+  let m: RegExpExecArray | null;
+  while ((m = figRegex.exec(html)) !== null) figStarts.push(m.index);
+
+  if (figStarts.length >= 3) {
+    const splitAt = figStarts[Math.floor(figStarts.length / 2)];
+    return { before: html.slice(0, splitAt), after: html.slice(splitAt) };
+  }
+  if (figStarts.length === 2) {
+    const splitAt = figStarts[1];
+    return { before: html.slice(0, splitAt), after: html.slice(splitAt) };
+  }
+
+  // Fallback: split at the midpoint heading boundary.
+  const h2Regex = /<\/h2>/gi;
+  const h2Ends: number[] = [];
+  while ((m = h2Regex.exec(html)) !== null) h2Ends.push(m.index + m[0].length);
+  if (h2Ends.length >= 2) {
+    const splitAt = h2Ends[Math.floor(h2Ends.length / 2) - 1] ?? h2Ends[Math.floor(h2Ends.length / 2)];
+    return { before: html.slice(0, splitAt), after: html.slice(splitAt) };
+  }
+
+  // Last resort: after a few paragraphs.
+  const pRegex = /<\/p>/gi;
+  const pEnds: number[] = [];
+  while ((m = pRegex.exec(html)) !== null) pEnds.push(m.index + m[0].length);
+  if (pEnds.length >= 6) {
+    const splitAt = pEnds[5];
+    return { before: html.slice(0, splitAt), after: html.slice(splitAt) };
+  }
+  return { before: html, after: "" };
+}
+
 export default async function InsightPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const article = getInsightArticleBySlug(slug);
@@ -132,6 +168,8 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
     .split(">")
     .map((p) => p.trim())
     .filter(Boolean);
+
+  const bodySplit = splitBodyForMidWidget(article.bodyHtml);
 
   return (
     <>
@@ -251,12 +289,19 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
 
             <section
               className="article-content prose prose-neutral max-w-none prose-headings:font-display prose-headings:text-charcoal prose-p:text-charcoal prose-a:text-hermes hover:prose-a:text-hermes-hover prose-li:text-charcoal"
-              dangerouslySetInnerHTML={{ __html: article.bodyHtml }}
+              dangerouslySetInnerHTML={{ __html: bodySplit.before }}
             />
 
             <div className="my-8">
               <ReaderPulseWidget articleId={article.slug} />
             </div>
+
+            {bodySplit.after && (
+              <section
+                className="article-content prose prose-neutral max-w-none prose-headings:font-display prose-headings:text-charcoal prose-p:text-charcoal prose-a:text-hermes hover:prose-a:text-hermes-hover prose-li:text-charcoal"
+                dangerouslySetInnerHTML={{ __html: bodySplit.after }}
+              />
+            )}
 
             {relatedArticles.length > 0 && (
               <section className="my-10 pt-8 border-t border-warm-border">
@@ -322,12 +367,13 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
               <p>{article.date}</p>
               {article.exchangeRateNote && <p>{article.exchangeRateNote}</p>}
               <p>{article.accuracyDisclaimer ?? standardAccuracyDisclaimer}</p>
-              <p>
-                Back to hub:{" "}
-                <Link href="/insights/best-international-schools-jakarta" className="text-hermes hover:underline">
-                  /insights/best-international-schools-jakarta
-                </Link>
-              </p>
+              {article.slug !== "best-international-schools-jakarta" && (
+                <p>
+                  <Link href="/insights/" className="text-hermes hover:underline">
+                    Back to Insights
+                  </Link>
+                </p>
+              )}
             </footer>
               </div>
 

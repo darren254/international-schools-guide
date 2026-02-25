@@ -89,7 +89,7 @@ export default function InsightsPage() {
       <section className="container-site py-12">
         <div className="grid grid-cols-1 xl:grid-cols-[2fr_1fr] gap-10">
           <div>
-            <p className="text-xs uppercase tracking-[0.16em] text-hermes font-semibold mb-3">Pillar coverage</p>
+            <p className="text-xs uppercase tracking-[0.16em] text-hermes font-semibold mb-3">Featured coverage</p>
             <Link href={`/insights/${lead.slug}`} className="block border-t-4 border-charcoal pt-4 pb-6">
               <CardImage slug={lead.slug} alt={lead.h1} className="w-full h-56 md:h-72 mb-4 rounded-sm" />
               <p className="text-xs uppercase tracking-wider text-charcoal-muted mb-2">{lead.categoryTag}</p>
@@ -106,7 +106,7 @@ export default function InsightsPage() {
               {pillars.slice(0, 4).map((article) => (
                 <Link key={article.slug} href={`/insights/${article.slug}`} className="block border-b border-warm-border pb-4">
                   <CardImage slug={article.slug} alt={article.h1} className="w-full h-36 mb-3 rounded-sm" />
-                  <p className="text-[11px] uppercase tracking-[0.12em] text-charcoal-muted mb-2">Pillar</p>
+                  <p className="text-[11px] uppercase tracking-[0.12em] text-charcoal-muted mb-2">Featured</p>
                   <h3 className="font-display text-2xl text-charcoal leading-snug mb-2">{article.h1}</h3>
                   <p className="text-sm text-charcoal-muted line-clamp-3">
                     {article.metaDescription || article.standfirst}
