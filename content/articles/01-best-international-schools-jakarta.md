@@ -1,0 +1,271 @@
+---
+title: "Best International Schools in Jakarta | Ranked & Reviewed 2026 | The International Schools Guide"
+slug: /insights/best-international-schools-jakarta
+h1: "The Best International Schools in Jakarta (2026 Rankings)"
+standfirst: "The definitive guide to Jakarta's top international schools. Fees, curriculums, admissions and honest rankings — updated for the 2025–26 academic year."
+meta_description: "The definitive guide to Jakarta's top international schools. Fees, curriculums, admissions and honest rankings — updated for 2026. (155 chars)"
+breadcrumbs: "Home > Insights > Best International Schools in Jakarta"
+schema: Article, BreadcrumbList, ItemList, FAQPage
+internal_links_to:
+  - "#2 Best British Schools"
+  - "#4 Best IB Schools"
+  - "#5 Best American Schools"
+  - "#8 Top 5"
+  - "#10 Best Schools for Secondary"
+  - "#11 Best Schools for Early Years"
+  - "#12 Fees"
+  - "#13 Total Cost"
+  - "#15 Fee Inflation"
+  - "#18 Scholarships"
+  - "#29 School Tour Questions"
+  - "#36 SPK Explained"
+  - "#39 University Destinations"
+  - "#42 SEN and Learning Support"
+  - "#51 Relocating to Jakarta"
+  - "#54 Fee Report"
+internal_links_from:
+  - "All Jakarta articles — this is the hub page"
+date: "Originally published: 25 February 2026"
+author: "Mia Windsor"
+read_time: "12 min read"
+---
+
+<!-- IMAGE PLACEHOLDER: Hero — Jakarta international school campus or composite school image -->
+
+## TL;DR
+
+- JIS is the top-ranked international school in Jakarta — the largest, most established, and most expensive. It is the only school offering both AP and IB Diploma, with WASC and CIS accreditation
+- BSJ is the strongest British school in Jakarta and the most transparent on academic results — published IB averages of 35 (2024) and 34.7 (2025)
+- ISJ is a newer premium option with a British independent school character. Currently Pre-Nursery to Year 8, with a secondary campus opening in Pondok Indah in September 2028. Once the secondary is established, ISJ's location, the quality of its faculty, and its commitment to a distinctly British identity could make it the most sought-after British option in Jakarta
+- AIS is the only school with Australian curriculum heritage, transitioning to IB Diploma for Years 11–12. The lowest entry-level fees in the premium tier
+- The mid-tier (NAS, ACG, Binus Simprug, NJIS, SPH, ACS Jakarta, NZ School Jakarta) offers credible international qualifications at $4,000–$25,000 per year — with trade-offs in scale, co-curricular breadth, and university counselling infrastructure
+- At Year 1 (age 5–6), premium tier fees range from AIS at $20,459 to JIS at $31,367. At Year 7, from AIS at $25,628 to JIS at $35,685. Fee schedules at all the top schools are published transparently on their websites
+
+## In this article
+
+- [The rankings](#the-rankings)
+- [Comparison table](#comparison-table)
+- [The premium tier](#the-premium-tier)
+- [The mid-tier](#the-mid-tier)
+- [How we rank](#how-we-rank)
+- [Choosing by priority](#choosing-by-priority)
+- [Quiz](#quiz)
+- [FAQs](#faqs)
+
+---
+
+Jakarta has approximately 180 schools operating under the SPK (Satuan Pendidikan Kerjasama) framework — the Indonesian government's licensing system for international and dual-language schools. Of these, roughly 10–15 offer the full infrastructure, accreditation and teaching quality that families expect from a premium international school. This guide covers the best of them.
+
+We rank schools based on a combination of factors: teaching quality (informed by published results where available, accreditation outcomes, and teacher recruitment standards), curriculum breadth, co-curricular programmes, university counselling and placement, pastoral care, facilities, and fees as a proxy for the quality of staff a school can recruit and retain.
+
+These rankings are editorial. They reflect our assessment of the market as it stands in the 2025–26 academic year. We update them annually.
+
+## The Rankings {#the-rankings}
+
+### 1. JIS — Jakarta Intercultural School
+
+**Curriculum:** American-international. AP and IB Diploma dual pathway.
+**Accreditation:** WASC, CIS
+**Ages:** 3–18 (Early Years 1 to Grade 12)
+**Students:** ~2,500
+**Fees:** $17,341–$35,916
+**Location:** Cilandak, South Jakarta
+
+JIS is the benchmark against which every other international school in Jakarta is measured. It is the largest, most established and most expensive — and it earns its position on all three counts.
+
+The dual AP/IB Diploma pathway is unique in Jakarta. Students in Grades 11–12 can take AP courses, the full IB Diploma, or a combination of both. This flexibility — particularly for US-bound students — is unmatched. JIS produces US-compatible transcripts, which simplifies applications to American universities. Published university destination data shows 54% of graduates heading to US institutions, with placements at Harvard, Stanford, MIT and Columbia.
+
+The co-curricular programme benefits from scale: 2,500 students across a single campus means competitive academic teams (Maths Olympiad, Science Olympiad, Model UN), sport at a high level, and arts programmes with genuine depth. WASC and CIS accreditation provide the strongest possible quality assurance.
+
+Fees are the highest in Jakarta at every year group. JIS Learning Centre provision (for students with significant learning needs) is the most developed in the city — but at a cost ($46,570–$50,887 per year).
+
+**Best for:** Families targeting US universities. Families wanting the broadest curriculum choice and co-curricular programme. Corporate packages that cover premium fees.
+
+### 2. BSJ — British School Jakarta
+
+**Curriculum:** British (Cambridge IGCSE to IB Diploma)
+**Accreditation:** CIS, BSO
+**Ages:** 2–18 (Kukangs to Year 13)
+**Students:** ~1,400
+**Fees:** $8,919–$32,910
+**Location:** Bintaro, South Tangerang
+
+BSJ is the leading British school in Jakarta and the school with the most transparent academic data. Published IB Diploma averages — 35 points in 2024, 34.7 in 2025, with a 97% pass rate and 17% of the 2025 cohort scoring 40+ — place BSJ well above the global IB average of approximately 30 points. These are verified, published numbers.
+
+The Cambridge IGCSE to IB Diploma pathway is well established and produces the academic profile that UK admissions offices expect. BSJ has deep relationships with Russell Group universities — graduates are placed at Oxford, Cambridge, Imperial, UCL and LSE.
+
+BSJ's four-year university counselling programme (beginning in Year 10) is the most structured in Jakarta for UK-bound students. The school's 18-hectare Bintaro campus includes a 750-seat theatre, Olympic-standard swimming pool and extensive sports fields.
+
+Early years fees are competitive — $8,919 at ages 2–3 is cheaper than ISJ, ACG and NAS at the same entry point. The major fee jump comes at Year 1 ($24,083).
+
+**Best for:** Families targeting UK universities. Families wanting a structured British pathway (IGCSE to IB). Families valuing published, verifiable academic results.
+
+### 3. ISJ — The Independent School of Jakarta
+
+**Curriculum:** British (Cambridge), A Levels planned from 2028
+**Accreditation:** BSO, CIS candidate
+**Ages:** 2–12 (Pre-Nursery to Year 8). Secondary campus opening September 2028
+**Students:** Growing toward ~500 optimal enrolment
+**Fees:** $8,827–$28,809
+**Location:** Pondok Indah, South Jakarta
+
+ISJ brings a British independent school character that did not previously exist in Jakarta's international school market. The school opened in 2022 and currently runs from Pre-Nursery (age 2) to Year 8 (age 12). A secondary campus in Pondok Indah, opening September 2028, will extend the school through to A Levels.
+
+ISJ's deliberately smaller year groups mean staff know every child. Teachers with smaller classes have more capacity to differentiate instruction — upward for gifted students and downward for those who need support. The school's culture draws from the UK independent school tradition: higher expectations, more demanding questioning in class, and an emphasis on character alongside academics.
+
+The Pondok Indah location is a practical advantage — closer to the core expat residential area than BSJ (Bintaro) and competitive with JIS (Cilandak). Capital contributions are bundled into a single annual fee, which simplifies cost planning.
+
+ISJ does not yet offer a sixth form or exit qualification. Families choosing ISJ for primary will need to plan the secondary transition — to BSJ, JIS or (from 2028) ISJ's own secondary campus with A Levels.
+
+Once that secondary campus is established, ISJ has a strong case to become the most sought-after British school in Jakarta. Three factors work in its favour: its Pondok Indah location (the centre of expat family life), the quality of its faculty, and its commitment to a distinctly British independent school identity. BSJ, by contrast, has increasingly moved toward an international-style faculty and curriculum — strong in its own right, but less recognisably British than it once was. For families who specifically want a British school, ISJ's direction is worth watching closely.
+
+**Best for:** Families who value individual attention and a British independent school ethos. Families in the Pondok Indah area. Families willing to invest early in a school that is building toward a full age range.
+
+### 4. AIS — Australian Independent School
+
+**Curriculum:** Australian, transitioning to IB Diploma (Years 11–12)
+**Accreditation:** CIS, IB
+**Ages:** 3–17 (Preschool 3 to Year 12)
+**Students:** Medium-sized school
+**Fees:** $5,975–$26,308
+**Location:** Pejaten, South Jakarta
+
+AIS is the only school in Jakarta with Australian curriculum heritage. The school runs the Australian curriculum through to Year 10, then transitions to the IB Diploma for Years 11–12 — giving graduates an internationally portable qualification while maintaining the Australian educational approach.
+
+The calendar-year academic cycle (January–December) aligns with Australian and some Asian university intakes. For families planning a return to Australia, this alignment avoids the six-month gap that comes with moving from an August-start school.
+
+AIS has strong connections to Australian Go8 universities and is the natural first choice for Australian families. Learning support and pastoral care are frequently cited strengths. The school's Pejaten location is south of central expat areas but accessible from Kemang, Cipete and Pondok Indah.
+
+Fees at the early years level ($5,975–$7,702) are the lowest in the premium tier, making AIS an accessible entry point for families testing the international school market.
+
+**Best for:** Australian families. Families targeting Australian universities. Families wanting a premium school at a lower price point than JIS or BSJ. Families valuing strong learning support.
+
+---
+
+<!-- You might also be interested in -->
+<!-- Related: #10 Secondary Rankings, #11 Early Years, #12 Fees Guide -->
+
+## Comparison Table {#comparison-table}
+
+| Rank | School | Curriculum | Exit Qualification | Fee Range (USD) | Accreditation | Ages |
+|------|--------|-----------|-------------------|----------------|---------------|------|
+| 1 | **JIS** | American-intl | AP, IB Diploma | $17,341–$35,916 | WASC, CIS | 3–18 |
+| 2 | **BSJ** | British | IGCSE, IB Diploma | $8,919–$32,910 | CIS, BSO | 2–18 |
+| 3 | **ISJ** | British | A Levels (from 2028) | $8,827–$28,809 | BSO, CIS candidate | 2–12* |
+| 4 | **AIS** | Australian/IB | IB Diploma | $5,975–$26,308 | CIS, IB | 3–17 |
+| 5 | **SPH KV** | Cambridge/IB | IGCSE, IB Diploma | $11,797–$26,061 | WASC, ACSI | 4–18 |
+| 6 | **ACG** | IB | IB Diploma | $9,873–$24,673 | IB | 3–18 |
+| 7 | **Binus Simprug** | IB | IB Diploma | ~$4,708+** | IB | 3–18 |
+| 8 | **NAS** | British | — (to Year 7 only) | $6,911–$20,874 | BSO, Nord Anglia | 2–12* |
+| 9 | **ACS Jakarta** | Cambridge/IB | IGCSE, IB Diploma | $15,607–$19,244 | Cambridge, IB | 7–18 |
+| 10 | **NJIS** | American/IB | IB Diploma | — (verify) | WASC | 3–18 |
+
+*Currently limited age range — expanding.
+**Binus Simprug: full fee schedule for higher grades not publicly available. Verify with admissions.
+
+---
+
+<!-- Newsletter CTA: Get our Jakarta schools update — fees, admissions and rankings, direct to your inbox -->
+
+## The Premium Tier {#the-premium-tier}
+
+The top four schools — JIS, BSJ, ISJ, AIS — share several characteristics that separate them from the rest of the market.
+
+**Teacher recruitment.** These schools recruit internationally, offer competitive salary and benefits packages (housing, flights, medical, pension), and attract experienced teachers from the UK, US, Australia, New Zealand and beyond. Higher fees fund higher salaries, which attract a stronger applicant pool. This is the most direct link between fees and quality.
+
+**Accreditation.** All four hold international accreditation (WASC, CIS, BSO, IB) that is independently verified and publicly reported. Accreditation visits produce detailed reports on teaching quality, governance, student outcomes and school improvement — see our [guide to reading inspection reports](#37).
+
+**University counselling.** JIS and BSJ have structured, multi-year university counselling programmes with dedicated staff. AIS has strong Australian university connections. ISJ will develop this as its secondary programme matures. The depth of university counselling at these schools — institutional relationships, personalised application support, admissions officer familiarity with the school — is a significant advantage for families targeting competitive universities.
+
+**Co-curricular breadth.** JIS leads here, with the widest programme in Jakarta. BSJ and AIS offer strong co-curricular options. ISJ's smaller size limits the range but increases individual participation.
+
+For a shorter comparison of the top four, see our [Top 5 International Schools in Jakarta](#8). For secondary-specific analysis, see our [best schools for secondary](#10) guide.
+
+## The Mid-Tier {#the-mid-tier}
+
+The mid-tier schools serve a different market — families who want an international qualification at a lower fee point, or families who cannot secure a place at a premium school and need a confirmed alternative.
+
+**SPH Kemang Village** ($11,797–$26,061) runs Cambridge to IB Diploma with WASC and ACSI accreditation. The school's Christian ethos is a defining feature. SPH's top-end fees ($26,061 at IB DP) overlap with AIS, making it a genuine alternative at the secondary level for families comfortable with the religious dimension.
+
+**ACG Jakarta** ($9,873–$24,673) offers the full IB continuum and delivers the IB Diploma as its exit qualification. Limited published outcome data makes independent assessment difficult. Fees at secondary are competitive with AIS and below BSJ.
+
+**Binus Simprug** publishes the strongest IB results in the mid-tier: average 34, pass rate 95%, with perfect 45/45 scores in three consecutive years. For families focused on IB outcomes at a lower fee point, Binus Simprug is the standout. The student body is majority Indonesian, which gives the school a distinctive cultural character.
+
+**NAS (Nord Anglia School Jakarta)** ($6,911–$20,874) is part of the global Nord Anglia network but currently runs only to Year 7. Until NAS extends to secondary, it cannot serve families who want a full school career in one institution. NAS is a reasonable primary option with the expectation of transferring to another school for secondary.
+
+**ACS Jakarta** ($15,607–$19,244) offers IGCSE to IB Diploma without an early years programme. ACS is one of the most affordable routes to an IB Diploma in Jakarta — and at roughly half the cost of JIS at the IB DP level.
+
+**NZ School Jakarta** ($4,202–$17,223) is the most affordable school in our verified data set. It offers a New Zealand-influenced curriculum from Pre-School through Grade 12.
+
+**NJIS** is WASC-accredited and offers the IB Diploma. The school is smaller (~266 students total), which limits co-curricular breadth but allows for closer teacher-student relationships.
+
+For specialist guides, see: [best British schools](#2), [best IB schools](#4), [best American schools](#5), [most affordable international schools](#6), [best value schools](#7).
+
+## How We Rank {#how-we-rank}
+
+Our rankings are editorial assessments based on:
+
+**Teaching quality** — informed by accreditation outcomes, published exam results (where available), teacher recruitment practices, and the salary levels schools can offer (higher fees → higher salaries → stronger applicant pool).
+
+**Curriculum breadth and exit qualifications** — the range of pathways available and the recognition of the exit qualifications by universities worldwide.
+
+**University counselling and placement** — the depth of the counselling team, institutional relationships with universities, and published destination data.
+
+**Co-curricular programme** — the breadth and quality of activities beyond the classroom.
+
+**Pastoral care and learning support** — the school's capacity to support students with additional needs, including EAL, SEN and gifted provision.
+
+**Facilities** — campus quality, specialist teaching spaces, sports and arts infrastructure.
+
+**Fees as a proxy** — higher fees enable higher teacher salaries, which is the most significant determinant of teaching quality. We are direct about this relationship: the correlation between fees and quality is real and significant.
+
+**Published data** — schools that publish results and outcomes receive more weight than schools that do not.
+
+This is not a formula. It is a judgement, made by an editorial team that engages with these schools, visits their campuses, talks to their families, and analyses their published data. We welcome disagreement.
+
+## Choosing by Priority {#choosing-by-priority}
+
+| Your Priority | Best Choice | Why |
+|--------------|-------------|-----|
+| US university track | JIS | AP courses, WASC, US transcripts, strongest US counselling |
+| UK university track | BSJ | Cambridge IGCSE to IB, Russell Group relationships, published results |
+| Australian university track | AIS | Australian curriculum heritage, Go8 connections, calendar-year alignment |
+| British independent school ethos | ISJ | Small year groups, high expectations, Pondok Indah location |
+| Strongest IB results at lowest cost | Binus Simprug | IB avg 34, 95% pass, mid-tier fees |
+| Maximum co-curricular breadth | JIS | Largest school, widest programme |
+| Learning support / SEN | AIS or JIS | Strongest published SEN infrastructure. See [SEN guide](#42) |
+| Budget under $20,000 | ACS Jakarta, NZ School | IB Diploma pathway at half premium-tier cost |
+| Confirmed place at short notice | NAS, ACG, NJIS | Rarely oversubscribed at any year group |
+
+---
+
+## Quiz {#quiz}
+
+<!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+## FAQs {#faqs}
+
+**How many international schools are there in Jakarta?**
+Approximately 180 schools operate under the SPK framework. Of these, the 10–15 profiled in this guide offer the infrastructure, accreditation and teaching quality that most international families expect. The rest range from smaller bilingual schools to niche institutions serving specific communities.
+
+**Are these rankings official?**
+No. These are editorial rankings produced by The International Schools Guide. They reflect our assessment of the market based on published data, accreditation outcomes, fee analysis, and direct engagement with schools and families. No school has paid for their position. See our [methodology](#how-we-rank).
+
+**Can Indonesian nationals attend these schools?**
+Yes. All SPK schools in Jakarta can enrol Indonesian nationals. JIS, BSJ, ISJ and AIS all have significant Indonesian cohorts. Some schools manage nationality ratios to maintain diversity, which can affect wait times for specific passport holders.
+
+**Which school is cheapest?**
+NZ School Jakarta ($4,202–$17,223) has the lowest verified fees. AIS has the lowest entry point in the premium tier ($5,975 for three-day Preschool 3). See our [fees guide](#12) and [affordable schools guide](#6) for the full picture.
+
+**Which school has the best results?**
+BSJ and Binus Simprug are the two schools that publish IB Diploma results. BSJ averages 35 (2024) and 34.7 (2025). Binus Simprug averages 34 with a 95% pass rate. JIS does not publish IB-specific results but its university destination data (Harvard, Stanford, MIT) suggests strong outcomes. See our [IB results guide](#41).
+
+**Should I choose based on fees?**
+Fees are one factor — and an important one. Higher fees fund higher teacher salaries, which is the most significant determinant of teaching quality. But the right school is the one that fits your child's needs, your family's priorities, and your university aspirations. A school that is a perfect fit at $20,000 is a better choice than a school that is wrong at $35,000.
+
+**When should I start the admissions process?**
+For nursery entry at premium schools: 12–18 months before the planned start date. For Year 1 and Year 7: 6–12 months. For upper primary and secondary: 3–6 months may be sufficient if places are available. See our [admissions guide](#30) and [hardest year groups guide](#34).
+
+---
+
+*All fee data verified from official 2025–26 fee schedules. Exchange rate: IDR 16,826 = $1 USD (February 2026). Binus Simprug and NJIS fee data partial — verify directly with admissions. We work hard to make every figure, date and description on this page accurate. We don't always get it right. If you spot an error — a fee that's changed, a fact that's out of date, something we've got wrong — please tell us. Use the feedback button above or email us directly. We'll check it and update the article.*
