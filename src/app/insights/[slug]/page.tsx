@@ -99,30 +99,16 @@ function findMentionedSchools(articleHtml: string) {
     .slice(0, 6);
 }
 
-function splitBodyForMidInsert(html: string): { before: string; after: string } {
-  const headingMatches: { index: number; text: string }[] = [];
-  const headingRegex = /<\/h2>/gi;
-  let headingMatch: RegExpExecArray | null;
-  while ((headingMatch = headingRegex.exec(html)) !== null) {
-    headingMatches.push({ index: headingMatch.index, text: headingMatch[0] });
-  }
-  if (headingMatches.length >= 2) {
-    const splitAt = headingMatches[1].index + headingMatches[1].text.length;
-    return { before: html.slice(0, splitAt), after: html.slice(splitAt) };
-  }
-
-  const paragraphMatches: { index: number; text: string }[] = [];
-  const paragraphRegex = /<\/p>/gi;
-  let paragraphMatch: RegExpExecArray | null;
-  while ((paragraphMatch = paragraphRegex.exec(html)) !== null) {
-    paragraphMatches.push({ index: paragraphMatch.index, text: paragraphMatch[0] });
-  }
-  if (paragraphMatches.length >= 4) {
-    const splitAt = paragraphMatches[3].index + paragraphMatches[3].text.length;
-    return { before: html.slice(0, splitAt), after: html.slice(splitAt) };
-  }
-
-  return { before: html, after: "" };
+function topicTagForSlug(slug: string): string {
+  const s = slug.toLowerCase();
+  if (s.includes("british")) return "British";
+  if (s.includes("-ib-") || s.includes("ib-") || s.includes("ib")) return "IB";
+  if (s.includes("american")) return "American";
+  if (s.includes("fees") || s.includes("cost") || s.includes("levy")) return "Fees";
+  if (s.includes("relocating") || s.includes("living-in") || s.includes("neighbourhood") || s.includes("areas")) return "Relocation";
+  if (s.includes("compare") || s.includes("-vs-")) return "Comparison";
+  if (s.includes("admissions") || s.includes("apply") || s.includes("waitlist")) return "Admissions";
+  return "Insights";
 }
 
 export default async function InsightPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -137,9 +123,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
     .slice(0, 3);
 
   const schoolCards = findMentionedSchools(article.bodyHtml);
-  const bodySplit = splitBodyForMidInsert(article.bodyHtml);
   const heroImage = getInsightImageUrl(article.slug, "hero");
-  const inlineImage = getInsightImageUrl(article.slug, "inline");
   const standardAccuracyDisclaimer =
     "We work hard to make every figure, date and description on this page accurate. We don't always get it right. If you spot an error - a fee that's changed, a fact that's out of date, something we've got wrong - please tell us. Use the feedback button above or email us directly. We'll check it and update the article.";
 
@@ -228,6 +212,19 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
               </section>
             )}
 
+            {schoolCards.length > 0 && (
+              <section className="my-10">
+                <p className="ft-smallcaps text-[11px] tracking-[0.18em] font-medium text-charcoal-muted mb-4">
+                  Jump to a school profile
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {schoolCards.map((school) => (
+                    <SchoolSnapshotCard key={school.slug} school={school} />
+                  ))}
+                </div>
+              </section>
+            )}
+
             {article.toc.length > 0 && (
               <nav className="font-sans mb-8 pb-8 border-b border-warm-border" aria-label="In this article">
                 <p className="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-3">In this article</p>
@@ -245,63 +242,34 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
 
             <section
               className="article-content prose prose-neutral max-w-none prose-headings:font-display prose-headings:text-charcoal prose-p:text-charcoal prose-a:text-hermes hover:prose-a:text-hermes-hover prose-li:text-charcoal"
-              dangerouslySetInnerHTML={{ __html: bodySplit.before }}
+              dangerouslySetInnerHTML={{ __html: article.bodyHtml }}
             />
-
-            {schoolCards.length > 0 && (
-              <section className="my-8">
-                <p className="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-3">
-                  Schools mentioned in this article
-                </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {schoolCards.slice(0, 3).map((school) => (
-                    <SchoolSnapshotCard key={school.slug} school={school} />
-                  ))}
-                </div>
-              </section>
-            )}
 
             <div className="my-8">
               <ReaderPulseWidget articleId={article.slug} />
             </div>
 
-            {inlineImage && (
-              <div className="my-8">
-                <Image
-                  src={inlineImage}
-                  alt={`${article.h1} illustration`}
-                  width={1400}
-                  height={900}
-                  className="w-full h-auto rounded-sm object-cover"
-                />
-              </div>
-            )}
-
             {relatedArticles.length > 0 && (
-              <section className="my-8 p-4 border border-warm-border rounded-sm bg-cream-200">
-                <p className="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-3">
+              <section className="my-10 pt-8 border-t border-warm-border">
+                <p className="ft-smallcaps text-[11px] tracking-[0.18em] font-medium text-charcoal-muted mb-5">
                   You might also be interested in
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                   {relatedArticles.map((related) => (
-                    <Link
-                      key={related.slug}
-                      href={`/insights/${related.slug}`}
-                      className="block p-3 border border-warm-border rounded-sm bg-cream-50 hover:bg-cream-300 transition-colors"
-                    >
-                      <p className="text-xs text-charcoal-muted mb-1">{related.categoryTag}</p>
-                      <p className="font-display text-lg text-charcoal leading-snug">{related.h1}</p>
+                    <Link key={related.slug} href={`/insights/${related.slug}`} className="block group">
+                      <p className="ft-smallcaps text-[11px] tracking-[0.18em] font-medium text-hermes mb-2">
+                        {topicTagForSlug(related.slug)}
+                      </p>
+                      <p className="font-display text-xl text-charcoal leading-snug group-hover:text-hermes transition-colors">
+                        {related.h1}
+                      </p>
+                      <p className="mt-2 font-sans text-sm text-charcoal-muted line-clamp-2">
+                        {related.standfirst || related.metaDescription}
+                      </p>
                     </Link>
                   ))}
                 </div>
               </section>
-            )}
-
-            {bodySplit.after && (
-              <section
-                className="article-content prose prose-neutral max-w-none prose-headings:font-display prose-headings:text-charcoal prose-p:text-charcoal prose-a:text-hermes hover:prose-a:text-hermes-hover prose-li:text-charcoal"
-                dangerouslySetInnerHTML={{ __html: bodySplit.after }}
-              />
             )}
 
             {article.faqs.length > 0 && (
@@ -340,19 +308,6 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
                 Mia Windsor is the Managing Editor of The International Schools Guide. She covers school fees, admissions, curriculum and relocation in Jakarta.
               </p>
             </section>
-
-            {schoolCards.length > 0 && (
-              <section className="mt-10">
-                <h2 className="font-sans text-xl font-semibold text-charcoal mb-4 uppercase tracking-wider">
-                  Explore school profiles
-                </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {schoolCards.map((school) => (
-                    <SchoolSnapshotCard key={school.slug} school={school} />
-                  ))}
-                </div>
-              </section>
-            )}
 
             <footer className="mt-12 pt-8 border-t border-warm-border text-sm text-charcoal-muted font-sans space-y-3">
               <p>{article.date}</p>

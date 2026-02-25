@@ -226,7 +226,7 @@ export function ReaderPulseWidget({ articleId }: ReaderPulseWidgetProps) {
   return (
     <section
       ref={rootRef}
-      className="my-10 rounded border border-warm-border bg-warm-white p-5 md:p-6"
+      className="my-10 rounded border border-warm-border border-t-charcoal bg-warm-white p-5 md:p-6"
       aria-label="Reader Pulse"
     >
       <div className="mb-4">
