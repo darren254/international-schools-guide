@@ -49,6 +49,12 @@ Last updated: 2026-02-20
   - stale `/insights/...` links from imported HTML sources mapped to valid site slugs
   - fallback to hub slug for any unresolved internal insight links
   - broken internal insights links remaining: 0
+- Insights index layout refresh:
+  - FT-style hierarchy applied to `/insights`
+  - lead pillar article pinned at top
+  - pillar articles highlighted in main stream
+  - right sidebar sections added: "Editor's picks" and "Most read"
+  - build pass confirmed after layout change
 
 ## Remaining
 
