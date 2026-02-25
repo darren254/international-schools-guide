@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { getAllInsightArticles } from "@/lib/insights/content";
 import type { InsightArticle } from "@/lib/insights/content";
+import { getInsightImageUrl } from "@/lib/insights/images";
 
 export const metadata: Metadata = {
   title: "Insights | The International Schools Guide",
@@ -49,6 +51,14 @@ function displayDate(raw: string) {
   return raw.replace(/^Originally published:\s*/i, "").trim();
 }
 
+function CardImage({ slug, alt, className }: { slug: string; alt: string; className: string }) {
+  const src = getInsightImageUrl(slug, "card");
+  if (!src) {
+    return <div className={`${className} bg-cream-200`} aria-hidden />;
+  }
+  return <Image src={src} alt={alt} width={960} height={640} className={`${className} object-cover`} />;
+}
+
 export default function InsightsPage() {
   const articles = getAllInsightArticles();
   const slugMap = bySlugMap(articles);
@@ -81,6 +91,7 @@ export default function InsightsPage() {
           <div>
             <p className="text-xs uppercase tracking-[0.16em] text-hermes font-semibold mb-3">Pillar coverage</p>
             <Link href={`/insights/${lead.slug}`} className="block border-t-4 border-charcoal pt-4 pb-6">
+              <CardImage slug={lead.slug} alt={lead.h1} className="w-full h-56 md:h-72 mb-4 rounded-sm" />
               <p className="text-xs uppercase tracking-wider text-charcoal-muted mb-2">{lead.categoryTag}</p>
               <h2 className="font-display text-4xl md:text-5xl text-charcoal leading-tight mb-3">{lead.h1}</h2>
               <p className="text-charcoal-muted text-lg leading-relaxed mb-4">
@@ -94,6 +105,7 @@ export default function InsightsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6 border-t border-warm-border pt-6">
               {pillars.slice(0, 4).map((article) => (
                 <Link key={article.slug} href={`/insights/${article.slug}`} className="block border-b border-warm-border pb-4">
+                  <CardImage slug={article.slug} alt={article.h1} className="w-full h-36 mb-3 rounded-sm" />
                   <p className="text-[11px] uppercase tracking-[0.12em] text-charcoal-muted mb-2">Pillar</p>
                   <h3 className="font-display text-2xl text-charcoal leading-snug mb-2">{article.h1}</h3>
                   <p className="text-sm text-charcoal-muted line-clamp-3">
@@ -107,6 +119,7 @@ export default function InsightsPage() {
               <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
                 {pillars.slice(4).map((article) => (
                   <Link key={article.slug} href={`/insights/${article.slug}`} className="block border-b border-warm-border pb-4">
+                    <CardImage slug={article.slug} alt={article.h1} className="w-full h-28 mb-3 rounded-sm" />
                     <h3 className="font-display text-xl text-charcoal leading-snug mb-2">{article.h1}</h3>
                     <p className="text-sm text-charcoal-muted line-clamp-2">
                       {article.metaDescription || article.standfirst}
@@ -121,6 +134,7 @@ export default function InsightsPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-5">
                 {latest.map((article) => (
                   <Link key={article.slug} href={`/insights/${article.slug}`} className="block border-b border-warm-border pb-4">
+                    <CardImage slug={article.slug} alt={article.h1} className="w-full h-28 mb-3 rounded-sm" />
                     <p className="text-[11px] uppercase tracking-[0.12em] text-charcoal-muted mb-1">{article.categoryTag}</p>
                     <h3 className="font-display text-xl text-charcoal leading-snug mb-2">{article.h1}</h3>
                     <p className="text-xs text-charcoal-muted">

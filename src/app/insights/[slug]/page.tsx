@@ -7,6 +7,7 @@ import { ShareButton } from "@/components/share/ShareButton";
 import { WasHelpful } from "@/components/insights/WasHelpful";
 import { SCHOOL_PROFILES } from "@/data/schools";
 import { getAllInsightArticles, getInsightArticleBySlug } from "@/lib/insights/content";
+import { getInsightImageUrl } from "@/lib/insights/images";
 
 const BASE_URL = "https://international-schools-guide.com";
 const ReaderPulseWidget = dynamic(
@@ -135,6 +136,8 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
 
   const schoolCards = findMentionedSchools(article.bodyHtml);
   const bodySplit = splitBodyForMidInsert(article.bodyHtml);
+  const heroImage = getInsightImageUrl(article.slug, "hero");
+  const inlineImage = getInsightImageUrl(article.slug, "inline");
   const standardAccuracyDisclaimer =
     "We work hard to make every figure, date and description on this page accurate. We don't always get it right. If you spot an error - a fee that's changed, a fact that's out of date, something we've got wrong - please tell us. Use the feedback button above or email us directly. We'll check it and update the article.";
 
@@ -194,6 +197,21 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
 
             <ShareButton variant="article" url={`${BASE_URL}/insights/${article.slug}`} title={article.titleTag} />
 
+            <div className="mt-6 mb-8">
+              {heroImage ? (
+                <Image
+                  src={heroImage}
+                  alt={article.h1}
+                  width={1600}
+                  height={900}
+                  className="w-full h-auto rounded-sm object-cover"
+                  priority
+                />
+              ) : (
+                <div className="w-full h-56 md:h-72 bg-cream-200 rounded-sm" aria-hidden />
+              )}
+            </div>
+
             {article.tldr.length > 0 && (
               <section className="bg-cream-50 border-l-4 border-hermes py-4 px-5 mt-8 mb-8 font-sans">
                 <p className="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-3">TL;DR</p>
@@ -228,6 +246,18 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
             <div className="my-8">
               <ReaderPulseWidget articleId={article.slug} />
             </div>
+
+            {inlineImage && (
+              <div className="my-8">
+                <Image
+                  src={inlineImage}
+                  alt={`${article.h1} illustration`}
+                  width={1400}
+                  height={900}
+                  className="w-full h-auto rounded-sm object-cover"
+                />
+              </div>
+            )}
 
             {relatedArticles.length > 0 && (
               <section className="my-8 p-4 border border-warm-border rounded-sm">
