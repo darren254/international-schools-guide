@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-cream text-charcoal font-body antialiased;
+    @apply bg-cream text-charcoal font-body antialiased overflow-x-hidden;
     font-size: 15px;
     line-height: 1.65;
   }
@@ -111,6 +111,38 @@
     margin-top: 0.5rem;
     margin-bottom: 2rem;
     text-align: left;
+  }
+
+  .article-content .school-section-figure {
+    margin: 2.25rem 0 1.5rem;
+  }
+
+  .article-content .school-section-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 1px solid #E8E2D9;
+    background: #F0EBE3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+
+  .article-content .school-section-image-label {
+    font-variant-caps: all-small-caps;
+    letter-spacing: 0.18em;
+    font-weight: 500;
+    font-size: 11px;
+    color: #7A756E;
+  }
+
+  .article-content .school-section-image-sub {
+    font-variant-caps: all-small-caps;
+    letter-spacing: 0.16em;
+    font-weight: 600;
+    font-size: 12px;
+    color: #1A1A1A;
   }
 
   .article-content .pull-quote-block {

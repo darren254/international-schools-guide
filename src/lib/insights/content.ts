@@ -224,6 +224,15 @@ function parseFaqs(section: string): InsightFaq[] {
   for (const raw of lines) {
     const line = raw.trim();
     if (!line || line.startsWith("## ")) continue;
+    // Stop FAQ parsing before footer/disclaimer blocks that often follow FAQs.
+    if (
+      line === "---" ||
+      line.toLowerCase().startsWith("*all fee data") ||
+      line.toLowerCase().startsWith("*fees correct as of") ||
+      line.toLowerCase().includes("we work hard to make every figure")
+    ) {
+      break;
+    }
     const questionMatch = line.match(/^\*\*(.+)\*\*$/);
     if (questionMatch) {
       if (currentQuestion && currentAnswer.length > 0) {
@@ -271,6 +280,27 @@ function addHeadingIds(html: string): string {
         .replace(/\s+/g, "-");
       return id ? `<h3 id="${id}">${text.trim()}</h3>` : `<h3>${text.trim()}</h3>`;
     });
+}
+
+/** Insert placeholder "photo" figures above numbered school sections (e.g. "1. JIS - ..."). */
+function insertSchoolSectionPlaceholders(html: string): string {
+  const pattern = /<h3([^>]*)>(\d+)\.\s*([^<]+)<\/h3>/gi;
+  return html.replace(pattern, (match, attrs, num, headingTextRaw) => {
+    const headingText = String(headingTextRaw).trim();
+    // Heuristic: only insert for school headings that look like "ACRONYM - School Name".
+    if (!headingText.includes(" - ")) return match;
+    const shortName = headingText.split(" - ")[0]?.trim() || "";
+    if (!/^[A-Z]{2,6}$/.test(shortName)) return match;
+    return [
+      `<figure class="school-section-figure">`,
+      `<div class="school-section-image" role="img" aria-label="Photo placeholder for ${shortName}">`,
+      `<span class="school-section-image-label">Photo</span>`,
+      `<span class="school-section-image-sub">${shortName}</span>`,
+      `</div>`,
+      `</figure>`,
+      `<h3${attrs}>${num}. ${headingText}</h3>`,
+    ].join("");
+  });
 }
 
 /** Wrap tables in a scrollable container for mobile. */
@@ -467,9 +497,10 @@ function toInsightArticle(filePath: string): InsightArticle | null {
   bodyCore = stripHeadingAnchors(bodyCore);
 
   const rendered = marked.parse(bodyCore);
-  const bodyHtml = wrapFactsBlocks(
-    wrapBestForBlocks(
-      wrapTables(addHeadingIds(typeof rendered === "string" ? rendered : String(rendered)))
+  const bodyHtml = insertSchoolSectionPlaceholders(
+    wrapFactsBlocks(
+      wrapBestForBlocks(
+        wrapTables(addHeadingIds(typeof rendered === "string" ? rendered : String(rendered))))
     )
   );
 

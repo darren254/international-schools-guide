@@ -15,11 +15,11 @@ export function SchoolSnapshotCard({ school }: SchoolSnapshotCardProps) {
   return (
     <Link
       href={`/international-schools/${school.citySlug}/${school.slug}/`}
-      className="block bg-data rounded-sm overflow-hidden text-white hover:bg-data/90 transition-colors group"
+      className="block bg-warm-white border border-warm-border rounded-sm overflow-hidden hover:border-charcoal-muted transition-colors group"
     >
-      <div className="aspect-[16/10] bg-data/80 flex items-center justify-center" aria-hidden>
+      <div className="aspect-[16/10] bg-cream-200 border-b border-warm-border flex items-center justify-center" aria-hidden>
         <svg
-          className="w-12 h-12 text-white/40"
+          className="w-12 h-12 text-charcoal-muted/30"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -34,32 +34,36 @@ export function SchoolSnapshotCard({ school }: SchoolSnapshotCardProps) {
         </svg>
       </div>
       <div className="p-4">
-      <p className="font-display text-lg font-semibold mb-2">{school.name}</p>
-      <div className="h-px bg-white/30 mb-3" aria-hidden />
-      <dl className="space-y-1 text-sm font-sans">
-        {curriculum && (
-          <div>
-            <dt className="sr-only">Curriculum</dt>
-            <dd className="text-white/90">{curriculum}</dd>
-          </div>
-        )}
-        {feeStat && (
-          <div>
-            <dt className="sr-only">Fees</dt>
-            <dd className="text-white/90">{feeStat.value}</dd>
-          </div>
-        )}
-        {ibFact && (
-          <div>
-            <dt className="sr-only">IB</dt>
-            <dd className="text-white/90">{ibFact.label}: {ibFact.value}</dd>
-          </div>
-        )}
-      </dl>
-      <p className="mt-3 text-sm font-medium text-white/95 group-hover:text-white flex items-center gap-1">
-        View full profile
-        <span aria-hidden>→</span>
-      </p>
+        <p className="font-display text-lg font-semibold mb-2 text-charcoal group-hover:text-hermes transition-colors">
+          {school.name}
+        </p>
+        <div className="h-px bg-warm-border mb-3" aria-hidden />
+        <dl className="space-y-1 text-sm font-sans text-charcoal">
+          {curriculum && (
+            <div>
+              <dt className="sr-only">Curriculum</dt>
+              <dd className="text-charcoal-muted">{curriculum}</dd>
+            </div>
+          )}
+          {feeStat && (
+            <div>
+              <dt className="sr-only">Fees</dt>
+              <dd className="text-charcoal-muted">{feeStat.value}</dd>
+            </div>
+          )}
+          {ibFact && (
+            <div>
+              <dt className="sr-only">IB</dt>
+              <dd className="text-charcoal-muted">
+                {ibFact.label}: {ibFact.value}
+              </dd>
+            </div>
+          )}
+        </dl>
+        <p className="mt-3 text-sm font-medium text-hermes flex items-center gap-1">
+          View profile
+          <span aria-hidden>→</span>
+        </p>
       </div>
     </Link>
   );

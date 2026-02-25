@@ -25,11 +25,11 @@ export function SiteHeader() {
   return (
     <header className="bg-warm-white border-b border-warm-border sticky top-0 z-50">
       <div className="container-site">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-16 min-w-0">
           {/* Logo */}
-          <Link href="/" className="flex items-center shrink-0" aria-label="International Schools Guide home">
+          <Link href="/" className="flex items-center min-w-0" aria-label="International Schools Guide home">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.svg" alt="" className="h-6 w-auto" width="380" height="28" />
+            <img src="/logo.svg" alt="" className="h-6 w-auto max-w-[170px] sm:max-w-none" width="380" height="28" />
           </Link>
 
           {/* Nav */}
@@ -49,9 +49,9 @@ export function SiteHeader() {
           </nav>
 
           {/* Actions */}
-          <div className="flex items-center gap-4">
-            <button className="text-xs text-charcoal-muted">EN</button>
-            <button className="text-xs text-charcoal-muted border border-warm-border px-3 py-1.5 hover:border-charcoal-muted transition-colors">
+          <div className="flex items-center gap-2 sm:gap-4 shrink-0">
+            <button className="hidden sm:inline text-xs text-charcoal-muted">EN</button>
+            <button className="text-xs text-charcoal-muted border border-warm-border px-2 sm:px-3 py-1.5 hover:border-charcoal-muted transition-colors">
               USD
             </button>
 

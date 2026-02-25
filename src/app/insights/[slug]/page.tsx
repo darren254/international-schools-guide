@@ -7,6 +7,7 @@ import { ShareButton } from "@/components/share/ShareButton";
 import { WasHelpful } from "@/components/insights/WasHelpful";
 import { FaqList } from "@/components/insights/FaqAccordion";
 import { SchoolSnapshotCard } from "@/components/insights/SchoolSnapshotCard";
+import { FloatingToc } from "@/components/insights/FloatingToc";
 import { SCHOOL_PROFILES } from "@/data/schools";
 import { getAllInsightArticles, getInsightArticleBySlug } from "@/lib/insights/content";
 import { getInsightImageUrl } from "@/lib/insights/images";
@@ -127,6 +128,11 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
   const standardAccuracyDisclaimer =
     "We work hard to make every figure, date and description on this page accurate. We don't always get it right. If you spot an error - a fee that's changed, a fact that's out of date, something we've got wrong - please tell us. Use the feedback button above or email us directly. We'll check it and update the article.";
 
+  const breadcrumbParts = article.breadcrumbs
+    .split(">")
+    .map((p) => p.trim())
+    .filter(Boolean);
+
   return (
     <>
       {articleSchema(article) && (
@@ -146,10 +152,26 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
         <div className="max-w-[1240px] mx-auto px-5 md:px-8 pt-6 pb-16">
           <div className="max-w-[760px] mx-auto">
             <nav className="text-xs text-charcoal-muted mb-4" aria-label="Breadcrumb">
-              {article.breadcrumbs}
+              <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                {breadcrumbParts.map((label, i) => {
+                  const href = i === 0 ? "/" : i === 1 ? "/insights/" : undefined;
+                  const isLast = i === breadcrumbParts.length - 1;
+                  return (
+                    <li key={`${label}-${i}`} className="flex items-center gap-x-2">
+                      {href && !isLast ? (
+                        <Link href={href} className="hover:text-hermes transition-colors">
+                          {label}
+                        </Link>
+                      ) : (
+                        <span>{label}</span>
+                      )}
+                      {!isLast && <span aria-hidden className="text-charcoal-muted">›</span>}
+                    </li>
+                  );
+                })}
+              </ol>
             </nav>
 
-            <p className="text-xs uppercase tracking-widest text-charcoal-muted mb-3">{article.categoryTag}</p>
             <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] text-charcoal leading-tight mb-3">
               {article.h1}
             </h1>
@@ -199,7 +221,9 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
             )}
           </div>
 
-          <div className="max-w-[760px] mx-auto">
+          <div className="max-w-[1060px] mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,760px)_240px] gap-10 lg:gap-12">
+              <div className="min-w-0">
 
             {article.tldr.length > 0 && (
               <section className="my-10 border-y border-warm-border py-8 font-sans">
@@ -223,21 +247,6 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
                   ))}
                 </div>
               </section>
-            )}
-
-            {article.toc.length > 0 && (
-              <nav className="font-sans mb-8 pb-8 border-b border-warm-border" aria-label="In this article">
-                <p className="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-3">In this article</p>
-                <ul className="space-y-2 text-sm text-charcoal">
-                  {article.toc.map((item) => (
-                    <li key={item.id}>
-                      <a href={`#${item.id}`} className="text-hermes hover:underline">
-                        {item.label}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </nav>
             )}
 
             <section
@@ -320,6 +329,29 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
                 </Link>
               </p>
             </footer>
+              </div>
+
+              {article.toc.length > 0 && (
+                <aside className="hidden lg:block">
+                  <nav className="sticky top-24 font-sans pt-2" aria-label="In this article">
+                    <p className="ft-smallcaps text-[11px] tracking-[0.18em] font-medium text-charcoal-muted mb-4">
+                      In this article
+                    </p>
+                    <ul className="space-y-2 text-sm text-charcoal">
+                      {article.toc.map((item) => (
+                        <li key={item.id}>
+                          <a href={`#${item.id}`} className="hover:text-hermes transition-colors">
+                            {item.label}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </nav>
+                </aside>
+              )}
+            </div>
+
+            {article.toc.length > 0 && <FloatingToc items={article.toc} />}
           </div>
         </div>
       </article>

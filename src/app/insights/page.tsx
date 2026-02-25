@@ -81,7 +81,7 @@ export default function InsightsPage() {
           <p className="text-xs uppercase tracking-[0.18em] text-cream-400 mb-4">Insights</p>
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl mb-4">International Schools Guide</h1>
           <p className="text-cream-300 text-lg md:text-xl max-w-3xl leading-relaxed">
-            FT-style briefings on schools, fees, admissions and relocation decisions in Jakarta.
+            Briefings on schools, fees, admissions and relocation decisions for international families in Jakarta.
           </p>
         </div>
       </section>
