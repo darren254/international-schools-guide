@@ -7,3 +7,6 @@ out/
 *.tsbuildinfo
 next-env.d.ts
 .open-next/
+
+# Generated API data (built at deploy)
+functions/api/data/

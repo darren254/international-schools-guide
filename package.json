@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "favicons": "node scripts/generate-favicons.mjs",
-    "build": "next build",
+    "build": "tsx scripts/generate-api-json.ts && next build",
     "start": "next start",
     "lint": "next lint",
     "db:generate": "drizzle-kit generate",

@@ -44,7 +44,9 @@ gh repo create international-schools-guide --public --source=. --push
    - Build command: `npm run build`
    - Build output directory: `out`
    - Node version: `18` or `20`
-4. Add environment variables (same as .env.local) - optional for static export
+4. Add environment variables:
+   - Same as .env.local (optional for static export)
+   - **ISG_API_KEY** (required for the protected data API): generate with `openssl rand -hex 32`, add as an encrypted/secret variable. Only you (and anyone you share the key with) can access `/api/schools`.
 5. Deploy
 
 That's it. Every push to `main` will auto-deploy.
