@@ -19,6 +19,75 @@ interface VoteSummaryResponse {
   counts: Record<string, Record<string, number>>;
 }
 
+type LocalVote = {
+  article_id: string;
+  module_id: string;
+  question_id: string;
+  option_id: string;
+  session_key: string;
+  timestamp: string;
+};
+
+const LOCAL_VOTES_KEY = "reader_pulse_votes_v1";
+
+function readLocalVotes(): LocalVote[] {
+  if (typeof window === "undefined") return [];
+  try {
+    const raw = window.localStorage.getItem(LOCAL_VOTES_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw) as LocalVote[];
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeLocalVotes(votes: LocalVote[]) {
+  if (typeof window === "undefined") return;
+  window.localStorage.setItem(LOCAL_VOTES_KEY, JSON.stringify(votes));
+}
+
+function saveVoteLocally(vote: LocalVote): { inserted: boolean; duplicate: boolean } {
+  const votes = readLocalVotes();
+  const already = votes.some(
+    (v) =>
+      v.article_id === vote.article_id &&
+      v.question_id === vote.question_id &&
+      v.session_key === vote.session_key
+  );
+  if (already) return { inserted: false, duplicate: true };
+  votes.push(vote);
+  writeLocalVotes(votes);
+  return { inserted: true, duplicate: false };
+}
+
+function computeLocalSummary(
+  articleId: string,
+  moduleId: string,
+  questionIds: string[]
+): VoteSummaryResponse {
+  const votes = readLocalVotes().filter(
+    (v) =>
+      v.article_id === articleId &&
+      v.module_id === moduleId &&
+      questionIds.includes(v.question_id)
+  );
+
+  const counts: Record<string, Record<string, number>> = {};
+  const totals: Record<string, number> = {};
+  for (const qid of questionIds) {
+    counts[qid] = {};
+    totals[qid] = 0;
+  }
+
+  for (const v of votes) {
+    counts[v.question_id][v.option_id] = (counts[v.question_id][v.option_id] ?? 0) + 1;
+    totals[v.question_id] += 1;
+  }
+
+  return { counts, totals };
+}
+
 function emitAnalytics(event: string, payload: Record<string, string | number>) {
   if (typeof window === "undefined") return;
   const w = window as Window & { gtag?: (...args: unknown[]) => void; dataLayer?: unknown[] };
@@ -74,12 +143,17 @@ export function ReaderPulseWidget({ articleId }: ReaderPulseWidgetProps) {
 
   async function fetchSummary() {
     const ids = questions.map((q) => q.id).join(",");
-    const res = await fetch(
-      `/api/reader-pulse/summary?article_id=${encodeURIComponent(articleId)}&module_id=${encodeURIComponent(module.id)}&question_ids=${encodeURIComponent(ids)}`
-    );
-    if (!res.ok) throw new Error("Could not load summary");
-    const data = (await res.json()) as VoteSummaryResponse;
-    setSummary(data);
+    try {
+      const res = await fetch(
+        `/api/reader-pulse/summary?article_id=${encodeURIComponent(articleId)}&module_id=${encodeURIComponent(module.id)}&question_ids=${encodeURIComponent(ids)}`
+      );
+      if (!res.ok) throw new Error("Could not load summary");
+      const data = (await res.json()) as VoteSummaryResponse;
+      setSummary(data);
+    } catch {
+      // Fallback for environments where API routes are not yet active.
+      setSummary(computeLocalSummary(articleId, module.id, questions.map((q) => q.id)));
+    }
   }
 
   async function submitAnswer(question: ReaderPulseQuestion, optionId: string) {
@@ -89,21 +163,34 @@ export function ReaderPulseWidget({ articleId }: ReaderPulseWidgetProps) {
     setSubmitting(true);
     setError(null);
     try {
-      const res = await fetch("/api/reader-pulse/vote", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          article_id: articleId,
-          module_id: module.id,
-          question_id: question.id,
-          option_id: optionId,
-          session_key: sessionKey,
-          timestamp: new Date().toISOString(),
-        }),
-      });
+      const payload = {
+        article_id: articleId,
+        module_id: module.id,
+        question_id: question.id,
+        option_id: optionId,
+        session_key: sessionKey,
+        timestamp: new Date().toISOString(),
+      };
 
-      if (!res.ok) {
-        throw new Error("Could not save response");
+      let saveOk = false;
+      try {
+        const res = await fetch("/api/reader-pulse/vote", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+        saveOk = res.ok;
+      } catch {
+        saveOk = false;
+      }
+
+      if (!saveOk) {
+        const local = saveVoteLocally(payload);
+        if (!local.inserted && local.duplicate) {
+          setError("You’ve already answered this question.");
+          setSubmitting(false);
+          return;
+        }
       }
 
       setAnsweredQuestionIds((prev) => new Set(prev).add(question.id));
