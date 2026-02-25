@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import { SortableSchoolsTableSection1, SortableSchoolsTableSection2 } from "@/components/insights/SortableSchoolsTable";
 import { ShareButton } from "@/components/share/ShareButton";
 import {
@@ -9,6 +10,10 @@ import {
 } from "./jakarta-guide-data";
 
 const BASE_URL = "https://international-schools-guide.com";
+const ReaderPulseWidget = dynamic(
+  () => import("@/components/insights/ReaderPulseWidget").then((m) => m.ReaderPulseWidget),
+  { ssr: false }
+);
 
 const INSIGHT_SLUGS = ["best-international-schools-jakarta"] as const;
 
@@ -197,6 +202,9 @@ function JakartaGuide() {
                   <dd className="text-charcoal-muted">Cilandak / Pondok Indah / Pattimura, South Jakarta</dd>
                 </dl>
               </section>
+
+              {/* Reader Pulse - inserted around first third of article body */}
+              <ReaderPulseWidget articleId="best-international-schools-jakarta" />
 
               <section>
                 <h2 id="bsj" className="font-display text-2xl text-charcoal mt-12 mb-4 scroll-mt-24">
