@@ -1,10 +1,11 @@
 /**
- * Protected API: returns all schools. Requires Authorization: Bearer <ISG_API_KEY>
+ * Protected API proxy: returns all schools from static JSON asset.
+ * Requires Authorization: Bearer <ISG_API_KEY>
  */
-// @ts-ignore - JSON import
-import data from "./data/schools.json";
-
-export function onRequestGet(context: { request: Request; env: { ISG_API_KEY?: string } }) {
+export async function onRequestGet(context: {
+  request: Request;
+  env: { ISG_API_KEY?: string; ASSETS?: { fetch: (req: Request | URL | string) => Promise<Response> } };
+}) {
   const apiKey = context.env.ISG_API_KEY;
   const auth = context.request.headers.get("Authorization");
   const token = auth?.startsWith("Bearer ") ? auth.slice(7) : null;
@@ -16,7 +17,24 @@ export function onRequestGet(context: { request: Request; env: { ISG_API_KEY?: s
     });
   }
 
-  return new Response(JSON.stringify(data), {
+  if (!context.env.ASSETS) {
+    return new Response(JSON.stringify({ error: "ASSETS binding missing" }), {
+      status: 500,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
+  const assetUrl = new URL("/api/schools.json", context.request.url);
+  const assetRes = await context.env.ASSETS.fetch(assetUrl);
+  if (!assetRes.ok) {
+    return new Response(JSON.stringify({ error: "schools asset not found" }), {
+      status: 404,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
+  return new Response(await assetRes.text(), {
+    status: 200,
     headers: {
       "Content-Type": "application/json",
       "Cache-Control": "public, max-age=3600",
