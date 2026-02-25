@@ -27,7 +27,6 @@ export const SECTION1_POPULAR_SCHOOLS: Section1Row[] = [
   { school: "The Independent School of Jakarta (ISJ)", curriculum: "British", ages: "2–13 (expanding to 18)", fees: "US$9.2K – US$30K", location: "Pondok Indah", slug: "independent-school-of-jakarta" },
   { school: "Australian Independent School (AIS)", curriculum: "Australian / IB Diploma", ages: "3–18", fees: "US$9.3K – US$27K", location: "South Jakarta", slug: "australian-independent-school-jakarta" },
   { school: "Nord Anglia School Jakarta (NAS)", curriculum: "British / IPC", ages: "18m–12", fees: "US$7.2K – US$22K", location: "South Jakarta", slug: "nord-anglia-school-jakarta" },
-  { school: "Sekolah Pelita Harapan (SPH)", curriculum: "IB continuum", ages: "4–18", fees: "US$7.2K – US$22K", location: "Lippo Village / Kemang", slug: "sekolah-pelita-harapan" },
   { school: "New Zealand School Jakarta (NZSJ)", curriculum: "NZ Curriculum / British", ages: "1–18", fees: "US$6.9K – US$22K", location: "South Jakarta", slug: "new-zealand-school-jakarta" },
 ];
 
@@ -37,13 +36,11 @@ export const SECTION2_ALL_SCHOOLS: Section2Row[] = [
   { school: "The Independent School of Jakarta", area: "South Jakarta", curriculum: "British", fees: "US$9.2K – US$30K", slug: "independent-school-of-jakarta" },
   { school: "Australian Independent School Jakarta", area: "South Jakarta", curriculum: "Australian / IB Diploma", fees: "US$9.3K – US$27K", slug: "australian-independent-school-jakarta" },
   { school: "Tunas Muda School", area: "West Jakarta", curriculum: "IB PYP / MYP / DP", fees: "US$6.9K – US$27K", slug: "tunas-muda-school" },
-  { school: "Sekolah Pelita Harapan Kemang Village", area: "South Jakarta", curriculum: "IB Diploma / IGCSEs / Christian", fees: "US$8.1K – US$26K", slug: "sekolah-pelita-harapan-kemang-village" },
   { school: "BTB School", area: "North Jakarta", curriculum: "IB PYP / IGCSEs / IB DP", fees: "US$7.4K – US$26K", slug: "btb-school" },
   { school: "ACG School Jakarta", area: "South Jakarta", curriculum: "IB PYP / IGCSEs / IB DP", fees: "US$9.8K – US$25K", slug: "acg-school-jakarta" },
   { school: "NationalHigh Jakarta School", area: "West Jakarta", curriculum: "Cambridge / Singapore", fees: "US$9.8K – US$24K", slug: "nationalhigh-jakarta-school" },
   { school: "Raffles Christian School Jakarta", area: "South Jakarta", curriculum: "Cambridge / IGCSEs / A-Levels", fees: "US$4.9K – US$24K", slug: "raffles-christian-school-jakarta" },
   { school: "Nord Anglia School Jakarta", area: "South Jakarta", curriculum: "British / IPC", fees: "US$7.2K – US$22K", slug: "nord-anglia-school-jakarta" },
-  { school: "Sekolah Pelita Harapan Lippo Village", area: "BSD", curriculum: "IB PYP / MYP / DP", fees: "US$7.2K – US$22K", slug: "sekolah-pelita-harapan" },
   { school: "Jakarta Nanyang School", area: "BSD", curriculum: "Cambridge / IGCSEs / A-Levels", fees: "US$7.2K – US$22K", slug: "jakarta-nanyang-school" },
   { school: "New Zealand School Jakarta", area: "South Jakarta", curriculum: "NZ Curriculum / British", fees: "US$6.9K – US$22K", slug: "new-zealand-school-jakarta" },
   { school: "Binus School Serpong", area: "BSD", curriculum: "Cambridge / IGCSEs / A-Levels", fees: "US$6.2K – US$22K", slug: "binus-school-serpong" },

@@ -468,7 +468,7 @@ function JakartaGuide() {
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">How do I know if teachers are properly qualified?</h3>
                 <p>
-                  At CIS-accredited schools (JIS, BSJ, AIS, SPH), teacher qualification standards are externally audited. ISJ sources teachers through The Schools Trust (UK) and specifically markets its 100% British-qualified teacher body. For non-accredited schools, ask directly: what percentage of teachers are qualified in their subject, and what qualification standard - UK QTS, Australian TRB, or equivalent? Be appropriately sceptical of any school that can't answer that question with specifics.
+                  At CIS-accredited schools (JIS, BSJ, AIS), teacher qualification standards are externally audited. ISJ sources teachers through The Schools Trust (UK) and specifically markets its 100% British-qualified teacher body. For non-accredited schools, ask directly: what percentage of teachers are qualified in their subject, and what qualification standard - UK QTS, Australian TRB, or equivalent? Be appropriately sceptical of any school that can't answer that question with specifics.
                 </p>
 
                 <h3 className="font-display text-lg text-charcoal mt-6 mb-2">Are the expensive schools actually better?</h3>
