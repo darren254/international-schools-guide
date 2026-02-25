@@ -19,12 +19,23 @@ function stripHtml(input: string): string {
     .trim();
 }
 
+function sanitizePromptContext(input: string): string {
+  return input
+    .replace(/\bPublished by The Independent School of Jakarta\b/gi, "")
+    .replace(/\bThis comparison is written by ISJ\b/gi, "")
+    .replace(/\bISJ is one of the schools covered in this guide\b/gi, "")
+    .replace(/\bISJ is one of the schools discussed here\b/gi, "")
+    .replace(/\s*·\s*/g, " - ")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
 function paragraphFromHtml(html: string, index: number): string {
   const regex = /<p[^>]*>([\s\S]*?)<\/p>/gi;
   let match;
   let i = 0;
   while ((match = regex.exec(html)) !== null) {
-    if (i === index) return stripHtml(match[1]);
+    if (i === index) return sanitizePromptContext(stripHtml(match[1]));
     i++;
   }
   return "";

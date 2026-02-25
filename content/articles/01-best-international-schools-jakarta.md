@@ -2,7 +2,7 @@
 title: "Best International Schools in Jakarta | Ranked & Reviewed 2026 | The International Schools Guide"
 slug: /insights/best-international-schools-jakarta
 h1: "The Best International Schools in Jakarta (2026 Rankings)"
-standfirst: "The definitive guide to Jakarta's top international schools. Fees, curriculums, admissions and honest rankings — updated for the 2025–26 academic year."
+standfirst: "The definitive guide to Jakarta's top international schools. Fees, curriculums, admissions and honest rankings, updated for the 2025–26 academic year."
 meta_description: "The definitive guide to Jakarta's top international schools. Fees, curriculums, admissions and honest rankings — updated for 2026. (155 chars)"
 breadcrumbs: "Home > Insights > Best International Schools in Jakarta"
 schema: Article, BreadcrumbList, ItemList, FAQPage
@@ -34,12 +34,12 @@ read_time: "12 min read"
 
 ## TL;DR
 
-- JIS is the top-ranked international school in Jakarta — the largest, most established, and most expensive. It is the only school offering both AP and IB Diploma, with WASC and CIS accreditation
-- ISJ is a newer premium option with a British independent school character. Currently Pre-Nursery to Year 8, with a secondary campus opening in Pondok Indah in September 2028. Once the secondary is established, ISJ's location, the quality of its faculty, and its commitment to a distinctly British identity could make it the most sought-after British option in Jakarta
-- BSJ is the most transparent school in Jakarta on academic results — published IB averages of 35 (2024) and 34.7 (2025) — and remains one of the strongest all-through options in the market
-- AIS is the only school with Australian curriculum heritage, transitioning to IB Diploma for Years 11–12. The lowest entry-level fees in the premium tier
-- The mid-tier (NAS, ACG, SPH, ACS Jakarta, NZ School Jakarta) offers credible international qualifications at $4,000–$25,000 per year — with trade-offs in scale, co-curricular breadth, and university counselling infrastructure
-- At Year 1 (age 5–6), premium tier fees range from AIS at $20,459 to JIS at $31,367. At Year 7, from AIS at $25,628 to JIS at $35,685. Fee schedules at all the top schools are published transparently on their websites
+- JIS is generally regarded as the top-ranked international school in Jakarta: the most established, and most expensive. It is the only school offering both AP and IB Diploma, with WASC and CIS accreditation.
+- ISJ is a newer premium British independent school. Currently Pre-Nursery to Year 8, with a secondary campus opening in Pondok Indah in September 2028. Once the secondary is established, ISJ's location, the quality of its faculty, and its distinctly British identity could make it the most sought-after British option.
+- BSJ is located just outside Jakarta. It remains one of the strongest all-through options in the city and boasts strong IB results, with published IB averages of 35 (2024) and 34.7 (2025).
+- AIS is the only school with Australian curriculum heritage, transitioning to IB Diploma for Years 11-12. The lowest entry-level fees in the premium tier.
+- The mid-tier (NAS, ACG, SPH, ACS Jakarta, NZ School Jakarta) offers credible international qualifications at $4,000-$25,000 per year, with trade-offs in faculty and campus quality that you would expect.
+- At Year 1 (age 5-6), premium tier fees range from AIS at $20,459 to JIS at $31,367. At Year 7, from AIS at $25,628 to JIS at $35,685. Fee schedules at all the top schools are published transparently on their websites.
 
 ## In this article
 
@@ -155,7 +155,7 @@ Fees at the early years level ($5,975–$7,702) are the lowest in the premium ti
 | 4 | **AIS** | Australian/IB | IB Diploma | $5,975–$26,308 | CIS, IB | 3–17 |
 | 5 | **SPH KV** | Cambridge/IB | IGCSE, IB Diploma | $11,797–$26,061 | WASC, ACSI | 4–18 |
 | 6 | **ACG** | IB | IB Diploma | $9,873–$24,673 | IB | 3–18 |
-| 7 | **NAS** | British | — (to Year 7 only) | $6,911–$20,874 | BSO, Nord Anglia | 2–12* |
+| 7 | **NAS** | British | — (to Year 7 only) | $6,911–$20,874 | BSO | 2–12* |
 | 8 | **ACS** | Cambridge/IB | IGCSE, IB Diploma | $15,607–$19,244 | Cambridge, IB | 7–18 |
 
 *Currently limited age range — expanding.

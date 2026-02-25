@@ -72,6 +72,14 @@ function normalizeTypography(input: string): string {
     .replaceAll("\u201d", '"');
 }
 
+function stripImportedBranding(input: string): string {
+  return input
+    // Remove imported title suffixes from legacy sources.
+    .replace(/\s*\|\s*the independent school of jakarta\s*$/i, "")
+    .replace(/\s*\|\s*the schools trust\s*$/i, "")
+    .trim();
+}
+
 function slugFromPath(raw: string): string {
   const cleaned = raw.trim().replace(/^https?:\/\/[^/]+/i, "");
   const withoutPrefix = cleaned.replace(/^\/(insights|resources)\//, "");
@@ -155,6 +163,11 @@ function resolveNumberReference(refNumber: string): string {
 function cleanBody(input: string): string {
   return normalizeTypography(input)
     .replace(/<!--[\s\S]*?-->/g, "")
+    // Remove imported publisher/conflict disclosures from third-party source exports.
+    .replace(/^Published by.*$/gim, "")
+    .replace(/^ISJ is one of the schools covered.*$/gim, "")
+    .replace(/^ISJ is one of the schools discussed.*$/gim, "")
+    .replace(/^This comparison is written by ISJ.*$/gim, "")
     .replace(/^\[(SHARE BAR|IMAGE PLACEHOLDER|YOU MIGHT ALSO BE INTERESTED IN|NEWSLETTER CTA|WAS THIS HELPFUL|BOTTOM SHARE BAR|RELATED ARTICLES|SCHOOL PROFILE CARDS)[^\]]*]\s*$/gim, "")
     .replace(/^\[[A-Z][A-Z0-9 \-:;,.()/'&]+]\s*$/gm, "")
     .replace(/^IMAGE PLACEHOLDER:[^\n]*$/gim, "")
@@ -513,9 +526,13 @@ function toInsightArticle(filePath: string): InsightArticle | null {
     .map((s) => s.trim())
     .filter(Boolean);
 
-  const titleTag = plan?.titleTag ?? (titleTagFromData || `${firstHeading} | The International Schools Guide`);
-  const h1 = plan?.h1 ?? (String(data.h1 ?? "").trim() || firstHeading || titleTag);
-  const finalMetaDescription = plan?.metaDescription ?? (metaDescription || h1);
+  const titleTagClean = stripImportedBranding(titleTagFromData);
+  const h1CleanFromData = stripImportedBranding(String(data.h1 ?? "").trim());
+  const metaClean = stripImportedBranding(metaDescription);
+
+  const titleTag = plan?.titleTag ?? (titleTagClean || `${firstHeading} | The International Schools Guide`);
+  const h1 = plan?.h1 ?? (h1CleanFromData || firstHeading || titleTag);
+  const finalMetaDescription = plan?.metaDescription ?? (metaClean || h1);
   const finalBreadcrumbs = plan?.breadcrumbs ?? (breadcrumbs || "Home > Insights");
   const finalSchema = plan?.schema ?? (schemaFromData.length > 0 ? schemaFromData : ["Article", "BreadcrumbList"]);
 

@@ -54,17 +54,16 @@ function categoryColour(cat: string): string {
 
 // ─── Lead story ───
 const LEAD_STORY: NewsArticle = {
-  slug: "isj-claims-top-ranking-jakarta",
-  title:
-    "Independent School of Jakarta claims top ranking on international schools platform",
+  slug: "jis-fee-increase-2026-27",
+  title: "Jakarta Intercultural School confirms 6% fee rise for 2026–27",
   summary:
-    "The British preparatory school serving students aged 2–13 has been named number one in Jakarta by what it describes as the world's leading platform.",
-  author: "Mia Windsor",
-  date: "17 February 2026",
-  readTime: "1 min read",
-  category: "RANKINGS",
-  imageAlt: "Independent School of Jakarta campus grounds",
-  tags: ["Jakarta", "British curriculum", "school rankings"],
+    "JIS becomes the latest Jakarta school to announce above-inflation fee increases, citing infrastructure investment and teacher retention costs.",
+  author: "Editorial",
+  date: "15 February 2026",
+  readTime: "2 min read",
+  category: "FEES",
+  imageAlt: "JIS campus aerial view",
+  tags: ["Jakarta", "fees", "school budgets"],
 };
 
 // ─── Top stories (appear below lead) ───
@@ -151,10 +150,6 @@ const EDITORS_PICKS: NewsArticle[] = [
 
 // ─── Most Read ───
 const MOST_READ: { slug: string; title: string }[] = [
-  {
-    slug: "isj-claims-top-ranking-jakarta",
-    title: "Independent School of Jakarta claims top ranking on international schools platform",
-  },
   {
     slug: "jis-fee-increase-2026-27",
     title: "Jakarta Intercultural School confirms 6% fee rise for 2026–27",
