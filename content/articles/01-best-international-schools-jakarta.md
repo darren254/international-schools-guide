@@ -38,7 +38,7 @@ read_time: "12 min read"
 - BSJ is the strongest British school in Jakarta and the most transparent on academic results — published IB averages of 35 (2024) and 34.7 (2025)
 - ISJ is a newer premium option with a British independent school character. Currently Pre-Nursery to Year 8, with a secondary campus opening in Pondok Indah in September 2028. Once the secondary is established, ISJ's location, the quality of its faculty, and its commitment to a distinctly British identity could make it the most sought-after British option in Jakarta
 - AIS is the only school with Australian curriculum heritage, transitioning to IB Diploma for Years 11–12. The lowest entry-level fees in the premium tier
-- The mid-tier (NAS, ACG, Binus Simprug, NJIS, SPH, ACS Jakarta, NZ School Jakarta) offers credible international qualifications at $4,000–$25,000 per year — with trade-offs in scale, co-curricular breadth, and university counselling infrastructure
+- The mid-tier (NAS, ACG, SPH, ACS Jakarta, NZ School Jakarta) offers credible international qualifications at $4,000–$25,000 per year — with trade-offs in scale, co-curricular breadth, and university counselling infrastructure
 - At Year 1 (age 5–6), premium tier fees range from AIS at $20,459 to JIS at $31,367. At Year 7, from AIS at $25,628 to JIS at $35,685. Fee schedules at all the top schools are published transparently on their websites
 
 ## In this article
@@ -155,13 +155,10 @@ Fees at the early years level ($5,975–$7,702) are the lowest in the premium ti
 | 4 | **AIS** | Australian/IB | IB Diploma | $5,975–$26,308 | CIS, IB | 3–17 |
 | 5 | **SPH KV** | Cambridge/IB | IGCSE, IB Diploma | $11,797–$26,061 | WASC, ACSI | 4–18 |
 | 6 | **ACG** | IB | IB Diploma | $9,873–$24,673 | IB | 3–18 |
-| 7 | **Binus Simprug** | IB | IB Diploma | ~$4,708+** | IB | 3–18 |
-| 8 | **NAS** | British | — (to Year 7 only) | $6,911–$20,874 | BSO, Nord Anglia | 2–12* |
-| 9 | **ACS Jakarta** | Cambridge/IB | IGCSE, IB Diploma | $15,607–$19,244 | Cambridge, IB | 7–18 |
-| 10 | **NJIS** | American/IB | IB Diploma | — (verify) | WASC | 3–18 |
+| 7 | **NAS** | British | — (to Year 7 only) | $6,911–$20,874 | BSO, Nord Anglia | 2–12* |
+| 8 | **ACS Jakarta** | Cambridge/IB | IGCSE, IB Diploma | $15,607–$19,244 | Cambridge, IB | 7–18 |
 
 *Currently limited age range — expanding.
-**Binus Simprug: full fee schedule for higher grades not publicly available. Verify with admissions.
 
 ---
 
@@ -189,15 +186,11 @@ The mid-tier schools serve a different market — families who want an internati
 
 **ACG Jakarta** ($9,873–$24,673) offers the full IB continuum and delivers the IB Diploma as its exit qualification. Limited published outcome data makes independent assessment difficult. Fees at secondary are competitive with AIS and below BSJ.
 
-**Binus Simprug** publishes the strongest IB results in the mid-tier: average 34, pass rate 95%, with perfect 45/45 scores in three consecutive years. For families focused on IB outcomes at a lower fee point, Binus Simprug is the standout. The student body is majority Indonesian, which gives the school a distinctive cultural character.
-
 **NAS (Nord Anglia School Jakarta)** ($6,911–$20,874) is part of the global Nord Anglia network but currently runs only to Year 7. Until NAS extends to secondary, it cannot serve families who want a full school career in one institution. NAS is a reasonable primary option with the expectation of transferring to another school for secondary.
 
 **ACS Jakarta** ($15,607–$19,244) offers IGCSE to IB Diploma without an early years programme. ACS is one of the most affordable routes to an IB Diploma in Jakarta — and at roughly half the cost of JIS at the IB DP level.
 
 **NZ School Jakarta** ($4,202–$17,223) is the most affordable school in our verified data set. It offers a New Zealand-influenced curriculum from Pre-School through Grade 12.
-
-**NJIS** is WASC-accredited and offers the IB Diploma. The school is smaller (~266 students total), which limits co-curricular breadth but allows for closer teacher-student relationships.
 
 For specialist guides, see: [best British schools](#2), [best IB schools](#4), [best American schools](#5), [most affordable international schools](#6), [best value schools](#7).
 
@@ -231,11 +224,10 @@ This is not a formula. It is a judgement, made by an editorial team that engages
 | UK university track | BSJ | Cambridge IGCSE to IB, Russell Group relationships, published results |
 | Australian university track | AIS | Australian curriculum heritage, Go8 connections, calendar-year alignment |
 | British independent school ethos | ISJ | Small year groups, high expectations, Pondok Indah location |
-| Strongest IB results at lowest cost | Binus Simprug | IB avg 34, 95% pass, mid-tier fees |
 | Maximum co-curricular breadth | JIS | Largest school, widest programme |
 | Learning support / SEN | AIS or JIS | Strongest published SEN infrastructure. See [SEN guide](#42) |
 | Budget under $20,000 | ACS Jakarta, NZ School | IB Diploma pathway at half premium-tier cost |
-| Confirmed place at short notice | NAS, ACG, NJIS | Rarely oversubscribed at any year group |
+| Confirmed place at short notice | NAS, ACG | Rarely oversubscribed at any year group |
 
 ---
 
@@ -258,7 +250,7 @@ Yes. All SPK schools can enrol Indonesian nationals. JIS, BSJ, ISJ and AIS all h
 NZ School Jakarta ($4,202–$17,223). AIS has the lowest premium-tier entry ($5,975 for Preschool 3). [Fees guide](#12) and [affordable schools](#6).
 
 **Which school has the best results?**
-BSJ (IB avg 35 in 2024, 34.7 in 2025) and Binus Simprug (avg 34, 95% pass) publish results. JIS doesn't publish IB numbers but its US destination data (Harvard, Stanford, MIT) indicates strong outcomes. [IB results guide](#41).
+BSJ publishes IB averages (35 in 2024, 34.7 in 2025). JIS doesn't publish IB numbers but its US destination data (Harvard, Stanford, MIT) indicates strong outcomes. [IB results guide](#41).
 
 **Should I choose based on fees?**
 Fees matter — they fund teacher salaries — but fit matters more. A school that's right at $20,000 beats one that's wrong at $35,000.
@@ -268,4 +260,4 @@ Nursery at premium schools: 12–18 months ahead. Year 1 and Year 7: 6–12 mont
 
 ---
 
-*All fee data verified from official 2025–26 fee schedules. Exchange rate: IDR 16,826 = $1 USD (February 2026). Binus Simprug and NJIS fee data partial — verify directly with admissions. We work hard to make every figure, date and description on this page accurate. We don't always get it right. If you spot an error — a fee that's changed, a fact that's out of date, something we've got wrong — please tell us. Use the feedback button above or email us directly. We'll check it and update the article.*
+*All fee data verified from official 2025–26 fee schedules. Exchange rate: IDR 16,826 = $1 USD (February 2026). Some mid-tier fee data is partial — verify directly with admissions. We work hard to make every figure, date and description on this page accurate. We don't always get it right. If you spot an error — a fee that's changed, a fact that's out of date, something we've got wrong — please tell us. Use the feedback button above or email us directly. We'll check it and update the article.*
