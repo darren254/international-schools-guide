@@ -218,9 +218,9 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
           <div className="max-w-[760px] mx-auto">
 
             {article.tldr.length > 0 && (
-              <section className="bg-cream-50 border-l-4 border-hermes py-4 px-5 mt-8 mb-8 font-sans">
-                <p className="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-3">TL;DR</p>
-                <ul className="list-disc pl-5 space-y-2 text-charcoal">
+              <section className="my-10 border-y border-warm-border py-8 font-sans">
+                <p className="ft-smallcaps text-[11px] tracking-[0.18em] font-medium text-charcoal-muted mb-4">TL;DR</p>
+                <ul className="list-disc pl-5 space-y-3 text-charcoal text-[0.95rem] leading-relaxed">
                   {article.tldr.map((item) => (
                     <li key={item}>{item}</li>
                   ))}

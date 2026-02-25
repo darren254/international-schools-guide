@@ -50,6 +50,10 @@
     @apply max-w-content mx-auto px-5 md:px-8;
   }
 
+  .ft-smallcaps {
+    font-variant-caps: all-small-caps;
+  }
+
   /* Sections inside warm bands lose their own border/spacing */
   .section-band > section {
     margin-bottom: 0;
