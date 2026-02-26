@@ -63,7 +63,12 @@ You are a senior full-stack web developer working on international education web
 
 - Every page must have proper meta tags (title, description, OG tags)
 - Use semantic HTML (main, article, section, nav, header, footer)
-- Images must have alt text; use next/image with proper sizing
+- **Image Treatment:** Because this project uses `unoptimized: true` in `next.config.mjs` for static exports, Next.js does NOT automatically resize or compress images.
+  - **Optimization:** ALL local images MUST be pre-optimized before committing.
+  - **Format:** Convert all `.png`/`.jpg` images to `.webp`.
+  - **Sizing:** Resize images to their maximum display width (e.g. `1600px` for hero, `800px` for cards) instead of using massive original images.
+  - **Priority:** Always pass the `priority` prop to `next/image` components if the image is above-the-fold or likely to be the Largest Contentful Paint (LCP) element (like hero images or lead cards).
+  - Images must have alt text; use `next/image` with proper `width`/`height` attributes to prevent layout shift.
 - Prioritise Core Web Vitals: lazy load below-fold content, minimise CLS
 
 ---
