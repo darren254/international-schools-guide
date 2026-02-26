@@ -21,10 +21,14 @@ function stripHtml(input: string): string {
 
 function sanitizePromptContext(input: string): string {
   return input
-    .replace(/\bPublished by The Independent School of Jakarta\b/gi, "")
-    .replace(/\bThis comparison is written by ISJ\b/gi, "")
-    .replace(/\bISJ is one of the schools covered in this guide\b/gi, "")
-    .replace(/\bISJ is one of the schools discussed here\b/gi, "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&#\d+;/g, " ")
+    .replace(/[*_~`]/g, "")
+    .replace(/[0-9]/g, "")
+    .replace(/[$£€¥%]/g, "")
     .replace(/\s*·\s*/g, " - ")
     .replace(/\s{2,}/g, " ")
     .trim();
@@ -55,7 +59,9 @@ function buildPrompt(
   return [
     "Create an original editorial illustration in a pop art watercolor style.",
     "Use bold color blocking, watercolor textures, expressive brush edges, and clean modern composition.",
-    "No text, no logos, no watermarks, no brand names.",
+    "No text, no letters, no words, no numbers, no logos, no watermarks, no brand names.",
+    "Avoid signage, captions, labels, UI, charts, flags, emblems, crests, or any typographic marks.",
+    "If you depict a school building, its facade must be blank: no signboards, no banners, no lettering.",
     variationNote,
     "Theme must match this article:",
     `Headline: "${title}"`,

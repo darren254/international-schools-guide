@@ -164,10 +164,6 @@ function cleanBody(input: string): string {
   return normalizeTypography(input)
     .replace(/<!--[\s\S]*?-->/g, "")
     // Remove imported publisher/conflict disclosures from third-party source exports.
-    .replace(/^Published by.*$/gim, "")
-    .replace(/^ISJ is one of the schools covered.*$/gim, "")
-    .replace(/^ISJ is one of the schools discussed.*$/gim, "")
-    .replace(/^This comparison is written by ISJ.*$/gim, "")
     .replace(/^\[(SHARE BAR|IMAGE PLACEHOLDER|YOU MIGHT ALSO BE INTERESTED IN|NEWSLETTER CTA|WAS THIS HELPFUL|BOTTOM SHARE BAR|RELATED ARTICLES|SCHOOL PROFILE CARDS)[^\]]*]\s*$/gim, "")
     .replace(/^\[[A-Z][A-Z0-9 \-:;,.()/'&]+]\s*$/gm, "")
     .replace(/^IMAGE PLACEHOLDER:[^\n]*$/gim, "")
