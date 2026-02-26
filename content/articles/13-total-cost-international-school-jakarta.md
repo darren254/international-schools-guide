@@ -128,20 +128,20 @@ One child in Year 4 (primary), one in Year 9 (secondary), entering in 2025-26, f
 
 ### Premium Tier (ISJ, BSJ, JIS — ~$24,000–$32,000+ per child)
 
-ISJ's 2025-26 fees bundle tuition, materials, and capital contribution into one figure — no separate levy line. A Year 4 pupil: IDR 437,819,200 (~$27,400) covers everything instructional. Lunch and trips are compulsory additional charges on top. The enrolment deposit (IDR 16,328,000 / ~$1,020) is refundable on exit with 90 days notice — unlike most Jakarta school levies.
+ISJ's 2025-26 fees bundle tuition, materials, and capital contribution into one figure — no separate levy line. A Year 1 pupil (Years 1-2 rate): IDR 419,702,400 (~$24,944) covers everything instructional. Lunch and trips are compulsory additional charges on top. The enrolment deposit (IDR 16,328,000 / ~$970) is refundable on exit with one term's notice — unlike most Jakarta school levies.
 
-| Item | ISJ (Yr 4, primary) | JIS (Yr 9, secondary) |
+| Item | ISJ (Year 1, primary) | JIS (Grade 1 / Year 1 equivalent) |
 |---|---|---|
-| Annual fee (all-in: tuition + materials + capital) | $27,400 | ~$28,000 tuition (verify) |
-| Separate capital levy | None — bundled | Verify directly |
-| Application + enrolment deposit | ~$1,313 (~$1,020 refundable) | ~$320 app fee |
+| Annual fee (all-in: tuition + materials + capital) | $24,944 | $31,367 |
+| Separate capital levy | None — bundled | Included in annual total (capital + guarantee) |
+| Application + enrolment deposit | About $1,250 total (about $970 refundable) | About $315 app fee (+ one-time tech fee) |
 | Lunch & trips (compulsory at ISJ) | ~$1,500 | ~$1,200 |
 | Transport | $1,200 | $1,500 |
 | Uniforms | $400 | $500 |
 | Optional extras | $500–$1,500 | $500–$1,500 |
-| **First-year estimate** | **~$32,300** | **~$28,000+** |
+| **First-year estimate** | **~$29,800–$30,800** | **~$35,400+** |
 
-**Combined first-year cost: ~$60,000+.** Annual ongoing: ~$57,000–$60,000.
+**Combined first-year cost: ~$65,000+.** Annual ongoing: ~$63,500–$65,500.
 
 *All figures illustrative. Verify directly with each school before budgeting.*
 
