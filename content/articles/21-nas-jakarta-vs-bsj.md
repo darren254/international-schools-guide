@@ -65,7 +65,7 @@ Originally published: 24 February 2026
 | **Ownership** | Non-profit trust | Non-profit (The Schools Trust) | For-profit (Nord Anglia / EQT) | For-profit (Inspired) |
 | **Campus** | 45 acres | Purpose-built, compact | Compact, aging | Mid-size, modern |
 | **Class size** | 20–22 | 15 (EY) / 20 (Primary) | ~16 | 12–14 (senior) |
-| **Accreditation** | CIS/WASC, IB authorised | BSO (in progress) | CIS Member | CIS, IB authorised, Cambridge |
+| **Accreditation** | CIS/WASC, BSO, IB authorised | UK inspected (BSO in progress) | CIS Member | CIS, IB authorised, Cambridge |
 | **Fee range** | US$8.9K–$32.9K | US$8.8K–$28.8K | US$6.9K–$20.9K | US$9.9K–$24.7K |
 
 *Fee ranges are headline annual tuition across all year groups. BSJ is the most expensive at secondary/sixth form. ISJ and BSJ are comparable at primary. NAS and ACG are ~20% lower at primary. See individual school sections below for year-by-year breakdowns. Source: [International Schools Guide](https://international-schools-guide.com), February 2026.*
@@ -115,7 +115,7 @@ Source: Verified from official BSJ fee schedule, February 2026.
 
 The Independent School of Jakarta opened in 2022 and models itself on a British independent prep school — not a large international school that happens to follow the English National Curriculum. The distinction matters.
 
-ISJ is operated by The Schools Trust, a group with a long track record of founding British schools internationally. The trust has opened 16 schools across Asia, Europe, and South America since 2004 — including The British School of Beijing (Sanlitun and Shunyi), The British School of Guangzhou, The British School of Kuala Lumpur, The British School of Nanjing, The King's School Manila, and schools in Moscow, Yangon, São Paulo, Brasília, Lisbon, Vilnius, Tashkent, Pamplona, and Marbella. These are not franchise operations. They are schools built from scratch to British independent school standards — in teaching and learning, safeguarding, staff development, pastoral care, and the kind of confidence-building and character education that defines the UK independent sector.
+ISJ is operated by The Schools Trust, a group with a long track record of founding British schools internationally. The trust has opened 16 schools across Asia, Europe, and South America since 2004 — including The British School of Beijing (Sanlitun and Shunyi), The British School of Guangzhou, The British School of Kuala Lumpur, The British School of Nanjing, The King's School Manila, and schools in Moscow, Yangon, São Paulo, Brasília, Lisbon, Vilnius, Tashkent, Pamplona, and Marbella. These are not franchise operations. They are schools built from scratch to British independent school standards — in teaching and learning, safeguarding, staff development, pastoral care, and the kind of confidence-building and character education that defines the UK independent sector (all Schools Trust schools are required to be UK inspected and BSO accredited).
 
 ISJ's founding head came from Queen's College Preparatory School in London. The current head came from Ipswich High School — an independent day and boarding school on an 87-acre campus in Woolverstone, Suffolk. ISJ sends its top year group pupils to Ipswich High School every year for a two-week residential. That link is not decorative — it is an active partnership that gives ISJ students direct experience of a British boarding school environment.
 

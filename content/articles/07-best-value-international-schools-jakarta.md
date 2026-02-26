@@ -92,11 +92,11 @@ At $20,000 it is not cheap — but it delivers institutional credibility and sta
 
 ### ISJ — ~$25,000–$28,000
 
-Cambridge IGCSE, A-levels (coming). 100% British-qualified teachers. BSO inspected. Pondok Indah, South Jakarta.
+Cambridge IGCSE, A-levels (coming). 100% British-qualified teachers. UK inspected (BSO in progress). Pondok Indah, South Jakarta.
 
 ISJ sits in the premium price bracket — its all-in annual fee for Year 1–2 is ~$25,000, which is essentially on par with BSJ once you include BSJ's compulsory Capital Levy Contribution. The value case is about what the fee buys.
 
-Every classroom teacher holds British QTS (Qualified Teacher Status). That is a verifiable claim — and one no other Jakarta school makes. BSO (British Schools Overseas) inspection provides external quality assurance. The school follows the English National Curriculum assessed through Cambridge qualifications.
+Every classroom teacher holds British QTS (Qualified Teacher Status). That is a verifiable claim — and one no other Jakarta school makes. UK inspection (BSO accreditation in progress) provides external quality assurance. The school follows the English National Curriculum assessed through Cambridge qualifications.
 
 ISJ is newer than BSJ or JIS, which means less alumni network and less institutional history. But on the core metric — qualified teachers delivering a recognised curriculum at a competitive price — it offers premium-tier teaching quality at a fee that undercuts the established premium schools.
 

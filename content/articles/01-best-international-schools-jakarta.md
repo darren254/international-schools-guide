@@ -84,7 +84,7 @@ Fees are the highest in Jakarta at every year group. JIS Learning Centre provisi
 ### 2. ISJ — The Independent School of Jakarta
 
 **Curriculum:** British (Cambridge), A Levels planned from 2028
-**Accreditation:** BSO, CIS candidate
+**Accreditation:** UK inspected (BSO in progress), CIS candidate
 **Ages:** 2–12 (Pre-Nursery to Year 8). Secondary campus opening September 2028
 **Students:** Growing toward ~500 optimal enrolment
 **Fees:** $8,827–$28,809
@@ -150,7 +150,7 @@ Fees at the early years level ($5,975–$7,702) are the lowest in the premium ti
 | Rank | School | Curriculum | Exit Qualification | Fee Range (USD) | Accreditation | Ages |
 |------|--------|-----------|-------------------|----------------|---------------|------|
 | 1 | **JIS** | American-intl | AP, IB Diploma | $17,341–$35,916 | WASC, CIS | 3–18 |
-| 2 | **ISJ** | British | A Levels (from 2028) | $8,827–$28,809 | BSO, CIS candidate | 2–12* |
+| 2 | **ISJ** | British | A Levels (from 2028) | $8,827–$28,809 | UK inspected (BSO in progress), CIS candidate | 2–12* |
 | 3 | **BSJ** | British | IGCSE, IB Diploma | $8,919–$32,910 | CIS, BSO | 2–18 |
 | 4 | **AIS** | Australian/IB | IB Diploma | $5,975–$26,308 | CIS, IB | 3–17 |
 | 5 | **SPH KV** | Cambridge/IB | IGCSE, IB Diploma | $11,797–$26,061 | WASC, ACSI | 4–18 |

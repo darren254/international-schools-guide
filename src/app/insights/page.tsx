@@ -51,12 +51,12 @@ function displayDate(raw: string) {
   return raw.replace(/^Originally published:\s*/i, "").trim();
 }
 
-function CardImage({ slug, alt, className }: { slug: string; alt: string; className: string }) {
+function CardImage({ slug, alt, className, priority = false }: { slug: string; alt: string; className: string; priority?: boolean }) {
   const src = getInsightImageUrl(slug, "card");
   if (!src) {
     return <div className={`${className} bg-cream-200`} aria-hidden />;
   }
-  return <Image src={src} alt={alt} width={960} height={640} className={`${className} object-cover`} />;
+  return <Image src={src} alt={alt} width={960} height={640} className={`${className} object-cover`} priority={priority} />;
 }
 
 export default function InsightsPage() {
@@ -91,7 +91,7 @@ export default function InsightsPage() {
           <div>
             <p className="text-xs uppercase tracking-[0.16em] text-hermes font-semibold mb-3">Featured coverage</p>
             <Link href={`/insights/${lead.slug}`} className="block border-t-4 border-charcoal pt-4 pb-6">
-              <CardImage slug={lead.slug} alt={lead.h1} className="w-full h-56 md:h-72 mb-4 rounded-sm" />
+              <CardImage slug={lead.slug} alt={lead.h1} className="w-full h-56 md:h-72 mb-4 rounded-sm" priority />
               <p className="text-xs uppercase tracking-wider text-charcoal-muted mb-2">{lead.categoryTag}</p>
               <h2 className="font-display text-4xl md:text-5xl text-charcoal leading-tight mb-3">{lead.h1}</h2>
               <p className="text-charcoal-muted text-lg leading-relaxed mb-4">
