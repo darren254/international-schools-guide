@@ -233,10 +233,10 @@ export default function HomePage() {
             <Link
               key={school.slug}
               href={`/international-schools/${school.citySlug}/${school.slug}/`}
-              className="group border border-warm-border rounded-sm overflow-hidden hover:border-charcoal-muted transition-colors bg-warm-white"
+              className="group border border-warm-border rounded-sm overflow-hidden bg-warm-white transition-all duration-200 hover:shadow-lg flex flex-col"
             >
               {/* Hero image */}
-              <div className="aspect-[16/7] bg-cream-300 group-hover:bg-cream-400 transition-colors relative">
+              <div className="aspect-[16/7] bg-cream-300 group-hover:bg-cream-400 transition-colors relative overflow-hidden">
                 {school.sponsored && (
                   <span className="absolute top-2 right-2 text-[0.6875rem] uppercase tracking-wider text-charcoal-muted z-10 bg-warm-white/90 px-2 py-1 rounded-sm">
                     Sponsored
@@ -247,12 +247,12 @@ export default function HomePage() {
                   <img 
                     src={getSchoolImageUrl(school.slug, "card")} 
                     alt={school.name} 
-                    className="w-full h-full object-cover school-image absolute inset-0" 
+                    className="w-full h-full object-cover school-image absolute inset-0 transition-transform duration-300 group-hover:scale-105" 
                     loading="lazy" 
                   />
                 )}
               </div>
-              <div className="p-5">
+              <div className="p-5 flex-1 flex flex-col">
                 <div className="flex items-start justify-between gap-3 mb-2">
                   <h3 className="font-display text-display-sm font-medium group-hover:text-hermes transition-colors leading-tight">
                     {school.name}
@@ -261,10 +261,10 @@ export default function HomePage() {
                     {school.city}
                   </span>
                 </div>
-                <p className="text-sm text-charcoal-light leading-relaxed mb-3">
+                <p className="text-sm text-charcoal-light leading-relaxed mb-3 flex-1">
                   {school.hook}
                 </p>
-                <div className="flex flex-wrap gap-x-5 gap-y-1 text-[0.8125rem] text-charcoal-muted">
+                <div className="flex flex-wrap gap-x-5 gap-y-1 text-[0.8125rem] text-charcoal-muted mt-auto">
                   <span>{school.feeRange} / year</span>
                   <span>IB avg {school.ibAverage}</span>
                   <span>{school.students} students</span>
@@ -273,7 +273,7 @@ export default function HomePage() {
                   {school.curricula.map((c) => (
                     <span
                       key={c}
-                      className="text-label-xs uppercase text-hermes bg-hermes-light px-2.5 py-1 rounded-sm"
+                      className="text-[10px] font-semibold uppercase tracking-wide text-hermes bg-hermes-light px-2.5 py-1 rounded-sm"
                     >
                       {c}
                     </span>
