@@ -105,7 +105,7 @@ Between the fully Indonesian national curriculum and the fully international SPK
 
 These schools hold Indonesian national school accreditation (not SPK) but offer significant English instruction, often with international curriculum elements woven in. Under Merdeka, they have more room to do this than before.
 
-Examples in Jakarta include schools like Sekolah Cita Buana (SCB), which delivers a bilingual Indonesian-English programme grounded in the national curriculum with IB-influenced pedagogy. Other bilingual schools blend the Merdeka framework with Cambridge Primary or IB PYP approaches at primary level, without holding SPK status.
+Examples in Jakarta include schools like [Sekolah Cita Buana](/international-schools/jakarta/sekolah-cita-buana/) (SCB), which delivers a bilingual Indonesian-English programme grounded in the national curriculum with IB-influenced pedagogy. Other bilingual schools blend the Merdeka framework with Cambridge Primary or IB PYP approaches at primary level, without holding SPK status.
 
 The appeal of this middle ground:
 
@@ -189,6 +189,13 @@ The honest picture: the SPK pathway to international universities is more straig
 
 ---
 
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
+
 ## FAQs
 
 **Can an Indonesian child attend an SPK school?**
@@ -224,7 +231,7 @@ Indonesian secondary qualifications (SMA diploma) are recognised by many interna
 
 [RELATED ARTICLES — 3 cards: "#36 SPK Schools in Jakarta Explained", "#1 Best International Schools in Jakarta", "#9 Best Bilingual Schools in Jakarta"]
 
-[SCHOOL PROFILE CARDS — Sekolah Cita Buana, Binus Simprug, SPH, Mentari]
+[SCHOOL PROFILE CARDS — Sekolah Cita Buana, [Binus Simprug](/international-schools/jakarta/binus-school-simprug/), [SPH](/international-schools/jakarta/sekolah-pelita-harapan/), Mentari]
 
 ---
 

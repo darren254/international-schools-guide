@@ -82,7 +82,7 @@ Pondok Indah is where Jakarta's wealthiest Indonesian families and the most seni
 
 Housing here means large detached houses in security-patrolled compounds. Four to five bedrooms, swimming pool, garden, staff quarters, double carport. Rents start around $3,000 per month and go well past $6,000 for the best properties. Apartments are also available — several newer towers along Jalan Sultan Iskandar Muda offer modern units — but most families with children choose houses.
 
-**Schools.** JIS is in the neighbourhood — the campus sits on the border of Pondok Indah and Cilandak, with the Elementary entrance on the Pondok Indah side. ISJ in Pondok Indah is 5–10 minutes. AIS in Kemang/Pejaten is 15–20 minutes east.
+**Schools.** [JIS](/international-schools/jakarta/jakarta-intercultural-school/) is in the neighbourhood — the campus sits on the border of Pondok Indah and Cilandak, with the Elementary entrance on the Pondok Indah side. [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) in Pondok Indah is 5–10 minutes. [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) in Kemang/Pejaten is 15–20 minutes east.
 
 **The trade-off.** Pondok Indah is walkable in parts — the malls, hospitals, cafés and restaurants along the main streets are accessible on foot from many compounds. But the social scene is centred on malls and private clubs rather than independent street-level bars and restaurants. Younger expats and those without children sometimes find it quiet.
 
@@ -96,7 +96,7 @@ Kemang is Jakarta's original expat village. The streets around Jalan Kemang Raya
 
 Housing is a mix of older freestanding houses in Kemang Dalam ($2,000–$4,000/month, three to five bedrooms, pool, garden) and modern apartments in Kemang Village (from $1,000/month). The houses have character — mature trees, high walls, garden courts — but many date from the 1980s and 1990s. Condition varies. Check before committing.
 
-**Schools.** AIS is in the neighbourhood (Pejaten). NZ School Jakarta and SPH Kemang Village are within walking distance from some addresses. JIS is 15–20 minutes. ISJ is about 20 minutes via back roads.
+**Schools.** AIS is in the neighbourhood (Pejaten). [NZ School Jakarta](/international-schools/jakarta/new-zealand-school-jakarta/) and [SPH Kemang Village](/international-schools/jakarta/sekolah-pelita-harapan-kemang-village/) are within walking distance from some addresses. JIS is 15–20 minutes. ISJ is about 20 minutes via back roads.
 
 **The trade-off.** Traffic and flooding. Jalan Kemang Raya is a single carriageway that carries too much traffic. At school-run times it crawls. Lower Kemang near the river floods during heavy rains, particularly December to February. Ask about flood history before signing a lease — and ask the neighbours, not the landlord.
 
@@ -142,7 +142,7 @@ Housing here is more apartment than house. Several mid-rise buildings offer two-
 
 ## Bintaro
 
-Bintaro exists for one reason in most expat conversations: the British School Jakarta. BSJ's campus is here, and families who want a short school run — 5 to 10 minutes — live in Bintaro. It is that straightforward.
+Bintaro exists for one reason in most expat conversations: the [British School Jakarta](/international-schools/jakarta/british-school-jakarta/). BSJ's campus is here, and families who want a short school run — 5 to 10 minutes — live in Bintaro. It is that straightforward.
 
 Beyond BSJ, Bintaro is a large planned residential development in South Tangerang, south-west of central Jakarta. The streets are wide, the compounds new, and the houses spacious. Rents are the lowest of any area in this guide: $1,000–$2,500 per month for a modern four-to-five-bedroom house with pool, garden and 24-hour security. For families relocating from London or Singapore, the space-per-dollar is startling.
 
@@ -154,7 +154,7 @@ Bintaro has its own malls (AEON, Bintaro Jaya Xchange), restaurants, supermarket
 
 ## BSD City and Serpong
 
-BSD City (Bumi Serpong Damai) is the newest entrant on the expat radar. A planned city development 30 kilometres south-west of central Jakarta, it hosts two significant international schools: Sekolah Pelita Harapan (SPH) Lippo Village and Sinarmas World Academy.
+BSD City (Bumi Serpong Damai) is the newest entrant on the expat radar. A planned city development 30 kilometres south-west of central Jakarta, it hosts two significant international schools: [Sekolah Pelita Harapan](/international-schools/jakarta/sekolah-pelita-harapan/) (SPH) Lippo Village and [Sinarmas World Academy](/international-schools/jakarta/sinarmas-world-academy/).
 
 Housing is modern, purpose-built, and cheap by Jakarta expat standards: $800–$2,000 per month for a three-to-four-bedroom house. The developments are clean and well-maintained. AEON Mall BSD, The Breeze, and QBig are the commercial centres. Healthcare is adequate but limited — serious cases go to Pondok Indah Hospital (45+ minutes) or Siloam Hospitals.
 
@@ -192,6 +192,13 @@ Start with the school. Every decision follows from where your children will spen
 
 ---
 
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
+
 ## FAQs
 
 **Which area in Jakarta is safest for expats?**
@@ -226,7 +233,7 @@ Bluesky: [@mia-isg.bsky.social](https://bsky.app/profile/mia-isg.bsky.social)
 
 [RELATED ARTICLES — 3 cards: "#46 Living in Kemang", "#47 Living in Cipete & Cilandak", "#51 Relocating to Jakarta with Kids"]
 
-[SCHOOL PROFILE CARDS — JIS, ISJ, BSJ, AIS, NAS, SPH Lippo Village]
+[SCHOOL PROFILE CARDS — JIS, ISJ, BSJ, AIS, [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/), SPH Lippo Village]
 
 ---
 

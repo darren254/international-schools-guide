@@ -24,10 +24,10 @@ read_time: "9 min read"
 
 ## TL;DR
 
-- JIS is the strongest secondary school in Jakarta — the only school offering both AP and IB Diploma, with WASC accreditation and the broadest co-curricular programme in the city
-- BSJ runs a distinctive British pathway: English National Curriculum through IGCSE, then IB Diploma in Sixth Form — with strong results and experienced UK-qualified staff
-- AIS offers the IB Diploma after an Australian curriculum pathway, with particularly strong pastoral care and learning support
-- The mid-tier schools — ACG, Binus Simprug, NJIS and GMIS — all offer credible IB Diploma programmes at significantly lower fees
+- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) is the strongest secondary school in Jakarta — the only school offering both AP and IB Diploma, with WASC accreditation and the broadest co-curricular programme in the city
+- [BSJ](/international-schools/jakarta/british-school-jakarta/) runs a distinctive British pathway: English National Curriculum through IGCSE, then IB Diploma in Sixth Form — with strong results and experienced UK-qualified staff
+- [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) offers the IB Diploma after an Australian curriculum pathway, with particularly strong pastoral care and learning support
+- The mid-tier schools — [ACG](/international-schools/jakarta/acg-school-jakarta/), [Binus Simprug](/international-schools/jakarta/binus-school-simprug/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) and [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/) — all offer credible IB Diploma programmes at significantly lower fees
 - ISJ is building a new secondary campus opening September 2028 — one to watch, but not yet a secondary option
 
 ## In this article
@@ -47,7 +47,7 @@ Secondary is where the stakes rise. At primary level, most good international sc
 
 Jakarta has a strong cluster of international schools offering secondary programmes with internationally recognised exit qualifications. The best of them deliver IB Diploma, A Levels, AP or Cambridge IGCSEs — qualifications that open doors to universities in the UK, US, Australia, Asia and Europe. Below them sit credible mid-tier options that offer the same qualifications at lower fees, with the trade-offs you would expect.
 
-This ranking covers schools with publicly available fee data that offer secondary programmes through to internationally recognised exit qualifications. Schools that do not publish fees — including Sinarmas World Academy — are excluded.
+This ranking covers schools with publicly available fee data that offer secondary programmes through to internationally recognised exit qualifications. Schools that do not publish fees — including [Sinarmas World Academy](/international-schools/jakarta/sinarmas-world-academy/) — are excluded.
 
 ## The Schools {#the-schools}
 
@@ -188,7 +188,7 @@ For more on where Jakarta school graduates end up, see our guides on [university
 
 ## ISJ — The One to Watch {#isj-the-one-to-watch}
 
-ISJ (The Independent School of Jakarta) is a British independent school currently serving students through to Year 8. A new secondary campus is opening in September 2028, extending the school through to A Levels.
+ISJ ([The Independent School of Jakarta](/international-schools/jakarta/independent-school-of-jakarta/)) is a British independent school currently serving students through to Year 8. A new secondary campus is opening in September 2028, extending the school through to A Levels.
 
 ISJ's primary programme has a strong reputation — a British independent school character with staff who know every child, strong pastoral care, and an extracurricular range that belies its size. The school is targeting an optimal enrolment of around 500 pupils. Current fees run to $28,809 at Year 8.
 
@@ -202,6 +202,14 @@ When the secondary campus opens, ISJ will offer A Levels — making it the first
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
 
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta schools and compare secondary options →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
+
 ## FAQs {#faqs}
 
 **Which Jakarta school is best for US university admissions?**
@@ -211,7 +219,7 @@ JIS. It is WASC-accredited, produces US-compatible transcripts, offers AP course
 Yes, and BSJ's model does this internally — British pathway through IGCSE, then IB Diploma at 16. Moving from another British school (or from BSJ) into a pure IB school like AIS or ACG at 16 is also possible, though the transition from IGCSE to IB requires adjustment. The academic content is manageable; the assessment style is different.
 
 **Why isn't NAS on this list?**
-NAS Jakarta currently runs to Year 7. It does not offer secondary exit qualifications. Families at NAS will need to move their children to another school for Years 8–13. This is a significant consideration when choosing NAS for primary — plan the transition early.
+[NAS Jakarta](/international-schools/jakarta/nord-anglia-school-jakarta/) currently runs to Year 7. It does not offer secondary exit qualifications. Families at NAS will need to move their children to another school for Years 8–13. This is a significant consideration when choosing NAS for primary — plan the transition early.
 
 **Is the IB Diploma harder than A Levels?**
 Different, not harder. The IB requires six subjects plus the core (TOK, Extended Essay, CAS) — it guarantees breadth. A Levels allow three or four subjects studied in greater depth. The workload feels different: IB is broader and more structured, A Levels more focused. Strong students succeed in both. Read our [IB vs A-Levels comparison](#25) for the full breakdown.

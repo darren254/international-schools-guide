@@ -50,11 +50,11 @@ The common reasons, in order of frequency:
 
 **Corporate relocation.** A family arrives in Jakarta in January or March and needs a school immediately. The academic year started in August. The child enters mid-year.
 
-**Waitlist place opening.** A family enrolled their child at a second-choice school while waiting for JIS, BSJ or ISJ. A place opens in November. They transfer.
+**Waitlist place opening.** A family enrolled their child at a second-choice school while waiting for [JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/) or [ISJ](/international-schools/jakarta/independent-school-of-jakarta/). A place opens in November. They transfer.
 
 **School mismatch.** The school is not working for the child — academically, socially, or in terms of learning support. The family decides to move rather than wait for the end of the year.
 
-**AIS calendar difference.** AIS runs January–December. Every other premium school runs August–June. A transfer in either direction will be mid-year for one of the two schools.
+**[AIS](/international-schools/jakarta/australian-independent-school-jakarta/) calendar difference.** AIS runs January–December. Every other premium school runs August–June. A transfer in either direction will be mid-year for one of the two schools.
 
 All four scenarios are common. Schools do not view mid-year entrants negatively. They view them as part of the rhythm of international education.
 
@@ -62,9 +62,9 @@ All four scenarios are common. Schools do not view mid-year entrants negatively.
 
 The smoothest transfers are within the same curriculum family.
 
-**British to British** (e.g., NAS to BSJ, ISJ to BSJ): Minimal academic disruption. The English National Curriculum framework and Cambridge assessments are consistent. Subject content aligns closely. The child adjusts to a new school culture, not a new academic system.
+**British to British** (e.g., [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/) to BSJ, ISJ to BSJ): Minimal academic disruption. The English National Curriculum framework and Cambridge assessments are consistent. Subject content aligns closely. The child adjusts to a new school culture, not a new academic system.
 
-**IB to IB** (e.g., ACG to JIS, Binus Simprug to NJIS): The IB PYP and MYP frameworks are designed for international mobility. Units of inquiry and assessment styles differ between schools, but the underlying structure is familiar. A child moving between IB schools mid-year will adjust faster than one switching curriculum systems.
+**IB to IB** (e.g., [ACG](/international-schools/jakarta/acg-school-jakarta/) to JIS, [Binus Simprug](/international-schools/jakarta/binus-school-simprug/) to [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/)): The IB PYP and MYP frameworks are designed for international mobility. Units of inquiry and assessment styles differ between schools, but the underlying structure is familiar. A child moving between IB schools mid-year will adjust faster than one switching curriculum systems.
 
 **American to American** (e.g., between JIS and another American-curriculum school): JIS uses an American framework. Transferring from another American school — or from an international school abroad that uses AP or Common Core standards — is straightforward.
 
@@ -109,6 +109,13 @@ Children process change differently depending on age.
 ## Quiz {#quiz}
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
 
 ## FAQs {#faqs}
 

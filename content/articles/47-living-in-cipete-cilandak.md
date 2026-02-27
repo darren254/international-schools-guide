@@ -36,7 +36,7 @@ Originally published: 24 February 2026
 
 - Cipete and Cilandak are adjacent neighbourhoods in South Jakarta — less famous than Kemang or Pondok Indah, but increasingly favoured by expat families who want value, space and a manageable school commute
 - Cipete has an MRT station (Cipete Raya) connecting directly to Sudirman and central Jakarta in 15–20 minutes — the only expat neighbourhood in South Jakarta with this
-- Cilandak borders JIS (the campus straddles Pondok Indah and Cilandak) and is 10 minutes from ISJ. Families at either school often live here
+- Cilandak borders [JIS](/international-schools/jakarta/jakarta-intercultural-school/) (the campus straddles Pondok Indah and Cilandak) and is 10 minutes from [ISJ](/international-schools/jakarta/independent-school-of-jakarta/). Families at either school often live here
 - Housing is 20–30% cheaper than equivalent properties in Pondok Indah. Expect $1,500–$3,500 per month for a family house
 - The trade-off: fewer restaurants and services than Kemang, less prestige than Pondok Indah. These are residential neighbourhoods, not lifestyle destinations
 
@@ -106,7 +106,7 @@ Both Cipete and Cilandak sit in the geographic sweet spot of South Jakarta's int
 
 *Drive times in normal traffic. Add 10–20 minutes at peak school-run times. Fee ranges are annual totals in USD.*
 
-Cilandak is the natural home for JIS families — the campus sits on the border of Pondok Indah and Cilandak, with the Middle/High entrance on the Cilandak side and the Elementary entrance on the Pondok Indah side. ISJ in Pondok Indah is a short drive west. French families gravitate to Cipete for the Lycée. AIS in Pejaten/Kemang is easily reached from both areas.
+Cilandak is the natural home for JIS families — the campus sits on the border of Pondok Indah and Cilandak, with the Middle/High entrance on the Cilandak side and the Elementary entrance on the Pondok Indah side. ISJ in Pondok Indah is a short drive west. French families gravitate to Cipete for the Lycée. [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) in Pejaten/Kemang is easily reached from both areas.
 
 ---
 
@@ -153,7 +153,7 @@ Services are adequate rather than abundant. International clinics, dental practi
 **These areas are a weaker choice if:**
 - You want walkable nightlife, restaurants and social energy on your doorstep — Kemang does this better
 - You want a prestige address with wide streets and gated luxury — Pondok Indah does this better
-- You need to be within 10 minutes of BSJ — Bintaro is the only answer for that
+- You need to be within 10 minutes of [BSJ](/international-schools/jakarta/british-school-jakarta/) — Bintaro is the only answer for that
 
 For comparisons, see [Living in Kemang](#46) and [Living in Pondok Indah](#45). For the city-wide view, see [Best Areas in Jakarta for Expat Families](#48).
 
@@ -162,6 +162,13 @@ For comparisons, see [Living in Kemang](#46) and [Living in Pondok Indah](#45). 
 [NEWSLETTER CTA — "Get our Jakarta schools update — fees, admissions and rankings, direct to your inbox."]
 
 ---
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
 
 ## FAQs
 

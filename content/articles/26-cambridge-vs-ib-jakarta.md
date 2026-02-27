@@ -26,7 +26,7 @@ Originally published: February 2026 | 7 min read
 - Cambridge (IGCSE + A Levels) and the IB Diploma are the two dominant exit qualifications at Jakarta's international schools — both are globally recognised and accepted by top universities worldwide
 - Cambridge is not a separate curriculum. It is an examination framework aligned to the English National Curriculum. Schools that "follow Cambridge" are teaching the English National Curriculum using Cambridge assessments
 - The IB Diploma is broader — six subjects, a 4,000-word Extended Essay, Theory of Knowledge, and 150 hours of community service (CAS). A Levels go deeper — three or four subjects studied in concentrated detail
-- In Jakarta, ISJ and ACG offer the Cambridge/A Level route. BSJ uses the English National Curriculum through IGCSE, then switches to IB Diploma in Years 12–13. JIS offers AP and IB Diploma. SPH runs the full IB programme (PYP, MYP, DP)
+- In Jakarta, [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) and [ACG](/international-schools/jakarta/acg-school-jakarta/) offer the Cambridge/A Level route. [BSJ](/international-schools/jakarta/british-school-jakarta/) uses the English National Curriculum through IGCSE, then switches to IB Diploma in Years 12–13. [JIS](/international-schools/jakarta/jakarta-intercultural-school/) offers AP and IB Diploma. SPH runs the full IB programme (PYP, MYP, DP)
 - High-performing schools share more with each other than with average schools in the same curriculum. Execution matters more than label. But curriculum shapes structure — and the right structure depends on your child
 
 ---
@@ -130,7 +130,7 @@ Here is how the major international schools in Jakarta line up.
 
 A note on early years: British schools in Jakarta typically use the Early Years Foundation Stage (EYFS) for nursery and Reception — a play-based framework focused on developmental domains before formal subject teaching begins at Key Stage 1. IB schools use the Primary Years Programme (PYP), which is inquiry-led and concept-driven. Both are valid early years approaches. The differences become more visible from age 7 onward.
 
-The pattern at the top is clear. Schools following the English National Curriculum through primary and secondary (IGCSE) split at the exit: ISJ and ACG continue with A Levels; BSJ and NAS switch to IB Diploma. SPH runs the IB from start to finish. JIS offers both AP and IB Diploma alongside its American programme.
+The pattern at the top is clear. Schools following the English National Curriculum through primary and secondary (IGCSE) split at the exit: ISJ and ACG continue with A Levels; BSJ and [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/) switch to IB Diploma. SPH runs the IB from start to finish. JIS offers both AP and IB Diploma alongside its American programme.
 
 One caveat on full-IB schools: the quality of the IB PYP and MYP varies significantly by implementation. The Diploma Programme is externally examined and globally standardised. The PYP and MYP are not — they are school-assessed, and how well they are delivered depends on staff capability and leadership. A school being "authorised for PYP" tells you less than you might think.
 
@@ -224,6 +224,14 @@ This points to the most important thing in this article: high-performing schools
 
 ---
 
+
+---
+
+**Ready to explore?**
+
+- [Browse Jakarta schools and filter by curriculum →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
+
 ## FAQs
 
 **Can my child switch from Cambridge/A Levels to IB mid-way through school?**
@@ -258,7 +266,7 @@ If you are likely to move to the UK, starting in the English National Curriculum
 
 ---
 
-[SCHOOL PROFILE CARDS — ISJ, BSJ, JIS, AIS, SPH Lippo Village, ACG]
+[SCHOOL PROFILE CARDS — ISJ, BSJ, JIS, AIS, [SPH Lippo Village](/international-schools/jakarta/sekolah-pelita-harapan/), ACG]
 
 ---
 

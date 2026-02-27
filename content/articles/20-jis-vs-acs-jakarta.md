@@ -14,7 +14,7 @@ byline: Mia Windsor
 
 Jakarta · School Comparisons
 
-JIS and ACS Jakarta represent two fundamentally different philosophies of education — different in culture, pedagogy, student body, geography and price. Families considering both are rare. Families who understand the difference before visiting will save themselves time.
+[JIS](/international-schools/jakarta/jakarta-intercultural-school/) and [ACS Jakarta](/international-schools/jakarta/acs-jakarta/) represent two fundamentally different philosophies of education — different in culture, pedagogy, student body, geography and price. Families considering both are rare. Families who understand the difference before visiting will save themselves time.
 
 *Written by Mia Windsor · Originally published: 24 February 2026 · 6 min read*
 
@@ -58,7 +58,7 @@ JIS and ACS Jakarta represent two fundamentally different philosophies of educat
 
 ## What JIS Offers
 
-JIS is the school most expat families in Jakarta hear about first. Founded in 1951 as the Joint Embassy School, it has operated continuously for over 70 years and sits at the top of Jakarta's international school market alongside BSJ and ISJ. It is a non-profit — 100% of revenue goes back into the school.
+JIS is the school most expat families in Jakarta hear about first. Founded in 1951 as the Joint Embassy School, it has operated continuously for over 70 years and sits at the top of Jakarta's international school market alongside [BSJ](/international-schools/jakarta/british-school-jakarta/) and [ISJ](/international-schools/jakarta/independent-school-of-jakarta/). It is a non-profit — 100% of revenue goes back into the school.
 
 The campus footprint is enormous. Three campuses across South Jakarta totalling over 46 acres — swimming pools, playing fields, theatres, science labs, libraries with 130,000 volumes. Two elementary campuses (Pattimura in Kebayoran Baru and Pondok Indah) and one middle/high school campus in Cilandak, connected by a walking bridge. The facilities are, by any measure, among the best of any school in Southeast Asia.
 
@@ -125,6 +125,13 @@ The table and profiles above give you the facts. Here is what they mean in pract
 Neither school is objectively better. They are designed for different families, different children and different priorities. Visiting both — and watching how students and teachers interact in classrooms, not just in admissions presentations — is the only way to know which one fits.
 
 ---
+
+
+---
+
+**Ready to explore?**
+
+- [Compare schools side by side →](/compare)
 
 ## FAQs
 

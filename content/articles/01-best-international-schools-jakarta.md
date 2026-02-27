@@ -34,11 +34,11 @@ read_time: "12 min read"
 
 ## TL;DR
 
-- JIS is generally regarded as the top-ranked international school in Jakarta: the most established, and most expensive. It is the only school offering both AP and IB Diploma, with WASC and CIS accreditation.
-- ISJ is a newer premium British independent school. Currently Pre-Nursery to Year 8, with a secondary campus opening in Pondok Indah in September 2028. Once the secondary is established, ISJ's location, the quality of its faculty, and its distinctly British identity could make it the most sought-after British option.
-- BSJ is located just outside Jakarta. It remains one of the strongest all-through options in the city and boasts strong IB results, with published IB averages of 35 (2024) and 34.7 (2025).
-- AIS is the only school with Australian curriculum heritage, transitioning to IB Diploma for Years 11-12. The lowest entry-level fees in the premium tier.
-- The mid-tier (NAS, ACG, SPH, ACS Jakarta, NZ School Jakarta) offers credible international qualifications at $4,000-$25,000 per year, with trade-offs in faculty and campus quality that you would expect.
+- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) is generally regarded as the top-ranked international school in Jakarta: the most established, and most expensive. It is the only school offering both AP and IB Diploma, with WASC and CIS accreditation.
+- [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) is a newer premium British independent school. Currently Pre-Nursery to Year 8, with a secondary campus opening in Pondok Indah in September 2028. Once the secondary is established, ISJ's location, the quality of its faculty, and its distinctly British identity could make it the most sought-after British option.
+- [BSJ](/international-schools/jakarta/british-school-jakarta/) is located just outside Jakarta. It remains one of the strongest all-through options in the city and boasts strong IB results, with published IB averages of 35 (2024) and 34.7 (2025).
+- [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) is the only school with Australian curriculum heritage, transitioning to IB Diploma for Years 11-12. The lowest entry-level fees in the premium tier.
+- The mid-tier (NAS, [ACG](/international-schools/jakarta/acg-school-jakarta/), [SPH](/international-schools/jakarta/sekolah-pelita-harapan/), [ACS Jakarta](/international-schools/jakarta/acs-jakarta/), [NZ School Jakarta](/international-schools/jakarta/new-zealand-school-jakarta/)) offers credible international qualifications at $4,000-$25,000 per year, with trade-offs in faculty and campus quality that you would expect.
 - At Year 1 (age 5-6), premium tier fees range from AIS at $20,459 to JIS at $31,367. At Year 7, from AIS at $25,628 to JIS at $35,685. Fee schedules at all the top schools are published transparently on their websites.
 
 ## In this article
@@ -182,11 +182,11 @@ For a shorter comparison of the top four, see our [Top 5 International Schools i
 
 The mid-tier schools serve a different market — families who want an international qualification at a lower fee point, or families who cannot secure a place at a premium school and need a confirmed alternative.
 
-**SPH Kemang Village** ($11,797–$26,061) runs Cambridge to IB Diploma with WASC and ACSI accreditation. The school's Christian ethos is a defining feature. SPH's top-end fees ($26,061 at IB DP) overlap with AIS, making it a genuine alternative at the secondary level for families comfortable with the religious dimension.
+**[SPH Kemang Village](/international-schools/jakarta/sekolah-pelita-harapan-kemang-village/)** ($11,797–$26,061) runs Cambridge to IB Diploma with WASC and ACSI accreditation. The school's Christian ethos is a defining feature. SPH's top-end fees ($26,061 at IB DP) overlap with AIS, making it a genuine alternative at the secondary level for families comfortable with the religious dimension.
 
 **ACG Jakarta** ($9,873–$24,673) offers the full IB continuum and delivers the IB Diploma as its exit qualification. Limited published outcome data makes independent assessment difficult. Fees at secondary are competitive with AIS and below BSJ.
 
-**NAS (Nord Anglia School Jakarta)** ($6,911–$20,874) is part of the global Nord Anglia network but currently runs only to Year 7. Until NAS extends to secondary, it cannot serve families who want a full school career in one institution. NAS is a reasonable primary option with the expectation of transferring to another school for secondary.
+**NAS ([Nord Anglia School Jakarta](/international-schools/jakarta/nord-anglia-school-jakarta/))** ($6,911–$20,874) is part of the global Nord Anglia network but currently runs only to Year 7. Until NAS extends to secondary, it cannot serve families who want a full school career in one institution. NAS is a reasonable primary option with the expectation of transferring to another school for secondary.
 
 **ACS Jakarta** ($15,607–$19,244) offers IGCSE to IB Diploma without an early years programme. ACS is one of the most affordable routes to an IB Diploma in Jakarta — and at roughly half the cost of JIS at the IB DP level.
 
@@ -234,6 +234,14 @@ This is not a formula. It is a judgement, made by an editorial team that engages
 ## Quiz {#quiz}
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all international schools in Jakarta →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
 
 ## FAQs {#faqs}
 

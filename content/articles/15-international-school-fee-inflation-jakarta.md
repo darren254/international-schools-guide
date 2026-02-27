@@ -25,7 +25,7 @@ read_time: "6 min read"
 ## TL;DR
 
 - International school fees in Jakarta have risen steadily over the past five years, driven by currency movements, teacher salary competition, and facility investment
-- The premium tier (JIS, BSJ, ISJ, AIS) charges $25,000–$36,000 at secondary level in 2025–26. These figures were lower two to three years ago in both IDR and USD terms
+- The premium tier ([JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/), [AIS](/international-schools/jakarta/australian-independent-school-jakarta/)) charges $25,000–$36,000 at secondary level in 2025–26. These figures were lower two to three years ago in both IDR and USD terms
 - Global data from ISC Research shows international school fee revenue worldwide grew 18% over the last five years and 71% over the last decade
 - Jakarta's fee inflation tracks the broader Southeast Asian market — fees rise faster than local consumer inflation because international schools compete in a global labour market
 - Families planning a full school career (Nursery to Year 13) should budget for annual increases of 3–7% in IDR terms and factor in exchange rate movement if earning in a non-IDR currency
@@ -67,7 +67,7 @@ Jakarta's premium schools have seen meaningful fee increases over recent years.
 
 **AIS** fees for 2025–26 range from $5,975 at Preschool to $26,308 at Years 11–12. AIS runs on a calendar year (January–December), which means fee reviews align differently from August-start schools.
 
-The mid-tier schools — NAS, ACG, NJIS — also increase fees annually, though at a lower nominal level because their base fees are lower. A 5% increase on a $15,000 fee is $750. A 5% increase on a $35,000 fee is $1,750. The percentage may be similar; the dollar impact is very different.
+The mid-tier schools — [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) — also increase fees annually, though at a lower nominal level because their base fees are lower. A 5% increase on a $15,000 fee is $750. A 5% increase on a $35,000 fee is $1,750. The percentage may be similar; the dollar impact is very different.
 
 <!-- IMAGE PLACEHOLDER: Infographic — fee ranges over time or fee band comparison -->
 
@@ -106,6 +106,13 @@ International school fees are not rising arbitrarily. Four structural factors dr
 ## Quiz {#quiz}
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta schools and compare current fees →](/international-schools/jakarta/)
 
 ## FAQs {#faqs}
 

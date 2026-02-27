@@ -12,7 +12,7 @@ byline: Mia Windsor
 
 # The Most Affordable International Schools in Jakarta
 
-Jakarta's international school market starts at around $5,000 a year and runs past $30,000. The headline figures from the city's top-tier schools — JIS, ISJ, BSJ — dominate most conversations, but most families relocating to Jakarta are not looking at those fees. They are looking at what a good international education costs in the $8,000 to $18,000 range, and what they are and aren't getting for that money.
+Jakarta's international school market starts at around $5,000 a year and runs past $30,000. The headline figures from the city's top-tier schools — [JIS](/international-schools/jakarta/jakarta-intercultural-school/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/), [BSJ](/international-schools/jakarta/british-school-jakarta/) — dominate most conversations, but most families relocating to Jakarta are not looking at those fees. They are looking at what a good international education costs in the $8,000 to $18,000 range, and what they are and aren't getting for that money.
 
 This guide covers that range honestly: what the mid-tier options offer, where they compromise, and which schools are worth shortlisting.
 
@@ -35,7 +35,7 @@ Affordable, in this market, means anything in or below that mid-tier range. It d
 
 ## The Mid-Tier at a Glance
 
-JIS, ISJ, BSJ, and AIS are not in this table — they are covered separately below.
+JIS, ISJ, BSJ, and [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) are not in this table — they are covered separately below.
 
 | School | Curriculum | Approx. Annual Tuition | Notes |
 |---|---|---|---|
@@ -66,7 +66,7 @@ Two top-tier schools are worth knowing about if your budget sits below $20,000 �
 
 ### GMIS (Global Mandiri International School)
 
-Located in South Jakarta, GMIS offers Cambridge-aligned programmes at the lower end of the mid-tier. For families on tighter budgets who want a Cambridge pathway, it merits a visit. Verify class sizes, teacher qualifications, and current Cambridge Centre status directly with the school.
+Located in South Jakarta, [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/) offers Cambridge-aligned programmes at the lower end of the mid-tier. For families on tighter budgets who want a Cambridge pathway, it merits a visit. Verify class sizes, teacher qualifications, and current Cambridge Centre status directly with the school.
 
 ### Mentari International School
 
@@ -74,11 +74,11 @@ Mentari operates across multiple campuses and offers a blend of Cambridge and na
 
 ### NAS (Nord Anglia School Jakarta)
 
-Nord Anglia School Jakarta is the city's Nord Anglia-branded campus, offering a British-influenced curriculum with Cambridge qualifications. Fees sit in the $9,000–$15,000 range depending on year group. A mid-tier school with a recognisable international brand; worth visiting if South Jakarta works for your commute. Verify current accreditation status and staffing model directly before shortlisting.
+[Nord Anglia School Jakarta](/international-schools/jakarta/nord-anglia-school-jakarta/) is the city's Nord Anglia-branded campus, offering a British-influenced curriculum with Cambridge qualifications. Fees sit in the $9,000–$15,000 range depending on year group. A mid-tier school with a recognisable international brand; worth visiting if South Jakarta works for your commute. Verify current accreditation status and staffing model directly before shortlisting.
 
 ### NJIS (North Jakarta Intercultural School)
 
-NJIS sits in Kelapa Gading in North Jakarta and runs an IB programme from primary through to the IB Diploma. For families based in North Jakarta — a geography most international schools ignore — it is one of very few credible options. Fees sit in the $10,000–$18,000 range depending on year group. Worth a visit for North Jakarta-based families; verify current IB authorisation status, teacher qualifications, and class sizes directly.
+[NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) sits in Kelapa Gading in North Jakarta and runs an IB programme from primary through to the IB Diploma. For families based in North Jakarta — a geography most international schools ignore — it is one of very few credible options. Fees sit in the $10,000–$18,000 range depending on year group. Worth a visit for North Jakarta-based families; verify current IB authorisation status, teacher qualifications, and class sizes directly.
 
 ### SIS (Sinarmas International School)
 
@@ -90,11 +90,11 @@ Binus runs multiple campuses across Jakarta and offers both Cambridge and nation
 
 ### ACG School Jakarta
 
-ACG offers IB Primary Years Programme through to IB Diploma — one of the more affordable routes to an IB pathway in Jakarta. Fees at $12,000–$18,000 sit at the upper end of the mid-tier. If an IB pathway matters and the top-tier IB schools are out of reach, ACG is worth a direct conversation.
+[ACG](/international-schools/jakarta/acg-school-jakarta/) offers IB Primary Years Programme through to IB Diploma — one of the more affordable routes to an IB pathway in Jakarta. Fees at $12,000–$18,000 sit at the upper end of the mid-tier. If an IB pathway matters and the top-tier IB schools are out of reach, ACG is worth a direct conversation.
 
 ### NZ School Jakarta
 
-NZ School Jakarta is a smaller independent school offering a New Zealand-influenced curriculum alongside Cambridge qualifications. A less well-known option but worth considering for families who prefer a smaller environment. Verify fees, accreditation, and year group availability directly.
+[NZ School Jakarta](/international-schools/jakarta/new-zealand-school-jakarta/) is a smaller independent school offering a New Zealand-influenced curriculum alongside Cambridge qualifications. A less well-known option but worth considering for families who prefer a smaller environment. Verify fees, accreditation, and year group availability directly.
 
 ---
 
@@ -125,6 +125,14 @@ NZ School Jakarta is a smaller independent school offering a New Zealand-influen
 **What are the full costs?** Even at a $10,000 school, lunch, transport, uniforms, and trips can add $3,000–$5,000 a year. Ask for a full cost breakdown, not just the tuition figure.
 
 ---
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta schools and sort by fees →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
 
 ## FAQs
 

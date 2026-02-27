@@ -25,10 +25,10 @@ read_time: "12 min read"
 ## TL;DR
 
 - Jakarta's international school market is growing — driven by rising Indonesian demand, not just expat numbers. Indonesian families now form the majority of the student body at several premium schools
-- The premium tier (JIS, BSJ, ISJ, AIS) is stable and fully enrolled at key entry points. Waiting lists at Nursery, Year 1 and Year 7 show no sign of easing
+- The premium tier ([JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/), [AIS](/international-schools/jakarta/australian-independent-school-jakarta/)) is stable and fully enrolled at key entry points. Waiting lists at Nursery, Year 1 and Year 7 show no sign of easing
 - ISJ's secondary campus (opening September 2028) is the single most significant development in the Jakarta market. It will create a third premium British-aligned secondary option alongside BSJ and JIS
 - Fee inflation continues at 3–7% annually in IDR terms. The gap between premium and mid-tier is widening in absolute dollar terms
-- The mid-tier market (NAS, ACG, NJIS, Binus Simprug) offers credible alternatives but with less depth in university counselling and co-curricular programming. The quality gap is real but narrowing at some schools
+- The mid-tier market (NAS, [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/), [Binus Simprug](/international-schools/jakarta/binus-school-simprug/)) offers credible alternatives but with less depth in university counselling and co-curricular programming. The quality gap is real but narrowing at some schools
 - The IB Diploma dominates the upper secondary market. Seven Jakarta schools now offer IB DP — the broadest choice the city has ever had
 
 ## In this article
@@ -103,15 +103,15 @@ AIS has strong connections to Australian Go8 universities and is the natural cho
 
 ## The Mid-Tier in 2026 {#mid-tier}
 
-The mid-tier schools — NAS, ACG, NJIS, Binus Simprug, SPH Kemang Village, ACS Jakarta, NZ School Jakarta — serve a different market from the premium four. They offer recognised international qualifications at lower fee points, with trade-offs in scale, co-curricular breadth, and university counselling infrastructure.
+The mid-tier schools — NAS, ACG, NJIS, Binus Simprug, [SPH Kemang Village](/international-schools/jakarta/sekolah-pelita-harapan-kemang-village/), [ACS Jakarta](/international-schools/jakarta/acs-jakarta/), [NZ School Jakarta](/international-schools/jakarta/new-zealand-school-jakarta/) — serve a different market from the premium four. They offer recognised international qualifications at lower fee points, with trade-offs in scale, co-curricular breadth, and university counselling infrastructure.
 
-**NAS (Nord Anglia School Jakarta)** is part of the Nord Anglia Education group, the world's largest premium international schools operator. Fees range from $6,911 to $20,874. NAS currently runs to Year 7 only, which limits its appeal for families planning a full school career. The school's global brand and network (Juilliard, MIT collaborations) are marketing strengths, but the Jakarta campus is still maturing.
+**NAS ([Nord Anglia School Jakarta](/international-schools/jakarta/nord-anglia-school-jakarta/))** is part of the Nord Anglia Education group, the world's largest premium international schools operator. Fees range from $6,911 to $20,874. NAS currently runs to Year 7 only, which limits its appeal for families planning a full school career. The school's global brand and network (Juilliard, MIT collaborations) are marketing strengths, but the Jakarta campus is still maturing.
 
 **ACG Jakarta** offers the IB continuum (PYP, MYP, DP) and charges $9,873–$24,673. ACG provides a credible IB pathway through to the Diploma. Published outcome data is limited, which makes independent assessment difficult.
 
 **Binus Simprug** has the strongest published academic record in the mid-tier: IB Diploma average 34 points, 95% pass rate, with perfect 45/45 scores in three consecutive years. At its fee level (partial data available — verify higher-grade fees directly), Binus Simprug represents strong value for families who want proven IB outcomes without premium-tier pricing. The student body is majority Indonesian, which gives the school a distinctive cultural character.
 
-**SPH Kemang Village** runs a Cambridge-to-IB pathway (Cambridge through Grade 10, IB Diploma Grades 11–12) with WASC and ACSI accreditation. Fees range from $11,797 to $26,061. SPH's Christian ethos is a defining characteristic — families should visit and confirm the school's religious dimension aligns with their expectations.
+**[SPH](/international-schools/jakarta/sekolah-pelita-harapan/) Kemang Village** runs a Cambridge-to-IB pathway (Cambridge through Grade 10, IB Diploma Grades 11–12) with WASC and ACSI accreditation. Fees range from $11,797 to $26,061. SPH's Christian ethos is a defining characteristic — families should visit and confirm the school's religious dimension aligns with their expectations.
 
 **ACS Jakarta** charges $15,607–$19,244 and offers IGCSE to IB Diploma without an early years programme (entry from Grade 1). ACS's fee level makes it one of the most affordable routes to an IB Diploma in Jakarta.
 
@@ -133,7 +133,7 @@ For the full fee breakdown, see our [2026 Fee Report](#54).
 
 ## Curriculum Trends {#curriculum-trends}
 
-**IB Diploma dominance.** Seven Jakarta international schools now offer the IB Diploma at upper secondary level: JIS, BSJ, AIS, ACG, NJIS, Binus Simprug and ACS Jakarta (plus GMIS and SPH). The IB Diploma is the most widely available international exit qualification in Jakarta — and the one that carries the broadest university recognition globally.
+**IB Diploma dominance.** Seven Jakarta international schools now offer the IB Diploma at upper secondary level: JIS, BSJ, AIS, ACG, NJIS, Binus Simprug and ACS Jakarta (plus [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/) and SPH). The IB Diploma is the most widely available international exit qualification in Jakarta — and the one that carries the broadest university recognition globally.
 
 **AP remains a JIS differentiator.** JIS is the only school in Jakarta offering AP courses. For families specifically targeting the US university system, this is a significant point of differentiation. AP courses allow students to earn college credit before university — a financial and academic advantage in the US system.
 
@@ -188,6 +188,13 @@ For families making decisions now, the fundamentals have not changed: choose the
 ## Quiz {#quiz}
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
 
 ## FAQs {#faqs}
 

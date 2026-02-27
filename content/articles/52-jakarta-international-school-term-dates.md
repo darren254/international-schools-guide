@@ -24,9 +24,9 @@ read_time: "4 min read"
 ## TL;DR
 
 - Most Jakarta international schools run an August-to-June academic year, split into semesters or three terms
-- AIS is the exception — it runs a calendar year (January to December), aligned with the Australian school year
-- ISJ follows a British three-term structure: September to July, with half-term breaks in each term
-- ACS Jakarta runs a July-to-June year, split into two semesters with four quarters
+- [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) is the exception — it runs a calendar year (January to December), aligned with the Australian school year
+- [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) follows a British three-term structure: September to July, with half-term breaks in each term
+- [ACS Jakarta](/international-schools/jakarta/acs-jakarta/) runs a July-to-June year, split into two semesters with four quarters
 - Indonesian public holidays apply to all schools. Some holiday dates are confirmed late by the government, so school calendars may be updated during the year
 
 ## In this article
@@ -39,7 +39,7 @@ read_time: "4 min read"
 
 ---
 
-Jakarta's international schools do not all follow the same calendar. The difference matters when you are planning a mid-year transfer, a family holiday, or a move to Jakarta. A child starting at JIS in August is beginning the school year. A child starting at AIS in August is arriving mid-year. Getting the calendar right avoids disruption.
+Jakarta's international schools do not all follow the same calendar. The difference matters when you are planning a mid-year transfer, a family holiday, or a move to Jakarta. A child starting at [JIS](/international-schools/jakarta/jakarta-intercultural-school/) in August is beginning the school year. A child starting at AIS in August is arriving mid-year. Getting the calendar right avoids disruption.
 
 ## Academic Year Overview {#academic-year-overview}
 
@@ -75,7 +75,7 @@ The full calendar is published on the JIS website and updated when Indonesian go
 
 ### BSJ — 2025–26
 
-BSJ runs a three-term year aligned with the British school calendar adapted for Jakarta. Term 1 runs from August to December. Term 2 from January to March. Term 3 from April to June. Half-term breaks fall within each term.
+[BSJ](/international-schools/jakarta/british-school-jakarta/) runs a three-term year aligned with the British school calendar adapted for Jakarta. Term 1 runs from August to December. Term 2 from January to March. Term 3 from April to June. Half-term breaks fall within each term.
 
 BSJ publishes its 2025–26 and 2026–27 calendars on its admissions page. Check the school website for exact dates.
 
@@ -147,6 +147,13 @@ Hari Raya (Eid al-Fitr) is the longest public holiday period. Most schools build
 **If your employer sets your start date:** Share the school calendar with your HR team early. A start date of 1 July works well for ACS Jakarta but means arriving six weeks before JIS begins. A start date of 1 September works for ISJ's first day but is three weeks into the JIS school year.
 
 ---
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
 
 ## FAQs {#faqs}
 

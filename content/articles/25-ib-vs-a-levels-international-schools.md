@@ -187,6 +187,13 @@ For a Jakarta-specific breakdown of which schools offer which pathway, see [Camb
 
 ---
 
+
+---
+
+**Ready to explore?**
+
+- [Browse Jakarta schools by curriculum →](/international-schools/jakarta/)
+
 ## FAQs
 
 **Is the IB Diploma harder than A Levels?**

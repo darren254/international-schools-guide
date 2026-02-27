@@ -18,12 +18,12 @@ author: "Mia Windsor"
 read_time: "7 min read"
 ---
 
-<!-- IMAGE PLACEHOLDER: Hero — JIS campus or American school environment -->
+<!-- IMAGE PLACEHOLDER: Hero — [JIS](/international-schools/jakarta/jakarta-intercultural-school/) campus or American school environment -->
 
 ## TL;DR
 
-- Jakarta has very few schools running a genuinely American curriculum — JIS is the dominant name, with NJIS as a smaller alternative in North Jakarta
-- ACS Jakarta sounds American but uses Cambridge IGCSEs and the IB Diploma — not AP or a US-style transcript
+- Jakarta has very few schools running a genuinely American curriculum — JIS is the dominant name, with [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) as a smaller alternative in North Jakarta
+- [ACS Jakarta](/international-schools/jakarta/acs-jakarta/) sounds American but uses Cambridge IGCSEs and the IB Diploma — not AP or a US-style transcript
 - JIS is the only Jakarta school offering AP (Advanced Placement) alongside the IB Diploma
 - Fees range from ~$14,400 at ACS to ~$31,000 at JIS — and the gap reflects fundamentally different school experiences
 - If your child needs a US-style transcript for American university admissions, JIS is the only straightforward option
@@ -137,13 +137,21 @@ The gap between JIS and the other two shows in the breadth of programme, the dep
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
 
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
+
 ## FAQs {#faqs}
 
 **Is there an American school in Jakarta?**
 JIS is the closest to a traditional American international school — American curriculum structure, WASC accreditation, AP and IB pathways, US-compatible transcripts. NJIS also has WASC accreditation and an American orientation with IB. ACS Jakarta has American-influenced philosophy but uses British/IB qualifications.
 
 **Can my child get into a US university from a non-American school in Jakarta?**
-Yes. British schools (BSJ, ISJ), IB schools, and Australian schools (AIS) all have students who matriculate to American universities. US admissions offices are familiar with A Levels, the IB Diploma, and IGCSE transcripts. What matters is the quality of college counselling and the school's track record with US admissions — not the curriculum label.
+Yes. British schools ([BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/)), IB schools, and Australian schools ([AIS](/international-schools/jakarta/australian-independent-school-jakarta/)) all have students who matriculate to American universities. US admissions offices are familiar with A Levels, the IB Diploma, and IGCSE transcripts. What matters is the quality of college counselling and the school's track record with US admissions — not the curriculum label.
 
 **Does JIS feel like an American school?**
 In many ways, yes. The grade structure, school culture, co-curricular emphasis, and counselling model are American. The student body is genuinely international rather than predominantly American, which makes the social environment more diverse than a typical US school. JIS alumni describe it as cosmopolitan rather than specifically American.
@@ -152,7 +160,7 @@ In many ways, yes. The grade structure, school culture, co-curricular emphasis, 
 Jakarta's expat community skews European, Australian, South Korean and South Asian — markets where British and IB qualifications are more widely recognised. American families represent a smaller share of Jakarta's international school parents. The market has responded accordingly. This is not unique to Jakarta — Singapore and Hong Kong also have relatively few standalone American-curriculum schools compared to British and IB options.
 
 **Is NJIS worth considering if I live in South Jakarta?**
-Probably not, unless the smaller school environment is specifically what you want. The commute from South Jakarta to Kelapa Gading is 60–90 minutes in traffic. JIS, BSJ, AIS, and ACG are all closer and offer broader programmes. NJIS makes most sense for families living in North or Central Jakarta.
+Probably not, unless the smaller school environment is specifically what you want. The commute from South Jakarta to Kelapa Gading is 60–90 minutes in traffic. JIS, BSJ, AIS, and [ACG](/international-schools/jakarta/acg-school-jakarta/) are all closer and offer broader programmes. NJIS makes most sense for families living in North or Central Jakarta.
 
 ---
 

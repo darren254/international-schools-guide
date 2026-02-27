@@ -22,7 +22,7 @@ Jakarta · Schools by Area
 
 # Best International Schools Near Kemang
 
-Kemang puts several international schools within a short drive. AIS is adjacent in Pejaten. NZ School Jakarta is at the top of Kemang, closest to the CBD. NAS is at the bottom, on Kemang Selatan. SPH Kemang Village is walkable. JIS is 15–20 minutes west. ISJ in Pondok Indah is about 20 minutes. The school options from Kemang are broad, but the commute times vary more than you'd expect for a neighbourhood this central.
+Kemang puts several international schools within a short drive. [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) is adjacent in Pejaten. [NZ School Jakarta](/international-schools/jakarta/new-zealand-school-jakarta/) is at the top of Kemang, closest to the CBD. NAS is at the bottom, on Kemang Selatan. [SPH Kemang Village](/international-schools/jakarta/sekolah-pelita-harapan-kemang-village/) is walkable. JIS is 15–20 minutes west. ISJ in Pondok Indah is about 20 minutes. The school options from Kemang are broad, but the commute times vary more than you'd expect for a neighbourhood this central.
 
 Written by [Mia Windsor](https://bsky.app/profile/mia-isg.bsky.social)
 Originally published: 25 February 2026
@@ -77,17 +77,17 @@ All drive times are from central Kemang (Jalan Kemang Raya / Kemang Dalam area) 
 
 **NZ School Jakarta.** At the top of Kemang, closest to the CBD. A small, community-driven school following the New Zealand Curriculum. It serves ages 1–15 with more modest facilities than the larger schools, but families who want a close-knit, personal environment find it appealing. Fees are lower than the top tier — contact the school directly for current figures.
 
-**SPH Kemang Village.** Sekolah Pelita Harapan's urban campus inside the Kemang Village development. SPH runs Cambridge through to IGCSE and IB Diploma, with a Christian ethos. The campus is modern, built into a high-rise complex. From many Kemang addresses it is walkable.
+**SPH Kemang Village.** [Sekolah Pelita Harapan](/international-schools/jakarta/sekolah-pelita-harapan/)'s urban campus inside the Kemang Village development. SPH runs Cambridge through to IGCSE and IB Diploma, with a Christian ethos. The campus is modern, built into a high-rise complex. From many Kemang addresses it is walkable.
 
-**NAS Jakarta (Nord Anglia School).** At the bottom of Kemang, on Kemang Selatan — the furthest point from the CBD within the Kemang area. NAS offers British-style primary education as part of the Nord Anglia global network. Currently Early Years to Year 7, with expansion planned. Fees are mid-tier ($6,900–$20,900).
+**[NAS Jakarta](/international-schools/jakarta/nord-anglia-school-jakarta/) (Nord Anglia School).** At the bottom of Kemang, on Kemang Selatan — the furthest point from the CBD within the Kemang area. NAS offers British-style primary education as part of the Nord Anglia global network. Currently Early Years to Year 7, with expansion planned. Fees are mid-tier ($6,900–$20,900).
 
 **Lycée Français de Jakarta.** The French international school in Cipete, 15 minutes from Kemang. French-speaking families in Kemang typically choose this — the commute is short and avoids the worst of Kemang's main-road traffic by using the Pangeran Antasari flyover.
 
-**JIS (Jakarta Intercultural School).** JIS sits on the border of Pondok Indah and Cilandak — one continuous campus with separate entrances for Elementary and Middle/High. From Kemang the drive is 15–20 minutes via Jalan Pejaten Raya, a straightforward route that avoids Jalan Kemang Raya. Many JIS families live in Kemang for the lifestyle and accept the short commute. JIS runs an American-style programme with IB Diploma and AP options. Fees are at the top of the market.
+**JIS ([Jakarta Intercultural School](/international-schools/jakarta/jakarta-intercultural-school/)).** JIS sits on the border of Pondok Indah and Cilandak — one continuous campus with separate entrances for Elementary and Middle/High. From Kemang the drive is 15–20 minutes via Jalan Pejaten Raya, a straightforward route that avoids Jalan Kemang Raya. Many JIS families live in Kemang for the lifestyle and accept the short commute. JIS runs an American-style programme with IB Diploma and AP options. Fees are at the top of the market.
 
-**ACG School Jakarta.** ACG runs IB PYP, Cambridge middle school, IGCSE, and IB Diploma. A mid-tier school on fees ($9,400–$22,300). The campus is in South Jakarta, 15–20 minutes from central Kemang.
+**[ACG School Jakarta](/international-schools/jakarta/acg-school-jakarta/).** ACG runs IB PYP, Cambridge middle school, IGCSE, and IB Diploma. A mid-tier school on fees ($9,400–$22,300). The campus is in South Jakarta, 15–20 minutes from central Kemang.
 
-**ISJ (The Independent School of Jakarta).** ISJ in Pondok Indah is about 20 minutes from Kemang via back roads through Cilandak. It follows the English National Curriculum with a British independent school character — small classes, staff who know every child, strong extracurriculars. Currently Pre-Nursery to Year 8, with a new secondary campus opening September 2028 taking pupils through to A-levels. Several ISJ families live in Kemang and find the commute comfortable.
+**ISJ ([The Independent School of Jakarta](/international-schools/jakarta/independent-school-of-jakarta/)).** ISJ in Pondok Indah is about 20 minutes from Kemang via back roads through Cilandak. It follows the English National Curriculum with a British independent school character — small classes, staff who know every child, strong extracurriculars. Currently Pre-Nursery to Year 8, with a new secondary campus opening September 2028 taking pupils through to A-levels. Several ISJ families live in Kemang and find the commute comfortable.
 
 ---
 
@@ -114,6 +114,14 @@ For school catchments from Pondok Indah, see [Schools Near Pondok Indah](#49). F
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
 
 ---
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta schools and filter by area →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
 
 ## FAQs
 

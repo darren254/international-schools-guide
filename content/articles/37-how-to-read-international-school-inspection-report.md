@@ -132,6 +132,13 @@ The overall tone matters. A report that uses consistently warm, specific languag
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
 
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
+
 ## FAQs {#faqs}
 
 **How often are schools inspected?**

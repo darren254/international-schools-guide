@@ -22,7 +22,7 @@ Jakarta · Schools by Area
 
 # Best International Schools Near Pondok Indah
 
-Pondok Indah has more international schools within a 20-minute drive than any other neighbourhood in Jakarta. JIS and ISJ are both in the immediate area. AIS, the Lycée Français, and several mid-tier options are all reachable without touching a toll road. If you are house-hunting in Pondok Indah, this is the list that matters.
+Pondok Indah has more international schools within a 20-minute drive than any other neighbourhood in Jakarta. JIS and ISJ are both in the immediate area. [AIS](/international-schools/jakarta/australian-independent-school-jakarta/), the Lycée Français, and several mid-tier options are all reachable without touching a toll road. If you are house-hunting in Pondok Indah, this is the list that matters.
 
 Written by [Mia Windsor](https://bsky.app/profile/mia-isg.bsky.social)
 Originally published: 25 February 2026
@@ -73,19 +73,19 @@ All drive times are from central Pondok Indah (Jalan Metro Pondok Indah area) in
 
 ## School-by-School Notes
 
-**JIS (Jakarta Intercultural School).** The biggest draw for families living in Pondok Indah. JIS is Jakarta's largest and most established international school. The campus sits on the border of Pondok Indah and Cilandak — the Elementary entrance is on the Pondok Indah side, the Middle/High entrance on the Cilandak side, but it is one continuous site. Elementary serves Pre-K through Grade 5; Middle and High School serve Grades 6–12. JIS runs an American-style programme with IB Diploma and AP options in senior school. Fees are at the top of the market.
+**JIS ([Jakarta Intercultural School](/international-schools/jakarta/jakarta-intercultural-school/)).** The biggest draw for families living in Pondok Indah. JIS is Jakarta's largest and most established international school. The campus sits on the border of Pondok Indah and Cilandak — the Elementary entrance is on the Pondok Indah side, the Middle/High entrance on the Cilandak side, but it is one continuous site. Elementary serves Pre-K through Grade 5; Middle and High School serve Grades 6–12. JIS runs an American-style programme with IB Diploma and AP options in senior school. Fees are at the top of the market.
 
-**ISJ (The Independent School of Jakarta).** ISJ is in the Pondok Indah area — one of the shortest school runs in this table. It follows the English National Curriculum with a British independent school ethos: small classes, staff who know every child by name, and a strong extracurricular programme. ISJ currently runs Pre-Nursery to Year 8, with a new secondary campus opening September 2028 taking pupils through to A-levels. Fees are comparable to JIS at primary level.
+**ISJ ([The Independent School of Jakarta](/international-schools/jakarta/independent-school-of-jakarta/)).** ISJ is in the Pondok Indah area — one of the shortest school runs in this table. It follows the English National Curriculum with a British independent school ethos: small classes, staff who know every child by name, and a strong extracurricular programme. ISJ currently runs Pre-Nursery to Year 8, with a new secondary campus opening September 2028 taking pupils through to A-levels. Fees are comparable to JIS at primary level.
 
 **Lycée Français de Jakarta.** The French international school, located in Cipete. A natural choice for French-speaking families and those wanting a bilingual French-English education. The commute from Pondok Indah is 10–15 minutes — shorter than from Kemang.
 
 **AIS Jakarta.** The Australian school, based in Pejaten adjacent to Kemang. AIS runs the Australian curriculum through primary and IB Diploma for senior school. Known for strong learning support and an inclusive, community-driven ethos. From Pondok Indah the drive is 15–20 minutes via Jalan Pejaten Raya — longer at peak times.
 
-**NAS Jakarta (Nord Anglia School).** Located on Kemang Selatan, NAS offers a British-style primary education as part of the Nord Anglia global network. Currently Early Years to Year 7, expanding. A mid-tier option on fees ($6,900–$20,900). The commute from Pondok Indah is 15–20 minutes.
+**[NAS Jakarta](/international-schools/jakarta/nord-anglia-school-jakarta/) (Nord Anglia School).** Located on Kemang Selatan, NAS offers a British-style primary education as part of the Nord Anglia global network. Currently Early Years to Year 7, expanding. A mid-tier option on fees ($6,900–$20,900). The commute from Pondok Indah is 15–20 minutes.
 
-**SPH Kemang Village.** Sekolah Pelita Harapan's Kemang campus sits inside the Kemang Village development. It runs Cambridge through to IGCSE and IB Diploma. A Christian-ethos school with modern facilities in a high-rise campus setting. Similar commute to NAS — 15–20 minutes from Pondok Indah.
+**[SPH Kemang Village](/international-schools/jakarta/sekolah-pelita-harapan-kemang-village/).** [Sekolah Pelita Harapan](/international-schools/jakarta/sekolah-pelita-harapan/)'s Kemang campus sits inside the Kemang Village development. It runs Cambridge through to IGCSE and IB Diploma. A Christian-ethos school with modern facilities in a high-rise campus setting. Similar commute to NAS — 15–20 minutes from Pondok Indah.
 
-**ACG School Jakarta.** ACG runs IB PYP in primary, Cambridge and British Key Stage 3 in middle school, IGCSE, and IB Diploma. Fees sit in the mid-tier. The campus is in South Jakarta, 15–20 minutes from Pondok Indah.
+**[ACG School Jakarta](/international-schools/jakarta/acg-school-jakarta/).** ACG runs IB PYP in primary, Cambridge and British Key Stage 3 in middle school, IGCSE, and IB Diploma. Fees sit in the mid-tier. The campus is in South Jakarta, 15–20 minutes from Pondok Indah.
 
 ---
 
@@ -112,6 +112,14 @@ For the full area comparison, see [Best Areas in Jakarta for Expat Families](#48
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
 
 ---
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta schools and filter by area →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
 
 ## FAQs
 

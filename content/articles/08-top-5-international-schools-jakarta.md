@@ -36,17 +36,17 @@ Originally published: 24 February 2026
 - **ISJ** is the British prep school — every teacher British-qualified, class sizes capped at 20, run by The Schools Trust (16 schools internationally). Secondary campus opening September 2028 with A-levels. Fees comparable to BSJ at primary.
 - **BSJ** is the British establishment — 45-acre campus, IB Diploma through Year 13, 1,400+ students. Fees reach ~$32,910 at Sixth Form. The Bintaro commute is the trade-off.
 - **AIS** is the Australian option — IB Diploma, strong pastoral care, calendar-year schedule. Fees top ~$26,300. Good for families who want a gentler, less pressured environment.
-- **SPH Lippo Village** is the school Indonesians choose when money is no object — first three-programme IB school in Indonesia, 10-hectare campus, consistently above-average IB results. Fees are lower than the other four (~$6,900–$20,900). Primarily Indonesian student body. Christian.
+- **[SPH Lippo Village](/international-schools/jakarta/sekolah-pelita-harapan/)** is the school Indonesians choose when money is no object — first three-programme IB school in Indonesia, 10-hectare campus, consistently above-average IB results. Fees are lower than the other four (~$6,900–$20,900). Primarily Indonesian student body. Christian.
 
 ---
 
 ## In this article
 
 - Quick Comparison
-- 1. JIS — Jakarta Intercultural School
-- 2. ISJ — The Independent School of Jakarta
-- 3. BSJ — British School Jakarta
-- 4. AIS — Australian Independent School Jakarta
+- 1. JIS — [Jakarta Intercultural School](/international-schools/jakarta/jakarta-intercultural-school/)
+- 2. ISJ — [The Independent School of Jakarta](/international-schools/jakarta/independent-school-of-jakarta/)
+- 3. BSJ — [British School Jakarta](/international-schools/jakarta/british-school-jakarta/)
+- 4. AIS — [Australian Independent School Jakarta](/international-schools/jakarta/australian-independent-school-jakarta/)
 - 5. SPH Lippo Village
 - Methodology
 - FAQs
@@ -189,9 +189,17 @@ For a broader look at the full market, see our [Best International Schools in Ja
 
 ---
 
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
+
 ## FAQs
 
-**Where is Binus Simprug? Where is ACG?**
+**Where is [Binus Simprug](/international-schools/jakarta/binus-school-simprug/)? Where is [ACG](/international-schools/jakarta/acg-school-jakarta/)?**
 Binus Simprug and ACG Jakarta both deliver strong IB Diploma results. Neither made this list because the ranking weights multiple factors beyond exam scores — including campus, co-curricular breadth, and institutional scale. Both are covered in our [Best International Schools in Jakarta](#1) guide, and ACG is profiled in detail in [BSJ vs ISJ vs NAS vs ACG](#21).
 
 **Is this list biased towards expensive schools?**

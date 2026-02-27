@@ -35,11 +35,11 @@ One thing worth stating clearly upfront: no Jakarta international school runs a 
 
 ### Australian Independent School (AIS Indonesia) — Inclusion as a Founding Principle
 
-AIS was founded in 1996 specifically because no Jakarta international school would accept children with special educational needs. That origin story matters: inclusion is not a PR add-on at AIS — it is the foundational reason the school exists, and the culture reflects it.
+[AIS](/international-schools/jakarta/australian-independent-school-jakarta/) was founded in 1996 specifically because no Jakarta international school would accept children with special educational needs. That origin story matters: inclusion is not a PR add-on at AIS — it is the foundational reason the school exists, and the culture reflects it.
 
 The programme operates through Individual Education Plans (IEPs) for students who need them. The Student Services Centre (SSC) provides smaller class environments for students requiring more targeted intervention alongside their mainstream timetable. Support staff work across all year levels. Students can be identified through self-referral, parent referral, teacher observation, or assessment results.
 
-In practice, AIS operates with a leaner specialist staffing model than JIS. It is well-suited to students with mild to moderate learning differences — dyslexia, ADHD, processing difficulties — but for more complex or high-needs profiles, families should expect to fund additional private support beyond what the school provides. AIS is clear about this: it is an inclusive mainstream school, not a specialist provision.
+In practice, AIS operates with a leaner specialist staffing model than [JIS](/international-schools/jakarta/jakarta-intercultural-school/). It is well-suited to students with mild to moderate learning differences — dyslexia, ADHD, processing difficulties — but for more complex or high-needs profiles, families should expect to fund additional private support beyond what the school provides. AIS is clear about this: it is an inclusive mainstream school, not a specialist provision.
 
 The school follows the Australian curriculum through primary and into secondary, with the IB Diploma at senior level. AIS is CIS-accredited and an IB World School.
 
@@ -61,7 +61,7 @@ JIS follows a North American curriculum with IB and Advanced Placement options a
 
 ### British School Jakarta (BSJ) — Solid for Mild to Moderate Needs
 
-BSJ has a published inclusion policy and learning support provision described as tailored to students with mild to moderate needs. It is a strong general school — good pastoral care, wide extracurricular programme, and a stable British-origin staff body — and for children whose SEN sits towards the lighter end of the spectrum (dyslexia support, some ADHD strategies, mild processing difficulties), families report reasonable experiences.
+[BSJ](/international-schools/jakarta/british-school-jakarta/) has a published inclusion policy and learning support provision described as tailored to students with mild to moderate needs. It is a strong general school — good pastoral care, wide extracurricular programme, and a stable British-origin staff body — and for children whose SEN sits towards the lighter end of the spectrum (dyslexia support, some ADHD strategies, mild processing difficulties), families report reasonable experiences.
 
 Where BSJ is less well suited is for children with more complex profiles. It does not have the depth of specialist staffing found at JIS or the foundational inclusion culture of AIS, and its primary focus is academic delivery, not learning support as a specialism.
 
@@ -71,7 +71,7 @@ BSJ is also worth knowing is in Bintaro — a meaningful commute from Pondok Ind
 
 ### The Independent School of Jakarta (ISJ) — Pastoral Strength for Younger Children
 
-ISJ is a British independent school currently educating children from Pre-Nursery through Year 8, with a new secondary campus opening in September 2028 that will take pupils through to A-levels. Its approach to SEN is shaped by its British independent school character: a school at which staff know individual children thoroughly, where pastoral care is a genuine priority, not a talking point, and where the form teacher relationship is close and consistent.
+[ISJ](/international-schools/jakarta/independent-school-of-jakarta/) is a British independent school currently educating children from Pre-Nursery through Year 8, with a new secondary campus opening in September 2028 that will take pupils through to A-levels. Its approach to SEN is shaped by its British independent school character: a school at which staff know individual children thoroughly, where pastoral care is a genuine priority, not a talking point, and where the form teacher relationship is close and consistent.
 
 ISJ does not have a dedicated SEN unit in the way AIS does. What it offers is a school culture in which a child's particular needs — academic, social, emotional — are noticed and addressed through close adult relationships and genuine communication with parents. For children whose primary need is consistent pastoral attention, familiarity with supportive adults, and a structured, calm environment, that combination matters. For children with more complex or clinical learning needs, the more structured programmes at AIS or JIS are the more appropriate fit.
 
@@ -112,6 +112,13 @@ Some children's needs sit beyond what any Jakarta international school can accom
 These centres are not schools in the conventional sense, but for some families they are the right environment — and several work in parallel with mainstream international school attendance where that is appropriate.
 
 ---
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
 
 ## FAQs
 

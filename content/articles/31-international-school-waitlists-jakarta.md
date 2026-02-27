@@ -23,7 +23,7 @@ read_time: "5 min read"
 
 ## TL;DR
 
-- Waiting lists at JIS, BSJ and ISJ are common at popular entry points — Nursery, Year 1 and Year 7 are the worst
+- Waiting lists at [JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/) and [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) are common at popular entry points — Nursery, Year 1 and Year 7 are the worst
 - Wait times range from a few weeks to 12+ months depending on the school and year group
 - Jakarta's expat population is transient. Places open up throughout the year as families relocate
 - Enrol at your second-choice school while staying on the waitlist at your first choice — this is standard practice
@@ -63,7 +63,7 @@ The pressure points are consistent year to year.
 
 **ISJ** — The school's enrolment model is deliberately smaller. Year groups are capped at a level that allows staff to know every child. This means fewer places to begin with. Pre-Nursery (age 2) and Nursery (age 3) typically fill first. If your target year group is full, the wait can be longer at ISJ than at larger schools simply because fewer families leave in any given term.
 
-**NAS, ACG, NJIS** — Waiting lists are less common. These schools typically have capacity across most year groups. If your first choice has a waitlist, one of these schools may offer a strong interim option.
+**[NAS](/international-schools/jakarta/nord-anglia-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/)** — Waiting lists are less common. These schools typically have capacity across most year groups. If your first choice has a waitlist, one of these schools may offer a strong interim option.
 
 For a detailed breakdown of which year groups are hardest to enter across all schools, see our guide on [admissions pressure by year group](#34).
 
@@ -88,6 +88,13 @@ Sitting on a waiting list does not mean sitting still.
 ## Quiz {#quiz}
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
 
 ## FAQs {#faqs}
 

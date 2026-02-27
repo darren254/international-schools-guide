@@ -19,14 +19,14 @@ author: "Mia Windsor"
 read_time: "7 min read"
 ---
 
-<!-- IMAGE PLACEHOLDER: Hero — SPH Kemang Village or Binus Simprug campus exterior -->
+<!-- IMAGE PLACEHOLDER: Hero — [SPH Kemang Village](/international-schools/jakarta/sekolah-pelita-harapan-kemang-village/) or [Binus Simprug](/international-schools/jakarta/binus-school-simprug/) campus exterior -->
 
 ## TL;DR
 
-- SPH Kemang Village runs Cambridge up to Grade 10, then switches to IB Diploma — a hybrid pathway similar to BSJ's IGCSE-to-IB model but with a Christian school identity
+- SPH Kemang Village runs Cambridge up to Grade 10, then switches to IB Diploma — a hybrid pathway similar to [BSJ](/international-schools/jakarta/british-school-jakarta/)'s IGCSE-to-IB model but with a Christian school identity
 - Binus Simprug runs the full IB continuum (PYP, MYP, DP) and publishes strong IB results — average 34 points, 95% pass rate, with perfect 45/45 scores achieved in recent years
 - SPH Kemang Village fees run from $11,797 (K1) to $26,061 (Grades 11–12). Binus Simprug's full fee schedule is not publicly listed beyond early years
-- Both schools have majority-Indonesian student bodies — the peer group and school culture are distinctly different from JIS or BSJ
+- Both schools have majority-Indonesian student bodies — the peer group and school culture are distinctly different from [JIS](/international-schools/jakarta/jakarta-intercultural-school/) or BSJ
 - The choice hinges on curriculum pathway (Cambridge-to-IB vs full IB), faith identity (Christian vs secular), and campus environment
 
 ## In this article
@@ -42,7 +42,7 @@ read_time: "7 min read"
 
 ---
 
-SPH and Binus Simprug both sit in a space that the premium international schools — JIS, BSJ, ISJ — do not occupy. They are bilingual. Their student bodies are predominantly Indonesian. Their fees are lower. And they both lead to the IB Diploma.
+SPH and Binus Simprug both sit in a space that the premium international schools — JIS, BSJ, [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) — do not occupy. They are bilingual. Their student bodies are predominantly Indonesian. Their fees are lower. And they both lead to the IB Diploma.
 
 For families who want a school that operates in both Indonesian and English — whether because of dual nationality, long-term Jakarta residency, or a belief that genuine bilingualism matters — these two schools are the most serious options with published or verifiable data. They are not the same school, though. The curriculum pathways, school cultures, and fee structures diverge in ways that matter.
 
@@ -174,9 +174,16 @@ Neither school matches the campus scale of JIS (which sits on 25 hectares in Pon
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
 
+
+---
+
+**Ready to explore?**
+
+- [Compare schools side by side →](/compare)
+
 ## FAQs {#faqs}
 
-**Is SPH Kemang Village the same as SPH Lippo Village?**
+**Is SPH Kemang Village the same as [SPH Lippo Village](/international-schools/jakarta/sekolah-pelita-harapan/)?**
 No. They are separate campuses under the same foundation (Yayasan Pendidikan Pelita Harapan), but they run different curriculum pathways. SPH Lippo Village offers the full IB continuum (PYP, MYP, DP) and was the first three-programme IB school in Indonesia. SPH Kemang Village runs Cambridge through Grade 10 and IB Diploma for Grades 11–12. Fee structures and campus environments also differ. Confirm everything directly with the specific campus you are considering.
 
 **Does Binus Simprug publish its full fee schedule?**

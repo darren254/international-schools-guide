@@ -24,7 +24,7 @@ read_time: "6 min read"
 ## TL;DR
 
 - EAL (English as an Additional Language) support is available at all major Jakarta international schools — but the model, cost and quality differ significantly
-- JIS charges a one-time EAL fee of $4,239. AIS has a separately priced, detailed EAL programme with ongoing charges. BSJ and ISJ include EAL within standard tuition
+- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) charges a one-time EAL fee of $4,239. [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) has a separately priced, detailed EAL programme with ongoing charges. [BSJ](/international-schools/jakarta/british-school-jakarta/) and [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) include EAL within standard tuition
 - The best EAL programmes are embedded — specialist teachers work alongside classroom teachers, not in separate pull-out sessions
 - Most children with age-appropriate cognitive ability and social confidence acquire functional English within 12–18 months. Full academic English takes longer — typically 5–7 years
 - Ask the school how many EAL students are in each year group, how EAL is staffed, and what the exit criteria are. Schools that cannot answer clearly may not take it seriously
@@ -79,7 +79,7 @@ EAL is not always included in tuition. The pricing model varies.
 
 The difference matters. At JIS, the one-time fee of $4,239 is front-loaded — you pay once and there is no ongoing charge. At AIS, the annual charge continues for as long as your child receives EAL support, which can be 2–5 years. Over a full primary career, the AIS model may cost more in total despite the lower annual figure.
 
-Schools that include EAL in standard tuition (BSJ, ISJ, NAS) are absorbing the cost across all families — which can mean the programme is less individually resourced, or it can mean the school views EAL as a core part of its provision rather than an add-on. Ask about staffing levels either way.
+Schools that include EAL in standard tuition (BSJ, ISJ, [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/)) are absorbing the cost across all families — which can mean the programme is less individually resourced, or it can mean the school views EAL as a core part of its provision rather than an add-on. Ask about staffing levels either way.
 
 ## What to Ask {#what-to-ask}
 
@@ -105,13 +105,20 @@ Before enrolling a child who needs EAL support, ask these questions. If the scho
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
 
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
+
 ## FAQs {#faqs}
 
 **Will my child be behind their peers because of the language gap?**
 Temporarily, yes. A child entering an English-medium school with limited English will not be performing at the same level as native English speakers in the first year. By year two, the gap narrows significantly — particularly if the school provides structured EAL support. By year three, most children are operating at or near grade level in English. The younger the child, the faster the acquisition.
 
 **Should I choose a bilingual school instead?**
-It depends on your goals. If you want your child to maintain and develop Bahasa Indonesia alongside English, a bilingual school (SPH, Binus Simprug) may be a better fit. If English acquisition is the priority — because of future university plans or ongoing international mobility — a fully English-medium school with strong EAL support will accelerate English development faster.
+It depends on your goals. If you want your child to maintain and develop Bahasa Indonesia alongside English, a bilingual school ([SPH](/international-schools/jakarta/sekolah-pelita-harapan/), [Binus Simprug](/international-schools/jakarta/binus-school-simprug/)) may be a better fit. If English acquisition is the priority — because of future university plans or ongoing international mobility — a fully English-medium school with strong EAL support will accelerate English development faster.
 
 **Is there an English proficiency threshold for admission?**
 It varies by school and year group. At nursery and early primary, most schools accept children with no English. At secondary (Year 7+), most schools require a minimum proficiency level — the assessment at application stage determines this. If a child's English is below the school's threshold, they may be placed on a waiting list until they reach the required level.

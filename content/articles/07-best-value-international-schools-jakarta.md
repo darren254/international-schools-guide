@@ -25,8 +25,8 @@ The question is not "which schools are cheapest?" — we cover that [elsewhere](
 **TL;DR**
 - Value means outcomes relative to cost — not low fees alone
 - The best value schools in Jakarta are mid-priced ($13,000–$20,000) with published exam results, external accreditation, and credible university placements
-- Binus Simprug ($15,000) and Sekolah Ciputra ($19,000) offer the strongest IB results-to-fees ratio in Jakarta
-- ISJ ($24,000) and ACS Jakarta ($20,000) deliver premium-tier quality without premium-tier pricing
+- [Binus Simprug](/international-schools/jakarta/binus-school-simprug/) ($15,000) and [Sekolah Ciputra](/international-schools/jakarta/sekolah-ciputra/) ($19,000) offer the strongest IB results-to-fees ratio in Jakarta
+- [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) ($24,000) and [ACS Jakarta](/international-schools/jakarta/acs-jakarta/) ($20,000) deliver premium-tier quality without premium-tier pricing
 - Schools that charge $15,000+ but refuse to publish exam results or hold no external accreditation are the worst value in the market — regardless of what their brochures say
 
 ---
@@ -68,7 +68,7 @@ At $15,000 for the highest year group, Binus Simprug posts IB results that match
 
 The school is part of the wider Binus network, which gives it operational scale that standalone schools at this price point lack. South Jakarta location on Jl. Hang Lekir works for families in Kebayoran Baru, Pondok Indah, and surrounding areas.
 
-The question mark: Binus Simprug is an SPK school — an Indonesian-founded institution with an international curriculum licence. The student body is majority Indonesian. For families who want a diverse expatriate community, this will feel different from JIS or BSJ. For families who care about IB results and university pathways at a reasonable price, it is one of the strongest options in Jakarta at any fee level.
+The question mark: Binus Simprug is an SPK school — an Indonesian-founded institution with an international curriculum licence. The student body is majority Indonesian. For families who want a diverse expatriate community, this will feel different from [JIS](/international-schools/jakarta/jakarta-intercultural-school/) or [BSJ](/international-schools/jakarta/british-school-jakarta/). For families who care about IB results and university pathways at a reasonable price, it is one of the strongest options in Jakarta at any fee level.
 
 ### Sekolah Ciputra — $19,000
 
@@ -104,7 +104,7 @@ ISJ is newer than BSJ or JIS, which means less alumni network and less instituti
 
 Full IB continuum (PYP, MYP, Diploma). Greater Jakarta (Bintaro). Established 1997.
 
-Global Jaya has been running the IB programmes since the late 1990s — longer than most Jakarta schools. At $13,000 high end, it is one of the cheapest full IB continuum options in the market.
+[Global Jaya](/international-schools/jakarta/global-jaya-school/) has been running the IB programmes since the late 1990s — longer than most Jakarta schools. At $13,000 high end, it is one of the cheapest full IB continuum options in the market.
 
 The school does not publish aggregate IB results, which limits what we can say about outcomes. But IB authorisation for all three programmes is maintained through regular IB evaluation visits, which provides a baseline of external oversight. The Bintaro location serves families in the South Tangerang corridor.
 
@@ -114,7 +114,7 @@ For families who want IB at a price point below $15,000, Global Jaya is the most
 
 IB (all four programmes — PYP, MYP, DP, CP) plus Cambridge IGCSE. Central Jakarta (Kemayoran). Founded 1950.
 
-At $8,600 for the highest year group, GMIS offers the widest IB programme breadth in Jakarta — PYP, MYP, Diploma, and the Career-related Programme — plus Cambridge IGCSE as a parallel pathway. No other school under $10,000 comes close to this range of recognised qualifications.
+At $8,600 for the highest year group, [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/) offers the widest IB programme breadth in Jakarta — PYP, MYP, Diploma, and the Career-related Programme — plus Cambridge IGCSE as a parallel pathway. No other school under $10,000 comes close to this range of recognised qualifications.
 
 GMIS does not publish aggregate IB results. The campus and facilities reflect its fee level — functional, not premium. The student body is drawn from Indonesian, Indian, Korean, and Chinese communities. The Kemayoran location is central but outside the expatriate residential belt.
 
@@ -149,6 +149,14 @@ These are not definitive — any one of them might have a reasonable explanation
 **Marketing language without substance.** Schools that lead with "21st century learning", "global citizens", and "innovative pedagogy" — but cannot tell you their IB average or where last year's graduates went — are selling atmosphere, not outcomes.
 
 ---
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta schools and compare value →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
 
 ## FAQs
 

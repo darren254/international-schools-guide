@@ -24,9 +24,9 @@ read_time: "7 min read"
 
 ## TL;DR
 
-- JIS sends approximately 54% of graduates to the US, 14% to the UK, and the remainder to Canada, Australia, Asia and Europe. Acceptances include Harvard, Stanford, University of Toronto, and University of Tokyo
-- BSJ graduates go to Oxford, Cambridge, Imperial, UCL, LSE, and leading universities in the US, Canada, Australia and Asia. BSJ publishes destination data from 2020–2025
-- Most other Jakarta schools do not publish university destination data publicly. AIS, ACG, Binus Simprug and NJIS all have graduates at international universities but you need to ask admissions directly
+- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) sends approximately 54% of graduates to the US, 14% to the UK, and the remainder to Canada, Australia, Asia and Europe. Acceptances include Harvard, Stanford, University of Toronto, and University of Tokyo
+- [BSJ](/international-schools/jakarta/british-school-jakarta/) graduates go to Oxford, Cambridge, Imperial, UCL, LSE, and leading universities in the US, Canada, Australia and Asia. BSJ publishes destination data from 2020–2025
+- Most other Jakarta schools do not publish university destination data publicly. [AIS](/international-schools/jakarta/australian-independent-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [Binus Simprug](/international-schools/jakarta/binus-school-simprug/) and [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) all have graduates at international universities but you need to ask admissions directly
 - The IB Diploma is recognised by universities worldwide. AP is the strongest pathway for US admissions. Cambridge IGCSEs carry weight for UK and Commonwealth applications
 - University counselling quality varies significantly between schools — and it matters as much as the qualification itself
 
@@ -104,7 +104,7 @@ BSJ also achieved 13 Pearson Student Excellence Awards for top national IGCSE ra
 
 **NJIS** is WASC-accredited and runs the full IB continuum. The school's smaller size (approximately 266 students) means a smaller graduating class. University destination data is available on request.
 
-**ACG, GMIS, SPH** — university destination data is not publicly available for any of these schools. Ask admissions directly. All have graduates at international universities, but the published evidence base is thin.
+**ACG, [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/), [SPH](/international-schools/jakarta/sekolah-pelita-harapan/)** — university destination data is not publicly available for any of these schools. Ask admissions directly. All have graduates at international universities, but the published evidence base is thin.
 
 ## What the Data Does Not Tell You {#what-the-data-does-not-tell-you}
 
@@ -125,6 +125,14 @@ Ask for the distribution, not the highlights. "Where do the middle 50% of your g
 ## Quiz {#quiz}
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta schools and compare outcomes →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
 
 ## FAQs {#faqs}
 

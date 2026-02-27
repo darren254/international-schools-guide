@@ -25,10 +25,10 @@ read_time: "6 min read"
 
 ## TL;DR
 
-- Most Jakarta international schools do not publish IB Diploma results. BSJ and Binus Simprug are the two schools that make their data publicly available
+- Most Jakarta international schools do not publish IB Diploma results. [BSJ](/international-schools/jakarta/british-school-jakarta/) and [Binus Simprug](/international-schools/jakarta/binus-school-simprug/) are the two schools that make their data publicly available
 - BSJ's published averages — 35 points in 2024, 34.7 in 2025 — place it well above the global IB average of approximately 30 points
 - Binus Simprug publishes an average of 34 points with a 95% pass rate. The school has produced perfect 45/45 scores in three consecutive years
-- JIS offers both IB Diploma and AP. The school does not publish IB-specific results, which makes direct comparison with IB-only schools difficult
+- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) offers both IB Diploma and AP. The school does not publish IB-specific results, which makes direct comparison with IB-only schools difficult
 - The global IB Diploma average is approximately 30 points with a pass rate of around 79%. Any school averaging above 33 is performing well above the global norm
 
 ## In this article
@@ -128,6 +128,14 @@ JIS families targeting US universities may take a mix of AP and IB courses. A st
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
 
+
+---
+
+**Ready to explore?**
+
+- [Browse Jakarta schools offering the IB Diploma →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
+
 ## FAQs {#faqs}
 
 **Why don't more Jakarta schools publish IB results?**
@@ -137,7 +145,7 @@ Schools that publish strong results gain a marketing advantage. Schools that do 
 Not necessarily. A school that restricts Diploma entry to high-achieving students will have a higher average than a school that allows open access. The school with open access may be doing better work with a wider range of students — but the headline number will look worse. Ask about entry criteria, not just results.
 
 **How do Jakarta schools compare to IB schools globally?**
-BSJ (average 35) and Binus Simprug (average 34) both perform well above the global average of approximately 30 points. Without published data from JIS, AIS and others, a complete city-level comparison is not possible. Based on the available data, Jakarta's top IB performers are competitive with strong IB schools in Singapore, Hong Kong and the UK.
+BSJ (average 35) and Binus Simprug (average 34) both perform well above the global average of approximately 30 points. Without published data from JIS, [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) and others, a complete city-level comparison is not possible. Based on the available data, Jakarta's top IB performers are competitive with strong IB schools in Singapore, Hong Kong and the UK.
 
 **Can I get IB results data directly from the IB?**
 The IB publishes global statistical bulletins with aggregate data — worldwide averages, pass rates, subject-level performance. It does not publish individual school results. School-level data can only come from the schools themselves.

@@ -25,7 +25,7 @@ That is the factual part. The practical part is more nuanced — and more useful
 **TL;DR**
 - SPK is an Indonesian government licence, not a quality mark — it tells you a school is legally registered to offer a foreign curriculum, nothing more
 - The classification was introduced in 2014 and banned schools from using "international" in their names
-- SPK status matters at the margins of the market — for established schools like JIS, BSJ, ISJ, and AIS, it is background paperwork
+- SPK status matters at the margins of the market — for established schools like JIS, BSJ, [ISJ](/international-schools/jakarta/independent-school-of-jakarta/), and [AIS](/international-schools/jakarta/australian-independent-school-jakarta/), it is background paperwork
 - What parents should focus on: teacher qualifications, foreign accreditations (CIS, Cambridge, IB authorisation, BSO inspections), and results
 - New schools entering the market — like Wellington College — may operate without SPK for years while running a fully credible British curriculum
 
@@ -44,7 +44,7 @@ That is the factual part. The practical part is more nuanced — and more useful
 
 ## What SPK Is
 
-In 2014, the Indonesian Ministry of Education issued Permendikbud No. 31/2014. The regulation created a formal licensing framework for schools offering foreign curriculums and, famously, banned the word "international" from school names. Jakarta International School became Jakarta Intercultural School. British International School Jakarta became British School Jakarta. The signage changed. The schools did not.
+In 2014, the Indonesian Ministry of Education issued Permendikbud No. 31/2014. The regulation created a formal licensing framework for schools offering foreign curriculums and, famously, banned the word "international" from school names. Jakarta International School became [Jakarta Intercultural School](/international-schools/jakarta/jakarta-intercultural-school/). British International School Jakarta became [British School Jakarta](/international-schools/jakarta/british-school-jakarta/). The signage changed. The schools did not.
 
 Under the SPK framework, a school offering a foreign curriculum must operate as a formal collaboration between an Indonesian educational institution (the LPI) and an accredited foreign education body (the LPA). The Indonesian partner needs A-grade national accreditation. The foreign partner must be recognised in its home country — Cambridge International, the IB, a British inspectorate, or equivalent.
 
@@ -102,7 +102,7 @@ For reference, the Indonesian system classifies schools into three buckets:
 
 **Embassy schools** — the French School, German School, Japanese School, Korean School — are operated by or on behalf of foreign governments. They serve their own nationals and are exempt from SPK requirements.
 
-**SPK schools** hold the government's formal licence to offer a foreign curriculum through a documented partnership between an Indonesian and a foreign institution. This covers JIS, BSJ, ISJ, AIS, NAS, ACG, NJIS, Binus, SIS, SPH, Mentari, and the rest of what most families call "international schools."
+**SPK schools** hold the government's formal licence to offer a foreign curriculum through a documented partnership between an Indonesian and a foreign institution. This covers JIS, BSJ, ISJ, AIS, [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/), Binus, SIS, [SPH](/international-schools/jakarta/sekolah-pelita-harapan/), Mentari, and the rest of what most families call "international schools."
 
 In practice, these boundaries are less rigid than they appear on paper. The Merdeka curriculum framework and the multi-year SPK application timeline mean that credible international programmes exist across all categories.
 
@@ -119,6 +119,13 @@ All of that said, SPK status is not irrelevant. There are two situations where i
 The government's SPK e-services portal is at **layananspk.pauddikdasmen.kemdikbud.go.id**. The Association of Indonesian SPK Schools maintains a directory at **spkindonesia.org**. Both are worth a look if you have any doubt.
 
 ---
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
 
 ## FAQs
 

@@ -36,11 +36,11 @@ The single most important thing to understand about capital levies is whether th
 
 **One-time capital levies** are charged once, typically at the point of enrolment. They are often larger in absolute terms but don't recur. Some function as a bond — refundable when your child leaves, provided accounts are settled and notice is given. Others are non-refundable from the start.
 
-ISJ takes a different approach: its 2025-26 annual fees bundle tuition, materials, and the capital contribution into a single published figure, ranging from IDR 148,524,000 (~$9,300) for Pre-Nursery to IDR 484,733,600 (~$30,300) for Years 7-8. There is no separate capital levy line item. This is arguably the more transparent model — you see one number, it covers everything instructional, and you're not surprised by a second invoice.
+[ISJ](/international-schools/jakarta/independent-school-of-jakarta/) takes a different approach: its 2025-26 annual fees bundle tuition, materials, and the capital contribution into a single published figure, ranging from IDR 148,524,000 (~$9,300) for Pre-Nursery to IDR 484,733,600 (~$30,300) for Years 7-8. There is no separate capital levy line item. This is arguably the more transparent model — you see one number, it covers everything instructional, and you're not surprised by a second invoice.
 
-BSJ charges a Capital Levy Contribution (CLC) as a compulsory annual fee on top of tuition. For Kukangs and K1, the CLC is IDR 22,300,000 (~$1,325) per year. From K2 through to Year 13, it rises to IDR 59,400,000 (~$3,531) per year. New students from K2 onward can alternatively pay a four-year CLC of IDR 196,500,000 (~$11,680). The CLC is non-refundable for one-year payments; four-year payments are partially refundable based on the unamortised balance. This means BSJ's total annual cost for a Year 2–6 pupil is approximately $26,590 — the CLC adds roughly 16% on top of the headline tuition. Always include the CLC when comparing BSJ fees against schools that bundle capital contributions into tuition.
+[BSJ](/international-schools/jakarta/british-school-jakarta/) charges a Capital Levy Contribution (CLC) as a compulsory annual fee on top of tuition. For Kukangs and K1, the CLC is IDR 22,300,000 (~$1,325) per year. From K2 through to Year 13, it rises to IDR 59,400,000 (~$3,531) per year. New students from K2 onward can alternatively pay a four-year CLC of IDR 196,500,000 (~$11,680). The CLC is non-refundable for one-year payments; four-year payments are partially refundable based on the unamortised balance. This means BSJ's total annual cost for a Year 2–6 pupil is approximately $26,590 — the CLC adds roughly 16% on top of the headline tuition. Always include the CLC when comparing BSJ fees against schools that bundle capital contributions into tuition.
 
-JIS applies a development contribution as part of its fee schedule. Verify the current amount and structure with the admissions office.
+[JIS](/international-schools/jakarta/jakarta-intercultural-school/) applies a development contribution as part of its fee schedule. Verify the current amount and structure with the admissions office.
 
 ---
 
@@ -95,6 +95,13 @@ It does not cover tuition — teaching salaries, curriculum delivery, or academi
 **Has the levy changed in recent years, and by how much?** Annual levies tend to increase alongside tuition. Understanding the trajectory helps you budget forward.
 
 ---
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
 
 ## FAQs
 

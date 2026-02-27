@@ -84,8 +84,8 @@ The curriculum question is about more than academic style — it's about what ha
 The main curriculum tracks in Jakarta:
 
 - English National Curriculum (British): ISJ, NAS Jakarta, NZSJ at early years, some SPK schools
-- IB continuum (PYP → MYP → DP): JIS (IB Diploma), BSJ (MYP and IB), SPH, AIS, Global Jaya School, ACG
-- American curriculum / AP: JIS (AP option in senior years), ACS Jakarta
+- IB continuum (PYP → MYP → DP): JIS (IB Diploma), BSJ (MYP and IB), [SPH](/international-schools/jakarta/sekolah-pelita-harapan/), AIS, [Global Jaya School](/international-schools/jakarta/global-jaya-school/), [ACG](/international-schools/jakarta/acg-school-jakarta/)
+- American curriculum / AP: JIS (AP option in senior years), [ACS Jakarta](/international-schools/jakarta/acs-jakarta/)
 - Cambridge (IGCSE / A-Level): ACS Jakarta, ACG, some SPK schools
 
 For more on the differences between these tracks, see our guide to British vs IB vs American curriculum in Jakarta.
@@ -94,12 +94,12 @@ For more on the differences between these tracks, see our guide to British vs IB
 
 This comes back to the commute. The main schools cluster in South Jakarta, but their specific locations matter.
 
-- JIS (Jakarta Intercultural School) — two campuses, Kebayoran Baru and Pondok Indah/Cilandak
-- ISJ (The Independent School of Jakarta) — Pondok Indah, convenient for most of South Jakarta. Currently Pre-Nursery to Year 8, with a new secondary campus opening September 2028 that will take pupils through to A-levels
-- AIS (Australian Independent School) — Pejaten, south of Kemang
-- BSJ (The British School Jakarta) — Bintaro, south-west of central Jakarta. A genuinely good school, but the location is a real factor. If you choose BSJ, plan to live in Bintaro and avoid the commute from Pondok Indah or Kemang.
+- JIS ([Jakarta Intercultural School](/international-schools/jakarta/jakarta-intercultural-school/)) — two campuses, Kebayoran Baru and Pondok Indah/Cilandak
+- ISJ ([The Independent School of Jakarta](/international-schools/jakarta/independent-school-of-jakarta/)) — Pondok Indah, convenient for most of South Jakarta. Currently Pre-Nursery to Year 8, with a new secondary campus opening September 2028 that will take pupils through to A-levels
+- AIS ([Australian Independent School](/international-schools/jakarta/australian-independent-school-jakarta/)) — Pejaten, south of Kemang
+- BSJ (The [British School Jakarta](/international-schools/jakarta/british-school-jakarta/)) — Bintaro, south-west of central Jakarta. A genuinely good school, but the location is a real factor. If you choose BSJ, plan to live in Bintaro and avoid the commute from Pondok Indah or Kemang.
 - NAS (Nord Anglia Jakarta) — Kemang. Kinder and primary only.
-- NZSJ (New Zealand School Jakarta) — top of Kemang. Affordable fees, friendly community, early years to primary.
+- NZSJ ([New Zealand School Jakarta](/international-schools/jakarta/new-zealand-school-jakarta/)) — top of Kemang. Affordable fees, friendly community, early years to primary.
 
 **3. What size of school does your child thrive in?**
 
@@ -269,7 +269,7 @@ All articles by Mia Windsor | Follow on Bluesky: https://bsky.app/profile/mia-is
 - Jakarta Intercultural School (JIS)
 - The British School Jakarta (BSJ)
 - Australian Independent School (AIS)
-- Nord Anglia School Jakarta (NAS)
+- [Nord Anglia School Jakarta](/international-schools/jakarta/nord-anglia-school-jakarta/) (NAS)
 
 ---
 
@@ -296,6 +296,14 @@ Links TO (from this article):
 Links FROM (pages that should link to this article):
 - [ ] #1 Best International Schools in Jakarta
 - [ ] #45 Living in Pondok Indah
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
+
 
 ---
 

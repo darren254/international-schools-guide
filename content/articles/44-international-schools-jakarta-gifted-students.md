@@ -24,7 +24,7 @@ read_time: "6 min read"
 ## TL;DR
 
 - Most Jakarta international schools have no formal gifted programme. High-ability provision is typically handled through in-class differentiation — which depends entirely on the skill of the individual teacher
-- JIS offers the broadest range of extension opportunities through its dual AP/IB pathway and extensive co-curricular programme — but does not run a separate gifted stream
+- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) offers the broadest range of extension opportunities through its dual AP/IB pathway and extensive co-curricular programme — but does not run a separate gifted stream
 - The IB Diploma itself is a form of gifted provision: six subjects plus the Extended Essay, TOK and CAS demand the kind of breadth and independent thinking that high-ability students thrive on
 - External competitions (Maths Olympiad, science fairs, Model UN, debate) are often the best route for stretching a gifted child beyond the classroom curriculum
 - If your child is genuinely gifted, the most important question is not "does this school have a gifted programme" but "does this school have teachers experienced enough to challenge my child?"
@@ -70,19 +70,19 @@ JIS does not run a separate gifted programme or stream. High-ability provision i
 
 ### BSJ — IGCSE and IB Diploma rigour
 
-BSJ's pathway provides natural academic stretch. Cambridge IGCSEs at Year 10–11 are subject-specific and demanding. The transition to IB Diploma at Year 12 adds the Extended Essay, Theory of Knowledge, and CAS — all of which reward intellectual curiosity and independent thinking. Strong students thrive in this structure.
+[BSJ](/international-schools/jakarta/british-school-jakarta/)'s pathway provides natural academic stretch. Cambridge IGCSEs at Year 10–11 are subject-specific and demanding. The transition to IB Diploma at Year 12 adds the Extended Essay, Theory of Knowledge, and CAS — all of which reward intellectual curiosity and independent thinking. Strong students thrive in this structure.
 
 BSJ's smaller year groups mean teachers know individual students well. A department head who recognises a gifted mathematician can adjust provision more easily than at a larger school. BSJ also offers co-curricular academic opportunities — debate, Model UN, and subject-specific enrichment.
 
 ### ISJ — individual attention
 
-ISJ's deliberately smaller year groups — the school is targeting optimal enrolment of around 500 pupils — mean staff know every child. A high-ability student at ISJ is visible in a way that can be lost at a larger school. Teachers with smaller classes have more capacity to differentiate upward. The British independent school tradition that ISJ draws from also tends to stretch able students through higher expectations and more demanding questioning in class.
+[ISJ](/international-schools/jakarta/independent-school-of-jakarta/)'s deliberately smaller year groups — the school is targeting optimal enrolment of around 500 pupils — mean staff know every child. A high-ability student at ISJ is visible in a way that can be lost at a larger school. Teachers with smaller classes have more capacity to differentiate upward. The British independent school tradition that ISJ draws from also tends to stretch able students through higher expectations and more demanding questioning in class.
 
 ISJ does not currently offer secondary — the secondary campus opens September 2028 with A Levels. When it does, A Levels will provide the depth that gifted students often prefer over the breadth of IB: three or four subjects studied intensively rather than six studied broadly.
 
 ### Mid-tier schools
 
-Gifted provision at NAS, ACG, NJIS, and Binus Simprug is primarily through in-class differentiation. The IB MYP framework (used at ACG, Binus, NJIS) includes built-in differentiation through open-ended assessment tasks, but the quality depends on the teacher. Binus Simprug's strong IB Diploma results (average 34 points) suggest that the school is capable of developing high-ability students through to strong outcomes — even without a formal gifted programme.
+Gifted provision at [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/), and [Binus Simprug](/international-schools/jakarta/binus-school-simprug/) is primarily through in-class differentiation. The IB MYP framework (used at ACG, Binus, NJIS) includes built-in differentiation through open-ended assessment tasks, but the quality depends on the teacher. Binus Simprug's strong IB Diploma results (average 34 points) suggest that the school is capable of developing high-ability students through to strong outcomes — even without a formal gifted programme.
 
 ## External Opportunities {#external-opportunities}
 
@@ -115,6 +115,13 @@ These opportunities exist regardless of which school your child attends — but 
 ## Quiz {#quiz}
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
 
 ## FAQs {#faqs}
 

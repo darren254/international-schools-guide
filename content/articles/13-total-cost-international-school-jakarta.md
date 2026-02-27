@@ -37,7 +37,7 @@ Tuition at most schools is lower in early years and higher at secondary. A child
 
 ### Application and Enrolment Fees
 
-A one-time charge payable at the point of application or on accepting a place. Typically $300–$2,500. Non-refundable at most schools. JIS charges approximately $320 (IDR 5,300,000) as a non-refundable application fee per student.
+A one-time charge payable at the point of application or on accepting a place. Typically $300–$2,500. Non-refundable at most schools. [JIS](/international-schools/jakarta/jakarta-intercultural-school/) charges approximately $320 (IDR 5,300,000) as a non-refundable application fee per student.
 
 ### Capital Levy (Development Levy)
 
@@ -46,7 +46,7 @@ Often the most significant surprise for new families — and the subject of our 
 - Annual (paid every year): typical at mid-range schools
 - One-time (paid once on enrolment): typical at some premium schools
 
-At ISJ (2025-26), the capital contribution is IDR 52,270,000 per year (~$3,102), paid annually, non-refundable. At BSJ and JIS, development contributions also apply — verify the current schedule directly with the school. Critically: some capital levies are refundable on exit (effectively a bond), while others are not. Always confirm refundability before you pay.
+At [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) (2025-26), the capital contribution is IDR 52,270,000 per year (~$3,102), paid annually, non-refundable. At [BSJ](/international-schools/jakarta/british-school-jakarta/) and JIS, development contributions also apply — verify the current schedule directly with the school. Critically: some capital levies are refundable on exit (effectively a bond), while others are not. Always confirm refundability before you pay.
 
 ### Materials and Technology Fees
 
@@ -168,6 +168,14 @@ Remove from the calculation: application/enrolment fees, one-time technology fee
 **What is the expected annual fee increase?** Most schools increase fees annually — knowing the expected percentage lets you model forward for budgeting purposes.
 
 ---
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta schools and compare fees →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
 
 ## FAQs
 

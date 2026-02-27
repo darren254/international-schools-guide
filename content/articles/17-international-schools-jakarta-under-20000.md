@@ -25,7 +25,7 @@ This is the bracket where most Jakarta families who are not on full expatriate p
 **TL;DR**
 - Over 20 international schools in Jakarta keep their highest year group fees under $20,000
 - The bracket includes IB, Cambridge, Singapore, French, German, and blended curriculum options
-- Several schools in this range publish IB results — Binus Simprug (34 average, 95% pass rate) and Beacon Academy (32 average, 91% pass rate) stand out
+- Several schools in this range publish IB results — [Binus Simprug](/international-schools/jakarta/binus-school-simprug/) (34 average, 95% pass rate) and [Beacon Academy](/international-schools/jakarta/beacon-academy/) (32 average, 91% pass rate) stand out
 - Geography matters: North Jakarta, West Jakarta, Greater Jakarta (BSD, Bintaro, Bekasi) are all well represented. South Jakarta has fewer options at this price
 - The core trade-off remains: lower fees mean lower teacher salaries. But in the $15,000–$20,000 range, some schools are starting to compete for the same teachers as the top tier
 
@@ -81,13 +81,13 @@ The under-$20,000 bracket is where Jakarta's international school market gets cr
 
 A few patterns stand out.
 
-**Geography opens up.** The $10,000 bracket is heavy on North and Central Jakarta. At $20,000 you gain significant South Jakarta presence — Sampoerna Academy, Al Jabr, Mentari Jakarta, Cita Buana, Cikal, Binus Simprug — plus Greater Jakarta options in BSD, Bintaro, and Bekasi for families living on the fringes.
+**Geography opens up.** The $10,000 bracket is heavy on North and Central Jakarta. At $20,000 you gain significant South Jakarta presence — [Sampoerna Academy](/international-schools/jakarta/sampoerna-academy-jakarta/), Al Jabr, [Mentari Jakarta](/international-schools/jakarta/mentari-intercultural-school-jakarta/), [Cita Buana](/international-schools/jakarta/cita-buana-school/), Cikal, Binus Simprug — plus Greater Jakarta options in BSD, Bintaro, and Bekasi for families living on the fringes.
 
-**Curriculum choice widens.** Under $10,000, it was Cambridge and IB. Here you add French Baccalaureate (French School Jakarta), German Abitur (Deutsche Schule), Korean national curriculum (JIKS), Singapore curriculum (SIS PIK, SIS South Jakarta), American-influenced (HighScope), and Australian (IPEKA). If your family has a specific curriculum requirement, this is the bracket where you start finding it.
+**Curriculum choice widens.** Under $10,000, it was Cambridge and IB. Here you add French Baccalaureate ([French School Jakarta](/international-schools/jakarta/french-school-jakarta/)), German Abitur (Deutsche Schule), Korean national curriculum (JIKS), Singapore curriculum (SIS PIK, SIS South Jakarta), American-influenced (HighScope), and Australian (IPEKA). If your family has a specific curriculum requirement, this is the bracket where you start finding it.
 
-**IB results appear.** Two schools in this bracket publish meaningful IB data. Binus Simprug averages 34 points with a 95% pass rate. Beacon Academy averages 32 with 91%. Both are credible IB outcomes — the world average sits around 30. If IB results matter to your family, these numbers are worth comparing against JIS and BSJ at the premium end.
+**IB results appear.** Two schools in this bracket publish meaningful IB data. Binus Simprug averages 34 points with a 95% pass rate. Beacon Academy averages 32 with 91%. Both are credible IB outcomes — the world average sits around 30. If IB results matter to your family, these numbers are worth comparing against [JIS](/international-schools/jakarta/jakarta-intercultural-school/) and [BSJ](/international-schools/jakarta/british-school-jakarta/) at the premium end.
 
-**The top of this bracket competes upward.** ACS Jakarta at $20,000 and Sekolah Ciputra at $19,000 are not mid-tier schools by any reasonable measure. ACS is CIS-accredited with a long track record. Sekolah Ciputra is CIS-accredited and runs the full IB continuum. Both operate at a level that overlaps with the $20,000–$30,000 tier in quality if not in price.
+**The top of this bracket competes upward.** [ACS Jakarta](/international-schools/jakarta/acs-jakarta/) at $20,000 and [Sekolah Ciputra](/international-schools/jakarta/sekolah-ciputra/) at $19,000 are not mid-tier schools by any reasonable measure. ACS is CIS-accredited with a long track record. Sekolah Ciputra is CIS-accredited and runs the full IB continuum. Both operate at a level that overlaps with the $20,000–$30,000 tier in quality if not in price.
 
 ---
 
@@ -103,11 +103,11 @@ With 24 options, families need a way to filter. Here are the schools in this bra
 
 **French School Jakarta** — the only realistic option for francophone families wanting the French Baccalaureate. Niche but essential for its audience. $12,000 high end.
 
-**Deutsche Schule Jakarta** — same logic for German-speaking families. German Abitur plus an international programme. Run by a non-profit foundation, which means fees go directly into education rather than returns. $15,000 high end.
+**[Deutsche Schule Jakarta](/international-schools/jakarta/deutsche-internationale-schule-jakarta/)** — same logic for German-speaking families. German Abitur plus an international programme. Run by a non-profit foundation, which means fees go directly into education rather than returns. $15,000 high end.
 
 **Sampoerna Academy** — notable for charging no building or development fees. In a market where capital levies and development charges can add $3,000–$10,000 on top of tuition, this is a meaningful differentiator. Cambridge IGCSE plus IB Diploma at $11,000 high end.
 
-**NJIS** — one of very few credible international schools in North Jakarta. Full IB continuum, Kelapa Gading location. For families based north of the city centre, geography narrows the choice significantly. $16,000 high end.
+**[NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/)** — one of very few credible international schools in North Jakarta. Full IB continuum, Kelapa Gading location. For families based north of the city centre, geography narrows the choice significantly. $16,000 high end.
 
 ---
 
@@ -125,6 +125,14 @@ The curriculum on paper can look identical — two schools both offering Cambrid
 
 ---
 
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta schools and filter by budget →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
+
 ## FAQs
 
 **Which schools in this bracket have the best IB results?**
@@ -137,7 +145,7 @@ Yes. ACS Jakarta and Sekolah Ciputra both hold CIS accreditation. CIS is the mos
 The top of this bracket (ACS Jakarta, Sekolah Ciputra, Binus Simprug) overlaps with the lower end of the premium tier in quality. The main differences at the premium end are higher teacher salaries (attracting more experienced international hires), larger campuses, and deeper specialist staffing. For families where the $20,000 ceiling is a hard constraint, the top of this bracket offers genuine quality.
 
 **I only care about South Jakarta. What are my options?**
-Sampoerna Academy ($11,000), Al Jabr ($12,000), Mentari Jakarta ($14,000), Cita Buana ($15,000), Binus Simprug ($15,000), and Cikal ($17,000). HighScope ($14,000) is in Cilandak, which straddles South Jakarta and Greater Jakarta. Singapore Intercultural School South Jakarta ($15,000) rounds it out.
+Sampoerna Academy ($11,000), Al Jabr ($12,000), Mentari Jakarta ($14,000), Cita Buana ($15,000), Binus Simprug ($15,000), and Cikal ($17,000). HighScope ($14,000) is in Cilandak, which straddles South Jakarta and Greater Jakarta. [Singapore Intercultural School South Jakarta](/international-schools/jakarta/singapore-intercultural-school-south-jakarta/) ($15,000) rounds it out.
 
 **What about schools at exactly $20,000?**
 ACS Jakarta and IPEKA both hit $20,000 at their most expensive year group. We have included them here because they do not exceed the ceiling. Both are credible schools — ACS with CIS accreditation and a long track record, IPEKA with an Australian-IB hybrid model across multiple campuses.

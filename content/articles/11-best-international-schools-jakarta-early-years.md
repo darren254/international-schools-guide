@@ -23,7 +23,7 @@ read_time: "8 min read"
 
 ## TL;DR
 
-- JIS, BSJ, ISJ and AIS all run strong early years programmes — but they differ in approach, entry age and fee structure
+- [JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) and [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) all run strong early years programmes — but they differ in approach, entry age and fee structure
 - BSJ and ISJ follow the Early Years Foundation Stage (EYFS), the English framework for nursery and Reception — structured, play-based and developmentally focused
 - AIS starts at age 3 with a three-day or five-day Preschool option — the most flexible entry point among the top schools
 - At full-time age 3 entry, fees range from $7,702 (AIS five-day) to $22,333 (JIS full day) — JIS is the most expensive early years programme in Jakarta by a wide margin
@@ -157,13 +157,13 @@ The early years fee is the entry price. The primary fee is the commitment. Befor
 
 ## Other Early Years Options {#other-early-years-options}
 
-**Binus Simprug** runs IB PYP from early years. Fee data suggests approximately $7,000 at the entry level. The student body is majority Indonesian and the school culture reflects that — an attractive option for mixed Indonesian-expat families who want bilingual development from the start. Verify current early years fees directly with admissions.
+**[Binus Simprug](/international-schools/jakarta/binus-school-simprug/)** runs IB PYP from early years. Fee data suggests approximately $7,000 at the entry level. The student body is majority Indonesian and the school culture reflects that — an attractive option for mixed Indonesian-expat families who want bilingual development from the start. Verify current early years fees directly with admissions.
 
-**NJIS** in Kelapa Gading offers PYP from early years. For families in North Jakarta, it is one of very few credible international options. Fees start at approximately $10,000. The school is small — closer teacher-student relationships, but a narrower peer group.
+**[NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/)** in Kelapa Gading offers PYP from early years. For families in North Jakarta, it is one of very few credible international options. Fees start at approximately $10,000. The school is small — closer teacher-student relationships, but a narrower peer group.
 
-**GMIS** in Kemayoran offers IB PYP from early years at the lowest price point in the international school market — approximately $4,600 at entry level. The student body is diverse, with over 50 nationalities represented. For families who want an international early years experience at a lower cost, GMIS is worth visiting.
+**[GMIS](/international-schools/jakarta/gandhi-memorial-international-school/)** in Kemayoran offers IB PYP from early years at the lowest price point in the international school market — approximately $4,600 at entry level. The student body is diverse, with over 50 nationalities represented. For families who want an international early years experience at a lower cost, GMIS is worth visiting.
 
-**SPH Kemang Village** runs an IB PYP early years programme. Fees start at $11,797 at K1 (age 4) — SPH does not offer a nursery entry at age 3. The student body is primarily Indonesian. SPH is a Christian school with a faith-based ethos that shapes the school culture. For families open to that, SPH offers a credible IB pathway at mid-tier pricing.
+**[SPH Kemang Village](/international-schools/jakarta/sekolah-pelita-harapan-kemang-village/)** runs an IB PYP early years programme. Fees start at $11,797 at K1 (age 4) — [SPH](/international-schools/jakarta/sekolah-pelita-harapan/) does not offer a nursery entry at age 3. The student body is primarily Indonesian. SPH is a Christian school with a faith-based ethos that shapes the school culture. For families open to that, SPH offers a credible IB pathway at mid-tier pricing.
 
 ## Settling In — What Parents Worry About {#settling-in}
 
@@ -187,6 +187,13 @@ For more on the practicalities of relocating to Jakarta with children, including
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
 
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
+
 ## FAQs {#faqs}
 
 **When should I apply for nursery in Jakarta?**
@@ -202,7 +209,7 @@ The early years fee is the entry point to the school. At BSJ, nursery costs $8,9
 EYFS is a framework — it tells schools what children should be learning and developing. Montessori is a pedagogy — it describes how learning is delivered. Some schools combine elements of both. Neither is inherently better. EYFS provides more structure and is the standard at British international schools. Montessori allows more child-led pacing. Visit both types and see which matches your child.
 
 **Should I choose an early years school based on its secondary programme?**
-Yes, if you plan to stay in Jakarta long-term. The school your child enters at nursery is almost certainly the school they will attend at primary and likely at secondary. Choosing a school for nursery without considering its secondary programme — or whether it has one — creates a problem you will need to solve later. NAS Jakarta, for example, runs to Year 7 only. Families there will need to transfer for secondary.
+Yes, if you plan to stay in Jakarta long-term. The school your child enters at nursery is almost certainly the school they will attend at primary and likely at secondary. Choosing a school for nursery without considering its secondary programme — or whether it has one — creates a problem you will need to solve later. [NAS Jakarta](/international-schools/jakarta/nord-anglia-school-jakarta/), for example, runs to Year 7 only. Families there will need to transfer for secondary.
 
 **Can my child start mid-year?**
 Most Jakarta international schools accept mid-year enrolments in early years, space permitting. AIS is the most flexible — it runs a calendar year (January–December), so January is the natural start. BSJ and JIS run August to June. ISJ also runs August to June. Contact admissions to check availability for your preferred start date.

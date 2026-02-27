@@ -21,7 +21,7 @@ Under $10,000 a year for an international school in Jakarta gets you into a diff
 ---
 
 **TL;DR**
-- Under $10,000 a year at the senior end, five schools make the cut: SIS Kelapa Gading, Bina Bangsa, GMIS, Mentari Bintaro, and Mutiara Harapan Islamic School
+- Under $10,000 a year at the senior end, five schools make the cut: [SIS Kelapa Gading](/international-schools/jakarta/sis-kelapa-gading/), [Bina Bangsa](/international-schools/jakarta/bina-bangsa-school/), [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/), [Mentari Bintaro](/international-schools/jakarta/mentari-intercultural-school-bintaro/), and [Mutiara Harapan Islamic School](/international-schools/jakarta/mutiara-harapan-islamic-school/)
 - These schools serve predominantly Indonesian families. Expat enrolment exists but is not the primary audience
 - Lower fees mean lower teacher salaries — which means a different calibre of applicant for teaching positions. This is the core trade-off
 - All five offer recognised international exit qualifications — Cambridge IGCSEs, A-levels, or IB Diploma
@@ -39,7 +39,7 @@ Under $10,000 a year for an international school in Jakarta gets you into a diff
 
 ## What $10,000 a Year Gets You
 
-Jakarta's international school market runs from around $5,000 at the bottom to over $30,000 at the top. The schools most expat families hear about — JIS, BSJ, ISJ — charge $24,000–$32,000 at primary and secondary level once capital levies are included. The premium bracket is real.
+Jakarta's international school market runs from around $5,000 at the bottom to over $30,000 at the top. The schools most expat families hear about — [JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) — charge $24,000–$32,000 at primary and secondary level once capital levies are included. The premium bracket is real.
 
 At under $10,000, you are in a bracket where the schools are typically Indonesian-founded SPK institutions offering a recognised international curriculum — IB, Cambridge, or a national-plus blend — at fee levels that reflect local rather than expatriate salary economics. The student body is majority Indonesian, the campus infrastructure is more modest, and the teaching staff is drawn from a different salary pool.
 
@@ -115,7 +115,7 @@ Mutiara Harapan fills a specific gap: Cambridge qualifications combined with Isl
 
 ### Just outside the cut
 
-**Sampoerna Academy** ($11,000 high end), **Global Sevilla** ($11,000), and **Tzu Chi School** ($11,000) all sit just above the $10,000 line. Sampoerna Academy is notable for charging no building or development fees — unusual in Jakarta. Global Sevilla offers Cambridge through to A-levels across two campuses (Puri Indah and Pulo Mas). Tzu Chi runs Cambridge Primary into IB MYP and IB Diploma with a trilingual programme. If you can stretch the budget slightly, all three are worth a look.
+**[Sampoerna Academy](/international-schools/jakarta/sampoerna-academy-jakarta/)** ($11,000 high end), **[Global Sevilla](/international-schools/jakarta/global-sevilla-school/)** ($11,000), and **[Tzu Chi School](/international-schools/jakarta/tzu-chi-school/)** ($11,000) all sit just above the $10,000 line. Sampoerna Academy is notable for charging no building or development fees — unusual in Jakarta. Global Sevilla offers Cambridge through to A-levels across two campuses (Puri Indah and Pulo Mas). Tzu Chi runs Cambridge Primary into IB MYP and IB Diploma with a trilingual programme. If you can stretch the budget slightly, all three are worth a look.
 
 ---
 
@@ -134,6 +134,14 @@ The honest version. Lower fees fund lower salaries. Lower salaries attract a dif
 **Accreditation.** All five schools in this article offer recognised international exit qualifications — Cambridge IGCSEs, A-levels, or IB Diploma. That is the baseline. Beyond that, check for CIS accreditation, BSO inspection reports, and current IB or Cambridge centre status. See our [accreditation guide](#35) for what to look for.
 
 ---
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta schools and sort by fees →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
 
 ## FAQs
 

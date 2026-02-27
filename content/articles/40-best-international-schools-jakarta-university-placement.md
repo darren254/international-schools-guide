@@ -23,7 +23,7 @@ read_time: "6 min read"
 
 ## TL;DR
 
-- JIS and BSJ have the strongest university counselling infrastructure in Jakarta — experienced teams, institutional relationships, and decades of track record
+- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) and [BSJ](/international-schools/jakarta/british-school-jakarta/) have the strongest university counselling infrastructure in Jakarta — experienced teams, institutional relationships, and decades of track record
 - JIS is best for US university applications (WASC, AP, US transcripts). BSJ is best for UK applications (IGCSE, IB, Russell Group relationships)
 - The quality of the counselling team matters as much as the qualification. Two students with the same IB score can have very different outcomes
 - Most mid-tier schools have university counselling — but the depth, experience, and institutional relationships are not equivalent to JIS or BSJ
@@ -78,17 +78,17 @@ BSJ's published IB results (average 35 in 2024, 34.7 in 2025) are strong enough 
 
 ### AIS
 
-AIS has a university counselling function but does not publish placement data publicly. The school's Australian curriculum heritage gives it natural connections to Go8 universities (Melbourne, Sydney, UNSW, Monash, ANU). The IB Diploma for Years 11–12 provides international portability. AIS is the best Jakarta option for families specifically targeting Australian universities.
+[AIS](/international-schools/jakarta/australian-independent-school-jakarta/) has a university counselling function but does not publish placement data publicly. The school's Australian curriculum heritage gives it natural connections to Go8 universities (Melbourne, Sydney, UNSW, Monash, ANU). The IB Diploma for Years 11–12 provides international portability. AIS is the best Jakarta option for families specifically targeting Australian universities.
 
 **Strongest for:** Australian universities.
 
 ### ISJ
 
-ISJ does not yet have a sixth form — the secondary campus opening September 2028 will extend the school through to A Levels. University counselling at ISJ will develop as the secondary programme matures. For now, ISJ families will need to move their children to another school (typically BSJ or JIS) for sixth form and university preparation.
+[ISJ](/international-schools/jakarta/independent-school-of-jakarta/) does not yet have a sixth form — the secondary campus opening September 2028 will extend the school through to A Levels. University counselling at ISJ will develop as the secondary programme matures. For now, ISJ families will need to move their children to another school (typically BSJ or JIS) for sixth form and university preparation.
 
 ## The Mid Tier {#the-mid-tier}
 
-The mid-tier schools — ACG, Binus Simprug, NJIS, GMIS — all have university counselling provision. The difference is in depth and institutional relationships.
+The mid-tier schools — [ACG](/international-schools/jakarta/acg-school-jakarta/), [Binus Simprug](/international-schools/jakarta/binus-school-simprug/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/), [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/) — all have university counselling provision. The difference is in depth and institutional relationships.
 
 **Binus Simprug** has the strongest published record among mid-tier schools, with IB results (average 34) that support competitive applications. The school lists university destinations on its website. The student body is majority Indonesian, which means the counselling team has more experience with Indonesian students applying to international universities — a specific expertise.
 
@@ -114,6 +114,14 @@ The honest assessment: if university placement is a priority — and at secondar
 ## Quiz {#quiz}
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta schools and compare outcomes →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
 
 ## FAQs {#faqs}
 

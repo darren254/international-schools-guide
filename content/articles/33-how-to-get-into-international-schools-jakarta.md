@@ -54,13 +54,13 @@ At every level, schools are assessing three things.
 
 **English language proficiency.** English is the language of instruction at every school on this list. A child who speaks little or no English can be admitted — most schools have EAL (English as an Additional Language) programmes — but the school needs to assess the level of support required. If the EAL programme is full, or the child's proficiency is below the school's threshold, this can delay admission.
 
-**Learning needs.** If a child has identified learning differences (dyslexia, ADHD, ASD, or other needs), the school needs to know at application stage. This is not a reason for rejection at most schools — JIS and AIS both have established learning support programmes. But schools need to assess whether they can provide appropriate support. Non-disclosure at application stage creates problems later.
+**Learning needs.** If a child has identified learning differences (dyslexia, ADHD, ASD, or other needs), the school needs to know at application stage. This is not a reason for rejection at most schools — [JIS](/international-schools/jakarta/jakarta-intercultural-school/) and [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) both have established learning support programmes. But schools need to assess whether they can provide appropriate support. Non-disclosure at application stage creates problems later.
 
 ## Priority and Preference {#priority-and-preference}
 
 Not all applicants are equal. Schools apply priority criteria that are not always published openly.
 
-**Siblings.** Every premium school in Jakarta gives some degree of priority to siblings of current students. At JIS, sibling priority is significant. At BSJ and ISJ, siblings are favoured but not guaranteed a place in oversubscribed year groups.
+**Siblings.** Every premium school in Jakarta gives some degree of priority to siblings of current students. At JIS, sibling priority is significant. At [BSJ](/international-schools/jakarta/british-school-jakarta/) and [ISJ](/international-schools/jakarta/independent-school-of-jakarta/), siblings are favoured but not guaranteed a place in oversubscribed year groups.
 
 **Staff children.** Teachers' and staff members' children typically receive fee discounts and admissions priority. This is standard across international schools globally.
 
@@ -128,6 +128,13 @@ Every premium school assesses. The format depends on the age.
 ## Quiz {#quiz}
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
 
 ## FAQs {#faqs}
 

@@ -26,9 +26,9 @@ read_time: "7 min read"
 ## TL;DR
 
 - Most Jakarta international schools run an August–June academic year. The main admissions round opens 12–18 months before the start of the school year
-- For Nursery and Year 1 entry at premium schools (JIS, BSJ, ISJ), begin the process 12–18 months ahead. These are the most competitive entry points
+- For Nursery and Year 1 entry at premium schools ([JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/)), begin the process 12–18 months ahead. These are the most competitive entry points
 - Mid-year applications are possible at most schools — but availability depends entirely on the year group and school
-- AIS runs a calendar year (January–December) — its admissions timeline is different from every other school in Jakarta
+- [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) runs a calendar year (January–December) — its admissions timeline is different from every other school in Jakarta
 - Do not wait until you arrive in Jakarta to start applying. The best schools fill early, and assessment dates are fixed
 
 ## In this article
@@ -108,7 +108,7 @@ Not every year group is equally competitive. The pressure points are predictable
 
 **AIS** — Preschool 3 (age 3) is the earliest entry. AIS runs a January start, which means its admissions cycle is offset from every other school. Applications for January entry typically need to be in by the previous August–September.
 
-**NAS, ACG, NJIS** — These mid-tier schools are generally less competitive for admissions. NAS attracts families who want a British curriculum at a lower price point. ACG offers the full IB continuum. Both typically have availability across most year groups.
+**[NAS](/international-schools/jakarta/nord-anglia-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/)** — These mid-tier schools are generally less competitive for admissions. NAS attracts families who want a British curriculum at a lower price point. ACG offers the full IB continuum. Both typically have availability across most year groups.
 
 For detail on which year groups are hardest to enter, see our dedicated guide on [admissions pressure by year group](#34).
 
@@ -147,6 +147,13 @@ The assessment is not designed to exclude. It is designed to ensure the school c
 ## Quiz {#quiz}
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
 
 ## FAQs {#faqs}
 

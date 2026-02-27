@@ -50,15 +50,15 @@ This briefing is written for HR directors, global mobility managers and relocati
 
 Jakarta has approximately 180 schools operating under the SPK (Satuan Pendidikan Kerjasama) framework — the Indonesian government's licensing system for schools delivering international curricula. Of these, four are consistently identified as the premium tier by the international community:
 
-**JIS (Jakarta Intercultural School)** — the largest international school in Jakarta. American-international curriculum with both AP and IB Diploma pathways. WASC and CIS accredited. Located in Cilandak, South Jakarta. Approximately 2,500 students. Fees: $17,341–$35,916 per year.
+**JIS ([Jakarta Intercultural School](/international-schools/jakarta/jakarta-intercultural-school/))** — the largest international school in Jakarta. American-international curriculum with both AP and IB Diploma pathways. WASC and CIS accredited. Located in Cilandak, South Jakarta. Approximately 2,500 students. Fees: $17,341–$35,916 per year.
 
-**BSJ (British School Jakarta)** — British curriculum (Cambridge IGCSE to IB Diploma). CIS and BSO accredited. Located in Bintaro, South Tangerang. Approximately 1,400 students. Fees: $8,919–$32,910 per year.
+**BSJ ([British School Jakarta](/international-schools/jakarta/british-school-jakarta/))** — British curriculum (Cambridge IGCSE to IB Diploma). CIS and BSO accredited. Located in Bintaro, South Tangerang. Approximately 1,400 students. Fees: $8,919–$32,910 per year.
 
-**ISJ (The Independent School of Jakarta)** — British independent school, currently Pre-Nursery to Year 8 (secondary campus opening September 2028). Located in Pondok Indah, South Jakarta. Targeting 500 students at optimal enrolment. Fees: $8,827–$28,809 per year.
+**ISJ ([The Independent School of Jakarta](/international-schools/jakarta/independent-school-of-jakarta/))** — British independent school, currently Pre-Nursery to Year 8 (secondary campus opening September 2028). Located in Pondok Indah, South Jakarta. Targeting 500 students at optimal enrolment. Fees: $8,827–$28,809 per year.
 
-**AIS (Australian Independent School)** — Australian curriculum transitioning to IB Diploma at Years 11–12. Located in Pejaten, South Jakarta. Calendar-year academic cycle (January–December). Fees: $5,975–$26,308 per year.
+**AIS ([Australian Independent School](/international-schools/jakarta/australian-independent-school-jakarta/))** — Australian curriculum transitioning to IB Diploma at Years 11–12. Located in Pejaten, South Jakarta. Calendar-year academic cycle (January–December). Fees: $5,975–$26,308 per year.
 
-Below the premium tier, credible mid-range options include NAS (Nord Anglia School Jakarta), ACG Jakarta, NJIS and Binus Simprug. Fees at these schools range from $6,000–$25,000 per year depending on year group. Quality is more variable, and the co-curricular and university counselling infrastructure is less developed than at the premium tier.
+Below the premium tier, credible mid-range options include NAS ([Nord Anglia School Jakarta](/international-schools/jakarta/nord-anglia-school-jakarta/)), [ACG](/international-schools/jakarta/acg-school-jakarta/) Jakarta, [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) and [Binus Simprug](/international-schools/jakarta/binus-school-simprug/). Fees at these schools range from $6,000–$25,000 per year depending on year group. Quality is more variable, and the co-curricular and university counselling infrastructure is less developed than at the premium tier.
 
 For a full comparison, see our [guide to the best international schools in Jakarta](#1).
 
@@ -143,6 +143,14 @@ For families with specific needs — learning support, EAL, gifted provision —
 ## Quiz {#quiz}
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
+- [Compare schools side by side →](/compare)
 
 ## FAQs {#faqs}
 

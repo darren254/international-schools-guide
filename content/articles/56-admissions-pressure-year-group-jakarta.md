@@ -25,10 +25,10 @@ read_time: "7 min read"
 ## TL;DR
 
 - Admissions pressure at Jakarta's premium schools follows a predictable pattern: three high-pressure entry points (Nursery, Year 1, Year 7) and relative ease everywhere else
-- JIS and BSJ are the two schools where waiting lists are longest and most persistent. ISJ's smaller year groups can make individual places harder to secure, even without a formal waiting list
+- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) and [BSJ](/international-schools/jakarta/british-school-jakarta/) are the two schools where waiting lists are longest and most persistent. [ISJ](/international-schools/jakarta/independent-school-of-jakarta/)'s smaller year groups can make individual places harder to secure, even without a formal waiting list
 - The August–October application window is the busiest period across all schools. Families who apply outside this window — particularly January to March for the following academic year — face less competition
 - Upper primary (Years 4–6) and upper secondary (Years 10–12) are consistently the easiest entry points at every premium school
-- The mid-tier schools (NAS, ACG, NJIS) rarely have admissions pressure at any year group — families can generally secure places at short notice
+- The mid-tier schools ([NAS](/international-schools/jakarta/nord-anglia-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/)) rarely have admissions pressure at any year group — families can generally secure places at short notice
 
 ## In this article
 
@@ -99,7 +99,7 @@ ISJ's deliberately smaller year groups — the school is targeting approximately
 
 ### AIS
 
-AIS's calendar-year cycle (January–December) means its admissions rhythm is different from the August-start schools.
+[AIS](/international-schools/jakarta/australian-independent-school-jakarta/)'s calendar-year cycle (January–December) means its admissions rhythm is different from the August-start schools.
 
 **Moderate pressure:** Preschool 3 (age 3). The primary intake point, but AIS's lower fee point at early years ($5,975–$7,702) and larger potential catchment means it faces less pressure than JIS or BSJ at the same age.
 
@@ -156,6 +156,13 @@ The net effect: the early years stay tight because demand is structural (familie
 ## Quiz {#quiz}
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
 
 ## FAQs {#faqs}
 

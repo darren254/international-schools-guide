@@ -75,7 +75,7 @@ Originally published: 24 February 2026
 
 ## BSJ — The Full-Pathway Establishment
 
-British School Jakarta is the longest-established and largest British-heritage school in Indonesia. Founded in 1974, it occupies a 45-acre estate in Bintaro — a suburb southwest of central Jakarta, technically in Tangerang Selatan. The campus is the largest of any international school in the city and it is not close.
+[British School Jakarta](/international-schools/jakarta/british-school-jakarta/) is the longest-established and largest British-heritage school in Indonesia. Founded in 1974, it occupies a 45-acre estate in Bintaro — a suburb southwest of central Jakarta, technically in Tangerang Selatan. The campus is the largest of any international school in the city and it is not close.
 
 BSJ runs the full pathway from age 2 through to Year 13. Primary follows the Early Years Foundation Stage and the English National Curriculum with an inquiry-based approach. From Year 7, students move into the IB Middle Years Programme. The Sixth Form offers the IB Diploma. This hybrid — British primary, IB secondary — means BSJ is less traditionally British than it once was. The school culture remains British (uniforms, assemblies, house system, character emphasis), but the academic qualifications are international. Students take IB MYP and IB DP, not IGCSEs or A-Levels. If you specifically want British qualifications rather than British culture, clarify this during admissions.
 
@@ -113,7 +113,7 @@ Source: Verified from official BSJ fee schedule, February 2026.
 
 ## ISJ — The British Prep School
 
-The Independent School of Jakarta opened in 2022 and models itself on a British independent prep school — not a large international school that happens to follow the English National Curriculum. The distinction matters.
+[The Independent School of Jakarta](/international-schools/jakarta/independent-school-of-jakarta/) opened in 2022 and models itself on a British independent prep school — not a large international school that happens to follow the English National Curriculum. The distinction matters.
 
 ISJ is operated by The Schools Trust, a group with a long track record of founding British schools internationally. The trust has opened 16 schools across Asia, Europe, and South America since 2004 — including The British School of Beijing (Sanlitun and Shunyi), The British School of Guangzhou, The British School of Kuala Lumpur, The British School of Nanjing, The King's School Manila, and schools in Moscow, Yangon, São Paulo, Brasília, Lisbon, Vilnius, Tashkent, Pamplona, and Marbella. These are not franchise operations. They are schools built from scratch to British independent school standards — in teaching and learning, safeguarding, staff development, pastoral care, and the kind of confidence-building and character education that defines the UK independent sector (all Schools Trust schools are required to be UK inspected and BSO accredited).
 
@@ -152,7 +152,7 @@ Source: Verified from ISJ fee schedule, February 2026.
 
 ## NAS Jakarta — The Affordable Primary with a Global Brand
 
-Nord Anglia School Jakarta has a longer history than most parents realise — though few would guess it. It started in 1967 as the Netherlands Inter-community School, serving Dutch expatriate children from a single classroom in Menteng. It moved through several Jakarta locations before settling in Cilandak, where it occupies a compact campus on Jalan Jeruk Perut. In 2017 it joined Nord Anglia Education and was rebranded.
+[Nord Anglia School Jakarta](/international-schools/jakarta/nord-anglia-school-jakarta/) has a longer history than most parents realise — though few would guess it. It started in 1967 as the Netherlands Inter-community School, serving Dutch expatriate children from a single classroom in Menteng. It moved through several Jakarta locations before settling in Cilandak, where it occupies a compact campus on Jalan Jeruk Perut. In 2017 it joined Nord Anglia Education and was rebranded.
 
 NAS serves children from 18 months to Year 6, following the English National Curriculum supplemented by the International Primary Curriculum (IPC). At around 200 students and 30-plus nationalities, it is mid-sized — large enough to be properly international, small enough that teachers know every child. Parents describe the community as warm.
 
@@ -189,7 +189,7 @@ Source: International Schools Database and NAS Jakarta, February 2026. Verify di
 
 ## ACG Jakarta — The Full Pathway at Lower Cost
 
-ACG School Jakarta does not come up in most expat conversations about British schools in Jakarta. It deserves to. It is the only school in this comparison other than BSJ that offers a full pathway from Kindergarten to Year 13 — and it does so at significantly lower fees across every stage.
+[ACG School Jakarta](/international-schools/jakarta/acg-school-jakarta/) does not come up in most expat conversations about British schools in Jakarta. It deserves to. It is the only school in this comparison other than BSJ that offers a full pathway from Kindergarten to Year 13 — and it does so at significantly lower fees across every stage.
 
 ACG sits in Pasar Minggu, south Jakarta, on a mid-sized modern campus. The school runs IB Primary Years Programme (PYP) in the early and primary years, Cambridge IGCSEs in the middle years, and the IB Diploma in the Sixth Form. That hybrid pathway — IB primary, Cambridge middle, IB exit — gives students structured examinations at 16 (IGCSEs) and a globally recognised diploma at 18.
 
@@ -327,6 +327,13 @@ d) BSJ ✓
 
 ---
 
+
+
+---
+
+**Ready to explore?**
+
+- [Compare schools side by side →](/compare)
 
 ## FAQs
 

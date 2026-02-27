@@ -24,7 +24,7 @@ read_time: "10 min read"
 ## TL;DR
 
 - Singapore has the deepest pool of top-tier international schools in Southeast Asia — but fees are the highest in the region, typically SGD 30,000–55,000 ($22,000–$41,000) at premium schools, and total cost of living is significantly higher than Jakarta or KL
-- Jakarta's top international schools (JIS, BSJ, AIS) charge $25,000–$36,000 at secondary — comparable to Singapore's mid-tier — but the total cost of living (housing, domestic help, dining) is substantially lower
+- Jakarta's top international schools ([JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/), [AIS](/international-schools/jakarta/australian-independent-school-jakarta/)) charge $25,000–$36,000 at secondary — comparable to Singapore's mid-tier — but the total cost of living (housing, domestic help, dining) is substantially lower
 - Kuala Lumpur offers the best value: strong schools at 30–40% less than Singapore, with lower cost of living. ISKL and BSKL rival the quality of Singapore and Jakarta's top tier
 - Admissions pressure varies: Singapore's top schools have long waitlists. Jakarta's premium schools are competitive at entry points (Nursery, Year 1, Year 7). KL is generally more accessible
 - The decision is rarely about schools alone — it is about the total package: career, lifestyle, cost, and how long you plan to stay
@@ -83,7 +83,7 @@ At the premium end, the three cities are closer than most people assume. JIS at 
 
 ### Mid-tier comparison
 
-KL has the strongest mid-tier market. Schools like Fairview, Nexus, and Tenby charge MYR 35,000–55,000 ($8,000–$12,000) at primary level and deliver credible IB or Cambridge programmes. Jakarta's equivalent bracket — NAS, ACG, NJIS, GMIS — is smaller, and the quality varies more. Singapore's mid-tier starts at SGD 15,000–22,000 ($11,000–$16,000), which overlaps with Jakarta's premium schools on price.
+KL has the strongest mid-tier market. Schools like Fairview, Nexus, and Tenby charge MYR 35,000–55,000 ($8,000–$12,000) at primary level and deliver credible IB or Cambridge programmes. Jakarta's equivalent bracket — [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/), [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/) — is smaller, and the quality varies more. Singapore's mid-tier starts at SGD 15,000–22,000 ($11,000–$16,000), which overlaps with Jakarta's premium schools on price.
 
 For families who need an international school under $15,000 per year, KL has the most options. Jakarta has some — [see our guide to affordable international schools in Jakarta](#12) — but the depth of the mid-tier market in KL is hard to match.
 
@@ -96,7 +96,7 @@ For families who need an international school under $15,000 per year, KL has the
 
 **Singapore** has the deepest pool of top-tier schools in the region. The top five or six Singapore international schools would rank among the best anywhere in the world. University counselling infrastructure is mature. IB results across multiple schools are consistently above global averages. Teacher recruitment benefits from Singapore's reputation as a desirable posting — schools attract experienced staff from the UK, Australia, New Zealand and North America. The downside: it is the most expensive education market in Southeast Asia.
 
-**Jakarta** has a strong but narrower top tier. JIS is the standout — the only school in the city offering both AP and IB Diploma, with WASC accreditation and a co-curricular programme that rivals Singapore's best. BSJ delivers a high-quality British pathway through IGCSE to IB. ISJ brings a British independent school character rare in the region. AIS rounds out the top bracket with strong pastoral care and learning support. Below the top four, quality drops more sharply than in Singapore or KL. The gap between Jakarta's premium schools and its mid-tier is wider than in the other two cities.
+**Jakarta** has a strong but narrower top tier. JIS is the standout — the only school in the city offering both AP and IB Diploma, with WASC accreditation and a co-curricular programme that rivals Singapore's best. BSJ delivers a high-quality British pathway through IGCSE to IB. [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) brings a British independent school character rare in the region. AIS rounds out the top bracket with strong pastoral care and learning support. Below the top four, quality drops more sharply than in Singapore or KL. The gap between Jakarta's premium schools and its mid-tier is wider than in the other two cities.
 
 **KL** sits between the two. ISKL and Alice Smith are strong schools by any regional standard. BSKL (part of the Nord Anglia group) has invested heavily in facilities and programme breadth. Garden International has a long track record. The mid-tier is where KL stands out — there are more credible, affordable schools in KL than in either Jakarta or Singapore. For families on a budget who still want a recognised international qualification, KL offers the widest choice.
 
@@ -154,13 +154,20 @@ Singapore wins on infrastructure. Public transport is world-class. Roads are wel
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
 
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
+
 ## FAQs {#faqs}
 
 **Is it easy to move between schools in different countries?**
 Easier than most parents expect — if the curriculum aligns. A child moving from a British school in Jakarta (BSJ) to a British school in KL (BSKL or Alice Smith) can transfer with minimal disruption. IB-to-IB moves are similarly smooth. The harder transitions are between curriculum systems — switching from an American school to a British school at IGCSE level, for example, requires careful planning. Most international schools are experienced at managing transfers and will assess on entry.
 
 **Which city has the best IB results?**
-Singapore, by depth. Multiple Singapore schools post IB averages above 35 points. In Jakarta, Binus Simprug publishes an average of 34 — but the premium schools (JIS, BSJ) do not publish results publicly. In KL, ISKL and a handful of others post competitive results. The data is patchy everywhere — ask schools directly for their most recent scores.
+Singapore, by depth. Multiple Singapore schools post IB averages above 35 points. In Jakarta, [Binus Simprug](/international-schools/jakarta/binus-school-simprug/) publishes an average of 34 — but the premium schools (JIS, BSJ) do not publish results publicly. In KL, ISKL and a handful of others post competitive results. The data is patchy everywhere — ask schools directly for their most recent scores.
 
 **Can I move my child from Jakarta to Singapore mid-year?**
 Yes, though availability depends on the school and year group. Most international schools in all three cities accept mid-year applications. Singapore's premium schools are the most likely to have waitlists. Give yourself at least 2–3 months lead time where possible.

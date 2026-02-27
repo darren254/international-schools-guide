@@ -109,7 +109,7 @@ If you are evaluating an IB school, ask to see examples of CAS projects. The qua
 
 ---
 
-[YOU MIGHT ALSO BE INTERESTED IN — 2–3 article cards: "#25 IB vs A-Levels in International Schools", "#4 Best IB Schools in Jakarta", "#41 IB Diploma Results at Jakarta International Schools"]
+[YOU MIGHT ALSO BE INTERESTED IN — 2–3 article cards: "#25 IB vs A-Levels in International Schools", "#4 Best IB Schools in Jakarta", "#41 IB Diploma Results at [Jakarta International Schools](/international-schools/jakarta/)"]
 
 ---
 
@@ -194,6 +194,13 @@ Not all IB schools are equal. Being an "authorised IB World School" tells you th
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
 
 ---
+
+
+---
+
+**Ready to explore?**
+
+- [Browse Jakarta schools offering the IB Diploma →](/international-schools/jakarta/)
 
 ## FAQs
 

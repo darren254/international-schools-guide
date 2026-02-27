@@ -23,11 +23,11 @@ read_time: "5 min read"
 
 ## TL;DR
 
-- Nursery / Early Years (ages 2–4) is the most competitive entry point across JIS, BSJ, ISJ and AIS — this is where most families first enter the system
+- Nursery / Early Years (ages 2–4) is the most competitive entry point across [JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) and [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) — this is where most families first enter the system
 - Year 1 (age 5) is the second bottleneck: families who did not start at nursery try to enter here, and class sizes are set
 - Year 7 (age 11) is the secondary entry point — particularly competitive at BSJ, where families target the IGCSE pathway
 - Upper years (Year 10+) are the easiest to enter because families leaving Jakarta create regular openings
-- The mid-tier schools (NAS, ACG, NJIS) are rarely oversubscribed at any entry point
+- The mid-tier schools ([NAS](/international-schools/jakarta/nord-anglia-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/)) are rarely oversubscribed at any entry point
 
 ## In this article
 
@@ -106,6 +106,13 @@ The pattern is clear: premium schools have pressure points. Mid-tier schools do 
 ## Quiz {#quiz}
 
 <!-- QUIZ PLACEHOLDER — Quiz content will be injected by the site. -->
+
+
+---
+
+**Ready to explore?**
+
+- [Browse all Jakarta international schools →](/international-schools/jakarta/)
 
 ## FAQs {#faqs}
 
