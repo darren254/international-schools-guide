@@ -79,12 +79,8 @@ const FEATURED_SCHOOLS_RAW: {
   },
 ];
 
-// Sort by highest fee (descending) - default sort order
-const FEATURED_SCHOOLS = [...FEATURED_SCHOOLS_RAW].sort((a, b) => {
-  const feeA = extractHighestFee(a.feeRange);
-  const feeB = extractHighestFee(b.feeRange);
-  return feeB - feeA; // Descending order (high to low)
-});
+// Use manual order instead of sorting by fees
+const FEATURED_SCHOOLS = FEATURED_SCHOOLS_RAW;
 
 // 3 most recent insights for "From the guide" (by date)
 const FROM_THE_GUIDE = [
