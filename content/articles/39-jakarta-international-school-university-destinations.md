@@ -24,9 +24,9 @@ read_time: "7 min read"
 
 ## TL;DR
 
-- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) sends approximately 54% of graduates to the US, 14% to the UK, and the remainder to Canada, Australia, Asia and Europe. Acceptances include Harvard, Stanford, University of Toronto, and University of Tokyo
-- [BSJ](/international-schools/jakarta/british-school-jakarta/) graduates go to Oxford, Cambridge, Imperial, UCL, LSE, and leading universities in the US, Canada, Australia and Asia. BSJ publishes destination data from 2020–2025
-- Most other Jakarta schools do not publish university destination data publicly. [AIS](/international-schools/jakarta/australian-independent-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [Binus Simprug](/international-schools/jakarta/binus-school-simprug/) and [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) all have graduates at international universities but you need to ask admissions directly
+- JIS sends approximately 54% of graduates to the US, 14% to the UK, and the remainder to Canada, Australia, Asia and Europe. Acceptances include Harvard, Stanford, University of Toronto, and University of Tokyo
+- BSJ graduates go to Oxford, Cambridge, Imperial, UCL, LSE, and leading universities in the US, Canada, Australia and Asia. BSJ publishes destination data from 2020–2025
+- Most other Jakarta schools do not publish university destination data publicly. AIS, ACG, Binus Simprug and NJIS all have graduates at international universities but you need to ask admissions directly
 - The IB Diploma is recognised by universities worldwide. AP is the strongest pathway for US admissions. Cambridge IGCSEs carry weight for UK and Commonwealth applications
 - University counselling quality varies significantly between schools — and it matters as much as the qualification itself
 
@@ -56,7 +56,7 @@ Where graduates go to university is one of the most asked questions in internati
 | **NJIS** | Not publicly | Not publicly | Available on request |
 | **SPH** | Not publicly | Not publicly | Available on request |
 
-The transparency gap is real. JIS and BSJ deserve credit for publishing data that other schools keep behind the admissions office door. If a school does not publish university destinations, ask why — and ask to see the data anyway.
+The transparency gap is real. [JIS](/international-schools/jakarta/jakarta-intercultural-school/) and [BSJ](/international-schools/jakarta/british-school-jakarta/) deserve credit for publishing data that other schools keep behind the admissions office door. If a school does not publish university destinations, ask why — and ask to see the data anyway.
 
 ## JIS — The American Pathway {#jis}
 
@@ -98,13 +98,13 @@ BSJ also achieved 13 Pearson Student Excellence Awards for top national IGCSE ra
 
 ## Other Schools {#other-schools}
 
-**AIS** does not publish university destination data or IB Diploma results online. The school states that data is available on request from admissions. AIS runs the Australian curriculum through Year 10 before switching to IB Diploma for Years 11–12. Graduates attend universities in Australia, the UK, the US and Asia — but the published record is not available for independent verification.
+**[AIS](/international-schools/jakarta/australian-independent-school-jakarta/)** does not publish university destination data or IB Diploma results online. The school states that data is available on request from admissions. AIS runs the Australian curriculum through Year 10 before switching to IB Diploma for Years 11–12. Graduates attend universities in Australia, the UK, the US and Asia — but the published record is not available for independent verification.
 
-**Binus Simprug** publishes IB Diploma results (average 34, 95% pass rate) and lists university destinations on its website. Graduates attend universities outside Indonesia — the school's bilingual model and Indonesian student body mean a mix of domestic and international university placements.
+**[Binus Simprug](/international-schools/jakarta/binus-school-simprug/)** publishes IB Diploma results (average 34, 95% pass rate) and lists university destinations on its website. Graduates attend universities outside Indonesia — the school's bilingual model and Indonesian student body mean a mix of domestic and international university placements.
 
-**NJIS** is WASC-accredited and runs the full IB continuum. The school's smaller size (approximately 266 students) means a smaller graduating class. University destination data is available on request.
+**[NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/)** is WASC-accredited and runs the full IB continuum. The school's smaller size (approximately 266 students) means a smaller graduating class. University destination data is available on request.
 
-**ACG, [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/), [SPH](/international-schools/jakarta/sekolah-pelita-harapan/)** — university destination data is not publicly available for any of these schools. Ask admissions directly. All have graduates at international universities, but the published evidence base is thin.
+**[ACG](/international-schools/jakarta/acg-school-jakarta/), [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/), [SPH](/international-schools/jakarta/sekolah-pelita-harapan/)** — university destination data is not publicly available for any of these schools. Ask admissions directly. All have graduates at international universities, but the published evidence base is thin.
 
 ## What the Data Does Not Tell You {#what-the-data-does-not-tell-you}
 

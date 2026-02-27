@@ -45,13 +45,13 @@ Not every school has one. But schools that hold BSO, CIS or IB accreditation hav
 
 ## Where to Find Reports {#where-to-find-reports}
 
-**BSO (British Schools Overseas) reports:** Published on the UK Department for Education website. Search by school name. BSJ, ISJ and other British schools with BSO accreditation have reports available. The school may also publish the report on its own website.
+**BSO (British Schools Overseas) reports:** Published on the UK Department for Education website. Search by school name. [BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) and other British schools with BSO accreditation have reports available. The school may also publish the report on its own website.
 
 **CIS (Council of International Schools) reports:** CIS does not publish full reports publicly in the same way. However, CIS-accredited schools receive a detailed evaluation, and the school can share the report with prospective families on request. Ask the admissions office.
 
 **IB programme evaluations:** The IB conducts programme evaluations (separate from accreditation visits). These are shared with the school but are not routinely made public. Ask the school whether they will share the evaluation findings.
 
-**WASC (Western Association of Schools and Colleges):** WASC accreditation reports are shared with the school. JIS, which holds WASC accreditation, can share its report on request. WASC does not publish reports publicly.
+**WASC (Western Association of Schools and Colleges):** WASC accreditation reports are shared with the school. [JIS](/international-schools/jakarta/jakarta-intercultural-school/), which holds WASC accreditation, can share its report on request. WASC does not publish reports publicly.
 
 **The practical advice:** If you cannot find a report online, ask the school directly. An accredited school that refuses to share its inspection report is a red flag.
 

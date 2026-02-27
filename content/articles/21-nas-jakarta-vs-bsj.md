@@ -164,7 +164,7 @@ NAS is a for-profit school, owned by Nord Anglia Education — one of the world'
 
 NAS also runs a unique Dutch Language and Culture (NTC) programme — three hours per week of Dutch instruction for Dutch-passport families. This is the only such programme in Jakarta and reflects the school's heritage.
 
-**The secondary question:** NAS is expanding to Year 7 in 2026–27. That is one additional year group — not a secondary school. Until NAS publishes a credible multi-year build-out plan with facilities, staffing, and curriculum pathways through to Year 13, families should treat the secondary expansion with caution. Most NAS families currently move to BSJ, JIS, or other secondary schools. Ask directly about the timeline and transition support.
+**The secondary question:** NAS is expanding to Year 7 in 2026–27. That is one additional year group — not a secondary school. Until NAS publishes a credible multi-year build-out plan with facilities, staffing, and curriculum pathways through to Year 13, families should treat the secondary expansion with caution. Most NAS families currently move to BSJ, [JIS](/international-schools/jakarta/jakarta-intercultural-school/), or other secondary schools. Ask directly about the timeline and transition support.
 
 The fee advantage is real. NAS is the cheapest of the four schools at primary level — around US$20,600–$20,900 per year at Years 1–7, roughly 20% below BSJ and ISJ.
 

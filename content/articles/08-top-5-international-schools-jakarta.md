@@ -36,7 +36,7 @@ Originally published: 24 February 2026
 - **ISJ** is the British prep school — every teacher British-qualified, class sizes capped at 20, run by The Schools Trust (16 schools internationally). Secondary campus opening September 2028 with A-levels. Fees comparable to BSJ at primary.
 - **BSJ** is the British establishment — 45-acre campus, IB Diploma through Year 13, 1,400+ students. Fees reach ~$32,910 at Sixth Form. The Bintaro commute is the trade-off.
 - **AIS** is the Australian option — IB Diploma, strong pastoral care, calendar-year schedule. Fees top ~$26,300. Good for families who want a gentler, less pressured environment.
-- **[SPH Lippo Village](/international-schools/jakarta/sekolah-pelita-harapan/)** is the school Indonesians choose when money is no object — first three-programme IB school in Indonesia, 10-hectare campus, consistently above-average IB results. Fees are lower than the other four (~$6,900–$20,900). Primarily Indonesian student body. Christian.
+- **SPH Lippo Village** is the school Indonesians choose when money is no object — first three-programme IB school in Indonesia, 10-hectare campus, consistently above-average IB results. Fees are lower than the other four (~$6,900–$20,900). Primarily Indonesian student body. Christian.
 
 ---
 
@@ -133,7 +133,7 @@ Two things to flag: AIS charges a separate EAL surcharge for students requiring 
 
 SPH is the school that Indonesian families with means choose when they want an international education with Christian values. It does not feature in most expat conversations — the student body is primarily Indonesian, the flagship campus is in Lippo Village (Tangerang, west of Jakarta), and the school's Christian identity is central to everything it does. But the academic credentials are strong enough to earn a place on this list.
 
-Founded in 1993 by the Lippo Group's Johannes Oentoro and James Riady, SPH Lippo Village was the first school in Indonesia to offer all three IB programmes — PYP, MYP and DP — from Kindergarten through Grade 12. The campus spans 10 hectares with an Olympic-sized pool, full-size football pitch, science labs and a performing arts centre. IB Diploma results are consistently above the world average. The school is a non-profit, run by Yayasan Pendidikan Pelita Harapan (YPPH).
+Founded in 1993 by the Lippo Group's Johannes Oentoro and James Riady, [SPH Lippo Village](/international-schools/jakarta/sekolah-pelita-harapan/) was the first school in Indonesia to offer all three IB programmes — PYP, MYP and DP — from Kindergarten through Grade 12. The campus spans 10 hectares with an Olympic-sized pool, full-size football pitch, science labs and a performing arts centre. IB Diploma results are consistently above the world average. The school is a non-profit, run by Yayasan Pendidikan Pelita Harapan (YPPH).
 
 What makes SPH worth knowing about — even for expat families — is the fee-to-quality ratio. Annual tuition ranges from approximately $6,900 to $20,900 including the development fee. That is roughly half what JIS or BSJ charge at equivalent year groups. Teachers must pass a faith interview (committed Protestant Christians), which filters for a specific kind of educator — but the academic outcomes speak for themselves.
 

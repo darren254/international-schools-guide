@@ -23,7 +23,7 @@ read_time: "6 min read"
 
 ## TL;DR
 
-- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) and [BSJ](/international-schools/jakarta/british-school-jakarta/) have the strongest university counselling infrastructure in Jakarta — experienced teams, institutional relationships, and decades of track record
+- JIS and BSJ have the strongest university counselling infrastructure in Jakarta — experienced teams, institutional relationships, and decades of track record
 - JIS is best for US university applications (WASC, AP, US transcripts). BSJ is best for UK applications (IGCSE, IB, Russell Group relationships)
 - The quality of the counselling team matters as much as the qualification. Two students with the same IB score can have very different outcomes
 - Most mid-tier schools have university counselling — but the depth, experience, and institutional relationships are not equivalent to JIS or BSJ
@@ -62,7 +62,7 @@ The counselling team at a premium school typically includes 3–6 dedicated coun
 
 ### JIS
 
-JIS has the most established university counselling programme in Jakarta. The team includes multiple dedicated college counsellors who work exclusively on university placement. The school produces US-compatible transcripts, which simplifies the application process for American universities.
+[JIS](/international-schools/jakarta/jakarta-intercultural-school/) has the most established university counselling programme in Jakarta. The team includes multiple dedicated college counsellors who work exclusively on university placement. The school produces US-compatible transcripts, which simplifies the application process for American universities.
 
 JIS's graduating class of approximately 200 students provides a large data set for admissions offices — universities know JIS, know what a JIS transcript means, and have years of experience admitting JIS graduates. This institutional familiarity is an advantage that smaller schools cannot replicate.
 
@@ -70,7 +70,7 @@ JIS's graduating class of approximately 200 students provides a large data set f
 
 ### BSJ
 
-BSJ runs a structured four-year university counselling programme beginning in Year 10. The team has deep relationships with UK universities — Russell Group institutions in particular — and the IGCSE-to-IB pathway produces the profile that British admissions offices expect.
+[BSJ](/international-schools/jakarta/british-school-jakarta/) runs a structured four-year university counselling programme beginning in Year 10. The team has deep relationships with UK universities — Russell Group institutions in particular — and the IGCSE-to-IB pathway produces the profile that British admissions offices expect.
 
 BSJ's published IB results (average 35 in 2024, 34.7 in 2025) are strong enough for competitive applications worldwide. The school places graduates at Oxford, Cambridge, Imperial, UCL, and LSE, as well as leading universities in the US, Australia and Asia.
 

@@ -23,11 +23,11 @@ read_time: "5 min read"
 
 ## TL;DR
 
-- Nursery / Early Years (ages 2–4) is the most competitive entry point across [JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) and [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) — this is where most families first enter the system
+- Nursery / Early Years (ages 2–4) is the most competitive entry point across JIS, BSJ, ISJ and AIS — this is where most families first enter the system
 - Year 1 (age 5) is the second bottleneck: families who did not start at nursery try to enter here, and class sizes are set
 - Year 7 (age 11) is the secondary entry point — particularly competitive at BSJ, where families target the IGCSE pathway
 - Upper years (Year 10+) are the easiest to enter because families leaving Jakarta create regular openings
-- The mid-tier schools ([NAS](/international-schools/jakarta/nord-anglia-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/)) are rarely oversubscribed at any entry point
+- The mid-tier schools (NAS, ACG, NJIS) are rarely oversubscribed at any entry point
 
 ## In this article
 
@@ -53,7 +53,7 @@ This is the primary entry point for the international school system in Jakarta. 
 - Once a child is enrolled, they are almost always guaranteed progression through the school
 - Families who miss the nursery intake face a harder path later
 
-At JIS, Early Years 1 (age 3) is the key entry point. At BSJ, it is Kukangs/K1 (ages 2–3). At ISJ, Pre-Nursery (age 2) and Nursery (age 3) are both competitive — ISJ's deliberately smaller year groups mean fewer places. At AIS, Preschool 3 (age 3) is the starting point.
+At [JIS](/international-schools/jakarta/jakarta-intercultural-school/), Early Years 1 (age 3) is the key entry point. At [BSJ](/international-schools/jakarta/british-school-jakarta/), it is Kukangs/K1 (ages 2–3). At [ISJ](/international-schools/jakarta/independent-school-of-jakarta/), Pre-Nursery (age 2) and Nursery (age 3) are both competitive — ISJ's deliberately smaller year groups mean fewer places. At [AIS](/international-schools/jakarta/australian-independent-school-jakarta/), Preschool 3 (age 3) is the starting point.
 
 **Lead time needed:** 12–18 months for premium schools. Begin the process before your child turns 2 if targeting BSJ or ISJ.
 
@@ -95,7 +95,7 @@ The pattern is clear: premium schools have pressure points. Mid-tier schools do 
 
 **If you are relocating in 6–12 months:** Apply to your first-choice school and one or two backup schools simultaneously. If your target year group is oversubscribed, the backup ensures your child has a school to attend while you wait.
 
-**If you arrive at short notice:** Contact schools directly. Ask about specific year groups — do not ask "do you have space?" in the abstract. Some year groups will have places even at premium schools. Upper primary and upper secondary typically have the most turnover. If premium schools are full, the mid-tier schools (NAS, ACG, NJIS) will almost certainly have availability.
+**If you arrive at short notice:** Contact schools directly. Ask about specific year groups — do not ask "do you have space?" in the abstract. Some year groups will have places even at premium schools. Upper primary and upper secondary typically have the most turnover. If premium schools are full, the mid-tier schools ([NAS](/international-schools/jakarta/nord-anglia-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/)) will almost certainly have availability.
 
 **If your child is entering at an unusual age:** Children who fall between academic years — a September birthday in a system that uses August cut-offs, for example — may have options in an adjacent year group. Some schools assess and place flexibly. Discuss this with the admissions office.
 

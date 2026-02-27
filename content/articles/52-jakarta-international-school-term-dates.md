@@ -24,9 +24,9 @@ read_time: "4 min read"
 ## TL;DR
 
 - Most Jakarta international schools run an August-to-June academic year, split into semesters or three terms
-- [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) is the exception — it runs a calendar year (January to December), aligned with the Australian school year
-- [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) follows a British three-term structure: September to July, with half-term breaks in each term
-- [ACS Jakarta](/international-schools/jakarta/acs-jakarta/) runs a July-to-June year, split into two semesters with four quarters
+- AIS is the exception — it runs a calendar year (January to December), aligned with the Australian school year
+- ISJ follows a British three-term structure: September to July, with half-term breaks in each term
+- ACS Jakarta runs a July-to-June year, split into two semesters with four quarters
 - Indonesian public holidays apply to all schools. Some holiday dates are confirmed late by the government, so school calendars may be updated during the year
 
 ## In this article
@@ -55,7 +55,7 @@ Jakarta's international schools do not all follow the same calendar. The differe
 | **NAS** | August – June | Check school calendar | August 2025 |
 | **Binus Simprug** | August – June | Check school calendar | August 2025 |
 
-The August start is the standard for most Jakarta schools, following the Northern Hemisphere academic year. ISJ is the notable exception with a September start, reflecting its British independent school heritage. AIS follows the Australian academic calendar, which starts in late January and runs to mid-December.
+The August start is the standard for most Jakarta schools, following the Northern Hemisphere academic year. [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) is the notable exception with a September start, reflecting its British independent school heritage. [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) follows the Australian academic calendar, which starts in late January and runs to mid-December.
 
 ## School-by-School Term Dates {#school-by-school}
 
@@ -108,7 +108,7 @@ Exact dates for 2026 are available on the AIS website. The calendar-year structu
 
 ### ACS Jakarta — 2025–26
 
-ACS Jakarta runs a July-to-June year, starting earlier than most Jakarta schools. The year is divided into two semesters with four quarters.
+[ACS Jakarta](/international-schools/jakarta/acs-jakarta/) runs a July-to-June year, starting earlier than most Jakarta schools. The year is divided into two semesters with four quarters.
 
 **Key dates:**
 - Semester 1: 14 July – 4 December 2025 (Q1: July–September, Q2: September–December)

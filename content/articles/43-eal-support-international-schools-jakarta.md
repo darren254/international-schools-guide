@@ -24,7 +24,7 @@ read_time: "6 min read"
 ## TL;DR
 
 - EAL (English as an Additional Language) support is available at all major Jakarta international schools — but the model, cost and quality differ significantly
-- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) charges a one-time EAL fee of $4,239. [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) has a separately priced, detailed EAL programme with ongoing charges. [BSJ](/international-schools/jakarta/british-school-jakarta/) and [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) include EAL within standard tuition
+- JIS charges a one-time EAL fee of $4,239. AIS has a separately priced, detailed EAL programme with ongoing charges. BSJ and ISJ include EAL within standard tuition
 - The best EAL programmes are embedded — specialist teachers work alongside classroom teachers, not in separate pull-out sessions
 - Most children with age-appropriate cognitive ability and social confidence acquire functional English within 12–18 months. Full academic English takes longer — typically 5–7 years
 - Ask the school how many EAL students are in each year group, how EAL is staffed, and what the exit criteria are. Schools that cannot answer clearly may not take it seriously
@@ -77,9 +77,9 @@ EAL is not always included in tuition. The pricing model varies.
 | **NAS** | Included in tuition. |
 | **ACG** | Included in tuition. |
 
-The difference matters. At JIS, the one-time fee of $4,239 is front-loaded — you pay once and there is no ongoing charge. At AIS, the annual charge continues for as long as your child receives EAL support, which can be 2–5 years. Over a full primary career, the AIS model may cost more in total despite the lower annual figure.
+The difference matters. At [JIS](/international-schools/jakarta/jakarta-intercultural-school/), the one-time fee of $4,239 is front-loaded — you pay once and there is no ongoing charge. At [AIS](/international-schools/jakarta/australian-independent-school-jakarta/), the annual charge continues for as long as your child receives EAL support, which can be 2–5 years. Over a full primary career, the AIS model may cost more in total despite the lower annual figure.
 
-Schools that include EAL in standard tuition (BSJ, ISJ, [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/)) are absorbing the cost across all families — which can mean the programme is less individually resourced, or it can mean the school views EAL as a core part of its provision rather than an add-on. Ask about staffing levels either way.
+Schools that include EAL in standard tuition ([BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/), [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/)) are absorbing the cost across all families — which can mean the programme is less individually resourced, or it can mean the school views EAL as a core part of its provision rather than an add-on. Ask about staffing levels either way.
 
 ## What to Ask {#what-to-ask}
 

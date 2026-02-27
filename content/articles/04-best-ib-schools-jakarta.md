@@ -25,11 +25,11 @@ read_time: "9 min read"
 
 ## TL;DR
 
-- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) leads the field — the largest school, the most internationally diverse, and the only one offering both IB Diploma and AP
-- [BSJ](/international-schools/jakarta/british-school-jakarta/) offers the IB Diploma in Sixth Form after a British pathway through IGCSE — a distinctive hybrid model with strong results
-- [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) delivers the IB Diploma with a solid Australian programme underneath and fees slightly below JIS and BSJ
-- [Binus Simprug](/international-schools/jakarta/binus-school-simprug/) is the standout mid-price IB school — full IB continuum at around $15,000 with a published average score of 34
-- Several well-known Jakarta schools (SPH, [Sinarmas World Academy](/international-schools/jakarta/sinarmas-world-academy/)) offer the IB Diploma but do not publish fees — they are not included here
+- JIS leads the field — the largest school, the most internationally diverse, and the only one offering both IB Diploma and AP
+- BSJ offers the IB Diploma in Sixth Form after a British pathway through IGCSE — a distinctive hybrid model with strong results
+- AIS delivers the IB Diploma with a solid Australian programme underneath and fees slightly below JIS and BSJ
+- Binus Simprug is the standout mid-price IB school — full IB continuum at around $15,000 with a published average score of 34
+- Several well-known Jakarta schools (SPH, Sinarmas World Academy) offer the IB Diploma but do not publish fees — they are not included here
 
 ## In this article
 
@@ -49,7 +49,7 @@ This ranking focuses on schools that offer the IB Diploma Programme — the two-
 
 ## Which Jakarta Schools Offer the IB Diploma?
 
-Nine schools in the greater Jakarta area are authorised to deliver the IB Diploma Programme. Seven publish their fees. Two — [Sekolah Pelita Harapan](/international-schools/jakarta/sekolah-pelita-harapan/) (SPH) and Sinarmas World Academy (SWA) — do not make fee schedules publicly available and are excluded from this ranking.
+Nine schools in the greater Jakarta area are authorised to deliver the IB Diploma Programme. Seven publish their fees. Two — [Sekolah Pelita Harapan](/international-schools/jakarta/sekolah-pelita-harapan/) (SPH) and [Sinarmas World Academy](/international-schools/jakarta/sinarmas-world-academy/) (SWA) — do not make fee schedules publicly available and are excluded from this ranking.
 
 [Mentari Intercultural School Bintaro](/international-schools/jakarta/mentari-intercultural-school-bintaro/) (MISB) also holds IB DP authorisation but has limited publicly available fee data, so it is excluded too.
 
@@ -67,7 +67,7 @@ The seven schools ranked below all publish fee information either on their websi
 | **Binus Simprug** | PYP, MYP, DP | ~$15,000 | ~$7,000–$15,000 | Simprug |
 | **GMIS** | PYP, MYP, DP, CP | ~$10,000 | ~$4,600–$10,000 | Kemayoran |
 
-*Fees correct as of February 2026. Exchange rate: IDR 16,826 = $1 USD. BSJ and AIS from official 2025–26 fee schedules. JIS from school website and US State Department fact sheet. [ACG](/international-schools/jakarta/acg-school-jakarta/) from school website. Binus, [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) and [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/) from third-party sources — verify directly with admissions.*
+*Fees correct as of February 2026. Exchange rate: IDR 16,826 = $1 USD. [BSJ](/international-schools/jakarta/british-school-jakarta/) and [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) from official 2025–26 fee schedules. [JIS](/international-schools/jakarta/jakarta-intercultural-school/) from school website and US State Department fact sheet. [ACG](/international-schools/jakarta/acg-school-jakarta/) from school website. Binus, [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) and [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/) from third-party sources — verify directly with admissions.*
 
 <!-- IMAGE PLACEHOLDER: Infographic or comparison table visual -->
 
@@ -120,7 +120,7 @@ ACG runs the full IB continuum — PYP, MYP and Diploma Programme — alongside 
 
 ### Binus Simprug
 
-Binus Simprug is an SPK school — Indonesian-founded with an international curriculum licence. The student body is majority Indonesian. The school runs the full IB continuum (PYP, MYP, DP) and has published an IB average score of 34 with a 95% pass rate. At around $15,000 per year at the high end, that represents the strongest IB value proposition in Jakarta.
+[Binus Simprug](/international-schools/jakarta/binus-school-simprug/) is an SPK school — Indonesian-founded with an international curriculum licence. The student body is majority Indonesian. The school runs the full IB continuum (PYP, MYP, DP) and has published an IB average score of 34 with a 95% pass rate. At around $15,000 per year at the high end, that represents the strongest IB value proposition in Jakarta.
 
 For families who want an IB pathway and cannot stretch to JIS or BSJ fees, Binus Simprug is the first name to investigate. The trade-off is cultural: it will feel different from JIS or BSJ. The peer group is predominantly Indonesian. For some families that is a positive; for others it shapes the experience in ways that matter.
 

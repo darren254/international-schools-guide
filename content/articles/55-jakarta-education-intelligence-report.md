@@ -25,10 +25,10 @@ read_time: "12 min read"
 ## TL;DR
 
 - Jakarta's international school market is growing — driven by rising Indonesian demand, not just expat numbers. Indonesian families now form the majority of the student body at several premium schools
-- The premium tier ([JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/), [AIS](/international-schools/jakarta/australian-independent-school-jakarta/)) is stable and fully enrolled at key entry points. Waiting lists at Nursery, Year 1 and Year 7 show no sign of easing
+- The premium tier (JIS, BSJ, ISJ, AIS) is stable and fully enrolled at key entry points. Waiting lists at Nursery, Year 1 and Year 7 show no sign of easing
 - ISJ's secondary campus (opening September 2028) is the single most significant development in the Jakarta market. It will create a third premium British-aligned secondary option alongside BSJ and JIS
 - Fee inflation continues at 3–7% annually in IDR terms. The gap between premium and mid-tier is widening in absolute dollar terms
-- The mid-tier market (NAS, [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/), [Binus Simprug](/international-schools/jakarta/binus-school-simprug/)) offers credible alternatives but with less depth in university counselling and co-curricular programming. The quality gap is real but narrowing at some schools
+- The mid-tier market (NAS, ACG, NJIS, Binus Simprug) offers credible alternatives but with less depth in university counselling and co-curricular programming. The quality gap is real but narrowing at some schools
 - The IB Diploma dominates the upper secondary market. Seven Jakarta schools now offer IB DP — the broadest choice the city has ever had
 
 ## In this article
@@ -63,7 +63,7 @@ The global context is relevant. ISC Research data shows that Asia accounts for 5
 
 ## The Premium Tier in 2026 {#premium-tier}
 
-The four schools that consistently define the premium tier — JIS, BSJ, ISJ and AIS — are all in stable positions. None is struggling for enrolment. All four have waiting lists at their most competitive entry points.
+The four schools that consistently define the premium tier — [JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) and [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) — are all in stable positions. None is struggling for enrolment. All four have waiting lists at their most competitive entry points.
 
 ### JIS — Jakarta Intercultural School
 
@@ -79,7 +79,7 @@ BSJ is the strongest British school in Jakarta and the school with the most tran
 
 BSJ's Cambridge IGCSE to IB Diploma pathway is well established and produces the profile that UK university admissions offices expect. Graduates are placed at Oxford, Cambridge, Imperial, UCL and LSE, with strong connections across the Russell Group.
 
-Fees range from $8,919 (ages 2–3) to $32,910 (Sixth Form). BSJ's early years pricing is competitive — cheaper than ISJ, ACG and NAS at age 3. The significant fee step comes at Year 1 ($24,083), where tuition more than doubles from K2 ($11,713).
+Fees range from $8,919 (ages 2–3) to $32,910 (Sixth Form). BSJ's early years pricing is competitive — cheaper than ISJ, [ACG](/international-schools/jakarta/acg-school-jakarta/) and NAS at age 3. The significant fee step comes at Year 1 ($24,083), where tuition more than doubles from K2 ($11,713).
 
 ### ISJ — The Independent School of Jakarta
 
@@ -103,7 +103,7 @@ AIS has strong connections to Australian Go8 universities and is the natural cho
 
 ## The Mid-Tier in 2026 {#mid-tier}
 
-The mid-tier schools — NAS, ACG, NJIS, Binus Simprug, [SPH Kemang Village](/international-schools/jakarta/sekolah-pelita-harapan-kemang-village/), [ACS Jakarta](/international-schools/jakarta/acs-jakarta/), [NZ School Jakarta](/international-schools/jakarta/new-zealand-school-jakarta/) — serve a different market from the premium four. They offer recognised international qualifications at lower fee points, with trade-offs in scale, co-curricular breadth, and university counselling infrastructure.
+The mid-tier schools — NAS, ACG, [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/), [Binus Simprug](/international-schools/jakarta/binus-school-simprug/), [SPH Kemang Village](/international-schools/jakarta/sekolah-pelita-harapan-kemang-village/), [ACS Jakarta](/international-schools/jakarta/acs-jakarta/), [NZ School Jakarta](/international-schools/jakarta/new-zealand-school-jakarta/) — serve a different market from the premium four. They offer recognised international qualifications at lower fee points, with trade-offs in scale, co-curricular breadth, and university counselling infrastructure.
 
 **NAS ([Nord Anglia School Jakarta](/international-schools/jakarta/nord-anglia-school-jakarta/))** is part of the Nord Anglia Education group, the world's largest premium international schools operator. Fees range from $6,911 to $20,874. NAS currently runs to Year 7 only, which limits its appeal for families planning a full school career. The school's global brand and network (Juilliard, MIT collaborations) are marketing strengths, but the Jakarta campus is still maturing.
 

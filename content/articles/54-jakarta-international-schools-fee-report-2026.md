@@ -24,9 +24,9 @@ read_time: "8 min read"
 
 ## TL;DR
 
-- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) is the most expensive school in Jakarta at every age band — $22,333 at age 3 (full day) to $35,916 at high school
-- At Year 7 (age 11–12), the premium tier ranges from [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) at $28,809 to JIS at $35,685. At Year 1 (age 5–6), the range is [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) at $20,459 to JIS at $31,367
-- At Year 7, the gap between the most and least expensive school is $18,462 — JIS at $35,685 versus [NZ School Jakarta](/international-schools/jakarta/new-zealand-school-jakarta/) at $17,223
+- JIS is the most expensive school in Jakarta at every age band — $22,333 at age 3 (full day) to $35,916 at high school
+- At Year 7 (age 11–12), the premium tier ranges from ISJ at $28,809 to JIS at $35,685. At Year 1 (age 5–6), the range is AIS at $20,459 to JIS at $31,367
+- At Year 7, the gap between the most and least expensive school is $18,462 — JIS at $35,685 versus NZ School Jakarta at $17,223
 - Fee schedules at all the top schools are published and transparent on their websites. Some are set out more clearly than others, but the information is available
 - Total annual fees include tuition plus all mandatory recurring charges (capital levies, development fees). One-time enrolment fees are listed separately
 - All data verified from official 2025–26 fee schedules. Exchange rate: IDR 16,826 = $1 USD
@@ -78,11 +78,11 @@ The age 3 entry point is where most families first encounter international schoo
 
 **Key observations at age 3:**
 
-JIS Full Day is more than double the cost of [BSJ](/international-schools/jakarta/british-school-jakarta/)'s Kukangs programme at the same age — $22,333 versus $8,919. This is the widest fee gap in the entire Jakarta market at any single age point. JIS's half-day option ($17,341) narrows the gap but remains significantly higher than all other schools.
+[JIS](/international-schools/jakarta/jakarta-intercultural-school/) Full Day is more than double the cost of [BSJ](/international-schools/jakarta/british-school-jakarta/)'s Kukangs programme at the same age — $22,333 versus $8,919. This is the widest fee gap in the entire Jakarta market at any single age point. JIS's half-day option ($17,341) narrows the gap but remains significantly higher than all other schools.
 
-The mid-range at age 3 is tightly clustered: ISJ ($10,298), [ACG](/international-schools/jakarta/acg-school-jakarta/) ($9,873), [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/) ($9,280) and BSJ ($8,919) all fall within a $1,400 range. At this age band, the fee difference between these four schools is not large enough to be a decisive factor — the decision turns on curriculum, culture and location.
+The mid-range at age 3 is tightly clustered: [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) ($10,298), [ACG](/international-schools/jakarta/acg-school-jakarta/) ($9,873), [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/) ($9,280) and BSJ ($8,919) all fall within a $1,400 range. At this age band, the fee difference between these four schools is not large enough to be a decisive factor — the decision turns on curriculum, culture and location.
 
-AIS and NZ School Jakarta offer the lowest fees for an age 3 entry — $7,702 and $6,674 respectively. AIS also offers a 3-day programme at $5,975, which is the lowest-cost entry point at any premium school.
+[AIS](/international-schools/jakarta/australian-independent-school-jakarta/) and [NZ School Jakarta](/international-schools/jakarta/new-zealand-school-jakarta/) offer the lowest fees for an age 3 entry — $7,702 and $6,674 respectively. AIS also offers a 3-day programme at $5,975, which is the lowest-cost entry point at any premium school.
 
 ## Primary — Year 3–6 Equivalent (Ages 8–11) {#primary}
 

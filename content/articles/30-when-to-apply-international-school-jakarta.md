@@ -26,9 +26,9 @@ read_time: "7 min read"
 ## TL;DR
 
 - Most Jakarta international schools run an August–June academic year. The main admissions round opens 12–18 months before the start of the school year
-- For Nursery and Year 1 entry at premium schools ([JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/)), begin the process 12–18 months ahead. These are the most competitive entry points
+- For Nursery and Year 1 entry at premium schools (JIS, BSJ, ISJ), begin the process 12–18 months ahead. These are the most competitive entry points
 - Mid-year applications are possible at most schools — but availability depends entirely on the year group and school
-- [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) runs a calendar year (January–December) — its admissions timeline is different from every other school in Jakarta
+- AIS runs a calendar year (January–December) — its admissions timeline is different from every other school in Jakarta
 - Do not wait until you arrive in Jakarta to start applying. The best schools fill early, and assessment dates are fixed
 
 ## In this article
@@ -60,7 +60,7 @@ Most Jakarta international schools follow an August-to-June academic year, align
 | ACG | August–June | Semester (2 terms) |
 | **AIS** | **January–December** | **4 terms** |
 
-AIS is the exception. It runs a calendar year aligned with the Australian school system. Families transferring from an August–June school to AIS — or vice versa — need to plan the timing carefully to avoid a gap or overlap.
+[AIS](/international-schools/jakarta/australian-independent-school-jakarta/) is the exception. It runs a calendar year aligned with the Australian school system. Families transferring from an August–June school to AIS — or vice versa — need to plan the timing carefully to avoid a gap or overlap.
 
 ## Application Timeline {#application-timeline}
 
@@ -70,8 +70,8 @@ This timeline assumes an August start. Adjust for AIS (January start) by shiftin
 
 - Research schools. Visit campuses during open days or arrange private tours.
 - Submit applications. Most premium schools open applications 12–18 months ahead.
-- BSJ and ISJ typically require application by December–January for the following August start.
-- JIS opens a rolling admissions process but has structured assessment windows.
+- [BSJ](/international-schools/jakarta/british-school-jakarta/) and [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) typically require application by December–January for the following August start.
+- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) opens a rolling admissions process but has structured assessment windows.
 
 ### 12–6 months before entry (August–February)
 

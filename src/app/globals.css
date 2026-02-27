@@ -117,7 +117,17 @@
     margin: 2.25rem 0 1.5rem;
   }
 
-  .article-content .school-section-image {
+  .article-content img.school-section-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border: 1px solid #E8E2D9;
+    border-radius: 2px;
+    display: block;
+  }
+
+  .article-content .school-section-placeholder {
     width: 100%;
     aspect-ratio: 16 / 9;
     border: 1px solid #E8E2D9;

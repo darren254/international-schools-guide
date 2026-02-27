@@ -23,10 +23,10 @@ read_time: "7 min read"
 
 ## TL;DR
 
-- SPH Kemang Village runs Cambridge up to Grade 10, then switches to IB Diploma — a hybrid pathway similar to [BSJ](/international-schools/jakarta/british-school-jakarta/)'s IGCSE-to-IB model but with a Christian school identity
+- SPH Kemang Village runs Cambridge up to Grade 10, then switches to IB Diploma — a hybrid pathway similar to BSJ's IGCSE-to-IB model but with a Christian school identity
 - Binus Simprug runs the full IB continuum (PYP, MYP, DP) and publishes strong IB results — average 34 points, 95% pass rate, with perfect 45/45 scores achieved in recent years
 - SPH Kemang Village fees run from $11,797 (K1) to $26,061 (Grades 11–12). Binus Simprug's full fee schedule is not publicly listed beyond early years
-- Both schools have majority-Indonesian student bodies — the peer group and school culture are distinctly different from [JIS](/international-schools/jakarta/jakarta-intercultural-school/) or BSJ
+- Both schools have majority-Indonesian student bodies — the peer group and school culture are distinctly different from JIS or BSJ
 - The choice hinges on curriculum pathway (Cambridge-to-IB vs full IB), faith identity (Christian vs secular), and campus environment
 
 ## In this article
@@ -69,7 +69,7 @@ Both schools hold SPK (Satuan Pendidikan Kerjasama) status under Indonesian law,
 
 The curriculum difference is the most significant distinction between the two schools.
 
-**SPH Kemang Village** runs the Cambridge International pathway from Early Childhood through to Grade 10, then switches to the IB Diploma Programme for Grades 11–12. Students sit Cambridge assessments through the middle years and arrive at the Diploma with a grounding in Cambridge-style subject-specific rigour. This hybrid model mirrors the structure at BSJ — where students follow the English National Curriculum through IGCSE before switching to IB — though SPH uses Cambridge's own framework rather than the English National Curriculum.
+**SPH Kemang Village** runs the Cambridge International pathway from Early Childhood through to Grade 10, then switches to the IB Diploma Programme for Grades 11–12. Students sit Cambridge assessments through the middle years and arrive at the Diploma with a grounding in Cambridge-style subject-specific rigour. This hybrid model mirrors the structure at [BSJ](/international-schools/jakarta/british-school-jakarta/) — where students follow the English National Curriculum through IGCSE before switching to IB — though SPH uses Cambridge's own framework rather than the English National Curriculum.
 
 The Kemang Village campus is one of five SPH campuses across Greater Jakarta. SPH became the first three-programme IB school in Indonesia at its Lippo Village campus, but the Kemang Village campus runs Cambridge-to-IB rather than the full IB continuum. This is a deliberate choice, not a limitation.
 
@@ -118,7 +118,7 @@ Higher-grade fees are not publicly listed. Third-party estimates suggest approxi
 
 At the levels where comparison is possible, SPH Kemang Village is more expensive. At Grades 11–12 (IB Diploma level), SPH charges $26,061 per year. If Binus Simprug's senior fees are in the region of $15,000 — as third-party sources suggest — that is a significant gap.
 
-Both schools are cheaper than the premium tier. JIS charges $35,916 at high school. BSJ charges $32,910 at Sixth Form. SPH Kemang Village sits between the mid-tier and premium schools on price. Binus Simprug sits firmly in the mid-tier.
+Both schools are cheaper than the premium tier. [JIS](/international-schools/jakarta/jakarta-intercultural-school/) charges $35,916 at high school. BSJ charges $32,910 at Sixth Form. SPH Kemang Village sits between the mid-tier and premium schools on price. Binus Simprug sits firmly in the mid-tier.
 
 For a broader comparison of fees across all Jakarta international schools, see our [complete fees guide](#12).
 

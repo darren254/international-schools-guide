@@ -25,9 +25,9 @@ read_time: "8 min read"
 ## TL;DR
 
 - Bilingual schools blend Bahasa Indonesia and English instruction — most sit between fully Indonesian national schools and fully English-medium international schools
-- [Binus Simprug](/international-schools/jakarta/binus-school-simprug/) is the strongest bilingual option with public fees: full IB continuum at ~$7,000–$15,000 with a published IB average of 34 points
-- [Global Jaya](/international-schools/jakarta/global-jaya-school/) offers IB programmes at ~$13,000 and has been running IB since the late 1990s
-- SPH ([Sekolah Pelita Harapan](/international-schools/jakarta/sekolah-pelita-harapan/)) is the biggest name in the bilingual segment with five campuses — but does not publish fees, so is not included in this ranking
+- Binus Simprug is the strongest bilingual option with public fees: full IB continuum at ~$7,000–$15,000 with a published IB average of 34 points
+- Global Jaya offers IB programmes at ~$13,000 and has been running IB since the late 1990s
+- SPH (Sekolah Pelita Harapan) is the biggest name in the bilingual segment with five campuses — but does not publish fees, so is not included in this ranking
 - This segment is growing fast — especially for mixed Indonesian-expat families and long-term Jakarta residents
 
 ## In this article
@@ -50,7 +50,7 @@ This is a growing part of Jakarta's school market. As Indonesia's economy expand
 
 The term gets used loosely. In Jakarta, "bilingual" typically means one of three things:
 
-**SPK schools with a strong Indonesian identity.** These hold a licence from the Indonesian Ministry of Education (Satuan Pendidikan Kerjasama) to deliver an international curriculum. They teach in English but maintain Indonesian language and culture as core subjects. Binus Simprug, SPH and Global Jaya sit in this category. The curriculum is internationally recognised (IB or Cambridge) but the school culture, student body and language environment are more Indonesian than a school like JIS or BSJ.
+**SPK schools with a strong Indonesian identity.** These hold a licence from the Indonesian Ministry of Education (Satuan Pendidikan Kerjasama) to deliver an international curriculum. They teach in English but maintain Indonesian language and culture as core subjects. [Binus Simprug](/international-schools/jakarta/binus-school-simprug/), SPH and [Global Jaya](/international-schools/jakarta/global-jaya-school/) sit in this category. The curriculum is internationally recognised (IB or Cambridge) but the school culture, student body and language environment are more Indonesian than a school like JIS or BSJ.
 
 **National-plus schools.** These follow the Indonesian national curriculum (Kurikulum Merdeka) but add English-medium instruction for some subjects and may incorporate Cambridge Primary or IB PYP approaches. They do not hold SPK status and the exit qualifications are Indonesian. Examples include [Sekolah Cita Buana](/international-schools/jakarta/sekolah-cita-buana/) (SCB) and some Cikal campuses.
 
@@ -117,7 +117,7 @@ At approximately $10,000 per year at Diploma level, GMIS is the most affordable 
 
 These schools are significant players in Jakarta's bilingual segment but do not publish fee schedules. They are excluded from the ranking table but worth contacting directly.
 
-**Sekolah Pelita Harapan (SPH).** Five campuses across Greater Jakarta (Lippo Village, Kemang Village, Lippo Cikarang, Sentul City, Pluit Village). IB and Cambridge programmes. Christian ethos. SPH is the largest bilingual school group in Indonesia and has produced strong IB results historically — a published cohort average of 35.89 points in one reported year, with two students achieving the maximum 45/45. SPH directs families to contact admissions for fee information. Third-party databases estimate a range of approximately $6,900–$20,900 depending on campus and year group, but these figures are unverified.
+**[Sekolah Pelita Harapan](/international-schools/jakarta/sekolah-pelita-harapan/) (SPH).** Five campuses across Greater Jakarta (Lippo Village, Kemang Village, Lippo Cikarang, Sentul City, Pluit Village). IB and Cambridge programmes. Christian ethos. SPH is the largest bilingual school group in Indonesia and has produced strong IB results historically — a published cohort average of 35.89 points in one reported year, with two students achieving the maximum 45/45. SPH directs families to contact admissions for fee information. Third-party databases estimate a range of approximately $6,900–$20,900 depending on campus and year group, but these figures are unverified.
 
 **[Mentari Intercultural School Bintaro](/international-schools/jakarta/mentari-intercultural-school-bintaro/) (MISB).** Holds both Cambridge and IB Diploma authorisation. SPK school in Bintaro. Fee data is limited to partial third-party references. Contact the school directly.
 

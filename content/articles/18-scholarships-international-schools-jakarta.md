@@ -24,10 +24,10 @@ read_time: "5 min read"
 
 ## TL;DR
 
-- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) runs the BTI (Bhinneka Tunggal Ika) Scholarship — a fully funded programme covering 100% of school fees from entry (Grade 8–9) through to graduation. It targets outstanding Indonesian students in academics, arts, athletics or community service
-- [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) offers four IB Diploma scholarships — three-year awards covering 100% of tuition, IB exam fees and capital development fees for Indonesian students entering Grade 10
-- [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) offers two programmes: a Global Continuity Bursary (means-tested, for expat families privately funding fees) and the Ki Hajar Dewantara Scholarship (up to 100% fee relief for Indonesian pupils with high potential)
-- [BSJ](/international-schools/jakarta/british-school-jakarta/) has offered scholarships historically but does not prominently publish current scholarship details. Contact admissions directly
+- JIS runs the BTI (Bhinneka Tunggal Ika) Scholarship — a fully funded programme covering 100% of school fees from entry (Grade 8–9) through to graduation. It targets outstanding Indonesian students in academics, arts, athletics or community service
+- AIS offers four IB Diploma scholarships — three-year awards covering 100% of tuition, IB exam fees and capital development fees for Indonesian students entering Grade 10
+- ISJ offers two programmes: a Global Continuity Bursary (means-tested, for expat families privately funding fees) and the Ki Hajar Dewantara Scholarship (up to 100% fee relief for Indonesian pupils with high potential)
+- BSJ has offered scholarships historically but does not prominently publish current scholarship details. Contact admissions directly
 - Most Jakarta international schools do not offer broad-based financial aid. Scholarships that do exist are typically merit-based or means-tested, and highly competitive
 - If you need financial support, ask admissions early — before you apply, not after you receive a fee schedule
 
@@ -60,7 +60,7 @@ Corporate sponsorship is the most common form of "financial aid" in practice. Mo
 
 ## JIS — BTI Scholarship {#jis-bti}
 
-JIS runs the Bhinneka Tunggal Ika (BTI) Scholarship — the most established scholarship programme at any Jakarta international school.
+[JIS](/international-schools/jakarta/jakarta-intercultural-school/) runs the Bhinneka Tunggal Ika (BTI) Scholarship — the most established scholarship programme at any Jakarta international school.
 
 **What it covers:** 100% of school fees from the grade of entry through to graduation (Grade 12). This is a full scholarship — tuition, capital fees and guarantee fees are all covered.
 
@@ -80,7 +80,7 @@ The BTI Scholarship is competitive. JIS does not publish acceptance rates, but t
 
 ## AIS — IB Scholarship Programme {#ais-ib}
 
-AIS offers four academic scholarships each year for Indonesian students entering the IB Diploma programme.
+[AIS](/international-schools/jakarta/australian-independent-school-jakarta/) offers four academic scholarships each year for Indonesian students entering the IB Diploma programme.
 
 **What it covers:** 100% of tuition fees, 100% of IB Diploma exam fees and 100% of capital development fees for three years (Grade 10 through Grade 12 graduation). The family is responsible for other costs: uniforms, camps, extracurricular activities and transport.
 
@@ -94,7 +94,7 @@ Four scholarships per year is a small number. The programme is designed to bring
 
 ## ISJ — Bursaries and Scholarships {#isj-bursaries}
 
-ISJ runs two programmes through The Schools Trust, covering both expat and Indonesian families — the broadest eligibility of any Jakarta school's financial aid offering.
+[ISJ](/international-schools/jakarta/independent-school-of-jakarta/) runs two programmes through The Schools Trust, covering both expat and Indonesian families — the broadest eligibility of any Jakarta school's financial aid offering.
 
 ### Global Continuity Bursary
 
@@ -128,7 +128,7 @@ Named after Indonesia's national education hero, Ki Hajar Dewantara (1889–1959
 
 ## Other Schools {#other-schools}
 
-**BSJ** has offered scholarships and bursaries in previous years. The school does not currently publish detailed scholarship information on its website. Contact BSJ admissions directly to ask about current availability, eligibility and application timelines.
+**[BSJ](/international-schools/jakarta/british-school-jakarta/)** has offered scholarships and bursaries in previous years. The school does not currently publish detailed scholarship information on its website. Contact BSJ admissions directly to ask about current availability, eligibility and application timelines.
 
 **[Binus Simprug](/international-schools/jakarta/binus-school-simprug/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/)** — we are not aware of published scholarship programmes at these schools. This does not mean they do not exist in any form. If financial support is a factor in your decision, contact admissions at each school and ask directly.
 

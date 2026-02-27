@@ -25,7 +25,7 @@ read_time: "6 min read"
 ## TL;DR
 
 - International school fees in Jakarta have risen steadily over the past five years, driven by currency movements, teacher salary competition, and facility investment
-- The premium tier ([JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/), [AIS](/international-schools/jakarta/australian-independent-school-jakarta/)) charges $25,000–$36,000 at secondary level in 2025–26. These figures were lower two to three years ago in both IDR and USD terms
+- The premium tier (JIS, BSJ, ISJ, AIS) charges $25,000–$36,000 at secondary level in 2025–26. These figures were lower two to three years ago in both IDR and USD terms
 - Global data from ISC Research shows international school fee revenue worldwide grew 18% over the last five years and 71% over the last decade
 - Jakarta's fee inflation tracks the broader Southeast Asian market — fees rise faster than local consumer inflation because international schools compete in a global labour market
 - Families planning a full school career (Nursery to Year 13) should budget for annual increases of 3–7% in IDR terms and factor in exchange rate movement if earning in a non-IDR currency
@@ -59,13 +59,13 @@ The premium segment is growing fastest. ISC Research data shows that high-fee in
 
 Jakarta's premium schools have seen meaningful fee increases over recent years.
 
-**JIS** charged approximately $31,040 for high school tuition in the 2023–24 academic year, based on US State Department data published at that time. The 2025–26 fee schedule shows total annual fees (tuition plus capital fee and guarantee fee) of $35,916 for high school. The comparison is not exact — the earlier figure may exclude some mandatory fees, and exchange rate movement affects the USD conversion — but the direction is clear. Fees in IDR terms have risen.
+**[JIS](/international-schools/jakarta/jakarta-intercultural-school/)** charged approximately $31,040 for high school tuition in the 2023–24 academic year, based on US State Department data published at that time. The 2025–26 fee schedule shows total annual fees (tuition plus capital fee and guarantee fee) of $35,916 for high school. The comparison is not exact — the earlier figure may exclude some mandatory fees, and exchange rate movement affects the USD conversion — but the direction is clear. Fees in IDR terms have risen.
 
-**BSJ** secondary fees for 2025–26 are $30,735 at Years 7–9 and $32,910 at Sixth Form. Historical fee schedules are not publicly archived, but parents who have been at the school for several years report annual increases in the range of 4–6% in IDR terms — consistent with the market norm.
+**[BSJ](/international-schools/jakarta/british-school-jakarta/)** secondary fees for 2025–26 are $30,735 at Years 7–9 and $32,910 at Sixth Form. Historical fee schedules are not publicly archived, but parents who have been at the school for several years report annual increases in the range of 4–6% in IDR terms — consistent with the market norm.
 
-**ISJ** fees for 2025–26 range from $8,827 at Pre-Nursery to $28,809 at Year 8. ISJ is a newer school — opened 2022 — so the track record is shorter. As the school grows and the secondary campus opens in September 2028, fee adjustments are expected as the school invests in facilities and staffing for a full age range.
+**[ISJ](/international-schools/jakarta/independent-school-of-jakarta/)** fees for 2025–26 range from $8,827 at Pre-Nursery to $28,809 at Year 8. ISJ is a newer school — opened 2022 — so the track record is shorter. As the school grows and the secondary campus opens in September 2028, fee adjustments are expected as the school invests in facilities and staffing for a full age range.
 
-**AIS** fees for 2025–26 range from $5,975 at Preschool to $26,308 at Years 11–12. AIS runs on a calendar year (January–December), which means fee reviews align differently from August-start schools.
+**[AIS](/international-schools/jakarta/australian-independent-school-jakarta/)** fees for 2025–26 range from $5,975 at Preschool to $26,308 at Years 11–12. AIS runs on a calendar year (January–December), which means fee reviews align differently from August-start schools.
 
 The mid-tier schools — [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) — also increase fees annually, though at a lower nominal level because their base fees are lower. A 5% increase on a $15,000 fee is $750. A 5% increase on a $35,000 fee is $1,750. The percentage may be similar; the dollar impact is very different.
 

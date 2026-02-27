@@ -24,10 +24,10 @@ read_time: "9 min read"
 
 ## TL;DR
 
-- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) is the strongest secondary school in Jakarta — the only school offering both AP and IB Diploma, with WASC accreditation and the broadest co-curricular programme in the city
-- [BSJ](/international-schools/jakarta/british-school-jakarta/) runs a distinctive British pathway: English National Curriculum through IGCSE, then IB Diploma in Sixth Form — with strong results and experienced UK-qualified staff
-- [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) offers the IB Diploma after an Australian curriculum pathway, with particularly strong pastoral care and learning support
-- The mid-tier schools — [ACG](/international-schools/jakarta/acg-school-jakarta/), [Binus Simprug](/international-schools/jakarta/binus-school-simprug/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) and [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/) — all offer credible IB Diploma programmes at significantly lower fees
+- JIS is the strongest secondary school in Jakarta — the only school offering both AP and IB Diploma, with WASC accreditation and the broadest co-curricular programme in the city
+- BSJ runs a distinctive British pathway: English National Curriculum through IGCSE, then IB Diploma in Sixth Form — with strong results and experienced UK-qualified staff
+- AIS offers the IB Diploma after an Australian curriculum pathway, with particularly strong pastoral care and learning support
+- The mid-tier schools — ACG, Binus Simprug, NJIS and GMIS — all offer credible IB Diploma programmes at significantly lower fees
 - ISJ is building a new secondary campus opening September 2028 — one to watch, but not yet a secondary option
 
 ## In this article
@@ -61,7 +61,7 @@ This ranking covers schools with publicly available fee data that offer secondar
 | **Binus Simprug** | ~$15,000 | IB Diploma | IB MYP → IB DP | Simprug |
 | **GMIS** | ~$10,000 | IB Diploma + Cambridge IGCSE/A Levels | IB MYP + Cambridge → IB DP/CP | Kemayoran |
 
-*Fees correct as of February 2026. Exchange rate: IDR 16,826 = $1 USD. All top-tier fees from verified 2025–26 fee schedules. Binus, NJIS and GMIS from third-party sources — verify directly with admissions.*
+*Fees correct as of February 2026. Exchange rate: IDR 16,826 = $1 USD. All top-tier fees from verified 2025–26 fee schedules. Binus, [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) and [GMIS](/international-schools/jakarta/gandhi-memorial-international-school/) from third-party sources — verify directly with admissions.*
 
 <!-- IMAGE PLACEHOLDER: Infographic — secondary school comparison visual -->
 
@@ -69,7 +69,7 @@ This ranking covers schools with publicly available fee data that offer secondar
 
 Three things change at secondary that do not apply in the same way at primary.
 
-**Exit qualifications define the pathway.** A child sitting Cambridge IGCSEs at BSJ is on a different academic track from a child taking IB MYP at Binus Simprug or AP courses at JIS. All three can reach top universities — but the routes diverge, and switching pathways at 15 or 16 is harder than switching schools at 8.
+**Exit qualifications define the pathway.** A child sitting Cambridge IGCSEs at [BSJ](/international-schools/jakarta/british-school-jakarta/) is on a different academic track from a child taking IB MYP at [Binus Simprug](/international-schools/jakarta/binus-school-simprug/) or AP courses at [JIS](/international-schools/jakarta/jakarta-intercultural-school/). All three can reach top universities — but the routes diverge, and switching pathways at 15 or 16 is harder than switching schools at 8.
 
 **University counselling matters.** The quality of a school's university guidance — the experience of the counsellors, the institutional relationships, the track record with specific university systems — becomes a genuine differentiator at secondary. A school that places students into Ivy League, Oxbridge, Russell Group and Go8 universities year after year has built something that takes decades to develop.
 
@@ -110,7 +110,7 @@ For families who want British academic culture — structured subjects, clear pr
 
 ### AIS — Australian Independent School Jakarta
 
-AIS runs the Australian National Curriculum from Foundation to Year 10, then switches to the IB Diploma for Years 11–12. Secondary fees are $25,628 at Years 7–10 and $26,308 at Years 11–12, putting AIS below BSJ and JIS but firmly in the top bracket.
+[AIS](/international-schools/jakarta/australian-independent-school-jakarta/) runs the Australian National Curriculum from Foundation to Year 10, then switches to the IB Diploma for Years 11–12. Secondary fees are $25,628 at Years 7–10 and $26,308 at Years 11–12, putting AIS below BSJ and JIS but firmly in the top bracket.
 
 AIS is well-regarded for pastoral care. The learning support programme is the most detailed and transparent in Jakarta — with a separately published fee schedule for EAL and specialist support. For families with children who need additional support at secondary level, AIS takes this more seriously than most. The campus is in Pejaten, South Jakarta. AIS runs a calendar year (January–December) rather than August–June.
 
@@ -128,7 +128,7 @@ The top-tier schools sit in a different bracket from the schools below — in fe
 
 ### ACG — ACG School Jakarta
 
-ACG runs the full IB continuum — PYP, MYP and Diploma Programme — alongside a New Zealand curriculum framework. At secondary level, fees are $24,398–$24,673 per year (tuition plus compulsory development fee). ACG sits closer to the top tier than the mid tier on price, but the school's profile and scale place it between the two. It benefits from a coherent IB pathway from primary through secondary. The school draws a mix of expat and Indonesian families.
+[ACG](/international-schools/jakarta/acg-school-jakarta/) runs the full IB continuum — PYP, MYP and Diploma Programme — alongside a New Zealand curriculum framework. At secondary level, fees are $24,398–$24,673 per year (tuition plus compulsory development fee). ACG sits closer to the top tier than the mid tier on price, but the school's profile and scale place it between the two. It benefits from a coherent IB pathway from primary through secondary. The school draws a mix of expat and Indonesian families.
 
 **Secondary fees:** $24,398–$24,673/year
 **Exit qualifications:** IB Diploma

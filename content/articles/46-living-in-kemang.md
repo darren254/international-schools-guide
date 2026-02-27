@@ -37,7 +37,7 @@ Originally published: 24 February 2026
 - Kemang is Jakarta's most established expat neighbourhood — walkable by Jakarta standards, dense with restaurants, cafés, bars, galleries and international services
 - Housing ranges from older villas in Kemang Dalam with pools and gardens to modern apartments in Kemang Village and Lippo Mall Kemang complexes
 - Traffic on Jalan Kemang Raya is brutal at peak hours. Parts of lower Kemang flood during heavy rain — ask before you sign a lease
-- The nearest international schools are [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) (in Kemang), [NZ School Jakarta](/international-schools/jakarta/new-zealand-school-jakarta/) and Lycée Français. [JIS](/international-schools/jakarta/jakarta-intercultural-school/) is 15–20 minutes. [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) in Pondok Indah is 20 minutes
+- The nearest international schools are AIS (in Kemang), NZ School Jakarta and Lycée Français. JIS is 15–20 minutes. ISJ in Pondok Indah is 20 minutes
 - Kemang suits expats who want to walk to dinner, bump into people they know, and feel part of a community. Families who prioritise space and quiet will do better in Pondok Indah or Cilandak
 
 ---
@@ -112,7 +112,7 @@ Kemang's location puts several international schools within a reasonable commute
 
 *Drive times are estimates in normal traffic. At peak school-run times, add 10–20 minutes. Fee ranges are annual totals in USD — see [International School Fees in Jakarta](#12) for details.*
 
-AIS is the obvious choice for families living in Kemang — it is physically in the neighbourhood. The NZ School Jakarta and [SPH Kemang Village](/international-schools/jakarta/sekolah-pelita-harapan-kemang-village/) are also within walking distance for some addresses. JIS is 15–20 minutes via Jalan Pejaten Raya, making Kemang a natural catchment for JIS families who do not want to live in Pondok Indah. ISJ in Pondok Indah is about 20 minutes via the back roads through Cilandak.
+[AIS](/international-schools/jakarta/australian-independent-school-jakarta/) is the obvious choice for families living in Kemang — it is physically in the neighbourhood. The [NZ School Jakarta](/international-schools/jakarta/new-zealand-school-jakarta/) and [SPH Kemang Village](/international-schools/jakarta/sekolah-pelita-harapan-kemang-village/) are also within walking distance for some addresses. [JIS](/international-schools/jakarta/jakarta-intercultural-school/) is 15–20 minutes via Jalan Pejaten Raya, making Kemang a natural catchment for JIS families who do not want to live in Pondok Indah. [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) in Pondok Indah is about 20 minutes via the back roads through Cilandak.
 
 For more on school catchments, see [Schools Near Pondok Indah](#49) and [Schools Near Kemang](#50).
 

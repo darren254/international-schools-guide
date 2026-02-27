@@ -22,8 +22,8 @@ read_time: "7 min read"
 
 ## TL;DR
 
-- Jakarta has very few schools running a genuinely American curriculum — JIS is the dominant name, with [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) as a smaller alternative in North Jakarta
-- [ACS Jakarta](/international-schools/jakarta/acs-jakarta/) sounds American but uses Cambridge IGCSEs and the IB Diploma — not AP or a US-style transcript
+- Jakarta has very few schools running a genuinely American curriculum — JIS is the dominant name, with NJIS as a smaller alternative in North Jakarta
+- ACS Jakarta sounds American but uses Cambridge IGCSEs and the IB Diploma — not AP or a US-style transcript
 - JIS is the only Jakarta school offering AP (Advanced Placement) alongside the IB Diploma
 - Fees range from ~$14,400 at ACS to ~$31,000 at JIS — and the gap reflects fundamentally different school experiences
 - If your child needs a US-style transcript for American university admissions, JIS is the only straightforward option
@@ -77,7 +77,7 @@ JIS is a non-profit Yayasan. Fees are at the top of the Jakarta market — appro
 
 ### NJIS — North Jakarta Intercultural School
 
-NJIS sits in Kelapa Gading in North Jakarta and is WASC-accredited — making it the only school in North Jakarta with American accreditation. The school describes itself as having an "American orientation" and became a full IB Continuum school (PYP, MYP, DP) in 2021.
+[NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/) sits in Kelapa Gading in North Jakarta and is WASC-accredited — making it the only school in North Jakarta with American accreditation. The school describes itself as having an "American orientation" and became a full IB Continuum school (PYP, MYP, DP) in 2021.
 
 NJIS is much smaller than JIS — approximately 266 students from 16 nationalities. That is a fundamentally different school experience. Smaller schools offer closer teacher-student relationships and less anonymity, but they also offer fewer subject options, narrower co-curricular programmes, and a smaller peer group for social development.
 
@@ -98,7 +98,7 @@ Fees sit in the $10,000–$18,000 range depending on year group. The school has 
 
 ### ACS Jakarta — A Note on the Name
 
-ACS Jakarta deserves mention because families searching for American schools in Jakarta will find it. But ACS Jakarta does not run an American curriculum. The school uses Cambridge IGCSEs and the IB Diploma as its exit qualifications. The pedagogical philosophy has American influences — experiential learning, character development, a structured values framework — but the qualifications are British and international, not American.
+[ACS Jakarta](/international-schools/jakarta/acs-jakarta/) deserves mention because families searching for American schools in Jakarta will find it. But ACS Jakarta does not run an American curriculum. The school uses Cambridge IGCSEs and the IB Diploma as its exit qualifications. The pedagogical philosophy has American influences — experiential learning, character development, a structured values framework — but the qualifications are British and international, not American.
 
 ACS Jakarta is located in East Jakarta (Setu), on a semi-rural campus off the Jorr Tol. The student body is almost entirely Indonesian, with a smaller cohort of East Asian and South Asian families. Annual fees are approximately IDR 242–295 million (~$14,400–$17,500). Camps are compulsory and add $700–$1,600 per year.
 

@@ -291,25 +291,127 @@ function addHeadingIds(html: string): string {
     });
 }
 
-/** Insert placeholder "photo" figures above numbered school sections (e.g. "1. JIS - ..."). */
+const SCHOOL_SHORT_NAME_TO_SLUG: Record<string, string> = {
+  JIS: "jakarta-intercultural-school",
+  BSJ: "british-school-jakarta",
+  ISJ: "independent-school-of-jakarta",
+  AIS: "australian-independent-school-jakarta",
+  NAS: "nord-anglia-school-jakarta",
+  ACG: "acg-school-jakarta",
+  SPH: "sekolah-pelita-harapan",
+  ACS: "acs-jakarta",
+  NJIS: "north-jakarta-intercultural-school",
+  SWA: "sinarmas-world-academy",
+  GMIS: "gandhi-memorial-international-school",
+  MISB: "mentari-intercultural-school-bintaro",
+  BTB: "btb-school",
+  NZSJ: "new-zealand-school-jakarta",
+};
+
+function getSchoolImageForShortName(shortName: string): string | undefined {
+  const slug = SCHOOL_SHORT_NAME_TO_SLUG[shortName];
+  if (!slug) return undefined;
+  const imgPath = `/images/schools/${slug}/campus.webp`;
+  const diskPath = path.join(process.cwd(), "public", imgPath);
+  if (fs.existsSync(diskPath)) return imgPath;
+  return undefined;
+}
+
+function buildSchoolFigure(shortName: string, altText: string): string {
+  const imgSrc = getSchoolImageForShortName(shortName);
+  const figureContent = imgSrc
+    ? `<img class="school-section-image" src="${imgSrc}" alt="${altText} campus" width="800" height="450" loading="lazy" />`
+    : [
+        `<div class="school-section-image school-section-placeholder" role="img" aria-label="Photo placeholder for ${shortName}">`,
+        `<span class="school-section-image-label">Photo</span>`,
+        `<span class="school-section-image-sub">${shortName}</span>`,
+        `</div>`,
+      ].join("");
+  return `<figure class="school-section-figure">${figureContent}</figure>`;
+}
+
+/** Insert school campus images above school section headings. */
 function insertSchoolSectionPlaceholders(html: string): string {
-  const pattern = /<h3([^>]*)>(\d+)\.\s*([^<]+)<\/h3>/gi;
-  return html.replace(pattern, (match, attrs, num, headingTextRaw) => {
+  const usedSlugs = new Set<string>();
+
+  // Pass 1: numbered headings like "1. JIS - Jakarta Intercultural School"
+  html = html.replace(/<h3([^>]*)>(\d+)\.\s*([^<]+)<\/h3>/gi, (match, attrs, num, headingTextRaw) => {
     const headingText = String(headingTextRaw).trim();
-    // Heuristic: only insert for school headings that look like "ACRONYM - School Name".
-    if (!headingText.includes(" - ")) return match;
-    const shortName = headingText.split(" - ")[0]?.trim() || "";
+    if (!headingText.includes(" - ") && !headingText.includes(" — ")) return match;
+    const sep = headingText.includes(" — ") ? " — " : " - ";
+    const shortName = headingText.split(sep)[0]?.trim() || "";
     if (!/^[A-Z]{2,6}$/.test(shortName)) return match;
-    return [
-      `<figure class="school-section-figure">`,
-      `<div class="school-section-image" role="img" aria-label="Photo placeholder for ${shortName}">`,
-      `<span class="school-section-image-label">Photo</span>`,
-      `<span class="school-section-image-sub">${shortName}</span>`,
-      `</div>`,
-      `</figure>`,
-      `<h3${attrs}>${num}. ${headingText}</h3>`,
-    ].join("");
+    const slug = SCHOOL_SHORT_NAME_TO_SLUG[shortName];
+    if (!slug || usedSlugs.has(slug)) return match;
+    usedSlugs.add(slug);
+    const fullName = headingText.split(sep).slice(1).join(sep).trim() || shortName;
+    return `${buildSchoolFigure(shortName, fullName)}<h3${attrs}>${num}. ${headingText}</h3>`;
   });
+
+  // Pass 2: non-numbered headings like "### JIS — Jakarta Intercultural School" or "### JIS"
+  html = html.replace(/<h3([^>]*)>([A-Z]{2,6})\b([^<]*)<\/h3>/g, (match, attrs, shortName, rest) => {
+    const slug = SCHOOL_SHORT_NAME_TO_SLUG[shortName];
+    if (!slug || usedSlugs.has(slug)) return match;
+    const restTrimmed = rest.trim();
+    if (restTrimmed && !/^(\s*(—|-)\s)/.test(rest) && !/^(\s+Fees\b|\s+Jakarta\b)/.test(rest)) return match;
+    usedSlugs.add(slug);
+    const altParts = restTrimmed.replace(/^(—|-)\s*/, "").trim();
+    const altText = altParts || shortName;
+    return `${buildSchoolFigure(shortName, altText)}<h3${attrs}>${shortName}${rest}</h3>`;
+  });
+
+  // Pass 3: "ACS Jakarta" style (two-word heading with known slug)
+  const ACS_PATTERN = /<h3([^>]*)>(ACS Jakarta)\b([^<]*)<\/h3>/g;
+  html = html.replace(ACS_PATTERN, (match, attrs, name, rest) => {
+    const slug = "acs-jakarta";
+    if (usedSlugs.has(slug)) return match;
+    usedSlugs.add(slug);
+    return `${buildSchoolFigure("ACS", "ACS Jakarta")}<h3${attrs}>${name}${rest}</h3>`;
+  });
+
+  // Pass 4: "ACRONYM (description)" style, e.g. "ISJ (British, Pondok Indah)"
+  html = html.replace(/<h3([^>]*)>([A-Z]{2,6})\s*\(([^)]+)\)<\/h3>/g, (match, attrs, shortName, desc) => {
+    const slug = SCHOOL_SHORT_NAME_TO_SLUG[shortName];
+    if (!slug || usedSlugs.has(slug)) return match;
+    usedSlugs.add(slug);
+    return `${buildSchoolFigure(shortName, `${shortName} — ${desc}`)}<h3${attrs}>${shortName} (${desc})</h3>`;
+  });
+
+  // Pass 5: full school name headings, e.g. "British School Jakarta (BSJ)" or "Nord Anglia School Jakarta"
+  const FULL_NAME_TO_SHORT: Record<string, string> = {
+    "Jakarta Intercultural School": "JIS",
+    "British School Jakarta": "BSJ",
+    "The Independent School of Jakarta": "ISJ",
+    "Independent School of Jakarta": "ISJ",
+    "Australian Independent School Jakarta": "AIS",
+    "Australian Independent School": "AIS",
+    "Nord Anglia School Jakarta": "NAS",
+    "ACG School Jakarta": "ACG",
+    "Sekolah Pelita Harapan": "SPH",
+    "ACS Jakarta": "ACS",
+    "North Jakarta Intercultural School": "NJIS",
+    "Sinarmas World Academy": "SWA",
+    "New Zealand School Jakarta": "NZSJ",
+    "Global Jaya School": "GJS",
+    "Mentari Intercultural School": "MISB",
+  };
+  const EXTRA_SLUG_MAP: Record<string, string> = {
+    GJS: "global-jaya-school",
+  };
+
+  for (const [fullName, shortName] of Object.entries(FULL_NAME_TO_SHORT)) {
+    const slug = SCHOOL_SHORT_NAME_TO_SLUG[shortName] ?? EXTRA_SLUG_MAP[shortName];
+    if (!slug || usedSlugs.has(slug)) continue;
+    const escaped = fullName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const re = new RegExp(`<h3([^>]*)>${escaped}(\\s*\\([^)]*\\))?<\\/h3>`, "g");
+    html = html.replace(re, (match, attrs, paren) => {
+      if (usedSlugs.has(slug)) return match;
+      usedSlugs.add(slug);
+      return `${buildSchoolFigure(shortName, fullName)}<h3${attrs}>${fullName}${paren ?? ""}</h3>`;
+    });
+  }
+
+  return html;
 }
 
 /** Wrap tables in a scrollable container for mobile. */

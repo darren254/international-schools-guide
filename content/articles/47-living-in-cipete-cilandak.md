@@ -36,7 +36,7 @@ Originally published: 24 February 2026
 
 - Cipete and Cilandak are adjacent neighbourhoods in South Jakarta — less famous than Kemang or Pondok Indah, but increasingly favoured by expat families who want value, space and a manageable school commute
 - Cipete has an MRT station (Cipete Raya) connecting directly to Sudirman and central Jakarta in 15–20 minutes — the only expat neighbourhood in South Jakarta with this
-- Cilandak borders [JIS](/international-schools/jakarta/jakarta-intercultural-school/) (the campus straddles Pondok Indah and Cilandak) and is 10 minutes from [ISJ](/international-schools/jakarta/independent-school-of-jakarta/). Families at either school often live here
+- Cilandak borders JIS (the campus straddles Pondok Indah and Cilandak) and is 10 minutes from ISJ. Families at either school often live here
 - Housing is 20–30% cheaper than equivalent properties in Pondok Indah. Expect $1,500–$3,500 per month for a family house
 - The trade-off: fewer restaurants and services than Kemang, less prestige than Pondok Indah. These are residential neighbourhoods, not lifestyle destinations
 
@@ -61,7 +61,7 @@ These two areas are often mentioned together, and with reason. They border each 
 
 **Cipete** runs along Jalan Cipete Raya, south of Kemang and east of the Pangeran Antasari flyover. It has a distinct identity shaped by the French expat community — the Lycée Français de Jakarta is here, and French bakeries, crêperies and small bistros line the side streets. Cipete feels like a quieter, more residential version of Kemang, with less traffic and lower rents. The MRT station at Cipete Raya transformed the area's appeal when it opened in 2019: suddenly you could live in a leafy South Jakarta neighbourhood and reach Sudirman in 15 minutes without a car.
 
-**Cilandak** is broader and harder to pin down. It stretches from the JIS campus (the Middle/High entrance is on the Cilandak side) near Jalan Cilandak KKO down to TB Simatupang and west toward Pondok Indah. The area around Cilandak Town Square (Citos) is the commercial centre — shops, restaurants, a cinema. Further out, Cilandak is residential: compounds, standalone houses, quiet streets. It is less walkable than Cipete and has no MRT station, but it offers larger houses, more gated communities, and easy access to toll roads.
+**Cilandak** is broader and harder to pin down. It stretches from the [JIS](/international-schools/jakarta/jakarta-intercultural-school/) campus (the Middle/High entrance is on the Cilandak side) near Jalan Cilandak KKO down to TB Simatupang and west toward Pondok Indah. The area around Cilandak Town Square (Citos) is the commercial centre — shops, restaurants, a cinema. Further out, Cilandak is residential: compounds, standalone houses, quiet streets. It is less walkable than Cipete and has no MRT station, but it offers larger houses, more gated communities, and easy access to toll roads.
 
 The two areas share a character: low-key, green, residential, and well-connected to the schools that matter. They lack the social energy of Kemang and the prestige address of Pondok Indah. What they offer instead is calm, space, and value.
 
@@ -106,7 +106,7 @@ Both Cipete and Cilandak sit in the geographic sweet spot of South Jakarta's int
 
 *Drive times in normal traffic. Add 10–20 minutes at peak school-run times. Fee ranges are annual totals in USD.*
 
-Cilandak is the natural home for JIS families — the campus sits on the border of Pondok Indah and Cilandak, with the Middle/High entrance on the Cilandak side and the Elementary entrance on the Pondok Indah side. ISJ in Pondok Indah is a short drive west. French families gravitate to Cipete for the Lycée. [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) in Pejaten/Kemang is easily reached from both areas.
+Cilandak is the natural home for JIS families — the campus sits on the border of Pondok Indah and Cilandak, with the Middle/High entrance on the Cilandak side and the Elementary entrance on the Pondok Indah side. [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) in Pondok Indah is a short drive west. French families gravitate to Cipete for the Lycée. [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) in Pejaten/Kemang is easily reached from both areas.
 
 ---
 

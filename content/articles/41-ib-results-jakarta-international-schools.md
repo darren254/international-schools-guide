@@ -25,10 +25,10 @@ read_time: "6 min read"
 
 ## TL;DR
 
-- Most Jakarta international schools do not publish IB Diploma results. [BSJ](/international-schools/jakarta/british-school-jakarta/) and [Binus Simprug](/international-schools/jakarta/binus-school-simprug/) are the two schools that make their data publicly available
+- Most Jakarta international schools do not publish IB Diploma results. BSJ and Binus Simprug are the two schools that make their data publicly available
 - BSJ's published averages — 35 points in 2024, 34.7 in 2025 — place it well above the global IB average of approximately 30 points
 - Binus Simprug publishes an average of 34 points with a 95% pass rate. The school has produced perfect 45/45 scores in three consecutive years
-- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) offers both IB Diploma and AP. The school does not publish IB-specific results, which makes direct comparison with IB-only schools difficult
+- JIS offers both IB Diploma and AP. The school does not publish IB-specific results, which makes direct comparison with IB-only schools difficult
 - The global IB Diploma average is approximately 30 points with a pass rate of around 79%. Any school averaging above 33 is performing well above the global norm
 
 ## In this article
@@ -78,7 +78,7 @@ Schools that do not publish results will typically share them with prospective f
 
 ### BSJ
 
-BSJ is the most transparent school in Jakarta on IB results.
+[BSJ](/international-schools/jakarta/british-school-jakarta/) is the most transparent school in Jakarta on IB results.
 
 **Class of 2024:** Average score 35 points. Pass rate 97%. This places BSJ approximately 5 points above the global IB average.
 
@@ -88,7 +88,7 @@ BSJ's pathway runs Cambridge IGCSE in Years 10–11, followed by the IB Diploma 
 
 ### Binus Simprug
 
-Binus Simprug runs the full IB continuum — PYP, MYP and Diploma Programme — and publishes results on its website.
+[Binus Simprug](/international-schools/jakarta/binus-school-simprug/) runs the full IB continuum — PYP, MYP and Diploma Programme — and publishes results on its website.
 
 **Published data:** Average score 34 points. Pass rate 95%. The school has produced students scoring the maximum 45 points in three consecutive years — a notable achievement for any school, and particularly for a school where the majority of the student body is Indonesian.
 
@@ -96,7 +96,7 @@ Binus Simprug's results are strong by any global measure. An average of 34 with 
 
 ### JIS
 
-JIS is Jakarta's largest international school and offers both AP courses and the full IB Diploma. The school does not publish IB-specific averages, which makes it impossible to compare directly with BSJ or Binus Simprug on IB performance.
+[JIS](/international-schools/jakarta/jakarta-intercultural-school/) is Jakarta's largest international school and offers both AP courses and the full IB Diploma. The school does not publish IB-specific averages, which makes it impossible to compare directly with BSJ or Binus Simprug on IB performance.
 
 What JIS does publish is university destination data — and those destinations (Harvard, Stanford, MIT, Columbia, and other highly selective US universities) suggest strong academic outcomes. But university admissions in the US depend on far more than exam scores, and without published IB averages, the academic data remains incomplete.
 

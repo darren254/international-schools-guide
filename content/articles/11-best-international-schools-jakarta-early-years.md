@@ -23,7 +23,7 @@ read_time: "8 min read"
 
 ## TL;DR
 
-- [JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/), [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) and [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) all run strong early years programmes — but they differ in approach, entry age and fee structure
+- JIS, BSJ, ISJ and AIS all run strong early years programmes — but they differ in approach, entry age and fee structure
 - BSJ and ISJ follow the Early Years Foundation Stage (EYFS), the English framework for nursery and Reception — structured, play-based and developmentally focused
 - AIS starts at age 3 with a three-day or five-day Preschool option — the most flexible entry point among the top schools
 - At full-time age 3 entry, fees range from $7,702 (AIS five-day) to $22,333 (JIS full day) — JIS is the most expensive early years programme in Jakarta by a wide margin
@@ -57,7 +57,7 @@ More than you expect. The school you choose at nursery is almost certainly the s
 | **BSJ** | $8,919 | EYFS | BSJ Primary → BSJ Secondary → Sixth Form |
 | **AIS** | $7,702 | Australian EYLF | AIS Primary → AIS Secondary |
 
-*All fees are for full-time (five days per week) at age 3. JIS figure is the full-day Early Years rate — a half-day option is available at $17,341. AIS also offers a three-day option at $5,975. BSJ and ISJ accept children from age 2 at lower fees.*
+*All fees are for full-time (five days per week) at age 3. [JIS](/international-schools/jakarta/jakarta-intercultural-school/) figure is the full-day Early Years rate — a half-day option is available at $17,341. [AIS](/international-schools/jakarta/australian-independent-school-jakarta/) also offers a three-day option at $5,975. [BSJ](/international-schools/jakarta/british-school-jakarta/) and [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) accept children from age 2 at lower fees.*
 
 *Fees correct as of February 2026. Exchange rate: IDR 16,826 = $1 USD. All fee data verified from official school fee schedules.*
 

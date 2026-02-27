@@ -24,7 +24,7 @@ read_time: "6 min read"
 ## TL;DR
 
 - Most Jakarta international schools have no formal gifted programme. High-ability provision is typically handled through in-class differentiation — which depends entirely on the skill of the individual teacher
-- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) offers the broadest range of extension opportunities through its dual AP/IB pathway and extensive co-curricular programme — but does not run a separate gifted stream
+- JIS offers the broadest range of extension opportunities through its dual AP/IB pathway and extensive co-curricular programme — but does not run a separate gifted stream
 - The IB Diploma itself is a form of gifted provision: six subjects plus the Extended Essay, TOK and CAS demand the kind of breadth and independent thinking that high-ability students thrive on
 - External competitions (Maths Olympiad, science fairs, Model UN, debate) are often the best route for stretching a gifted child beyond the classroom curriculum
 - If your child is genuinely gifted, the most important question is not "does this school have a gifted programme" but "does this school have teachers experienced enough to challenge my child?"
@@ -52,7 +52,7 @@ International schools use three main approaches to high-ability students.
 
 **In-class differentiation.** The teacher adjusts the difficulty, pace, or depth of work for students who are ahead. This is the default approach at every school. It works when the teacher is experienced and the class size allows individual attention. It fails when the teacher is stretched, the class has a wide ability range, and differentiation amounts to "do the same work faster and then read a book."
 
-**Subject acceleration.** A child works ahead of their year group in a specific subject — typically maths. A Year 5 student might join Year 7 maths lessons. This happens informally at some Jakarta schools but is not common and depends on timetabling. JIS has more flexibility here because of its larger year groups and broader curriculum offering.
+**Subject acceleration.** A child works ahead of their year group in a specific subject — typically maths. A Year 5 student might join Year 7 maths lessons. This happens informally at some Jakarta schools but is not common and depends on timetabling. [JIS](/international-schools/jakarta/jakarta-intercultural-school/) has more flexibility here because of its larger year groups and broader curriculum offering.
 
 **Enrichment.** Opportunities beyond the classroom: competitions, extension projects, mentorship, independent research. This is where Jakarta's premium schools are strongest — but it requires the student to self-select into these opportunities. It is not a programme delivered to them.
 

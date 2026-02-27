@@ -23,7 +23,7 @@ read_time: "5 min read"
 
 ## TL;DR
 
-- Waiting lists at [JIS](/international-schools/jakarta/jakarta-intercultural-school/), [BSJ](/international-schools/jakarta/british-school-jakarta/) and [ISJ](/international-schools/jakarta/independent-school-of-jakarta/) are common at popular entry points — Nursery, Year 1 and Year 7 are the worst
+- Waiting lists at JIS, BSJ and ISJ are common at popular entry points — Nursery, Year 1 and Year 7 are the worst
 - Wait times range from a few weeks to 12+ months depending on the school and year group
 - Jakarta's expat population is transient. Places open up throughout the year as families relocate
 - Enrol at your second-choice school while staying on the waitlist at your first choice — this is standard practice
@@ -49,7 +49,7 @@ Jakarta's international schools do not operate a centralised admissions system. 
 
 When a school is full in a given year group, new applicants who meet the entry criteria are placed on a waiting list. The school contacts families when a place opens — usually because a current student has left. Some schools prioritise waitlist families in a strict chronological order. Others apply criteria: siblings of current students, children of alumni, specific nationalities, or applicants who have already completed assessments.
 
-Priority factors vary by school. At JIS, for example, families with a current JIS sibling may be given priority. At BSJ, the admissions team manages the list holistically. ISJ's smaller year group sizes mean places are fewer and the wait can be longer, but the school's intentional enrolment cap also means fewer families competing for each spot.
+Priority factors vary by school. At [JIS](/international-schools/jakarta/jakarta-intercultural-school/), for example, families with a current JIS sibling may be given priority. At [BSJ](/international-schools/jakarta/british-school-jakarta/), the admissions team manages the list holistically. [ISJ](/international-schools/jakarta/independent-school-of-jakarta/)'s smaller year group sizes mean places are fewer and the wait can be longer, but the school's intentional enrolment cap also means fewer families competing for each spot.
 
 You are not told your position on the list at most schools. Ask, and you will typically get a range — "you are in the top five" or "we have a number of families ahead of you" — rather than a specific number.
 

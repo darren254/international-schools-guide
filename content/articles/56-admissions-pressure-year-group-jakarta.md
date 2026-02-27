@@ -25,10 +25,10 @@ read_time: "7 min read"
 ## TL;DR
 
 - Admissions pressure at Jakarta's premium schools follows a predictable pattern: three high-pressure entry points (Nursery, Year 1, Year 7) and relative ease everywhere else
-- [JIS](/international-schools/jakarta/jakarta-intercultural-school/) and [BSJ](/international-schools/jakarta/british-school-jakarta/) are the two schools where waiting lists are longest and most persistent. [ISJ](/international-schools/jakarta/independent-school-of-jakarta/)'s smaller year groups can make individual places harder to secure, even without a formal waiting list
+- JIS and BSJ are the two schools where waiting lists are longest and most persistent. ISJ's smaller year groups can make individual places harder to secure, even without a formal waiting list
 - The August–October application window is the busiest period across all schools. Families who apply outside this window — particularly January to March for the following academic year — face less competition
 - Upper primary (Years 4–6) and upper secondary (Years 10–12) are consistently the easiest entry points at every premium school
-- The mid-tier schools ([NAS](/international-schools/jakarta/nord-anglia-school-jakarta/), [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/)) rarely have admissions pressure at any year group — families can generally secure places at short notice
+- The mid-tier schools (NAS, ACG, NJIS) rarely have admissions pressure at any year group — families can generally secure places at short notice
 
 ## In this article
 
@@ -59,7 +59,7 @@ This analysis is based on published admissions information, conversations with s
 | **Years 10–11 (ages 14–16)** | Low | Moderate | N/A* | Low | N/A | Low | Low |
 | **Years 12–13 / Sixth Form** | Low | Moderate | N/A* | Low | N/A | Low | Low |
 
-*ISJ currently runs to Year 8. Secondary campus opening September 2028. NAS currently runs to Year 7.
+*[ISJ](/international-schools/jakarta/independent-school-of-jakarta/) currently runs to Year 8. Secondary campus opening September 2028. [NAS](/international-schools/jakarta/nord-anglia-school-jakarta/) currently runs to Year 7.
 
 **High** = waiting list likely, 6–18 month lead time recommended.
 **Moderate** = places may be available but competition exists, 3–6 month lead time.
@@ -69,7 +69,7 @@ This analysis is based on published admissions information, conversations with s
 
 ### JIS
 
-JIS has the largest year groups in Jakarta — approximately 200 students per grade in the later years. This scale means more places exist, but demand at the key entry points is also high.
+[JIS](/international-schools/jakarta/jakarta-intercultural-school/) has the largest year groups in Jakarta — approximately 200 students per grade in the later years. This scale means more places exist, but demand at the key entry points is also high.
 
 **Highest pressure:** Early Years 1 (age 3) and Kindergarten (age 5). These are the two intake points where the school's reputation and the desire to "get in early" create the strongest demand. Families begin the application process 12–18 months ahead.
 
@@ -79,7 +79,7 @@ JIS has the largest year groups in Jakarta — approximately 200 students per gr
 
 ### BSJ
 
-BSJ has smaller year groups than JIS — approximately 100–150 per year at secondary — which means fewer places exist at each level.
+[BSJ](/international-schools/jakarta/british-school-jakarta/) has smaller year groups than JIS — approximately 100–150 per year at secondary — which means fewer places exist at each level.
 
 **Highest pressure:** K1 (ages 2–3), Year 1 (age 5) and Year 7 (age 11). The K1 entry is BSJ's primary intake. Year 1 sees a major fee jump ($11,713 at K2 to $24,083 at Year 1), which creates some natural attrition — but the places that open are filled immediately. Year 7 is competitive because families specifically target BSJ for its Cambridge IGCSE pathway.
 
@@ -107,7 +107,7 @@ ISJ's deliberately smaller year groups — the school is targeting approximately
 
 ### Mid-tier schools
 
-**NAS, ACG, NJIS** — rarely oversubscribed at any year group. These schools offer confirmed places at short notice, making them the practical fallback for families who cannot secure a place at a premium school immediately. Families use mid-tier schools as a bridge while waiting for a place at their first-choice premium school.
+**NAS, [ACG](/international-schools/jakarta/acg-school-jakarta/), [NJIS](/international-schools/jakarta/north-jakarta-intercultural-school/)** — rarely oversubscribed at any year group. These schools offer confirmed places at short notice, making them the practical fallback for families who cannot secure a place at a premium school immediately. Families use mid-tier schools as a bridge while waiting for a place at their first-choice premium school.
 
 ## Seasonal Patterns {#seasonal-patterns}
 
