@@ -311,8 +311,15 @@ export default function HomePage() {
               const content = (
                 <>
                   <div className="aspect-[16/8] bg-cream-300 group-hover:bg-cream-400 transition-colors relative">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={`/images/cities/${city.slug}.webp`}
+                      alt={`${city.name} skyline`}
+                      className="w-full h-full object-cover school-image absolute inset-0"
+                      loading="lazy"
+                    />
                     {!city.live && (
-                      <span className="absolute top-2 right-2 text-[0.6875rem] uppercase tracking-wider text-charcoal-muted bg-warm-white/90 px-2 py-1 rounded-sm">
+                      <span className="absolute top-2 right-2 text-[0.6875rem] uppercase tracking-wider text-charcoal-muted bg-warm-white/90 px-2 py-1 rounded-sm z-10">
                         Coming soon
                       </span>
                     )}
