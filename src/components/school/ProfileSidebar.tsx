@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/Button";
 import Link from "next/link";
 import { displayValue } from "@/lib/utils/display";
+import { ShortlistActions } from "@/components/school/ShortlistActions";
 
 interface QuickFact {
   label: string;
@@ -21,6 +22,7 @@ interface SidebarInsight {
 }
 
 interface ProfileSidebarProps {
+  slug: string;
   quickFacts: QuickFact[];
   otherSchools: SidebarSchool[];
   relatedInsights: SidebarInsight[];
@@ -28,6 +30,7 @@ interface ProfileSidebarProps {
 }
 
 export function ProfileSidebar({
+  slug,
   quickFacts,
   otherSchools,
   relatedInsights,
@@ -49,13 +52,8 @@ export function ProfileSidebar({
             <span className="font-medium">{displayValue(f.value, "Not available")}</span>
           </div>
         ))}
-        <div className="flex flex-col gap-2 mt-5">
-          <Button variant="outline" fullWidth>
-            ♡ Shortlist
-          </Button>
-          <Button variant="outline" fullWidth>
-            + Compare
-          </Button>
+        <div className="mt-5">
+          <ShortlistActions slug={slug} fullWidth layout="column" />
         </div>
       </div>
 

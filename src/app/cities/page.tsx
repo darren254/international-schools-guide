@@ -3,9 +3,9 @@ import Link from "next/link";
 import { CITIES } from "@/data/cities";
 
 export const metadata: Metadata = {
-  title: "All Cities",
+  title: "Browse International Schools by City | The International Schools Guide",
   description:
-    "Browse international school guides by city. Jakarta is live now; Singapore, Bangkok, Dubai, Hong Kong, Kuala Lumpur and more coming soon.",
+    "Browse international school guides by city. Jakarta is live now; Singapore coming next. Bangkok, Dubai, Hong Kong, Kuala Lumpur and more coming soon.",
   alternates: { canonical: "https://international-schools-guide.com/cities" },
 };
 
@@ -18,8 +18,12 @@ function CityCard({
     <>
       <div className="aspect-[16/8] bg-cream-300 group-hover:bg-cream-400 transition-colors relative">
         {!city.live && (
-          <span className="absolute top-2 right-2 text-[0.6875rem] uppercase tracking-wider text-charcoal-muted bg-warm-white/90 px-2 py-1 rounded-sm">
-            Coming soon
+          <span className={`absolute top-2 right-2 text-[0.6875rem] uppercase tracking-wider px-2 py-1 rounded-sm ${
+            city.comingNext
+              ? "text-hermes bg-warm-white/95 font-medium"
+              : "text-charcoal-muted bg-warm-white/90"
+          }`}>
+            {city.comingNext ? "Coming next" : "Coming soon"}
           </span>
         )}
       </div>
@@ -50,8 +54,10 @@ function CityCard({
           ))}
         </div>
         {!city.live && (
-          <p className="text-[0.75rem] uppercase tracking-wider text-charcoal-muted/70 mt-3">
-            Coming soon
+          <p className={`text-[0.75rem] uppercase tracking-wider mt-3 ${
+            city.comingNext ? "text-hermes" : "text-charcoal-muted/70"
+          }`}>
+            {city.comingNext ? "Coming next" : "Coming soon"}
           </p>
         )}
       </div>
@@ -78,9 +84,12 @@ function CityCard({
 export default function CitiesPage() {
   return (
     <div className="container-site py-12 md:py-16">
-      <h1 className="font-display text-display-lg mb-10">
-        All Cities
+      <h1 className="font-display text-display-lg mb-3">
+        Browse by city
       </h1>
+      <p className="text-charcoal-muted text-lg mb-10 max-w-2xl">
+        Choose a city to explore international schools, compare fees and find the right fit for your family.
+      </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {CITIES.map((city) => (

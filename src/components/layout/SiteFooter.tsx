@@ -25,7 +25,7 @@ export function SiteFooter() {
                 <Link href="/insights/" className="text-sm hover:text-cream transition-colors">Insights</Link>
               </li>
               <li>
-                <Link href="/news/" className="text-sm hover:text-cream transition-colors">News</Link>
+                <Link href="/insights/" className="text-sm hover:text-cream transition-colors">Insights</Link>
               </li>
               <li>
                 <Link href="/about/" className="text-sm hover:text-cream transition-colors">About</Link>

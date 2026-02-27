@@ -151,6 +151,7 @@ export default function SchoolProfilePage({
 
       {/* Masthead */}
       <SchoolMasthead
+        slug={s.slug}
         name={s.name}
         verified={s.verified}
         campuses={s.campuses.map((c) => ({
@@ -284,6 +285,7 @@ export default function SchoolProfilePage({
 
         {/* Sidebar */}
         <ProfileSidebar
+          slug={s.slug}
           citySlug={s.citySlug}
           quickFacts={s.sidebar.quickFacts}
           otherSchools={s.sidebar.otherSchools}

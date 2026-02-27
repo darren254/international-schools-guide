@@ -4,6 +4,7 @@ import Image from "next/image";
 import { getAllInsightArticles } from "@/lib/insights/content";
 import type { InsightArticle } from "@/lib/insights/content";
 import { getInsightImageUrl } from "@/lib/insights/images";
+import { LatestInsightsGrid } from "@/components/insights/LatestInsightsGrid";
 
 export const metadata: Metadata = {
   title: "Insights | The International Schools Guide",
@@ -73,6 +74,25 @@ export default function InsightsPage() {
     ...mostRead.map((article) => article.slug),
   ]);
   const latest = articles.filter((article) => !shown.has(article.slug)).slice(0, 12);
+  const uniqueCities = Array.from(new Set(articles.map((a) => a.city))).sort();
+  const cityLabels: Record<string, string> = {
+    jakarta: "Jakarta",
+    singapore: "Singapore",
+    bangkok: "Bangkok",
+    dubai: "Dubai",
+    "hong-kong": "Hong Kong",
+    "kuala-lumpur": "Kuala Lumpur",
+  };
+  const latestSummaries = latest.map((a) => ({
+    slug: a.slug,
+    h1: a.h1,
+    categoryTag: a.categoryTag,
+    city: a.city,
+    date: a.date,
+    readTime: a.readTime,
+    metaDescription: a.metaDescription,
+    cardImage: getInsightImageUrl(a.slug, "card"),
+  }));
 
   return (
     <>
@@ -129,21 +149,11 @@ export default function InsightsPage() {
               </div>
             )}
 
-            <div className="mt-10">
-              <h2 className="font-display text-3xl text-charcoal mb-4 border-t-2 border-charcoal pt-3">Latest analysis</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-5">
-                {latest.map((article) => (
-                  <Link key={article.slug} href={`/insights/${article.slug}`} className="block border-b border-warm-border pb-4">
-                    <CardImage slug={article.slug} alt={article.h1} className="w-full h-28 mb-3 rounded-sm" />
-                    <p className="text-[11px] uppercase tracking-[0.12em] text-charcoal-muted mb-1">{article.categoryTag}</p>
-                    <h3 className="font-display text-xl text-charcoal leading-snug mb-2">{article.h1}</h3>
-                    <p className="text-xs text-charcoal-muted">
-                      {displayDate(article.date)} · {article.readTime}
-                    </p>
-                  </Link>
-                ))}
-              </div>
-            </div>
+            <LatestInsightsGrid
+              articles={latestSummaries}
+              cities={uniqueCities}
+              cityLabels={cityLabels}
+            />
           </div>
 
           <aside className="xl:pl-2">

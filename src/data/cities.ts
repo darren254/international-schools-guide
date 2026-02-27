@@ -8,6 +8,8 @@ export interface CityConfig {
   slug: string;
   country: string;
   live: boolean;
+  /** Next city to go live — shown as "Coming next" instead of "Coming soon". */
+  comingNext?: boolean;
   /** Used when live: e.g. 66 for Jakarta. When !live, placeholder for future. */
   schoolCount?: number;
   feeRange?: string;
@@ -32,6 +34,7 @@ export const CITIES: CityConfig[] = [
     slug: "singapore",
     country: "Singapore",
     live: false,
+    comingNext: true,
     schoolCount: 70,
     feeRange: "US$15K – $45K / year",
     topCurricula: ["IB", "British", "Singaporean"],

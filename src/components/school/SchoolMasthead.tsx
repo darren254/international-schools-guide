@@ -1,7 +1,7 @@
 import { CurriculumTag } from "@/components/ui/CurriculumTag";
 import { VerifiedBadge } from "@/components/ui/VerifiedBadge";
-import { Button } from "@/components/ui/Button";
 import { displayValue } from "@/lib/utils/display";
+import { ShortlistActions } from "@/components/school/ShortlistActions";
 
 interface Campus {
   name: string;
@@ -9,6 +9,7 @@ interface Campus {
 }
 
 interface SchoolMastheadProps {
+  slug: string;
   name: string;
   verified: boolean;
   campuses: Campus[];
@@ -18,6 +19,7 @@ interface SchoolMastheadProps {
 }
 
 export function SchoolMasthead({
+  slug,
   name,
   verified,
   campuses,
@@ -68,9 +70,8 @@ export function SchoolMasthead({
       </div>
 
       {/* Actions */}
-      <div className="flex gap-3 mt-4">
-        <Button variant="outline">♡ Shortlist</Button>
-        <Button variant="outline">+ Compare</Button>
+      <div className="mt-4">
+        <ShortlistActions slug={slug} />
       </div>
     </section>
   );

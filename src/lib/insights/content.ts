@@ -34,6 +34,7 @@ export type InsightArticle = {
   bodyHtml: string;
   faqs: InsightFaq[];
   categoryTag: string;
+  city: string;
   relatedSlugs: string[];
   internalLinksFromRefs: number[];
   exchangeRateNote?: string;
@@ -459,6 +460,17 @@ function wrapFactsBlocks(html: string): string {
   });
 }
 
+function deriveCityFromSlug(slug: string): string {
+  const s = slug.toLowerCase();
+  if (s.includes("jakarta") || s.includes("kemang") || s.includes("cipete") || s.includes("cilandak") || s.includes("pondok-indah") || s.includes("bsd")) return "jakarta";
+  if (s.includes("singapore")) return "singapore";
+  if (s.includes("bangkok")) return "bangkok";
+  if (s.includes("dubai")) return "dubai";
+  if (s.includes("hong-kong")) return "hong-kong";
+  if (s.includes("kuala-lumpur")) return "kuala-lumpur";
+  return "jakarta";
+}
+
 function extractCategoryTag(breadcrumbs: string): string {
   const parts = breadcrumbs
     .split(">")
@@ -677,6 +689,7 @@ function toInsightArticle(filePath: string): InsightArticle | null {
     bodyHtml,
     faqs: parseFaqs(faqSection),
     categoryTag: extractCategoryTag(finalBreadcrumbs),
+    city: deriveCityFromSlug(slug),
     relatedSlugs: extractRelatedSlugs(String(data.internal_links_to ?? plan?.internalLinksTo ?? "")),
     internalLinksFromRefs: extractRefNumbers(data.internal_links_from),
     exchangeRateNote: footerLine?.replace(/^\*|\*$/g, ""),

@@ -121,28 +121,28 @@ const FROM_THE_GUIDE = [
 
 const FEATURED_NEWS = [
   {
-    label: "News",
-    title: "Jakarta Schools Announce 2026–27 Fee Increases: What Parents Need to Know",
-    slug: "/news/jakarta-schools-fee-increases-2026-27/",
-    date: "12 Feb 2026",
+    label: "Fees",
+    title: "Jakarta International Schools Fee Report — 2026 Edition",
+    slug: "/insights/jakarta-international-schools-fee-report-2026/",
+    date: "Feb 2026",
     excerpt:
-      "Annual tuition at Jakarta's top international schools is rising 4–8% for 2026–27. We break down the changes school by school.",
+      "The definitive annual comparison of international school fees in Jakarta. Ten schools, three age bands, verified data.",
   },
   {
-    label: "News",
-    title: "New International School Opening in BSD City, Tangerang",
-    slug: "/news/new-international-school-bsd-city-2026/",
-    date: "5 Feb 2026",
+    label: "Admissions",
+    title: "Admissions Pressure by Year Group in Jakarta",
+    slug: "/insights/admissions-pressure-year-group-jakarta/",
+    date: "Feb 2026",
     excerpt:
-      "A British curriculum school backed by a UK education group is set to open in August 2026, adding competition in Greater Jakarta's southern corridor.",
+      "Which year groups are hardest to get into at Jakarta's top international schools? We map the pressure points.",
   },
   {
-    label: "Update",
-    title: "2025 IB Diploma Results: How Did Jakarta Schools Perform?",
-    slug: "/news/2025-ib-diploma-results-jakarta/",
-    date: "28 Jan 2026",
+    label: "Results",
+    title: "IB Diploma Results at Jakarta International Schools",
+    slug: "/insights/ib-results-jakarta-international-schools/",
+    date: "Feb 2026",
     excerpt:
-      "JIS, BSJ, and Mentari all posted strong IB results this year. We compare averages, pass rates, and top scorers.",
+      "Which Jakarta international schools publish IB Diploma results? Published averages, pass rates, and what the numbers mean.",
   },
 ];
 
@@ -227,7 +227,7 @@ export default function HomePage() {
                     {city.name}
                   </Link>
                 ) : (
-                  <span className="text-charcoal-muted/70" title="Coming soon">
+                  <span className={city.comingNext ? "text-charcoal-muted" : "text-charcoal-muted/70"} title={city.comingNext ? "Coming next" : "Coming soon"}>
                     {city.name}
                   </span>
                 )}
@@ -349,8 +349,6 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {CITIES.slice(0, 6).map((city) => {
-              const isJakarta = city.slug === "jakarta";
-              const isSingapore = city.slug === "singapore";
               const content = (
                 <>
                   <div className="aspect-[16/8] bg-cream-300 group-hover:bg-cream-400 transition-colors relative">
@@ -361,17 +359,17 @@ export default function HomePage() {
                       className="w-full h-full object-cover school-image absolute inset-0"
                       loading="lazy"
                     />
-                    {isJakarta && (
+                    {city.live && (
                       <span className="absolute top-3 right-3 bg-hermes text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded z-10">
                         Live Now
                       </span>
                     )}
-                    {isSingapore && (
+                    {!city.live && city.comingNext && (
                       <span className="absolute top-3 right-3 bg-charcoal text-white text-[10px] font-semibold uppercase tracking-wide px-3 py-1 rounded z-10">
-                        Next Up
+                        Coming next
                       </span>
                     )}
-                    {!city.live && !isSingapore && (
+                    {!city.live && !city.comingNext && (
                       <span className="absolute top-3 right-3 text-[10px] uppercase tracking-wider text-charcoal-muted bg-warm-white/90 px-3 py-1 rounded z-10 font-semibold">
                         Coming soon
                       </span>
@@ -419,7 +417,7 @@ export default function HomePage() {
                 </>
               );
 
-              const wrapperClasses = isJakarta 
+              const wrapperClasses = city.live 
                 ? "group border-2 border-hermes rounded-sm overflow-hidden hover:shadow-lg transition-all duration-200 bg-cream-50 flex flex-col h-full"
                 : "group border border-warm-border rounded-sm overflow-hidden bg-cream-50 transition-all duration-200 flex flex-col h-full";
 
@@ -522,14 +520,14 @@ export default function HomePage() {
         <div className="flex items-baseline justify-between mb-8">
           <div>
             <h2 className="font-display text-display-lg">
-              News
+              Latest insights
             </h2>
           </div>
           <Link
-            href="/news/"
+            href="/insights/"
             className="hidden md:inline-block text-sm text-hermes hover:text-hermes-hover transition-colors"
           >
-            All news →
+            All insights →
           </Link>
         </div>
 
@@ -558,10 +556,10 @@ export default function HomePage() {
 
         <div className="md:hidden text-center mt-6">
           <Link
-            href="/news/"
+            href="/insights/"
             className="text-sm text-hermes hover:text-hermes-hover transition-colors"
           >
-            All news →
+            All insights →
           </Link>
         </div>
       </section>

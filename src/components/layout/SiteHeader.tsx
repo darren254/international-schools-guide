@@ -14,11 +14,10 @@ export function SiteHeader() {
       : "/compare";
 
   const navLinks = [
-    { href: "/international-schools/", label: "Schools" },
-    { href: "/shortlist", label: shortlistCount > 0 ? `Shortlist (${shortlistCount})` : "Shortlist" },
+    { href: "/cities", label: "Schools" },
     { href: compareHref, label: "Compare" },
+    { href: "/shortlist", label: shortlistCount > 0 ? `Shortlist (${shortlistCount})` : "Shortlist" },
     { href: "/insights/", label: "Insights" },
-    { href: "/news/", label: "News" },
     { href: "/about/", label: "About" },
   ];
 
@@ -50,7 +49,6 @@ export function SiteHeader() {
 
           {/* Actions */}
           <div className="flex items-center gap-2 sm:gap-4 shrink-0">
-            <button className="hidden sm:inline text-xs text-charcoal-muted">EN</button>
             <button className="text-xs text-charcoal-muted border border-warm-border px-2 sm:px-3 py-1.5 hover:border-charcoal-muted transition-colors">
               USD
             </button>

@@ -1,14 +1,25 @@
-import { redirect } from "next/navigation";
-import { LIVE_CITIES } from "@/data/cities";
+import type { Metadata } from "next";
+import Link from "next/link";
 
-/**
- * /international-schools/ redirects to the canonical listing for the only live city.
- * When more cities are live, this could become an index page listing them.
- */
+export const metadata: Metadata = {
+  title: "International Schools | Browse by City",
+  description: "Browse international schools by city. Find the right school for your family in Jakarta, Singapore, Bangkok and more.",
+  alternates: { canonical: "https://international-schools-guide.com/cities" },
+  robots: { index: false, follow: true },
+};
+
 export default function InternationalSchoolsIndexPage() {
-  const firstLive = LIVE_CITIES[0];
-  if (firstLive) {
-    redirect(`/international-schools/${firstLive.slug}/`);
-  }
-  redirect("/");
+  return (
+    <>
+      <meta httpEquiv="refresh" content="0;url=/cities" />
+      <main className="max-w-xl mx-auto px-5 py-24 text-center">
+        <p className="text-charcoal mb-4">
+          Browse international schools by city.
+        </p>
+        <Link href="/cities" className="text-hermes hover:underline">
+          Choose a city &rarr;
+        </Link>
+      </main>
+    </>
+  );
 }
