@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { extractHighestFee } from "@/lib/utils/fees";
 import { CITIES, LIVE_CITIES, TOTAL_SCHOOLS_LIVE } from "@/data/cities";
+import { getSchoolImageUrl } from "@/lib/schools/images";
 
 export const metadata: Metadata = {
   title: "Find the Right International School",
@@ -234,12 +235,21 @@ export default function HomePage() {
               href={`/international-schools/${school.citySlug}/${school.slug}/`}
               className="group border border-warm-border rounded-sm overflow-hidden hover:border-charcoal-muted transition-colors bg-warm-white"
             >
-              {/* Placeholder hero image */}
+              {/* Hero image */}
               <div className="aspect-[16/7] bg-cream-300 group-hover:bg-cream-400 transition-colors relative">
                 {school.sponsored && (
-                  <span className="absolute top-2 right-2 text-[0.6875rem] uppercase tracking-wider text-charcoal-muted">
+                  <span className="absolute top-2 right-2 text-[0.6875rem] uppercase tracking-wider text-charcoal-muted z-10 bg-warm-white/90 px-2 py-1 rounded-sm">
                     Sponsored
                   </span>
+                )}
+                {getSchoolImageUrl(school.slug, "card") && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img 
+                    src={getSchoolImageUrl(school.slug, "card")} 
+                    alt={school.name} 
+                    className="w-full h-full object-cover school-image absolute inset-0" 
+                    loading="lazy" 
+                  />
                 )}
               </div>
               <div className="p-5">

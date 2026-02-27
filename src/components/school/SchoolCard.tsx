@@ -60,7 +60,7 @@ export function SchoolCard({
       <div className="sm:w-[200px] sm:min-h-[180px] flex-shrink-0 bg-cream-300 relative">
         {imageUrl ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={imageUrl} alt={name} className="w-full h-full object-cover" />
+          <img src={imageUrl} alt={name} className="w-full h-full object-cover school-image" />
         ) : (
           <div className="w-full h-full min-h-[140px] sm:min-h-full flex items-center justify-center text-charcoal-muted/30 text-[0.625rem] uppercase tracking-widest">
             Photo

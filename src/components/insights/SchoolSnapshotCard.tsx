@@ -22,7 +22,7 @@ export function SchoolSnapshotCard({ school }: SchoolSnapshotCardProps) {
       <div className="aspect-[16/10] bg-cream-200 border-b border-warm-border flex items-center justify-center overflow-hidden">
         {imageUrl ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={imageUrl} alt={school.name} className="w-full h-full object-cover" loading="lazy" />
+          <img src={imageUrl} alt={school.name} className="w-full h-full object-cover school-image" loading="lazy" />
         ) : (
           <svg
             className="w-12 h-12 text-charcoal-muted/30"

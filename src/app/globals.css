@@ -287,4 +287,8 @@
   .article-content .best-for-list li:last-child {
     margin-bottom: 0;
   }
+
+  .school-image {
+    filter: brightness(1.05) contrast(1.05) saturate(0.9) sepia(0.08);
+  }
 }

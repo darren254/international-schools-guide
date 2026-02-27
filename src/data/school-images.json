@@ -1,58 +1,58 @@
 {
-  "generatedAt": "2026-02-27T07:37:28.774Z",
+  "generatedAt": "2026-02-27T08:09:59.029Z",
   "sourceRoot": "external/jakarta-school-automation-images",
   "slugs": {
     "acg-school-jakarta": {
-      "profile": "/images/schools/acg-school-jakarta/profile.webp",
-      "card": "/images/schools/acg-school-jakarta/card.webp",
-      "sourceFolder": "acg",
-      "sourceFile": "campus.png"
+      "profile": "/images/schools/acg-school-jakarta/campus.webp",
+      "card": "/images/schools/acg-school-jakarta/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "ACG-campus.jpg"
     },
     "acs-jakarta": {
-      "profile": "/images/schools/acs-jakarta/profile.webp",
-      "card": "/images/schools/acs-jakarta/card.webp",
+      "profile": "/images/schools/acs-jakarta/campus.webp",
+      "card": "/images/schools/acs-jakarta/campus.webp",
       "sourceFolder": "acs_jakarta",
       "sourceFile": "campus.jpg"
     },
     "al-azhar-syifa-budi-jakarta": {
-      "profile": "/images/schools/al-azhar-syifa-budi-jakarta/profile.webp",
-      "card": "/images/schools/al-azhar-syifa-budi-jakarta/card.webp",
-      "sourceFolder": "al_azhar_syifa_budi_jakarta",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/al-azhar-syifa-budi-jakarta/campus.webp",
+      "card": "/images/schools/al-azhar-syifa-budi-jakarta/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "Al Azhar Syifa Budi Jakarta campus.jpg"
     },
     "australian-independent-school-jakarta": {
-      "profile": "/images/schools/australian-independent-school-jakarta/profile.webp",
-      "card": "/images/schools/australian-independent-school-jakarta/card.webp",
+      "profile": "/images/schools/australian-independent-school-jakarta/campus.webp",
+      "card": "/images/schools/australian-independent-school-jakarta/campus.webp",
       "sourceFolder": "australian_independent_school_jakarta",
       "sourceFile": "campus.jpg"
     },
     "beacon-academy": {
-      "profile": "/images/schools/beacon-academy/profile.webp",
-      "card": "/images/schools/beacon-academy/card.webp",
+      "profile": "/images/schools/beacon-academy/campus.webp",
+      "card": "/images/schools/beacon-academy/campus.webp",
       "sourceFolder": "beacon_academy",
       "sourceFile": "campus.jpg"
     },
     "bina-bangsa-school": {
-      "profile": "/images/schools/bina-bangsa-school/profile.webp",
-      "card": "/images/schools/bina-bangsa-school/card.webp",
+      "profile": "/images/schools/bina-bangsa-school/campus.webp",
+      "card": "/images/schools/bina-bangsa-school/campus.webp",
       "sourceFolder": "bina_bangsa_school",
       "sourceFile": "campus.jpg"
     },
     "binus-school-bekasi": {
-      "profile": "/images/schools/binus-school-bekasi/profile.webp",
-      "card": "/images/schools/binus-school-bekasi/card.webp",
-      "sourceFolder": "binus_school_bekasi",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/binus-school-bekasi/campus.webp",
+      "card": "/images/schools/binus-school-bekasi/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "Binus-School-Bekasi-campus.jpg"
     },
     "binus-school-serpong": {
-      "profile": "/images/schools/binus-school-serpong/profile.webp",
-      "card": "/images/schools/binus-school-serpong/card.webp",
+      "profile": "/images/schools/binus-school-serpong/campus.webp",
+      "card": "/images/schools/binus-school-serpong/campus.webp",
       "sourceFolder": "binus_school_serpong",
       "sourceFile": "campus.jpg"
     },
     "binus-school-simprug": {
-      "profile": "/images/schools/binus-school-simprug/profile.webp",
-      "card": "/images/schools/binus-school-simprug/card.webp",
+      "profile": "/images/schools/binus-school-simprug/campus.webp",
+      "card": "/images/schools/binus-school-simprug/campus.webp",
       "sourceFolder": "binus_school_simprug",
       "sourceFile": "campus.jpg"
     },
@@ -63,26 +63,26 @@
       "sourceFile": "campus-bsj.jpg"
     },
     "btb-school": {
-      "profile": "/images/schools/btb-school/profile.webp",
-      "card": "/images/schools/btb-school/card.webp",
+      "profile": "/images/schools/btb-school/campus.webp",
+      "card": "/images/schools/btb-school/campus.webp",
       "sourceFolder": "btb_school",
       "sourceFile": "campus.jpg"
     },
     "bunda-mulia-school": {
-      "profile": "/images/schools/bunda-mulia-school/profile.webp",
-      "card": "/images/schools/bunda-mulia-school/card.webp",
+      "profile": "/images/schools/bunda-mulia-school/campus.webp",
+      "card": "/images/schools/bunda-mulia-school/campus.webp",
       "sourceFolder": "bunda_mulia_school",
       "sourceFile": "campus.jpg"
     },
     "cikal-school": {
-      "profile": "/images/schools/cikal-school/profile.webp",
-      "card": "/images/schools/cikal-school/card.webp",
+      "profile": "/images/schools/cikal-school/campus.webp",
+      "card": "/images/schools/cikal-school/campus.webp",
       "sourceFolder": "cikal_school",
       "sourceFile": "campus.jpg"
     },
     "cita-buana-school": {
-      "profile": "/images/schools/cita-buana-school/profile.webp",
-      "card": "/images/schools/cita-buana-school/card.webp",
+      "profile": "/images/schools/cita-buana-school/campus.webp",
+      "card": "/images/schools/cita-buana-school/campus.webp",
       "sourceFolder": "cita_buana_school",
       "sourceFile": "campus.jpg"
     },
@@ -93,16 +93,16 @@
       "sourceFile": "photo_1.jpg"
     },
     "el-shaddai-intercontinental-school": {
-      "profile": "/images/schools/el-shaddai-intercontinental-school/profile.webp",
-      "card": "/images/schools/el-shaddai-intercontinental-school/card.webp",
+      "profile": "/images/schools/el-shaddai-intercontinental-school/campus.webp",
+      "card": "/images/schools/el-shaddai-intercontinental-school/campus.webp",
       "sourceFolder": "el_shaddai_intercontinental_school",
       "sourceFile": "campus.jpg"
     },
     "french-school-jakarta": {
-      "profile": "/images/schools/french-school-jakarta/profile.webp",
-      "card": "/images/schools/french-school-jakarta/card.webp",
-      "sourceFolder": "french_school_jakarta",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/french-school-jakarta/campus.webp",
+      "card": "/images/schools/french-school-jakarta/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "french-school-campus.png"
     },
     "gandhi-memorial-international-school": {
       "profile": "/images/schools/gandhi-memorial-international-school/profile.webp",
@@ -111,70 +111,70 @@
       "sourceFile": "photo_4.jpg"
     },
     "global-jaya-school": {
-      "profile": "/images/schools/global-jaya-school/profile.webp",
-      "card": "/images/schools/global-jaya-school/card.webp",
-      "sourceFolder": "global_jaya_school",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/global-jaya-school/campus.webp",
+      "card": "/images/schools/global-jaya-school/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "global-jaya-campus.png"
     },
     "global-sevilla-school": {
-      "profile": "/images/schools/global-sevilla-school/profile.webp",
-      "card": "/images/schools/global-sevilla-school/card.webp",
+      "profile": "/images/schools/global-sevilla-school/campus.webp",
+      "card": "/images/schools/global-sevilla-school/campus.webp",
       "sourceFolder": "global_sevilla_school",
       "sourceFile": "campus.jpg"
     },
     "highscope-indonesia": {
-      "profile": "/images/schools/highscope-indonesia/profile.webp",
-      "card": "/images/schools/highscope-indonesia/card.webp",
+      "profile": "/images/schools/highscope-indonesia/campus.webp",
+      "card": "/images/schools/highscope-indonesia/campus.webp",
       "sourceFolder": "highscope_indonesia",
       "sourceFile": "campus.jpg"
     },
     "holy-angels-school": {
-      "profile": "/images/schools/holy-angels-school/profile.webp",
-      "card": "/images/schools/holy-angels-school/card.webp",
+      "profile": "/images/schools/holy-angels-school/campus.webp",
+      "card": "/images/schools/holy-angels-school/campus.webp",
       "sourceFolder": "holy_angels_school",
       "sourceFile": "campus.jpg"
     },
     "ichthus-school-jakarta": {
-      "profile": "/images/schools/ichthus-school-jakarta/profile.webp",
-      "card": "/images/schools/ichthus-school-jakarta/card.webp",
+      "profile": "/images/schools/ichthus-school-jakarta/campus.webp",
+      "card": "/images/schools/ichthus-school-jakarta/campus.webp",
       "sourceFolder": "ichthus_school_jakarta",
       "sourceFile": "campus.jpg"
     },
     "ipeka-integrated-christian-school": {
-      "profile": "/images/schools/ipeka-integrated-christian-school/profile.webp",
-      "card": "/images/schools/ipeka-integrated-christian-school/card.webp",
+      "profile": "/images/schools/ipeka-integrated-christian-school/campus.webp",
+      "card": "/images/schools/ipeka-integrated-christian-school/campus.webp",
       "sourceFolder": "ipeka_integrated_christian_school",
       "sourceFile": "campus.jpg"
     },
     "jakarta-indonesia-korean-school": {
-      "profile": "/images/schools/jakarta-indonesia-korean-school/profile.webp",
-      "card": "/images/schools/jakarta-indonesia-korean-school/card.webp",
+      "profile": "/images/schools/jakarta-indonesia-korean-school/campus.webp",
+      "card": "/images/schools/jakarta-indonesia-korean-school/campus.webp",
       "sourceFolder": "jakarta_indonesia_korean_school",
       "sourceFile": "campus.jpg"
     },
     "jakarta-intercultural-school": {
-      "profile": "/images/schools/jakarta-intercultural-school/profile.webp",
-      "card": "/images/schools/jakarta-intercultural-school/card.webp",
+      "profile": "/images/schools/jakarta-intercultural-school/campus.webp",
+      "card": "/images/schools/jakarta-intercultural-school/campus.webp",
       "sourceFolder": "jakarta_intercultural_school",
       "sourceFile": "campus.jpg"
     },
     "jakarta-multicultural-school": {
-      "profile": "/images/schools/jakarta-multicultural-school/profile.webp",
-      "card": "/images/schools/jakarta-multicultural-school/card.webp",
+      "profile": "/images/schools/jakarta-multicultural-school/campus.webp",
+      "card": "/images/schools/jakarta-multicultural-school/campus.webp",
       "sourceFolder": "jakarta_multicultural_school",
       "sourceFile": "campus.jpg"
     },
     "jakarta-nanyang-school": {
-      "profile": "/images/schools/jakarta-nanyang-school/profile.webp",
-      "card": "/images/schools/jakarta-nanyang-school/card.webp",
-      "sourceFolder": "jakarta_nanyang_school",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/jakarta-nanyang-school/campus.webp",
+      "card": "/images/schools/jakarta-nanyang-school/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "jakarta-nanyang-campus.jpeg"
     },
     "jubilee-school-jakarta": {
-      "profile": "/images/schools/jubilee-school-jakarta/profile.webp",
-      "card": "/images/schools/jubilee-school-jakarta/card.webp",
-      "sourceFolder": "jubilee_school_jakarta",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/jubilee-school-jakarta/campus.webp",
+      "card": "/images/schools/jubilee-school-jakarta/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "jubilee jakarta campus.jpg"
     },
     "kanaan-global-school": {
       "profile": "/images/schools/kanaan-global-school/profile.webp",
@@ -183,158 +183,158 @@
       "sourceFile": "photo_1.jpg"
     },
     "kharisma-bangsa-school": {
-      "profile": "/images/schools/kharisma-bangsa-school/profile.webp",
-      "card": "/images/schools/kharisma-bangsa-school/card.webp",
+      "profile": "/images/schools/kharisma-bangsa-school/campus.webp",
+      "card": "/images/schools/kharisma-bangsa-school/campus.webp",
       "sourceFolder": "kharisma_bangsa_school",
       "sourceFile": "campus.jpg"
     },
     "labschool-jakarta": {
-      "profile": "/images/schools/labschool-jakarta/profile.webp",
-      "card": "/images/schools/labschool-jakarta/card.webp",
+      "profile": "/images/schools/labschool-jakarta/campus.webp",
+      "card": "/images/schools/labschool-jakarta/campus.webp",
       "sourceFolder": "labschool_jakarta",
       "sourceFile": "campus.jpg"
     },
     "mentari-intercultural-school-bintaro": {
-      "profile": "/images/schools/mentari-intercultural-school-bintaro/profile.webp",
-      "card": "/images/schools/mentari-intercultural-school-bintaro/card.webp",
+      "profile": "/images/schools/mentari-intercultural-school-bintaro/campus.webp",
+      "card": "/images/schools/mentari-intercultural-school-bintaro/campus.webp",
       "sourceFolder": "mentari_intercultural_school_bintaro",
       "sourceFile": "campus.jpg"
     },
     "mentari-intercultural-school-jakarta": {
-      "profile": "/images/schools/mentari-intercultural-school-jakarta/profile.webp",
-      "card": "/images/schools/mentari-intercultural-school-jakarta/card.webp",
-      "sourceFolder": "mentari_intercultural_school_jakarta",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/mentari-intercultural-school-jakarta/campus.webp",
+      "card": "/images/schools/mentari-intercultural-school-jakarta/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "mentari intl school jakarta campus.webp"
     },
     "millennia-world-school": {
-      "profile": "/images/schools/millennia-world-school/profile.webp",
-      "card": "/images/schools/millennia-world-school/card.webp",
+      "profile": "/images/schools/millennia-world-school/campus.webp",
+      "card": "/images/schools/millennia-world-school/campus.webp",
       "sourceFolder": "millennia_world_school",
       "sourceFile": "campus.jpg"
     },
     "mutiara-harapan-islamic-school": {
-      "profile": "/images/schools/mutiara-harapan-islamic-school/profile.webp",
-      "card": "/images/schools/mutiara-harapan-islamic-school/card.webp",
-      "sourceFolder": "mutiara_harapan_islamic_school",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/mutiara-harapan-islamic-school/campus.webp",
+      "card": "/images/schools/mutiara-harapan-islamic-school/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "mutiara-islamic-campus.jpg"
     },
     "nationalhigh-jakarta-school": {
-      "profile": "/images/schools/nationalhigh-jakarta-school/profile.webp",
-      "card": "/images/schools/nationalhigh-jakarta-school/card.webp",
+      "profile": "/images/schools/nationalhigh-jakarta-school/campus.webp",
+      "card": "/images/schools/nationalhigh-jakarta-school/campus.webp",
       "sourceFolder": "nationalhigh_jakarta_school",
       "sourceFile": "campus.jpg"
     },
     "new-zealand-school-jakarta": {
-      "profile": "/images/schools/new-zealand-school-jakarta/profile.webp",
-      "card": "/images/schools/new-zealand-school-jakarta/card.webp",
+      "profile": "/images/schools/new-zealand-school-jakarta/campus.webp",
+      "card": "/images/schools/new-zealand-school-jakarta/campus.webp",
       "sourceFolder": "new_zealand_school_jakarta",
       "sourceFile": "campus.jpg"
     },
     "nord-anglia-school-jakarta": {
-      "profile": "/images/schools/nord-anglia-school-jakarta/profile.webp",
-      "card": "/images/schools/nord-anglia-school-jakarta/card.webp",
+      "profile": "/images/schools/nord-anglia-school-jakarta/campus.webp",
+      "card": "/images/schools/nord-anglia-school-jakarta/campus.webp",
       "sourceFolder": "nord_anglia_school_jakarta",
       "sourceFile": "campus.jpg"
     },
     "north-jakarta-intercultural-school": {
-      "profile": "/images/schools/north-jakarta-intercultural-school/profile.webp",
-      "card": "/images/schools/north-jakarta-intercultural-school/card.webp",
+      "profile": "/images/schools/north-jakarta-intercultural-school/campus.webp",
+      "card": "/images/schools/north-jakarta-intercultural-school/campus.webp",
       "sourceFolder": "north_jakarta_intercultural_school",
       "sourceFile": "campus.jpg"
     },
     "pelangi-kasih-school": {
-      "profile": "/images/schools/pelangi-kasih-school/profile.webp",
-      "card": "/images/schools/pelangi-kasih-school/card.webp",
-      "sourceFolder": "pelangi_kasih_school",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/pelangi-kasih-school/campus.webp",
+      "card": "/images/schools/pelangi-kasih-school/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "pelangi kasih campus.jpg"
     },
     "penabur-international-school": {
-      "profile": "/images/schools/penabur-international-school/profile.webp",
-      "card": "/images/schools/penabur-international-school/card.webp",
+      "profile": "/images/schools/penabur-international-school/campus.webp",
+      "card": "/images/schools/penabur-international-school/campus.webp",
       "sourceFolder": "penabur_international_school",
       "sourceFile": "campus.png"
     },
     "raffles-christian-school-jakarta": {
-      "profile": "/images/schools/raffles-christian-school-jakarta/profile.webp",
-      "card": "/images/schools/raffles-christian-school-jakarta/card.webp",
+      "profile": "/images/schools/raffles-christian-school-jakarta/campus.webp",
+      "card": "/images/schools/raffles-christian-school-jakarta/campus.webp",
       "sourceFolder": "raffles_christian_school_jakarta",
       "sourceFile": "campus.jpg"
     },
     "sampoerna-academy-jakarta": {
-      "profile": "/images/schools/sampoerna-academy-jakarta/profile.webp",
-      "card": "/images/schools/sampoerna-academy-jakarta/card.webp",
+      "profile": "/images/schools/sampoerna-academy-jakarta/campus.webp",
+      "card": "/images/schools/sampoerna-academy-jakarta/campus.webp",
       "sourceFolder": "sampoerna_academy_jakarta",
       "sourceFile": "campus.png"
     },
     "santa-laurensia-school": {
-      "profile": "/images/schools/santa-laurensia-school/profile.webp",
-      "card": "/images/schools/santa-laurensia-school/card.webp",
+      "profile": "/images/schools/santa-laurensia-school/campus.webp",
+      "card": "/images/schools/santa-laurensia-school/campus.webp",
       "sourceFolder": "santa_laurensia_school",
       "sourceFile": "campus.jpg"
     },
     "sekolah-ciputra": {
-      "profile": "/images/schools/sekolah-ciputra/profile.webp",
-      "card": "/images/schools/sekolah-ciputra/card.webp",
-      "sourceFolder": "sekolah_ciputra",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/sekolah-ciputra/campus.webp",
+      "card": "/images/schools/sekolah-ciputra/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "sekolah-ciputra-campus.jpg"
     },
     "sekolah-lentera-kasih-jakarta": {
-      "profile": "/images/schools/sekolah-lentera-kasih-jakarta/profile.webp",
-      "card": "/images/schools/sekolah-lentera-kasih-jakarta/card.webp",
-      "sourceFolder": "sekolah_lentera_kasih_jakarta",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/sekolah-lentera-kasih-jakarta/campus.webp",
+      "card": "/images/schools/sekolah-lentera-kasih-jakarta/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "lentera kasih campus.jpg"
     },
     "sekolah-madania": {
-      "profile": "/images/schools/sekolah-madania/profile.webp",
-      "card": "/images/schools/sekolah-madania/card.webp",
-      "sourceFolder": "sekolah_madania",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/sekolah-madania/campus.webp",
+      "card": "/images/schools/sekolah-madania/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "sekolah madania jakarta campus.png"
     },
     "sekolah-pelita-bangsa": {
-      "profile": "/images/schools/sekolah-pelita-bangsa/profile.webp",
-      "card": "/images/schools/sekolah-pelita-bangsa/card.webp",
-      "sourceFolder": "sekolah_pelita_bangsa",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/sekolah-pelita-bangsa/campus.webp",
+      "card": "/images/schools/sekolah-pelita-bangsa/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "sekolah-pelita-bangsa-campus.jpg"
     },
     "sekolah-pelita-harapan-kemang-village": {
-      "profile": "/images/schools/sekolah-pelita-harapan-kemang-village/profile.webp",
-      "card": "/images/schools/sekolah-pelita-harapan-kemang-village/card.webp",
-      "sourceFolder": "sekolah_pelita_harapan_kemang_village",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/sekolah-pelita-harapan-kemang-village/campus.webp",
+      "card": "/images/schools/sekolah-pelita-harapan-kemang-village/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "pelita harapan kemang campus.jpg"
     },
     "sekolah-pelita-harapan": {
-      "profile": "/images/schools/sekolah-pelita-harapan/profile.webp",
-      "card": "/images/schools/sekolah-pelita-harapan/card.webp",
+      "profile": "/images/schools/sekolah-pelita-harapan/campus.webp",
+      "card": "/images/schools/sekolah-pelita-harapan/campus.webp",
       "sourceFolder": "sekolah_pelita_harapan_lippo_village",
       "sourceFile": "campus.jpg"
     },
     "sekolah-terpadu-pahoa": {
-      "profile": "/images/schools/sekolah-terpadu-pahoa/profile.webp",
-      "card": "/images/schools/sekolah-terpadu-pahoa/card.webp",
+      "profile": "/images/schools/sekolah-terpadu-pahoa/campus.webp",
+      "card": "/images/schools/sekolah-terpadu-pahoa/campus.webp",
       "sourceFolder": "sekolah_terpadu_pahoa",
       "sourceFile": "campus.jpg"
     },
     "sekolah-victory-plus": {
-      "profile": "/images/schools/sekolah-victory-plus/profile.webp",
-      "card": "/images/schools/sekolah-victory-plus/card.webp",
+      "profile": "/images/schools/sekolah-victory-plus/campus.webp",
+      "card": "/images/schools/sekolah-victory-plus/campus.webp",
       "sourceFolder": "sekolah_victory_plus",
       "sourceFile": "campus.jpg"
     },
     "sinarmas-world-academy": {
-      "profile": "/images/schools/sinarmas-world-academy/profile.webp",
-      "card": "/images/schools/sinarmas-world-academy/card.webp",
-      "sourceFolder": "sinarmas_world_academy",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/sinarmas-world-academy/campus.webp",
+      "card": "/images/schools/sinarmas-world-academy/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "Sinarmas-campus.jpg"
     },
     "singapore-intercultural-school-south-jakarta": {
-      "profile": "/images/schools/singapore-intercultural-school-south-jakarta/profile.webp",
-      "card": "/images/schools/singapore-intercultural-school-south-jakarta/card.webp",
+      "profile": "/images/schools/singapore-intercultural-school-south-jakarta/campus.webp",
+      "card": "/images/schools/singapore-intercultural-school-south-jakarta/campus.webp",
       "sourceFolder": "singapore_intercultural_school_south_jakarta",
       "sourceFile": "campus.jpg"
     },
     "sis-kelapa-gading": {
-      "profile": "/images/schools/sis-kelapa-gading/profile.webp",
-      "card": "/images/schools/sis-kelapa-gading/card.webp",
+      "profile": "/images/schools/sis-kelapa-gading/campus.webp",
+      "card": "/images/schools/sis-kelapa-gading/campus.webp",
       "sourceFolder": "sis_kelapa_gading",
       "sourceFile": "campus.jpg"
     },
@@ -345,40 +345,46 @@
       "sourceFile": "photo_1.jpg"
     },
     "springfield-school-jakarta": {
-      "profile": "/images/schools/springfield-school-jakarta/profile.webp",
-      "card": "/images/schools/springfield-school-jakarta/card.webp",
+      "profile": "/images/schools/springfield-school-jakarta/campus.webp",
+      "card": "/images/schools/springfield-school-jakarta/campus.webp",
       "sourceFolder": "springfield_school_jakarta",
       "sourceFile": "campus.jpg"
     },
     "stella-maris-school": {
-      "profile": "/images/schools/stella-maris-school/profile.webp",
-      "card": "/images/schools/stella-maris-school/card.webp",
+      "profile": "/images/schools/stella-maris-school/campus.webp",
+      "card": "/images/schools/stella-maris-school/campus.webp",
       "sourceFolder": "stella_maris_school",
       "sourceFile": "campus.jpg"
     },
     "independent-school-of-jakarta": {
-      "profile": "/images/schools/independent-school-of-jakarta/profile.webp",
-      "card": "/images/schools/independent-school-of-jakarta/card.webp",
+      "profile": "/images/schools/independent-school-of-jakarta/campus.webp",
+      "card": "/images/schools/independent-school-of-jakarta/campus.webp",
       "sourceFolder": "the_independent_school_of_jakarta",
       "sourceFile": "campus.jpg"
     },
     "tunas-muda-school": {
-      "profile": "/images/schools/tunas-muda-school/profile.webp",
-      "card": "/images/schools/tunas-muda-school/card.webp",
+      "profile": "/images/schools/tunas-muda-school/campus.webp",
+      "card": "/images/schools/tunas-muda-school/campus.webp",
       "sourceFolder": "tunas_muda_school",
       "sourceFile": "campus.jpg"
     },
     "tzu-chi-school": {
-      "profile": "/images/schools/tzu-chi-school/profile.webp",
-      "card": "/images/schools/tzu-chi-school/card.webp",
+      "profile": "/images/schools/tzu-chi-school/campus.webp",
+      "card": "/images/schools/tzu-chi-school/campus.webp",
       "sourceFolder": "tzu_chi_school",
       "sourceFile": "campus.jpg"
     },
     "universal-school-jakarta": {
-      "profile": "/images/schools/universal-school-jakarta/profile.webp",
-      "card": "/images/schools/universal-school-jakarta/card.webp",
-      "sourceFolder": "universal_school_jakarta",
-      "sourceFile": "campus.jpg"
+      "profile": "/images/schools/universal-school-jakarta/campus.webp",
+      "card": "/images/schools/universal-school-jakarta/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "universal-school-jakarta-campus.jpg"
+    },
+    "al-jabr-islamic-school": {
+      "profile": "/images/schools/al-jabr-islamic-school/campus.webp",
+      "card": "/images/schools/al-jabr-islamic-school/campus.webp",
+      "sourceFolder": "Jakarta School Images",
+      "sourceFile": "al jabr islamic campus.jpg"
     }
   },
   "unmappedSourceFolders": [],

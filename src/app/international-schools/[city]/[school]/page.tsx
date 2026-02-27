@@ -171,9 +171,9 @@ export default function SchoolProfilePage({
 
       {/* Photo Strip */}
       <PhotoStrip
-        images={s.photoAlts.map((alt) => ({
+        images={s.photoAlts.map((alt, i) => ({
           alt,
-          src: getSchoolImageUrl(s.slug, "profile"),
+          src: i === 0 ? getSchoolImageUrl(s.slug, "profile") : undefined,
         }))}
       />
 
