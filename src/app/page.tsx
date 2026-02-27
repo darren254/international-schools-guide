@@ -7,7 +7,7 @@ import { getInsightImageUrl } from "@/lib/insights/images";
 import SocialProofBar from "@/components/SocialProofBar";
 import MidPageCTA from "@/components/MidPageCTA";
 import EmailCapture from "@/components/EmailCapture";
-import FAQ from "@/components/FAQ";
+import FAQ, { buildFAQJsonLd } from "@/components/FAQ";
 
 export const metadata: Metadata = {
   title: "Find the Right International School",
@@ -161,44 +161,7 @@ const JSONLD_WEBSITE = {
   },
 };
 
-const JSONLD_FAQ = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "How much do international schools cost?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "International school fees vary widely by city and curriculum. In Jakarta, you can expect to pay between US$5,000 and US$36,000 per year. Singapore tends to be higher, at US$15,000\u2013$45,000. We publish verified, up-to-date fee data for every school we review so you can compare accurately.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is the IB curriculum?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "The International Baccalaureate (IB) is a globally recognised curriculum offered in over 5,000 schools worldwide. It emphasises critical thinking, intercultural understanding, and education from ages 3 to 19. Many expat families prefer IB for its portability when moving between countries.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How do I choose the right international school?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Consider curriculum fit, fee range, class sizes, IB or exam results, location, and community culture. Our independent editorial reviews and side-by-side comparison tools are designed to help you evaluate all of these without relying on school marketing.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Is International Schools Guide really independent?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. We don\u2019t accept payment from schools to feature or promote them. Every profile is editorially written, and our fee data is independently verified. We exist to serve families, not schools.",
-      },
-    },
-  ],
-};
+const JSONLD_FAQ = buildFAQJsonLd();
 
 export default function HomePage() {
   return (
