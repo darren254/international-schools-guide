@@ -33,8 +33,8 @@ export function SiteHeader() {
           </Link>
 
           {/* Nav */}
-          <nav className="hidden md:block">
-            <ul className="flex items-center gap-8">
+          <nav className="hidden lg:block">
+            <ul className="flex items-center gap-6 lg:gap-8">
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
@@ -57,7 +57,7 @@ export function SiteHeader() {
 
             {/* Mobile hamburger */}
             <button
-              className="md:hidden w-7 h-7 relative"
+              className="lg:hidden w-7 h-7 relative"
               onClick={() => setMobileOpen(!mobileOpen)}
               aria-label="Menu"
             >
@@ -82,7 +82,7 @@ export function SiteHeader() {
 
         {/* Mobile menu */}
         {mobileOpen && (
-          <nav className="md:hidden border-t border-warm-border py-4">
+          <nav className="lg:hidden border-t border-warm-border py-4">
             <ul className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <li key={link.href}>
