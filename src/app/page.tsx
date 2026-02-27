@@ -89,18 +89,21 @@ const FROM_THE_GUIDE = [
     title: "International Schools in Jakarta - A Practical Guide for Expat Families (2026)",
     category: "Guide",
     description: "More than 60 international schools; compare fees, curricula, and locations. Honest guide to JIS, BSJ, ISJ, AIS, and 60+ options.",
+    imageUrl: "/images/schools/independent-school-of-jakarta/campus.webp"
   },
   {
     slug: "jakarta-fee-increases-2026-27",
     title: "Jakarta Schools Announce 2026–27 Fee Increases: What Parents Need to Know",
     category: "Fees",
     description: "Annual tuition at Jakarta's top international schools is rising 4–8% for 2026–27. We break down the changes school by school.",
+    imageUrl: "/images/schools/jakarta-intercultural-school/campus.webp"
   },
   {
     slug: "new-british-school-bsd-city",
     title: "New International School Opening in BSD City, Tangerang",
     category: "News",
     description: "A British curriculum school backed by a UK education group is set to open in August 2026, adding competition in Greater Jakarta.",
+    imageUrl: "/images/schools/british-school-jakarta/campus.webp"
   },
 ];
 
@@ -404,17 +407,30 @@ export default function HomePage() {
             <Link
               key={article.slug}
               href={`/insights/${article.slug}`}
-              className="group border border-warm-border rounded-sm p-5 hover:border-charcoal-muted transition-colors bg-cream-200"
+              className="group border border-warm-border rounded-sm overflow-hidden hover:border-charcoal-muted transition-colors bg-cream-200 flex flex-col"
             >
-              <span className="text-label-xs uppercase text-hermes mb-2 block">
-                {article.category}
-              </span>
-              <h3 className="font-display text-[1.0625rem] font-medium leading-snug mb-2 group-hover:text-hermes transition-colors">
-                {article.title}
-              </h3>
-              <p className="text-sm text-charcoal-light leading-relaxed">
-                {article.description}
-              </p>
+              {article.imageUrl && (
+                <div className="aspect-[16/9] w-full bg-cream-300 relative overflow-hidden border-b border-warm-border">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={article.imageUrl}
+                    alt={article.title}
+                    className="w-full h-full object-cover school-image"
+                    loading="lazy"
+                  />
+                </div>
+              )}
+              <div className="p-5 flex flex-col flex-grow">
+                <span className="text-label-xs uppercase text-hermes mb-2 block">
+                  {article.category}
+                </span>
+                <h3 className="font-display text-[1.0625rem] font-medium leading-snug mb-2 group-hover:text-hermes transition-colors">
+                  {article.title}
+                </h3>
+                <p className="text-sm text-charcoal-light leading-relaxed mt-auto">
+                  {article.description}
+                </p>
+              </div>
             </Link>
           ))}
         </div>
