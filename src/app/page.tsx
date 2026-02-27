@@ -92,17 +92,17 @@ const FROM_THE_GUIDE = [
     imageUrl: "/images/schools/independent-school-of-jakarta/campus.webp"
   },
   {
-    slug: "jakarta-fee-increases-2026-27",
-    title: "Jakarta Schools Announce 2026–27 Fee Increases: What Parents Need to Know",
+    slug: "jakarta-international-schools-fee-report-2026",
+    title: "Jakarta International Schools Fee Report — 2026 Edition",
     category: "Fees",
-    description: "Annual tuition at Jakarta's top international schools is rising 4–8% for 2026–27. We break down the changes school by school.",
+    description: "The definitive annual comparison of international school fees in Jakarta. Ten schools, three age bands, verified data.",
     imageUrl: "/images/schools/jakarta-intercultural-school/campus.webp"
   },
   {
-    slug: "new-british-school-bsd-city",
-    title: "New International School Opening in BSD City, Tangerang",
-    category: "News",
-    description: "A British curriculum school backed by a UK education group is set to open in August 2026, adding competition in Greater Jakarta.",
+    slug: "ib-results-jakarta-international-schools",
+    title: "IB Diploma Results at Jakarta International Schools",
+    category: "Results",
+    description: "Which Jakarta international schools publish IB Diploma results? Published averages, pass rates, and what the numbers mean for university admissions.",
     imageUrl: "/images/schools/british-school-jakarta/campus.webp"
   },
 ];
