@@ -149,26 +149,26 @@ export default function HomePage() {
         </p>
 
         {/* Search block - single action: go to Jakarta schools (only live city for now) */}
-        <div className="w-full max-w-3xl mx-auto">
+        <div className="w-full max-w-3xl mx-auto shadow-sm">
           <Link
             href="/international-schools/jakarta/"
-            className="block bg-warm-white border border-warm-border rounded-sm shadow-sm hover:border-charcoal-muted transition-colors"
+            className="block bg-warm-white border border-warm-border rounded-sm shadow-sm hover:border-charcoal-muted transition-all duration-200 hover:shadow-md"
           >
             <div className="grid grid-cols-1 sm:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-warm-border">
-              <div className="px-4 py-3.5 text-left">
+              <div className="px-4 py-3.5 text-left cursor-pointer hover:bg-gray-50 transition-colors duration-150">
                 <p className="text-label-xs uppercase text-charcoal-muted mb-1">City</p>
                 <p className="text-sm text-charcoal">Jakarta, Singapore…</p>
               </div>
-              <div className="px-4 py-3.5 text-left">
+              <div className="px-4 py-3.5 text-left cursor-pointer hover:bg-gray-50 transition-colors duration-150">
                 <p className="text-label-xs uppercase text-charcoal-muted mb-1">Curriculum</p>
                 <p className="text-sm text-charcoal">IB, British…</p>
               </div>
-              <div className="px-4 py-3.5 text-left">
+              <div className="px-4 py-3.5 text-left cursor-pointer hover:bg-gray-50 transition-colors duration-150">
                 <p className="text-label-xs uppercase text-charcoal-muted mb-1">Age</p>
                 <p className="text-sm text-charcoal">Child&apos;s age</p>
               </div>
               <div className="px-4 py-3.5 flex items-end justify-center">
-                <span className="w-full bg-hermes text-white px-6 py-2.5 text-sm font-medium uppercase tracking-wider hover:bg-hermes-hover transition-colors inline-block text-center">
+                <span className="w-full bg-hermes text-white px-6 py-2.5 text-sm font-medium uppercase tracking-wider hover:bg-hermes-hover hover:brightness-90 transition-all duration-200 cursor-pointer inline-block text-center">
                   Search
                 </span>
               </div>
