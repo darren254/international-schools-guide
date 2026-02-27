@@ -171,10 +171,14 @@ export default function SchoolProfilePage({
 
       {/* Photo Strip */}
       <PhotoStrip
-        images={s.photoAlts.map((alt, i) => ({
-          alt,
-          src: i === 0 ? getSchoolImageUrl(s.slug, "profile") : undefined,
-        }))}
+        images={s.photoAlts.map((alt, i) => {
+          const variants = ["profile", "photo1", "photo2", "photo3"] as const;
+          const variant = variants[i];
+          return {
+            alt,
+            src: variant ? getSchoolImageUrl(s.slug, variant) : undefined,
+          };
+        })}
       />
 
       {/* Sticky section nav */}

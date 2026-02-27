@@ -1,10 +1,13 @@
 import schoolImages from "@/data/school-images.json";
 
-export type SchoolImageVariant = "card" | "profile";
+export type SchoolImageVariant = "card" | "profile" | "photo1" | "photo2" | "photo3";
 
 type SchoolImageEntry = {
   card: string;
   profile: string;
+  photo1?: string;
+  photo2?: string;
+  photo3?: string;
 };
 
 type SchoolImageManifest = {
