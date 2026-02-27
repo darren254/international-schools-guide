@@ -11,6 +11,7 @@ import {
   type JakartaSchoolListing,
 } from "@/data/jakarta-schools";
 import { extractHighestFee, extractLowestFee, hasPublishableFee } from "@/lib/utils/fees";
+import { getSchoolImageUrl } from "@/lib/schools/images";
 
 const CURRICULUM_OPTIONS = [
   { value: "", label: "All curricula" },
@@ -190,6 +191,7 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
               feeRange={school.feeRange}
               examResults={school.examResults}
               editorialSummary={school.editorialSummary}
+              imageUrl={getSchoolImageUrl(school.slug, "card")}
             />
           ))}
         </div>

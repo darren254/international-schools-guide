@@ -68,6 +68,7 @@ You are a senior full-stack web developer working on international education web
   - **Format:** Convert all `.png`/`.jpg` images to `.webp`.
   - **Sizing:** Resize images to their maximum display width (e.g. `1600px` for hero, `800px` for cards) instead of using massive original images.
   - **Priority:** Always pass the `priority` prop to `next/image` components if the image is above-the-fold or likely to be the Largest Contentful Paint (LCP) element (like hero images or lead cards).
+  - **School images pipeline:** For Jakarta school profile/card art, generate stylized and optimized assets via `npx tsx scripts/generate-school-pencil-images.ts`. This writes WebP files to `public/images/schools/<slug>/` and updates `src/data/school-images.json` (the manifest the UI reads). Do not hand-edit school image paths in components.
   - Images must have alt text; use `next/image` with proper `width`/`height` attributes to prevent layout shift.
 - Prioritise Core Web Vitals: lazy load below-fold content, minimise CLS
 

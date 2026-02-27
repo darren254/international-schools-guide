@@ -8,6 +8,7 @@ import { ShareButton } from "@/components/share/ShareButton";
 import { useShortlist } from "@/context/ShortlistContext";
 import { JAKARTA_SCHOOLS } from "@/data/jakarta-schools";
 import { ALL_SCHOOL_SLUGS } from "@/data/schools";
+import { getSchoolImageUrl } from "@/lib/schools/images";
 
 const profileSet = new Set(ALL_SCHOOL_SLUGS);
 
@@ -93,6 +94,7 @@ function ShortlistContent() {
               feeRange={school.feeRange}
               examResults={school.examResults}
               editorialSummary={school.editorialSummary}
+              imageUrl={getSchoolImageUrl(school.slug, "card")}
             />
           ))}
         </div>

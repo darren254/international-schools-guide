@@ -19,6 +19,7 @@ import {
   EXCHANGE_RATE_DATE,
 } from "@/data/schools";
 import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
+import { getSchoolImageUrl } from "@/lib/schools/images";
 
 // ═══════════════════════════════════════════════════════
 // STATIC PARAMS - generates a page for every school slug
@@ -170,7 +171,10 @@ export default function SchoolProfilePage({
 
       {/* Photo Strip */}
       <PhotoStrip
-        images={s.photoAlts.map((alt) => ({ alt }))}
+        images={s.photoAlts.map((alt) => ({
+          alt,
+          src: getSchoolImageUrl(s.slug, "profile"),
+        }))}
       />
 
       {/* Sticky section nav */}
