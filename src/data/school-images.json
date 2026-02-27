@@ -81,8 +81,8 @@
       "photo2": "/images/schools/binus-school-simprug/photo2.webp"
     },
     "british-school-jakarta": {
-      "profile": "/images/schools/british-school-jakarta/profile.webp",
-      "card": "/images/schools/british-school-jakarta/card.webp",
+      "profile": "/images/schools/british-school-jakarta/campus.webp",
+      "card": "/images/schools/british-school-jakarta/campus.webp",
       "sourceFolder": "british_school_jakarta",
       "sourceFile": "campus-bsj.jpg",
       "photo1": "/images/schools/british-school-jakarta/photo1.webp",
