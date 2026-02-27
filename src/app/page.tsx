@@ -4,6 +4,7 @@ import { extractHighestFee } from "@/lib/utils/fees";
 import { CITIES, LIVE_CITIES, TOTAL_SCHOOLS_LIVE } from "@/data/cities";
 import { getSchoolImageUrl } from "@/lib/schools/images";
 import { getInsightImageUrl } from "@/lib/insights/images";
+import SocialProofBar from "@/components/SocialProofBar";
 
 export const metadata: Metadata = {
   title: "Find the Right International School",
@@ -196,6 +197,8 @@ export default function HomePage() {
           </p>
         </div>
       </section>
+
+      <SocialProofBar />
 
       {/* ─── Trust strip ─── */}
       <section className="border-y border-warm-border py-8 mb-16">
