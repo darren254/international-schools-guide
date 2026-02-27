@@ -308,6 +308,8 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {CITIES.slice(0, 6).map((city) => {
+              const isJakarta = city.slug === "jakarta";
+              const isSingapore = city.slug === "singapore";
               const content = (
                 <>
                   <div className="aspect-[16/8] bg-cream-300 group-hover:bg-cream-400 transition-colors relative">
@@ -318,13 +320,23 @@ export default function HomePage() {
                       className="w-full h-full object-cover school-image absolute inset-0"
                       loading="lazy"
                     />
-                    {!city.live && (
-                      <span className="absolute top-2 right-2 text-[0.6875rem] uppercase tracking-wider text-charcoal-muted bg-warm-white/90 px-2 py-1 rounded-sm z-10">
+                    {isJakarta && (
+                      <span className="absolute top-3 right-3 bg-hermes text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded z-10">
+                        Live Now
+                      </span>
+                    )}
+                    {isSingapore && (
+                      <span className="absolute top-3 right-3 bg-charcoal text-white text-[10px] font-semibold uppercase tracking-wide px-3 py-1 rounded z-10">
+                        Next Up
+                      </span>
+                    )}
+                    {!city.live && !isSingapore && (
+                      <span className="absolute top-3 right-3 text-[10px] uppercase tracking-wider text-charcoal-muted bg-warm-white/90 px-3 py-1 rounded z-10 font-semibold">
                         Coming soon
                       </span>
                     )}
                   </div>
-                  <div className="p-5">
+                  <div className="p-5 flex-1 flex flex-col">
                     <div className="flex items-baseline justify-between mb-2">
                       <h3 className="font-display text-display-sm group-hover:text-hermes transition-colors">
                         {city.name}
@@ -333,7 +345,7 @@ export default function HomePage() {
                         {city.country}
                       </span>
                     </div>
-                    <p className="text-sm text-charcoal-light leading-relaxed mb-3">
+                    <p className="text-sm text-charcoal-light leading-relaxed mb-3 flex-1">
                       {city.tagline ?? ""}
                     </p>
                     <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[0.8125rem] text-charcoal-muted mb-3">
@@ -351,26 +363,37 @@ export default function HomePage() {
                       ))}
                     </div>
                     {!city.live && (
-                      <p className="text-[0.75rem] uppercase tracking-wider text-charcoal-muted/70 mt-3">
-                        Coming soon
-                      </p>
+                      <div className="flex gap-2 mt-4">
+                        <input
+                          type="email"
+                          placeholder="Your email"
+                          className="flex-1 px-3 py-2 border border-warm-border rounded text-xs focus:outline-none focus:ring-2 focus:ring-hermes-light"
+                        />
+                        <button className="bg-charcoal text-white px-4 py-2 rounded text-[11px] font-semibold whitespace-nowrap hover:bg-charcoal-light transition-colors">
+                          Notify Me
+                        </button>
+                      </div>
                     )}
                   </div>
                 </>
               );
+
+              const wrapperClasses = isJakarta 
+                ? "group border-2 border-hermes rounded-sm overflow-hidden hover:shadow-lg transition-all duration-200 bg-cream-50 flex flex-col h-full"
+                : "group border border-warm-border rounded-sm overflow-hidden bg-cream-50 transition-all duration-200 flex flex-col h-full";
+
               return city.live ? (
                 <Link
                   key={city.slug}
                   href={`/international-schools/${city.slug}/`}
-                  className="group border border-warm-border rounded-sm overflow-hidden hover:border-charcoal-muted transition-colors bg-cream-50"
+                  className={wrapperClasses}
                 >
                   {content}
                 </Link>
               ) : (
                 <div
                   key={city.slug}
-                  className="border border-warm-border rounded-sm overflow-hidden bg-cream-50 opacity-80"
-                  title="Coming soon"
+                  className={wrapperClasses}
                 >
                   {content}
                 </div>
@@ -378,7 +401,11 @@ export default function HomePage() {
             })}
           </div>
 
-          <p className="text-center mt-8">
+          <p className="text-center text-sm text-charcoal-muted mt-8">
+            New city added every week — Dubai, Hong Kong, and Kuala Lumpur launching soon.
+          </p>
+
+          <p className="text-center mt-5">
             <Link
               href="/cities"
               className="text-sm font-medium text-hermes hover:text-hermes-hover transition-colors"
