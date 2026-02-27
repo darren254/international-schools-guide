@@ -119,9 +119,9 @@ export function SchoolCard({
               <button
                 type="button"
                 onClick={addToCompare}
-                className="text-[0.75rem] font-medium uppercase tracking-wider text-charcoal-muted hover:text-hermes transition-colors font-body"
+                className="text-[0.75rem] font-semibold uppercase tracking-wider text-charcoal-muted hover:text-hermes transition-colors font-body"
               >
-                + Compare
+                Shortlist +
               </button>
             )}
             {hasProfile ? (

@@ -20,6 +20,7 @@ import {
 } from "@/data/schools";
 import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 import { getSchoolImageUrl } from "@/lib/schools/images";
+import { BackToResults } from "@/components/home/BackToResults";
 
 // ═══════════════════════════════════════════════════════
 // STATIC PARAMS - generates a page for every school slug
@@ -127,6 +128,7 @@ export default function SchoolProfilePage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      <BackToResults />
       {/* Breadcrumb */}
       <nav
         className="py-5 text-[0.8125rem] text-charcoal-muted"

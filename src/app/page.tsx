@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { extractHighestFee } from "@/lib/utils/fees";
 import { CITIES, LIVE_CITIES, TOTAL_SCHOOLS_LIVE } from "@/data/cities";
 import { getSchoolImageUrl } from "@/lib/schools/images";
 import { getInsightImageUrl } from "@/lib/insights/images";
+import { HeroSearch } from "@/components/home/HeroSearch";
 import SocialProofBar from "@/components/SocialProofBar";
 import MidPageCTA from "@/components/MidPageCTA";
 import EmailCapture from "@/components/EmailCapture";
@@ -119,32 +119,6 @@ const FROM_THE_GUIDE = [
   },
 ];
 
-const FEATURED_NEWS = [
-  {
-    label: "Fees",
-    title: "Jakarta International Schools Fee Report — 2026 Edition",
-    slug: "/insights/jakarta-international-schools-fee-report-2026/",
-    date: "Feb 2026",
-    excerpt:
-      "The definitive annual comparison of international school fees in Jakarta. Ten schools, three age bands, verified data.",
-  },
-  {
-    label: "Admissions",
-    title: "Admissions Pressure by Year Group in Jakarta",
-    slug: "/insights/admissions-pressure-year-group-jakarta/",
-    date: "Feb 2026",
-    excerpt:
-      "Which year groups are hardest to get into at Jakarta's top international schools? We map the pressure points.",
-  },
-  {
-    label: "Results",
-    title: "IB Diploma Results at Jakarta International Schools",
-    slug: "/insights/ib-results-jakarta-international-schools/",
-    date: "Feb 2026",
-    excerpt:
-      "Which Jakarta international schools publish IB Diploma results? Published averages, pass rates, and what the numbers mean.",
-  },
-];
 
 const JSONLD_WEBSITE = {
   "@context": "https://schema.org",
@@ -176,7 +150,7 @@ export default function HomePage() {
       />
 
       {/* ─── Hero ─── */}
-      <section className="pt-20 pb-16 md:pt-28 md:pb-24 text-center px-4">
+      <section id="help-me-choose" className="pt-20 pb-16 md:pt-28 md:pb-24 text-center px-4">
         <p className="text-label-sm uppercase text-charcoal-muted tracking-wider mb-5">
           Independent reviews · Real fee data{LIVE_CITIES.length > 1 ? ` · ${LIVE_CITIES.length}+ cities` : ""}
         </p>
@@ -187,54 +161,8 @@ export default function HomePage() {
           Honest profiles, verified fee data, and independent editorial reviews - built for expat families, not for schools.
         </p>
 
-        {/* Search block - single action: go to Jakarta schools (only live city for now) */}
-        <div className="w-full max-w-3xl mx-auto shadow-sm">
-          <Link
-            href="/international-schools/jakarta/"
-            className="block bg-warm-white border border-warm-border rounded-sm shadow-sm hover:border-charcoal-muted transition-all duration-200 hover:shadow-md"
-          >
-            <div className="grid grid-cols-1 sm:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-warm-border">
-              <div className="px-4 py-3.5 text-left cursor-pointer hover:bg-gray-50 transition-colors duration-150">
-                <p className="text-label-xs uppercase text-charcoal-muted mb-1">City</p>
-                <p className="text-sm text-charcoal">Jakarta, Singapore…</p>
-              </div>
-              <div className="px-4 py-3.5 text-left cursor-pointer hover:bg-gray-50 transition-colors duration-150">
-                <p className="text-label-xs uppercase text-charcoal-muted mb-1">Curriculum</p>
-                <p className="text-sm text-charcoal">IB, British…</p>
-              </div>
-              <div className="px-4 py-3.5 text-left cursor-pointer hover:bg-gray-50 transition-colors duration-150">
-                <p className="text-label-xs uppercase text-charcoal-muted mb-1">Age</p>
-                <p className="text-sm text-charcoal">Child&apos;s age</p>
-              </div>
-              <div className="px-4 py-3.5 flex items-end justify-center">
-                <span className="w-full bg-hermes text-white px-6 py-2.5 text-sm font-medium uppercase tracking-wider hover:bg-hermes-hover hover:brightness-90 transition-all duration-200 cursor-pointer inline-block text-center">
-                  Search
-                </span>
-              </div>
-            </div>
-          </Link>
-
-          <p className="text-sm text-charcoal-muted mt-5">
-            Popular:{" "}
-            {CITIES.map((city, i) => (
-              <span key={city.slug}>
-                {i > 0 && <span className="mx-1.5 text-cream-400">·</span>}
-                {city.live ? (
-                  <Link
-                    href={`/international-schools/${city.slug}/`}
-                    className="text-hermes hover:text-hermes-hover transition-colors"
-                  >
-                    {city.name}
-                  </Link>
-                ) : (
-                  <span className={city.comingNext ? "text-charcoal-muted" : "text-charcoal-muted/70"} title={city.comingNext ? "Coming next" : "Coming soon"}>
-                    {city.name}
-                  </span>
-                )}
-              </span>
-            ))}
-          </p>
-        </div>
+        {/* Help Me Choose input + browse by city + secondary CTAs */}
+        <HeroSearch cities={CITIES.map((c) => ({ slug: c.slug, name: c.name, live: c.live, comingNext: c.comingNext }))} />
       </section>
 
       <SocialProofBar />
@@ -515,54 +443,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── News (3 most recent) ─── */}
-      <section className="container-site mb-20">
-        <div className="flex items-baseline justify-between mb-8">
-          <div>
-            <h2 className="font-display text-display-lg">
-              Latest insights
-            </h2>
-          </div>
-          <Link
-            href="/insights/"
-            className="hidden md:inline-block text-sm text-hermes hover:text-hermes-hover transition-colors"
-          >
-            All insights →
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {FEATURED_NEWS.map((item) => (
-            <Link
-              key={item.slug}
-              href={item.slug}
-              className="group border border-warm-border rounded-sm p-5 hover:border-charcoal-muted transition-colors bg-cream-200"
-            >
-              <div className="flex items-center gap-3 mb-3">
-                <span className="text-label-xs uppercase text-hermes bg-hermes-light px-2.5 py-1 rounded-sm">
-                  {item.label}
-                </span>
-                <span className="text-[0.75rem] text-charcoal-muted">{item.date}</span>
-              </div>
-              <h3 className="font-display text-[1.0625rem] font-medium leading-snug mb-2 group-hover:text-hermes transition-colors">
-                {item.title}
-              </h3>
-              <p className="text-sm text-charcoal-light leading-relaxed">
-                {item.excerpt}
-              </p>
-            </Link>
-          ))}
-        </div>
-
-        <div className="md:hidden text-center mt-6">
-          <Link
-            href="/insights/"
-            className="text-sm text-hermes hover:text-hermes-hover transition-colors"
-          >
-            All insights →
-          </Link>
-        </div>
-      </section>
+      {/* Duplicate news section removed — "From the guide" above covers insights */}
 
       <EmailCapture />
 
