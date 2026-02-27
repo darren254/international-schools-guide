@@ -5,17 +5,30 @@ import { CITIES, LIVE_CITIES, TOTAL_SCHOOLS_LIVE } from "@/data/cities";
 import { getSchoolImageUrl } from "@/lib/schools/images";
 import { getInsightImageUrl } from "@/lib/insights/images";
 import SocialProofBar from "@/components/SocialProofBar";
+import MidPageCTA from "@/components/MidPageCTA";
+import EmailCapture from "@/components/EmailCapture";
+import FAQ from "@/components/FAQ";
 
 export const metadata: Metadata = {
   title: "Find the Right International School",
   description:
-    "Compare international schools worldwide. Fees, IB results, honest editorial reviews. Built for expat families.",
+    "Compare international schools worldwide. Verified fees, IB results, and honest editorial reviews - built for expat families, not for schools.",
   alternates: { canonical: "https://international-schools-guide.com/" },
   openGraph: {
     title: "Find the Right International School - International Schools Guide",
     description:
-      "Compare international schools worldwide. Fees, IB results, honest editorial reviews. Built for expat families.",
+      "Compare international schools worldwide. Verified fees, IB results, and honest editorial reviews - built for expat families, not for schools.",
     url: "https://international-schools-guide.com/",
+    siteName: "International Schools Guide",
+    type: "website",
+    images: [
+      {
+        url: "https://international-schools-guide.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "International Schools Guide - independent reviews and fee data for expat families",
+      },
+    ],
   },
 };
 
@@ -133,9 +146,72 @@ const FEATURED_NEWS = [
   },
 ];
 
+const JSONLD_WEBSITE = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "International Schools Guide",
+  url: "https://international-schools-guide.com",
+  description:
+    "Independent reviews and verified fee data for international schools worldwide.",
+  potentialAction: {
+    "@type": "SearchAction",
+    target:
+      "https://international-schools-guide.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const JSONLD_FAQ = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How much do international schools cost?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "International school fees vary widely by city and curriculum. In Jakarta, you can expect to pay between US$5,000 and US$36,000 per year. Singapore tends to be higher, at US$15,000\u2013$45,000. We publish verified, up-to-date fee data for every school we review so you can compare accurately.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the IB curriculum?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The International Baccalaureate (IB) is a globally recognised curriculum offered in over 5,000 schools worldwide. It emphasises critical thinking, intercultural understanding, and education from ages 3 to 19. Many expat families prefer IB for its portability when moving between countries.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I choose the right international school?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Consider curriculum fit, fee range, class sizes, IB or exam results, location, and community culture. Our independent editorial reviews and side-by-side comparison tools are designed to help you evaluate all of these without relying on school marketing.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is International Schools Guide really independent?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. We don\u2019t accept payment from schools to feature or promote them. Every profile is editorially written, and our fee data is independently verified. We exist to serve families, not schools.",
+      },
+    },
+  ],
+};
+
 export default function HomePage() {
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(JSONLD_WEBSITE) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(JSONLD_FAQ) }}
+      />
+
       {/* ─── Hero ─── */}
       <section className="pt-20 pb-16 md:pt-28 md:pb-24 text-center px-4">
         <p className="text-label-sm uppercase text-charcoal-muted tracking-wider mb-5">
@@ -246,7 +322,7 @@ export default function HomePage() {
                   // eslint-disable-next-line @next/next/no-img-element
                   <img 
                     src={getSchoolImageUrl(school.slug, "card")} 
-                    alt={school.name} 
+                    alt={`${school.name} campus, ${school.city}`} 
                     className="w-full h-full object-cover school-image absolute inset-0 transition-transform duration-300 group-hover:scale-105" 
                     loading="lazy" 
                   />
@@ -293,6 +369,8 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
+
+      <MidPageCTA />
 
       {/* ─── City Guides grid (exactly 6) ─── */}
       <section className="bg-warm-white border-y border-warm-border-light py-16 mb-20">
@@ -525,6 +603,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      <EmailCapture />
+
       {/* ─── How it works ─── */}
       <section className="bg-charcoal text-cream py-16 mb-0">
         <div className="container-site">
@@ -570,6 +650,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <FAQ />
 
       {/* ─── For schools CTA ─── */}
       <section className="container-site py-16 text-center">
