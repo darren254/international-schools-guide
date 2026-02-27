@@ -276,3 +276,41 @@ export const contactMessages = pgTable("contact_messages", {
   message: text("message").notNull(),
   createdAt: timestamp("created_at").defaultNow(),
 });
+
+// ─── Fact Check Runs ─────────────────────────────────
+export const factCheckRuns = pgTable("fact_check_runs", {
+  id: varchar("id")
+    .primaryKey()
+    .$defaultFn(() => crypto.randomUUID()),
+  articleSlug: varchar("article_slug", { length: 255 }).notNull(),
+  status: varchar("status", { length: 20 }).notNull().default("running"),
+  stageReached: varchar("stage_reached", { length: 50 }),
+  claimsExtracted: integer("claims_extracted").default(0),
+  highCount: integer("high_count").default(0),
+  mediumCount: integer("medium_count").default(0),
+  lowCount: integer("low_count").default(0),
+  report: jsonb("report"),
+  error: text("error"),
+  startedAt: timestamp("started_at").defaultNow(),
+  completedAt: timestamp("completed_at"),
+  durationMs: integer("duration_ms"),
+});
+
+// ─── Fact Check Claims ───────────────────────────────
+export const factCheckClaims = pgTable("fact_check_claims", {
+  id: varchar("id")
+    .primaryKey()
+    .$defaultFn(() => crypto.randomUUID()),
+  runId: varchar("run_id").references(() => factCheckRuns.id).notNull(),
+  claimIndex: integer("claim_index").notNull(),
+  originalText: text("original_text").notNull(),
+  claimType: varchar("claim_type", { length: 50 }).notNull(),
+  schoolSlug: varchar("school_slug", { length: 255 }),
+  canonicalValue: text("canonical_value"),
+  verdict: varchar("verdict", { length: 30 }),
+  severity: varchar("severity", { length: 10 }),
+  rationale: text("rationale"),
+  confidence: numeric("confidence", { precision: 3, scale: 2 }),
+  isjBiasApplied: boolean("isj_bias_applied").default(false),
+  stageData: jsonb("stage_data").default({}),
+});

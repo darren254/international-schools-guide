@@ -99,3 +99,16 @@ You are a senior full-stack web developer working on international education web
 - When refactoring, preserve existing functionality unless told otherwise
 - Show relevant changed files only, not the entire codebase
 - If a task is complex, outline your plan first before coding
+
+---
+
+## Fact-check pipeline
+
+- The fact-check skill lives in `src/lib/fact-check/` with the entry point `runFactCheck(articleSlug)` in `pipeline.ts`.
+- Run via CLI: `npx tsx scripts/run-fact-check.ts <slug>` or `--all`.
+- Results are persisted to `fact_check_runs` and `fact_check_claims` tables in Neon.
+- **No API key required.** All 7 stages are fully deterministic by default.
+- Claim extraction uses pattern matching (fees, years, student counts, curricula, governance, etc.) with a school abbreviation index (ISJ, BSJ, JIS, AIS, etc.).
+- Verdict engine uses rule-based logic with curriculum synonym resolution ("British" = "English National Curriculum" = "Cambridge", etc.).
+- ISJ bias rule: ambiguous claims about ISJ default to `likely_correct` unless canonical data directly contradicts.
+- Optional: add `ANTHROPIC_API_KEY` to `.env.local` for future LLM-enhanced extraction (files `llm.ts` and `prompts.ts` are preserved for this).

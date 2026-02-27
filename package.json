@@ -8,12 +8,14 @@
     "build": "tsx scripts/generate-api-json.ts && next build",
     "start": "next start",
     "lint": "next lint",
+    "fact-check": "tsx scripts/run-fact-check.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
     "@neondatabase/serverless": "^0.10.0",
     "@tiptap/extension-image": "^3.20.0",
     "@tiptap/extension-link": "^3.20.0",
@@ -21,6 +23,7 @@
     "@tiptap/react": "^3.20.0",
     "@tiptap/starter-kit": "^3.20.0",
     "cheerio": "^1.2.0",
+    "dotenv": "^17.3.1",
     "drizzle-orm": "^0.38.0",
     "gray-matter": "^4.0.3",
     "mapbox-gl": "^3.8.0",
