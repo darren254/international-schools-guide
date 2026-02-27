@@ -127,7 +127,7 @@ These schools are significant players in Jakarta's bilingual segment but do not 
 
 ## How Bilingual Schools Compare to Fully International Schools {#how-bilingual-schools-compare}
 
-The honest comparison comes down to three trade-offs:
+The comparison comes down to three trade-offs:
 
 **Fees.** Bilingual schools are cheaper. Binus Simprug and Global Jaya charge $7,000–$15,000. JIS, BSJ and ISJ charge $18,000–$31,000. That gap shows up in campus facilities, co-curricular breadth, and the size of the teaching team.
 
