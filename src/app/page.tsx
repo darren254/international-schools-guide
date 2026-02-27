@@ -3,6 +3,7 @@ import Link from "next/link";
 import { extractHighestFee } from "@/lib/utils/fees";
 import { CITIES, LIVE_CITIES, TOTAL_SCHOOLS_LIVE } from "@/data/cities";
 import { getSchoolImageUrl } from "@/lib/schools/images";
+import { getInsightImageUrl } from "@/lib/insights/images";
 
 export const metadata: Metadata = {
   title: "Find the Right International School",
@@ -89,21 +90,18 @@ const FROM_THE_GUIDE = [
     title: "International Schools in Jakarta - A Practical Guide for Expat Families (2026)",
     category: "Guide",
     description: "More than 60 international schools; compare fees, curricula, and locations. Honest guide to JIS, BSJ, ISJ, AIS, and 60+ options.",
-    imageUrl: "/images/schools/independent-school-of-jakarta/campus.webp"
   },
   {
     slug: "jakarta-international-schools-fee-report-2026",
     title: "Jakarta International Schools Fee Report — 2026 Edition",
     category: "Fees",
     description: "The definitive annual comparison of international school fees in Jakarta. Ten schools, three age bands, verified data.",
-    imageUrl: "/images/schools/jakarta-intercultural-school/campus.webp"
   },
   {
     slug: "ib-results-jakarta-international-schools",
     title: "IB Diploma Results at Jakarta International Schools",
     category: "Results",
     description: "Which Jakarta international schools publish IB Diploma results? Published averages, pass rates, and what the numbers mean for university admissions.",
-    imageUrl: "/images/schools/british-school-jakarta/campus.webp"
   },
 ];
 
@@ -403,17 +401,19 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {FROM_THE_GUIDE.map((article) => (
+          {FROM_THE_GUIDE.map((article) => {
+            const imageUrl = getInsightImageUrl(article.slug, "card");
+            return (
             <Link
               key={article.slug}
               href={`/insights/${article.slug}`}
               className="group border border-warm-border rounded-sm overflow-hidden hover:border-charcoal-muted transition-colors bg-cream-200 flex flex-col"
             >
-              {article.imageUrl && (
+              {imageUrl && (
                 <div className="aspect-[16/9] w-full bg-cream-300 relative overflow-hidden border-b border-warm-border">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={article.imageUrl}
+                    src={imageUrl}
                     alt={article.title}
                     className="w-full h-full object-cover school-image"
                     loading="lazy"
@@ -432,7 +432,8 @@ export default function HomePage() {
                 </p>
               </div>
             </Link>
-          ))}
+            );
+          })}
         </div>
 
         <div className="md:hidden text-center mt-6">

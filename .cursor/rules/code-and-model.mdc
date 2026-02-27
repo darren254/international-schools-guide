@@ -68,7 +68,8 @@ You are a senior full-stack web developer working on international education web
   - **Format:** Convert all `.png`/`.jpg` images to `.webp`.
   - **Sizing:** Resize images to their maximum display width (e.g. `1600px` for hero, `800px` for cards) instead of using massive original images.
   - **Priority:** Always pass the `priority` prop to `next/image` components if the image is above-the-fold or likely to be the Largest Contentful Paint (LCP) element (like hero images or lead cards).
-  - **School images pipeline:** For Jakarta school profile/card art, generate stylized and optimized assets via `npx tsx scripts/generate-school-pencil-images.ts`. This writes WebP files to `public/images/schools/<slug>/` and updates `src/data/school-images.json` (the manifest the UI reads). Do not hand-edit school image paths in components.
+  - **School images pipeline:** For Jakarta school profile/card art, optimize assets to `public/images/schools/<slug>/` and update `src/data/school-images.json` (the manifest the UI reads). Use `getSchoolImageUrl(slug, variant)` from `src/lib/schools/images.ts` in components. Do not hardcode school image paths.
+  - **Insight article images:** Insight articles have their own images at `public/images/insights/<slug>-{hero|card|inline}.webp`. Use `getInsightImageUrl(slug, kind)` from `src/lib/insights/images.ts` to resolve them. When linking to an insight article (e.g. homepage cards), always use the article's own image via `getInsightImageUrl`, never a school campus image.
   - Images must have alt text; use `next/image` with proper `width`/`height` attributes to prevent layout shift.
 - Prioritise Core Web Vitals: lazy load below-fold content, minimise CLS
 
