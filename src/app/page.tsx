@@ -369,7 +369,7 @@ export default function HomePage() {
           </div>
 
           <p className="text-center text-sm text-charcoal-muted mt-8">
-            New city added every week — Dubai, Hong Kong, and Kuala Lumpur launching soon.
+            New city added every week — Hong Kong, Singapore, and Kuala Lumpur launching soon.
           </p>
 
           <p className="text-center mt-5">

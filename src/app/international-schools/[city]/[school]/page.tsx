@@ -18,6 +18,7 @@ import {
   EXCHANGE_RATE,
   EXCHANGE_RATE_DATE,
 } from "@/data/schools";
+import { DUBAI_AED_TO_USD } from "@/data/dubai-school-profiles";
 import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 import { getSchoolImageUrl } from "@/lib/schools/images";
 import { BackToResults } from "@/components/home/BackToResults";
@@ -104,7 +105,7 @@ export default function SchoolProfilePage({
       name: c.name,
       streetAddress: c.address,
       addressLocality: cityName,
-      addressCountry: "ID",
+      addressCountry: s.citySlug === "dubai" ? "AE" : "ID",
     })),
     foundingDate: s.jsonLd.foundingDate || undefined,
     numberOfStudents: s.jsonLd.numberOfStudents || undefined,
@@ -222,8 +223,8 @@ export default function SchoolProfilePage({
           <div className="section-band -mx-5 md:-mx-8 px-5 md:px-8 pb-2 bg-warm-white border-y border-warm-border-light">
             <FeesTable
               academicYear={s.fees.academicYear}
-              exchangeRate={EXCHANGE_RATE}
-              exchangeRateDate={EXCHANGE_RATE_DATE}
+              exchangeRate={s.fees.feeCurrency === "AED" ? DUBAI_AED_TO_USD : EXCHANGE_RATE}
+              exchangeRateDate={s.fees.feeCurrency === "AED" ? "28 Feb 2026" : EXCHANGE_RATE_DATE}
               feeCurrency={s.fees.feeCurrency}
               fees={s.fees.rows}
               oneTimeFees={s.fees.oneTime}

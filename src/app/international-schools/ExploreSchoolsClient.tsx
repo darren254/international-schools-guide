@@ -3,15 +3,31 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { SchoolCard } from "@/components/school/SchoolCard";
-import {
-  JAKARTA_SCHOOLS,
-  getLocationFilter,
-  getCurriculumFilterLabels,
-  type LocationFilter,
-  type JakartaSchoolListing,
-} from "@/data/jakarta-schools";
+import { getCurriculumFilterLabels, getLocationFilter } from "@/data/jakarta-schools";
+import { getDubaiLocationFilter } from "@/data/dubai-schools";
 import { extractHighestFee, extractLowestFee, hasPublishableFee } from "@/lib/utils/fees";
 import { getSchoolImageUrl } from "@/lib/schools/images";
+
+export interface SchoolListing {
+  name: string;
+  slug: string;
+  verified: boolean;
+  curricula: string[];
+  area: string;
+  ageRange: string;
+  studentCount: string;
+  feeRange: string;
+  examResults: { label: string; value: string }[];
+  editorialSummary: string;
+  phone?: string;
+  email?: string;
+  website?: string;
+}
+
+export interface LocationOption {
+  value: string;
+  label: string;
+}
 
 const CURRICULUM_OPTIONS = [
   { value: "", label: "All curricula" },
@@ -22,57 +38,58 @@ const CURRICULUM_OPTIONS = [
   { value: "Singapore", label: "Singapore" },
   { value: "French", label: "French" },
   { value: "German", label: "German" },
-  { value: "Korean", label: "Korean" },
-  { value: "New Zealand", label: "New Zealand" },
+  { value: "Indian", label: "Indian" },
   { value: "Other", label: "Other" },
-];
-
-const LOCATION_OPTIONS: { value: "" | LocationFilter; label: string }[] = [
-  { value: "", label: "All locations" },
-  { value: "North", label: "North Jakarta" },
-  { value: "South", label: "South Jakarta" },
-  { value: "East", label: "East Jakarta" },
-  { value: "West", label: "West Jakarta" },
-  { value: "Central", label: "Central Jakarta" },
-  { value: "Outside Jakarta", label: "Outside Jakarta" },
 ];
 
 type FeeSort = "high-low" | "low-high";
 
-function schoolMatchesCurriculum(school: JakartaSchoolListing, curriculumFilter: string): boolean {
+function getLocationBucket(area: string, citySlug: string): string {
+  if (citySlug === "dubai") return getDubaiLocationFilter(area);
+  return getLocationFilter(area);
+}
+
+function schoolMatchesCurriculum(school: SchoolListing, curriculumFilter: string): boolean {
   if (!curriculumFilter) return true;
   const labels = getCurriculumFilterLabels(school.curricula);
   return labels.some((l) => l === curriculumFilter);
 }
 
-function schoolMatchesLocation(school: JakartaSchoolListing, locationFilter: LocationFilter | ""): boolean {
+function schoolMatchesLocation(school: SchoolListing, locationFilter: string, citySlug: string): boolean {
   if (!locationFilter) return true;
-  return getLocationFilter(school.area) === locationFilter;
+  return getLocationBucket(school.area, citySlug) === locationFilter;
 }
 
 interface ExploreSchoolsClientProps {
+  schools: SchoolListing[];
   profileSlugs: string[];
   citySlug: string;
   cityName: string;
+  locationOptions: LocationOption[];
 }
 
-export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: ExploreSchoolsClientProps) {
-  const schools = JAKARTA_SCHOOLS;
+export function ExploreSchoolsClient({
+  schools,
+  profileSlugs,
+  citySlug,
+  cityName,
+  locationOptions,
+}: ExploreSchoolsClientProps) {
   const [curriculum, setCurriculum] = useState("");
-  const [location, setLocation] = useState<"" | LocationFilter>("");
+  const [location, setLocation] = useState("");
   const [feeSort, setFeeSort] = useState<FeeSort>("high-low");
 
   const profileSet = useMemo(() => new Set(profileSlugs), [profileSlugs]);
 
   const filteredAndSorted = useMemo(() => {
     let list = schools.filter(
-      (s) => schoolMatchesCurriculum(s, curriculum) && schoolMatchesLocation(s, location)
+      (s) => schoolMatchesCurriculum(s, curriculum) && schoolMatchesLocation(s, location, citySlug)
     );
     const sortMultiplier = feeSort === "high-low" ? -1 : 1;
     list = [...list].sort((a, b) => {
       const aHasFee = hasPublishableFee(a.feeRange);
       const bHasFee = hasPublishableFee(b.feeRange);
-      if (aHasFee !== bHasFee) return aHasFee ? -1 : 1; // publishable fees first, then unpublished at bottom
+      if (aHasFee !== bHasFee) return aHasFee ? -1 : 1;
       if (!aHasFee) return 0;
       const feeA = extractHighestFee(a.feeRange);
       const feeB = extractHighestFee(b.feeRange);
@@ -80,7 +97,7 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
       return (extractLowestFee(a.feeRange) - extractLowestFee(b.feeRange)) * sortMultiplier;
     });
     return list;
-  }, [curriculum, location, feeSort]);
+  }, [schools, curriculum, location, feeSort, citySlug]);
 
   return (
     <div className="container-site">
@@ -100,9 +117,7 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
           {schools.length} schools · Filter by location or curriculum; sort by fees.
         </p>
 
-        {/* Filters: priority order Location, Fees, Curriculum. Mobile: row1 Location+Fees 50/50, row2 Curriculum full; Desktop: single row */}
         <div className="grid grid-cols-2 gap-4 py-3 md:grid-cols-3 md:gap-6">
-          {/* 1. Location - mobile row1 left, desktop first */}
           <div className="flex flex-col gap-1.5 md:min-w-[160px]">
             <label htmlFor="location-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
               Location
@@ -110,7 +125,7 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
             <select
               id="location-filter"
               value={location}
-              onChange={(e) => setLocation(e.target.value as "" | LocationFilter)}
+              onChange={(e) => setLocation(e.target.value)}
               className="min-h-[44px] w-full bg-cream border border-warm-border text-[0.8125rem] text-charcoal font-body py-2 pl-3 pr-8 appearance-none cursor-pointer focus:outline-none focus:border-charcoal-muted rounded-none"
               style={{
                 backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237A756E' fill='none' stroke-width='1.5'/%3E%3C/svg%3E")`,
@@ -118,7 +133,7 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
                 backgroundPosition: "right 10px center",
               }}
             >
-              {LOCATION_OPTIONS.map((opt) => (
+              {locationOptions.map((opt) => (
                 <option key={opt.value || "all"} value={opt.value}>
                   {opt.label}
                 </option>
@@ -126,7 +141,6 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
             </select>
           </div>
 
-          {/* 2. Fees sort - mobile row1 right, desktop second */}
           <div className="flex flex-col gap-1.5 md:min-w-[160px]">
             <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
               Fees
@@ -145,7 +159,6 @@ export function ExploreSchoolsClient({ profileSlugs, citySlug, cityName }: Explo
             </button>
           </div>
 
-          {/* 3. Curriculum - mobile row2 full width, desktop third */}
           <div className="col-span-2 flex flex-col gap-1.5 md:col-span-1 md:min-w-[160px]">
             <label htmlFor="curriculum-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
               Curriculum

@@ -4,12 +4,14 @@ import { useState, useMemo, useCallback, Suspense } from "react";
 import Link from "next/link";
 import { useShortlist } from "@/context/ShortlistContext";
 import { JAKARTA_SCHOOLS, getLocationFilter, getCurriculumFilterLabels } from "@/data/jakarta-schools";
+import { DUBAI_SCHOOLS, getDubaiLocationFilter } from "@/data/dubai-schools";
 import { extractHighestFee, getFeeDisplay, hasPublishableFee } from "@/lib/utils/fees";
 
 type SortDir = "high" | "low";
 
 interface TableSchool {
   slug: string;
+  citySlug: string;
   name: string;
   area: string;
   locationGroup: string;
@@ -17,24 +19,33 @@ interface TableSchool {
   curriculumLabels: string[];
   feeDisplay: string;
   feeHigh: number;
-  ibAverage: string;
   studentCount: string;
 }
 
 function buildTableSchools(): TableSchool[] {
-  return JAKARTA_SCHOOLS.map((s) => {
+  const jakartaSchools = JAKARTA_SCHOOLS.map((s) => ({
+    ...s,
+    citySlug: "jakarta" as const,
+    locationGroup: getLocationFilter(s.area),
+  }));
+  const dubaiSchools = DUBAI_SCHOOLS.map((s) => ({
+    ...s,
+    citySlug: "dubai" as const,
+    locationGroup: getDubaiLocationFilter(s.area),
+  }));
+  const allSchools = [...jakartaSchools, ...dubaiSchools];
+  return allSchools.map((s) => {
     const feeDisplay = getFeeDisplay(s.feeRange, s.slug);
-    const ibEntry = s.examResults.find((r) => r.label === "IB Average");
     return {
       slug: s.slug,
+      citySlug: s.citySlug,
       name: s.name,
       area: s.area,
-      locationGroup: getLocationFilter(s.area),
+      locationGroup: s.locationGroup,
       curricula: s.curricula,
       curriculumLabels: getCurriculumFilterLabels(s.curricula),
       feeDisplay,
       feeHigh: extractHighestFee(feeDisplay),
-      ibAverage: ibEntry?.value ?? "",
       studentCount: s.studentCount,
     };
   });
@@ -226,9 +237,8 @@ function CompareTableContent() {
               <th className="text-left py-3 px-3 text-[11px] uppercase tracking-wider text-charcoal-muted font-medium w-[22%]">School</th>
               <th className="text-left py-3 px-3 text-[11px] uppercase tracking-wider text-charcoal-muted font-medium w-[14%]">Location</th>
               <th className="text-left py-3 px-3 text-[11px] uppercase tracking-wider text-charcoal-muted font-medium w-[18%]">Curriculum</th>
-              <th className="text-left py-3 px-3 text-[11px] uppercase tracking-wider text-charcoal-muted font-medium w-[16%]">Annual Fees</th>
-              <th className="text-left py-3 px-3 text-[11px] uppercase tracking-wider text-charcoal-muted font-medium w-[10%]">IB Avg</th>
-              <th className="text-left py-3 px-3 text-[11px] uppercase tracking-wider text-charcoal-muted font-medium w-[10%]">Students</th>
+              <th className="text-left py-3 px-3 text-[11px] uppercase tracking-wider text-charcoal-muted font-medium w-[18%]">Annual Fees</th>
+              <th className="text-left py-3 px-3 text-[11px] uppercase tracking-wider text-charcoal-muted font-medium w-[12%]">Students</th>
               <th className="py-3 px-3 w-[10%]" />
             </tr>
           </thead>
@@ -242,7 +252,7 @@ function CompareTableContent() {
               >
                 <td className="py-3 px-3">
                   <Link
-                    href={`/international-schools/jakarta/${school.slug}/`}
+                    href={`/international-schools/${school.citySlug}/${school.slug}/`}
                     className="font-medium text-charcoal hover:text-hermes transition-colors"
                   >
                     {school.name}
@@ -264,9 +274,6 @@ function CompareTableContent() {
                 <td className={`py-3 px-3 ${hasPublishableFee(school.feeDisplay) ? "font-medium text-charcoal" : "text-charcoal-muted text-xs"}`}>
                   {school.feeDisplay}
                 </td>
-                <td className="py-3 px-3 text-charcoal-muted">
-                  {school.ibAverage || "—"}
-                </td>
                 <td className="py-3 px-3 text-charcoal-muted">{school.studentCount}</td>
                 <td className="py-3 px-3 text-right">
                   <ShortlistButton slug={school.slug} />
@@ -286,7 +293,7 @@ function CompareTableContent() {
           >
             <div className="flex items-start justify-between gap-2 mb-2">
               <Link
-                href={`/international-schools/jakarta/${school.slug}/`}
+                href={`/international-schools/${school.citySlug}/${school.slug}/`}
                 className="font-display text-base font-medium text-charcoal hover:text-hermes transition-colors leading-snug"
               >
                 {school.name}
@@ -303,7 +310,7 @@ function CompareTableContent() {
                 </span>
               ))}
             </div>
-            <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
+            <div className="grid grid-cols-3 gap-x-4 gap-y-2 text-sm">
               <div>
                 <span className="text-[10px] uppercase tracking-wider text-charcoal-muted block">Location</span>
                 <span className="text-charcoal-light">{school.area}</span>
@@ -313,10 +320,6 @@ function CompareTableContent() {
                 <span className={hasPublishableFee(school.feeDisplay) ? "font-medium text-charcoal" : "text-charcoal-muted text-xs"}>
                   {school.feeDisplay}
                 </span>
-              </div>
-              <div>
-                <span className="text-[10px] uppercase tracking-wider text-charcoal-muted block">IB Average</span>
-                <span className="text-charcoal-light">{school.ibAverage || "—"}</span>
               </div>
               <div>
                 <span className="text-[10px] uppercase tracking-wider text-charcoal-muted block">Students</span>

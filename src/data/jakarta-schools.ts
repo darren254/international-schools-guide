@@ -51,6 +51,7 @@ export function getCurriculumFilterLabels(curricula: string[]): string[] {
   if (joined.includes("german") || joined.includes("abitur")) labels.push("German");
   if (joined.includes("korean")) labels.push("Korean");
   if (joined.includes("new zealand") || joined.includes("nz ")) labels.push("New Zealand");
+  if (joined.includes("indian") || joined.includes("cbse") || joined.includes("icse")) labels.push("Indian");
   if (labels.length === 0) labels.push("Other");
   return labels;
 }

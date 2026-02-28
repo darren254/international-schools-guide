@@ -3020,6 +3020,8 @@ function applyGeocodedCampuses(
   return out;
 }
 
+import { DUBAI_SCHOOL_PROFILES } from "@/data/dubai-schools-profiles";
+
 const RAW_SCHOOL_PROFILES: Record<string, SchoolProfile> = {
   "jakarta-intercultural-school": jis,
   "british-school-jakarta": bsj,
@@ -3038,10 +3040,11 @@ const RAW_SCHOOL_PROFILES: Record<string, SchoolProfile> = {
   "new-zealand-school-jakarta": newZealandSchool,
   "jakarta-nanyang-school": jakartaNanyang,
   ...MINIMAL_PROFILES_MAP,
+  ...DUBAI_SCHOOL_PROFILES,
 };
 
 export const SCHOOL_PROFILES: Record<string, SchoolProfile> =
   applyGeocodedCampuses(RAW_SCHOOL_PROFILES);
 
-// All slugs for generateStaticParams
+// All slugs for generateStaticParams (Jakarta only — Dubai uses ALL_DUBAI_SCHOOL_SLUGS)
 export const ALL_SCHOOL_SLUGS = Object.keys(SCHOOL_PROFILES);

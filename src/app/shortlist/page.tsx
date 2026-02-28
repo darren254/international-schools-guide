@@ -6,7 +6,10 @@ import { useSearchParams } from "next/navigation";
 import { ShareButton } from "@/components/share/ShareButton";
 import { useShortlist } from "@/context/ShortlistContext";
 import { JAKARTA_SCHOOLS } from "@/data/jakarta-schools";
+import { DUBAI_SCHOOLS } from "@/data/dubai-schools";
 import { getFeeDisplay, hasPublishableFee } from "@/lib/utils/fees";
+
+const ALL_SCHOOLS = [...JAKARTA_SCHOOLS.map((s) => ({ ...s, citySlug: "jakarta" })), ...DUBAI_SCHOOLS.map((s) => ({ ...s, citySlug: "dubai" }))];
 
 const DEFAULT_SLUGS = [
   "jakarta-intercultural-school",
@@ -16,6 +19,7 @@ const DEFAULT_SLUGS = [
 
 interface ShortlistSchool {
   slug: string;
+  citySlug: string;
   name: string;
   area: string;
   curricula: string[];
@@ -26,11 +30,12 @@ interface ShortlistSchool {
   ibPassRate: string;
 }
 
-function toShortlistSchool(s: (typeof JAKARTA_SCHOOLS)[0]): ShortlistSchool {
+function toShortlistSchool(s: (typeof ALL_SCHOOLS)[0]): ShortlistSchool {
   const ibAvg = s.examResults.find((r) => r.label === "IB Average");
   const ibPass = s.examResults.find((r) => r.label === "IB Pass Rate");
   return {
     slug: s.slug,
+    citySlug: s.citySlug,
     name: s.name,
     area: s.area,
     curricula: s.curricula,
@@ -91,7 +96,7 @@ function ShortlistContent() {
   })();
 
   const schools = slugsToShow
-    .map((slug) => JAKARTA_SCHOOLS.find((s) => s.slug === slug))
+    .map((slug) => ALL_SCHOOLS.find((s) => s.slug === slug))
     .filter(Boolean)
     .map((s) => toShortlistSchool(s!));
 
@@ -99,7 +104,7 @@ function ShortlistContent() {
 
   const defaultSchools = isEmpty
     ? DEFAULT_SLUGS
-        .map((slug) => JAKARTA_SCHOOLS.find((s) => s.slug === slug))
+        .map((slug) => ALL_SCHOOLS.find((s) => s.slug === slug))
         .filter(Boolean)
         .map((s) => toShortlistSchool(s!))
     : [];
@@ -168,7 +173,7 @@ function ShortlistContent() {
                 <th key={school.slug} className="text-left py-3 px-4 align-top">
                   <div className="flex items-start justify-between gap-2">
                     <Link
-                      href={`/international-schools/jakarta/${school.slug}/`}
+                      href={`/international-schools/${school.citySlug}/${school.slug}/`}
                       className="font-display text-base font-medium text-charcoal hover:text-hermes transition-colors leading-snug"
                     >
                       {school.name}
@@ -213,7 +218,7 @@ function ShortlistContent() {
               {displaySchools.map((school) => (
                 <td key={school.slug} className="py-3 px-4 border-l border-warm-border-light">
                   <Link
-                    href={`/international-schools/jakarta/${school.slug}/`}
+                    href={`/international-schools/${school.citySlug}/${school.slug}/`}
                     className="text-sm font-medium text-hermes hover:text-hermes-hover transition-colors"
                   >
                     Full profile →
@@ -239,7 +244,7 @@ function ShortlistContent() {
                     <div className="border border-warm-border rounded-sm p-5 bg-cream-50">
                       <div className="flex items-start justify-between gap-2 mb-4">
                         <Link
-                          href={`/international-schools/jakarta/${school.slug}/`}
+                          href={`/international-schools/${school.citySlug}/${school.slug}/`}
                           className="font-display text-lg font-medium text-charcoal hover:text-hermes transition-colors leading-snug"
                         >
                           {school.name}
@@ -270,7 +275,7 @@ function ShortlistContent() {
                         ))}
                       </div>
                       <Link
-                        href={`/international-schools/jakarta/${school.slug}/`}
+                        href={`/international-schools/${school.citySlug}/${school.slug}/`}
                         className="inline-block mt-5 text-sm font-medium text-hermes hover:text-hermes-hover transition-colors"
                       >
                         Full profile →
