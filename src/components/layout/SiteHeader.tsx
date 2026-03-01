@@ -28,7 +28,13 @@ export function SiteHeader() {
           {/* Logo */}
           <Link href="/" className="flex items-center min-w-0" aria-label="International Schools Guide home">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.svg" alt="" className="h-6 w-auto max-w-[170px] sm:max-w-none" width="380" height="28" />
+            <img
+              src="/logo.svg"
+              alt=""
+              className="h-7 w-auto max-w-[170px] sm:h-6 sm:max-w-none"
+              width="380"
+              height="28"
+            />
           </Link>
 
           {/* Nav */}
