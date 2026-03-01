@@ -120,6 +120,10 @@ export function CampusMap({
 
       map.current = m;
       m.scrollZoom.disable();
+      m.addControl(
+        new mapboxgl.default.NavigationControl({ showCompass: false }),
+        "top-right"
+      );
 
       m.on("load", () => {
         const toRemove: any[] = [];
@@ -207,7 +211,33 @@ export function CampusMap({
               </p>
             </div>
           ) : (
-            <div className="relative">
+            <div className="relative campus-map">
+              <style dangerouslySetInnerHTML={{ __html: `
+                .campus-map .mapboxgl-ctrl-top-right { top: 12px; right: 12px; }
+                .campus-map .mapboxgl-ctrl-group {
+                  background: ${WARM_WHITE};
+                  border: 1px solid ${WARM_BORDER};
+                  border-radius: 4px;
+                  box-shadow: 0 1px 4px rgba(26,26,26,0.08);
+                  overflow: hidden;
+                }
+                .campus-map .mapboxgl-ctrl-group button {
+                  width: 32px;
+                  height: 32px;
+                  border: none;
+                  background: transparent;
+                  color: ${CHARCOAL_MUTED};
+                  cursor: pointer;
+                  transition: color 0.15s, background 0.15s;
+                }
+                .campus-map .mapboxgl-ctrl-group button:hover {
+                  background: rgba(232,226,217,0.5);
+                  color: ${CHARCOAL};
+                }
+                .campus-map .mapboxgl-ctrl-group button + button {
+                  border-top: 1px solid ${WARM_BORDER};
+                }
+              `}} />
               <div
                 ref={mapContainer}
                 className="w-full h-[320px] sm:h-[400px] rounded-sm border border-warm-border bg-cream-300 overflow-hidden"
