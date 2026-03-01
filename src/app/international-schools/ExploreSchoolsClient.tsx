@@ -5,6 +5,10 @@ import Link from "next/link";
 import { SchoolCard } from "@/components/school/SchoolCard";
 import { getCurriculumFilterLabels, getLocationFilter } from "@/data/jakarta-schools";
 import { getDubaiLocationFilter } from "@/data/dubai-schools";
+import { getSingaporeLocationFilter } from "@/data/singapore-schools";
+import { getBangkokLocationFilter } from "@/data/bangkok-schools";
+import { getHongKongLocationFilter } from "@/data/hong-kong-schools";
+import { getKualaLumpurLocationFilter } from "@/data/kuala-lumpur-schools";
 import { extractHighestFee, extractLowestFee, hasPublishableFee } from "@/lib/utils/fees";
 import { getSchoolImageUrl } from "@/lib/schools/images";
 
@@ -39,14 +43,25 @@ const CURRICULUM_OPTIONS = [
   { value: "French", label: "French" },
   { value: "German", label: "German" },
   { value: "Indian", label: "Indian" },
+  { value: "Canadian", label: "Canadian" },
+  { value: "Japanese", label: "Japanese" },
+  { value: "Swiss", label: "Swiss" },
+  { value: "Chinese", label: "Chinese" },
+  { value: "Thai", label: "Thai" },
   { value: "Other", label: "Other" },
 ];
 
 type FeeSort = "high-low" | "low-high";
 
 function getLocationBucket(area: string, citySlug: string): string {
-  if (citySlug === "dubai") return getDubaiLocationFilter(area);
-  return getLocationFilter(area);
+  switch (citySlug) {
+    case "dubai": return getDubaiLocationFilter(area);
+    case "singapore": return getSingaporeLocationFilter(area);
+    case "bangkok": return getBangkokLocationFilter(area);
+    case "hong-kong": return getHongKongLocationFilter(area);
+    case "kuala-lumpur": return getKualaLumpurLocationFilter(area);
+    default: return getLocationFilter(area);
+  }
 }
 
 function schoolMatchesCurriculum(school: SchoolListing, curriculumFilter: string): boolean {

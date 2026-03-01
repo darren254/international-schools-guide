@@ -7,9 +7,20 @@ import { ShareButton } from "@/components/share/ShareButton";
 import { useShortlist } from "@/context/ShortlistContext";
 import { JAKARTA_SCHOOLS } from "@/data/jakarta-schools";
 import { DUBAI_SCHOOLS } from "@/data/dubai-schools";
+import { SINGAPORE_SCHOOLS } from "@/data/singapore-schools";
+import { BANGKOK_SCHOOLS } from "@/data/bangkok-schools";
+import { HONG_KONG_SCHOOLS } from "@/data/hong-kong-schools";
+import { KUALA_LUMPUR_SCHOOLS } from "@/data/kuala-lumpur-schools";
 import { getFeeDisplay, hasPublishableFee } from "@/lib/utils/fees";
 
-const ALL_SCHOOLS = [...JAKARTA_SCHOOLS.map((s) => ({ ...s, citySlug: "jakarta" })), ...DUBAI_SCHOOLS.map((s) => ({ ...s, citySlug: "dubai" }))];
+const ALL_SCHOOLS = [
+  ...JAKARTA_SCHOOLS.map((s) => ({ ...s, citySlug: "jakarta" })),
+  ...DUBAI_SCHOOLS.map((s) => ({ ...s, citySlug: "dubai" })),
+  ...SINGAPORE_SCHOOLS.map((s) => ({ ...s, citySlug: "singapore" })),
+  ...BANGKOK_SCHOOLS.map((s) => ({ ...s, citySlug: "bangkok" })),
+  ...HONG_KONG_SCHOOLS.map((s) => ({ ...s, citySlug: "hong-kong" })),
+  ...KUALA_LUMPUR_SCHOOLS.map((s) => ({ ...s, citySlug: "kuala-lumpur" })),
+];
 
 const DEFAULT_SLUGS = [
   "jakarta-intercultural-school",

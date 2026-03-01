@@ -3021,6 +3021,10 @@ function applyGeocodedCampuses(
 }
 
 import { DUBAI_SCHOOL_PROFILES } from "@/data/dubai-schools-profiles";
+import { SINGAPORE_SCHOOL_PROFILES } from "@/data/singapore-schools-profiles";
+import { BANGKOK_SCHOOL_PROFILES } from "@/data/bangkok-schools-profiles";
+import { HONG_KONG_SCHOOL_PROFILES } from "@/data/hong-kong-schools-profiles";
+import { KUALA_LUMPUR_SCHOOL_PROFILES } from "@/data/kuala-lumpur-schools-profiles";
 
 const RAW_SCHOOL_PROFILES: Record<string, SchoolProfile> = {
   "jakarta-intercultural-school": jis,
@@ -3041,6 +3045,10 @@ const RAW_SCHOOL_PROFILES: Record<string, SchoolProfile> = {
   "jakarta-nanyang-school": jakartaNanyang,
   ...MINIMAL_PROFILES_MAP,
   ...DUBAI_SCHOOL_PROFILES,
+  ...SINGAPORE_SCHOOL_PROFILES,
+  ...BANGKOK_SCHOOL_PROFILES,
+  ...HONG_KONG_SCHOOL_PROFILES,
+  ...KUALA_LUMPUR_SCHOOL_PROFILES,
 };
 
 export const SCHOOL_PROFILES: Record<string, SchoolProfile> =

@@ -5,6 +5,10 @@ import Link from "next/link";
 import { useShortlist } from "@/context/ShortlistContext";
 import { JAKARTA_SCHOOLS, getLocationFilter, getCurriculumFilterLabels } from "@/data/jakarta-schools";
 import { DUBAI_SCHOOLS, getDubaiLocationFilter } from "@/data/dubai-schools";
+import { SINGAPORE_SCHOOLS, getSingaporeLocationFilter } from "@/data/singapore-schools";
+import { BANGKOK_SCHOOLS, getBangkokLocationFilter } from "@/data/bangkok-schools";
+import { HONG_KONG_SCHOOLS, getHongKongLocationFilter } from "@/data/hong-kong-schools";
+import { KUALA_LUMPUR_SCHOOLS, getKualaLumpurLocationFilter } from "@/data/kuala-lumpur-schools";
 import { extractHighestFee, getFeeDisplay, hasPublishableFee } from "@/lib/utils/fees";
 
 type SortDir = "high" | "low";
@@ -23,18 +27,15 @@ interface TableSchool {
 }
 
 function buildTableSchools(): TableSchool[] {
-  const jakartaSchools = JAKARTA_SCHOOLS.map((s) => ({
-    ...s,
-    citySlug: "jakarta" as const,
-    locationGroup: getLocationFilter(s.area),
-  }));
-  const dubaiSchools = DUBAI_SCHOOLS.map((s) => ({
-    ...s,
-    citySlug: "dubai" as const,
-    locationGroup: getDubaiLocationFilter(s.area),
-  }));
-  const allSchools = [...jakartaSchools, ...dubaiSchools];
-  return allSchools.map((s) => {
+  const tagged = [
+    ...JAKARTA_SCHOOLS.map((s) => ({ ...s, citySlug: "jakarta", locationGroup: getLocationFilter(s.area) })),
+    ...DUBAI_SCHOOLS.map((s) => ({ ...s, citySlug: "dubai", locationGroup: getDubaiLocationFilter(s.area) })),
+    ...SINGAPORE_SCHOOLS.map((s) => ({ ...s, citySlug: "singapore", locationGroup: getSingaporeLocationFilter(s.area) })),
+    ...BANGKOK_SCHOOLS.map((s) => ({ ...s, citySlug: "bangkok", locationGroup: getBangkokLocationFilter(s.area) })),
+    ...HONG_KONG_SCHOOLS.map((s) => ({ ...s, citySlug: "hong-kong", locationGroup: getHongKongLocationFilter(s.area) })),
+    ...KUALA_LUMPUR_SCHOOLS.map((s) => ({ ...s, citySlug: "kuala-lumpur", locationGroup: getKualaLumpurLocationFilter(s.area) })),
+  ];
+  return tagged.map((s) => {
     const feeDisplay = getFeeDisplay(s.feeRange, s.slug);
     return {
       slug: s.slug,
@@ -190,7 +191,7 @@ function CompareTableContent() {
         Compare Schools
       </h1>
       <p className="text-charcoal-muted mb-6">
-        {ALL_SCHOOLS.length} international schools in Jakarta. Filter, sort, and shortlist.
+        {ALL_SCHOOLS.length} international schools across 6 cities. Filter, sort, and shortlist.
       </p>
 
       {/* Filters */}
