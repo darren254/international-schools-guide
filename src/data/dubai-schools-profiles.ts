@@ -163,14 +163,14 @@ if (DUBAI_PROFILES_MAP["jumeirah-english-speaking-school"]) {
   jess.name = "Jumeirah English Speaking School (JESS AR)";
   jess.shortName = "JESS AR";
   jess.metaTitle = "Jumeirah English Speaking School (JESS AR) - Fees, IB Results & Review | Dubai";
-  jess.metaDescription = "JESS Arabian Ranches profile - KHDA Outstanding, IB average 37-38, 77% GCSE 9-7, fees from AED 14K-28K/year. Independent editorial review for parents.";
+  jess.metaDescription = "JESS Arabian Ranches profile - KHDA Outstanding, IB average 37-38, 77% GCSE 9-7, fees AED 54K-105K/year. Independent editorial review for parents.";
   jess.lastUpdated = "March 2026";
   jess.curricula = ["British National Curriculum", "IB Diploma", "BTEC"];
   jess.stats = [
     { value: "~1,600", label: "Students" },
     { value: "3–18", label: "Age Range" },
     { value: "70", label: "Nationalities" },
-    { value: "US$4K – US$8K", label: "Annual Fees" },
+    { value: "US$15K – US$28K", label: "Annual Fees" },
   ];
 
   jess.head = {
@@ -188,14 +188,14 @@ if (DUBAI_PROFILES_MAP["jumeirah-english-speaking-school"]) {
 
   jess.intelligence = {
     verdict:
-      "If you live in Arabian Ranches and your child is academically strong, JESS AR is close to a no-brainer - IB results that match schools charging AED 30K more, a community that works because everyone lives around the corner, and teachers who stay. If you're in JLT or the Marina, the commute kills it.",
+      "If you live in Arabian Ranches and your child is academically strong, JESS AR is a very strong pick - IB results that match or beat pricier competitors, a community that works because everyone lives around the corner, and teachers who stay. If you're in JLT or the Marina, the commute kills it.",
     paragraphs: [
-      "JESS Arabian Ranches is where the Arabian Ranches crowd ends up. Kids cycle to the gates, parents see each other at the community centre, and school friendships double as neighbourhood friendships. That closeness is the whole identity. The numbers are hard to argue with: an IB Diploma average of 37-38, multiple perfect 45s, and 77% of GCSEs graded 9-7. Those are results you'd expect from schools at AED 110K-120K. JESS AR charges AED 88K.",
+      "JESS Arabian Ranches is where the Arabian Ranches crowd ends up. Kids cycle to the gates, parents see each other at the community centre, and school friendships double as neighbourhood friendships. That closeness is the whole identity. The numbers are hard to argue with: an IB Diploma average of 37-38, multiple perfect 45s, and 77% of GCSEs graded 9-7. Sixth form fees of AED 105K sit below several Dubai schools producing comparable IB results, and primary at AED 65K is noticeably cheaper than the AED 80K-90K bracket at rival British schools.",
       "Teacher turnover sits at 9.6%, which in Dubai terms is exceptional - most schools churn through a quarter of their staff every year. That stability shows in the classroom. Teachers know your child across years, not just within them. KHDA has rated the school Outstanding consistently, with English, maths, and science called out as Outstanding across all phases. The student body is majority British with 70 nationalities represented, and 12.5% of students have SEND needs - a sign the school takes inclusion seriously rather than just talking about it.",
       "The catch is geography. Arabian Ranches is not central Dubai. From JVC, Business Bay, or anywhere on the Palm, you're looking at 35-45 minutes each way, and the roads around the Ranches still fill up at drop-off. The community feel cuts both ways. Long-term residents describe a village inside a city. A minority - particularly in secondary - find the social scene tight enough to feel claustrophobic. KHDA rated wellbeing Very Good rather than Outstanding, and flagged inconsistency between primary and sixth form teaching. Still strong, but not flawless.",
     ],
     positives: [
-      "IB Diploma average of 37-38 with 100% pass rate and multiple perfect 45s in recent years. At AED 88K, that's a better academic return per dirham than most schools in Dubai's top 20.",
+      "IB Diploma average of 37-38 with 100% pass rate and multiple perfect 45s in recent years. At AED 105K for sixth form, that's competitive with schools charging AED 120K-130K for similar IB outcomes. Primary fees of AED 65K are well below the top-tier British school average.",
       "77% of GCSEs graded 9-7 in 2023-24 - not a cherry-picked top set, but the full cohort. BTEC students hit 85% Distinction alongside the academic routes.",
       "KHDA Outstanding, sustained across multiple inspection cycles. English, maths, and science rated Outstanding in every phase.",
       "Staff turnover at 9.6% - one of the lowest in Dubai. Teachers stay, which means they know your child properly, not just for a year.",
@@ -265,7 +265,7 @@ if (DUBAI_PROFILES_MAP["jumeirah-english-speaking-school"]) {
       { label: "Nationalities", value: "70" },
       { label: "IB Average", value: "37–38" },
       { label: "KHDA Rating", value: "Outstanding" },
-      { label: "Fees", value: "AED 14,749 – AED 28,486" },
+      { label: "Fees", value: "AED 54,129 – AED 104,544" },
       { label: "Max Class Size", value: "24" },
       { label: "Staff Turnover", value: "9.6%" },
     ],
