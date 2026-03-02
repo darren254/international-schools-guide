@@ -7,11 +7,34 @@
 
 ## The Voice
 
-We write like an experienced expat parent who has lived in the city for three years, done the school tours, spoken to dozens of families, and is now telling a friend what they actually need to know. We are informed, direct, occasionally dry, and never trying to sell anything.
+We write like a parent who has lived in the city for three years, done the school tours, spoken to dozens of families, and is now telling a friend what they actually need to know. We are informed, direct, occasionally dry, and never trying to sell anything.
 
 We are not a school marketing team. We are not a brochure. We are not an AI summarising a school's website.
 
 **The test:** If you read a sentence aloud and it sounds like it could appear in a school prospectus, rewrite it.
+
+---
+
+## Audience Language
+
+Our readers are families choosing international schools. Some are relocating from abroad. Some have lived in the city for years. Some are local families choosing an international education. The site serves all of them.
+
+**"Expat" is a real word our audience uses, but use it sparingly.** Once or twice per profile is fine. It should not be the default noun for "our reader." It carries an implicit Western/English-speaking connotation that excludes Korean, Indian, Arab, and many other international families who are equally our audience.
+
+**Preferred alternatives (rotate naturally):**
+- international families
+- families relocating to [city]
+- families new to [city]
+- parents on the school tour circuit
+- families choosing between schools
+- parents researching schools
+- families on corporate packages
+- self-funding families
+- locally-based families / local families
+- long-term residents
+- families who've been in [city] a few years
+
+**Rule:** No more than 2 uses of "expat" per school profile. No more than 3 per insight article. If you've already used it, pick a different term.
 
 ---
 
@@ -27,7 +50,7 @@ Search Reddit (r/jakarta, r/expats, r/internationalschools), Facebook groups (Ja
 - Insider knowledge (waitlist reality, hidden fees, admissions tips)
 
 ### Step 2: Synthesise into editorial intelligence
-Take the raw comments and distil them into editorial paragraphs. Present the information as if we had spoken to people on the ground. Never attribute to "Reddit" or "Facebook" - attribute to "parents", "families who've been here a few years", "expat families", "the word among...", "the general consensus".
+Take the raw comments and distil them into editorial paragraphs. Present the information as if we had spoken to people on the ground. Never attribute to "Reddit" or "Facebook" - attribute to "parents", "families who've been here a few years", "families on the school circuit", etc. See the Attribution section below for how and where to use these phrases.
 
 ### Step 3: Apply the tone filter
 Run every paragraph through the banned phrases list and the style rules below. Cut anything that sounds like AI wrote it.
@@ -118,12 +141,21 @@ These phrases are permanently banned from all editorial copy. No exceptions.
 **Good:** "BSJ's 45-acre Bintaro campus is the largest of any international school in Jakarta. Facilities include an Olympic pool, three gyms, and a 750-seat theatre."
 
 ### Attribution
-- "Parents say..." (not "Parents report...")
-- "Families who've been here a few years say..." (not "Parents consistently praise...")
-- "The word among expat families is..." (grounding phrase)
-- "The general consensus..." (summarising phrase)
-- "One thing families mention..." (specific insight opener)
-- Never: "Parents note that..." / "It should be noted..." / "Parents report..."
+
+Attribution phrases ("parents say", "families mention", "the general consensus") are **mid-paragraph tools**, not paragraph openers. Use them to ground a specific claim inside a paragraph. Do not use them to open paragraphs.
+
+**Good (attribution mid-sentence):** "Teacher turnover sits at 9.6%, which parents say is part of why the school feels so settled."
+**Good (attribution grounding a claim):** "The college counselling team is strong. Parents say it's one of the better operations in Dubai."
+**Bad (attribution as paragraph opener):** "The word among expat families is that JESS AR is the school everyone in the Ranches loves."
+**Bad (formulaic):** "Parents say..." as the first two words of a paragraph.
+
+Approved attribution phrases (for use mid-paragraph):
+- "parents say..."
+- "families who've been here a few years say..."
+- "the general consensus is..."
+- "one thing families mention..."
+
+Never use: "Parents note that..." / "It should be noted..." / "Parents report..." / "Parents consistently praise..."
 
 ### Sentence Structure
 - Lead with the human experience, not the fact.
@@ -168,27 +200,33 @@ The verdict (the bold summary at the top of each Intelligence section) should be
 
 ---
 
-## Paragraph Openers to Use
+## Paragraph Openers
 
-These create the grounded, people-told-us-this quality:
+**Lead with the substance, not the attribution.** The first sentence of every paragraph should carry the insight itself - the thing the reader needs to know. Don't wind up with "Parents say..." or "The word among families is..." before getting to the point.
 
-- "The word among expat families is..."
-- "Families who've been here a few years tend to say..."
-- "The general consensus..."
+**Good openers** (lead with the substance):
+- "JESS AR is where the Arabian Ranches crowd ends up."
+- "Teacher turnover sits at 9.6%, which in Dubai terms is exceptional."
+- "The catch is geography."
+- "At AED 88K, the academic return per dirham is better than most schools in Dubai's top 20."
+- "The community feel cuts both ways."
+
+**Bad openers** (attribution or throat-clearing first):
+- "The word among expat families is that JESS AR is where the Arabian Ranches crowd ends up."
+- "Parents say the teacher turnover is low."
 - "What comes up again and again is..."
-- "One thing parents mention..."
 - "If you ask around..."
-- "The reality on the ground..."
-- "Parents who've done the school tour circuit say..."
-
-## Paragraph Openers to Avoid
-
+- "One thing families mention..."
 - "What parents notice first is..."
 - "It's worth highlighting that..."
 - "The school has..."
 - "Founded in [year], [school] is..."
 - "With [number] students, [school]..."
 - "The campus itself..."
+
+**The rule:** If you can delete the first clause and the sentence still works, delete it. Attribution phrases belong mid-paragraph to ground specific claims, not at the top of paragraphs as openers.
+
+**Variety across profiles:** When writing multiple profiles in a batch, vary how paragraphs begin. Don't let the same structure repeat across schools. Read the first sentence of every paragraph across all profiles in the batch - if a pattern emerges, break it.
 
 ---
 
@@ -201,5 +239,8 @@ When writing or editing school profiles:
 3. Write the Intelligence section using those comments as source material.
 4. Run every paragraph through the banned phrases list.
 5. Count your hyphens. Maximum 2 per paragraph.
-6. Read every sentence aloud. Does it sound like a person talking, or a document describing?
-7. Check your verdict. Is it advice to a parent, or a statement about a school?
+6. Check paragraph openers. Does every paragraph lead with the insight, not an attribution phrase? Delete any "Parents say..." / "The word among..." / "If you ask around..." that opens a paragraph. Move attribution mid-sentence where needed.
+7. Count "expat" usage. Maximum 2 per profile. Replace extras with alternatives from the Audience Language section.
+8. Read every sentence aloud. Does it sound like a person talking, or a document describing?
+9. Check your verdict. Is it advice to a parent, or a statement about a school?
+10. If writing a batch of profiles, read the first sentence of every paragraph across all profiles. Break any emerging pattern.
