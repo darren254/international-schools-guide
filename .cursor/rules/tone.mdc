@@ -11,6 +11,8 @@ We write like a parent who has lived in the city for three years, done the schoo
 
 We are not a school marketing team. We are not a brochure. We are not an AI summarising a school's website.
 
+**Helpful and scannable:** Parents skim. Every sentence should help them decide or know what to ask. Short sentences; no wordy prose. If they can't get the gist in 30 seconds, tighten or cut.
+
 **The test:** If you read a sentence aloud and it sounds like it could appear in a school prospectus, rewrite it.
 
 ---

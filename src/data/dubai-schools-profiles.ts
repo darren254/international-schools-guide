@@ -157,6 +157,224 @@ const DUBAI_PROFILES_MAP: Record<string, SchoolProfile> = Object.fromEntries(
 // placeholder fields while preserving fee data.
 // ═══════════════════════════════════════════════════════
 
+function applyDubaiIntelligence(
+  slug: string,
+  intelligence: SchoolProfile["intelligence"]
+): void {
+  const p = DUBAI_PROFILES_MAP[slug];
+  if (p) p.intelligence = intelligence;
+}
+
+applyDubaiIntelligence("brighton-college", {
+  verdict:
+    "British franchise with strong exam results and BSO Outstanding; fee premium and British-heavy demographic. KHDA Very Good (Arabic/Islamic drag).",
+  paragraphs: [
+    "Brighton College Dubai is co-ed British independent style: blazers, house system, strong IGCSE/A-Level results (2025: 45% 9-8 at IGCSE, ~50% A*-A at A-Level). BSO Outstanding.",
+    "Second most expensive day school in Dubai; 58.5% British passports. Al Ain Road location; sixth form smaller than some rivals. Leadership stable under Simon Crane since 2019.",
+  ],
+  positives: [
+    "Strong exam results; BSO Outstanding. Small-ish roll; Brighton Diploma breadth. High SEND inclusion; transparent results.",
+  ],
+  considerations: [
+    "KHDA Very Good not Outstanding. British-heavy demographic. Location and traffic; historical facility-delivery frustration.",
+  ],
+});
+
+applyDubaiIntelligence("gems-world-academy", {
+  verdict:
+    "Full IB continuum with strong results (2025 avg 33) and exceptional facilities; KHDA Very Good and low parent satisfaction (2.4/5). GEMS for-profit ownership.",
+  paragraphs: [
+    "GWA runs PYP through DP/CP; 2025 IB average 33, 95% pass. Planetarium, Olympic pool, 400m track. Very Good KHDA since 2015; teaching consistency in Maths and Arabic flagged.",
+    "Most expensive day school in batch; WhichSchoolAdvisor 48% positivity. Materialist culture and no-homework policy noted in reviews.",
+  ],
+  positives: [
+    "IB results above world average; full IB continuum. Outstanding facilities; Singapore Math in Primary. Strong KG and early years (KHDA).",
+  ],
+  considerations: [
+    "Very Good not Outstanding; 2.4/5 parent satisfaction. Inconsistent teaching (Maths, Arabic). GEMS commercial focus; materialism complaints.",
+  ],
+});
+
+applyDubaiIntelligence("dubai-college", {
+  verdict:
+    "Selective British secondary-only (Y7–13); top-tier GCSE/A-Level results and KHDA Outstanding every year since 2010–11. Best raw results in Dubai.",
+  paragraphs: [
+    "DC is secondary-only, selective. 2025 GCSE 94.7% at 9–7, average 8.4; A-Level 74% A*-A, 93.6% A*-B. Cambridge value-added placed DC in top 1% globally. Outstanding across English, Maths, Science, Teaching, Leadership.",
+    "~50% British; no primary. New Head Tomas Duckling Jan 2025. Historic 2009 KHDA dispute and 2011 fraud (AED 15.77M) in public record.",
+  ],
+  positives: [
+    "Best GCSE/A-Level results in Dubai; top 1% value-added. Unbroken KHDA Outstanding. Strong pastoral care; reasonable fees vs outcomes.",
+  ],
+  considerations: [
+    "Secondary-only; need primary strategy. Selective; British-heavy. New headship; historic controversies.",
+  ],
+});
+
+applyDubaiIntelligence("nord-anglia-international-school", {
+  verdict:
+    "Large British-curriculum school (3,080+ students) with KHDA Outstanding and strong IB/GCSE results; rapid growth and parent satisfaction drop (60% positivity). Leadership transition 2025.",
+  paragraphs: [
+    "NAS Dubai offers IB DP (avg 36.2 in 2024) and A-Levels; GCSE 63% 7–9. Outstanding 2022–23; 320 SoD, Outstanding inclusion. New Principal Kenny Duncan Sept 2025.",
+    "Scale and growth concerns; mother tongue programme cut. Reddit bullying/self-harm thread (contested). Value-for-money 39% vs UAE 52%.",
+  ],
+  positives: [
+    "KHDA Outstanding; strong IB and GCSE. Flexible sixth form (IB, A-Levels, BTEC). Outstanding SEND; 97 nationalities; 1:11 ratio.",
+  ],
+  considerations: [
+    "3,080 students; satisfaction dropped to 60%. Leadership transition; mother tongue cut. Reddit wellbeing discussion; for-profit operator.",
+  ],
+});
+
+applyDubaiIntelligence("jumeirah-college", {
+  verdict:
+    "GEMS secondary-only school with ten consecutive KHDA Outstanding ratings and strong A-Level/GCSE results. Jumeirah location; no IB pathway.",
+  paragraphs: [
+    "JC runs IGCSE to A-Level only; 2023–24 Outstanding. 68% GCSE 9–7, 47% A*-A at A-Level, 100% pass. New Principal Nick Brain Aug 2023; previous era described as turbulent.",
+    "Some Y11 not admitted to sixth form on grades. Fee ambiguity (AED 98,681 vs 112,000 quoted). GEMS for-profit.",
+  ],
+  positives: [
+    "Ten consecutive KHDA Outstanding. Strong A-Level/GCSE; Outstanding pastoral care. Central Jumeirah; recent Sixth Form Centre and facilities.",
+  ],
+  considerations: [
+    "GEMS ownership; no IB. Secondary-only. Fee clarification needed; some Y11 refused sixth form. Arabic/Islamic weaker.",
+  ],
+});
+
+applyDubaiIntelligence("gems-wellington-international-school", {
+  verdict:
+    "12 consecutive KHDA Outstanding ratings; strong IB (2025 avg 36) and IGCSE. Only 40% of parents say fees represent value; class-size and crowding complaints.",
+  paragraphs: [
+    "WIS has ~2,900 students; Al Sufouh location. IB 2025: 36 avg, 98% pass, 59% at 35+. IGCSE 2024: 61% 9–7. Every core KHDA indicator Outstanding except Arabic/Islamic. New Principal Andrew Jenkins Aug 2025 (internal succession).",
+    "WhichSchoolAdvisor: 40% value for money, 30% disagree; two-thirds would recommend. Class sizes and crowding flagged in reviews.",
+  ],
+  positives: [
+    "12 consecutive Outstanding; IB 36 well above world average. Outstanding SEND; convenient location. IB DP + CP options.",
+  ],
+  considerations: [
+    "Low value-for-money and recommendation scores. Class sizes and crowding. GEMS reputation; high fees.",
+  ],
+});
+
+applyDubaiIntelligence("gems-dubai-american-academy", {
+  verdict:
+    "Only US-curriculum school with consistent KHDA Outstanding; US Diploma + IB DP dual pathway. Overcapacity and very low value-for-money perception (14%); new superintendent 2025.",
+  paragraphs: [
+    "DAA offers AP and IB DP; 2024 IB avg 34, 95% pass; 67% of graduates hold both US Diploma and IB. Outstanding SEND (320+). New middle school block and wellbeing centre 2024–25; ASU university credits for seniors.",
+    "3,088 students on capacity for 2,750; 56% of parents considered moving (double UAE average). Student enjoyment below UAE average. Dr Helen Pereira-Raso from Sept 2025.",
+  ],
+  positives: [
+    "Only US school with 11 cycles Outstanding. US + IB dual pathway; ASU credits. Outstanding SEND; exceptional facilities.",
+  ],
+  considerations: [
+    "14% value for money; 56% considered moving. Overcapacity; enjoyment below average. New superintendent; GEMS culture.",
+  ],
+});
+
+applyDubaiIntelligence("deira-international-school", {
+  verdict:
+    "Outstanding KHDA, strong IB (2025 avg 34.2) and IGCSE on 80,000m² campus; not-for-profit Al-Futtaim. Festival City location; teacher turnover and value-for-money mixed.",
+  paragraphs: [
+    "DIS: 2025 IB 100% pass, avg 34.2; IGCSE 56% 9–7. Outstanding for inclusion, parent engagement, governance. Demographics skew Arab/Emirati; 80+ nationalities.",
+    "WhichSchoolAdvisor 29% teacher turnover (2022); 43% value for money, 40% feel tutoring needed. Location not ideal for Marina/JBR/Dubai Hills.",
+  ],
+  positives: [
+    "Outstanding KHDA; not-for-profit. Strong IB and IGCSE; exceptional campus for fee level. Outstanding SEND; 80% would recommend.",
+  ],
+  considerations: [
+    "Teacher turnover; value-for-money split. Festival City location. Some pastoral/bullying allegations in reviews.",
+  ],
+});
+
+applyDubaiIntelligence("safa-community-school", {
+  verdict:
+    "Outstanding KHDA and BSO; strong A-Level (57% A*-A) and IGCSE, non-selective with good value-added. Selective entry to Senior School (Y10–13); traffic and parking complaints.",
+  paragraphs: [
+    "SCS: 2025 A-Level 57% A*-A, 84% A*-B; IGCSE 66% 9–7. Opened 2014; first Outstanding 2023. Low teacher turnover; 94% would recommend. Purpose-built Senior School (Y10–13).",
+    "Admission to Senior School not guaranteed; selective for Y10+. Umm Suqeim Road traffic; Ramadan shorter hours noted.",
+  ],
+  positives: [
+    "94% recommendation; Outstanding KHDA/BSO. Top-tier A-Level/IGCSE at lower fees. Non-selective with strong value-added; free SEND provision.",
+  ],
+  considerations: [
+    "Selective Senior School entry. Traffic/parking. British only (no IB). Rapid growth.",
+  ],
+});
+
+applyDubaiIntelligence("dubai-english-speaking-college", {
+  verdict:
+    "Not-for-profit secondary with ten consecutive KHDA Outstanding; strong value-added at GCSE and A-Level. Academic City location; English/Maths progress dropped to Very Good 2023–24.",
+  paragraphs: [
+    "DESC: A-Level 2025 44.5% A*-A, 93.5% A*-C; GCSE 59.8% 9–7. Value-added +1.65 grades above CAT4 prediction. Teacher turnover below 10%; 246 A-Level students 2025. Leadership transition: Andy Gibbs departed 2026, Christopher Vizzard CEO, Matthew Cotgrove Headteacher.",
+    "Academic City not central; no IB (A-Level/BTEC only). English and Maths progress Very Good not Outstanding in latest inspection.",
+  ],
+  positives: [
+    "Not-for-profit; 10th consecutive Outstanding. Exceptional value-added; low teacher turnover. Inclusive BTEC; strong university outcomes.",
+  ],
+  considerations: [
+    "Academic City location. English/Maths progress downgrade. Leadership succession; no IB.",
+  ],
+});
+
+applyDubaiIntelligence("dubai-international-academy-emirates-hills", {
+  verdict:
+    "Outstanding KHDA IB school with DP average 35–36 at lower fees than GWA; strong value proposition. Large school; Emirates Hills location.",
+  paragraphs: [
+    "DIA Emirates Hills: 2024–25 IB avg 35–36, 100% pass; MYP eAssessment 43/56. First IB school to achieve and retain Outstanding. 482,000 sq ft campus; ~2,800 students, 80–90 nationalities.",
+    "Class sizes 24–28; teacher pressure noted. IB-only; no GCSE pathway. Forum voice thin.",
+  ],
+  positives: [
+    "Outstanding KHDA; IB 35–36 at lower fees than GWA. Full IB continuum; strong destinations. Stable leadership; Emirates Hills campus.",
+  ],
+  considerations: [
+    "Large school; large classes. IB-only. Location for non-Emirates Hills families. Innoventures for-profit.",
+  ],
+});
+
+applyDubaiIntelligence("swiss-international-scientific-school", {
+  verdict:
+    "Only bilingual English-French/English-German IB school in UAE; boarding option. KHDA Very Good at top fee tier; teacher forum sentiment very negative (unverified).",
+  paragraphs: [
+    "SISD: full IB continuum, bilingual streams, boarding from Y7. 2024 IB avg 33.2, 100% pass. Nord Anglia from July 2023. KHDA Outstanding for curriculum, personal development, parent relations.",
+    "Very Good overall; WhichSchoolAdvisor 2.6/5 (52%). r/Internationalteachers allegations (management, workload, integrity) — unverified but persistent. Principal Ruth Burke departing; Pauline Nord Aug 2026.",
+  ],
+  positives: [
+    "Only bilingual IB option in UAE; boarding. Full IB continuum; strong European/US/UK destinations. Outstanding elements in KHDA.",
+  ],
+  considerations: [
+    "Very Good at highest fees. Teacher forum reports; 2.6/5 parent satisfaction. Leadership transition; discount structure opaque.",
+  ],
+});
+
+applyDubaiIntelligence("dubai-british-school-jumeirah-park", {
+  verdict:
+    "First KHDA Outstanding 2023–24 and BSO Outstanding 2025; strong A-Level/GCSE and award-winning performing arts. British-only; post-16 consistency flagged.",
+  paragraphs: [
+    "DBSJP: 2025 A-Level 50% A*-A, 85% A*-B; GCSE 51% 9–7, 97% 9–4. Outstanding for SoD. 87% would recommend; 4.2/5. Jumeirah Park/Islands/Meadows hub.",
+    "No IB; first-time Outstanding; post-16 teaching consistency and Arabic/Islamic improvement recommended.",
+  ],
+  positives: [
+    "KHDA + BSO Outstanding. Strong A-Level/GCSE; best theatre/dance/performing arts. Outstanding inclusion; 87% recommend.",
+  ],
+  considerations: [
+    "British only; first-time Outstanding. Post-16 and Arabic/Islamic flagged. Fee tier high.",
+  ],
+});
+
+applyDubaiIntelligence("greenfield-international-school", {
+  verdict:
+    "Full IB continuum with strong value-for-money and 88% parent approval; KHDA Very Good. Dubai Investment Park location; DP phase Outstanding.",
+  paragraphs: [
+    "Greenfield: IB 2025 avg 32, 2024 33, 2023 35.03; 98–100% pass. DP teaching and curriculum Outstanding per KHDA. Outstanding pastoral, safeguarding, parental engagement. ~1,550 students, 80+ nationalities.",
+    "Very Good overall; MYP/PYP structure and differentiation flagged. 30–40 min from central Dubai.",
+  ],
+  positives: [
+    "Best value full-IB in guide; 4.4/5 parent approval. DP Outstanding; above-world IB averages. Calm Green Community campus.",
+  ],
+  considerations: [
+    "Very Good not Outstanding. Remote location. MYP/PYP consistency; differentiation recommendations.",
+  ],
+});
+
 if (DUBAI_PROFILES_MAP["jumeirah-english-speaking-school"]) {
   const jess = DUBAI_PROFILES_MAP["jumeirah-english-speaking-school"];
 

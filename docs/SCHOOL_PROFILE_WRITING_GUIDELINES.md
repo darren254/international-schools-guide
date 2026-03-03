@@ -1,7 +1,8 @@
 # School profile writing & content guidelines
 
 **Use this when briefing AI or writers** so school profile copy stays consistent with the International Schools Guide.  
-Canonical sources in this repo: `TONE.md` (project root), `.skills/school-profile/`, `src/data/schools.ts`.
+Canonical sources in this repo: `TONE.md` (project root), `.skills/school-profile/`, `src/data/schools.ts`.  
+When **adapting third-party briefings** (e.g. .eml research exports) into Intelligence copy, also use `docs/INTELLIGENCE_BRIEFING_ADAPTATION.md` for sensitivity and product-appropriateness rules.
 
 ---
 
@@ -9,6 +10,7 @@ Canonical sources in this repo: `TONE.md` (project root), `.skills/school-profil
 
 - We write like a **parent who has lived in the city for a few years**, done the school tours, spoken to families, and is telling a friend what they actually need to know.
 - We are **informed, direct, occasionally dry**. We never sell. We are not a school brochure or an AI summary of a school website.
+- **Helpful, direct, scannable.** Parents skim. Every sentence should help them decide or know what to ask. Short sentences; bullets do the work. No wordy prose. If a parent can't get the gist in 30 seconds, tighten or cut.
 - **Test:** If a sentence could appear in a school prospectus, rewrite it.
 - **Audience:** International families, relocating families, local families choosing an international education. Use "expat" sparingly (max 2 per profile) - it carries an implicit Western/English-speaking connotation. Rotate through: international families, families new to [city], parents researching schools, families on corporate packages, self-funding families, locally-based families, long-term residents.
 
@@ -127,6 +129,7 @@ Bad: "BSJ is the strongest British-curriculum option in Jakarta with genuine com
 7. Are there specific details (streets, times, fees, comparisons)?
 8. Would this sound at home in a school prospectus? If yes, rewrite.
 9. If writing a batch of profiles, read the first sentence of every paragraph across all profiles. Break any emerging pattern.
+10. **Scannable?** Can a parent get the gist in 30 seconds? If not, cut or shorten.
 
 ---
 
