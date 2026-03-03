@@ -154,7 +154,7 @@ const jis: SchoolProfile = {
 
   metaTitle: "Jakarta Intercultural School (JIS) - Fees, IB Results & Review",
   metaDescription:
-    "Jakarta Intercultural School profile - fees from US$17K–US$36K/year, IB average 35.8, 2,500+ students, 60+ nationalities. Honest editorial review for expat parents.",
+    "Jakarta Intercultural School profile - fees from US$16K–US$34K/year (tuition + capital fee), IB average 35.8, 2,500+ students, 60+ nationalities. Honest editorial review for expat parents.",
 
   campuses: [
     {
@@ -185,7 +185,7 @@ const jis: SchoolProfile = {
     { value: "2,500+", label: "Students" },
     { value: "3–18", label: "Age Range" },
     { value: "60+", label: "Nationalities" },
-    { value: "US$17K – US$36K", label: "Annual Fees" },
+    { value: "US$16K – US$34K", label: "Annual Fees" },
   ],
 
   head: {
@@ -217,7 +217,7 @@ const jis: SchoolProfile = {
       "Well-established alumni network going back over 70 years - useful for older students thinking about university applications, internships, and career connections.",
     ],
     considerations: [
-      "At IDR 527M+ per year rising to IDR 604M for IB, JIS is comfortably the most expensive school in Jakarta. The gap between JIS and the next tier down is significant - make sure you're clear on what the premium buys you before committing.",
+      "With tuition up to IDR 508M plus a mandatory IDR 65M capital fee, JIS is comfortably the most expensive school in Jakarta. The gap between JIS and the next tier down is significant - make sure you're clear on what the premium buys you before committing.",
       "The Cilandak campus dates from the mid-1970s and parts of it are showing their age. A renovation programme is underway but it's a big site and there's still plenty of work to do. Don't expect gleaming, purpose-built facilities throughout.",
       "Traffic around the Cilandak campus at drop-off is a genuine headache. Jl. Terogong Raya backs up badly between 7:15 and 7:45 AM. Families who live in BSD or Tangerang should factor in a long commute.",
       "With 2,500+ students, JIS is a big school. Parents of quieter children sometimes say their kids can get lost in the crowd, particularly in middle school. It works well for confident, outgoing students - less so for those who need to be drawn out.",
@@ -490,7 +490,7 @@ const bsj: SchoolProfile = {
       { label: "Fees", value: "US$18K – $32K" },
     ],
     otherSchools: [
-      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$17K – $36K / year" },
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$16K – $34K / year" },
       { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "Australian Independent School", slug: "australian-independent-school-jakarta", meta: "Australian · Ages 3–18 · Kemang", feeRange: "US$12K – $22K / year" },
       { name: "ACG School Jakarta", slug: "acg-school-jakarta", meta: "IB · Ages 3–18 · Pasar Minggu", feeRange: "US$14K – $24K / year" },
@@ -662,7 +662,7 @@ const acg: SchoolProfile = {
     otherSchools: [
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$8K – $16K / year" },
       { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
-      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$17K – $36K / year" },
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$16K – $34K / year" },
       { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$18K – $32K / year" },
     ],
     relatedInsights: [
@@ -840,7 +840,7 @@ const isj: SchoolProfile = {
     ],
     otherSchools: [
       { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$18K – $32K / year" },
-      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$17K – $36K / year" },
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$16K – $34K / year" },
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$8K – $16K / year" },
     ],
     relatedInsights: [
@@ -886,7 +886,7 @@ const mentari: SchoolProfile = {
     { value: "600+", label: "Students" },
     { value: "3–18", label: "Age Range" },
     { value: "35+", label: "Nationalities" },
-    { value: "US$8K – US$16K", label: "Annual Fees" },
+    { value: "US$5K – US$6K", label: "Annual Fees" },
   ],
 
   head: {
@@ -1010,7 +1010,7 @@ const mentari: SchoolProfile = {
     otherSchools: [
       { name: "ACG School Jakarta", slug: "acg-school-jakarta", meta: "IB + Cambridge · Ages 3–17 · Pasar Minggu", feeRange: "US$14K – $24K / year" },
       { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
-      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$17K – $36K / year" },
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$16K – $34K / year" },
       { name: "Global Jaya School", slug: "global-jaya-school", meta: "IB · Ages 3–18 · BSD", feeRange: "US$6K – $12K / year" },
     ],
     relatedInsights: [
@@ -1181,7 +1181,7 @@ const ais: SchoolProfile = {
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$8K – $16K / year" },
       { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$18K – $32K / year" },
       { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
-      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$17K – $36K / year" },
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$16K – $34K / year" },
     ],
     relatedInsights: [
       { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
@@ -1353,7 +1353,7 @@ const sph: SchoolProfile = {
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$8K – $16K / year" },
       { name: "Global Jaya School", slug: "global-jaya-school", meta: "IB · Ages 3–18 · BSD", feeRange: "US$6K – $12K / year" },
       { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
-      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$17K – $36K / year" },
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$16K – $34K / year" },
     ],
     relatedInsights: [
       { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
@@ -1859,7 +1859,7 @@ const sinarmas: SchoolProfile = {
       { label: "Fees", value: "Fees not published" },
     ],
     otherSchools: [
-      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$23K – $37K / year" },
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$16K – $34K / year" },
       { name: "British School Jakarta", slug: "british-school-jakarta", meta: "British + IB · Ages 2–18 · Bintaro", feeRange: "US$9.2K – $30K / year" },
       { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
       { name: "ACG School Jakarta", slug: "acg-school-jakarta", meta: "IB · Ages 3–17 · Pasar Minggu", feeRange: "US$9.8K – $25K / year" },
@@ -2202,7 +2202,7 @@ const btb: SchoolProfile = {
       { name: "Tunas Muda School", slug: "tunas-muda-school", meta: "IB · Ages 1–18 · Meruya", feeRange: "US$6.9K – $27K / year" },
       { name: "North Jakarta Intercultural School", slug: "north-jakarta-intercultural-school", meta: "IB · Ages 3–18 · Kelapa Gading", feeRange: "US$6.1K – $16K / year" },
       { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
-      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$23K – $37K / year" },
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$16K – $34K / year" },
     ],
     relatedInsights: [
       { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
@@ -2371,7 +2371,7 @@ const sphKemang: SchoolProfile = {
       { name: "Sekolah Pelita Harapan", slug: "sekolah-pelita-harapan", meta: "IB · Ages 4–18 · Lippo Village", feeRange: "US$7.2K – $22K / year" },
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$5.6K – $14K / year" },
       { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
-      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$23K – $37K / year" },
+      { name: "Jakarta Intercultural School", slug: "jakarta-intercultural-school", meta: "IB + AP · Ages 3–18 · Cilandak", feeRange: "US$16K – $34K / year" },
     ],
     relatedInsights: [
       { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
@@ -2416,7 +2416,7 @@ const nordAnglia: SchoolProfile = {
     { value: "400+", label: "Students" },
     { value: "18 months–12", label: "Age Range" },
     { value: "30+", label: "Nationalities" },
-    { value: "US$7.2K – US$22K", label: "Annual Fees" },
+    { value: "US$7K – US$21K", label: "Annual Fees" },
   ],
 
   head: {
@@ -2460,14 +2460,16 @@ const nordAnglia: SchoolProfile = {
     academicYear: "2025–2026",
     feeCurrency: "IDR",
     rows: [
-      { gradeLevel: "Early Years (18 months–5)", ages: "18 months–5 years", tuition: 116_284_000, capital: 0, totalEarlyBird: 116_284_000, totalStandard: 116_284_000 },
-      { gradeLevel: "Primary (Years 1–6)", ages: "5–12 years", tuition: 280_000_000, capital: 0, totalEarlyBird: 280_000_000, totalStandard: 280_000_000 },
+      { gradeLevel: "Nursery", ages: "18 months–3 years", tuition: 116_284_000, capital: 21_044_000, totalEarlyBird: 137_328_000, totalStandard: 137_328_000 },
+      { gradeLevel: "Foundation 1", ages: "3–4 years", tuition: 156_151_000, capital: 21_044_000, totalEarlyBird: 177_195_000, totalStandard: 177_195_000 },
+      { gradeLevel: "Foundation 2", ages: "4–5 years", tuition: 267_232_000, capital: 32_240_000, totalEarlyBird: 299_472_000, totalStandard: 299_472_000 },
+      { gradeLevel: "Year 1", ages: "5–6 years", tuition: 346_681_000, capital: 32_240_000, totalEarlyBird: 378_921_000, totalStandard: 378_921_000 },
+      { gradeLevel: "Year 2–7", ages: "6–12 years", tuition: 351_233_000, capital: 32_240_000, totalEarlyBird: 383_473_000, totalStandard: 383_473_000 },
     ],
     oneTime: [
-      { name: "Application Fee", amount: 5_000_000 },
-      { name: "Enrolment Fee", amount: 15_000_000, note: "One-time, new students" },
+      { name: "Application Fee", amount: 4_600_000 },
     ],
-    note: "Fee ranges shown are approximate annual tuition. NAS Jakarta does not publish detailed fee schedules publicly. Contact admissions for the current 2025–2026 fee schedule including all one-time fees and payment options.",
+    note: "Fees are for the 2025–2026 academic year. Development Fee is integrated into annual fees (IDR 21M–32M depending on year group). Payable annually or in three termly installments. 10% sibling discount on youngest child's tuition for families with 3+ children.",
   },
 
   academics: {
@@ -2577,7 +2579,7 @@ const newZealandSchool: SchoolProfile = {
     { value: "300+", label: "Students" },
     { value: "1–18", label: "Age Range" },
     { value: "25+", label: "Nationalities" },
-    { value: "US$6.9K – US$22K", label: "Annual Fees" },
+    { value: "US$4K – US$17K", label: "Annual Fees" },
   ],
 
   head: {
@@ -2621,17 +2623,17 @@ const newZealandSchool: SchoolProfile = {
     academicYear: "2025–2026",
     feeCurrency: "IDR",
     rows: [
-      { gradeLevel: "Pre-School (Half Day)", ages: "3–4 years", tuition: 70_700_000, capital: 0, totalEarlyBird: 70_700_000, totalStandard: 70_700_000 },
-      { gradeLevel: "Pre-School (Full Day)", ages: "3–4 years", tuition: 112_300_000, capital: 0, totalEarlyBird: 112_300_000, totalStandard: 112_300_000 },
-      { gradeLevel: "Kindergarten", ages: "4–5 years", tuition: 123_600_000, capital: 0, totalEarlyBird: 123_600_000, totalStandard: 123_600_000 },
-      { gradeLevel: "Primary (Grades 1–6)", ages: "5–11 years", tuition: 273_900_000, capital: 0, totalEarlyBird: 273_900_000, totalStandard: 273_900_000 },
-      { gradeLevel: "Secondary (Grades 7–12)", ages: "11–18 years", tuition: 289_800_000, capital: 0, totalEarlyBird: 289_800_000, totalStandard: 289_800_000 },
+      { gradeLevel: "Pre-School (Half Day, International)", ages: "3–4 years", tuition: 70_700_000, capital: 0, totalEarlyBird: 70_700_000, totalStandard: 76_900_000 },
+      { gradeLevel: "Pre-School (Full Day, International)", ages: "3–4 years", tuition: 112_300_000, capital: 0, totalEarlyBird: 112_300_000, totalStandard: 118_600_000 },
+      { gradeLevel: "Kindergarten (International)", ages: "4–5 years", tuition: 123_600_000, capital: 0, totalEarlyBird: 123_600_000, totalStandard: 134_600_000 },
+      { gradeLevel: "Primary Grades 1–6 (International)", ages: "5–11 years", tuition: 273_900_000, capital: 0, totalEarlyBird: 273_900_000, totalStandard: 294_200_000 },
+      { gradeLevel: "Secondary Grades 7–12 (International)", ages: "11–18 years", tuition: 289_800_000, capital: 0, totalEarlyBird: 289_800_000, totalStandard: 300_100_000 },
     ],
     oneTime: [
-      { name: "Application Fee", amount: 3_000_000 },
-      { name: "Enrolment Fee", amount: 12_000_000, note: "One-time, new students" },
+      { name: "Application Fee (Early Years)", amount: 4_000_000 },
+      { name: "Application Fee (Primary & Secondary)", amount: 5_000_000 },
     ],
-    note: "Fee ranges shown are approximate annual tuition. Payment plans available: Annual, Half-Year, or Termly. Additional fees apply for buses, catering, uniforms, and activities. Contact admissions for the detailed 2025–2026 fee schedule.",
+    note: "International student fees shown. Annual early-payment prices are lower than half-year or termly rates. Indonesian student fees are approximately 15–20% lower. Sibling discounts: 5% for 2nd child, 10% for 3rd/4th. Additional fees for buses, catering, uniforms, and camps.",
   },
 
   academics: {
@@ -2727,7 +2729,7 @@ const jakartaNanyang: SchoolProfile = {
 
   metaTitle: "Jakarta Nanyang School - Fees, Cambridge Results & Review",
   metaDescription:
-    "Jakarta Nanyang School profile - fees from US$7.2K–US$22K/year, Cambridge curriculum, trilingual instruction (English/Mandarin/Indonesian), 700+ students. Singapore-style education. Editorial review.",
+    "Jakarta Nanyang School profile - Cambridge curriculum, trilingual instruction (English/Mandarin/Indonesian), 700+ students. Singapore-style education. Fees provided upon acceptance. Editorial review.",
 
   campuses: [
     {
@@ -2744,7 +2746,7 @@ const jakartaNanyang: SchoolProfile = {
     { value: "700+", label: "Students" },
     { value: "3–18", label: "Age Range" },
     { value: "20+", label: "Nationalities" },
-    { value: "US$7.2K – US$22K", label: "Annual Fees" },
+    { value: "Contact school", label: "Annual Fees" },
   ],
 
   head: {
@@ -2766,13 +2768,13 @@ const jakartaNanyang: SchoolProfile = {
     paragraphs: [
       "The word among expat families is that Jakarta Nanyang appeals to families wanting a Singapore-style education with genuine trilingual instruction. Part of the Nanyang Family of Schools, it brings Singapore's academic rigour and discipline. The curriculum follows Cambridge from primary through A-Levels - a structured pathway that gives students internationally recognised qualifications at every stage.",
       "What comes up again and again is the trilingual approach. English is the medium of instruction for core subjects, but all students learn Mandarin Chinese and Bahasa Indonesia. The Mandarin instruction is serious - students can sit for Cambridge IGCSE Mandarin or HSK exams. If you value Chinese language and culture, this is one of the few schools in Jakarta that delivers.",
-      "The BSD City location suits families already in the area or planning to live there. Fees run US$7.2K to US$22K - mid-range, making it accessible to self-funding families. The catch is that Singapore-style rigour means high expectations and structured learning. If your child thrives under pressure and wants academic challenge, Jakarta Nanyang delivers. If they need more support or balance, look elsewhere.",
+      "The BSD City location suits families already in the area or planning to live there. Fees are not publicly listed; parents receive an invoice upon acceptance. External sources suggest around IDR 99M/year. The catch is that Singapore-style rigour means high expectations and structured learning. If your child thrives under pressure and wants academic challenge, Jakarta Nanyang delivers. If they need more support or balance, look elsewhere.",
     ],
     positives: [
       "Genuine trilingual instruction - English for core subjects, plus serious Mandarin Chinese and Bahasa Indonesia. Students can sit for Cambridge IGCSE Mandarin or HSK exams.",
       "Singapore-style academic rigour and discipline - appeals to families who want structured learning and high expectations.",
       "Cambridge pathway from primary through A-Levels - gives students internationally recognised qualifications at every stage.",
-      "Fees at US$7.2K to US$22K are mid-range, making it accessible to self-funding families who want Singapore-style education without premium prices.",
+      "Fees are not publicly listed but external sources suggest around IDR 99M/year (~US$5.9K). Contact admissions for the current schedule.",
       "Part of the Nanyang Family of Schools brings resources and credibility. The BSD City campus is modern and purpose-built.",
     ],
     considerations: [
@@ -2797,7 +2799,7 @@ const jakartaNanyang: SchoolProfile = {
       { name: "Application Fee", amount: 3_000_000 },
       { name: "Enrolment Fee", amount: 15_000_000, note: "One-time, new students" },
     ],
-    note: "Fee ranges shown are approximate annual tuition. Jakarta Nanyang School does not publish detailed fee schedules publicly. Contact admissions for the current 2025–2026 fee schedule including all one-time fees and payment options.",
+    note: "Fee ranges shown are approximate based on external sources (~IDR 99M/year for primary). Jakarta Nanyang School does not publish fee schedules publicly; parents receive an invoice upon acceptance. Contact admissions for the current fee schedule.",
   },
 
   academics: {
@@ -2848,7 +2850,7 @@ const jakartaNanyang: SchoolProfile = {
   contact: {
     phone: "+62 21 5316 1400",
     email: "admissions@jakartananyang.sch.id",
-    website: "https://www.jakartananyang.sch.id",
+    website: "https://jny.sch.id/",
   },
 
   sidebar: {
@@ -2860,7 +2862,7 @@ const jakartaNanyang: SchoolProfile = {
       { label: "Ages", value: "3–18" },
       { label: "Nationalities", value: "20+" },
       { label: "Languages", value: "English/Mandarin/Indonesian" },
-      { label: "Fees", value: "US$7.2K – $22K" },
+      { label: "Fees", value: "Contact school" },
     ],
     otherSchools: [
       { name: "Singapore Intercultural School South Jakarta", slug: "singapore-intercultural-school-south-jakarta", meta: "Singapore · Ages 2–17 · Bona Vista", feeRange: "US$2.4K – $15K / year" },
