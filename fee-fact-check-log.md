@@ -36,40 +36,40 @@ Exchange rates (per USD):
 - [x] Batch 7/8 — 10 schools
 - [x] Batch 8/8 — 9 schools
 
-### Singapore (7 batches total)
+### Singapore (7 batches total) ✅ COMPLETE
 - Batches 5–7 — not in folder (already done or not needed)
-- [ ] Batch 1/7 — 10 schools
-- [ ] Batch 2/7 — 10 schools
-- [ ] Batch 3/7 — 10 schools
-- [ ] Batch 4/7 — 10 schools
+- [x] Batch 1/7 — 10 schools
+- [x] Batch 2/7 — 10 schools
+- [x] Batch 3/7 — 10 schools
+- [x] Batch 4/7 — 9 schools
 
-### Bangkok (10 batches total)
+### Bangkok (10 batches total) ✅ COMPLETE
 - Batch 10 — not in folder (already done or not needed)
-- [ ] Batch 1/10 — 10 schools
-- [ ] Batch 2/10 — 10 schools
-- [ ] Batch 3/10 — 10 schools
-- [ ] Batch 4/10 — 10 schools
-- [ ] Batch 5/10 — 10 schools
-- [ ] Batch 6/10 — 10 schools
-- [ ] Batch 7/10 — 10 schools
-- [ ] Batch 8/10 — 10 schools
-- [ ] Batch 9/10 — 10 schools
+- [x] Batch 1/10 — 10 schools
+- [x] Batch 2/10 — 10 schools
+- [x] Batch 3/10 — 10 schools
+- [x] Batch 4/10 — 10 schools
+- [x] Batch 5/10 — 10 schools
+- [x] Batch 6/10 — 10 schools
+- [x] Batch 7/10 — 10 schools
+- [x] Batch 8/10 — 10 schools
+- [x] Batch 9/10 — 10 schools
 
-### Dubai (17 batches total)
+### Dubai (17 batches total) ✅ COMPLETE
 - Batches 9, 10, 16, 17 — not in folder (already done or not needed)
-- [ ] Batch 1/17 — 10 schools
-- [ ] Batch 2/17 — 10 schools
-- [ ] Batch 3/17 — 10 schools
-- [ ] Batch 4/17 — 10 schools
-- [ ] Batch 5/17 — 10 schools
-- [ ] Batch 6/17 — 10 schools
-- [ ] Batch 7/17 — 10 schools
-- [ ] Batch 8/17 — 10 schools
-- [ ] Batch 11/17 — 10 schools
-- [ ] Batch 12/17 — 10 schools
-- [ ] Batch 13/17 — 10 schools
-- [ ] Batch 14/17 — 10 schools
-- [ ] Batch 15/17 — 10 schools
+- [x] Batch 1/17 — 10 schools
+- [x] Batch 2/17 — 10 schools
+- [x] Batch 3/17 — 10 schools
+- [x] Batch 4/17 — 10 schools
+- [x] Batch 5/17 — 10 schools
+- [x] Batch 6/17 — 10 schools
+- [x] Batch 7/17 — 10 schools
+- [x] Batch 8/17 — 10 schools
+- [x] Batch 11/17 — 10 schools
+- [x] Batch 12/17 — 10 schools (9 unique, 1 duplicate)
+- [x] Batch 13/17 — 10 schools
+- [x] Batch 14/17 — 10 schools
+- [x] Batch 15/17 — 10 schools
 
 ---
 
@@ -94,10 +94,11 @@ Exchange rates (per USD):
 <!-- Changes logged per batch -->
 
 ### Singapore
-<!-- Changes logged per batch -->
+**Batches 1–4** (39 schools): All fees converted SGD→USD at 1.34. Updated feeRange, feeLowUsd, feeHighUsd, editorialSummary for all schools.
 
 ### Bangkok
-<!-- Changes logged per batch -->
+**Batches 1–9** (90 schools): All fees converted THB→USD at 35.0. Updated feeRange, feeLowUsd, feeHighUsd, editorialSummary for all schools.
 
 ### Dubai
-<!-- Changes logged per batch -->
+**Batches 1–8** (80 schools): All fees converted AED→USD at 3.67. Updated feeRange, feeLowUsd, feeHighUsd, editorialSummary for all schools.
+**Batches 11–15** (49 unique schools): All fees converted AED→USD at 3.67. Notable: Rashid & Latifa School is non-fee-paying (scholarship). Batch 12 had 1 duplicate entry (PACE Modern British).
