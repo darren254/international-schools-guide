@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useShortlistOptional } from "@/context/ShortlistContext";
+import { CurrencyToggle } from "@/components/layout/CurrencyToggle";
 
 export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -49,9 +50,7 @@ export function SiteHeader() {
 
           {/* Actions */}
           <div className="flex items-center gap-2 sm:gap-4 shrink-0">
-            <button className="text-xs text-charcoal-muted border border-warm-border px-2 sm:px-3 py-1.5 hover:border-charcoal-muted transition-colors">
-              USD
-            </button>
+            <CurrencyToggle />
 
             {/* Mobile hamburger */}
             <button

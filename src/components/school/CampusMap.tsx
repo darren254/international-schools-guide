@@ -3,6 +3,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { useCurrency } from "@/context/CurrencyContext";
+import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 
 interface Campus {
   name: string;
@@ -52,8 +54,16 @@ export function CampusMap({
   const markersRef = useRef<any[]>([]);
   const onSelectRef = useRef<(s: Selected) => void>(() => {});
   const [selected, setSelected] = useState<Selected>(null);
+  const { fmtRange } = useCurrency();
 
   onSelectRef.current = setSelected;
+
+  function formatMapFee(feeRange: string): string {
+    const low = extractLowestFee(feeRange);
+    const high = extractHighestFee(feeRange);
+    if (high <= 0) return feeRange;
+    return fmtRange(low * 1000, high * 1000, "USD");
+  }
 
   const validCampuses = campuses.filter(
     (c) =>
@@ -299,7 +309,7 @@ export function CampusMap({
                             {selected.school.meta}
                           </p>
                           <p className="text-[0.8125rem] font-medium text-charcoal mt-1">
-                            {selected.school.feeRange}
+                            {formatMapFee(selected.school.feeRange)}
                           </p>
                           <Link
                             href={`/international-schools/${citySlug}/${selected.school.slug}/`}

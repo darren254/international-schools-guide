@@ -1,7 +1,11 @@
+"use client";
+
 import { Button } from "@/components/ui/Button";
 import Link from "next/link";
 import { displayValue } from "@/lib/utils/display";
 import { ShortlistActions } from "@/components/school/ShortlistActions";
+import { useCurrency } from "@/context/CurrencyContext";
+import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 
 interface QuickFact {
   label: string;
@@ -36,9 +40,17 @@ export function ProfileSidebar({
   relatedInsights,
   citySlug,
 }: ProfileSidebarProps) {
+  const { fmtRange } = useCurrency();
+
+  function formatSidebarFee(feeRange: string): string {
+    const low = extractLowestFee(feeRange);
+    const high = extractHighestFee(feeRange);
+    if (high <= 0) return feeRange;
+    return fmtRange(low * 1000, high * 1000, "USD");
+  }
+
   return (
     <aside className="lg:sticky lg:top-[88px] self-start space-y-5">
-      {/* Quick Facts */}
       <div className="bg-warm-white border border-warm-border-light border-t-2 border-t-charcoal p-6">
         <h3 className="font-display text-[1.0625rem] font-semibold mb-5">
           Quick Facts
@@ -57,7 +69,6 @@ export function ProfileSidebar({
         </div>
       </div>
 
-      {/* Other schools */}
       <div className="bg-warm-white border border-warm-border-light p-6">
         <h3 className="font-display text-[1.0625rem] font-semibold mb-4">
           Other Schools in South Jakarta
@@ -71,12 +82,11 @@ export function ProfileSidebar({
               {s.name}
             </Link>
             <p className="text-[0.75rem] text-charcoal-muted">{s.meta}</p>
-            <p className="text-[0.8125rem] font-medium mt-0.5">{s.feeRange}</p>
+            <p className="text-[0.8125rem] font-medium mt-0.5">{formatSidebarFee(s.feeRange)}</p>
           </div>
         ))}
       </div>
 
-      {/* Related insights */}
       <div className="bg-warm-white border border-warm-border-light p-6">
         <h3 className="font-display text-[1.0625rem] font-semibold mb-4">
           Related Insights
@@ -94,7 +104,6 @@ export function ProfileSidebar({
         ))}
       </div>
 
-      {/* CTA */}
       <div className="bg-warm-white border border-hermes p-6">
         <p className="font-display text-[1.0625rem] font-semibold mb-2">
           Are you from this school?

@@ -9,7 +9,6 @@ import { getSingaporeLocationFilter } from "@/data/singapore-schools";
 import { getBangkokLocationFilter } from "@/data/bangkok-schools";
 import { getHongKongLocationFilter } from "@/data/hong-kong-schools";
 import { getKualaLumpurLocationFilter } from "@/data/kuala-lumpur-schools";
-import { extractHighestFee, extractLowestFee, hasPublishableFee } from "@/lib/utils/fees";
 import { getSchoolImageUrl } from "@/lib/schools/images";
 
 export interface SchoolListing {
@@ -21,6 +20,8 @@ export interface SchoolListing {
   ageRange: string;
   studentCount: string;
   feeRange: string;
+  feeLowUsd: number;
+  feeHighUsd: number;
   examResults: { label: string; value: string }[];
   editorialSummary: string;
   phone?: string;
@@ -102,14 +103,12 @@ export function ExploreSchoolsClient({
     );
     const sortMultiplier = feeSort === "high-low" ? -1 : 1;
     list = [...list].sort((a, b) => {
-      const aHasFee = hasPublishableFee(a.feeRange);
-      const bHasFee = hasPublishableFee(b.feeRange);
+      const aHasFee = a.feeHighUsd > 0;
+      const bHasFee = b.feeHighUsd > 0;
       if (aHasFee !== bHasFee) return aHasFee ? -1 : 1;
       if (!aHasFee) return 0;
-      const feeA = extractHighestFee(a.feeRange);
-      const feeB = extractHighestFee(b.feeRange);
-      if (feeA !== feeB) return (feeA - feeB) * sortMultiplier;
-      return (extractLowestFee(a.feeRange) - extractLowestFee(b.feeRange)) * sortMultiplier;
+      if (a.feeHighUsd !== b.feeHighUsd) return (a.feeHighUsd - b.feeHighUsd) * sortMultiplier;
+      return (a.feeLowUsd - b.feeLowUsd) * sortMultiplier;
     });
     return list;
   }, [schools, curriculum, location, feeSort, citySlug]);
@@ -216,7 +215,9 @@ export function ExploreSchoolsClient({
               area={school.area}
               ageRange={school.ageRange}
               studentCount={school.studentCount}
-              feeRange={school.feeRange}
+              feeLowUsd={school.feeLowUsd}
+              feeHighUsd={school.feeHighUsd}
+              feeLabel={school.feeHighUsd === 0 ? school.feeRange : undefined}
               examResults={school.examResults}
               editorialSummary={school.editorialSummary}
               imageUrl={getSchoolImageUrl(school.slug, "card")}

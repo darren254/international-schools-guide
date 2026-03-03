@@ -11,7 +11,8 @@ import { SINGAPORE_SCHOOLS } from "@/data/singapore-schools";
 import { BANGKOK_SCHOOLS } from "@/data/bangkok-schools";
 import { HONG_KONG_SCHOOLS } from "@/data/hong-kong-schools";
 import { KUALA_LUMPUR_SCHOOLS } from "@/data/kuala-lumpur-schools";
-import { getFeeDisplay, hasPublishableFee } from "@/lib/utils/fees";
+import { useCurrency } from "@/context/CurrencyContext";
+import { getFeeDisplay } from "@/lib/utils/fees";
 
 const ALL_SCHOOLS = [
   ...JAKARTA_SCHOOLS.map((s) => ({ ...s, citySlug: "jakarta" })),
@@ -34,7 +35,9 @@ interface ShortlistSchool {
   name: string;
   area: string;
   curricula: string[];
-  feeDisplay: string;
+  feeLabel: string;
+  feeLowUsd: number;
+  feeHighUsd: number;
   ageRange: string;
   studentCount: string;
   ibAverage: string;
@@ -50,23 +53,15 @@ function toShortlistSchool(s: (typeof ALL_SCHOOLS)[0]): ShortlistSchool {
     name: s.name,
     area: s.area,
     curricula: s.curricula,
-    feeDisplay: getFeeDisplay(s.feeRange, s.slug),
+    feeLabel: getFeeDisplay(s.feeRange, s.slug),
+    feeLowUsd: s.feeLowUsd,
+    feeHighUsd: s.feeHighUsd,
     ageRange: s.ageRange,
     studentCount: s.studentCount,
     ibAverage: ibAvg?.value ?? "",
     ibPassRate: ibPass?.value ?? "",
   };
 }
-
-const COMPARE_ROWS: { key: string; label: string; render: (s: ShortlistSchool) => string }[] = [
-  { key: "fees", label: "Annual Fees", render: (s) => s.feeDisplay },
-  { key: "ageRange", label: "Age Range", render: (s) => s.ageRange },
-  { key: "curricula", label: "Curriculum", render: (s) => s.curricula.join(", ") },
-  { key: "ibAverage", label: "IB Average", render: (s) => s.ibAverage || "—" },
-  { key: "ibPassRate", label: "IB Pass Rate", render: (s) => s.ibPassRate || "—" },
-  { key: "studentCount", label: "Students", render: (s) => s.studentCount },
-  { key: "location", label: "Location", render: (s) => s.area },
-];
 
 function QuickAddButton({ label, slugs, onAdd }: { label: string; slugs: string[]; onAdd: (slugs: string[]) => void }) {
   return (
@@ -82,8 +77,27 @@ function QuickAddButton({ label, slugs, onAdd }: { label: string; slugs: string[
 function ShortlistContent() {
   const searchParams = useSearchParams();
   const { shortlistedSlugs, addToShortlist, removeFromShortlist } = useShortlist();
+  const { fmtRange } = useCurrency();
   const urlSynced = useRef(false);
   const [mobileIndex, setMobileIndex] = useState(0);
+
+  const feeDisplay = useCallback(
+    (s: ShortlistSchool) =>
+      s.feeHighUsd > 0
+        ? fmtRange(s.feeLowUsd, s.feeHighUsd, "USD")
+        : s.feeLabel,
+    [fmtRange],
+  );
+
+  const COMPARE_ROWS: { key: string; label: string; render: (s: ShortlistSchool) => string }[] = [
+    { key: "fees", label: "Annual Fees", render: (s) => feeDisplay(s) },
+    { key: "ageRange", label: "Age Range", render: (s) => s.ageRange },
+    { key: "curricula", label: "Curriculum", render: (s) => s.curricula.join(", ") },
+    { key: "ibAverage", label: "IB Average", render: (s) => s.ibAverage || "\u2014" },
+    { key: "ibPassRate", label: "IB Pass Rate", render: (s) => s.ibPassRate || "\u2014" },
+    { key: "studentCount", label: "Students", render: (s) => s.studentCount },
+    { key: "location", label: "Location", render: (s) => s.area },
+  ];
 
   useEffect(() => {
     if (urlSynced.current) return;

@@ -9,7 +9,8 @@ import { SINGAPORE_SCHOOLS, getSingaporeLocationFilter } from "@/data/singapore-
 import { BANGKOK_SCHOOLS, getBangkokLocationFilter } from "@/data/bangkok-schools";
 import { HONG_KONG_SCHOOLS, getHongKongLocationFilter } from "@/data/hong-kong-schools";
 import { KUALA_LUMPUR_SCHOOLS, getKualaLumpurLocationFilter } from "@/data/kuala-lumpur-schools";
-import { extractHighestFee, getFeeDisplay, hasPublishableFee } from "@/lib/utils/fees";
+import { useCurrency } from "@/context/CurrencyContext";
+import { getFeeDisplay } from "@/lib/utils/fees";
 
 type SortDir = "high" | "low";
 
@@ -21,8 +22,9 @@ interface TableSchool {
   locationGroup: string;
   curricula: string[];
   curriculumLabels: string[];
-  feeDisplay: string;
-  feeHigh: number;
+  feeLabel: string;
+  feeLowUsd: number;
+  feeHighUsd: number;
   studentCount: string;
 }
 
@@ -35,21 +37,19 @@ function buildTableSchools(): TableSchool[] {
     ...HONG_KONG_SCHOOLS.map((s) => ({ ...s, citySlug: "hong-kong", locationGroup: getHongKongLocationFilter(s.area) })),
     ...KUALA_LUMPUR_SCHOOLS.map((s) => ({ ...s, citySlug: "kuala-lumpur", locationGroup: getKualaLumpurLocationFilter(s.area) })),
   ];
-  return tagged.map((s) => {
-    const feeDisplay = getFeeDisplay(s.feeRange, s.slug);
-    return {
-      slug: s.slug,
-      citySlug: s.citySlug,
-      name: s.name,
-      area: s.area,
-      locationGroup: s.locationGroup,
-      curricula: s.curricula,
-      curriculumLabels: getCurriculumFilterLabels(s.curricula),
-      feeDisplay,
-      feeHigh: extractHighestFee(feeDisplay),
-      studentCount: s.studentCount,
-    };
-  });
+  return tagged.map((s) => ({
+    slug: s.slug,
+    citySlug: s.citySlug,
+    name: s.name,
+    area: s.area,
+    locationGroup: s.locationGroup,
+    curricula: s.curricula,
+    curriculumLabels: getCurriculumFilterLabels(s.curricula),
+    feeLabel: getFeeDisplay(s.feeRange, s.slug),
+    feeLowUsd: s.feeLowUsd,
+    feeHighUsd: s.feeHighUsd,
+    studentCount: s.studentCount,
+  }));
 }
 
 const ALL_SCHOOLS = buildTableSchools();
@@ -157,6 +157,7 @@ function CompareTableContent() {
   const [curriculumFilter, setCurriculumFilter] = useState<string[]>([]);
   const [locationFilter, setLocationFilter] = useState<string[]>([]);
   const [feeSort, setFeeSort] = useState<SortDir>("high");
+  const { fmtRange } = useCurrency();
 
   const resetFilters = useCallback(() => {
     setCurriculumFilter([]);
@@ -177,13 +178,21 @@ function CompareTableContent() {
       result = result.filter((s) => locationFilter.includes(s.locationGroup));
     }
     return [...result].sort((a, b) => {
-      const aHas = hasPublishableFee(a.feeDisplay);
-      const bHas = hasPublishableFee(b.feeDisplay);
+      const aHas = a.feeHighUsd > 0;
+      const bHas = b.feeHighUsd > 0;
       if (aHas !== bHas) return aHas ? -1 : 1;
       if (!aHas) return 0;
-      return feeSort === "high" ? b.feeHigh - a.feeHigh : a.feeHigh - b.feeHigh;
+      return feeSort === "high" ? b.feeHighUsd - a.feeHighUsd : a.feeHighUsd - b.feeHighUsd;
     });
   }, [curriculumFilter, locationFilter, feeSort]);
+
+  const feeDisplay = useCallback(
+    (s: TableSchool) =>
+      s.feeHighUsd > 0
+        ? fmtRange(s.feeLowUsd, s.feeHighUsd, "USD")
+        : s.feeLabel,
+    [fmtRange],
+  );
 
   return (
     <div className="container-site py-8 md:py-12">
@@ -272,8 +281,8 @@ function CompareTableContent() {
                     ))}
                   </div>
                 </td>
-                <td className={`py-3 px-3 ${hasPublishableFee(school.feeDisplay) ? "font-medium text-charcoal" : "text-charcoal-muted text-xs"}`}>
-                  {school.feeDisplay}
+                <td className={`py-3 px-3 ${school.feeHighUsd > 0 ? "font-medium text-charcoal" : "text-charcoal-muted text-xs"}`}>
+                  {feeDisplay(school)}
                 </td>
                 <td className="py-3 px-3 text-charcoal-muted">{school.studentCount}</td>
                 <td className="py-3 px-3 text-right">
@@ -318,8 +327,8 @@ function CompareTableContent() {
               </div>
               <div>
                 <span className="text-[10px] uppercase tracking-wider text-charcoal-muted block">Fees</span>
-                <span className={hasPublishableFee(school.feeDisplay) ? "font-medium text-charcoal" : "text-charcoal-muted text-xs"}>
-                  {school.feeDisplay}
+                <span className={school.feeHighUsd > 0 ? "font-medium text-charcoal" : "text-charcoal-muted text-xs"}>
+                  {feeDisplay(school)}
                 </span>
               </div>
               <div>

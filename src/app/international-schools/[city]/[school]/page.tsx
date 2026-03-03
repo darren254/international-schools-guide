@@ -15,15 +15,9 @@ import { ProfileSidebar } from "@/components/school/ProfileSidebar";
 import {
   SCHOOL_PROFILES,
   ALL_SCHOOL_SLUGS,
-  EXCHANGE_RATE,
-  EXCHANGE_RATE_DATE,
 } from "@/data/schools";
-import { DUBAI_AED_TO_USD } from "@/data/dubai-school-profiles";
-import { SINGAPORE_RATE } from "@/data/singapore-school-profiles";
-import { BANGKOK_RATE } from "@/data/bangkok-school-profiles";
-import { HONG_KONG_RATE } from "@/data/hong-kong-school-profiles";
-import { KUALA_LUMPUR_RATE } from "@/data/kuala-lumpur-school-profiles";
 import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
+import type { CurrencyCode } from "@/lib/currency/rates";
 import { getSchoolImageUrl } from "@/lib/schools/images";
 import { BackToResults } from "@/components/home/BackToResults";
 
@@ -51,15 +45,6 @@ const COUNTRY_CODES: Record<string, string> = {
   bangkok: "TH",
   "hong-kong": "HK",
   "kuala-lumpur": "MY",
-};
-
-const CURRENCY_RATES: Record<string, number> = {
-  IDR: EXCHANGE_RATE,
-  AED: DUBAI_AED_TO_USD,
-  SGD: SINGAPORE_RATE,
-  THB: BANGKOK_RATE,
-  HKD: HONG_KONG_RATE,
-  MYR: KUALA_LUMPUR_RATE,
 };
 
 export function generateMetadata({
@@ -245,9 +230,7 @@ export default function SchoolProfilePage({
           <div className="section-band -mx-5 md:-mx-8 px-5 md:px-8 pb-2 bg-warm-white border-y border-warm-border-light">
             <FeesTable
               academicYear={s.fees.academicYear}
-              exchangeRate={CURRENCY_RATES[s.fees.feeCurrency] ?? EXCHANGE_RATE}
-              exchangeRateDate={s.fees.feeCurrency === "IDR" ? EXCHANGE_RATE_DATE : "28 Feb 2026"}
-              feeCurrency={s.fees.feeCurrency}
+              feeCurrency={s.fees.feeCurrency as CurrencyCode}
               fees={s.fees.rows}
               oneTimeFees={s.fees.oneTime}
               note={s.fees.note}

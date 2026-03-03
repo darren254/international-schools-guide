@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { useShortlistOptional } from "@/context/ShortlistContext";
+import { useCurrency } from "@/context/CurrencyContext";
 import { VerifiedBadge } from "@/components/ui/VerifiedBadge";
 
 interface ExamResult {
-  label: string; // e.g. "IB Average", "A*–A at A-Level", "AP Pass Rate"
-  value: string; // e.g. "35.8", "62%", "89%"
+  label: string;
+  value: string;
 }
 
 interface SchoolCardProps {
@@ -18,7 +19,9 @@ interface SchoolCardProps {
   area: string;
   ageRange: string;
   studentCount: string;
-  feeRange: string;
+  feeLowUsd: number;
+  feeHighUsd: number;
+  feeLabel?: string;
   examResults?: ExamResult[];
   editorialSummary: string;
   imageUrl?: string;
@@ -34,13 +37,16 @@ export function SchoolCard({
   area,
   ageRange,
   studentCount,
-  feeRange,
+  feeLowUsd,
+  feeHighUsd,
+  feeLabel,
   examResults,
   editorialSummary,
   imageUrl,
   hasProfile = false,
 }: SchoolCardProps) {
   const shortlist = useShortlistOptional();
+  const { fmtRange } = useCurrency();
   const shortlisted = shortlist ? shortlist.isShortlisted(slug) : false;
   const toggleShortlist = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -52,6 +58,11 @@ export function SchoolCard({
     e.stopPropagation();
     shortlist?.addToShortlist(slug);
   };
+
+  const hasFees = feeLowUsd > 0 || feeHighUsd > 0;
+  const feeDisplay = hasFees
+    ? fmtRange(feeLowUsd, feeHighUsd, "USD")
+    : (feeLabel || "Fees not published");
 
   const profileHref = hasProfile ? `/international-schools/${citySlug}/${slug}/` : undefined;
 
@@ -103,7 +114,7 @@ export function SchoolCard({
               <p className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted mb-0.5 font-body">
                 Annual Fees
               </p>
-              <p className="text-[0.9375rem] font-medium text-charcoal font-body">{feeRange}</p>
+              <p className="text-[0.9375rem] font-medium text-charcoal font-body">{feeDisplay}</p>
             </div>
             {examResults?.map((result, i) => (
               <div key={i} className="pl-6 border-l border-warm-border">
