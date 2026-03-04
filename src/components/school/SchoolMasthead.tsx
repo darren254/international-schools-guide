@@ -13,6 +13,10 @@ interface SchoolMastheadProps {
   name: string;
   verified: boolean;
   campuses: Campus[];
+  /** Neighbourhood/area (e.g. "Dover", "Arabian Ranches"); from profile Location. */
+  locationLabel: string;
+  /** Display city name (e.g. "Singapore", "Dubai"). */
+  cityName: string;
   lastUpdated: string;
   curricula: string[];
   stats: { value: string; label: string }[];
@@ -23,6 +27,8 @@ export function SchoolMasthead({
   name,
   verified,
   campuses,
+  locationLabel,
+  cityName,
   lastUpdated,
   curricula,
   stats,
@@ -42,7 +48,10 @@ export function SchoolMasthead({
             <span className="text-charcoal-light font-medium">{c.name.split("(")[0].trim()}</span>
           </span>
         ))}
-        <span className="ml-1">- {campuses.length} {campuses.length === 1 ? "campus" : "campuses"} in South Jakarta</span>
+        <span className="ml-1">
+          – {campuses.length} {campuses.length === 1 ? "campus" : "campuses"} in{" "}
+          {locationLabel && locationLabel !== cityName ? `${locationLabel}, ${cityName}` : cityName}
+        </span>
       </p>
 
       {/* Curricula + updated */}

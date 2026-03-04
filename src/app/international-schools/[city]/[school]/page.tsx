@@ -168,6 +168,11 @@ export default function SchoolProfilePage({
           name: c.name,
           address: c.address,
         }))}
+        locationLabel={s.stats.find((st) => st.label === "Location")?.value ?? ""}
+        cityName={s.citySlug
+          .split("-")
+          .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+          .join(" ")}
         lastUpdated={s.lastUpdated}
         curricula={s.curricula}
         stats={s.stats}

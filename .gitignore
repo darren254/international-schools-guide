@@ -10,3 +10,6 @@ next-env.d.ts
 
 # Generated API data (built at deploy)
 functions/api/data/
+
+# Import script logs (run overnight)
+scripts/logs/

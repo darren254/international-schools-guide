@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-27T08:40:28.638Z",
+  "generatedAt": "2026-03-03T14:09:30.616Z",
   "sourceRoot": "external/jakarta-school-automation-images",
   "slugs": {
     "acg-school-jakarta": {
@@ -543,6 +543,762 @@
       "sourceFolder": "Jakarta School Images",
       "sourceFile": "al jabr islamic campus.jpg",
       "photo1": "/images/schools/al-jabr-islamic-school/photo1.webp"
+    },
+    "anglo-chinese-school": {
+      "card": "/images/schools/anglo-chinese-school/card.webp",
+      "profile": "/images/schools/anglo-chinese-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Anglo-Chinese_School_International_campus1.jpg",
+      "photo1": "/images/schools/anglo-chinese-school/photo1.webp",
+      "photo2": "/images/schools/anglo-chinese-school/photo2.webp",
+      "photo3": "/images/schools/anglo-chinese-school/photo3.webp"
+    },
+    "australian-international-school": {
+      "card": "/images/schools/australian-international-school/card.webp",
+      "profile": "/images/schools/australian-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Australian_International_School_Singapore_campus1.jpg",
+      "photo1": "/images/schools/australian-international-school/photo1.webp",
+      "photo2": "/images/schools/australian-international-school/photo2.webp",
+      "photo3": "/images/schools/australian-international-school/photo3.webp"
+    },
+    "brighton-college": {
+      "card": "/images/schools/brighton-college/card.webp",
+      "profile": "/images/schools/brighton-college/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Brighton_College_Singapore_campus1.jpg",
+      "photo1": "/images/schools/brighton-college/photo1.webp",
+      "photo2": "/images/schools/brighton-college/photo2.webp",
+      "photo3": "/images/schools/brighton-college/photo3.webp"
+    },
+    "canadian-international-school": {
+      "card": "/images/schools/canadian-international-school/card.webp",
+      "profile": "/images/schools/canadian-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Canadian_International_School_Singapore_campus1.jpg",
+      "photo1": "/images/schools/canadian-international-school/photo1.webp",
+      "photo2": "/images/schools/canadian-international-school/photo2.webp",
+      "photo3": "/images/schools/canadian-international-school/photo3.webp"
+    },
+    "chatsworth-international-school": {
+      "card": "/images/schools/chatsworth-international-school/card.webp",
+      "profile": "/images/schools/chatsworth-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Chatsworth_International_School_campus1.jpg",
+      "photo1": "/images/schools/chatsworth-international-school/photo1.webp",
+      "photo2": "/images/schools/chatsworth-international-school/photo2.webp",
+      "photo3": "/images/schools/chatsworth-international-school/photo3.webp"
+    },
+    "dimensions-international-college": {
+      "card": "/images/schools/dimensions-international-college/card.webp",
+      "profile": "/images/schools/dimensions-international-college/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Dimensions_International_College_campus1.jpg",
+      "photo1": "/images/schools/dimensions-international-college/photo1.webp",
+      "photo2": "/images/schools/dimensions-international-college/photo2.webp",
+      "photo3": "/images/schools/dimensions-international-college/photo3.webp"
+    },
+    "dover-court-international-school": {
+      "card": "/images/schools/dover-court-international-school/card.webp",
+      "profile": "/images/schools/dover-court-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Dover_Court_International_School_campus1.jpg",
+      "photo1": "/images/schools/dover-court-international-school/photo1.webp",
+      "photo2": "/images/schools/dover-court-international-school/photo2.webp",
+      "photo3": "/images/schools/dover-court-international-school/photo3.webp"
+    },
+    "dps-international-school": {
+      "card": "/images/schools/dps-international-school/card.webp",
+      "profile": "/images/schools/dps-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_DPS_International_School_Singapore_campus1.jpg",
+      "photo1": "/images/schools/dps-international-school/photo1.webp",
+      "photo2": "/images/schools/dps-international-school/photo2.webp",
+      "photo3": "/images/schools/dps-international-school/photo3.webp"
+    },
+    "dulwich-college": {
+      "card": "/images/schools/dulwich-college/card.webp",
+      "profile": "/images/schools/dulwich-college/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Dulwich_College_Singapore_campus1.jpg",
+      "photo1": "/images/schools/dulwich-college/photo1.webp",
+      "photo2": "/images/schools/dulwich-college/photo2.webp",
+      "photo3": "/images/schools/dulwich-college/photo3.webp"
+    },
+    "furen-international-school": {
+      "card": "/images/schools/furen-international-school/card.webp",
+      "profile": "/images/schools/furen-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Furen_International_School_campus1.jpg",
+      "photo1": "/images/schools/furen-international-school/photo1.webp",
+      "photo2": "/images/schools/furen-international-school/photo2.webp",
+      "photo3": "/images/schools/furen-international-school/photo3.webp"
+    },
+    "gess": {
+      "card": "/images/schools/gess/card.webp",
+      "profile": "/images/schools/gess/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_GIIS_SMART_Campus_Singapore_campus1.jpg",
+      "photo1": "/images/schools/gess/photo1.webp",
+      "photo2": "/images/schools/gess/photo2.webp",
+      "photo3": "/images/schools/gess/photo3.webp"
+    },
+    "hwa-chong-international-school": {
+      "card": "/images/schools/hwa-chong-international-school/card.webp",
+      "profile": "/images/schools/hwa-chong-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Hwa_Chong_International_School_campus1.jpg",
+      "photo1": "/images/schools/hwa-chong-international-school/photo1.webp",
+      "photo2": "/images/schools/hwa-chong-international-school/photo2.webp",
+      "photo3": "/images/schools/hwa-chong-international-school/photo3.webp"
+    },
+    "hwa-international-school": {
+      "card": "/images/schools/hwa-international-school/card.webp",
+      "profile": "/images/schools/hwa-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_HWA_International_School_campus1.jpg",
+      "photo1": "/images/schools/hwa-international-school/photo1.webp",
+      "photo2": "/images/schools/hwa-international-school/photo2.webp",
+      "photo3": "/images/schools/hwa-international-school/photo3.webp"
+    },
+    "insworld-institute": {
+      "card": "/images/schools/insworld-institute/card.webp",
+      "profile": "/images/schools/insworld-institute/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_INSWORLD_Institute_campus1.jpg",
+      "photo1": "/images/schools/insworld-institute/photo1.webp",
+      "photo2": "/images/schools/insworld-institute/photo2.webp",
+      "photo3": "/images/schools/insworld-institute/photo3.webp"
+    },
+    "integrated-international-school": {
+      "card": "/images/schools/integrated-international-school/card.webp",
+      "profile": "/images/schools/integrated-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Integrated_International_School_campus1.jpg",
+      "photo1": "/images/schools/integrated-international-school/photo1.webp",
+      "photo2": "/images/schools/integrated-international-school/photo2.webp",
+      "photo3": "/images/schools/integrated-international-school/photo3.webp"
+    },
+    "international-community-school": {
+      "card": "/images/schools/international-community-school/card.webp",
+      "profile": "/images/schools/international-community-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_International_Community_School_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/international-community-school/photo1.webp",
+      "photo2": "/images/schools/international-community-school/photo2.webp",
+      "photo3": "/images/schools/international-community-school/photo3.webp"
+    },
+    "invictus-international-school": {
+      "card": "/images/schools/invictus-international-school/card.webp",
+      "profile": "/images/schools/invictus-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Invictus_International_School_Singapore_campus1.jpg",
+      "photo1": "/images/schools/invictus-international-school/photo1.webp",
+      "photo2": "/images/schools/invictus-international-school/photo2.webp",
+      "photo3": "/images/schools/invictus-international-school/photo3.webp"
+    },
+    "iss-international-school": {
+      "card": "/images/schools/iss-international-school/card.webp",
+      "profile": "/images/schools/iss-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_ISS_International_School_campus1.jpg",
+      "photo1": "/images/schools/iss-international-school/photo1.webp",
+      "photo2": "/images/schools/iss-international-school/photo2.webp",
+      "photo3": "/images/schools/iss-international-school/photo3.webp"
+    },
+    "middleton-international-school": {
+      "card": "/images/schools/middleton-international-school/card.webp",
+      "profile": "/images/schools/middleton-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Middleton_International_School_campus1.jpg",
+      "photo1": "/images/schools/middleton-international-school/photo1.webp",
+      "photo2": "/images/schools/middleton-international-school/photo2.webp",
+      "photo3": "/images/schools/middleton-international-school/photo3.webp"
+    },
+    "nexus-international-school": {
+      "card": "/images/schools/nexus-international-school/card.webp",
+      "profile": "/images/schools/nexus-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Nexus_International_School_Singapore_campus1.jpg",
+      "photo1": "/images/schools/nexus-international-school/photo1.webp",
+      "photo2": "/images/schools/nexus-international-school/photo2.webp",
+      "photo3": "/images/schools/nexus-international-school/photo3.webp"
+    },
+    "north-london-collegiate-school": {
+      "card": "/images/schools/north-london-collegiate-school/card.webp",
+      "profile": "/images/schools/north-london-collegiate-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_North_London_Collegiate_School_Singapore_campus1.jpg",
+      "photo1": "/images/schools/north-london-collegiate-school/photo1.webp",
+      "photo2": "/images/schools/north-london-collegiate-school/photo2.webp",
+      "photo3": "/images/schools/north-london-collegiate-school/photo3.webp"
+    },
+    "nps-international-school": {
+      "card": "/images/schools/nps-international-school/card.webp",
+      "profile": "/images/schools/nps-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_NPS_International_School_Singapore_campus1.jpg",
+      "photo1": "/images/schools/nps-international-school/photo1.webp",
+      "photo2": "/images/schools/nps-international-school/photo2.webp",
+      "photo3": "/images/schools/nps-international-school/photo3.webp"
+    },
+    "one-world-international-school": {
+      "card": "/images/schools/one-world-international-school/card.webp",
+      "profile": "/images/schools/one-world-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_One_World_International_School_campus1.jpg",
+      "photo1": "/images/schools/one-world-international-school/photo1.webp",
+      "photo2": "/images/schools/one-world-international-school/photo2.webp",
+      "photo3": "/images/schools/one-world-international-school/photo3.webp"
+    },
+    "overseas-family-school": {
+      "card": "/images/schools/overseas-family-school/card.webp",
+      "profile": "/images/schools/overseas-family-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Overseas_Family_School_campus1.jpg",
+      "photo1": "/images/schools/overseas-family-school/photo1.webp",
+      "photo2": "/images/schools/overseas-family-school/photo2.webp",
+      "photo3": "/images/schools/overseas-family-school/photo3.webp"
+    },
+    "singapore-american-school": {
+      "card": "/images/schools/singapore-american-school/card.webp",
+      "profile": "/images/schools/singapore-american-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Singapore_American_School_campus1.jpg",
+      "photo1": "/images/schools/singapore-american-school/photo1.webp",
+      "photo2": "/images/schools/singapore-american-school/photo2.webp",
+      "photo3": "/images/schools/singapore-american-school/photo3.webp"
+    },
+    "singapore-korean-international-school": {
+      "card": "/images/schools/singapore-korean-international-school/card.webp",
+      "profile": "/images/schools/singapore-korean-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Korean_International_School_Singapore_campus1.jpg",
+      "photo1": "/images/schools/singapore-korean-international-school/photo1.webp",
+      "photo2": "/images/schools/singapore-korean-international-school/photo2.webp",
+      "photo3": "/images/schools/singapore-korean-international-school/photo3.webp"
+    },
+    "sir-manasseh-meyer-international-school": {
+      "card": "/images/schools/sir-manasseh-meyer-international-school/card.webp",
+      "profile": "/images/schools/sir-manasseh-meyer-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Manasseh_Meyer_School_campus1.jpg",
+      "photo1": "/images/schools/sir-manasseh-meyer-international-school/photo1.webp",
+      "photo2": "/images/schools/sir-manasseh-meyer-international-school/photo2.webp",
+      "photo3": "/images/schools/sir-manasseh-meyer-international-school/photo3.webp"
+    },
+    "st-francis-methodist-school": {
+      "card": "/images/schools/st-francis-methodist-school/card.webp",
+      "profile": "/images/schools/st-francis-methodist-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_St_Josephs_Institution_International_School_campus1.jpg",
+      "photo1": "/images/schools/st-francis-methodist-school/photo1.webp",
+      "photo2": "/images/schools/st-francis-methodist-school/photo2.webp",
+      "photo3": "/images/schools/st-francis-methodist-school/photo3.webp"
+    },
+    "stamford-american-international-school": {
+      "card": "/images/schools/stamford-american-international-school/card.webp",
+      "profile": "/images/schools/stamford-american-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Stamford_American_International_School_campus1.jpg",
+      "photo1": "/images/schools/stamford-american-international-school/photo1.webp",
+      "photo2": "/images/schools/stamford-american-international-school/photo2.webp",
+      "photo3": "/images/schools/stamford-american-international-school/photo3.webp"
+    },
+    "swiss-school-in": {
+      "card": "/images/schools/swiss-school-in/card.webp",
+      "profile": "/images/schools/swiss-school-in/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Swiss_School_Singapore_campus1.jpg",
+      "photo1": "/images/schools/swiss-school-in/photo1.webp",
+      "photo2": "/images/schools/swiss-school-in/photo2.webp",
+      "photo3": "/images/schools/swiss-school-in/photo3.webp"
+    },
+    "tanglin-trust-school": {
+      "card": "/images/schools/tanglin-trust-school/card.webp",
+      "profile": "/images/schools/tanglin-trust-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Tanglin_Trust_School_campus1.jpg",
+      "photo1": "/images/schools/tanglin-trust-school/photo1.webp",
+      "photo2": "/images/schools/tanglin-trust-school/photo2.webp",
+      "photo3": "/images/schools/tanglin-trust-school/photo3.webp"
+    },
+    "the-grange-institution-and-international-preschool": {
+      "card": "/images/schools/the-grange-institution-and-international-preschool/card.webp",
+      "profile": "/images/schools/the-grange-institution-and-international-preschool/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_The_Grange_Institution_campus1.jpg",
+      "photo1": "/images/schools/the-grange-institution-and-international-preschool/photo1.webp",
+      "photo2": "/images/schools/the-grange-institution-and-international-preschool/photo2.webp",
+      "photo3": "/images/schools/the-grange-institution-and-international-preschool/photo3.webp"
+    },
+    "the-straits-waldorf-school": {
+      "card": "/images/schools/the-straits-waldorf-school/card.webp",
+      "profile": "/images/schools/the-straits-waldorf-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_Waldorf_Steiner_School_Singapore_campus1.jpg",
+      "photo1": "/images/schools/the-straits-waldorf-school/photo1.webp",
+      "photo2": "/images/schools/the-straits-waldorf-school/photo2.webp",
+      "photo3": "/images/schools/the-straits-waldorf-school/photo3.webp"
+    },
+    "xcl-world-academy": {
+      "card": "/images/schools/xcl-world-academy/card.webp",
+      "profile": "/images/schools/xcl-world-academy/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Singapore_XCL_World_Academy_campus1.jpg",
+      "photo1": "/images/schools/xcl-world-academy/photo1.webp",
+      "photo2": "/images/schools/xcl-world-academy/photo2.webp",
+      "photo3": "/images/schools/xcl-world-academy/photo3.webp"
+    },
+    "dubai-college": {
+      "card": "/images/schools/dubai-college/card.webp",
+      "profile": "/images/schools/dubai-college/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Dubai_Dubai_College_campus1.jpg",
+      "photo1": "/images/schools/dubai-college/photo1.webp",
+      "photo2": "/images/schools/dubai-college/photo2.webp",
+      "photo3": "/images/schools/dubai-college/photo3.webp"
+    },
+    "gems-world-academy": {
+      "card": "/images/schools/gems-world-academy/card.webp",
+      "profile": "/images/schools/gems-world-academy/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Dubai_GEMS_World_Academy_Dubai_campus1.jpg",
+      "photo1": "/images/schools/gems-world-academy/photo1.webp",
+      "photo2": "/images/schools/gems-world-academy/photo2.webp",
+      "photo3": "/images/schools/gems-world-academy/photo3.webp"
+    },
+    "jumeirah-english-speaking-school": {
+      "card": "/images/schools/jumeirah-english-speaking-school/card.webp",
+      "profile": "/images/schools/jumeirah-english-speaking-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Dubai_Jumeirah_English_Speaking_School_campus1.jpg",
+      "photo1": "/images/schools/jumeirah-english-speaking-school/photo1.webp",
+      "photo2": "/images/schools/jumeirah-english-speaking-school/photo2.webp",
+      "photo3": "/images/schools/jumeirah-english-speaking-school/photo3.webp"
+    },
+    "nord-anglia-international-school": {
+      "card": "/images/schools/nord-anglia-international-school/card.webp",
+      "profile": "/images/schools/nord-anglia-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Dubai_Nord_Anglia_International_School_Dubai_campus1.jpg",
+      "photo1": "/images/schools/nord-anglia-international-school/photo1.webp",
+      "photo2": "/images/schools/nord-anglia-international-school/photo2.webp",
+      "photo3": "/images/schools/nord-anglia-international-school/photo3.webp"
+    },
+    "repton-school": {
+      "card": "/images/schools/repton-school/card.webp",
+      "profile": "/images/schools/repton-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Dubai_Repton_School_Dubai_campus1.jpg",
+      "photo1": "/images/schools/repton-school/photo1.webp",
+      "photo2": "/images/schools/repton-school/photo2.webp",
+      "photo3": "/images/schools/repton-school/photo3.webp"
+    },
+    "amnuay-silpa-school": {
+      "card": "/images/schools/amnuay-silpa-school/card.webp",
+      "profile": "/images/schools/amnuay-silpa-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Amnuay_Silpa_School_campus1.jpg",
+      "photo1": "/images/schools/amnuay-silpa-school/photo1.webp",
+      "photo2": "/images/schools/amnuay-silpa-school/photo2.webp",
+      "photo3": "/images/schools/amnuay-silpa-school/photo3.webp"
+    },
+    "anglo-singapore-international-school": {
+      "card": "/images/schools/anglo-singapore-international-school/card.webp",
+      "profile": "/images/schools/anglo-singapore-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Anglo_Singapore_International_School_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/anglo-singapore-international-school/photo1.webp",
+      "photo2": "/images/schools/anglo-singapore-international-school/photo2.webp",
+      "photo3": "/images/schools/anglo-singapore-international-school/photo3.webp"
+    },
+    "ascot-international-school": {
+      "card": "/images/schools/ascot-international-school/card.webp",
+      "profile": "/images/schools/ascot-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Ascot_International_School_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/ascot-international-school/photo1.webp",
+      "photo2": "/images/schools/ascot-international-school/photo2.webp",
+      "photo3": "/images/schools/ascot-international-school/photo3.webp"
+    },
+    "bangkok-christian-international-school": {
+      "card": "/images/schools/bangkok-christian-international-school/card.webp",
+      "profile": "/images/schools/bangkok-christian-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Bangkok_Christian_International_School_campus1.jpg",
+      "photo1": "/images/schools/bangkok-christian-international-school/photo1.webp",
+      "photo2": "/images/schools/bangkok-christian-international-school/photo2.webp",
+      "photo3": "/images/schools/bangkok-christian-international-school/photo3.webp"
+    },
+    "bangkok-international-preparatory-secondary-school": {
+      "card": "/images/schools/bangkok-international-preparatory-secondary-school/card.webp",
+      "profile": "/images/schools/bangkok-international-preparatory-secondary-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Bangkok_International_Preparatory_Secondary_School_campus1.jpg",
+      "photo1": "/images/schools/bangkok-international-preparatory-secondary-school/photo1.webp",
+      "photo2": "/images/schools/bangkok-international-preparatory-secondary-school/photo2.webp",
+      "photo3": "/images/schools/bangkok-international-preparatory-secondary-school/photo3.webp"
+    },
+    "bangkok-patana-school": {
+      "card": "/images/schools/bangkok-patana-school/card.webp",
+      "profile": "/images/schools/bangkok-patana-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Bangkok_Patana_School_campus1.jpg",
+      "photo1": "/images/schools/bangkok-patana-school/photo1.webp",
+      "photo2": "/images/schools/bangkok-patana-school/photo2.webp",
+      "photo3": "/images/schools/bangkok-patana-school/photo3.webp"
+    },
+    "berkeley-international-school": {
+      "card": "/images/schools/berkeley-international-school/card.webp",
+      "profile": "/images/schools/berkeley-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Berkeley_International_School_campus1.jpg",
+      "photo1": "/images/schools/berkeley-international-school/photo1.webp",
+      "photo2": "/images/schools/berkeley-international-school/photo2.webp",
+      "photo3": "/images/schools/berkeley-international-school/photo3.webp"
+    },
+    "bromsgrove-international-school-thailand": {
+      "card": "/images/schools/bromsgrove-international-school-thailand/card.webp",
+      "profile": "/images/schools/bromsgrove-international-school-thailand/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Bromsgrove_International_School_Thailand_campus1.jpg",
+      "photo1": "/images/schools/bromsgrove-international-school-thailand/photo1.webp",
+      "photo2": "/images/schools/bromsgrove-international-school-thailand/photo2.webp",
+      "photo3": "/images/schools/bromsgrove-international-school-thailand/photo3.webp"
+    },
+    "canadian-international-school-of-thailand": {
+      "card": "/images/schools/canadian-international-school-of-thailand/card.webp",
+      "profile": "/images/schools/canadian-international-school-of-thailand/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_New_International_School_of_Thailand_campus1.jpg",
+      "photo1": "/images/schools/canadian-international-school-of-thailand/photo1.webp",
+      "photo2": "/images/schools/canadian-international-school-of-thailand/photo2.webp",
+      "photo3": "/images/schools/canadian-international-school-of-thailand/photo3.webp"
+    },
+    "charter-international-school": {
+      "card": "/images/schools/charter-international-school/card.webp",
+      "profile": "/images/schools/charter-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Charter_International_School_campus1.jpg",
+      "photo1": "/images/schools/charter-international-school/photo1.webp",
+      "photo2": "/images/schools/charter-international-school/photo2.webp",
+      "photo3": "/images/schools/charter-international-school/photo3.webp"
+    },
+    "concordian-international-school": {
+      "card": "/images/schools/concordian-international-school/card.webp",
+      "profile": "/images/schools/concordian-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Concordian_International_School_campus1.jpg",
+      "photo1": "/images/schools/concordian-international-school/photo1.webp",
+      "photo2": "/images/schools/concordian-international-school/photo2.webp",
+      "photo3": "/images/schools/concordian-international-school/photo3.webp"
+    },
+    "d-prep-international-school": {
+      "card": "/images/schools/d-prep-international-school/card.webp",
+      "profile": "/images/schools/d-prep-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_D-PREP_International_School_campus1.jpg",
+      "photo1": "/images/schools/d-prep-international-school/photo1.webp",
+      "photo2": "/images/schools/d-prep-international-school/photo2.webp",
+      "photo3": "/images/schools/d-prep-international-school/photo3.webp"
+    },
+    "dbs-denla-british-school": {
+      "card": "/images/schools/dbs-denla-british-school/card.webp",
+      "profile": "/images/schools/dbs-denla-british-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Denla_British_School_campus1.jpg",
+      "photo1": "/images/schools/dbs-denla-british-school/photo1.webp",
+      "photo2": "/images/schools/dbs-denla-british-school/photo2.webp",
+      "photo3": "/images/schools/dbs-denla-british-school/photo3.webp"
+    },
+    "ekamai-international-school": {
+      "card": "/images/schools/ekamai-international-school/card.webp",
+      "profile": "/images/schools/ekamai-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Ekamai_International_School_campus1.jpg",
+      "photo1": "/images/schools/ekamai-international-school/photo1.webp",
+      "photo2": "/images/schools/ekamai-international-school/photo2.webp",
+      "photo3": "/images/schools/ekamai-international-school/photo3.webp"
+    },
+    "garden-international-school": {
+      "card": "/images/schools/garden-international-school/card.webp",
+      "profile": "/images/schools/garden-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Garden_International_School_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/garden-international-school/photo1.webp",
+      "photo2": "/images/schools/garden-international-school/photo2.webp",
+      "photo3": "/images/schools/garden-international-school/photo3.webp"
+    },
+    "glory-singapore-international-school": {
+      "card": "/images/schools/glory-singapore-international-school/card.webp",
+      "profile": "/images/schools/glory-singapore-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Glory_International_School_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/glory-singapore-international-school/photo1.webp",
+      "photo2": "/images/schools/glory-singapore-international-school/photo2.webp",
+      "photo3": "/images/schools/glory-singapore-international-school/photo3.webp"
+    },
+    "heathfield-international-school": {
+      "card": "/images/schools/heathfield-international-school/card.webp",
+      "profile": "/images/schools/heathfield-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Heathfield_International_School_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/heathfield-international-school/photo1.webp",
+      "photo2": "/images/schools/heathfield-international-school/photo2.webp",
+      "photo3": "/images/schools/heathfield-international-school/photo3.webp"
+    },
+    "international-school": {
+      "card": "/images/schools/international-school/card.webp",
+      "profile": "/images/schools/international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Yew_Chung_International_School_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/international-school/photo1.webp",
+      "photo2": "/images/schools/international-school/photo2.webp",
+      "photo3": "/images/schools/international-school/photo3.webp"
+    },
+    "kevalee-international-school": {
+      "card": "/images/schools/kevalee-international-school/card.webp",
+      "profile": "/images/schools/kevalee-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Kevalee_International_School_campus1.jpg",
+      "photo1": "/images/schools/kevalee-international-school/photo1.webp",
+      "photo2": "/images/schools/kevalee-international-school/photo2.webp",
+      "photo3": "/images/schools/kevalee-international-school/photo3.webp"
+    },
+    "kids-academy-international-school": {
+      "card": "/images/schools/kids-academy-international-school/card.webp",
+      "profile": "/images/schools/kids-academy-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Media_Kids_Academy_campus1.jpg",
+      "photo1": "/images/schools/kids-academy-international-school/photo1.webp",
+      "photo2": "/images/schools/kids-academy-international-school/photo2.webp",
+      "photo3": "/images/schools/kids-academy-international-school/photo3.webp"
+    },
+    "kincaid-international-school-of": {
+      "card": "/images/schools/kincaid-international-school-of/card.webp",
+      "profile": "/images/schools/kincaid-international-school-of/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Kincaid_International_School_of_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/kincaid-international-school-of/photo1.webp",
+      "photo2": "/images/schools/kincaid-international-school-of/photo2.webp",
+      "photo3": "/images/schools/kincaid-international-school-of/photo3.webp"
+    },
+    "kis-international-school": {
+      "card": "/images/schools/kis-international-school/card.webp",
+      "profile": "/images/schools/kis-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_KIS_International_School_campus1.jpg",
+      "photo1": "/images/schools/kis-international-school/photo1.webp",
+      "photo2": "/images/schools/kis-international-school/photo2.webp",
+      "photo3": "/images/schools/kis-international-school/photo3.webp"
+    },
+    "lycee-francais-international-de": {
+      "card": "/images/schools/lycee-francais-international-de/card.webp",
+      "profile": "/images/schools/lycee-francais-international-de/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Lycee_Francais_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/lycee-francais-international-de/photo1.webp",
+      "photo2": "/images/schools/lycee-francais-international-de/photo2.webp",
+      "photo3": "/images/schools/lycee-francais-international-de/photo3.webp"
+    },
+    "magic-years-international-school": {
+      "card": "/images/schools/magic-years-international-school/card.webp",
+      "profile": "/images/schools/magic-years-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Magic_Years_International_School_campus1.jpg",
+      "photo1": "/images/schools/magic-years-international-school/photo1.webp",
+      "photo2": "/images/schools/magic-years-international-school/photo2.webp",
+      "photo3": "/images/schools/magic-years-international-school/photo3.webp"
+    },
+    "modern-international-school": {
+      "card": "/images/schools/modern-international-school/card.webp",
+      "profile": "/images/schools/modern-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Modern_International_School_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/modern-international-school/photo1.webp",
+      "photo2": "/images/schools/modern-international-school/photo2.webp",
+      "photo3": "/images/schools/modern-international-school/photo3.webp"
+    },
+    "nist-international-school": {
+      "card": "/images/schools/nist-international-school/card.webp",
+      "profile": "/images/schools/nist-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_NIST_International_School_campus1.jpg",
+      "photo1": "/images/schools/nist-international-school/photo1.webp",
+      "photo2": "/images/schools/nist-international-school/photo2.webp",
+      "photo3": "/images/schools/nist-international-school/photo3.webp"
+    },
+    "pan-asia-international-school": {
+      "card": "/images/schools/pan-asia-international-school/card.webp",
+      "profile": "/images/schools/pan-asia-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Pan-Asia_International_School_campus1.jpg",
+      "photo1": "/images/schools/pan-asia-international-school/photo1.webp",
+      "photo2": "/images/schools/pan-asia-international-school/photo2.webp",
+      "photo3": "/images/schools/pan-asia-international-school/photo3.webp"
+    },
+    "ramkhamhaeng-advent-international-school": {
+      "card": "/images/schools/ramkhamhaeng-advent-international-school/card.webp",
+      "profile": "/images/schools/ramkhamhaeng-advent-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Ramkhamhaeng_Advent_International_School_campus1.jpg",
+      "photo1": "/images/schools/ramkhamhaeng-advent-international-school/photo1.webp",
+      "photo2": "/images/schools/ramkhamhaeng-advent-international-school/photo2.webp",
+      "photo3": "/images/schools/ramkhamhaeng-advent-international-school/photo3.webp"
+    },
+    "ris-swiss-section-deutschsprachige-schule": {
+      "card": "/images/schools/ris-swiss-section-deutschsprachige-schule/card.webp",
+      "profile": "/images/schools/ris-swiss-section-deutschsprachige-schule/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_RIS_Swiss_Section_campus1.jpg",
+      "photo1": "/images/schools/ris-swiss-section-deutschsprachige-schule/photo1.webp",
+      "photo2": "/images/schools/ris-swiss-section-deutschsprachige-schule/photo2.webp",
+      "photo3": "/images/schools/ris-swiss-section-deutschsprachige-schule/photo3.webp"
+    },
+    "ruamrudee-international-school": {
+      "card": "/images/schools/ruamrudee-international-school/card.webp",
+      "profile": "/images/schools/ruamrudee-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Ruamrudee_International_School_campus1.jpg",
+      "photo1": "/images/schools/ruamrudee-international-school/photo1.webp",
+      "photo2": "/images/schools/ruamrudee-international-school/photo2.webp",
+      "photo3": "/images/schools/ruamrudee-international-school/photo3.webp"
+    },
+    "sarasas-ektra-school": {
+      "card": "/images/schools/sarasas-ektra-school/card.webp",
+      "profile": "/images/schools/sarasas-ektra-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Sarasas_Ektra_School_campus1.jpg",
+      "photo1": "/images/schools/sarasas-ektra-school/photo1.webp",
+      "photo2": "/images/schools/sarasas-ektra-school/photo2.webp",
+      "photo3": "/images/schools/sarasas-ektra-school/photo3.webp"
+    },
+    "satit-bilingual-school-of-rangsit-university": {
+      "card": "/images/schools/satit-bilingual-school-of-rangsit-university/card.webp",
+      "profile": "/images/schools/satit-bilingual-school-of-rangsit-university/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Satit_International_Bilingual_School_campus1.jpg",
+      "photo1": "/images/schools/satit-bilingual-school-of-rangsit-university/photo1.webp",
+      "photo2": "/images/schools/satit-bilingual-school-of-rangsit-university/photo2.webp",
+      "photo3": "/images/schools/satit-bilingual-school-of-rangsit-university/photo3.webp"
+    },
+    "shrewsbury-international-school": {
+      "card": "/images/schools/shrewsbury-international-school/card.webp",
+      "profile": "/images/schools/shrewsbury-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Shrewsbury_International_School_City_Campus_campus1.jpg",
+      "photo1": "/images/schools/shrewsbury-international-school/photo1.webp",
+      "photo2": "/images/schools/shrewsbury-international-school/photo2.webp",
+      "photo3": "/images/schools/shrewsbury-international-school/photo3.webp"
+    },
+    "singapore-international-school-of": {
+      "card": "/images/schools/singapore-international-school-of/card.webp",
+      "profile": "/images/schools/singapore-international-school-of/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Singapore_International_School_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/singapore-international-school-of/photo1.webp",
+      "photo2": "/images/schools/singapore-international-school-of/photo2.webp",
+      "photo3": "/images/schools/singapore-international-school-of/photo3.webp"
+    },
+    "st-andrews-international-school": {
+      "card": "/images/schools/st-andrews-international-school/card.webp",
+      "profile": "/images/schools/st-andrews-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_St_Stephens_International_School_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/st-andrews-international-school/photo1.webp",
+      "photo2": "/images/schools/st-andrews-international-school/photo2.webp",
+      "photo3": "/images/schools/st-andrews-international-school/photo3.webp"
+    },
+    "st-andrews-international-school-dusit": {
+      "card": "/images/schools/st-andrews-international-school-dusit/card.webp",
+      "profile": "/images/schools/st-andrews-international-school-dusit/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_St_Andrews_International_School_Dusit_campus1.jpg",
+      "photo1": "/images/schools/st-andrews-international-school-dusit/photo1.webp",
+      "photo2": "/images/schools/st-andrews-international-school-dusit/photo2.webp",
+      "photo3": "/images/schools/st-andrews-international-school-dusit/photo3.webp"
+    },
+    "st-andrews-international-school-sathorn": {
+      "card": "/images/schools/st-andrews-international-school-sathorn/card.webp",
+      "profile": "/images/schools/st-andrews-international-school-sathorn/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_St_Andrews_International_School_Sathorn_campus1.jpg",
+      "photo1": "/images/schools/st-andrews-international-school-sathorn/photo1.webp",
+      "photo2": "/images/schools/st-andrews-international-school-sathorn/photo2.webp",
+      "photo3": "/images/schools/st-andrews-international-school-sathorn/photo3.webp"
+    },
+    "thai-chinese-international-school": {
+      "card": "/images/schools/thai-chinese-international-school/card.webp",
+      "profile": "/images/schools/thai-chinese-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Thai-Chinese_International_School_campus1.jpg",
+      "photo1": "/images/schools/thai-chinese-international-school/photo1.webp",
+      "photo2": "/images/schools/thai-chinese-international-school/photo2.webp",
+      "photo3": "/images/schools/thai-chinese-international-school/photo3.webp"
+    },
+    "thai-international-school": {
+      "card": "/images/schools/thai-international-school/card.webp",
+      "profile": "/images/schools/thai-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Thai_Sikh_International_School_campus1.jpg",
+      "photo1": "/images/schools/thai-international-school/photo1.webp",
+      "photo2": "/images/schools/thai-international-school/photo2.webp",
+      "photo3": "/images/schools/thai-international-school/photo3.webp"
+    },
+    "the-american-school-of-bangkok-green-valley-campus": {
+      "card": "/images/schools/the-american-school-of-bangkok-green-valley-campus/card.webp",
+      "profile": "/images/schools/the-american-school-of-bangkok-green-valley-campus/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_The_Regents_School_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/the-american-school-of-bangkok-green-valley-campus/photo1.webp",
+      "photo2": "/images/schools/the-american-school-of-bangkok-green-valley-campus/photo2.webp",
+      "photo3": "/images/schools/the-american-school-of-bangkok-green-valley-campus/photo3.webp"
+    },
+    "traill-international-school": {
+      "card": "/images/schools/traill-international-school/card.webp",
+      "profile": "/images/schools/traill-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Traill_International_School_campus1.jpg",
+      "photo1": "/images/schools/traill-international-school/photo1.webp",
+      "photo2": "/images/schools/traill-international-school/photo2.webp",
+      "photo3": "/images/schools/traill-international-school/photo3.webp"
+    },
+    "trinity-international-school": {
+      "card": "/images/schools/trinity-international-school/card.webp",
+      "profile": "/images/schools/trinity-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Trinity_International_School_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/trinity-international-school/photo1.webp",
+      "photo2": "/images/schools/trinity-international-school/photo2.webp",
+      "photo3": "/images/schools/trinity-international-school/photo3.webp"
+    },
+    "verso-international-school": {
+      "card": "/images/schools/verso-international-school/card.webp",
+      "profile": "/images/schools/verso-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_VERSO_International_School_campus1.jpg",
+      "photo1": "/images/schools/verso-international-school/photo1.webp",
+      "photo2": "/images/schools/verso-international-school/photo2.webp",
+      "photo3": "/images/schools/verso-international-school/photo3.webp"
+    },
+    "wellington-college-international-school": {
+      "card": "/images/schools/wellington-college-international-school/card.webp",
+      "profile": "/images/schools/wellington-college-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Wellington_College_International_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/wellington-college-international-school/photo1.webp",
+      "photo2": "/images/schools/wellington-college-international-school/photo2.webp",
+      "photo3": "/images/schools/wellington-college-international-school/photo3.webp"
+    },
+    "wells-international-school": {
+      "card": "/images/schools/wells-international-school/card.webp",
+      "profile": "/images/schools/wells-international-school/profile.webp",
+      "sourceFolder": "The Guide/Images",
+      "sourceFile": "Bangkok_Wells_International_School_campus1.jpg",
+      "photo1": "/images/schools/wells-international-school/photo1.webp",
+      "photo2": "/images/schools/wells-international-school/photo2.webp",
+      "photo3": "/images/schools/wells-international-school/photo3.webp"
     }
   },
   "unmappedSourceFolders": [],
