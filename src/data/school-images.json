@@ -841,6 +841,12 @@
       "photo2": "/images/schools/the-straits-waldorf-school/photo2.webp",
       "photo3": "/images/schools/the-straits-waldorf-school/photo3.webp"
     },
+    "the-winstedt-school": {
+      "card": "/images/schools/the-winstedt-school/card.webp",
+      "profile": "/images/schools/the-winstedt-school/profile.webp",
+      "photo1": "/images/schools/the-winstedt-school/photo1.webp",
+      "photo2": "/images/schools/the-winstedt-school/photo2.webp"
+    },
     "xcl-world-academy": {
       "card": "/images/schools/xcl-world-academy/card.webp",
       "profile": "/images/schools/xcl-world-academy/profile.webp",
