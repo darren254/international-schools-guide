@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 };
 
 const EDITORS_PICKS_SLUGS = [
-  "isj-vs-bsj",
-  "questions-to-ask-on-a-school-tour",
-  "international-school-accreditation-explained",
-  "cambridge-vs-ib-jakarta",
-  "best-international-schools-jakarta-secondary",
+  "best-international-schools-jakarta",
+  "international-school-fees-jakarta",
+  "best-british-schools-jakarta",
+  "best-international-schools-south-jakarta",
+  "affordable-international-schools-jakarta",
 ];
 
 const MOST_READ_SLUGS = [
@@ -267,9 +267,9 @@ export default function InsightsPage() {
             </section>
           </div>
 
-          {/* Sidebar — desktop only, sticky */}
+          {/* Sidebar — desktop only, scrolls with page (FT-style, no sticky) */}
           <aside className="xl:block hidden">
-            <div className="sticky top-24 space-y-8">
+            <div className="space-y-8">
               <section className="border border-warm-border rounded-sm p-4 bg-cream-200">
                 <h2 className="font-display text-xl text-charcoal mb-4 border-b border-warm-border pb-2">
                   Editor&apos;s picks
