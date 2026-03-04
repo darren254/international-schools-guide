@@ -72,7 +72,19 @@ export default function HomePage() {
                       alt={`${city.name} skyline`}
                       className="w-full h-full object-cover school-image absolute inset-0"
                       loading="lazy"
+                      width={800}
+                      height={400}
                     />
+                    {city.slug === "jakarta" && (
+                      <a
+                        href="https://www.pexels.com/@javaistan/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="absolute bottom-1.5 right-2 text-[10px] text-white/90 hover:text-white font-body no-underline z-10 drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]"
+                      >
+                        Photo: Javaistan / Pexels
+                      </a>
+                    )}
                     {city.live && (
                       <span className="absolute top-2 right-2 bg-hermes text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded z-10">
                         Live
