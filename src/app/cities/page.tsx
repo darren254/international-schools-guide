@@ -19,14 +19,7 @@ function CityCard({
     <>
       <CityCardImage
         city={city}
-        photoCredit={
-          city.slug === "jakarta"
-            ? {
-                label: "Photo: Javaistan / Pexels",
-                href: "https://www.pexels.com/@javaistan/",
-              }
-            : undefined
-        }
+        photoCredit={city.photoCredit}
       />
       <div className="p-5">
         <div className="flex items-baseline justify-between mb-2">
@@ -68,13 +61,13 @@ function CityCard({
   return city.live ? (
     <Link
       href={`/international-schools/${city.slug}/`}
-      className="group border border-warm-border rounded-sm overflow-hidden hover:border-charcoal-muted transition-colors bg-cream-50 block"
+      className="group border-2 border-hermes rounded-sm overflow-hidden hover:border-hermes-hover transition-colors bg-cream-50 block"
     >
       {content}
     </Link>
   ) : (
     <div
-      className="border border-warm-border rounded-sm overflow-hidden bg-cream-50 opacity-80"
+      className="border border-charcoal-muted/40 rounded-sm overflow-hidden bg-cream-50"
       title="Coming soon"
     >
       {content}

@@ -71,14 +71,7 @@ export default function HomePage() {
                 <>
                   <CityCardImage
                     city={city}
-                    photoCredit={
-                      city.slug === "jakarta"
-                        ? {
-                            label: "Photo: Javaistan / Pexels",
-                            href: "https://www.pexels.com/@javaistan/",
-                          }
-                        : undefined
-                    }
+                    photoCredit={city.photoCredit}
                   />
                   <div className="p-3 md:p-4 flex flex-col min-w-0">
                     <div className="flex items-baseline justify-between gap-2 mb-1 min-w-0">
@@ -100,8 +93,8 @@ export default function HomePage() {
               );
 
               const wrapperClasses = city.live
-                ? "group border border-hermes md:border-2 rounded-sm overflow-hidden hover:shadow-lg transition-all duration-200 bg-cream-50 flex flex-col h-full"
-                : "group border border-warm-border rounded-sm overflow-hidden bg-cream-50 transition-all duration-200 flex flex-col h-full";
+                ? "group border-2 border-hermes rounded-sm overflow-hidden hover:shadow-lg transition-all duration-200 bg-cream-50 flex flex-col h-full"
+                : "group border border-charcoal-muted/40 rounded-sm overflow-hidden bg-cream-50 transition-all duration-200 flex flex-col h-full";
 
               return city.live ? (
                 <Link

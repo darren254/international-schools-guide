@@ -42,11 +42,6 @@ export function CityCardImage({ city, photoCredit }: CityCardImageProps) {
           {photoCredit.label}
         </a>
       )}
-      {city.live && (
-        <span className="absolute top-2 right-2 bg-black/55 text-white text-[0.625rem] font-bold uppercase tracking-wider px-2 py-0.5 rounded z-10 backdrop-blur-sm">
-          Live
-        </span>
-      )}
       {!city.live && city.comingNext && (
         <span className="absolute top-2 right-2 bg-charcoal/90 text-white text-[0.625rem] font-semibold uppercase tracking-wide px-2 py-0.5 rounded z-10 backdrop-blur-sm">
           Coming next
@@ -54,7 +49,7 @@ export function CityCardImage({ city, photoCredit }: CityCardImageProps) {
       )}
       {!city.live && !city.comingNext && (
         <span className="absolute top-2 right-2 text-[0.625rem] uppercase tracking-wider text-charcoal-muted bg-warm-white/95 px-2 py-0.5 rounded z-10 font-semibold backdrop-blur-sm">
-          Soon
+          Coming soon
         </span>
       )}
     </div>
