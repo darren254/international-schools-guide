@@ -89,7 +89,7 @@ export default function CitiesPage() {
         Browse by city
       </h1>
       <p className="text-charcoal-muted text-lg mb-10 max-w-2xl">
-        Choose a city to explore international schools, compare fees and find the right fit for your family.
+        Choose a city to find the right fit for your family.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
