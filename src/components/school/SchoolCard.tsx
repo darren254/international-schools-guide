@@ -65,10 +65,14 @@ export function SchoolCard({
 
   const inner = (
     <>
-      <div className="sm:w-[200px] sm:min-h-[180px] flex-shrink-0 bg-cream-300 relative">
+      <div className="w-full sm:w-[300px] sm:min-w-[300px] sm:aspect-[4/3] aspect-[4/3] flex-shrink-0 bg-cream-300 relative overflow-hidden">
         {imageUrl ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={imageUrl} alt={name} className="w-full h-full object-cover school-image" />
+          <img
+            src={imageUrl}
+            alt={name}
+            className="w-full h-full object-cover transition-transform duration-300 ease-out group-hover:scale-105"
+          />
         ) : (
           <div className="w-full h-full min-h-[140px] sm:min-h-full flex items-center justify-center text-charcoal-muted/30 text-[0.625rem] uppercase tracking-widest">
             Photo
@@ -151,11 +155,11 @@ export function SchoolCard({
   return (
     <article className="border border-warm-border bg-warm-white overflow-hidden font-body">
       {profileHref ? (
-        <Link href={profileHref} className="block">
+        <Link href={profileHref} className="block group">
           <div className="flex flex-col sm:flex-row cursor-pointer">{inner}</div>
         </Link>
       ) : (
-        <div className="flex flex-col sm:flex-row cursor-pointer">{inner}</div>
+        <div className="flex flex-col sm:flex-row cursor-pointer group">{inner}</div>
       )}
     </article>
   );

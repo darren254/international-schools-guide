@@ -2,6 +2,7 @@
  * Fetch city card images from Pexels (by photo ID).
  * Resizes to 800px width, webp 78, saves to public/images/cities/<slug>.webp.
  * Run: npx tsx scripts/fetch-city-images-pexels.ts
+ * Use --force to re-download and replace existing images.
  * Optional: PEXELS_API_KEY in .env.local to use API search; otherwise uses config below.
  */
 
@@ -13,6 +14,8 @@ const OUTPUT_DIR = path.join(process.cwd(), "public", "images", "cities");
 const CARD_WIDTH = 800;
 const WEBP_QUALITY = 78;
 
+const force = process.argv.includes("--force");
+
 type CityImageConfig = {
   slug: string;
   /** Pexels photo ID (from photo page URL). */
@@ -21,14 +24,14 @@ type CityImageConfig = {
 
 const CITIES_TO_FETCH: CityImageConfig[] = [
   { slug: "london", pexelsPhotoId: "16622396" },
-  { slug: "riyadh", pexelsPhotoId: "3773288" },
-  { slug: "doha", pexelsPhotoId: "3773288" },
+  { slug: "riyadh", pexelsPhotoId: "325185" },
+  { slug: "doha", pexelsPhotoId: "2603464" },
   { slug: "shanghai", pexelsPhotoId: "169647" },
   { slug: "seoul", pexelsPhotoId: "237211" },
-  { slug: "munich", pexelsPhotoId: "2921140" },
-  { slug: "manila", pexelsPhotoId: "3773288" },
-  { slug: "hanoi", pexelsPhotoId: "3773288" },
-  { slug: "abu-dhabi", pexelsPhotoId: "3773288" },
+  { slug: "munich", pexelsPhotoId: "3847794" },
+  { slug: "manila", pexelsPhotoId: "10421637" },
+  { slug: "saigon", pexelsPhotoId: "2178179" },
+  { slug: "abu-dhabi", pexelsPhotoId: "12413177" },
 ];
 
 function pexelsImageUrl(photoId: string, ext = "jpeg"): string {
@@ -52,8 +55,8 @@ async function processCity(config: CityImageConfig): Promise<boolean> {
   const { slug, pexelsPhotoId } = config;
   const outPath = path.join(OUTPUT_DIR, `${slug}.webp`);
 
-  if (fs.existsSync(outPath)) {
-    console.log(`[skip] ${slug} (already exists)`);
+  if (!force && fs.existsSync(outPath)) {
+    console.log(`[skip] ${slug} (already exists; use --force to replace)`);
     return true;
   }
 

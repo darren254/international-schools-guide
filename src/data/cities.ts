@@ -87,14 +87,14 @@ export const CITIES: CityConfig[] = [
   },
   // Coming soon
   { name: "London", slug: "london", country: "UK", live: false, photoCredit: { label: "Photo: Zetong Li / Pexels", href: "https://www.pexels.com/@zetong-li-" } },
-  { name: "Riyadh", slug: "riyadh", country: "Saudi Arabia", live: false, photoCredit: { label: "Photo: Tom Fisk / Pexels", href: "https://www.pexels.com/@tomfisk" } },
-  { name: "Doha", slug: "doha", country: "Qatar", live: false, photoCredit: { label: "Photo: Tom Fisk / Pexels", href: "https://www.pexels.com/@tomfisk" } },
+  { name: "Riyadh", slug: "riyadh", country: "Saudi Arabia", live: false, photoCredit: { label: "Photo: Aleksandar Pasaric / Pexels", href: "https://www.pexels.com/@apasaric/" } },
+  { name: "Doha", slug: "doha", country: "Qatar", live: false, photoCredit: { label: "Photo: Aleksandar Pasaric / Pexels", href: "https://www.pexels.com/@apasaric/" } },
   { name: "Shanghai", slug: "shanghai", country: "China", live: false, photoCredit: { label: "Photo: Peng LIU / Pexels", href: "https://www.pexels.com/@peng-liu-185695" } },
   { name: "Seoul", slug: "seoul", country: "South Korea", live: false, photoCredit: { label: "Photo: Pixabay / Pexels", href: "https://www.pexels.com/@pixabay" } },
-  { name: "Munich", slug: "munich", country: "Germany", live: false, photoCredit: { label: "Photo: Pixabay / Pexels", href: "https://www.pexels.com/@pixabay" } },
-  { name: "Manila", slug: "manila", country: "Philippines", live: false, photoCredit: { label: "Photo: Tom Fisk / Pexels", href: "https://www.pexels.com/@tomfisk" } },
-  { name: "Hanoi", slug: "hanoi", country: "Vietnam", live: false, photoCredit: { label: "Photo: Tom Fisk / Pexels", href: "https://www.pexels.com/@tomfisk" } },
-  { name: "Abu Dhabi", slug: "abu-dhabi", country: "UAE", live: false, photoCredit: { label: "Photo: Tom Fisk / Pexels", href: "https://www.pexels.com/@tomfisk" } },
+  { name: "Munich", slug: "munich", country: "Germany", live: false, photoCredit: { label: "Photo: Felix Rottmann / Pexels", href: "https://www.pexels.com/@felixrottmann" } },
+  { name: "Manila", slug: "manila", country: "Philippines", live: false, photoCredit: { label: "Photo: Pixabay / Pexels", href: "https://www.pexels.com/@pixabay" } },
+  { name: "Saigon (HCMC)", slug: "saigon", country: "Vietnam", live: false, photoCredit: { label: "Photo: Pixabay / Pexels", href: "https://www.pexels.com/@pixabay" } },
+  { name: "Abu Dhabi", slug: "abu-dhabi", country: "UAE", live: false, photoCredit: { label: "Photo: Pixabay / Pexels", href: "https://www.pexels.com/@pixabay" } },
 ];
 
 export const LIVE_CITIES = CITIES.filter((c) => c.live);
