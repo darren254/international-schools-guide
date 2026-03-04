@@ -272,7 +272,6 @@ function ShortlistContent() {
                 .filter(Boolean)
                 .map((s) => toShortlistSchool(s!));
               const cityName = getCityName(citySlug);
-              const canCompare = schools.length >= 2;
 
               return (
                 <section key={citySlug} className="border-b border-warm-border pb-10 last:border-b-0">
@@ -281,14 +280,6 @@ function ShortlistContent() {
                       {cityName}
                     </h2>
                     <div className="flex flex-wrap items-center gap-3">
-                      {canCompare && (
-                        <Link
-                          href={`/international-schools/${citySlug}/compare`}
-                          className="inline-flex items-center gap-2 px-4 py-2.5 bg-hermes text-white text-[0.8125rem] font-semibold uppercase tracking-wider hover:bg-hermes-hover transition-colors rounded-sm"
-                        >
-                          Compare {schools.length} schools →
-                        </Link>
-                      )}
                       <Link
                         href={`/international-schools/${citySlug}/`}
                         className="inline-flex items-center text-sm font-medium text-hermes hover:text-hermes-hover transition-colors"

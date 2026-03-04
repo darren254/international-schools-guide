@@ -45,8 +45,8 @@ function buildFAQs(): FAQItem[] {
         "Start with your budget and preferred curriculum, then shortlist by location and age range. Visit schools, ask about teacher turnover, check accreditation, and talk to other parents. We've built our directory to help you filter and compare so you don't have to do it all manually.",
       links: [
         {
-          label: "Compare schools",
-          href: "/compare",
+          label: "Browse by city",
+          href: "/cities",
         },
       ],
     },

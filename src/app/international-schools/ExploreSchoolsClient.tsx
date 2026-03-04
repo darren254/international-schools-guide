@@ -102,9 +102,6 @@ export function ExploreSchoolsClient({
   const { exchangeRateDate } = useCurrency();
   const profileSet = useMemo(() => new Set(profileSlugs), [profileSlugs]);
 
-  const cityShortlist = shortlist ? shortlist.shortlistedSlugsForCity(citySlug) : [];
-  const showCompareBar = cityShortlist.length >= 2;
-
   const curriculumOptions = useMemo(() => {
     const present = new Set<string>();
     schools.forEach((s) => getCurriculumFilterLabels(s.curricula).forEach((l) => present.add(l)));
@@ -234,24 +231,6 @@ export function ExploreSchoolsClient({
           <p className="text-charcoal-muted py-8">No schools match your filters. Try changing curriculum or area.</p>
         )}
       </div>
-
-      {showCompareBar && (
-        <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-warm-border bg-warm-white/95 backdrop-blur-sm py-3 px-4">
-          <div className="container-site flex items-center justify-between">
-            <span className="text-[0.875rem] text-charcoal font-body">
-              {cityShortlist.length} school{cityShortlist.length !== 1 ? "s" : ""} shortlisted
-            </span>
-            <Link
-              href={`/international-schools/${citySlug}/compare`}
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-hermes text-white text-[0.8125rem] font-semibold uppercase tracking-wider hover:bg-hermes-hover transition-colors"
-            >
-              Compare {cityShortlist.length} schools →
-            </Link>
-          </div>
-        </div>
-      )}
-
-      {showCompareBar && <div className="h-16" />}
 
       <section className="pt-10 pb-12 border-t border-warm-border">
         <h2 className="font-display text-display-sm font-medium mb-2">Browse by city</h2>

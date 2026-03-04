@@ -9,11 +9,9 @@ export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const shortlist = useShortlistOptional();
   const shortlistCount = shortlist?.shortlistedSlugs.length ?? 0;
-  const compareHref = "/shortlist";
 
   const navLinks = [
     { href: "/cities", label: "Schools" },
-    { href: compareHref, label: "Compare" },
     { href: "/shortlist", label: shortlistCount > 0 ? `Shortlist (${shortlistCount})` : "Shortlist" },
     { href: "/insights/", label: "Insights" },
     { href: "/about/", label: "About" },

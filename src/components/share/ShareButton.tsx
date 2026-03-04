@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const BASE_URL = "https://international-schools-guide.com";
 
-export type ShareVariant = "article" | "shortlist" | "comparison";
+export type ShareVariant = "article" | "shortlist";
 
 interface ShareButtonArticleProps {
   variant: "article";
@@ -13,7 +13,7 @@ interface ShareButtonArticleProps {
 }
 
 interface ShareButtonReportProps {
-  variant: "shortlist" | "comparison";
+  variant: "shortlist";
   schoolSlugs: string[];
   /** Optional: other query params e.g. currency=USD */
   otherParams?: Record<string, string>;
@@ -22,10 +22,10 @@ interface ShareButtonReportProps {
 export type ShareButtonProps = ShareButtonArticleProps | ShareButtonReportProps;
 
 function buildReportUrl(
-  path: "/shortlist" | "/compare",
   schoolSlugs: string[],
   otherParams?: Record<string, string>
 ): string {
+  const path = "/shortlist";
   if (typeof window !== "undefined") {
     const origin = window.location.origin;
     const params = new URLSearchParams();
@@ -50,15 +50,13 @@ export function ShareButton(props: ShareButtonProps) {
 
   const getShareUrl = (): string => {
     if (props.variant === "article") return props.url;
-    const path = props.variant === "shortlist" ? "/shortlist" : "/compare";
     const other = "otherParams" in props ? props.otherParams : undefined;
-    return buildReportUrl(path, props.schoolSlugs, other);
+    return buildReportUrl(props.schoolSlugs, other);
   };
 
   const getEmailSubject = (): string => {
     if (props.variant === "article") return props.title;
-    if (props.variant === "shortlist") return "My Jakarta school shortlist";
-    return "My Jakarta school comparison";
+    return "My Jakarta school shortlist";
   };
 
   const getEmailBody = (): string => {
