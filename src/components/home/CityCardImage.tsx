@@ -17,7 +17,7 @@ export function CityCardImage({ city, photoCredit }: CityCardImageProps) {
       <img
         src={`/images/cities/${city.slug}.webp${city.slug === "jakarta" ? "?v=2" : ""}`}
         alt={`${city.name} skyline`}
-        className="w-full h-full object-cover object-center absolute inset-0"
+        className="w-full h-full object-cover object-center absolute inset-0 transition-transform duration-300 ease-out group-hover:scale-105"
         loading="lazy"
         width={800}
         height={400}
