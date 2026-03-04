@@ -15,6 +15,8 @@ export interface CityConfig {
   feeRange?: string;
   topCurricula?: string[];
   tagline?: string;
+  /** Optional Pexels (or other) attribution: small text on city card image. */
+  photoCredit?: { label: string; href: string };
 }
 
 export const CITIES: CityConfig[] = [
@@ -70,6 +72,7 @@ export const CITIES: CityConfig[] = [
     topCurricula: ["IB", "British", "Australian"],
     tagline:
       "Southeast Asia's largest city, home to JIS, BSJ, and 80+ international schools",
+    photoCredit: { label: "Photo: Javaistan / Pexels", href: "https://www.pexels.com/@javaistan/" },
   },
   {
     name: "Bangkok",
@@ -82,6 +85,16 @@ export const CITIES: CityConfig[] = [
     tagline:
       "Exceptional value with top-tier schools at a fraction of Singapore prices",
   },
+  // Coming soon
+  { name: "London", slug: "london", country: "UK", live: false, photoCredit: { label: "Photo: Zetong Li / Pexels", href: "https://www.pexels.com/@zetong-li-" } },
+  { name: "Riyadh", slug: "riyadh", country: "Saudi Arabia", live: false, photoCredit: { label: "Photo: Tom Fisk / Pexels", href: "https://www.pexels.com/@tomfisk" } },
+  { name: "Doha", slug: "doha", country: "Qatar", live: false, photoCredit: { label: "Photo: Tom Fisk / Pexels", href: "https://www.pexels.com/@tomfisk" } },
+  { name: "Shanghai", slug: "shanghai", country: "China", live: false, photoCredit: { label: "Photo: Peng LIU / Pexels", href: "https://www.pexels.com/@peng-liu-185695" } },
+  { name: "Seoul", slug: "seoul", country: "South Korea", live: false, photoCredit: { label: "Photo: Pixabay / Pexels", href: "https://www.pexels.com/@pixabay" } },
+  { name: "Munich", slug: "munich", country: "Germany", live: false, photoCredit: { label: "Photo: Pixabay / Pexels", href: "https://www.pexels.com/@pixabay" } },
+  { name: "Manila", slug: "manila", country: "Philippines", live: false, photoCredit: { label: "Photo: Tom Fisk / Pexels", href: "https://www.pexels.com/@tomfisk" } },
+  { name: "Hanoi", slug: "hanoi", country: "Vietnam", live: false, photoCredit: { label: "Photo: Tom Fisk / Pexels", href: "https://www.pexels.com/@tomfisk" } },
+  { name: "Abu Dhabi", slug: "abu-dhabi", country: "UAE", live: false, photoCredit: { label: "Photo: Tom Fisk / Pexels", href: "https://www.pexels.com/@tomfisk" } },
 ];
 
 export const LIVE_CITIES = CITIES.filter((c) => c.live);
