@@ -2,17 +2,13 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { useShortlistOptional } from "@/context/ShortlistContext";
 import { CurrencyToggle } from "@/components/layout/CurrencyToggle";
 
 export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const shortlist = useShortlistOptional();
-  const shortlistCount = shortlist?.shortlistedSlugs.length ?? 0;
 
   const navLinks = [
     { href: "/cities", label: "Schools" },
-    { href: "/shortlist", label: shortlistCount > 0 ? `Shortlist (${shortlistCount})` : "Shortlist" },
     { href: "/insights/", label: "Insights" },
     { href: "/about/", label: "About" },
   ];
