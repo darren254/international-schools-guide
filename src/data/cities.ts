@@ -19,17 +19,6 @@ export interface CityConfig {
 
 export const CITIES: CityConfig[] = [
   {
-    name: "Jakarta",
-    slug: "jakarta",
-    country: "Indonesia",
-    live: true,
-    schoolCount: 66,
-    feeRange: "US$5K – $36K / year",
-    topCurricula: ["IB", "British", "Australian"],
-    tagline:
-      "Southeast Asia's largest city, home to JIS, BSJ, and 80+ international schools",
-  },
-  {
     name: "Singapore",
     slug: "singapore",
     country: "Singapore",
@@ -39,27 +28,6 @@ export const CITIES: CityConfig[] = [
     topCurricula: ["IB", "British", "American"],
     tagline:
       "Asia's education hub with world-class IB and British curriculum schools",
-  },
-  {
-    name: "Bangkok",
-    slug: "bangkok",
-    country: "Thailand",
-    live: true,
-    schoolCount: 96,
-    feeRange: "US$4K – $30K / year",
-    topCurricula: ["IB", "British", "American"],
-    tagline:
-      "Exceptional value with top-tier schools at a fraction of Singapore prices",
-  },
-  {
-    name: "Dubai",
-    slug: "dubai",
-    country: "UAE",
-    live: true,
-    schoolCount: 172,
-    feeRange: "US$3K – $30K / year",
-    topCurricula: ["British", "IB", "American"],
-    tagline: "The world's most competitive international school market",
   },
   {
     name: "Hong Kong",
@@ -72,6 +40,16 @@ export const CITIES: CityConfig[] = [
     tagline: "Premier Asian hub blending British, IB, and local curricula",
   },
   {
+    name: "Dubai",
+    slug: "dubai",
+    country: "UAE",
+    live: true,
+    schoolCount: 172,
+    feeRange: "US$3K – $30K / year",
+    topCurricula: ["British", "IB", "American"],
+    tagline: "The world's most competitive international school market",
+  },
+  {
     name: "Kuala Lumpur",
     slug: "kuala-lumpur",
     country: "Malaysia",
@@ -81,6 +59,28 @@ export const CITIES: CityConfig[] = [
     topCurricula: ["British", "IB", "Australian"],
     tagline:
       "Outstanding value and quality - increasingly popular with expat families",
+  },
+  {
+    name: "Jakarta",
+    slug: "jakarta",
+    country: "Indonesia",
+    live: true,
+    schoolCount: 66,
+    feeRange: "US$5K – $36K / year",
+    topCurricula: ["IB", "British", "Australian"],
+    tagline:
+      "Southeast Asia's largest city, home to JIS, BSJ, and 80+ international schools",
+  },
+  {
+    name: "Bangkok",
+    slug: "bangkok",
+    country: "Thailand",
+    live: true,
+    schoolCount: 96,
+    feeRange: "US$4K – $30K / year",
+    topCurricula: ["IB", "British", "American"],
+    tagline:
+      "Exceptional value with top-tier schools at a fraction of Singapore prices",
   },
 ];
 
