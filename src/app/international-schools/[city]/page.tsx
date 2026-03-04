@@ -128,6 +128,7 @@ const CITY_CONFIGS: Record<string, CityPageConfig> = {
       { value: "", label: "All locations" },
       { value: "Sukhumvit", label: "Sukhumvit Corridor" },
       { value: "Silom & Sathorn", label: "Silom & Sathorn" },
+      { value: "Charoenkrung", label: "Charoenkrung / Riverside" },
       { value: "North Bangkok", label: "North Bangkok" },
       { value: "West Bangkok", label: "West Bangkok" },
       { value: "Other Bangkok", label: "Other Bangkok" },

@@ -9,6 +9,9 @@ type FilterDropdownMultiProps = {
   options: FilterDropdownOption[];
   selected: string[];
   onChange: (value: string[]) => void;
+  /** When provided, dropdown open state is controlled by parent (only one open at a time). */
+  isOpen?: boolean;
+  onOpenChange?: (open: boolean) => void;
 };
 
 export function FilterDropdownMulti({
@@ -16,8 +19,16 @@ export function FilterDropdownMulti({
   options,
   selected,
   onChange,
+  isOpen: controlledOpen,
+  onOpenChange,
 }: FilterDropdownMultiProps) {
-  const [open, setOpen] = useState(false);
+  const [internalOpen, setInternalOpen] = useState(false);
+  const isControlled = onOpenChange !== undefined;
+  const open = isControlled ? (controlledOpen ?? false) : internalOpen;
+  const setOpen = (value: boolean) => {
+    if (isControlled) onOpenChange(value);
+    else setInternalOpen(value);
+  };
 
   const toggle = (value: string) => {
     onChange(
@@ -78,7 +89,10 @@ export function FilterDropdownMulti({
                 type="button"
                 role="option"
                 aria-selected={selected.includes(opt.value)}
-                onClick={() => toggle(opt.value)}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  toggle(opt.value);
+                }}
                 className="flex items-center gap-2 w-full px-3 py-2 text-[0.8125rem] font-body text-left hover:bg-cream-200 transition-colors"
               >
                 <span

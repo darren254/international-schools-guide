@@ -14,7 +14,6 @@ import { getKualaLumpurLocationFilter } from "@/data/kuala-lumpur-schools";
 import { getSchoolImageUrl } from "@/lib/schools/images";
 import { useShortlistOptional } from "@/context/ShortlistContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import { CurrencyToggle } from "@/components/layout/CurrencyToggle";
 
 export interface SchoolListing {
   name: string;
@@ -97,6 +96,7 @@ export function ExploreSchoolsClient({
   const [curriculumFilter, setCurriculumFilter] = useState<string[]>([]);
   const [locationFilter, setLocationFilter] = useState<string[]>([]);
   const [feeSort, setFeeSort] = useState<FeeSortValue>("high-low");
+  const [openFilterId, setOpenFilterId] = useState<"curriculum" | "area" | "sort" | null>(null);
 
   const shortlist = useShortlistOptional();
   const { exchangeRateDate } = useCurrency();
@@ -154,18 +154,13 @@ export function ExploreSchoolsClient({
       </nav>
 
       <section className="pb-6 border-b border-warm-border">
-        <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
-          <div>
-            <h1 className="font-display text-[clamp(1.75rem,4vw,2.5rem)] font-medium tracking-tight leading-tight mb-1.5">
-              International Schools in {cityName}
-            </h1>
-            <p className="text-[0.9375rem] text-charcoal-muted font-body">
-              Filter by curriculum or area; sort by fees.
-            </p>
-          </div>
-          <div className="flex items-center gap-3 shrink-0">
-            <CurrencyToggle />
-          </div>
+        <div className="mb-4">
+          <h1 className="font-display text-[clamp(1.75rem,4vw,2.5rem)] font-medium tracking-tight leading-tight mb-1.5">
+            International Schools in {cityName}
+          </h1>
+          <p className="text-[0.9375rem] text-charcoal-muted font-body">
+            Filter by curriculum or area; sort by fees.
+          </p>
         </div>
 
         <div className="flex flex-wrap items-center gap-2 md:gap-3 overflow-x-auto pb-1 md:overflow-visible">
@@ -174,6 +169,8 @@ export function ExploreSchoolsClient({
             options={curriculumOptions}
             selected={curriculumFilter}
             onChange={setCurriculumFilter}
+            isOpen={openFilterId === "curriculum"}
+            onOpenChange={(open) => setOpenFilterId(open ? "curriculum" : null)}
           />
           {locationDropdownOptions.length > 0 && (
             <FilterDropdownMulti
@@ -181,9 +178,16 @@ export function ExploreSchoolsClient({
               options={locationDropdownOptions}
               selected={locationFilter}
               onChange={setLocationFilter}
+              isOpen={openFilterId === "area"}
+              onOpenChange={(open) => setOpenFilterId(open ? "area" : null)}
             />
           )}
-          <SortDropdown value={feeSort} onChange={setFeeSort} />
+          <SortDropdown
+            value={feeSort}
+            onChange={setFeeSort}
+            isOpen={openFilterId === "sort"}
+            onOpenChange={(open) => setOpenFilterId(open ? "sort" : null)}
+          />
           <span className="text-[0.8125rem] text-charcoal-muted font-body shrink-0 ml-auto">
             {filteredAndSorted.length} school{filteredAndSorted.length !== 1 ? "s" : ""}
           </span>

@@ -12,10 +12,19 @@ const OPTIONS: { value: FeeSortValue; label: string }[] = [
 type SortDropdownProps = {
   value: FeeSortValue;
   onChange: (value: FeeSortValue) => void;
+  /** When provided, dropdown open state is controlled by parent (only one open at a time). */
+  isOpen?: boolean;
+  onOpenChange?: (open: boolean) => void;
 };
 
-export function SortDropdown({ value, onChange }: SortDropdownProps) {
-  const [open, setOpen] = useState(false);
+export function SortDropdown({ value, onChange, isOpen: controlledOpen, onOpenChange }: SortDropdownProps) {
+  const [internalOpen, setInternalOpen] = useState(false);
+  const isControlled = onOpenChange !== undefined;
+  const open = isControlled ? (controlledOpen ?? false) : internalOpen;
+  const setOpen = (v: boolean) => {
+    if (isControlled) onOpenChange(v);
+    else setInternalOpen(v);
+  };
   const currentLabel = OPTIONS.find((o) => o.value === value)?.label ?? OPTIONS[0].label;
 
   return (
@@ -74,7 +83,8 @@ export function SortDropdown({ value, onChange }: SortDropdownProps) {
                 type="button"
                 role="option"
                 aria-selected={value === opt.value}
-                onClick={() => {
+                onClick={(e) => {
+                  e.stopPropagation();
                   onChange(opt.value);
                   setOpen(false);
                 }}
