@@ -11,5 +11,9 @@ next-env.d.ts
 # Generated API data (built at deploy)
 functions/api/data/
 
+# MCP config may contain API keys — use mcp.json.example as template
+.cursor/mcp.json
+
 # Import script logs (run overnight)
 scripts/logs/
+
