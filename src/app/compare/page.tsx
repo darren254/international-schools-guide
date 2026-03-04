@@ -131,17 +131,20 @@ function MultiSelect({
   );
 }
 
-function ShortlistButton({ slug }: { slug: string }) {
-  const { isShortlisted, toggleShortlist } = useShortlist();
-  const active = isShortlisted(slug);
+function ShortlistButton({ slug, citySlug }: { slug: string; citySlug: string }) {
+  const { isShortlistedInCity, toggleShortlist, shortlistedSlugsForCity } = useShortlist();
+  const active = isShortlistedInCity(slug, citySlug);
+  const cityList = shortlistedSlugsForCity(citySlug);
+  const canAdd = cityList.length < 4 || active;
   return (
     <button
       onClick={(e) => {
         e.preventDefault();
         e.stopPropagation();
-        toggleShortlist(slug);
+        toggleShortlist(slug, citySlug);
       }}
-      className={`text-xs uppercase tracking-wider font-semibold transition-colors whitespace-nowrap ${
+      disabled={!canAdd && !active}
+      className={`text-xs uppercase tracking-wider font-semibold transition-colors whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed ${
         active
           ? "text-hermes"
           : "text-charcoal-muted hover:text-hermes"
@@ -286,7 +289,7 @@ function CompareTableContent() {
                 </td>
                 <td className="py-3 px-3 text-charcoal-muted">{school.studentCount}</td>
                 <td className="py-3 px-3 text-right">
-                  <ShortlistButton slug={school.slug} />
+                  <ShortlistButton slug={school.slug} citySlug={school.citySlug} />
                 </td>
               </tr>
             ))}
@@ -308,7 +311,7 @@ function CompareTableContent() {
               >
                 {school.name}
               </Link>
-              <ShortlistButton slug={school.slug} />
+              <ShortlistButton slug={school.slug} citySlug={school.citySlug} />
             </div>
             <div className="flex flex-wrap gap-1 mb-3">
               {school.curriculumLabels.map((c) => (

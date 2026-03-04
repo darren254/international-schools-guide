@@ -47,21 +47,18 @@ export function SchoolCard({
 }: SchoolCardProps) {
   const shortlist = useShortlistOptional();
   const { fmtRange } = useCurrency();
-  const shortlisted = shortlist ? shortlist.isShortlisted(slug) : false;
-  const toggleShortlist = (e: React.MouseEvent) => {
+  const shortlisted = shortlist ? shortlist.isShortlistedInCity(slug, citySlug) : false;
+  const cityList = shortlist ? shortlist.shortlistedSlugsForCity(citySlug) : [];
+  const canAdd = cityList.length < 4 || shortlisted;
+  const handleShortlist = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    shortlist?.toggleShortlist(slug);
-  };
-  const addToCompare = (e: React.MouseEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-    shortlist?.addToShortlist(slug);
+    shortlist?.toggleShortlist(slug, citySlug);
   };
 
   const hasFees = feeLowUsd > 0 || feeHighUsd > 0;
   const feeDisplay = hasFees
-    ? fmtRange(feeLowUsd, feeHighUsd, "USD")
+    ? `${fmtRange(feeLowUsd, feeHighUsd, "USD")}/yr`
     : (feeLabel || "Fees not published");
 
   const profileHref = hasProfile ? `/international-schools/${citySlug}/${slug}/` : undefined;
@@ -79,7 +76,7 @@ export function SchoolCard({
         )}
         <button
           type="button"
-          onClick={toggleShortlist}
+          onClick={handleShortlist}
           className="absolute top-2.5 right-2.5 w-7 h-7 flex items-center justify-center text-charcoal-muted/60 hover:text-charcoal-muted transition-colors z-10"
           aria-label={shortlisted ? "Remove from shortlist" : "Add to shortlist"}
         >
@@ -129,10 +126,11 @@ export function SchoolCard({
             {shortlist && (
               <button
                 type="button"
-                onClick={addToCompare}
-                className="text-[0.75rem] font-semibold uppercase tracking-wider text-charcoal-muted hover:text-hermes transition-colors font-body"
+                onClick={handleShortlist}
+                disabled={!canAdd && !shortlisted}
+                className="text-[0.75rem] font-semibold uppercase tracking-wider text-charcoal-muted hover:text-hermes transition-colors font-body disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:text-charcoal-muted"
               >
-                Shortlist +
+                {shortlisted ? "In shortlist" : "Shortlist +"}
               </button>
             )}
             {hasProfile ? (

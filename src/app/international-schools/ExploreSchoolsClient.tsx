@@ -10,6 +10,9 @@ import { getBangkokLocationFilter } from "@/data/bangkok-schools";
 import { getHongKongLocationFilter } from "@/data/hong-kong-schools";
 import { getKualaLumpurLocationFilter } from "@/data/kuala-lumpur-schools";
 import { getSchoolImageUrl } from "@/lib/schools/images";
+import { useShortlistOptional } from "@/context/ShortlistContext";
+import { useCurrency } from "@/context/CurrencyContext";
+import { CurrencyToggle } from "@/components/layout/CurrencyToggle";
 
 export interface SchoolListing {
   name: string;
@@ -34,23 +37,22 @@ export interface LocationOption {
   label: string;
 }
 
-const CURRICULUM_OPTIONS = [
-  { value: "", label: "All curricula" },
-  { value: "IB", label: "IB" },
-  { value: "British / Cambridge", label: "British / Cambridge" },
-  { value: "Australian", label: "Australian" },
-  { value: "American / AP", label: "American / AP" },
-  { value: "Singapore", label: "Singapore" },
-  { value: "French", label: "French" },
-  { value: "German", label: "German" },
-  { value: "Indian", label: "Indian" },
-  { value: "Canadian", label: "Canadian" },
-  { value: "Japanese", label: "Japanese" },
-  { value: "Swiss", label: "Swiss" },
-  { value: "Chinese", label: "Chinese" },
-  { value: "Thai", label: "Thai" },
-  { value: "Other", label: "Other" },
-];
+const CURRICULUM_PILL_LABELS = [
+  "IB",
+  "British / Cambridge",
+  "Australian",
+  "American / AP",
+  "Singapore",
+  "French",
+  "German",
+  "Indian",
+  "Canadian",
+  "Japanese",
+  "Swiss",
+  "Chinese",
+  "Thai",
+  "Other",
+] as const;
 
 type FeeSort = "high-low" | "low-high";
 
@@ -65,15 +67,16 @@ function getLocationBucket(area: string, citySlug: string): string {
   }
 }
 
-function schoolMatchesCurriculum(school: SchoolListing, curriculumFilter: string): boolean {
-  if (!curriculumFilter) return true;
+function schoolMatchesCurriculum(school: SchoolListing, selected: string[]): boolean {
+  if (selected.length === 0) return true;
   const labels = getCurriculumFilterLabels(school.curricula);
-  return labels.some((l) => l === curriculumFilter);
+  return selected.some((s) => labels.includes(s));
 }
 
-function schoolMatchesLocation(school: SchoolListing, locationFilter: string, citySlug: string): boolean {
-  if (!locationFilter) return true;
-  return getLocationBucket(school.area, citySlug) === locationFilter;
+function schoolMatchesLocation(school: SchoolListing, selected: string[], citySlug: string): boolean {
+  if (selected.length === 0) return true;
+  const bucket = getLocationBucket(school.area, citySlug);
+  return selected.includes(bucket);
 }
 
 interface ExploreSchoolsClientProps {
@@ -91,15 +94,45 @@ export function ExploreSchoolsClient({
   cityName,
   locationOptions,
 }: ExploreSchoolsClientProps) {
-  const [curriculum, setCurriculum] = useState("");
-  const [location, setLocation] = useState("");
+  const [curriculumFilter, setCurriculumFilter] = useState<string[]>([]);
+  const [locationFilter, setLocationFilter] = useState<string[]>([]);
   const [feeSort, setFeeSort] = useState<FeeSort>("high-low");
 
+  const shortlist = useShortlistOptional();
+  const { exchangeRateDate } = useCurrency();
   const profileSet = useMemo(() => new Set(profileSlugs), [profileSlugs]);
+
+  const cityShortlist = shortlist ? shortlist.shortlistedSlugsForCity(citySlug) : [];
+  const showCompareBar = cityShortlist.length >= 2;
+
+  const curriculumOptions = useMemo(() => {
+    const present = new Set<string>();
+    schools.forEach((s) => getCurriculumFilterLabels(s.curricula).forEach((l) => present.add(l)));
+    return CURRICULUM_PILL_LABELS.filter((l) => present.has(l));
+  }, [schools]);
+
+  const locationPillOptions = useMemo(
+    () => locationOptions.filter((opt) => opt.value !== ""),
+    [locationOptions]
+  );
+
+  const toggleCurriculum = (label: string) => {
+    setCurriculumFilter((prev) =>
+      prev.includes(label) ? prev.filter((x) => x !== label) : [...prev, label]
+    );
+  };
+
+  const toggleLocation = (value: string) => {
+    setLocationFilter((prev) =>
+      prev.includes(value) ? prev.filter((x) => x !== value) : [...prev, value]
+    );
+  };
 
   const filteredAndSorted = useMemo(() => {
     let list = schools.filter(
-      (s) => schoolMatchesCurriculum(s, curriculum) && schoolMatchesLocation(s, location, citySlug)
+      (s) =>
+        schoolMatchesCurriculum(s, curriculumFilter) &&
+        schoolMatchesLocation(s, locationFilter, citySlug)
     );
     const sortMultiplier = feeSort === "high-low" ? -1 : 1;
     list = [...list].sort((a, b) => {
@@ -111,7 +144,7 @@ export function ExploreSchoolsClient({
       return (a.feeLowUsd - b.feeLowUsd) * sortMultiplier;
     });
     return list;
-  }, [schools, curriculum, location, feeSort, citySlug]);
+  }, [schools, curriculumFilter, locationFilter, feeSort, citySlug]);
 
   return (
     <div className="container-site">
@@ -124,76 +157,93 @@ export function ExploreSchoolsClient({
       </nav>
 
       <section className="pb-6 border-b border-warm-border">
-        <h1 className="font-display text-[clamp(1.75rem,4vw,2.5rem)] font-medium tracking-tight leading-tight mb-1.5">
-          International Schools in {cityName}
-        </h1>
-        <p className="text-[0.9375rem] text-charcoal-muted mb-4 font-body">
-          {schools.length} schools · Filter by location or curriculum; sort by fees.
+        <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
+          <div>
+            <h1 className="font-display text-[clamp(1.75rem,4vw,2.5rem)] font-medium tracking-tight leading-tight mb-1.5">
+              International Schools in {cityName}
+            </h1>
+            <p className="text-[0.9375rem] text-charcoal-muted font-body">
+              {schools.length} schools · Filter by curriculum or area; sort by fees.
+            </p>
+          </div>
+          <div className="flex items-center gap-3 shrink-0">
+            <CurrencyToggle />
+          </div>
+        </div>
+
+        <p className="text-[0.75rem] text-charcoal-muted mb-4 font-body">
+          Fees in approximate equivalent. Rates updated periodically ({exchangeRateDate}).
         </p>
 
-        <div className="grid grid-cols-2 gap-4 py-3 md:grid-cols-3 md:gap-6">
-          <div className="flex flex-col gap-1.5 md:min-w-[160px]">
-            <label htmlFor="location-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
-              Location
-            </label>
-            <select
-              id="location-filter"
-              value={location}
-              onChange={(e) => setLocation(e.target.value)}
-              className="min-h-[44px] w-full bg-cream border border-warm-border text-[0.8125rem] text-charcoal font-body py-2 pl-3 pr-8 appearance-none cursor-pointer focus:outline-none focus:border-charcoal-muted rounded-none"
-              style={{
-                backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237A756E' fill='none' stroke-width='1.5'/%3E%3C/svg%3E")`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "right 10px center",
-              }}
-            >
-              {locationOptions.map((opt) => (
-                <option key={opt.value || "all"} value={opt.value}>
-                  {opt.label}
-                </option>
-              ))}
-            </select>
+        <div className="space-y-4">
+          <div>
+            <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body block mb-2">
+              Curriculum
+            </span>
+            <div className="flex flex-wrap gap-2 overflow-x-auto pb-1 md:overflow-visible">
+              {curriculumOptions.map((label) => {
+                const on = curriculumFilter.includes(label);
+                return (
+                  <button
+                    key={label}
+                    type="button"
+                    onClick={() => toggleCurriculum(label)}
+                    className={`shrink-0 px-3 py-1.5 text-[0.8125rem] font-body rounded-sm border transition-colors ${
+                      on
+                        ? "border-hermes bg-hermes-light/30 text-hermes"
+                        : "border-warm-border text-charcoal-muted hover:border-charcoal-muted hover:text-charcoal"
+                    }`}
+                  >
+                    {label}
+                  </button>
+                );
+              })}
+            </div>
           </div>
 
-          <div className="flex flex-col gap-1.5 md:min-w-[160px]">
+          {locationPillOptions.length > 0 && (
+            <div>
+              <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body block mb-2">
+                Area
+              </span>
+              <div className="flex flex-wrap gap-2 overflow-x-auto pb-1 md:overflow-visible">
+                {locationPillOptions.map((opt) => {
+                  const on = locationFilter.includes(opt.value);
+                  return (
+                    <button
+                      key={opt.value}
+                      type="button"
+                      onClick={() => toggleLocation(opt.value)}
+                      className={`shrink-0 px-3 py-1.5 text-[0.8125rem] font-body rounded-sm border transition-colors ${
+                        on
+                          ? "border-hermes bg-hermes-light/30 text-hermes"
+                          : "border-warm-border text-charcoal-muted hover:border-charcoal-muted hover:text-charcoal"
+                      }`}
+                    >
+                      {opt.label}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          <div className="flex flex-wrap items-center gap-3">
             <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
               Fees
             </span>
             <button
               type="button"
               onClick={() => setFeeSort((s) => (s === "high-low" ? "low-high" : "high-low"))}
-              className="min-h-[44px] w-full flex items-center justify-center gap-2 border border-warm-border bg-cream text-[0.8125rem] text-charcoal font-body hover:border-charcoal-muted transition-colors focus:outline-none focus:border-charcoal-muted rounded-none"
+              className="flex items-center gap-2 px-3 py-1.5 border border-warm-border bg-cream text-[0.8125rem] text-charcoal font-body hover:border-charcoal-muted transition-colors rounded-sm"
               aria-label={feeSort === "high-low" ? "Sort fees high to low (click for low to high)" : "Sort fees low to high (click for high to low)"}
               title={feeSort === "high-low" ? "High → Low" : "Low → High"}
             >
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                 <path d="M5 7l4-4 4 4M5 11l4 4 4-4" />
               </svg>
-              <span className="hidden sm:inline">{feeSort === "high-low" ? "High → Low" : "Low → High"}</span>
+              <span>{feeSort === "high-low" ? "High → Low" : "Low → High"}</span>
             </button>
-          </div>
-
-          <div className="col-span-2 flex flex-col gap-1.5 md:col-span-1 md:min-w-[160px]">
-            <label htmlFor="curriculum-filter" className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
-              Curriculum
-            </label>
-            <select
-              id="curriculum-filter"
-              value={curriculum}
-              onChange={(e) => setCurriculum(e.target.value)}
-              className="min-h-[44px] w-full bg-cream border border-warm-border text-[0.8125rem] text-charcoal font-body py-2 pl-3 pr-8 appearance-none cursor-pointer focus:outline-none focus:border-charcoal-muted rounded-none"
-              style={{
-                backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237A756E' fill='none' stroke-width='1.5'/%3E%3C/svg%3E")`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "right 10px center",
-              }}
-            >
-              {CURRICULUM_OPTIONS.map((opt) => (
-                <option key={opt.value || "all"} value={opt.value}>
-                  {opt.label}
-                </option>
-              ))}
-            </select>
           </div>
         </div>
       </section>
@@ -225,9 +275,27 @@ export function ExploreSchoolsClient({
           ))}
         </div>
         {filteredAndSorted.length === 0 && (
-          <p className="text-charcoal-muted py-8">No schools match your filters. Try changing curriculum or location.</p>
+          <p className="text-charcoal-muted py-8">No schools match your filters. Try changing curriculum or area.</p>
         )}
       </div>
+
+      {showCompareBar && (
+        <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-warm-border bg-warm-white/95 backdrop-blur-sm py-3 px-4">
+          <div className="container-site flex items-center justify-between">
+            <span className="text-[0.875rem] text-charcoal font-body">
+              {cityShortlist.length} school{cityShortlist.length !== 1 ? "s" : ""} shortlisted
+            </span>
+            <Link
+              href={`/international-schools/${citySlug}/compare`}
+              className="inline-flex items-center gap-2 px-5 py-2.5 bg-hermes text-white text-[0.8125rem] font-semibold uppercase tracking-wider hover:bg-hermes-hover transition-colors"
+            >
+              Compare {cityShortlist.length} schools →
+            </Link>
+          </div>
+        </div>
+      )}
+
+      {showCompareBar && <div className="h-16" />}
 
       <section className="pt-10 pb-12 border-t border-warm-border">
         <h2 className="font-display text-display-sm font-medium mb-2">Browse by city</h2>

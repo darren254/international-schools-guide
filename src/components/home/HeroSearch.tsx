@@ -1,56 +1,154 @@
+"use client";
+
+import { useState, useRef, useEffect, useCallback, useMemo } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-type CityLink = {
+export type CityLink = {
   slug: string;
   name: string;
   live: boolean;
   comingNext?: boolean;
 };
 
+function normalize(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export function HeroSearch({ cities }: { cities: CityLink[] }) {
+  const router = useRouter();
+  const [query, setQuery] = useState("");
+  const [open, setOpen] = useState(false);
+  const [highlightIndex, setHighlightIndex] = useState(0);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  const liveCities = cities.filter((c) => c.live);
+  const matches = useMemo(() => {
+    if (!query.trim()) return liveCities;
+    const q = normalize(query);
+    return liveCities.filter(
+      (c) =>
+        normalize(c.name).includes(q) ||
+        normalize(c.slug).replace(/-/g, " ").includes(q)
+    );
+  }, [query, liveCities]);
+
+  const goToCity = useCallback(
+    (slug: string) => {
+      setOpen(false);
+      setQuery("");
+      router.push(`/international-schools/${slug}/`);
+    },
+    [router]
+  );
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (matches.length > 0) {
+      goToCity(matches[highlightIndex]?.slug ?? matches[0].slug);
+    }
+  };
+
+  useEffect(() => {
+    setHighlightIndex(0);
+  }, [query, matches.length]);
+
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      if (!open) return;
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        setHighlightIndex((i) => (i + 1) % Math.max(1, matches.length));
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        setHighlightIndex((i) => (i - 1 + matches.length) % Math.max(1, matches.length));
+      } else if (e.key === "Enter" && matches.length > 0) {
+        goToCity(matches[highlightIndex]?.slug ?? matches[0].slug);
+      } else if (e.key === "Escape") {
+        setOpen(false);
+      }
+    }
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [open, matches, highlightIndex, goToCity]);
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   return (
-    <div className="w-full max-w-2xl mx-auto">
-      {/* Browse by city */}
-      <p className="text-sm text-charcoal-muted">
-        Browse by city:{" "}
-        {cities.map((city, i) => (
-          <span key={city.slug}>
-            {i > 0 && <span className="mx-1.5 text-cream-400">·</span>}
-            {city.live ? (
-              <Link
-                href={`/international-schools/${city.slug}/`}
-                className="text-hermes hover:text-hermes-hover transition-colors"
-              >
-                {city.name}
-              </Link>
-            ) : (
-              <span
-                className={city.comingNext ? "text-charcoal-muted" : "text-charcoal-muted/70"}
-                title={city.comingNext ? "Coming next" : "Coming soon"}
-              >
-                {city.name}
-              </span>
-            )}
-          </span>
-        ))}
-      </p>
+    <div ref={containerRef} className="w-full max-w-xl mx-auto">
+      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
+        <div className="relative flex-1">
+          <label htmlFor="hero-city-input" className="sr-only">
+            City name
+          </label>
+          <input
+            id="hero-city-input"
+            type="text"
+            value={query}
+            onChange={(e) => {
+              setQuery(e.target.value);
+              setOpen(true);
+            }}
+            onFocus={() => setOpen(true)}
+            placeholder="e.g. Jakarta, Singapore, Bangkok"
+            className="w-full min-h-[48px] px-4 py-3 border border-warm-border bg-cream text-charcoal font-body text-[1rem] placeholder:text-charcoal-muted focus:outline-none focus:border-charcoal-muted rounded-none"
+            autoComplete="off"
+            aria-expanded={open}
+            aria-controls="hero-city-listbox"
+            aria-activedescendant={
+              open && matches[highlightIndex]
+                ? `hero-city-option-${matches[highlightIndex].slug}`
+                : undefined
+            }
+            role="combobox"
+            aria-autocomplete="list"
+          />
+          {open && matches.length > 0 && (
+            <ul
+              id="hero-city-listbox"
+              role="listbox"
+              className="absolute top-full left-0 right-0 mt-1 bg-warm-white border border-warm-border shadow-lg z-50 max-h-[240px] overflow-y-auto"
+            >
+              {matches.map((city, i) => (
+                <li
+                  key={city.slug}
+                  id={`hero-city-option-${city.slug}`}
+                  role="option"
+                  aria-selected={i === highlightIndex}
+                  onMouseEnter={() => setHighlightIndex(i)}
+                  className={`px-4 py-3 text-[0.9375rem] font-body cursor-pointer transition-colors ${
+                    i === highlightIndex ? "bg-cream-200 text-charcoal" : "text-charcoal-light hover:bg-cream-100"
+                  }`}
+                  onClick={() => goToCity(city.slug)}
+                >
+                  {city.name}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+        <button
+          type="submit"
+          className="min-h-[48px] px-8 py-3 bg-hermes text-white text-[0.9375rem] font-semibold uppercase tracking-wider hover:bg-hermes-hover transition-colors rounded-none shrink-0"
+        >
+          Show schools
+        </button>
+      </form>
 
-      {/* Secondary CTAs */}
-      <div className="flex flex-wrap justify-center gap-4 mt-8">
-        <Link
-          href="/compare"
-          className="border border-charcoal text-charcoal px-6 py-2.5 text-sm font-medium uppercase tracking-wider hover:bg-charcoal hover:text-cream transition-colors rounded-sm"
-        >
-          Compare Schools
-        </Link>
-        <Link
-          href="/shortlist"
-          className="border border-charcoal text-charcoal px-6 py-2.5 text-sm font-medium uppercase tracking-wider hover:bg-charcoal hover:text-cream transition-colors rounded-sm"
-        >
-          Start Your Shortlist
-        </Link>
-      </div>
+      <p className="text-center text-[0.875rem] text-charcoal-muted mt-6">
+        Or choose a city below
+      </p>
     </div>
   );
 }
