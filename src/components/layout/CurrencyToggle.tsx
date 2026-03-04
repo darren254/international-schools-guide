@@ -27,17 +27,20 @@ export function CurrencyToggle() {
   return (
     <div ref={ref} className="relative">
       <button
+        type="button"
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-1 text-xs text-charcoal-muted border border-warm-border px-2 sm:px-3 py-1.5 hover:border-charcoal-muted transition-colors"
+        className="flex items-center gap-1.5 rounded-sm border border-warm-border bg-cream px-3 py-2 text-[0.8125rem] font-body text-charcoal hover:border-charcoal-muted hover:bg-cream-100 transition-colors min-h-[36px]"
         aria-label={`Currency: ${currency}. Click to change.`}
         aria-expanded={open}
+        aria-haspopup="listbox"
       >
-        <span className="font-medium">{currency}</span>
+        <span className="font-semibold tabular-nums">{currency}</span>
         <svg
           width="10"
           height="10"
           viewBox="0 0 10 10"
-          className={`transition-transform ${open ? "rotate-180" : ""}`}
+          className={`shrink-0 text-charcoal-muted transition-transform ${open ? "rotate-180" : ""}`}
+          aria-hidden
         >
           <path
             d="M2 3.5L5 6.5L8 3.5"
@@ -49,31 +52,45 @@ export function CurrencyToggle() {
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full mt-1 bg-warm-white border border-warm-border shadow-lg z-50 min-w-[200px] py-1">
-          {ALL_CURRENCY_CODES.map((code) => (
-            <button
-              key={code}
-              onClick={() => {
-                setCurrency(code);
-                setOpen(false);
-              }}
-              className={`flex items-center justify-between w-full px-4 py-2.5 text-sm text-left transition-colors ${
-                code === currency
-                  ? "bg-cream-200 text-charcoal font-medium"
-                  : "text-charcoal-light hover:bg-cream-100"
-              }`}
-            >
-              <span>
-                <span className="inline-block w-10 text-charcoal-muted">
+        <div
+          role="listbox"
+          aria-label="Select currency"
+          className="absolute right-0 top-full mt-1.5 rounded-sm border border-warm-border bg-warm-white shadow-[0_4px_16px_rgba(0,0,0,0.08)] z-50 min-w-[240px] py-1 max-h-[min(70vh,320px)] overflow-y-auto"
+        >
+          {ALL_CURRENCY_CODES.map((code) => {
+            const isSelected = code === currency;
+            return (
+              <button
+                key={code}
+                type="button"
+                role="option"
+                aria-selected={isSelected}
+                onClick={() => {
+                  setCurrency(code);
+                  setOpen(false);
+                }}
+                className={`flex w-full items-center gap-3 px-4 py-2.5 text-left transition-colors ${
+                  isSelected
+                    ? "bg-hermes-light/15 text-hermes border-l-2 border-hermes"
+                    : "text-charcoal hover:bg-cream-100 border-l-2 border-transparent"
+                }`}
+              >
+                <span className="w-8 shrink-0 text-[0.8125rem] text-charcoal-muted tabular-nums">
                   {getCurrencySymbol(code)}
                 </span>
-                {code}
-              </span>
-              <span className="text-xs text-charcoal-muted ml-3 hidden sm:inline">
-                {getCurrencyLabel(code)}
-              </span>
-            </button>
-          ))}
+                <span
+                  className={`min-w-0 flex-1 font-body text-[0.8125rem] ${
+                    isSelected ? "font-semibold" : "font-medium"
+                  }`}
+                >
+                  {code}
+                </span>
+                <span className="hidden shrink-0 text-[0.75rem] text-charcoal-muted sm:block">
+                  {getCurrencyLabel(code)}
+                </span>
+              </button>
+            );
+          })}
         </div>
       )}
     </div>

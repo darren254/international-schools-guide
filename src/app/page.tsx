@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CITIES, LIVE_CITIES, TOTAL_SCHOOLS_LIVE } from "@/data/cities";
 import { HeroSearch } from "@/components/home/HeroSearch";
+import { CityCardImage } from "@/components/home/CityCardImage";
 
 export const metadata: Metadata = {
   title: "Find the Right International School",
@@ -68,48 +69,26 @@ export default function HomePage() {
             {CITIES.slice(0, 6).map((city) => {
               const content = (
                 <>
-                  <div className="aspect-[16/8] bg-cream-300 group-hover:bg-cream-400 transition-colors relative overflow-hidden">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={`/images/cities/${city.slug}.webp${city.slug === "jakarta" ? "?v=2" : ""}`}
-                      alt={`${city.name} skyline`}
-                      className="w-full h-full object-cover school-image absolute inset-0"
-                      loading="lazy"
-                      width={800}
-                      height={400}
-                    />
-                    {city.slug === "jakarta" && (
-                      <a
-                        href="https://www.pexels.com/@javaistan/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="absolute bottom-1.5 right-2 text-[10px] text-white/90 hover:text-white font-body no-underline z-10 drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]"
-                      >
-                        Photo: Javaistan / Pexels
-                      </a>
-                    )}
-                    {city.live && (
-                      <span className="absolute top-2 right-2 bg-hermes text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded z-10">
-                        Live
-                      </span>
-                    )}
-                    {!city.live && city.comingNext && (
-                      <span className="absolute top-2 right-2 bg-charcoal text-white text-[10px] font-semibold uppercase tracking-wide px-2.5 py-1 rounded z-10">
-                        Coming next
-                      </span>
-                    )}
-                    {!city.live && !city.comingNext && (
-                      <span className="absolute top-2 right-2 text-[10px] uppercase tracking-wider text-charcoal-muted bg-warm-white/90 px-2.5 py-1 rounded z-10 font-semibold">
-                        Soon
-                      </span>
-                    )}
-                  </div>
-                  <div className="p-4 flex flex-col">
-                    <div className="flex items-baseline justify-between gap-2 mb-1">
-                      <span className="font-display text-display-sm font-medium text-charcoal">
+                  <CityCardImage
+                    city={city}
+                    photoCredit={
+                      city.slug === "jakarta"
+                        ? {
+                            label: "Photo: Javaistan / Pexels",
+                            href: "https://www.pexels.com/@javaistan/",
+                          }
+                        : undefined
+                    }
+                  />
+                  <div className="p-3 md:p-4 flex flex-col min-w-0">
+                    <div className="flex items-baseline justify-between gap-2 mb-1 min-w-0">
+                      <span className="font-display text-display-sm font-medium text-charcoal truncate">
                         {city.name}
                       </span>
-                      <span className="text-label-xs uppercase text-charcoal-muted shrink-0">
+                      <span
+                        className="text-label-xs uppercase text-charcoal-muted shrink-0 truncate max-w-[45%]"
+                        title={city.country}
+                      >
                         {city.country}
                       </span>
                     </div>
@@ -121,7 +100,7 @@ export default function HomePage() {
               );
 
               const wrapperClasses = city.live
-                ? "group border-2 border-hermes rounded-sm overflow-hidden hover:shadow-lg transition-all duration-200 bg-cream-50 flex flex-col h-full"
+                ? "group border border-hermes md:border-2 rounded-sm overflow-hidden hover:shadow-lg transition-all duration-200 bg-cream-50 flex flex-col h-full"
                 : "group border border-warm-border rounded-sm overflow-hidden bg-cream-50 transition-all duration-200 flex flex-col h-full";
 
               return city.live ? (
