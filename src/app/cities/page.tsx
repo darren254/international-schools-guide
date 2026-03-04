@@ -16,7 +16,26 @@ function CityCard({
 }) {
   const content = (
     <>
-      <div className="aspect-[16/8] bg-cream-300 group-hover:bg-cream-400 transition-colors relative">
+      <div className="aspect-[16/8] bg-cream-300 group-hover:bg-cream-400 transition-colors relative overflow-hidden">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={`/images/cities/${city.slug}.webp${city.slug === "jakarta" ? "?v=2" : ""}`}
+          alt={`${city.name} skyline`}
+          className="w-full h-full object-cover school-image absolute inset-0"
+          loading="lazy"
+          width={800}
+          height={400}
+        />
+        {city.slug === "jakarta" && (
+          <a
+            href="https://www.pexels.com/@javaistan/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute bottom-1.5 right-2 text-[10px] text-white/90 hover:text-white font-body no-underline z-10 drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]"
+          >
+            Photo: Javaistan / Pexels
+          </a>
+        )}
         {!city.live && (
           <span className={`absolute top-2 right-2 text-[0.6875rem] uppercase tracking-wider px-2 py-1 rounded-sm ${
             city.comingNext

@@ -68,7 +68,7 @@ export default function HomePage() {
                   <div className="aspect-[16/8] bg-cream-300 group-hover:bg-cream-400 transition-colors relative overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src={`/images/cities/${city.slug}.webp`}
+                      src={`/images/cities/${city.slug}.webp${city.slug === "jakarta" ? "?v=2" : ""}`}
                       alt={`${city.name} skyline`}
                       className="w-full h-full object-cover school-image absolute inset-0"
                       loading="lazy"
