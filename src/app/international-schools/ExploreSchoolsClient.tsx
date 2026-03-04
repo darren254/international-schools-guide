@@ -3,6 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { SchoolCard } from "@/components/school/SchoolCard";
+import { FilterDropdownMulti } from "@/components/school/FilterDropdownMulti";
+import { SortDropdown, type FeeSortValue } from "@/components/school/SortDropdown";
 import { getCurriculumFilterLabels, getLocationFilter } from "@/data/jakarta-schools";
 import { getDubaiLocationFilter } from "@/data/dubai-schools";
 import { getSingaporeLocationFilter } from "@/data/singapore-schools";
@@ -54,8 +56,6 @@ const CURRICULUM_PILL_LABELS = [
   "Other",
 ] as const;
 
-type FeeSort = "high-low" | "low-high";
-
 function getLocationBucket(area: string, citySlug: string): string {
   switch (citySlug) {
     case "dubai": return getDubaiLocationFilter(area);
@@ -96,7 +96,7 @@ export function ExploreSchoolsClient({
 }: ExploreSchoolsClientProps) {
   const [curriculumFilter, setCurriculumFilter] = useState<string[]>([]);
   const [locationFilter, setLocationFilter] = useState<string[]>([]);
-  const [feeSort, setFeeSort] = useState<FeeSort>("high-low");
+  const [feeSort, setFeeSort] = useState<FeeSortValue>("high-low");
 
   const shortlist = useShortlistOptional();
   const { exchangeRateDate } = useCurrency();
@@ -108,25 +108,16 @@ export function ExploreSchoolsClient({
   const curriculumOptions = useMemo(() => {
     const present = new Set<string>();
     schools.forEach((s) => getCurriculumFilterLabels(s.curricula).forEach((l) => present.add(l)));
-    return CURRICULUM_PILL_LABELS.filter((l) => present.has(l));
+    return CURRICULUM_PILL_LABELS.filter((l) => present.has(l)).map((label) => ({
+      value: label,
+      label,
+    }));
   }, [schools]);
 
-  const locationPillOptions = useMemo(
-    () => locationOptions.filter((opt) => opt.value !== ""),
+  const locationDropdownOptions = useMemo(
+    () => locationOptions.filter((opt) => opt.value !== "").map((opt) => ({ value: opt.value, label: opt.label })),
     [locationOptions]
   );
-
-  const toggleCurriculum = (label: string) => {
-    setCurriculumFilter((prev) =>
-      prev.includes(label) ? prev.filter((x) => x !== label) : [...prev, label]
-    );
-  };
-
-  const toggleLocation = (value: string) => {
-    setLocationFilter((prev) =>
-      prev.includes(value) ? prev.filter((x) => x !== value) : [...prev, value]
-    );
-  };
 
   const filteredAndSorted = useMemo(() => {
     let list = schools.filter(
@@ -146,6 +137,12 @@ export function ExploreSchoolsClient({
     return list;
   }, [schools, curriculumFilter, locationFilter, feeSort, citySlug]);
 
+  const hasActiveFilters = curriculumFilter.length > 0 || locationFilter.length > 0;
+  const clearFilters = () => {
+    setCurriculumFilter([]);
+    setLocationFilter([]);
+  };
+
   return (
     <div className="container-site">
       <nav className="py-5 text-[0.8125rem] text-charcoal-muted" aria-label="Breadcrumb">
@@ -163,7 +160,7 @@ export function ExploreSchoolsClient({
               International Schools in {cityName}
             </h1>
             <p className="text-[0.9375rem] text-charcoal-muted font-body">
-              {schools.length} schools · Filter by curriculum or area; sort by fees.
+              Filter by curriculum or area; sort by fees.
             </p>
           </div>
           <div className="flex items-center gap-3 shrink-0">
@@ -171,87 +168,42 @@ export function ExploreSchoolsClient({
           </div>
         </div>
 
-        <p className="text-[0.75rem] text-charcoal-muted mb-4 font-body">
-          Fees in approximate equivalent. Rates updated periodically ({exchangeRateDate}).
-        </p>
-
-        <div className="space-y-4">
-          <div>
-            <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body block mb-2">
-              Curriculum
-            </span>
-            <div className="flex flex-wrap gap-2 overflow-x-auto pb-1 md:overflow-visible">
-              {curriculumOptions.map((label) => {
-                const on = curriculumFilter.includes(label);
-                return (
-                  <button
-                    key={label}
-                    type="button"
-                    onClick={() => toggleCurriculum(label)}
-                    className={`shrink-0 px-3 py-1.5 text-[0.8125rem] font-body rounded-sm border transition-colors ${
-                      on
-                        ? "border-hermes bg-hermes-light/30 text-hermes"
-                        : "border-warm-border text-charcoal-muted hover:border-charcoal-muted hover:text-charcoal"
-                    }`}
-                  >
-                    {label}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-
-          {locationPillOptions.length > 0 && (
-            <div>
-              <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body block mb-2">
-                Area
-              </span>
-              <div className="flex flex-wrap gap-2 overflow-x-auto pb-1 md:overflow-visible">
-                {locationPillOptions.map((opt) => {
-                  const on = locationFilter.includes(opt.value);
-                  return (
-                    <button
-                      key={opt.value}
-                      type="button"
-                      onClick={() => toggleLocation(opt.value)}
-                      className={`shrink-0 px-3 py-1.5 text-[0.8125rem] font-body rounded-sm border transition-colors ${
-                        on
-                          ? "border-hermes bg-hermes-light/30 text-hermes"
-                          : "border-warm-border text-charcoal-muted hover:border-charcoal-muted hover:text-charcoal"
-                      }`}
-                    >
-                      {opt.label}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
+        <div className="flex flex-wrap items-center gap-2 md:gap-3 overflow-x-auto pb-1 md:overflow-visible">
+          <FilterDropdownMulti
+            label="Curriculum"
+            options={curriculumOptions}
+            selected={curriculumFilter}
+            onChange={setCurriculumFilter}
+          />
+          {locationDropdownOptions.length > 0 && (
+            <FilterDropdownMulti
+              label="Area"
+              options={locationDropdownOptions}
+              selected={locationFilter}
+              onChange={setLocationFilter}
+            />
           )}
-
-          <div className="flex flex-wrap items-center gap-3">
-            <span className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted font-body">
-              Fees
-            </span>
+          <SortDropdown value={feeSort} onChange={setFeeSort} />
+          <span className="text-[0.8125rem] text-charcoal-muted font-body shrink-0 ml-auto">
+            {filteredAndSorted.length} school{filteredAndSorted.length !== 1 ? "s" : ""}
+          </span>
+          {hasActiveFilters && (
             <button
               type="button"
-              onClick={() => setFeeSort((s) => (s === "high-low" ? "low-high" : "high-low"))}
-              className="flex items-center gap-2 px-3 py-1.5 border border-warm-border bg-cream text-[0.8125rem] text-charcoal font-body hover:border-charcoal-muted transition-colors rounded-sm"
-              aria-label={feeSort === "high-low" ? "Sort fees high to low (click for low to high)" : "Sort fees low to high (click for high to low)"}
-              title={feeSort === "high-low" ? "High → Low" : "Low → High"}
+              onClick={clearFilters}
+              className="text-[0.8125rem] font-body text-charcoal-muted hover:text-hermes transition-colors shrink-0"
             >
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-                <path d="M5 7l4-4 4 4M5 11l4 4 4-4" />
-              </svg>
-              <span>{feeSort === "high-low" ? "High → Low" : "Low → High"}</span>
+              Clear filters
             </button>
-          </div>
+          )}
         </div>
+
+        <p className="text-[0.75rem] text-charcoal-muted mt-3 font-body">
+          Fees in approximate equivalent. Rates updated periodically ({exchangeRateDate}).
+        </p>
       </section>
 
       <div className="pt-6 pb-10">
-        <p className="text-[0.8125rem] text-charcoal-muted mb-4 font-body">
-          Showing {filteredAndSorted.length} school{filteredAndSorted.length !== 1 ? "s" : ""}
-        </p>
         <div className="space-y-4">
           {filteredAndSorted.map((school) => (
             <SchoolCard

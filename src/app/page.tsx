@@ -50,7 +50,10 @@ export default function HomePage() {
       />
 
       {/* ─── Hero ─── */}
-      <section id="help-me-choose" className="pt-20 pb-12 md:pt-28 md:pb-16 text-center px-4">
+      <section
+        id="help-me-choose"
+        className="min-h-[85vh] md:min-h-0 pt-20 pb-10 md:pt-28 md:pb-16 text-center px-4 flex flex-col justify-center"
+      >
         <h1 className="font-display text-[clamp(2.25rem,5.5vw,3.75rem)] font-medium tracking-tight leading-[1.1] mb-8 max-w-3xl mx-auto">
           Where are you moving?
         </h1>
@@ -59,7 +62,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── City tiles (6) ─── */}
-      <section className="bg-warm-white border-y border-warm-border-light py-12 md:py-16">
+      <section className="bg-warm-white border-y border-warm-border-light pt-8 pb-12 md:pt-16 md:pb-16">
         <div className="container-site">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
             {CITIES.slice(0, 6).map((city) => {
