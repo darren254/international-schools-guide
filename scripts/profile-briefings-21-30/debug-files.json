@@ -1,0 +1,65 @@
+{
+  "filesCount": 10,
+  "debug": [
+    {
+      "file": "School Briefings — Batch 23_ Singapore (schools 21-25).eml",
+      "city": "singapore",
+      "plainLen": 17988,
+      "blocksCount": 5
+    },
+    {
+      "file": "School Briefings — Batch 24_ Singapore (schools 26-30).eml",
+      "city": "singapore",
+      "plainLen": 29288,
+      "blocksCount": 5
+    },
+    {
+      "file": "School Briefings — Batch 25_ Kuala Lumpur (schools 21-25).eml",
+      "city": "kuala-lumpur",
+      "plainLen": 34848,
+      "blocksCount": 5
+    },
+    {
+      "file": "School Briefings — Batch 26_ Kuala Lumpur (schools 26-30).eml",
+      "city": "kuala-lumpur",
+      "plainLen": 32074,
+      "blocksCount": 5
+    },
+    {
+      "file": "School Briefings — Batch 27_ Bangkok (schools 21-25).eml",
+      "city": "bangkok",
+      "plainLen": 36351,
+      "blocksCount": 5
+    },
+    {
+      "file": "School Briefings — Batch 28_ Bangkok (schools 26-30).eml",
+      "city": "bangkok",
+      "plainLen": 33385,
+      "blocksCount": 5
+    },
+    {
+      "file": "School Briefings — Batch 29_ Hong Kong (schools 21-25).eml",
+      "city": "hong-kong",
+      "plainLen": 35072,
+      "blocksCount": 5
+    },
+    {
+      "file": "School Briefings — Batch 30_ Hong Kong (schools 26-30).eml",
+      "city": "hong-kong",
+      "plainLen": 38425,
+      "blocksCount": 5
+    },
+    {
+      "file": "School Briefings — Batch 31_ Dubai (schools 21-25).eml",
+      "city": "dubai",
+      "plainLen": 44254,
+      "blocksCount": 0
+    },
+    {
+      "file": "School Briefings — Batch 32_ Dubai (schools 26-30).eml",
+      "city": "dubai",
+      "plainLen": 41231,
+      "blocksCount": 5
+    }
+  ]
+}

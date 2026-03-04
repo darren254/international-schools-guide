@@ -287,5 +287,96 @@ applyHongKongIntelligence("the-harbour-school", {
   ],
 });
 
+// Batch 21-30 from briefing emails (Mar 2026)
+applyHongKongIntelligence("christian-alliance-international-school", {
+  verdict:
+    "IB and Canadian curriculum; individual capital note HK$560K. Ask about debenture and fee structure.",
+  paragraphs: [
+    "CAIS offers IB and Canadian curriculum with fees HK$141K–237K. Briefing data was limited; verify results and capital note terms with the school.",
+  ],
+  positives: ["IB and Canadian curriculum. Established presence. Individual capital note option."],
+  considerations: ["Capital note HK$560K. Confirm fee inclusions and retention."],
+});
+
+applyHongKongIntelligence("international-christian-school", {
+  verdict:
+    "Christian American school; ask about curriculum fit and pastoral support.",
+  paragraphs: [
+    "ICS offers American curriculum in a Christian context. Briefing content was limited; families should confirm fit, fees and results directly.",
+  ],
+  positives: ["American curriculum. Christian ethos. Strong community reported."],
+  considerations: ["Ensure fit with faith-based approach. Verify fee structure and retention."],
+});
+
+applyHongKongIntelligence("american-international-school", {
+  verdict:
+    "American curriculum with AP; Kowloon Tong. Capital levy HK$12K/year. Ask about retention and exam support.",
+  paragraphs: [
+    "AIS offers American curriculum and AP with fees HK$97K–180K. Briefing data was limited; contact the school for current outcomes.",
+  ],
+  positives: ["American curriculum and AP. Kowloon Tong. Capital levy HK$12K/year."],
+  considerations: ["Verify fee breakdown. Ask about retention and university support."],
+});
+
+applyHongKongIntelligence("discovery-bay-international-school", {
+  verdict:
+    "British curriculum with IGCSE in Discovery Bay; school development levy HK$60K. Ask about secondary pathway and retention.",
+  paragraphs: [
+    "DBIS runs British curriculum in Discovery Bay with fees HK$132K–196K. Briefing content was limited; verify results and pastoral support.",
+  ],
+  positives: ["British curriculum and IGCSE. Discovery Bay location. School development levy HK$60K."],
+  considerations: ["Discovery Bay location may suit DB residents best. Confirm levy terms and retention."],
+});
+
+applyHongKongIntelligence("renaissance-college", {
+  verdict:
+    "ESF through-train IB school in Ma On Shan; building levy HK$50K (Y1 entry). Ask about NCL and waitlist.",
+  paragraphs: [
+    "RCHK offers the full IB continuum with fees HK$148K–195K (2025/2026). Paid over 10 months. Briefing data was limited; confirm entry requirements and retention.",
+  ],
+  positives: ["ESF through-train IB. Ma On Shan. Building levy HK$50K for Y1 entry. Paid over 10 months."],
+  considerations: ["Confirm building levy and NCL. ESF waitlists can be long; apply early."],
+});
+
+applyHongKongIntelligence("west-island-school", {
+  verdict:
+    "ESF secondary school; NCL sliding scale. Y10 now non-subvented. Ask about nomination rights and retention.",
+  paragraphs: [
+    "WIS is an ESF secondary school with fees HK$159K–181K (2025/2026). Briefing content was limited; verify NCL and entry pathway.",
+  ],
+  positives: ["ESF secondary. NCL sliding scale. Established IB and British curriculum."],
+  considerations: ["Y10 now non-subvented. Confirm NCL and nomination rights. Apply early."],
+});
+
+applyHongKongIntelligence("island-school", {
+  verdict:
+    "ESF secondary in Sha Tin; NCL HK$3.8K–26K sliding scale. Optional nomination rights HK$500K. Ask about waitlist.",
+  paragraphs: [
+    "Island School is an ESF secondary with fees HK$159K–181K. Briefing data was limited; confirm NCL and entry requirements.",
+  ],
+  positives: ["ESF secondary. Sha Tin. NCL sliding scale. Optional nomination rights HK$500K."],
+  considerations: ["Confirm NCL band. ESF waitlists competitive; have a backup."],
+});
+
+applyHongKongIntelligence("concordia-international-school", {
+  verdict:
+    "American curriculum with AP; secondary only. Ask about feeder primaries and retention.",
+  paragraphs: [
+    "Concordia offers American curriculum and AP for ages 12–18 with fees HK$134K–156K. Briefing content was limited.",
+  ],
+  positives: ["American curriculum and AP. Secondary focus. No debenture mentioned."],
+  considerations: ["Secondary only; confirm feeder primaries. Verify fee structure."],
+});
+
+applyHongKongIntelligence("dsc-international-school", {
+  verdict:
+    "Ontario (OSSD) curriculum; fees HK$147K–168K. Ask about Canadian university pathway and retention.",
+  paragraphs: [
+    "DSC offers Ontario OSSD curriculum with fees HK$147K–168K. Briefing data was limited; contact the school for current outcomes.",
+  ],
+  positives: ["OSSD curriculum. Fees HK$147K–168K. Canadian pathway."],
+  considerations: ["Confirm OSSD recognition for your target universities. Ask about retention."],
+});
+
 export const HONG_KONG_SCHOOL_PROFILES = PROFILES_MAP;
 export const ALL_HONG_KONG_SCHOOL_SLUGS = Object.keys(PROFILES_MAP);

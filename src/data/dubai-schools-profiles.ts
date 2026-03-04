@@ -375,6 +375,57 @@ applyDubaiIntelligence("greenfield-international-school", {
   ],
 });
 
+// Batch 26-30 from briefing emails (Mar 2026; Dubai 21-25 EML had different format)
+applyDubaiIntelligence("regent-international-school", {
+  verdict:
+    "British curriculum; affordable fees. Ask about campus, results and retention.",
+  paragraphs: [
+    "Regent International School briefing data was limited; verify fees, curriculum and KHDA rating with the school. Multiple Regent campuses may exist; confirm which one you are considering.",
+  ],
+  positives: ["British curriculum. Affordable segment. Sibling discounts possible."],
+  considerations: ["Confirm which Regent campus. Verify fee structure and retention."],
+});
+
+applyDubaiIntelligence("jebel-ali-school", {
+  verdict:
+    "British curriculum in Jebel Ali. Ask about KHDA rating, results and retention.",
+  paragraphs: [
+    "Jebel Ali School briefing content was limited; contact the school for current fees, results and pastoral provision.",
+  ],
+  positives: ["British curriculum. Jebel Ali location."],
+  considerations: ["Confirm KHDA rating and fee structure. Ask about retention."],
+});
+
+applyDubaiIntelligence("arcadia-school", {
+  verdict:
+    "Jumeirah campus; 2025/2026 discounted fees AED 50K–81K. Includes textbooks. Ask about retention and consistency.",
+  paragraphs: [
+    "Arcadia School offers discounted fees AED 50K–81K including textbooks. Briefing data was limited; verify KHDA rating and outcomes.",
+  ],
+  positives: ["Fees include textbooks. Jumeirah location. Sibling discounts 5–10%."],
+  considerations: ["Confirm discount terms and full fee schedule. Ask about retention."],
+});
+
+applyDubaiIntelligence("universal-american-school", {
+  verdict:
+    "American curriculum; ask about KHDA rating, AP/college counselling and retention.",
+  paragraphs: [
+    "Universal American School briefing content was limited; contact the school for current fees, results and pastoral support.",
+  ],
+  positives: ["American curriculum. Established presence."],
+  considerations: ["Verify fee structure and KHDA rating. Ask about retention."],
+});
+
+applyDubaiIntelligence("hartland-international-school", {
+  verdict:
+    "British curriculum; ask about KHDA rating, IGCSE/A-Level results and retention.",
+  paragraphs: [
+    "Hartland International School briefing data was limited; verify fees, results and teacher stability with the school.",
+  ],
+  positives: ["British curriculum. Part of a wider group."],
+  considerations: ["Confirm KHDA rating and fee structure. Ask about retention."],
+});
+
 if (DUBAI_PROFILES_MAP["jumeirah-english-speaking-school"]) {
   const jess = DUBAI_PROFILES_MAP["jumeirah-english-speaking-school"];
 

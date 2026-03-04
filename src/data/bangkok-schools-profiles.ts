@@ -362,5 +362,96 @@ applyBangkokIntelligence("berkeley-international-school", {
   ],
 });
 
+// Batch 21-30 from briefing emails (Mar 2026)
+applyBangkokIntelligence("ruamrudee-international-school", {
+  verdict:
+    "IB school with fees including lunch; sibling discount. Ask about cohort results and university support.",
+  paragraphs: [
+    "Ruamrudee offers IB in Bangkok with 2026/2027 fees ฿538K–790K/year including lunch. Briefing data was limited; verify results and retention with the school.",
+  ],
+  positives: ["IB programme. Fees include lunch. Registration ฿200K; sibling discount ฿15K/semester."],
+  considerations: ["Confirm full fee breakdown and exam results. Ask about pastoral support."],
+});
+
+applyBangkokIntelligence("st-andrews-international-school-sukhumvit-107", {
+  verdict:
+    "Nord Anglia school on Sukhumvit 107; fees include ECAs and books. Ask about enrolment fee and consistency across Nord Anglia Bangkok campuses.",
+  paragraphs: [
+    "St Andrews Sukhumvit 107 runs IB and British curriculum with fees ฿362K–769K (2025/2026) including ECAs and books. Briefing content was limited; contact the school for current outcomes.",
+  ],
+  positives: ["IB and British curriculum. Fees include ECAs and books. Nord Anglia group. Sukhumvit 107 location."],
+  considerations: ["Enrolment fee ฿70K–180K. Verify consistency with other St Andrews campuses."],
+});
+
+applyBangkokIntelligence("st-andrews-international-school-sathorn", {
+  verdict:
+    "Primary campus in Sathorn; fees ฿562K–709K. Ask about secondary pathway and transition to other St Andrews sites.",
+  paragraphs: [
+    "St Andrews Sathorn offers primary education with 2025/2026 fees ฿562K–709K. Enrolment ฿120K/child or ฿180K/family. Briefing data was limited.",
+  ],
+  positives: ["Sathorn location. Nord Anglia primary campus. Enrolment covers family."],
+  considerations: ["Primary only; confirm secondary pathway. Verify fee inclusions."],
+});
+
+applyBangkokIntelligence("d-prep-international-school", {
+  verdict:
+    "IB school in Samut Prakan; registration ฿150K, deposit ฿50K. Food ฿45K/year extra. Ask about retention and DP results.",
+  paragraphs: [
+    "D-Prep runs IB in Samut Prakan with 2025/2026 fees ฿440K–677K. Briefing content was limited; verify results and teacher stability.",
+  ],
+  positives: ["IB programme. Samut Prakan campus. Sibling discounts possible."],
+  considerations: ["Registration ฿150K; deposit ฿50K. Food ฿45K/year extra. Samut Prakan location."],
+});
+
+applyBangkokIntelligence("ascot-international-school", {
+  verdict:
+    "British curriculum; enrolment ฿100K/child. Sibling discounts 10–20%. Ask about IGCSE and A-Level results.",
+  paragraphs: [
+    "Ascot offers British curriculum with 2025 fees ฿273K–594K. Briefing data was limited; confirm results and pastoral support with the school.",
+  ],
+  positives: ["British curriculum. Sibling discounts 10–20%. Enrolment ฿100K."],
+  considerations: ["High enrolment fee. Verify exam results and retention."],
+});
+
+applyBangkokIntelligence("charter-international-school", {
+  verdict:
+    "British curriculum in Prawet; fees include lunch and ASAs. Sibling discounts 10–15%. Ask about IGCSE and retention.",
+  paragraphs: [
+    "Charter runs British curriculum in Prawet with 2025/2026 fees ฿285K–594K including lunch and ASAs. Briefing content was limited.",
+  ],
+  positives: ["British curriculum. Fees include lunch and ASAs. Sibling discounts 10–15%. Prawet location."],
+  considerations: ["Verify full fee breakdown. Ask about exam results and teacher retention."],
+});
+
+applyBangkokIntelligence("wells-international-school", {
+  verdict:
+    "IB World School (PYP/MYP/DP) with three campuses; campus development fee ฿130K. Ask about which campus and consistency.",
+  paragraphs: [
+    "Wells runs the full IB continuum across three Sukhumvit campuses with fees ฿276K–576K. Briefing data was limited; verify results and campus-specific experience.",
+  ],
+  positives: ["Full IB continuum. Three campuses. Campus development fee ฿130K."],
+  considerations: ["Confirm which campus and compare. Ask about retention and DP results."],
+});
+
+applyBangkokIntelligence("garden-international-school", {
+  verdict:
+    "British curriculum in Sathorn; enrolment ฿60K–120K, deposit ฿40K. Ask about IGCSE and A-Level results and retention.",
+  paragraphs: [
+    "Garden International School Bangkok offers British curriculum in Sathorn. Fees ฿260K–514K/year (3 terms). Briefing content was limited.",
+  ],
+  positives: ["British curriculum. Sathorn location. Enrolment ฿60K–120K; deposit ฿40K."],
+  considerations: ["Verify fee structure and exam results. Ask about teacher retention."],
+});
+
+applyBangkokIntelligence("kpis-international-school", {
+  verdict:
+    "Fees include meals and tech; enrolment ฿100K, booking deposit ฿100K. Ask about curriculum and retention.",
+  paragraphs: [
+    "KPIS offers 2025/2026 fees ฿348K–544K including meals and tech. Briefing data was limited; contact the school for current outcomes.",
+  ],
+  positives: ["Fees include meals and tech. Enrolment ฿100K; booking deposit ฿100K."],
+  considerations: ["Confirm curriculum and exam pathway. Ask about retention."],
+});
+
 export const BANGKOK_SCHOOL_PROFILES = PROFILES_MAP;
 export const ALL_BANGKOK_SCHOOL_SLUGS = Object.keys(PROFILES_MAP);

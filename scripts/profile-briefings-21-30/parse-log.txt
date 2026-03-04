@@ -1,0 +1,45 @@
+singapore 21: NORTH LONDON COLLEGIATE SCHOOL SINGAPORE -> north-london-collegiate-school
+singapore 22: BRIGHTON COLLEGE SINGAPORE -> brighton-college
+singapore 23: THE WINSTEDT SCHOOL -> the-winstedt-school
+singapore 24: DOVER COURT INTERNATIONAL SCHOOL -> dover-court-international-school
+singapore 25: ST. JOSEPH'S INSTITUTION INTERNATIONAL -> NO MATCH
+singapore 26: DYNAMICS INTERNATIONAL SCHOOL -> dynamics-international-school
+singapore 27: SIR MANASSEH MEYER INTERNATIONAL SCHOOL -> sir-manasseh-meyer-international-school
+singapore 28: INSWORLD INSTITUTE -> insworld-institute
+singapore 29: INTERNATIONAL FRENCH SCHOOL (IFS) -> international-french-school
+singapore 30: INTEGRATED INTERNATIONAL SCHOOL (IIS) -> integrated-international-school
+kuala-lumpur 21: PENINSULA INTERNATIONAL SCHOOL AUSTRALIA (PISA) -> peninsula-international-school-australia
+kuala-lumpur 22: THE INTERNATIONAL SCHOOL @ PARKCITY -> the-international-school-at-parkcity
+kuala-lumpur 23: EATON INTERNATIONAL SCHOOL -> eaton-international-school
+kuala-lumpur 24: UCSI INTERNATIONAL SCHOOL KUALA LUMPUR -> ucsi-international-school
+kuala-lumpur 25: TAYLOR'S INTERNATIONAL SCHOOL PUCHONG -> NO MATCH
+kuala-lumpur 26: HIBISCUS INTERNATIONAL SCHOOL -> hibiscus-international-school
+kuala-lumpur 27: TANARATA INTERNATIONAL SCHOOL -> tanarata-international-school
+kuala-lumpur 28: IDRISSI INTERNATIONAL SCHOOL -> idrissi-international-school
+kuala-lumpur 29: ST. JOHN'S INTERNATIONAL SCHOOL -> NO MATCH
+kuala-lumpur 30: ETONHOUSE INTERNATIONAL SCHOOL KL -> NO MATCH
+bangkok 21: RUAMRUDEE INTERNATIONAL SCHOOL (RIS) -> ruamrudee-international-school
+bangkok 22: ST. ANDREWS INTERNATIONAL SCHOOL SUKHUMVIT 107 -> st-andrews-international-school-sukhumvit-107
+bangkok 23: ST. ANDREWS INTERNATIONAL SCHOOL SATHORN -> st-andrews-international-school-sathorn
+bangkok 24: D-PREP INTERNATIONAL SCHOOL -> d-prep-international-school
+bangkok 25: ST. STEPHEN'S INTERNATIONAL SCHOOL -> NO MATCH
+bangkok 26: ASCOT INTERNATIONAL SCHOOL -> ascot-international-school
+bangkok 27: CHARTER INTERNATIONAL SCHOOL -> charter-international-school
+bangkok 28: WELLS INTERNATIONAL SCHOOL -> wells-international-school
+bangkok 29: GARDEN INTERNATIONAL SCHOOL BANGKOK -> garden-international-school
+bangkok 30: KPIS INTERNATIONAL SCHOOL -> kpis-international-school
+hong-kong 21: CHRISTIAN ALLIANCE INTERNATIONAL SCHOOL (CAIS) -> christian-alliance-international-school
+hong-kong 22: INTERNATIONAL CHRISTIAN SCHOOL (ICS) -> international-christian-school
+hong-kong 23: AMERICAN INTERNATIONAL SCHOOL (AIS) -> american-international-school
+hong-kong 24: DISCOVERY BAY INTERNATIONAL SCHOOL (DBIS) -> discovery-bay-international-school
+hong-kong 25: INTERNATIONAL COLLEGE HONG KONG (ICHK) -> NO MATCH
+hong-kong 26: ESF RENAISSANCE COLLEGE (RCHK) -> renaissance-college
+hong-kong 27: ESF WEST ISLAND SCHOOL (WIS) -> west-island-school
+hong-kong 28: ESF ISLAND SCHOOL -> island-school
+hong-kong 29: CONCORDIA INTERNATIONAL SCHOOL HONG KONG -> concordia-international-school
+hong-kong 30: DSC INTERNATIONAL SCHOOL -> dsc-international-school
+dubai 26: REGENT INTERNATIONAL SCHOOL -> regent-international-school
+dubai 27: JEBEL ALI SCHOOL -> jebel-ali-school
+dubai 28: ARCADIA SCHOOL -> arcadia-school
+dubai 29: UNIVERSAL AMERICAN SCHOOL -> universal-american-school
+dubai 30: HARTLAND INTERNATIONAL SCHOOL -> hartland-international-school

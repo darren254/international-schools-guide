@@ -139,6 +139,21 @@ applySingaporeIntelligence("stamford-american-international-school", {
   ],
 });
 
+applySingaporeIntelligence("xcl-world-academy", {
+  verdict:
+    "Strong facilities and full IB with optional IGCSE; Yishun location and value-for-money concerns. Teacher pay and morale flagged in forums.",
+  paragraphs: [
+    "XCL World Academy has an impressive purpose-built campus (50m pool, Design Centre, 750-seat auditorium) at roughly 60% capacity. Full IB with IGCSE flexibility; 2024 IB average 35.0, 2025 33.2. Bilingual English-Mandarin option in Early Years.",
+    "Yishun is inconvenient for many expat areas. WhichSchoolAdvisor: 42% say fees represent value, 50% would recommend. Teacher reviews cite low pay, morale, and profit focus.",
+  ],
+  positives: [
+    "Outstanding campus facilities; full IB with IGCSE flexibility. 60+ nationalities; strong sports academy. Bilingual option in Early Years.",
+  ],
+  considerations: [
+    "Yishun location; only 42% value-for-money. Teacher pay and morale raised in reviews. 60% capacity.",
+  ],
+});
+
 applySingaporeIntelligence("australian-international-school", {
   verdict:
     "Australian curriculum with IB Diploma; strong for families targeting Australian universities or wanting continuity with the Australian system. Ask about recent leadership and curriculum focus.",
@@ -392,6 +407,123 @@ applySingaporeIntelligence("nps-international-school", {
   considerations: [
     "Choose track at entry; switching later is limited. Results are school-reported. Ask about non-Indian family experience.",
   ],
+});
+
+// Batch 21-30 from briefing emails (Mar 2026)
+applySingaporeIntelligence("north-london-collegiate-school", {
+  verdict:
+    "Strong IB results from a young campus, but teacher-forum reports on culture and turnover are concerning. Ask about staff retention and the Jan 2026 FT piece.",
+  paragraphs: [
+    "NLCS Singapore opened in 2020 and has delivered IB averages in the mid-to-high 30s with strong 40+ rates. The Depot Road campus has a 700-seat performing arts centre and 50m pool; WhichSchoolAdvisor notes it feels slightly cramped with no room to expand.",
+    "Teacher forums paint a troubling picture: allegations of toxic leadership, high turnover, Saturday working, and pay around 20% below Tanglin. PDPC fined the school S$10,000 in 2022 for data security. The FT reported on safeguarding and workplace concerns in Jan 2026; expansion plans have been scaled back.",
+  ],
+  positives: [
+    "IB Diploma averages in the mid-to-high 30s from the first three cohorts; strong 40+ rates. Purpose-built campus with 700-seat performing arts centre and 50m pool.",
+    "100% parent recommendation in WhichSchoolAdvisor survey. University offers to Oxbridge, Imperial, US Ivies. Central Queenstown/Buona Vista location.",
+  ],
+  considerations: [
+    "Multiple consistent allegations of poor staff culture and high turnover on teacher forums. FT investigation (Jan 2026) on safeguarding and workplace concerns. Campus cramped with no room to grow; among the most expensive in Singapore.",
+  ],
+});
+
+applySingaporeIntelligence("brighton-college", {
+  verdict:
+    "British IGCSE and A-Levels from 2026; small year groups and strong Mandarin. No Singapore exam results yet, so families are buying the brand.",
+  paragraphs: [
+    "Brighton College Singapore opened in 2020 under Cognita at 1 Chuan Lane, a short walk from Lorong Chuan MRT. WhichSchoolAdvisor describes it as a small, friendly UK independent school dropped into a large campus. Specialist subject teaching starts earlier than most; Mandarin has multiple pathways.",
+    "First IGCSEs are in 2027 and first A-levels no earlier than 2028. University guidance is still being built; founding head left in 2021. Cognita ownership is a known variable for teacher retention.",
+  ],
+  positives: [
+    "Small year-group caps and village-school feel. Early specialist teaching at primary; strong Mandarin across native, second language and foreign language pathways. Lorong Chuan MRT access.",
+  ],
+  considerations: [
+    "No Singapore-campus exam results; first IGCSEs 2027, first A-levels 2028. Premium fees with no proven local outcomes. EAL adds ~SGD 11,772/year if required.",
+  ],
+});
+
+applySingaporeIntelligence("the-winstedt-school", {
+  verdict:
+    "Specialist school for learning differences and neurodiversity; therapy included in fees. No published cohort outcomes; the Winstedt Diploma is not IB or A-level.",
+  paragraphs: [
+    "Winstedt serves children with learning differences, autism, ADHD and dyslexia, or those who struggled in mainstream settings. Small classes, in-class therapy twice a week and pull-out support are included in the headline fee. Parents consistently praise anxiety reduction and renewed love of learning; campus is at Upper Boon Keng Road in Kallang.",
+    "The school does not publish IGCSE distributions, diploma outcomes or university destination lists. The WASC-accredited Winstedt Diploma is accepted by US universities but students targeting UK or Singapore universities will likely need SAT/AP. Among the most expensive in this batch.",
+  ],
+  positives: [
+    "Differentiated-learning model with integrated therapy in fees. Consistently positive parent feedback; HoneyKids Gold for Best School for Learning Support 2024. EduTrust certified. Sibling discount 25%. Kallang, walkable from two MRT stations.",
+  ],
+  considerations: [
+    "No publicly available cohort-level academic outcomes. Winstedt Diploma is not IB or A-level equivalent. Small school limits peer range and extracurricular breadth.",
+  ],
+});
+
+applySingaporeIntelligence("dover-court-international-school", {
+  verdict:
+    "Inclusive three-pathway model and consistent IB mid-30s from open admissions. Nord Anglia ownership and post-acquisition benefit cuts come up in teacher forums.",
+  paragraphs: [
+    "Dover Court has been in Singapore since 1972 and joined Nord Anglia in 2014. The 12-acre Dover Road campus draws consistently positive parent feedback; the three-pathway inclusion model (standard, adapted with ASDAN/BTEC, specialist with therapists) is a real differentiator. IB Class of 2025 averaged 36 with 100% pass; Class of 2023 averaged 35 with 96% pass.",
+    "Teacher forums report reduced housing and health benefits after the Nord Anglia acquisition. Pathway 2/3 fees are high and not prominently signposted; building fund fee SGD 3,135/year is on top of tuition.",
+  ],
+  positives: [
+    "Three-pathway inclusion model. Consistent IB mid-30s with 100% pass from open-admissions intake. BTEC Business alongside IB. 12-acre campus; community feel cited by long-term families. New Sixth Form Centre planned 2025-26.",
+  ],
+  considerations: [
+    "Benefits and compensation concerns in teacher forums post Nord Anglia acquisition. Pathway 2/3 fees high and not clearly signposted. Building Fund Fee SGD 3,135/year recurring.",
+  ],
+});
+
+applySingaporeIntelligence("dynamics-international-school", {
+  verdict:
+    "British curriculum school in Orchard. Fees not publicly listed; contact the school for details and current programme.",
+  paragraphs: [
+    "Dynamics offers British curriculum in central Orchard. Independent briefing data was slim; verify fees, results and pastoral support directly with the school.",
+  ],
+  positives: [],
+  considerations: ["Fees not publicly listed. Ask for full fee schedule and any one-off charges."],
+});
+
+applySingaporeIntelligence("sir-manasseh-meyer-international-school", {
+  verdict:
+    "Small British-curriculum school in Sembawang with a strong community feel and fees below SGD 30K. Stops at IGCSE; no Sixth Form.",
+  paragraphs: [
+    "SMMIS runs from Nursery through Grade 10 in Sembawang, about 25 minutes from the city. Founded with a Jewish community mission but admits all backgrounds. WhichSchoolAdvisor found 96% would recommend; parents cite teachers knowing every student by name and leadership that is responsive and open to feedback.",
+    "The school stops at Grade 10 (IGCSE). In 2024 and 2025 school-reported results showed 100% and 91% A-C respectively; these are surfaced by WhichSchoolAdvisor, not independently audited.",
+  ],
+  positives: [
+    "Small, all-through to IGCSE; fees below SGD 30K including daily hot meal. Consistently warm parent reviews; class sizes around 18. Purpose-built campus from 2016.",
+  ],
+  considerations: [
+    "No Sixth Form; students need to move for A-levels or IB. Sembawang location may suit north-side families best.",
+  ],
+});
+
+applySingaporeIntelligence("insworld-institute", {
+  verdict:
+    "IGCSE and A-Levels in a small setting; annualised tuition and term-based fees. Ask about class sizes and university support.",
+  paragraphs: [
+    "Insworld offers British curriculum for ages 12-18. Briefing data was limited; contact the school for current fees, results and pastoral provision.",
+  ],
+  positives: ["IGCSE and A-Level pathway. Central Singapore location."],
+  considerations: ["Verify fee structure (application and enrolment fees) and exam results."],
+});
+
+applySingaporeIntelligence("international-french-school", {
+  verdict:
+    "French curriculum school in Ang Mo Kio; leads to French Baccalaureate. Ask about the international stream and language support for non-Francophone families.",
+  paragraphs: [
+    "IFS offers French curriculum from age 2 to 18. Briefing content was limited; families should confirm fees, entry requirements and how the international section works.",
+  ],
+  positives: ["French curriculum and Baccalaureate. Ang Mo Kio campus."],
+  considerations: ["Confirm fit if your child is not French-speaking; ask about EAL or international stream."],
+});
+
+applySingaporeIntelligence("integrated-international-school", {
+  verdict:
+    "Inclusive school with mainstream and support tracks; strong parent feedback on pastoral care. Ask about the balance of mainstream vs support and fee structure.",
+  paragraphs: [
+    "IIS runs mainstream and support tracks for diverse learners. Parent reviews praise caring teachers and differentiated support; verify current leadership and how pathways work in practice.",
+  ],
+  positives: ["Inclusive model; mainstream and support tracks. Consistently positive parent feedback on care and engagement."],
+  considerations: ["Confirm fee structure and what is included. Ask about transition between tracks if needed."],
 });
 
 export const SINGAPORE_SCHOOL_PROFILES = PROFILES_MAP;

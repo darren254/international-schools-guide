@@ -403,5 +403,66 @@ applyKLIntelligence("sri-kdu-school", {
   ],
 });
 
+// Batch 21-30 from briefing emails (Mar 2026)
+applyKLIntelligence("peninsula-international-school-australia", {
+  verdict:
+    "Australian curriculum in Shah Alam; fees RM 24K–75K. Ask about retention and how the NSW/Victorian pathway fits your plans.",
+  paragraphs: [
+    "Peninsula offers Australian curriculum in Shah Alam. Briefing data was limited; verify fees, results and teacher stability directly with the school.",
+  ],
+  positives: ["Australian curriculum. Shah Alam location. Sibling and payment discounts available."],
+  considerations: ["Confirm full fee schedule and retention. Ask about secondary pathway and exam options."],
+});
+
+applyKLIntelligence("eaton-international-school", {
+  verdict:
+    "British curriculum in Kajang; fees from RM 16K. Compulsory meal plan for Early Years. Ask about class sizes and IGCSE support.",
+  paragraphs: [
+    "Eaton runs British curriculum in Kajang with sibling discounts. Briefing content was limited; contact the school for current fees, results and pastoral provision.",
+  ],
+  positives: ["British curriculum. Kajang campus. Sibling discounts 5–10%. Compulsory meal plan for Early Years."],
+  considerations: ["Kajang location; assess commute. Verify fee inclusions and one-off charges."],
+});
+
+applyKLIntelligence("ucsi-international-school", {
+  verdict:
+    "British curriculum in Cheras; 3 terms/year. Ask about campus options (Springhill, Subang Jaya) and retention.",
+  paragraphs: [
+    "UCSI International School KL offers British curriculum with multiple campus options. Fee and result details were limited in the briefing; confirm directly with the school.",
+  ],
+  positives: ["British curriculum. Multiple campuses. Tech fee included in some tiers. 3 terms/year."],
+  considerations: ["Confirm which campus you are considering and compare experience. Ask about retention and results."],
+});
+
+applyKLIntelligence("hibiscus-international-school", {
+  verdict:
+    "British curriculum in Segambut; 5% full-year discount, sibling discounts up to 15%. Ask about IGCSE results and class sizes.",
+  paragraphs: [
+    "Hibiscus runs British curriculum in Segambut. Briefing data was limited; verify fees, results and pastoral support with the school.",
+  ],
+  positives: ["British curriculum. Segambut location. 5% discount for full-year payment; sibling discounts."],
+  considerations: ["Confirm fee schedule and any resource or activity fees. Ask about exam results and retention."],
+});
+
+applyKLIntelligence("tanarata-international-school", {
+  verdict:
+    "British curriculum in Kajang; fees RM 25K–37K, 10% sibling discount. Ask about IGCSE and A-Level provision and retention.",
+  paragraphs: [
+    "Tanarata offers British curriculum in Kajang with Resource Fund per term. Briefing content was limited; contact the school for current outcomes and teacher stability.",
+  ],
+  positives: ["British curriculum. Kajang. 10% sibling discount. Resource Fund RM 600/term."],
+  considerations: ["Kajang location. Verify full fee breakdown and exam support."],
+});
+
+applyKLIntelligence("idrissi-international-school", {
+  verdict:
+    "Islamic international school with British curriculum; Setia Alam and Bukit Jelutong campuses. Preschool through secondary. Ask about ethos and language support.",
+  paragraphs: [
+    "Idrissi runs British curriculum in an Islamic context with two Shah Alam-area campuses. Briefing data was limited; families should confirm fit, fees and results directly.",
+  ],
+  positives: ["British curriculum. Two campuses (Setia Alam, Bukit Jelutong). Islamic ethos; all backgrounds admitted."],
+  considerations: ["Confirm fit with faith-based approach. Verify fee structure and secondary pathway."],
+});
+
 export const KUALA_LUMPUR_SCHOOL_PROFILES = PROFILES_MAP;
 export const ALL_KUALA_LUMPUR_SCHOOL_SLUGS = Object.keys(PROFILES_MAP);
