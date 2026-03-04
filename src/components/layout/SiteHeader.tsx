@@ -16,11 +16,11 @@ export function SiteHeader() {
   return (
     <header className="bg-warm-white border-b border-warm-border sticky top-0 z-50">
       <div className="container-site">
-        <div className="flex items-center justify-between h-16 min-w-0">
+        <div className="flex items-center justify-between h-20 min-w-0">
           {/* Logo */}
           <Link href="/" className="flex items-center min-w-0" aria-label="International Schools Guide home">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.svg" alt="" className="h-8 w-auto max-w-[200px] sm:max-w-none" width="380" height="28" />
+            <img src="/logo.svg" alt="" className="h-11 w-auto max-w-[280px] sm:max-w-none" width="380" height="28" />
           </Link>
 
           {/* Nav */}

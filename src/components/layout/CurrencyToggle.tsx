@@ -5,7 +5,6 @@ import { useCurrency } from "@/context/CurrencyContext";
 import {
   type CurrencyCode,
   ALL_CURRENCY_CODES,
-  getCurrencySymbol,
   getCurrencyLabel,
 } from "@/lib/currency/rates";
 
@@ -34,8 +33,7 @@ export function CurrencyToggle() {
         aria-expanded={open}
         aria-haspopup="listbox"
       >
-        <span className="tabular-nums">{getCurrencySymbol(currency)}</span>
-        <span className="text-charcoal-muted">{currency}</span>
+        <span className="tabular-nums">{currency}</span>
         <svg
           width="8"
           height="8"
@@ -77,9 +75,6 @@ export function CurrencyToggle() {
                     : "text-charcoal-muted hover:bg-cream-100 hover:text-charcoal"
                 }`}
               >
-                <span className="w-6 shrink-0 tabular-nums text-charcoal-muted">
-                  {getCurrencySymbol(code)}
-                </span>
                 <span className="min-w-0 flex-1">{code}</span>
                 {isSelected && (
                   <svg width="12" height="12" viewBox="0 0 12 12" className="shrink-0 text-charcoal-muted" aria-hidden>

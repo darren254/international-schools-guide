@@ -8,7 +8,7 @@ import { writeFileSync } from "fs";
 import { resolve } from "path";
 
 const CURRENCIES_TO_FETCH = [
-  "IDR", "AED", "SGD", "THB", "HKD", "MYR", "GBP", "EUR", "AUD",
+  "IDR", "AED", "SGD", "THB", "HKD", "MYR", "GBP", "EUR", "AUD", "JPY", "KRW",
 ];
 
 const OXR_APP_ID = process.env.OXR_APP_ID;

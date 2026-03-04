@@ -26,6 +26,8 @@ const FALLBACK_RATES: Record<string, number> = {
   GBP: 0.79,
   EUR: 0.92,
   AUD: 1.55,
+  JPY: 150,
+  KRW: 1_380,
 };
 
 function loadRate(code: Exclude<CurrencyCode, "USD">): number {

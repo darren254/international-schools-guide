@@ -9,6 +9,8 @@ export const CURRENCIES = {
   GBP: { symbol: "£", label: "British Pound", city: null },
   EUR: { symbol: "€", label: "Euro", city: null },
   AUD: { symbol: "A$", label: "Australian Dollar", city: null },
+  JPY: { symbol: "¥", label: "Japanese Yen", city: null },
+  KRW: { symbol: "₩", label: "South Korean Won", city: null },
   IDR: { symbol: "Rp", label: "Indonesian Rupiah", city: "jakarta" },
   AED: { symbol: "AED", label: "UAE Dirham", city: "dubai" },
   SGD: { symbol: "S$", label: "Singapore Dollar", city: "singapore" },
