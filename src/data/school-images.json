@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-03T14:09:30.616Z",
+  "generatedAt": "2026-03-04T08:49:58.152Z",
   "sourceRoot": "external/jakarta-school-automation-images",
   "slugs": {
     "acg-school-jakarta": {
@@ -1299,6 +1299,114 @@
       "photo1": "/images/schools/wells-international-school/photo1.webp",
       "photo2": "/images/schools/wells-international-school/photo2.webp",
       "photo3": "/images/schools/wells-international-school/photo3.webp"
+    },
+    "ajman-american-private-school": {
+      "card": "/images/schools/ajman-american-private-school/card.webp",
+      "profile": "/images/schools/ajman-american-private-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "IMG_4063-scaled.jpg"
+    },
+    "al-khaleej-international-school": {
+      "card": "/images/schools/al-khaleej-international-school/card.webp",
+      "profile": "/images/schools/al-khaleej-international-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "thumbnail-new-campus.png"
+    },
+    "al-salam-community-school": {
+      "card": "/images/schools/al-salam-community-school/card.webp",
+      "profile": "/images/schools/al-salam-community-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "Website-Long-Banner-1-scaled.png"
+    },
+    "al-salam-private-school": {
+      "card": "/images/schools/al-salam-private-school/card.webp",
+      "profile": "/images/schools/al-salam-private-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "14-edited.png"
+    },
+    "american-academy-for-girls": {
+      "card": "/images/schools/american-academy-for-girls/card.webp",
+      "profile": "/images/schools/american-academy-for-girls/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "aag-nursery-v1a.jpg"
+    },
+    "amity-english-school": {
+      "card": "/images/schools/amity-english-school/card.webp",
+      "profile": "/images/schools/amity-english-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "C3hKcwEiaWPhzLaO0VAb3gYIpzeIx59mq30EWfLj.png"
+    },
+    "amity-private-school-sharjah": {
+      "card": "/images/schools/amity-private-school-sharjah/card.webp",
+      "profile": "/images/schools/amity-private-school-sharjah/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "76W8rvyZyq0SoZy4mmZhVevfN74yOxCmaRCm8l85.png"
+    },
+    "amity-school": {
+      "card": "/images/schools/amity-school/card.webp",
+      "profile": "/images/schools/amity-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "mnqRuwbAK88Yus8jeypRDAn4BuyIUl4GxvmwcJb4.png"
+    },
+    "ash-mount-school": {
+      "card": "/images/schools/ash-mount-school/card.webp",
+      "profile": "/images/schools/ash-mount-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "IMG_9047-Abi-863x1024.png"
+    },
+    "bc-academy-international-school": {
+      "card": "/images/schools/bc-academy-international-school/card.webp",
+      "profile": "/images/schools/bc-academy-international-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "bca_icon_avatar.png"
+    },
+    "cambridge-international-school": {
+      "card": "/images/schools/cambridge-international-school/card.webp",
+      "profile": "/images/schools/cambridge-international-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "facade.jpg"
+    },
+    "capital-school": {
+      "card": "/images/schools/capital-school/card.webp",
+      "profile": "/images/schools/capital-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "07aa4e_7d6a3c8d084c47218dd4f7ccdec7f8f8%7Emv2.jpg"
+    },
+    "citizens-school": {
+      "card": "/images/schools/citizens-school/card.webp",
+      "profile": "/images/schools/citizens-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "citizens-opengraph.webp"
+    },
+    "collegiate-international-school": {
+      "card": "/images/schools/collegiate-international-school/card.webp",
+      "profile": "/images/schools/collegiate-international-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "041K4482min-307-OG-Image_994.webp"
+    },
+    "le-petite-ecole": {
+      "card": "/images/schools/le-petite-ecole/card.webp",
+      "profile": "/images/schools/le-petite-ecole/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "IMG_2290-scaled.jpg"
+    },
+    "dsc-international-school": {
+      "card": "/images/schools/dsc-international-school/card.webp",
+      "profile": "/images/schools/dsc-international-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "Community.jpg"
+    },
+    "inspiros-international-school": {
+      "card": "/images/schools/inspiros-international-school/card.webp",
+      "profile": "/images/schools/inspiros-international-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "10.png"
+    },
+    "maple-leaf-kingsley-international-school": {
+      "card": "/images/schools/maple-leaf-kingsley-international-school/card.webp",
+      "profile": "/images/schools/maple-leaf-kingsley-international-school/profile.webp",
+      "sourceFolder": "website",
+      "sourceFile": "Image-5-1024x1024.png"
     }
   },
   "unmappedSourceFolders": [],
