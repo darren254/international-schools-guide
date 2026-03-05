@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "favicons": "node scripts/generate-favicons.mjs",
-    "build": "tsx scripts/generate-api-json.ts && next build",
+    "build": "tsx scripts/generate-api-json.ts && tsx scripts/generate-school-photo-strip-unique.ts && next build",
     "start": "next start",
     "lint": "next lint",
     "fact-check": "tsx scripts/run-fact-check.ts",

@@ -19,7 +19,10 @@ import {
 import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 import type { CurrencyCode } from "@/lib/currency/rates";
 import { getSchoolImageUrl } from "@/lib/schools/images";
+import photoStripUnique from "@/data/school-photo-strip-unique.json";
 import { BackToResults } from "@/components/home/BackToResults";
+
+const PHOTO_STRIP_LABELS = ["campus", "facilities", "students", "campus"] as const;
 
 // ═══════════════════════════════════════════════════════
 // STATIC PARAMS - generates a page for every school slug
@@ -188,23 +191,24 @@ export default function SchoolProfilePage({
         bio={s.head.bio}
       />
 
-      {/* Photo Strip — show each image at most once; use placeholders for duplicates or missing */}
+      {/* Photo Strip — content-deduplicated (by hash); placeholders for missing/duplicate slots */}
       <PhotoStrip
         images={(() => {
+          const uniqueUrls = (photoStripUnique as { slugs: Record<string, string[]> }).slugs[s.slug];
+          if (uniqueUrls && uniqueUrls.length > 0) {
+            return PHOTO_STRIP_LABELS.map((label, i) => ({
+              alt: `${s.name} ${label}`,
+              src: uniqueUrls[i],
+            }));
+          }
           const variants = ["profile", "photo1", "photo2", "photo3"] as const;
-          const slotLabels: Record<(typeof variants)[number], string> = {
-            profile: "campus",
-            photo1: "facilities",
-            photo2: "students",
-            photo3: "campus",
-          };
           const seen = new Set<string>();
           return variants.map((variant) => {
             const src = getSchoolImageUrl(s.slug, variant);
             const isDuplicate = src != null && seen.has(src);
             if (src) seen.add(src);
             return {
-              alt: `${s.name} ${slotLabels[variant]}`,
+              alt: `${s.name} ${PHOTO_STRIP_LABELS[variants.indexOf(variant)]}`,
               src: isDuplicate ? undefined : src,
             };
           });
