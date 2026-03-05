@@ -2,6 +2,22 @@
 
 > This document governs all editorial copy on the International Schools Guide.
 > Every AI session that writes school profiles, news, or insights MUST read this file first.
+>
+> **School reviews and profile Intelligence sections** must also follow **`docs/ISG_SCHOOL_REVIEWS_EDITORIAL_BRIEF.md`** (ISG School Reviews Editorial Brief). That brief is canonical for: voice (knowledgeable friend, Good Schools Guide tone), legal/sourcing rules, consistency, structure, verdict line, and right of reply.
+
+---
+
+## School reviews — golden rules (summary)
+
+When writing or editing school profile Intelligence copy, always apply:
+
+1. **Lawyer test** — If any sentence could trigger a legal letter from the school, remove it or rewrite as a "worth asking about" nudge. Never state unverifiable negatives as findings.
+2. **Anonymous forums (ISR, TES, Reddit teacher threads) are never cited or referenced** — Use as background only. Convert to a gentle suggestion for the parent (e.g. "Staff turnover is worth asking about. We've heard there's been more movement than you'd expect."). Never write "teacher forums suggest..." or similar.
+3. **Consistency** — Same sourcing threshold and tone for comparable schools. Read competitor reviews side by side before publishing.
+4. **Hint, don't state** — Cautions go in "What to ask about" as questions; use "we've heard", "worth asking about", not "concerning", "troubling", "allegations".
+5. **Date everything** — Events more than 3 years old without evidence they reflect current practice should not feature (or explain why still relevant).
+6. **Right of reply** — Before publishing significant criticism, offer the school the chance to respond; document it.
+7. **Verdict line** — Lead positive, specific, sayable out loud at a school fair. Full brief: `docs/ISG_SCHOOL_REVIEWS_EDITORIAL_BRIEF.md`.
 
 ---
 
@@ -12,6 +28,8 @@ We write like a parent who has lived in the city for three years, done the schoo
 We are not a school marketing team. We are not a brochure. We are not an AI summarising a school's website.
 
 **Helpful and scannable:** Parents skim. Every sentence should help them decide or know what to ask. Short sentences; no wordy prose. If they can't get the gist in 30 seconds, tighten or cut.
+
+**We give parents helpful, no-fluff insights; we don't repeat the same serious claim in three places to prove we're independent.**
 
 **The test:** If you read a sentence aloud and it sounds like it could appear in a school prospectus, rewrite it.
 
@@ -54,11 +72,25 @@ Search Reddit (r/jakarta, r/expats, r/internationalschools), Facebook groups (Ja
 ### Step 2: Synthesise into editorial intelligence
 Take the raw comments and distil them into editorial paragraphs. Present the information as if we had spoken to people on the ground. Never attribute to "Reddit" or "Facebook" - attribute to "parents", "families who've been here a few years", "families on the school circuit", etc. See the Attribution section below for how and where to use these phrases.
 
+**We are on the ground.** The editorial should give the impression that our intelligence comes from talking to people - parents, families, teachers - not from quoting other review sites. We synthesise what we've gathered into our own voice. We never present ourselves as summarising another site's survey or review.
+
 ### Step 3: Apply the tone filter
 Run every paragraph through the banned phrases list and the style rules below. Cut anything that sounds like AI wrote it.
 
 ### Step 4: Verify facts
 Cross-check fee figures, exam results, and dates against official school websites. Editorial opinion is ours; factual claims must be accurate.
+
+---
+
+## Sources: What We Cite and What We Don't
+
+**Do not quote or cite WhichSchoolAdvisor, iSchoolAdvisor, or similar review-aggregator sites.** We do not say "WhichSchoolAdvisor notes...", "According to WhichSchoolAdvisor...", or cite their survey percentages (e.g. "42% would recommend"). That reads as if we're summarising someone else's research instead of our own. Remove or rewrite any such references when writing or editing profiles.
+
+**We are happy to refer to the FT (Financial Times) and other serious journalism** when relevant - e.g. "The FT reported on safeguarding concerns in Jan 2026." Name the publication and keep the reference factual and brief.
+
+**Editorial should read as if we're on the ground.** Our authority comes from the impression that we've spoken to people, visited, and formed our own view. In most cases, just say the thing - state the insight directly. Don't pepper every claim with "parents say..." or "families mention..."; that gets repetitive. Use attribution only when it genuinely adds (e.g. grounding a specific or contested claim). We never cite other review sites; we refer to the FT where relevant and otherwise write in our own voice.
+
+**If existing profile copy cites WhichSchoolAdvisor or similar:** revise it when the profile is next updated. Replace with a direct statement in our voice, or sparing attribution where it adds - not a blanket "parents say" in front of everything.
 
 ---
 
@@ -144,7 +176,9 @@ These phrases are permanently banned from all editorial copy. No exceptions.
 
 ### Attribution
 
-Attribution phrases ("parents say", "families mention", "the general consensus") are **mid-paragraph tools**, not paragraph openers. Use them to ground a specific claim inside a paragraph. Do not use them to open paragraphs.
+**Default to stating the thing.** In most cases, state the insight directly - no need to wrap it in "parents say..." or "families mention...". Use attribution only when it genuinely adds (e.g. grounding a specific or contested claim). Repetitive attribution sounds like filler.
+
+When you do use attribution: attribution phrases ("parents say", "families mention", "the general consensus") are **mid-paragraph tools**, not paragraph openers. Do not use them to open paragraphs.
 
 **Good (attribution mid-sentence):** "Teacher turnover sits at 9.6%, which parents say is part of why the school feels so settled."
 **Good (attribution grounding a claim):** "The college counselling team is strong. Parents say it's one of the better operations in Dubai."
@@ -202,6 +236,16 @@ The verdict (the bold summary at the top of each Intelligence section) should be
 
 ---
 
+## Serious claims and named sources
+
+**Name a serious source once.** If we refer to a named report or investigation (e.g. FT, regulator, court), mention it once in the most natural place - usually the body paragraph where we give context. Do not repeat the same source in the verdict and again in considerations. The verdict can say "ask about [topic]" without naming the source again; considerations can summarise the issue without repeating "FT (Jan 2026)" or the same wording.
+
+**Sensitive topics (e.g. racism, bullying, safeguarding): state once, helpfully.** We are independent and helpful, not investigative journalism. Flag the issue clearly in one place so parents can ask the right questions. Do not repeat the same formulation in verdict, paragraph, and considerations. Choose one home (typically the main paragraph); verdict can say "ask about pastoral support and [topic]" and considerations can say "Ask about pastoral support and how the school handles incidents" or similar, without restating the allegation in full.
+
+**No repetition across verdict / paragraphs / considerations.** If a point is made in the body, the verdict and considerations should not repeat it verbatim. Verdict = one-line takeaway + optional "ask about X". Considerations = short bullets; can reference the issue by angle (e.g. "Ask about pastoral support") rather than repeating the same phrase used in the paragraph.
+
+---
+
 ## Paragraph Openers
 
 **Lead with the substance, not the attribution.** The first sentence of every paragraph should carry the insight itself - the thing the reader needs to know. Don't wind up with "Parents say..." or "The word among families is..." before getting to the point.
@@ -236,8 +280,8 @@ The verdict (the bold summary at the top of each Intelligence section) should be
 
 When writing or editing school profiles:
 
-1. Read this file first.
-2. Search for real parent comments on the school (Reddit, Quora, Facebook groups).
+1. Read this file first — and for school reviews/Intelligence sections, read `docs/ISG_SCHOOL_REVIEWS_EDITORIAL_BRIEF.md` and follow the golden rules (lawyer test, forums never cited, hint not state, consistency, date facts, right of reply).
+2. Search for real parent comments on the school (Reddit, Quora, Facebook groups). Do not quote or cite WhichSchoolAdvisor or similar review sites; we refer to the FT where relevant and otherwise write as if we're on the ground. Do not cite teacher forums (ISR, TES, etc.); use as background only and convert to "worth asking about" if no other evidence.
 3. Write the Intelligence section using those comments as source material.
 4. Run every paragraph through the banned phrases list.
 5. Count your hyphens. Maximum 2 per paragraph.
@@ -246,3 +290,4 @@ When writing or editing school profiles:
 8. Read every sentence aloud. Does it sound like a person talking, or a document describing?
 9. Check your verdict. Is it advice to a parent, or a statement about a school?
 10. If writing a batch of profiles, read the first sentence of every paragraph across all profiles. Break any emerging pattern.
+11. **Self-check (Editorial Brief):** Could any sentence trigger a lawyer's letter? Am I hinting rather than stating? Same standard as the school's main competitor? See the full self-check in `docs/ISG_SCHOOL_REVIEWS_EDITORIAL_BRIEF.md`.

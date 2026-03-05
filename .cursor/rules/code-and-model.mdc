@@ -84,6 +84,7 @@ You are a senior full-stack web developer working on international education web
 - Tone: helpful, knowledgeable, parent-friendly — not salesy
 - Always include structured data (JSON-LD) for school listings and articles
 - Editorial copy must follow the tone and banned-phrases rules in `tone.mdc`
+- **School reviews and profile Intelligence copy** must also follow **`docs/ISG_SCHOOL_REVIEWS_EDITORIAL_BRIEF.md`** (voice, legal/sourcing, consistency, verdict, right of reply)
 
 ---
 

@@ -1,7 +1,7 @@
 # School profile writing & content guidelines
 
 **Use this when briefing AI or writers** so school profile copy stays consistent with the International Schools Guide.  
-Canonical sources in this repo: `TONE.md` (project root), `.skills/school-profile/`, `src/data/schools.ts`.  
+Canonical sources in this repo: **`docs/ISG_SCHOOL_REVIEWS_EDITORIAL_BRIEF.md`** (school reviews — voice, legal/sourcing, consistency, structure, verdict, right of reply), `TONE.md` (project root), `.skills/school-profile/`, `src/data/schools.ts`.  
 When **adapting third-party briefings** (e.g. .eml research exports) into Intelligence copy, also use `docs/INTELLIGENCE_BRIEFING_ADAPTATION.md` for sensitivity and product-appropriateness rules.
 
 ---
@@ -16,13 +16,25 @@ When **adapting third-party briefings** (e.g. .eml research exports) into Intell
 
 ---
 
+## 1b. Legal & sourcing (school reviews)
+
+School review and Intelligence copy must follow **`docs/ISG_SCHOOL_REVIEWS_EDITORIAL_BRIEF.md`**. In summary:
+
+- **Lawyer test:** If a sentence could trigger a legal letter from the school, remove it or rewrite as a "worth asking about" nudge. Never state unverifiable negatives as findings.
+- **Anonymous forums (ISR, TES, Reddit teacher threads):** Never cite or reference. Use as background only; if you have no other evidence, convert to a gentle suggestion (e.g. "Staff turnover is worth asking about. We've heard there's been more movement than you'd expect.").
+- **Consistency:** Apply the same sourcing threshold and tone to comparable schools. Before publishing, read this school's main competitor reviews side by side.
+- **Hint, don't state:** Frame cautions as "worth asking about" / "we've heard"; avoid "concerning", "troubling", "allegations". Date facts; drop or justify anything &gt;3 years old.
+- **Right of reply:** Before publishing significant criticism, offer the school the chance to respond; document it.
+
+---
+
 ## 2. Research pipeline (do this before writing)
 
 1. **Gather real parent voices**  
    Search Reddit (r/jakarta, r/expats, r/internationalschools), Facebook groups (e.g. Jakarta Expat Forum), Quora, and school review sites for actual comments. Look for: specific complaints (traffic, fees, turnover, class size), specific praise (named programmes, outcomes), comparisons ("we moved from X to Y because..."), insider knowledge (waitlists, admissions).
 
 2. **Synthesise into editorial intelligence**  
-   Distil comments into our voice. **Never** attribute to "Reddit" or "Facebook". Attribute to: "parents", "families who've been here a few years", "families on the school circuit", etc. Use attribution phrases mid-paragraph to ground specific claims, not as paragraph openers.
+   Distil comments into our voice. **Never** attribute to "Reddit" or "Facebook". **Never** cite teacher forums (ISR, TES, etc.); use them as background only and convert to "worth asking about" if no other evidence. Attribute to: "parents", "families who've been here a few years", "families on the school circuit", etc. Use attribution phrases mid-paragraph to ground specific claims, not as paragraph openers.
 
 3. **Apply the tone filter**  
    Run every paragraph through the banned phrases list and style rules. Cut anything that sounds like generic AI.
@@ -66,7 +78,8 @@ punches above its weight (max once per ~20 profiles), bang for your buck, hidden
 
 - **One sentence, or two at most.**
 - **Direct advice to a parent**, not a description of the school.
-- **Always include a qualifier or caveat** - never unconditional praise.
+- **Lead with what's genuinely good;** add a qualifier or light "worth asking about" nudge if needed — never unconditional praise, never a finding of fact on unsubstantiated issues.
+- **Test:** Read it aloud as if you're saying it to a parent at a school fair next to the head. Would you say it exactly that way? Full verdict guidance: `docs/ISG_SCHOOL_REVIEWS_EDITORIAL_BRIEF.md` (The verdict line).
 
 Good: "If your company is paying and your child is reasonably outgoing, JIS is a safe, solid choice. If you're self-funding, it's worth comparing."  
 Bad: "BSJ is the strongest British-curriculum option in Jakarta with genuine community spirit and strong pastoral care."
@@ -128,8 +141,10 @@ Bad: "BSJ is the strongest British-curriculum option in Jakarta with genuine com
 6. Is the verdict **advice to a parent**, not a statement about the school?
 7. Are there specific details (streets, times, fees, comparisons)?
 8. Would this sound at home in a school prospectus? If yes, rewrite.
-9. If writing a batch of profiles, read the first sentence of every paragraph across all profiles. Break any emerging pattern.
-10. **Scannable?** Can a parent get the gist in 30 seconds? If not, cut or shorten.
+9. Would this sound at home in a school prospectus? If yes, rewrite.
+10. If writing a batch of profiles, read the first sentence of every paragraph across all profiles. Break any emerging pattern.
+11. **Scannable?** Can a parent get the gist in 30 seconds? If not, cut or shorten.
+12. **Editorial Brief self-check:** Could any sentence trigger a lawyer's letter? Am I hinting rather than stating? Same standard as this school's main competitor? See `docs/ISG_SCHOOL_REVIEWS_EDITORIAL_BRIEF.md` (Quick self-check before submission).
 
 ---
 

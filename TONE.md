@@ -2,6 +2,8 @@
 
 > This document governs all editorial copy on the International Schools Guide.
 > Every AI session that writes school profiles, news, or insights MUST read this file first.
+>
+> **School reviews and profile Intelligence sections** must also follow the **ISG School Reviews Editorial Brief**: `docs/ISG_SCHOOL_REVIEWS_EDITORIAL_BRIEF.md`. That brief defines the voice (knowledgeable friend, Good Schools Guide tone), legal and sourcing rules (lawyer test, anonymous forums never cited, hint not state), consistency across schools, structure, verdict line, and right of reply.
 
 ---
 
@@ -50,6 +52,8 @@ Search Reddit (r/jakarta, r/expats, r/internationalschools), Facebook groups (Ja
 - Specific praise (named programmes, particular teachers or initiatives)
 - Comparisons between schools ("we moved from X to Y because...")
 - Insider knowledge (waitlist reality, hidden fees, admissions tips)
+
+**Teacher forums (ISR, TES forums, Reddit teacher threads) are background only — never cite or reference them in copy.** If they suggest an issue (e.g. turnover, morale), look for supporting evidence from legitimate sources or parent voices; if you don't find it, convert to a gentle "worth asking about" nudge. See `docs/ISG_SCHOOL_REVIEWS_EDITORIAL_BRIEF.md` (Golden rules 1–2).
 
 ### Step 2: Synthesise into editorial intelligence
 Take the raw comments and distil them into editorial paragraphs. Present the information as if we had spoken to people on the ground. Never attribute to "Reddit" or "Facebook" - attribute to "parents", "families who've been here a few years", "families on the school circuit", etc. See the Attribution section below for how and where to use these phrases.
@@ -194,10 +198,11 @@ Never use: "Parents note that..." / "It should be noted..." / "Parents report...
 The verdict (the bold summary at the top of each Intelligence section) should be:
 - One sentence, maximum two.
 - Written as direct advice to a parent.
-- Include a qualifier or caveat - never unconditional praise.
+- Lead with what's genuinely good about the school; add a qualifier or light nudge if needed — never unconditional praise, never a finding of fact on unsubstantiated issues.
+- Read it aloud as if you're saying it to a parent at a school fair next to the head: would you say it exactly that way? If not, soften or add context.
 
 **Good:** "If your company is paying and your child is reasonably outgoing, JIS is a safe, solid choice. If you're self-funding, it's worth comparing."
-
+**Good:** "A big school that manages to feel small, with results that justify the fees. Staff turnover is worth asking about."
 **Bad:** "BSJ is the strongest British-curriculum option in Jakarta with genuine community spirit and strong pastoral care."
 
 ---
@@ -236,8 +241,8 @@ The verdict (the bold summary at the top of each Intelligence section) should be
 
 When writing or editing school profiles:
 
-1. Read this file first.
-2. Search for real parent comments on the school (Reddit, Quora, Facebook groups).
+1. Read this file first — and for school reviews/Intelligence sections, read `docs/ISG_SCHOOL_REVIEWS_EDITORIAL_BRIEF.md` and follow the golden rules (lawyer test, forums never cited, hint not state, consistency, date facts, right of reply).
+2. Search for real parent comments on the school (Reddit, Quora, Facebook groups). Do not cite teacher forums (ISR, TES, etc.); use them only as background and convert to "worth asking about" if you have no other evidence.
 3. Write the Intelligence section using those comments as source material.
 4. Run every paragraph through the banned phrases list.
 5. Count your hyphens. Maximum 2 per paragraph.
@@ -246,3 +251,4 @@ When writing or editing school profiles:
 8. Read every sentence aloud. Does it sound like a person talking, or a document describing?
 9. Check your verdict. Is it advice to a parent, or a statement about a school?
 10. If writing a batch of profiles, read the first sentence of every paragraph across all profiles. Break any emerging pattern.
+11. **Self-check (Editorial Brief):** Could any sentence trigger a lawyer's letter? Am I hinting rather than stating? Same standard as the school's main competitor? See the full self-check in `docs/ISG_SCHOOL_REVIEWS_EDITORIAL_BRIEF.md`.
