@@ -4,19 +4,10 @@ import { Button } from "@/components/ui/Button";
 import Link from "next/link";
 import { displayValue } from "@/lib/utils/display";
 import { ShortlistActions } from "@/components/school/ShortlistActions";
-import { useCurrency } from "@/context/CurrencyContext";
-import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 
 interface QuickFact {
   label: string;
   value: string;
-}
-
-interface SidebarSchool {
-  name: string;
-  slug: string;
-  meta: string;
-  feeRange: string;
 }
 
 interface SidebarInsight {
@@ -28,30 +19,29 @@ interface SidebarInsight {
 interface ProfileSidebarProps {
   slug: string;
   quickFacts: QuickFact[];
-  otherSchools: SidebarSchool[];
   relatedInsights: SidebarInsight[];
   citySlug: string;
+}
+
+function cityDisplayName(slug: string): string {
+  return slug
+    .split("-")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
 }
 
 export function ProfileSidebar({
   slug,
   quickFacts,
-  otherSchools,
   relatedInsights,
   citySlug,
 }: ProfileSidebarProps) {
-  const { fmtRange } = useCurrency();
-
-  function formatSidebarFee(feeRange: string): string {
-    const low = extractLowestFee(feeRange);
-    const high = extractHighestFee(feeRange);
-    if (high <= 0) return feeRange;
-    return fmtRange(low * 1000, high * 1000, "USD");
-  }
+  const cityName = cityDisplayName(citySlug);
+  const cityGuideHref = `/international-schools/${citySlug}`;
 
   return (
-    <aside className="lg:sticky lg:top-[88px] self-start space-y-5">
-      <div className="bg-warm-white border border-warm-border-light border-t-2 border-t-charcoal p-6">
+    <aside className="self-start space-y-5">
+      <div className="lg:sticky lg:top-[88px] bg-warm-white border border-warm-border-light border-t-2 border-t-charcoal p-6">
         <h3 className="font-display text-[1.0625rem] font-semibold mb-5">
           Quick Facts
         </h3>
@@ -71,20 +61,17 @@ export function ProfileSidebar({
 
       <div className="bg-warm-white border border-warm-border-light p-6">
         <h3 className="font-display text-[1.0625rem] font-semibold mb-4">
-          Other Schools in South Jakarta
+          {cityName} Schools Guide
         </h3>
-        {otherSchools.map((s) => (
-          <div key={s.slug} className="py-3 border-b border-warm-border-light last:border-b-0">
-            <Link
-              href={`/international-schools/${citySlug}/${s.slug}/`}
-              className="font-display text-base font-medium text-charcoal hover:text-hermes transition-colors"
-            >
-              {s.name}
-            </Link>
-            <p className="text-[0.75rem] text-charcoal-muted">{s.meta}</p>
-            <p className="text-[0.8125rem] font-medium mt-0.5">{formatSidebarFee(s.feeRange)}</p>
-          </div>
-        ))}
+        <p className="text-[0.8125rem] text-charcoal-muted mb-4">
+          Compare schools, fees and curricula in {cityName}.
+        </p>
+        <Link
+          href={cityGuideHref}
+          className="font-display text-base font-medium text-hermes hover:text-hermes-hover transition-colors"
+        >
+          View all schools in {cityName} →
+        </Link>
       </div>
 
       <div className="bg-warm-white border border-warm-border-light p-6">
@@ -109,7 +96,7 @@ export function ProfileSidebar({
           Are you from this school?
         </p>
         <p className="text-[0.8125rem] text-charcoal-muted mb-4 leading-relaxed">
-          Update your data or explore featured listing opportunities.
+          Accurate, up-to-date information matters to families. Update your listing or get in touch about featured opportunities.
         </p>
         <Button as="a" href="/contact/" variant="primary" fullWidth>
           Get in Touch

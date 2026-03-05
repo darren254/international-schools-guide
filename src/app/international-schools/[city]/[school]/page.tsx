@@ -308,7 +308,6 @@ export default function SchoolProfilePage({
           slug={s.slug}
           citySlug={s.citySlug}
           quickFacts={s.sidebar.quickFacts}
-          otherSchools={s.sidebar.otherSchools}
           relatedInsights={s.sidebar.relatedInsights}
         />
       </div>
