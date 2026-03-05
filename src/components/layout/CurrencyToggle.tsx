@@ -69,7 +69,7 @@ export function CurrencyToggle() {
                   setCurrency(code);
                   setOpen(false);
                 }}
-                className={`flex w-full items-center gap-2 px-3 py-1.5 text-left text-[0.75rem] transition-colors ${
+                className={`flex w-full items-center gap-2 px-3 py-2.5 text-left text-[0.75rem] transition-colors min-h-[44px] sm:min-h-0 ${
                   isSelected
                     ? "bg-cream-200/80 text-charcoal font-medium"
                     : "text-charcoal-muted hover:bg-cream-100 hover:text-charcoal"

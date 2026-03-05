@@ -126,7 +126,7 @@ export function SchoolCard({
           </svg>
         </button>
       </div>
-      <div className="flex-1 min-w-0 p-6 sm:p-7 flex flex-col min-h-0">
+      <div className="flex-1 min-w-0 p-6 sm:p-8 flex flex-col min-h-0">
         <div className="flex items-start justify-between gap-3 mb-2">
           <span className="card-title font-display text-display-sm font-medium text-charcoal leading-tight">
             {name}

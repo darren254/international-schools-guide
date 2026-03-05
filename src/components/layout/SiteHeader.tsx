@@ -43,9 +43,9 @@ export function SiteHeader() {
           <div className="flex items-center gap-2 sm:gap-4 shrink-0">
             <CurrencyToggle />
 
-            {/* Mobile hamburger */}
+            {/* Mobile hamburger — min 44px touch target */}
             <button
-              className="lg:hidden w-7 h-7 relative"
+              className="lg:hidden min-w-[44px] min-h-[44px] w-7 h-7 flex items-center justify-center -my-2 relative"
               onClick={() => setMobileOpen(!mobileOpen)}
               aria-label="Menu"
             >

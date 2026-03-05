@@ -65,7 +65,7 @@ export default function HomePage() {
       {/* ─── City tiles (6) ─── */}
       <section className="bg-warm-white border-y border-warm-border-light pt-8 pb-12 md:pt-16 md:pb-16">
         <div className="container-site">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
             {CITIES.slice(0, 6).map((city) => {
               const content = (
                 <>
