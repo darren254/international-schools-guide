@@ -42,7 +42,7 @@ export function FloatingToc({ items }: { items: TocItem[] }) {
 
           <div className="absolute inset-x-0 bottom-0 max-h-[75vh] overflow-auto rounded-t-xl border-t border-warm-border bg-warm-white px-5 pt-5 pb-8 shadow-lg">
             <div className="flex items-start justify-between gap-4 mb-4">
-              <p className="ft-smallcaps text-[11px] tracking-[0.18em] font-medium text-charcoal-muted">
+              <p className="ft-smallcaps text-label-xs tracking-[0.18em] font-medium text-charcoal-muted">
                 In this article
               </p>
               <button
@@ -62,7 +62,7 @@ export function FloatingToc({ items }: { items: TocItem[] }) {
                 <li key={item.id}>
                   <a
                     href={`#${item.id}`}
-                    className="block font-sans text-base text-charcoal hover:text-hermes transition-colors"
+                    className="block font-sans text-base text-charcoal hover:text-primary transition-colors"
                     onClick={() => setOpen(false)}
                   >
                     {item.label}

@@ -34,7 +34,7 @@ export function StudentBody({ paragraphs, inspection }: StudentBodyProps) {
         .map((p) => displayValue(p, ""))
         .filter((text) => text !== "")
         .map((text, i) => (
-          <p key={i} className="text-[0.9375rem] text-charcoal-light leading-relaxed mb-4">
+          <p key={i} className="text-body-sm text-charcoal-light leading-relaxed mb-4">
             {text}
           </p>
         ))}
@@ -50,7 +50,7 @@ export function StudentBody({ paragraphs, inspection }: StudentBodyProps) {
               <span className="text-label-xs uppercase text-charcoal-muted">
                 Last Inspected
               </span>
-              <span className="text-[0.9375rem] font-medium">
+              <span className="text-body-sm font-medium">
                 {displayValue(inspection!.date, "Not available")}
               </span>
             </div>
@@ -58,7 +58,7 @@ export function StudentBody({ paragraphs, inspection }: StudentBodyProps) {
               <span className="text-label-xs uppercase text-charcoal-muted">
                 Inspection Body
               </span>
-              <span className="text-[0.9375rem] font-medium">
+              <span className="text-body-sm font-medium">
                 {displayValue(inspection!.body, "Not available")}
               </span>
             </div>
@@ -66,13 +66,13 @@ export function StudentBody({ paragraphs, inspection }: StudentBodyProps) {
               <span className="text-label-xs uppercase text-charcoal-muted">
                 Rating
               </span>
-              <span className="text-[0.9375rem] font-medium">
+              <span className="text-body-sm font-medium">
                 {displayValue(inspection!.rating, "Not available")}
               </span>
             </div>
           </div>
 
-          <p className="text-[0.9375rem] text-charcoal-light leading-relaxed">
+          <p className="text-body-sm text-charcoal-light leading-relaxed">
             {displayValue(inspection!.findings, "Contact the school for inspection details.")}
           </p>
         </>

@@ -23,7 +23,7 @@ function CityCard({
       />
       <div className="p-5">
         <div className="flex items-baseline justify-between mb-2">
-          <h3 className="font-display text-display-sm group-hover:text-hermes transition-colors">
+          <h3 className="font-display text-display-sm group-hover:text-primary transition-colors">
             {city.name}
           </h3>
           <span className="text-label-xs uppercase text-charcoal-muted">
@@ -49,7 +49,7 @@ function CityCard({
         </div>
         {!city.live && (
           <p className={`text-[0.75rem] uppercase tracking-wider mt-3 ${
-            city.comingNext ? "text-hermes" : "text-charcoal-muted/70"
+            city.comingNext ? "text-primary" : "text-charcoal-muted/70"
           }`}>
             {city.comingNext ? "Coming next" : "Coming soon"}
           </p>
@@ -61,7 +61,7 @@ function CityCard({
   return city.live ? (
     <Link
       href={`/international-schools/${city.slug}/`}
-      className="group border-2 border-hermes rounded-sm overflow-hidden hover:border-hermes-hover transition-colors bg-cream-50 block"
+      className="group border-2 border-primary rounded-sm overflow-hidden hover:border-primary-hover transition-colors bg-cream-50 block"
     >
       {content}
     </Link>

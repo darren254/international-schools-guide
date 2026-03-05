@@ -31,7 +31,7 @@ export function AcademicResults({ results, paragraphs }: AcademicResultsProps) {
           label="Academic Performance"
           title="Academic Results"
         />
-        <p className="text-[0.9375rem] text-charcoal-light leading-relaxed">
+        <p className="text-body-sm text-charcoal-light leading-relaxed">
           Contact the school for exam and qualification details.
         </p>
       </section>
@@ -52,7 +52,7 @@ export function AcademicResults({ results, paragraphs }: AcademicResultsProps) {
               key={i}
               className="p-6 bg-warm-white border border-warm-border-light"
             >
-              <span className="font-display text-[2rem] font-semibold block mb-1">
+              <span className="font-display text-display-lg font-semibold block mb-1">
                 {displayValue(r.value, "Not available")}
               </span>
               <span className="text-label-sm uppercase text-charcoal-muted">
@@ -64,7 +64,7 @@ export function AcademicResults({ results, paragraphs }: AcademicResultsProps) {
       )}
 
       {validParagraphs.map((text, i) => (
-        <p key={i} className="text-[0.9375rem] text-charcoal-light leading-relaxed mb-4">
+        <p key={i} className="text-body-sm text-charcoal-light leading-relaxed mb-4">
           {text}
         </p>
       ))}

@@ -37,23 +37,23 @@ export function SortBar({ totalSchools }: SortBarProps) {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search schools…"
-          className="w-full pl-9 pr-3 py-2 border border-warm-border rounded-sm text-[0.8125rem] text-charcoal bg-transparent placeholder:text-charcoal-muted/60 focus:outline-none focus:border-hermes transition-colors"
+          className="w-full pl-9 pr-3 py-2 border border-warm-border rounded-sm text-body-xs text-charcoal bg-transparent placeholder:text-charcoal-muted/60 focus:outline-none focus:border-primary transition-colors"
         />
       </div>
 
       <div className="flex items-center gap-4">
-        <span className="text-[0.8125rem] text-charcoal-muted whitespace-nowrap">
+        <span className="text-body-xs text-charcoal-muted whitespace-nowrap">
           {totalSchools} school{totalSchools !== 1 ? "s" : ""}
         </span>
 
         <div className="flex items-center gap-2">
-          <label className="text-[0.75rem] text-charcoal-muted uppercase tracking-wider whitespace-nowrap">
+          <label className="text-label-sm text-charcoal-muted uppercase tracking-wider whitespace-nowrap">
             Sort
           </label>
           <select
             value={sort}
             onChange={(e) => setSort(e.target.value as SortOption)}
-            className="bg-transparent border-b border-charcoal-muted/30 text-[0.8125rem] text-charcoal py-1 pr-6 appearance-none cursor-pointer focus:outline-none focus:border-hermes"
+            className="bg-transparent border-b border-charcoal-muted/30 text-body-xs text-charcoal py-1 pr-6 appearance-none cursor-pointer focus:outline-none focus:border-primary"
             style={{
               backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%237A756E' fill='none' stroke-width='1.5'/%3E%3C/svg%3E")`,
               backgroundRepeat: "no-repeat",

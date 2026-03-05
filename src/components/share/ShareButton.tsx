@@ -83,9 +83,9 @@ export function ShareButton(props: ShareButtonProps) {
   const mailtoUrl = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   const iconLinkClass =
-    "inline-flex items-center justify-center p-2 rounded-sm text-charcoal hover:text-hermes hover:bg-cream-200 focus:text-hermes transition-colors";
+    "inline-flex items-center justify-center p-2 rounded-sm text-charcoal hover:text-primary hover:bg-cream-200 focus:text-primary transition-colors";
   const iconButtonClass =
-    "inline-flex items-center justify-center p-2 rounded-sm text-charcoal hover:text-hermes hover:bg-cream-200 focus:text-hermes transition-colors cursor-pointer border-0 bg-transparent";
+    "inline-flex items-center justify-center p-2 rounded-sm text-charcoal hover:text-primary hover:bg-cream-200 focus:text-primary transition-colors cursor-pointer border-0 bg-transparent";
 
   return (
     <div className="flex items-center gap-4 flex-wrap" role="group" aria-label="Share options">

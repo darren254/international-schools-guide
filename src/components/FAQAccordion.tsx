@@ -15,10 +15,10 @@ export function FAQAccordion({ faqs }: { faqs: FAQItem[] }) {
             onClick={() => setOpenIndex(openIndex === i ? null : i)}
             className="w-full flex justify-between items-center text-left"
           >
-            <span className="text-[0.9375rem] font-semibold pr-4 text-charcoal">
+            <span className="text-body-sm font-semibold pr-4 text-charcoal">
               {faq.question}
             </span>
-            <span className="text-xl text-hermes flex-shrink-0">
+            <span className="text-xl text-primary flex-shrink-0">
               {openIndex === i ? "\u2212" : "+"}
             </span>
           </button>
@@ -33,7 +33,7 @@ export function FAQAccordion({ faqs }: { faqs: FAQItem[] }) {
                     <Link
                       key={link.href}
                       href={link.href}
-                      className="text-sm text-hermes hover:text-hermes-hover transition-colors"
+                      className="text-sm text-primary hover:text-primary-hover transition-colors"
                     >
                       {link.label} →
                     </Link>

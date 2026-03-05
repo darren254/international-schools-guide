@@ -21,6 +21,11 @@ const config: Config = {
           light: "#4A4540",
           muted: "#7A756E",
         },
+        primary: {
+          DEFAULT: "#1e3a5f",
+          hover: "#2d4a6f",
+          light: "#e8ecf0",
+        },
         hermes: {
           DEFAULT: "#E8722A",
           hover: "#D4641F",
@@ -78,6 +83,14 @@ const config: Config = {
         "label-sm": [
           "0.75rem",
           { lineHeight: "1.4", letterSpacing: "0.06em" },
+        ],
+        "body-sm": [
+          "0.9375rem",
+          { lineHeight: "1.6" },
+        ],
+        "body-xs": [
+          "0.8125rem",
+          { lineHeight: "1.5" },
         ],
       },
       spacing: {

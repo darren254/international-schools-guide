@@ -41,7 +41,7 @@ export function SchoolMasthead({
       </h1>
 
       {/* Campus summary - compact */}
-      <p className="text-[0.8125rem] text-charcoal-muted leading-relaxed mb-3">
+      <p className="text-body-xs text-charcoal-muted leading-relaxed mb-3">
         {campuses.map((c, i) => (
           <span key={c.name}>
             {i > 0 && <span className="mx-1.5 text-cream-400">·</span>}
@@ -59,7 +59,7 @@ export function SchoolMasthead({
         {curricula.map((c) => (
           <CurriculumTag key={c} label={c} />
         ))}
-        <span className="text-[0.6875rem] text-charcoal-muted uppercase tracking-widest ml-auto hidden sm:inline">
+        <span className="text-label-xs text-charcoal-muted uppercase tracking-widest ml-auto hidden sm:inline">
           Updated {lastUpdated}
         </span>
       </div>
@@ -68,10 +68,10 @@ export function SchoolMasthead({
       <div className="flex flex-wrap gap-6 sm:gap-10 py-4 border-y border-warm-border-light">
         {stats.map((stat) => (
           <div key={stat.label}>
-            <span className="font-display text-[1.25rem] font-semibold block leading-none mb-0.5">
+            <span className="font-display text-display-sm font-semibold block leading-none mb-0.5">
               {displayValue(stat.value, "—")}
             </span>
-            <span className="text-[0.6875rem] uppercase tracking-wider text-charcoal-muted">
+            <span className="text-label-xs uppercase tracking-wider text-charcoal-muted">
               {stat.label}
             </span>
           </div>

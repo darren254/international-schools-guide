@@ -102,7 +102,7 @@ export function HeroSearch({ cities }: { cities: CityLink[] }) {
             }}
             onFocus={() => setOpen(true)}
             placeholder="e.g. Jakarta, Singapore, Bangkok"
-            className="w-full min-h-[48px] px-4 py-3 border border-warm-border bg-cream text-charcoal font-body text-[1rem] placeholder:text-charcoal-muted focus:outline-none focus:border-charcoal-muted rounded-none"
+            className="w-full min-h-[48px] px-4 py-3 border border-warm-border bg-cream text-charcoal font-body text-base placeholder:text-charcoal-muted focus:outline-none focus:border-charcoal-muted rounded-none"
             autoComplete="off"
             aria-expanded={open}
             aria-controls="hero-city-listbox"
@@ -127,7 +127,7 @@ export function HeroSearch({ cities }: { cities: CityLink[] }) {
                   role="option"
                   aria-selected={i === highlightIndex}
                   onMouseEnter={() => setHighlightIndex(i)}
-                  className={`px-4 py-3 text-[0.9375rem] font-body cursor-pointer transition-colors ${
+                  className={`px-4 py-3 text-body-sm font-body cursor-pointer transition-colors ${
                     i === highlightIndex ? "bg-cream-200 text-charcoal" : "text-charcoal-light hover:bg-cream-100"
                   }`}
                   onClick={() => goToCity(city.slug)}
@@ -140,13 +140,13 @@ export function HeroSearch({ cities }: { cities: CityLink[] }) {
         </div>
         <button
           type="submit"
-          className="min-h-[48px] px-8 py-3 bg-hermes text-white text-[0.9375rem] font-semibold uppercase tracking-wider hover:bg-hermes-hover transition-colors rounded-none shrink-0"
+          className="min-h-[48px] px-8 py-3 bg-primary text-white text-body-sm font-semibold uppercase tracking-wider hover:bg-primary-hover transition-colors rounded-none shrink-0"
         >
           Show schools
         </button>
       </form>
 
-      <p className="text-center text-[0.875rem] text-charcoal-muted mt-6">
+      <p className="text-center text-sm text-charcoal-muted mt-6">
         Or choose a city below
       </p>
     </div>

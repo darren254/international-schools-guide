@@ -73,7 +73,7 @@ export function LatestInsightsGrid({ articles, cities, cityLabels }: Props) {
         {filtered.map((article) => (
           <Link key={article.slug} href={`/insights/${article.slug}`} className="block border-b border-warm-border pb-4">
             <CardImg src={article.cardImage} alt={article.h1} className="w-full h-28 mb-3 rounded-sm" />
-            <p className="text-[11px] uppercase tracking-[0.12em] text-charcoal-muted mb-1">{article.categoryTag}</p>
+            <p className="text-label-xs uppercase tracking-[0.12em] text-charcoal-muted mb-1">{article.categoryTag}</p>
             <h3 className="font-display text-xl text-charcoal leading-snug mb-2">{article.h1}</h3>
             <p className="text-xs text-charcoal-muted">
               {displayDate(article.date)} · {article.readTime}

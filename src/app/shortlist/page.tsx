@@ -95,7 +95,7 @@ function QuickAddButton({
     <button
       type="button"
       onClick={() => onAdd(slugs, citySlug)}
-      className="px-4 py-2.5 text-[0.8125rem] font-medium uppercase tracking-wider rounded-sm border-2 border-hermes text-hermes bg-hermes-light/15 hover:bg-hermes-light/25 transition-colors"
+      className="px-4 py-2.5 text-[0.8125rem] font-medium uppercase tracking-wider rounded-sm border-2 border-primary text-primary bg-primary-light/15 hover:bg-primary-light/25 transition-colors"
     >
       {label}
     </button>
@@ -112,7 +112,7 @@ function CompactCityGrid() {
           <Link
             key={city.slug}
             href={`/international-schools/${city.slug}/`}
-            className="group flex flex-col rounded-sm overflow-hidden border border-warm-border hover:border-hermes bg-cream-50 transition-colors"
+            className="group flex flex-col rounded-sm overflow-hidden border border-warm-border hover:border-primary bg-cream-50 transition-colors"
           >
             <div className="aspect-[4/3] relative bg-cream-300 overflow-hidden">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -122,7 +122,7 @@ function CompactCityGrid() {
                 className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
               />
             </div>
-            <span className="p-2 text-center font-display text-sm font-medium text-charcoal group-hover:text-hermes truncate">
+            <span className="p-2 text-center font-display text-sm font-medium text-charcoal group-hover:text-primary truncate">
               {city.name}
             </span>
           </Link>
@@ -215,7 +215,7 @@ function ShortlistContent() {
                 <Link
                   key={city.slug}
                   href={`/international-schools/${city.slug}/`}
-                  className="group border-2 border-hermes rounded-sm overflow-hidden hover:shadow-lg transition-all duration-200 bg-cream-50 flex flex-col h-full"
+                  className="group border-2 border-primary rounded-sm overflow-hidden hover:shadow-lg transition-all duration-200 bg-cream-50 flex flex-col h-full"
                 >
                   <CityCardImage city={city} photoCredit={city.photoCredit} />
                   <div className="p-3 md:p-4 flex flex-col min-w-0">
@@ -282,7 +282,7 @@ function ShortlistContent() {
                     <div className="flex flex-wrap items-center gap-3">
                       <Link
                         href={`/international-schools/${citySlug}/`}
-                        className="inline-flex items-center text-sm font-medium text-hermes hover:text-hermes-hover transition-colors"
+                        className="inline-flex items-center text-sm font-medium text-primary hover:text-primary-hover transition-colors"
                       >
                         Browse more {cityName} schools →
                       </Link>
@@ -298,7 +298,7 @@ function ShortlistContent() {
                         <div className="min-w-0 flex-1">
                           <Link
                             href={`/international-schools/${school.citySlug}/${school.slug}/`}
-                            className="font-display font-medium text-charcoal hover:text-hermes transition-colors"
+                            className="font-display font-medium text-charcoal hover:text-primary transition-colors"
                           >
                             {school.name}
                           </Link>
@@ -309,14 +309,14 @@ function ShortlistContent() {
                         <div className="flex items-center gap-3 shrink-0">
                           <Link
                             href={`/international-schools/${school.citySlug}/${school.slug}/`}
-                            className="text-sm font-medium text-hermes hover:text-hermes-hover transition-colors"
+                            className="text-sm font-medium text-primary hover:text-primary-hover transition-colors"
                           >
                             View profile
                           </Link>
                           <button
                             type="button"
                             onClick={() => handleRemove(school.slug, school.citySlug)}
-                            className="text-charcoal-muted hover:text-hermes transition-colors p-1"
+                            className="text-charcoal-muted hover:text-primary transition-colors p-1"
                             aria-label={`Remove ${school.name} from shortlist`}
                           >
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

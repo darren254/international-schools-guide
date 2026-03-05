@@ -61,7 +61,7 @@ function CheckboxGroup({
             onChange={() => toggle(opt.value)}
             className="sr-only peer"
           />
-          <span className="w-4 h-4 border border-warm-border flex items-center justify-center peer-checked:bg-hermes peer-checked:border-hermes transition-colors">
+          <span className="w-4 h-4 border border-warm-border flex items-center justify-center peer-checked:bg-primary peer-checked:border-primary transition-colors">
             <svg
               className="w-2.5 h-2.5 text-white hidden peer-checked:block"
               viewBox="0 0 10 8"
@@ -76,11 +76,11 @@ function CheckboxGroup({
               />
             </svg>
           </span>
-          <span className="text-[0.8125rem] text-charcoal-light group-hover:text-charcoal transition-colors">
+          <span className="text-body-xs text-charcoal-light group-hover:text-charcoal transition-colors">
             {opt.label}
           </span>
           {opt.count !== undefined && (
-            <span className="text-[0.75rem] text-charcoal-muted ml-auto">
+            <span className="text-label-sm text-charcoal-muted ml-auto">
               {opt.count}
             </span>
           )}
@@ -127,7 +127,7 @@ export function FilterSidebar({ curricula, areas }: FilterSidebarProps) {
       <FilterSection title="Annual Fee (USD)">
         <div className="flex items-center gap-3">
           <div className="flex-1">
-            <label className="text-[0.6875rem] text-charcoal-muted block mb-1">Min</label>
+            <label className="text-label-xs text-charcoal-muted block mb-1">Min</label>
             <input
               type="range"
               min={0}
@@ -135,14 +135,14 @@ export function FilterSidebar({ curricula, areas }: FilterSidebarProps) {
               step={1000}
               value={feeRange[0]}
               onChange={(e) => setFeeRange([Number(e.target.value), feeRange[1]])}
-              className="w-full accent-hermes"
+              className="w-full accent-primary"
             />
-            <span className="text-[0.75rem] text-charcoal-light">
+            <span className="text-label-sm text-charcoal-light">
               US${(feeRange[0] / 1000).toFixed(0)}K
             </span>
           </div>
           <div className="flex-1">
-            <label className="text-[0.6875rem] text-charcoal-muted block mb-1">Max</label>
+            <label className="text-label-xs text-charcoal-muted block mb-1">Max</label>
             <input
               type="range"
               min={0}
@@ -150,9 +150,9 @@ export function FilterSidebar({ curricula, areas }: FilterSidebarProps) {
               step={1000}
               value={feeRange[1]}
               onChange={(e) => setFeeRange([feeRange[0], Number(e.target.value)])}
-              className="w-full accent-hermes"
+              className="w-full accent-primary"
             />
-            <span className="text-[0.75rem] text-charcoal-light">
+            <span className="text-label-sm text-charcoal-light">
               US${(feeRange[1] / 1000).toFixed(0)}K
             </span>
           </div>
@@ -163,28 +163,28 @@ export function FilterSidebar({ curricula, areas }: FilterSidebarProps) {
       <FilterSection title="Age Range">
         <div className="flex items-center gap-3">
           <div className="flex-1">
-            <label className="text-[0.6875rem] text-charcoal-muted block mb-1">From</label>
+            <label className="text-label-xs text-charcoal-muted block mb-1">From</label>
             <input
               type="range"
               min={2}
               max={18}
               value={ageRange[0]}
               onChange={(e) => setAgeRange([Number(e.target.value), ageRange[1]])}
-              className="w-full accent-hermes"
+              className="w-full accent-primary"
             />
-            <span className="text-[0.75rem] text-charcoal-light">{ageRange[0]} yrs</span>
+            <span className="text-label-sm text-charcoal-light">{ageRange[0]} yrs</span>
           </div>
           <div className="flex-1">
-            <label className="text-[0.6875rem] text-charcoal-muted block mb-1">To</label>
+            <label className="text-label-xs text-charcoal-muted block mb-1">To</label>
             <input
               type="range"
               min={2}
               max={18}
               value={ageRange[1]}
               onChange={(e) => setAgeRange([ageRange[0], Number(e.target.value)])}
-              className="w-full accent-hermes"
+              className="w-full accent-primary"
             />
-            <span className="text-[0.75rem] text-charcoal-light">{ageRange[1]} yrs</span>
+            <span className="text-label-sm text-charcoal-light">{ageRange[1]} yrs</span>
           </div>
         </div>
       </FilterSection>
@@ -207,8 +207,8 @@ export function FilterSidebar({ curricula, areas }: FilterSidebarProps) {
             onChange={(e) => setHasSixthForm(e.target.checked)}
             className="sr-only peer"
           />
-          <span className="w-4 h-4 border border-warm-border flex items-center justify-center peer-checked:bg-hermes peer-checked:border-hermes transition-colors" />
-          <span className="text-[0.8125rem] text-charcoal-light">
+          <span className="w-4 h-4 border border-warm-border flex items-center justify-center peer-checked:bg-primary peer-checked:border-primary transition-colors" />
+          <span className="text-body-xs text-charcoal-light">
             Has sixth form
           </span>
         </label>
@@ -218,7 +218,7 @@ export function FilterSidebar({ curricula, areas }: FilterSidebarProps) {
       {hasFilters && (
         <button
           onClick={clearAll}
-          className="text-[0.8125rem] text-hermes hover:text-hermes-hover transition-colors mt-4 underline underline-offset-2"
+          className="text-body-xs text-primary hover:text-primary-hover transition-colors mt-4 underline underline-offset-2"
         >
           Clear all filters
         </button>

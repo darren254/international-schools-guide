@@ -41,7 +41,7 @@ export function SchoolSnapshotCard({ school }: SchoolSnapshotCardProps) {
         )}
       </div>
       <div className="p-4">
-        <p className="font-display text-lg font-semibold mb-2 text-charcoal group-hover:text-hermes transition-colors">
+        <p className="font-display text-lg font-semibold mb-2 text-charcoal group-hover:text-primary transition-colors">
           {school.name}
         </p>
         <div className="h-px bg-warm-border mb-3" aria-hidden />
@@ -67,7 +67,7 @@ export function SchoolSnapshotCard({ school }: SchoolSnapshotCardProps) {
             </div>
           )}
         </dl>
-        <p className="mt-3 text-sm font-medium text-hermes flex items-center gap-1">
+        <p className="mt-3 text-sm font-medium text-primary flex items-center gap-1">
           View profile
           <span aria-hidden>→</span>
         </p>

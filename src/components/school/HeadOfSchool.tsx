@@ -39,7 +39,7 @@ export function HeadOfSchool({
           {displayName}
         </p>
         {showSince && (
-          <p className="text-[0.8125rem] text-charcoal-muted mb-2">
+          <p className="text-body-xs text-charcoal-muted mb-2">
             In post since {since}
           </p>
         )}

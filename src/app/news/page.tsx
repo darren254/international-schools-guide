@@ -17,7 +17,7 @@ export default function NewsRedirectPage() {
         <p className="text-charcoal mb-4">
           News has moved to Insights.
         </p>
-        <Link href="/insights/" className="text-hermes hover:underline">
+        <Link href="/insights/" className="text-primary hover:underline">
           Go to Insights &rarr;
         </Link>
       </main>

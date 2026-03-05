@@ -85,7 +85,7 @@ export default function HomePage() {
                         {city.country}
                       </span>
                     </div>
-                    <p className="text-[0.8125rem] text-charcoal-muted leading-snug">
+                    <p className="text-body-xs text-charcoal-muted leading-snug">
                       {city.schoolCount ?? "—"}+ schools
                     </p>
                   </div>
@@ -93,7 +93,7 @@ export default function HomePage() {
               );
 
               const wrapperClasses = city.live
-                ? "group border-2 border-hermes rounded-sm overflow-hidden hover:shadow-lg transition-all duration-200 bg-cream-50 flex flex-col h-full"
+                ? "group border-2 border-primary rounded-sm overflow-hidden hover:shadow-lg transition-all duration-200 bg-cream-50 flex flex-col h-full"
                 : "group border border-charcoal-muted/40 rounded-sm overflow-hidden bg-cream-50 transition-all duration-200 flex flex-col h-full";
 
               return city.live ? (
@@ -112,14 +112,14 @@ export default function HomePage() {
             })}
           </div>
 
-          <p className="text-center text-[0.9375rem] text-charcoal-muted mt-8 font-body">
+          <p className="text-center text-body-sm text-charcoal-muted mt-8 font-body">
             Independent profiles for {TOTAL_SCHOOLS_LIVE}+ international schools across {LIVE_CITIES.length} cities.
           </p>
 
           <p className="text-center mt-4">
             <Link
               href="/cities"
-              className="text-sm font-medium text-hermes hover:text-hermes-hover transition-colors"
+              className="text-sm font-medium text-primary hover:text-primary-hover transition-colors"
             >
               See all cities →
             </Link>

@@ -5,7 +5,7 @@
 @layer base {
   body {
     @apply bg-cream text-charcoal font-body antialiased overflow-x-hidden;
-    font-size: 15px;
+    font-size: 0.9375rem; /* body-sm scale */
     line-height: 1.65;
   }
 
@@ -22,7 +22,7 @@
   @media (hover: hover) {
     .card-title-hover:hover h3,
     .card-title-hover:hover .card-title {
-      color: theme("colors.hermes.DEFAULT");
+      color: theme("colors.primary.DEFAULT");
     }
   }
 
@@ -61,10 +61,10 @@
     border-bottom: none;
   }
 
-  /* NYT-style article formatting */
+  /* NYT-style article formatting — sizes align with Tailwind theme (body-sm, text-lg, label-xs, etc.) */
   .article-content {
     font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 18px;
+    font-size: 1.125rem; /* text-lg */
     line-height: 1.8;
     color: #1A1A1A;
   }
@@ -76,7 +76,7 @@
 
   .article-content h2 {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.25rem; /* display-sm */
     font-weight: 600;
     line-height: 1.3;
     color: #1A1A1A;
@@ -105,7 +105,7 @@
 
   .article-content .image-caption {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 13px;
+    font-size: 0.8125rem; /* body-xs */
     color: #7A756E;
     line-height: 1.5;
     margin-top: 0.5rem;
@@ -143,7 +143,7 @@
     font-variant-caps: all-small-caps;
     letter-spacing: 0.18em;
     font-weight: 500;
-    font-size: 11px;
+    font-size: 0.6875rem; /* label-xs */
     color: #7A756E;
   }
 
@@ -151,7 +151,7 @@
     font-variant-caps: all-small-caps;
     letter-spacing: 0.16em;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.75rem; /* label-sm */
     color: #1A1A1A;
   }
 
@@ -169,7 +169,7 @@
 
   .article-content .pull-quote-text {
     font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 26px;
+    font-size: 1.625rem; /* display-md */
     font-weight: 300;
     line-height: 1.5;
     color: #1A1A1A;
@@ -181,7 +181,7 @@
 
   .article-content .pull-quote-attribution {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 13px;
+    font-size: 0.8125rem; /* body-xs */
     color: #7A756E;
     margin-top: 1rem;
     text-transform: uppercase;
@@ -189,12 +189,12 @@
   }
 
   .article-content a {
-    color: #E8722A;
+    color: theme("colors.primary.DEFAULT");
     text-decoration: underline;
   }
 
   .article-content a:hover {
-    color: #D4641F;
+    color: theme("colors.primary.hover");
   }
 
   .article-content strong {
@@ -206,7 +206,7 @@
     width: 100%;
     border-collapse: collapse;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 0.875rem;
+    font-size: 0.875rem; /* text-sm */
   }
 
   .article-content thead th {
@@ -215,7 +215,7 @@
     font-variant-caps: all-small-caps;
     letter-spacing: 0.16em;
     font-weight: 500;
-    font-size: 0.75rem;
+    font-size: 0.75rem; /* label-sm */
     color: #7A756E;
     background: transparent;
     border-bottom: 2px solid #1A1A1A;
@@ -243,7 +243,7 @@
     padding: 0.75rem 0 0;
     border-top: 1px solid #E8E2D9;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 0.875rem;
+    font-size: 0.875rem; /* text-sm */
   }
 
   .article-content .facts-grid .fact-item {
@@ -257,7 +257,7 @@
     letter-spacing: 0.16em;
     font-weight: 500;
     color: #7A756E;
-    font-size: 0.75rem;
+    font-size: 0.75rem; /* label-sm */
     white-space: nowrap;
   }
 
@@ -275,7 +275,7 @@
 
   .article-content .best-for-label {
     font-variant-caps: all-small-caps;
-    font-size: 11px;
+    font-size: 0.6875rem; /* label-xs */
     font-weight: 500;
     letter-spacing: 0.18em;
     color: #7A756E;
@@ -285,7 +285,7 @@
   .article-content .best-for-list {
     margin: 0;
     padding-left: 1.25rem;
-    font-size: 0.9375rem;
+    font-size: 0.9375rem; /* body-sm */
     line-height: 1.6;
     color: #1A1A1A;
   }

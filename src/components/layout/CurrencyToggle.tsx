@@ -28,7 +28,7 @@ export function CurrencyToggle() {
       <button
         type="button"
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-1 rounded border border-warm-border bg-cream/80 px-2 py-1.5 text-[0.75rem] font-medium text-charcoal hover:border-charcoal-muted hover:bg-cream transition-colors"
+        className="flex items-center gap-1 rounded border border-warm-border bg-cream/80 px-2 py-1.5 text-label-sm font-medium text-charcoal hover:border-charcoal-muted hover:bg-cream transition-colors"
         aria-label={`Currency: ${currency}. Click to change.`}
         aria-expanded={open}
         aria-haspopup="listbox"
@@ -69,7 +69,7 @@ export function CurrencyToggle() {
                   setCurrency(code);
                   setOpen(false);
                 }}
-                className={`flex w-full items-center gap-2 px-3 py-2.5 text-left text-[0.75rem] transition-colors min-h-[44px] sm:min-h-0 ${
+                className={`flex w-full items-center gap-2 px-3 py-2.5 text-left text-label-sm transition-colors min-h-[44px] sm:min-h-0 ${
                   isSelected
                     ? "bg-cream-200/80 text-charcoal font-medium"
                     : "text-charcoal-muted hover:bg-cream-100 hover:text-charcoal"

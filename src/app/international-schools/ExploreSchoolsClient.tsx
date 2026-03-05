@@ -142,8 +142,8 @@ export function ExploreSchoolsClient({
 
   return (
     <div className="container-site">
-      <nav className="py-5 text-[0.8125rem] text-charcoal-muted" aria-label="Breadcrumb">
-        <Link href="/international-schools/" className="hover:text-hermes transition-colors">
+      <nav className="py-5 text-body-xs text-charcoal-muted" aria-label="Breadcrumb">
+        <Link href="/international-schools/" className="hover:text-primary transition-colors">
           International Schools
         </Link>
         <span className="mx-1.5 opacity-50">›</span>
@@ -155,7 +155,7 @@ export function ExploreSchoolsClient({
           <h1 className="font-display text-[clamp(1.75rem,4vw,2.5rem)] font-medium tracking-tight leading-tight mb-1.5">
             International Schools in {cityName}
           </h1>
-          <p className="text-[0.9375rem] text-charcoal-muted font-body">
+          <p className="text-body-sm text-charcoal-muted font-body">
             Filter by curriculum or area; sort by fees.
           </p>
         </div>
@@ -185,21 +185,21 @@ export function ExploreSchoolsClient({
             isOpen={openFilterId === "sort"}
             onOpenChange={(open) => setOpenFilterId(open ? "sort" : null)}
           />
-          <span className="text-[0.8125rem] text-charcoal-muted font-body shrink-0 ml-auto">
+          <span className="text-body-xs text-charcoal-muted font-body shrink-0 ml-auto">
             {filteredAndSorted.length} school{filteredAndSorted.length !== 1 ? "s" : ""}
           </span>
           {hasActiveFilters && (
             <button
               type="button"
               onClick={clearFilters}
-              className="text-[0.8125rem] font-body text-charcoal-muted hover:text-hermes transition-colors shrink-0"
+              className="text-body-xs font-body text-charcoal-muted hover:text-primary transition-colors shrink-0"
             >
               Clear filters
             </button>
           )}
         </div>
 
-        <p className="text-[0.75rem] text-charcoal-muted mt-3 font-body">
+        <p className="text-label-sm text-charcoal-muted mt-3 font-body">
           Fees in approximate equivalent. Rates updated periodically ({exchangeRateDate}).
         </p>
       </section>
@@ -234,12 +234,12 @@ export function ExploreSchoolsClient({
 
       <section className="pt-10 pb-12 border-t border-warm-border">
         <h2 className="font-display text-display-sm font-medium mb-2">Browse by city</h2>
-        <p className="text-[0.9375rem] text-charcoal-muted mb-3">
+        <p className="text-body-sm text-charcoal-muted mb-3">
           More cities coming soon.
         </p>
         <Link
           href="/international-schools/"
-          className="text-[0.9375rem] font-medium text-hermes hover:text-hermes-hover transition-colors"
+          className="text-body-sm font-medium text-primary hover:text-primary-hover transition-colors"
         >
           International schools →
         </Link>

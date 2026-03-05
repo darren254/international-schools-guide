@@ -197,7 +197,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
                   return (
                     <li key={`${label}-${i}`} className="flex items-center gap-x-2">
                       {href && !isLast ? (
-                        <Link href={href} className="hover:text-hermes transition-colors">
+                        <Link href={href} className="hover:text-primary transition-colors">
                           {label}
                         </Link>
                       ) : (
@@ -210,7 +210,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
               </ol>
             </nav>
 
-            <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] text-charcoal leading-tight mb-3">
+            <h1 className="font-display text-3xl md:text-4xl lg:text-display-xl text-charcoal leading-tight mb-3">
               {article.h1}
             </h1>
             {article.standfirst && <p className="font-display text-xl text-charcoal-muted mb-6">{article.standfirst}</p>}
@@ -230,7 +230,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
                   href="https://bsky.app/profile/mia-isg.bsky.social"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-sans text-sm text-hermes hover:underline"
+                  className="font-sans text-sm text-primary hover:underline"
                 >
                   @mia-isg.bsky.social
                 </a>
@@ -265,8 +265,8 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
 
             {article.tldr.length > 0 && (
               <section className="my-10 border-y border-warm-border py-8 font-sans">
-                <p className="ft-smallcaps text-[11px] tracking-[0.18em] font-medium text-charcoal-muted mb-4">TL;DR</p>
-                <ul className="list-disc pl-5 space-y-3 text-charcoal text-[0.95rem] leading-relaxed">
+                <p className="ft-smallcaps text-label-xs tracking-[0.18em] font-medium text-charcoal-muted mb-4">TL;DR</p>
+                <ul className="list-disc pl-5 space-y-3 text-charcoal text-base leading-relaxed">
                   {article.tldr.map((item) => (
                     <li key={item}>{item}</li>
                   ))}
@@ -276,7 +276,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
 
             {schoolCards.length > 0 && (
               <section className="my-10">
-                <p className="ft-smallcaps text-[11px] tracking-[0.18em] font-medium text-charcoal-muted mb-4">
+                <p className="ft-smallcaps text-label-xs tracking-[0.18em] font-medium text-charcoal-muted mb-4">
                   Jump to a school profile
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -288,7 +288,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
             )}
 
             <section
-              className="article-content prose prose-neutral max-w-none prose-headings:font-display prose-headings:text-charcoal prose-p:text-charcoal prose-a:text-hermes hover:prose-a:text-hermes-hover prose-li:text-charcoal"
+              className="article-content prose prose-neutral max-w-none prose-headings:font-display prose-headings:text-charcoal prose-p:text-charcoal prose-a:text-primary hover:prose-a:text-primary-hover prose-li:text-charcoal"
               dangerouslySetInnerHTML={{ __html: bodySplit.before }}
             />
 
@@ -298,23 +298,23 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
 
             {bodySplit.after && (
               <section
-                className="article-content prose prose-neutral max-w-none prose-headings:font-display prose-headings:text-charcoal prose-p:text-charcoal prose-a:text-hermes hover:prose-a:text-hermes-hover prose-li:text-charcoal"
+                className="article-content prose prose-neutral max-w-none prose-headings:font-display prose-headings:text-charcoal prose-p:text-charcoal prose-a:text-primary hover:prose-a:text-primary-hover prose-li:text-charcoal"
                 dangerouslySetInnerHTML={{ __html: bodySplit.after }}
               />
             )}
 
             {relatedArticles.length > 0 && (
               <section className="my-10 pt-8 border-t border-warm-border">
-                <p className="ft-smallcaps text-[11px] tracking-[0.18em] font-medium text-charcoal-muted mb-5">
+                <p className="ft-smallcaps text-label-xs tracking-[0.18em] font-medium text-charcoal-muted mb-5">
                   You might also be interested in
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                   {relatedArticles.map((related) => (
                     <Link key={related.slug} href={`/insights/${related.slug}`} className="block group">
-                      <p className="ft-smallcaps text-[11px] tracking-[0.18em] font-medium text-hermes mb-2">
+                      <p className="ft-smallcaps text-label-xs tracking-[0.18em] font-medium text-primary mb-2">
                         {topicTagForSlug(related.slug)}
                       </p>
-                      <p className="font-display text-xl text-charcoal leading-snug group-hover:text-hermes transition-colors">
+                      <p className="font-display text-xl text-charcoal leading-snug group-hover:text-primary transition-colors">
                         {related.h1}
                       </p>
                       <p className="mt-2 font-sans text-sm text-charcoal-muted line-clamp-2">
@@ -344,7 +344,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
                   placeholder="Your email address"
                   className="flex-1 px-4 py-2.5 rounded-sm border border-warm-border bg-cream-50 text-charcoal"
                 />
-                <button className="px-5 py-2.5 bg-hermes text-white rounded-sm hover:bg-hermes-hover transition-colors">
+                <button className="px-5 py-2.5 bg-primary text-white rounded-sm hover:bg-primary-hover transition-colors">
                   Subscribe
                 </button>
               </div>
@@ -369,7 +369,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
               <p>{article.accuracyDisclaimer ?? standardAccuracyDisclaimer}</p>
               {article.slug !== "best-international-schools-jakarta" && (
                 <p>
-                  <Link href="/insights/" className="text-hermes hover:underline">
+                  <Link href="/insights/" className="text-primary hover:underline">
                     Back to Insights
                   </Link>
                 </p>
@@ -380,13 +380,13 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
               {article.toc.length > 0 && (
                 <aside className="hidden lg:block">
                   <nav className="sticky top-24 font-sans pt-2" aria-label="In this article">
-                    <p className="ft-smallcaps text-[11px] tracking-[0.18em] font-medium text-charcoal-muted mb-4">
+                    <p className="ft-smallcaps text-label-xs tracking-[0.18em] font-medium text-charcoal-muted mb-4">
                       In this article
                     </p>
                     <ul className="space-y-2 text-sm text-charcoal">
                       {article.toc.map((item) => (
                         <li key={item.id}>
-                          <a href={`#${item.id}`} className="hover:text-hermes transition-colors">
+                          <a href={`#${item.id}`} className="hover:text-primary transition-colors">
                             {item.label}
                           </a>
                         </li>

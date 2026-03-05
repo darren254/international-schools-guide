@@ -230,7 +230,7 @@ export function ReaderPulseWidget({ articleId }: ReaderPulseWidgetProps) {
       aria-label="Reader Pulse"
     >
       <div className="mb-4">
-        <p className="font-sans text-[11px] font-semibold uppercase tracking-wider text-charcoal-muted">Reader Pulse</p>
+        <p className="font-sans text-label-xs font-semibold uppercase tracking-wider text-charcoal-muted">Reader Pulse</p>
         <h3 className="font-display text-2xl text-charcoal">{module.title}</h3>
         <p className="font-sans text-sm text-charcoal-muted">{module.subtitle}</p>
       </div>
@@ -251,7 +251,7 @@ export function ReaderPulseWidget({ articleId }: ReaderPulseWidgetProps) {
                 type="button"
                 onClick={() => submitAnswer(currentQuestion, opt.id)}
                 disabled={submitting}
-                className="w-full rounded border border-warm-border bg-cream px-4 py-4 text-left font-sans text-base text-charcoal transition hover:border-hermes hover:bg-[#f7efe5] focus:outline-none focus:ring-2 focus:ring-hermes disabled:opacity-60"
+                className="w-full rounded border border-warm-border bg-cream px-4 py-4 text-left font-sans text-base text-charcoal transition hover:border-primary hover:bg-[#f7efe5] focus:outline-none focus:ring-2 focus:ring-primary disabled:opacity-60"
                 aria-label={opt.label}
               >
                 {opt.label}

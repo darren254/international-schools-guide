@@ -171,13 +171,13 @@ export function SchoolCard({
                 type="button"
                 onClick={handleShortlist}
                 disabled={!canAdd && !shortlisted}
-                className="text-[0.75rem] font-semibold uppercase tracking-wider text-charcoal-muted hover:text-hermes transition-colors font-body disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:text-charcoal-muted"
+                className="text-[0.75rem] font-semibold uppercase tracking-wider text-charcoal-muted hover:text-primary transition-colors font-body disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:text-charcoal-muted"
               >
                 {shortlisted ? "In shortlist" : "Shortlist +"}
               </button>
             )}
             {hasProfile ? (
-              <span className="text-[0.75rem] font-medium uppercase tracking-wider text-hermes font-body">
+              <span className="text-[0.75rem] font-medium uppercase tracking-wider text-primary font-body">
                 Full profile →
               </span>
             ) : (

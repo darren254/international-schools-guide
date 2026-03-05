@@ -66,13 +66,13 @@ export default function AboutPage() {
         <h1 className="font-display text-[clamp(2rem,4.5vw,3rem)] font-medium tracking-tight leading-[1.15] mb-6 max-w-2xl">
           We help families find the right school. That&apos;s it.
         </h1>
-        <p className="text-[1.0625rem] text-charcoal-light leading-relaxed max-w-2xl mb-6">
+        <p className="text-base text-charcoal-light leading-relaxed max-w-2xl mb-6">
           International Schools Guide is an independent editorial platform. We
           profile international schools across Asia - fees, results, facilities,
           and an honest written review - so expat families can make informed
           decisions instead of relying on school marketing and word of mouth.
         </p>
-        <p className="text-[1.0625rem] text-charcoal-light leading-relaxed max-w-2xl">
+        <p className="text-base text-charcoal-light leading-relaxed max-w-2xl">
           We don&apos;t take money from schools. We don&apos;t run sponsored
           rankings. We don&apos;t earn commissions on enrolments. We visit, we
           research, we write what we think.
@@ -91,7 +91,7 @@ export default function AboutPage() {
                 The school search is broken
               </h2>
             </div>
-            <div className="space-y-4 text-[0.9375rem] text-charcoal-light leading-relaxed">
+            <div className="space-y-4 text-body-sm text-charcoal-light leading-relaxed">
               <p>
                 If you&apos;re an expat family arriving in Jakarta - or Singapore,
                 or Bangkok, or Dubai - finding the right school for your child is
@@ -146,7 +146,7 @@ export default function AboutPage() {
           ].map((item) => (
             <div key={item.title}>
               <h3 className="font-display text-display-sm mb-3">{item.title}</h3>
-              <p className="text-[0.9375rem] text-charcoal-light leading-relaxed">
+              <p className="text-body-sm text-charcoal-light leading-relaxed">
                 {item.desc}
               </p>
             </div>
@@ -169,13 +169,13 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {PROCESS_STEPS.map((item) => (
               <div key={item.step}>
-                <span className="text-hermes font-display text-[1.75rem] font-medium">
+                <span className="text-primary font-display text-display-md font-medium">
                   {item.step}
                 </span>
                 <h3 className="font-display text-display-sm text-cream-50 mt-1 mb-2">
                   {item.title}
                 </h3>
-                <p className="text-[0.875rem] text-cream-300 leading-relaxed">
+                <p className="text-sm text-cream-300 leading-relaxed">
                   {item.desc}
                 </p>
               </div>
@@ -201,10 +201,10 @@ export default function AboutPage() {
               {/* Placeholder avatar */}
               <div className="w-20 h-20 bg-cream-300 rounded-full mb-4" />
               <h3 className="font-display text-display-sm mb-1">{person.name}</h3>
-              <p className="text-label-xs uppercase text-hermes tracking-wider mb-3">
+              <p className="text-label-xs uppercase text-primary tracking-wider mb-3">
                 {person.role}
               </p>
-              <p className="text-[0.875rem] text-charcoal-light leading-relaxed">
+              <p className="text-sm text-charcoal-light leading-relaxed">
                 {person.bio}
               </p>
             </div>
@@ -218,14 +218,14 @@ export default function AboutPage() {
           <h2 className="font-display text-display-lg mb-4">
             Questions, tips, or corrections?
           </h2>
-          <p className="text-[0.9375rem] text-charcoal-light max-w-lg mx-auto mb-8 leading-relaxed">
+          <p className="text-body-sm text-charcoal-light max-w-lg mx-auto mb-8 leading-relaxed">
             If you&apos;re a parent with a school recommendation, a head of school
             who wants to update your profile, or a journalist who wants to talk -
             we&apos;d like to hear from you.
           </p>
           <Link
             href="/contact/"
-            className="inline-block bg-hermes text-white px-8 py-3 text-sm font-medium uppercase tracking-wider hover:bg-hermes-hover transition-colors"
+            className="inline-block bg-primary text-white px-8 py-3 text-sm font-medium uppercase tracking-wider hover:bg-primary-hover transition-colors"
           >
             Get in Touch
           </Link>

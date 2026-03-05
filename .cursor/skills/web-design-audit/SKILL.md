@@ -35,7 +35,7 @@ Audits pages and components for alignment, spacing, typography, touch targets, r
 
 - **Rightmove:** Clear filters/sort; card layout (image, title, key stats, CTA); consistent primary actions; scannable lists.
 - **Louvre Abu Dhabi:** Calm palette; generous whitespace; restrained typography; minimal decoration; editorial quality.
-- Reference the project design system (e.g. `.cursor/rules/project.mdc` or design tokens) for current colours, type scale, and components. When a Rightmove/Louvre-inspired system is defined, use those tokens.
+- Reference the project design system (e.g. `.cursor/rules/project.mdc` or design tokens) for current colours, type scale, and components. Use `primary` for links and CTAs (Rightmove + Louvre design language).
 
 ## Output format for audits
 

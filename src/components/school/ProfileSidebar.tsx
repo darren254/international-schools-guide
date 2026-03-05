@@ -68,7 +68,7 @@ export function ProfileSidebar({
         </p>
         <Link
           href={cityGuideHref}
-          className="font-display text-base font-medium text-hermes hover:text-hermes-hover transition-colors"
+          className="font-display text-base font-medium text-primary hover:text-primary-hover transition-colors"
         >
           View all schools in {cityName} →
         </Link>
@@ -82,7 +82,7 @@ export function ProfileSidebar({
           <div key={insight.slug} className="py-3 border-b border-warm-border-light last:border-b-0">
             <Link
               href={`/insights/${insight.slug}/`}
-              className="font-display text-base font-medium text-hermes hover:text-hermes-hover transition-colors"
+              className="font-display text-base font-medium text-primary hover:text-primary-hover transition-colors"
             >
               {insight.title}
             </Link>
@@ -91,7 +91,7 @@ export function ProfileSidebar({
         ))}
       </div>
 
-      <div className="bg-warm-white border border-hermes p-6">
+      <div className="bg-warm-white border border-primary p-6">
         <p className="font-display text-[1.0625rem] font-semibold mb-2">
           Are you from this school?
         </p>

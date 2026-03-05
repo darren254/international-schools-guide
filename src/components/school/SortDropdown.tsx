@@ -90,7 +90,7 @@ export function SortDropdown({ value, onChange, isOpen: controlledOpen, onOpenCh
                 }}
                 className={`flex items-center gap-2 w-full px-3 py-2 text-[0.8125rem] font-body text-left transition-colors ${
                   value === opt.value
-                    ? "bg-hermes-light/20 text-hermes"
+                    ? "bg-primary-light/20 text-primary"
                     : "hover:bg-cream-200 text-charcoal"
                 }`}
               >

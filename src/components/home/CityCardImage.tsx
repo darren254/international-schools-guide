@@ -37,18 +37,18 @@ export function CityCardImage({ city, photoCredit }: CityCardImageProps) {
           href={photoCredit.href}
           target="_blank"
           rel="noopener noreferrer"
-          className="absolute bottom-1.5 left-2 text-[9px] text-white/80 hover:text-white font-body no-underline z-10 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]"
+          className="absolute bottom-1.5 left-2 text-label-xs text-white/80 hover:text-white font-body no-underline z-10 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]"
         >
           {photoCredit.label}
         </a>
       )}
       {!city.live && city.comingNext && (
-        <span className="absolute top-2 right-2 bg-charcoal/90 text-white text-[0.625rem] font-semibold uppercase tracking-wide px-2 py-0.5 rounded z-10 backdrop-blur-sm">
+        <span className="absolute top-2 right-2 bg-charcoal/90 text-white text-label-xs font-semibold uppercase tracking-wide px-2 py-0.5 rounded z-10 backdrop-blur-sm">
           Coming next
         </span>
       )}
       {!city.live && !city.comingNext && (
-        <span className="absolute top-2 right-2 text-[0.625rem] uppercase tracking-wider text-charcoal-muted bg-warm-white/95 px-2 py-0.5 rounded z-10 font-semibold backdrop-blur-sm">
+        <span className="absolute top-2 right-2 text-label-xs uppercase tracking-wider text-charcoal-muted bg-warm-white/95 px-2 py-0.5 rounded z-10 font-semibold backdrop-blur-sm">
           Coming soon
         </span>
       )}

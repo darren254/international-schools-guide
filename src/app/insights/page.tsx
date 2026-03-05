@@ -60,8 +60,8 @@ function HeroCard({ article, priority = false }: { article: InsightArticle; prio
           <div className="w-full h-full bg-cream-300" aria-hidden />
         )}
       </div>
-      <p className="text-[11px] uppercase tracking-[0.12em] text-hermes font-semibold mb-2">{article.categoryTag}</p>
-      <h2 className="font-display text-2xl md:text-3xl lg:text-4xl text-charcoal leading-tight mb-3 group-hover:text-hermes transition-colors">
+      <p className="text-label-xs uppercase tracking-[0.12em] text-primary font-semibold mb-2">{article.categoryTag}</p>
+      <h2 className="font-display text-2xl md:text-3xl lg:text-4xl text-charcoal leading-tight mb-3 group-hover:text-primary transition-colors">
         {article.h1}
       </h2>
       <p className="text-charcoal-muted text-base md:text-lg leading-relaxed mb-2 line-clamp-3">
@@ -82,10 +82,10 @@ function CompactCard({ article }: { article: InsightArticle }) {
       className="block py-3 border-b border-warm-border-light last:border-b-0 group"
     >
       <p className="text-[10px] uppercase tracking-wider text-charcoal-muted mb-1">{article.categoryTag}</p>
-      <h3 className="font-display text-[0.9375rem] md:text-base text-charcoal leading-snug group-hover:text-hermes transition-colors line-clamp-2">
+      <h3 className="font-display text-body-sm md:text-base text-charcoal leading-snug group-hover:text-primary transition-colors line-clamp-2">
         {article.h1}
       </h3>
-      <p className="text-[11px] text-charcoal-muted mt-1">{displayDate(article.date)}</p>
+      <p className="text-label-xs text-charcoal-muted mt-1">{displayDate(article.date)}</p>
     </Link>
   );
 }
@@ -97,7 +97,7 @@ function ArticleLinkItem({ article }: { article: InsightArticle }) {
       href={`/insights/${article.slug}`}
       className="block py-2 border-b border-warm-border-light last:border-b-0 group"
     >
-      <span className="font-display text-[0.9375rem] text-charcoal leading-snug group-hover:text-hermes transition-colors line-clamp-2">
+      <span className="font-display text-body-sm text-charcoal leading-snug group-hover:text-primary transition-colors line-clamp-2">
         {article.h1}
       </span>
     </Link>
@@ -122,14 +122,14 @@ function FeatureCard({ article }: { article: InsightArticle }) {
           <div className="w-full h-full bg-cream-300" aria-hidden />
         )}
       </div>
-      <p className="text-[10px] uppercase tracking-wider text-hermes font-semibold mb-1">{article.categoryTag}</p>
-      <h2 className="font-display text-xl md:text-2xl text-charcoal leading-tight mb-2 group-hover:text-hermes transition-colors">
+      <p className="text-[10px] uppercase tracking-wider text-primary font-semibold mb-1">{article.categoryTag}</p>
+      <h2 className="font-display text-xl md:text-2xl text-charcoal leading-tight mb-2 group-hover:text-primary transition-colors">
         {article.h1}
       </h2>
       <p className="text-charcoal-muted text-sm leading-relaxed line-clamp-3">
         {article.standfirst || article.metaDescription}
       </p>
-      <p className="text-[11px] text-charcoal-muted mt-2">{displayDate(article.date)} · {article.readTime}</p>
+      <p className="text-label-xs text-charcoal-muted mt-2">{displayDate(article.date)} · {article.readTime}</p>
     </Link>
   );
 }
@@ -153,10 +153,10 @@ function MediumCard({ article }: { article: InsightArticle }) {
         )}
       </div>
       <p className="text-[10px] uppercase tracking-wider text-charcoal-muted mb-1">{article.categoryTag}</p>
-      <h3 className="font-display text-base md:text-lg text-charcoal leading-snug group-hover:text-hermes transition-colors line-clamp-2">
+      <h3 className="font-display text-base md:text-lg text-charcoal leading-snug group-hover:text-primary transition-colors line-clamp-2">
         {article.h1}
       </h3>
-      <p className="text-[11px] text-charcoal-muted mt-1">{displayDate(article.date)} · {article.readTime}</p>
+      <p className="text-label-xs text-charcoal-muted mt-1">{displayDate(article.date)} · {article.readTime}</p>
     </Link>
   );
 }
@@ -232,7 +232,7 @@ export default function InsightsPage() {
   return (
     <>
       {/* Hero strip */}
-      <section className="bg-charcoal text-cream pt-12 md:pt-16 pb-8 md:pb-10 border-b-4 border-hermes">
+      <section className="bg-charcoal text-cream pt-12 md:pt-16 pb-8 md:pb-10 border-b-4 border-primary">
         <div className="container-site">
           <p className="text-xs uppercase tracking-[0.18em] text-cream-400 mb-2">Insights</p>
           <h1 className="font-display text-3xl md:text-4xl lg:text-5xl mb-2">International Schools Guide</h1>
@@ -273,13 +273,13 @@ export default function InsightsPage() {
                         <div className="aspect-[16/10] bg-cream-200 rounded-sm overflow-hidden mb-2">
                           <CardImage slug={article.slug} alt={article.h1} className="w-full h-full" />
                         </div>
-                        <p className="text-[10px] uppercase tracking-wider text-hermes font-semibold mb-1">
+                        <p className="text-[10px] uppercase tracking-wider text-primary font-semibold mb-1">
                           {cityName}
                         </p>
-                        <h3 className="font-display text-base md:text-lg text-charcoal leading-snug group-hover:text-hermes transition-colors line-clamp-2">
+                        <h3 className="font-display text-base md:text-lg text-charcoal leading-snug group-hover:text-primary transition-colors line-clamp-2">
                           {article.h1}
                         </h3>
-                        <p className="text-[11px] text-charcoal-muted mt-1">
+                        <p className="text-label-xs text-charcoal-muted mt-1">
                           {displayDate(article.date)} · {article.readTime}
                         </p>
                       </Link>
@@ -344,7 +344,7 @@ export default function InsightsPage() {
                     <li key={article.slug} className="border-b border-warm-border pb-3 last:border-b-0 last:pb-0">
                       <Link href={`/insights/${article.slug}`} className="block group">
                         <p className="text-xs text-charcoal-muted mb-1">Pick {index + 1}</p>
-                        <p className="font-display text-base text-charcoal leading-snug group-hover:text-hermes transition-colors">
+                        <p className="font-display text-base text-charcoal leading-snug group-hover:text-primary transition-colors">
                           {article.h1}
                         </p>
                       </Link>
@@ -361,7 +361,7 @@ export default function InsightsPage() {
                     <li key={article.slug} className="border-b border-warm-border pb-3 last:border-b-0 last:pb-0">
                       <Link href={`/insights/${article.slug}`} className="block group">
                         <p className="text-xs text-charcoal-muted mb-1">#{index + 1}</p>
-                        <p className="font-display text-base text-charcoal leading-snug group-hover:text-hermes transition-colors">
+                        <p className="font-display text-base text-charcoal leading-snug group-hover:text-primary transition-colors">
                           {article.h1}
                         </p>
                       </Link>
@@ -384,7 +384,7 @@ export default function InsightsPage() {
                 <li key={article.slug} className="border-b border-warm-border pb-3 last:border-b-0 last:pb-0">
                   <Link href={`/insights/${article.slug}`} className="block group">
                     <p className="text-xs text-charcoal-muted mb-1">Pick {index + 1}</p>
-                    <p className="font-display text-base text-charcoal leading-snug group-hover:text-hermes transition-colors">
+                    <p className="font-display text-base text-charcoal leading-snug group-hover:text-primary transition-colors">
                       {article.h1}
                     </p>
                   </Link>
@@ -401,7 +401,7 @@ export default function InsightsPage() {
                 <li key={article.slug} className="border-b border-warm-border pb-3 last:border-b-0 last:pb-0">
                   <Link href={`/insights/${article.slug}`} className="block group">
                     <p className="text-xs text-charcoal-muted mb-1">#{index + 1}</p>
-                    <p className="font-display text-base text-charcoal leading-snug group-hover:text-hermes transition-colors">
+                    <p className="font-display text-base text-charcoal leading-snug group-hover:text-primary transition-colors">
                       {article.h1}
                     </p>
                   </Link>

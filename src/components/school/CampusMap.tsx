@@ -212,7 +212,7 @@ export function CampusMap({
         <>
           {!hasToken ? (
             <div className="w-full h-[400px] rounded-sm border border-warm-border bg-warm-white flex items-center justify-center text-center px-6">
-              <p className="text-charcoal-muted text-[0.9375rem] max-w-md">
+              <p className="text-charcoal-muted text-body-sm max-w-md">
                 The map is not available on this deployment. Set{" "}
                 <code className="text-charcoal text-xs bg-cream-300 px-1 rounded">
                   NEXT_PUBLIC_MAPBOX_TOKEN
@@ -288,32 +288,32 @@ export function CampusMap({
                     <div className="p-4 sm:p-5 pb-6 safe-area-pb">
                       {selected.type === "primary" ? (
                         <>
-                          <p className="font-display text-[1.0625rem] font-semibold text-charcoal">
+                          <p className="font-display text-base font-semibold text-charcoal">
                             {selected.campus.name}
                           </p>
                           {selected.campus.grades && (
-                            <p className="text-[0.8125rem] text-charcoal-muted mt-0.5">
+                            <p className="text-body-xs text-charcoal-muted mt-0.5">
                               {selected.campus.grades}
                             </p>
                           )}
-                          <p className="text-[0.8125rem] text-charcoal-muted mt-2">
+                          <p className="text-body-xs text-charcoal-muted mt-2">
                             {selected.campus.address}
                           </p>
                         </>
                       ) : (
                         <>
-                          <p className="font-display text-[1.0625rem] font-semibold text-charcoal">
+                          <p className="font-display text-base font-semibold text-charcoal">
                             {selected.school.name}
                           </p>
-                          <p className="text-[0.8125rem] text-charcoal-muted mt-0.5">
+                          <p className="text-body-xs text-charcoal-muted mt-0.5">
                             {selected.school.meta}
                           </p>
-                          <p className="text-[0.8125rem] font-medium text-charcoal mt-1">
+                          <p className="text-body-xs font-medium text-charcoal mt-1">
                             {formatMapFee(selected.school.feeRange)}
                           </p>
                           <Link
                             href={`/international-schools/${citySlug}/${selected.school.slug}/`}
-                            className="inline-block mt-4 text-[0.875rem] font-medium text-hermes hover:text-hermes-hover underline underline-offset-2 touch-manipulation"
+                            className="inline-block mt-4 text-sm font-medium text-primary hover:text-primary-hover underline underline-offset-2 touch-manipulation"
                           >
                             View profile →
                           </Link>
@@ -330,13 +330,13 @@ export function CampusMap({
           <div className="space-y-4 mt-6">
             {campuses.map((campus, i) => (
               <div key={`${campus.name}-${i}`} className="flex gap-3 items-start">
-                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-hermes text-white text-xs font-semibold flex items-center justify-center mt-0.5">
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs font-semibold flex items-center justify-center mt-0.5">
                   {i + 1}
                 </span>
                 <div>
-                  <p className="text-[0.9375rem] font-medium text-charcoal">{campus.name}</p>
+                  <p className="text-body-sm font-medium text-charcoal">{campus.name}</p>
                   {campus.grades && (
-                    <p className="text-[0.8125rem] text-charcoal-muted">{campus.grades}</p>
+                    <p className="text-body-xs text-charcoal-muted">{campus.grades}</p>
                   )}
                   <p className="text-sm text-charcoal-muted">{campus.address}</p>
                 </div>
@@ -345,7 +345,7 @@ export function CampusMap({
           </div>
         </>
       ) : (
-        <div className="rounded-sm border border-warm-border bg-warm-white p-6 text-charcoal-muted text-[0.9375rem]">
+        <div className="rounded-sm border border-warm-border bg-warm-white p-6 text-charcoal-muted text-body-sm">
           Campus locations will be shown here once coordinates are available. Contact the school for
           directions.
         </div>

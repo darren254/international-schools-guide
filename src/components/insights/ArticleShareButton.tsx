@@ -23,7 +23,7 @@ export function ArticleShareButton({ url, title }: { url: string; title: string 
       <button
         type="button"
         onClick={handleCopyLink}
-        className="inline-flex items-center gap-2 text-sm font-sans text-charcoal-muted hover:text-hermes transition-colors"
+        className="inline-flex items-center gap-2 text-sm font-sans text-charcoal-muted hover:text-primary transition-colors"
       >
         {copied ? (
           <>
@@ -46,7 +46,7 @@ export function ArticleShareButton({ url, title }: { url: string; title: string 
         href={blueskyShareUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 text-sm font-sans text-charcoal-muted hover:text-hermes transition-colors"
+        className="inline-flex items-center gap-2 text-sm font-sans text-charcoal-muted hover:text-primary transition-colors"
       >
         <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
           <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 4.278c0 1.197.378 2.042.646 2.481.268.439 1.072.878 2.392 1.757C4.273 9.505 6.006 10.794 12 15.689c5.994-4.895 7.727-6.184 8.962-7.173 1.32-.879 2.124-1.318 2.392-1.757.268-.439.646-1.284.646-2.481 0-1.198-.139-2.37-.902-2.713-.659-.299-1.664-.621-4.3 1.24C16.046 4.747 13.087 8.686 12 10.8z" />

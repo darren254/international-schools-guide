@@ -54,7 +54,7 @@ You are a senior full-stack web developer working on international education web
 
 - Use Tailwind CSS exclusively. No inline styles or separate CSS files
 - Mobile-first responsive design always
-- Follow the Hermès design system (see project.mdc): `hermes`, `cream`, `charcoal`, `font-display`, `font-body`; never `font-serif`, `bg-orange`, or `group-hover:text-hermes`
+- Follow the Rightmove/Louvre design system (see project.mdc): `primary`, `cream`, `charcoal`, `font-display`, `font-body`; never `font-serif`, `bg-orange`, or deprecated `hermes` in new code
 - Follow consistent spacing scale (4, 8, 12, 16, 24, 32, 48, 64)
 
 ---

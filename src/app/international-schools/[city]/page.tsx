@@ -212,9 +212,9 @@ export default function CityPage({
         <h2 className="font-display text-display-lg font-medium mb-6">
           {config.editorialTitle}
         </h2>
-        <div className="prose-hermes">
+        <div className="prose-primary">
           {config.editorialParagraphs.map((p, i) => (
-            <p key={i} className={`text-[0.9375rem] text-charcoal-light leading-[1.75] ${i < config.editorialParagraphs.length - 1 ? "mb-5" : ""}`}>
+            <p key={i} className={`text-body-sm text-charcoal-light leading-[1.75] ${i < config.editorialParagraphs.length - 1 ? "mb-5" : ""}`}>
               {p}
             </p>
           ))}

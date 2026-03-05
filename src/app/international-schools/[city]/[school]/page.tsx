@@ -150,14 +150,14 @@ export default function SchoolProfilePage({
       >
         <Link
           href="/international-schools/"
-          className="hover:text-hermes transition-colors"
+          className="hover:text-primary transition-colors"
         >
           International Schools
         </Link>
         <span className="mx-1.5 opacity-50">›</span>
         <Link
           href={`/international-schools/${s.citySlug}/`}
-          className="hover:text-hermes transition-colors"
+          className="hover:text-primary transition-colors"
         >
           {s.citySlug.charAt(0).toUpperCase() + s.citySlug.slice(1)}
         </Link>
@@ -229,7 +229,7 @@ export default function SchoolProfilePage({
             <a
               key={link.href}
               href={link.href}
-              className="text-charcoal-muted hover:text-hermes transition-colors"
+              className="text-charcoal-muted hover:text-primary transition-colors"
             >
               {link.label}
             </a>

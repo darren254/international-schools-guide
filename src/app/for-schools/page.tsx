@@ -76,7 +76,7 @@ export default function ForSchoolsPage() {
         <h1 className="font-display text-[clamp(2rem,4.5vw,3rem)] font-medium tracking-tight leading-[1.15] mb-6 max-w-2xl">
           Work with us to keep your profile accurate
         </h1>
-        <p className="text-[1.0625rem] text-charcoal-light leading-relaxed max-w-2xl mb-6">
+        <p className="text-base text-charcoal-light leading-relaxed max-w-2xl mb-6">
           Every international school in every city we cover gets a profile - fees,
           data, and an independent editorial review. Our profiles are fair, balanced,
           and written for parents. We want to get it right, and working with schools
@@ -99,19 +99,19 @@ export default function ForSchoolsPage() {
               <div key={tier.label} className="border border-warm-border rounded-sm p-6 bg-cream-50">
                 <div className="flex items-baseline justify-between gap-2 mb-4">
                   <h3 className="font-display text-display-sm">{tier.label}</h3>
-                  <span className="text-[0.75rem] uppercase tracking-wider text-charcoal-muted font-medium">
+                  <span className="text-label-sm uppercase tracking-wider text-charcoal-muted font-medium">
                     {tier.cost}
                   </span>
                 </div>
                 <ul className="space-y-3 mb-5">
                   {tier.points.map((point, i) => (
-                    <li key={i} className="text-[0.9375rem] text-charcoal-light leading-relaxed flex gap-2">
-                      <span className="text-hermes shrink-0">·</span>
+                    <li key={i} className="text-body-sm text-charcoal-light leading-relaxed flex gap-2">
+                      <span className="text-primary shrink-0">·</span>
                       <span>{point}</span>
                     </li>
                   ))}
                 </ul>
-                <p className="text-[0.8125rem] text-charcoal-muted leading-relaxed border-t border-warm-border pt-4">
+                <p className="text-body-xs text-charcoal-muted leading-relaxed border-t border-warm-border pt-4">
                   {tier.footer}
                 </p>
               </div>
@@ -135,10 +135,10 @@ export default function ForSchoolsPage() {
           <div className="max-w-2xl mx-auto space-y-8">
             {FAQS.map((faq) => (
               <div key={faq.q}>
-                <h3 className="font-display text-[1.125rem] text-cream-50 mb-2">
+                <h3 className="font-display text-lg text-cream-50 mb-2">
                   {faq.q}
                 </h3>
-                <p className="text-[0.9375rem] text-cream-300 leading-relaxed">
+                <p className="text-body-sm text-cream-300 leading-relaxed">
                   {faq.a}
                 </p>
               </div>
@@ -152,7 +152,7 @@ export default function ForSchoolsPage() {
         <h2 className="font-display text-display-lg mb-4">
           Get started
         </h2>
-        <p className="text-[0.9375rem] text-charcoal-light max-w-lg mx-auto mb-8 leading-relaxed">
+        <p className="text-body-sm text-charcoal-light max-w-lg mx-auto mb-8 leading-relaxed">
           Email schools@international-schools-guide.com from your school address.
           Tell us your school name, your role, and whether you&apos;d like to verify
           your profile, add a &quot;From the School&quot; section, or discuss
@@ -160,7 +160,7 @@ export default function ForSchoolsPage() {
         </p>
         <a
           href="mailto:schools@international-schools-guide.com"
-          className="inline-block bg-hermes text-white px-8 py-3 text-sm font-medium uppercase tracking-wider hover:bg-hermes-hover transition-colors"
+          className="inline-block bg-primary text-white px-8 py-3 text-sm font-medium uppercase tracking-wider hover:bg-primary-hover transition-colors"
         >
           Email schools@international-schools-guide.com
         </a>

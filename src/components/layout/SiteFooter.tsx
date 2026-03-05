@@ -7,7 +7,7 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr] gap-12 mb-12">
           <div>
             <p className="font-display text-lg font-semibold text-cream mb-4">
-              International Schools <span className="text-hermes">Guide</span>
+              International Schools <span className="text-primary">Guide</span>
             </p>
             <p className="text-sm text-charcoal-muted leading-relaxed max-w-sm">
               Helping expat families navigate international school choices with

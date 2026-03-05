@@ -35,17 +35,17 @@ export function Intelligence({
     <section id="intelligence" className="pt-10 mb-10 pb-10 border-b border-warm-border-light">
       <SectionHeader label="Editorial" title="The Intelligence" />
 
-      <p className="text-[0.75rem] text-charcoal-muted italic mb-6">
+      <p className="text-label-sm text-charcoal-muted italic mb-6">
         Schools don&apos;t pay to be listed here. Our reviews are independent, written for parents, not for schools.
       </p>
 
       {/* Verdict box - the key takeaway */}
       {verdictText && (
         <div className="bg-amber-bg border-l-[3px] border-amber-highlight px-5 py-4 mb-8">
-          <span className="text-[0.6875rem] uppercase tracking-wider text-amber-highlight font-medium block mb-1">
+          <span className="text-label-xs uppercase tracking-wider text-amber-highlight font-medium block mb-1">
             The Verdict
           </span>
-          <p className="text-[0.9375rem] text-charcoal leading-relaxed font-medium">
+          <p className="text-body-sm text-charcoal leading-relaxed font-medium">
             {verdictText}
           </p>
         </div>
@@ -53,12 +53,12 @@ export function Intelligence({
 
       {/* Editorial prose */}
       {validParagraphs.slice(0, 2).map((p, i) => (
-        <p key={i} className="text-[0.9375rem] text-charcoal-light leading-[1.7] mb-5">
+        <p key={i} className="text-body-sm text-charcoal-light leading-[1.7] mb-5">
           {p}
         </p>
       ))}
       {validParagraphs.length > 2 && (
-        <div className="text-[0.875rem] text-charcoal-muted leading-[1.7] mb-6">
+        <div className="text-sm text-charcoal-muted leading-[1.7] mb-6">
           {validParagraphs.slice(2).map((p, i) => (
             <p key={i} className="mb-4">{p}</p>
           ))}
@@ -69,7 +69,7 @@ export function Intelligence({
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6">
         {/* Positives */}
         <div>
-          <h3 className="text-[0.75rem] uppercase tracking-wider text-verified font-semibold mb-3 flex items-center gap-2">
+          <h3 className="text-label-sm uppercase tracking-wider text-verified font-semibold mb-3 flex items-center gap-2">
             <span className="w-5 h-5 rounded-full bg-verified-bg flex items-center justify-center text-verified text-xs font-bold">+</span>
             What parents value
           </h3>
@@ -77,7 +77,7 @@ export function Intelligence({
             {validPositives.map((item, i) => (
               <li
                 key={i}
-                className="py-2.5 border-b border-warm-border-light last:border-b-0 text-[0.8125rem] text-charcoal-light leading-relaxed"
+                className="py-2.5 border-b border-warm-border-light last:border-b-0 text-body-xs text-charcoal-light leading-relaxed"
               >
                 {item}
               </li>
@@ -87,15 +87,15 @@ export function Intelligence({
 
         {/* Considerations */}
         <div>
-          <h3 className="text-[0.75rem] uppercase tracking-wider text-hermes font-semibold mb-3 flex items-center gap-2">
-            <span className="w-5 h-5 rounded-full bg-hermes-light flex items-center justify-center text-hermes text-xs font-bold">−</span>
+          <h3 className="text-label-sm uppercase tracking-wider text-primary font-semibold mb-3 flex items-center gap-2">
+            <span className="w-5 h-5 rounded-full bg-primary-light flex items-center justify-center text-primary text-xs font-bold">−</span>
             Points of consideration
           </h3>
           <ul className="space-y-0">
             {validConsiderations.map((item, i) => (
               <li
                 key={i}
-                className="py-2.5 border-b border-warm-border-light last:border-b-0 text-[0.8125rem] text-charcoal-light leading-relaxed"
+                className="py-2.5 border-b border-warm-border-light last:border-b-0 text-body-xs text-charcoal-light leading-relaxed"
               >
                 {typeof item === "string" ? (
                   item
@@ -109,7 +109,7 @@ export function Intelligence({
                             href={item.link.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-hermes hover:underline"
+                            className="text-primary hover:underline"
                           >
                             {item.link.label}
                           </a>

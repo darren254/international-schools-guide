@@ -29,7 +29,7 @@ Our edge: faster UX (Google Flights-style), genuinely better editorial content, 
 | Layer | Technology | Status |
 |-------|-----------|--------|
 | Framework | Next.js 14 App Router + TypeScript | ✅ Built |
-| Styling | Tailwind CSS + Hermès design system | ✅ Built |
+| Styling | Tailwind CSS + Rightmove/Louvre design system | ✅ Built |
 | Database | Neon Postgres (serverless) | ⚠️ Schema written, not yet wired to pages |
 | ORM | Drizzle ORM + Zod | ⚠️ Installed, schema defined, not queried |
 | Hosting | Cloudflare Workers & Pages | ✅ Auto-deploy on push to main |
@@ -44,35 +44,34 @@ When we wire the database, switch to `@opennextjs/cloudflare` for server renderi
 
 ---
 
-## Design System — Hermès Aesthetic
+## Design System — Rightmove + Louvre Abu Dhabi
 
-Non-negotiable. Every component should feel like hermes.com.
+Inspired by **Rightmove** (functionality, layout, clarity) and **Louvre Abu Dhabi** (calm, typography, space). Clean, professional, editorial.
 
 ### Colours
-- Background cream: `#F8F4EE` (Tailwind: `cream`)
-- Primary accent (Hermès orange): `#E8722A` (Tailwind: `hermes`)
-- Text charcoal: `#1A1A1A` (Tailwind: `charcoal`)
-- Muted text: `#7A756E` (Tailwind: `charcoal-muted`)
-- Card background: warm white `#FDFBF8` (Tailwind: `warm-white`)
-- Borders: warm-toned `#E8E2D9` (Tailwind: `warm-border`)
-- No cold greys. No pure white. No blue.
+- Background: `cream` (#F8F4EE)
+- Primary accent (links, CTAs): `primary` (#1e3a5f navy-slate), hover `primary-hover` (#2d4a6f). Use for buttons, links, and key actions.
+- Text: `charcoal` (#1A1A1A), muted `charcoal-muted` (#7A756E), light `charcoal-light` (#4A4540)
+- Card background: `warm-white` (#FDFBF8)
+- Borders: `warm-border` (#E8E2D9), `warm-border-light` (#F0EBE3)
+- Legacy `hermes` remains in Tailwind for reference but use `primary` in new and updated UI.
 
 ### Typography
 - Headlines: `font-display` → Cormorant Garamond (serif)
 - Body: `font-body` → Inter (sans-serif)
-- NOT `font-serif`. NOT `font-sans`. Use the custom class names.
+- Use the custom class names (`font-display`, `font-body`), not raw `font-serif`/`font-sans`.
+- **Scale:** Prefer theme tokens over arbitrary sizes: `text-body-sm` (0.9375rem), `text-body-xs` (0.8125rem), `text-label-xs` (0.6875rem), `text-label-sm` (0.75rem), `text-display-sm` / `text-display-md` / `text-display-lg` / `text-display-xl` for display type; Tailwind `text-sm`, `text-base`, `text-lg` where appropriate.
 
 ### Layout Rules
-- Generous whitespace
-- Hairline borders (1px), warm-toned
-- No drop shadows (or extremely subtle)
-- Buttons: thin outlined OR solid orange, not rounded/bubbly
-- High information density must feel editorial
+- Generous whitespace; hairline borders (1px), warm-toned
+- No heavy drop shadows (or very subtle)
+- Buttons: outline (charcoal) or solid primary; not rounded/bubbly
+- High information density where needed, but calm and scannable (Rightmove-style cards and filters)
 
 ### Hover Behaviour
-- Use `card-title-hover` class on Link elements
-- CSS in globals.css uses `@media (hover: hover)` to prevent sticky hover on mobile
-- Do NOT use `group-hover:text-hermes` inline — it breaks on touch devices
+- Use `card-title-hover` class on Link elements for card titles
+- globals.css uses `@media (hover: hover)` so hovers don’t stick on touch
+- Prefer `hover:text-primary-hover` (or equivalent) over inline group-hover where possible
 
 ---
 
@@ -211,7 +210,7 @@ SiteHeader, SiteFooter
 |------|----------|-----------|
 | Feb 2026 | Cloudflare over Vercel | Better pricing at scale, R2 for images |
 | Feb 2026 | Static export for now | Fast, cheap, all data hardcoded anyway |
-| Feb 2026 | Hermès design system | Non-negotiable brand identity |
+| Feb 2026 | Rightmove + Louvre design system | Clean, professional; primary accent navy-slate |
 | Feb 2026 | JIS as first profile template | Largest school, most data available |
 | Feb 2026 | Hardcode then database | Get editorial tone right before wiring DB |
 | Feb 2026 | Default sort: fees high-to-low | Matches how parents actually compare |
@@ -240,8 +239,8 @@ NEXT_PUBLIC_GA_ID=         # Google Analytics 4 (not yet injected)
 When starting a new session on this project:
 1. Read this file first
 2. Check git log for recent changes
-3. Use Tailwind classes from the design system (hermes, cream, charcoal, font-display, font-body)
-4. Never use `font-serif`, `bg-orange`, or `group-hover:text-hermes`
+3. Use Tailwind classes from the design system (primary, cream, charcoal, font-display, font-body)
+4. Prefer `primary` for links and CTAs; avoid raw `font-serif`, `bg-orange`, or deprecated `hermes` in new code
 5. All data is currently hardcoded — pages don't query the database yet
 6. The site is statically exported — no server-side features work until we switch to @opennextjs/cloudflare
 7. Push to main triggers auto-deploy to Cloudflare (~2 min build)

@@ -51,7 +51,7 @@ export default function ContactPage() {
         <h1 className="font-display text-[clamp(2rem,4.5vw,3rem)] font-medium tracking-tight leading-[1.15] mb-6 max-w-2xl">
           Get in touch
         </h1>
-        <p className="text-[1.0625rem] text-charcoal-light leading-relaxed max-w-2xl">
+        <p className="text-base text-charcoal-light leading-relaxed max-w-2xl">
           Whether you&apos;re a parent with a correction, a school claiming your
           profile, or a journalist with a question - email the right address below
           and we&apos;ll get back to you.
@@ -72,14 +72,14 @@ export default function ContactPage() {
                 </p>
                 <a
                   href={`mailto:${channel.email}`}
-                  className="font-display text-[1.125rem] text-hermes hover:text-hermes-hover transition-colors block mb-3"
+                  className="font-display text-lg text-primary hover:text-primary-hover transition-colors block mb-3"
                 >
                   {channel.email}
                 </a>
-                <p className="text-[0.875rem] text-charcoal-light leading-relaxed mb-3">
+                <p className="text-sm text-charcoal-light leading-relaxed mb-3">
                   {channel.desc}
                 </p>
-                <p className="text-[0.75rem] text-charcoal-muted uppercase tracking-wider">
+                <p className="text-label-sm text-charcoal-muted uppercase tracking-wider">
                   Response time: {channel.response}
                 </p>
               </div>
@@ -90,7 +90,7 @@ export default function ContactPage() {
 
       {/* ─── Notes ─── */}
       <section className="container-site py-14">
-        <div className="max-w-2xl mx-auto space-y-6 text-[0.9375rem] text-charcoal-light leading-relaxed">
+        <div className="max-w-2xl mx-auto space-y-6 text-body-sm text-charcoal-light leading-relaxed">
           <h2 className="font-display text-display-lg text-charcoal mb-4">
             A few things to know
           </h2>

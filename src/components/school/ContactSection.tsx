@@ -26,7 +26,7 @@ export function ContactSection({ phone, email, website }: ContactSectionProps) {
           {email && (
             <div className="flex items-center gap-2 text-[0.9375rem]">
               <span className="text-charcoal-muted text-sm">✉</span>
-              <a href={`mailto:${email}`} className="text-hermes hover:text-hermes-hover transition-colors">
+              <a href={`mailto:${email}`} className="text-primary hover:text-primary-hover transition-colors">
                 {email}
               </a>
             </div>

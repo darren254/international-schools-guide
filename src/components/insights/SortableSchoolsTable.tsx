@@ -105,7 +105,7 @@ export function SortableSchoolsTableSection1({ rows }: { rows: Section1Row[] }) 
                 {row.slug ? (
                   <Link
                     href={`/international-schools/jakarta/${row.slug}/`}
-                    className="text-hermes hover:underline font-medium"
+                    className="text-primary hover:underline font-medium"
                   >
                     {row.school}
                   </Link>
@@ -191,7 +191,7 @@ export function SortableSchoolsTableSection2({ rows }: { rows: Section2Row[] }) 
                 {row.slug ? (
                   <Link
                     href={`/international-schools/jakarta/${row.slug}/`}
-                    className="text-hermes hover:underline font-medium"
+                    className="text-primary hover:underline font-medium"
                   >
                     {row.school}
                   </Link>

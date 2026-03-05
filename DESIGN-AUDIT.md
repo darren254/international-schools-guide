@@ -21,18 +21,16 @@
 | Issue | Location | Fix |
 |-------|----------|-----|
 | Card padding `sm:p-7` (28px) off scale | SchoolCard.tsx | Use p-6 (24) or p-8 (32) for consistency. |
-| Arbitrary font sizes across components | Multiple | Prefer text-sm / text-base / label-xs where possible; document one-off rem where needed. |
+| Arbitrary font sizes across components | Multiple | ~~Prefer text-sm / text-base / label-xs~~ **Done.** Theme tokens `body-sm`, `body-xs` added; all one-off rem/px replaced with `text-body-sm`, `text-body-xs`, `text-label-xs`, `text-label-sm`, `text-display-*`, or Tailwind `text-sm`/`text-base`/`text-lg`. globals.css article-content uses rem scale with comments. |
 | Currency dropdown options small touch target | CurrencyToggle.tsx | Increase py for listbox options on touch (e.g. py-2.5 or py-3). |
 
-### Deferred (Phase 3 — design language)
+### Deferred (Phase 3 — design language) — DONE
 
-- Full palette/typography shift to Rightmove + Louvre (new tokens, project.mdc, Tailwind theme).
-- Replace Hermès orange with new primary where defined.
-- Systematic pass to replace all one-off `text-[0.8125rem]` etc. with design scale.
+- ~~Full palette/typography shift to Rightmove + Louvre~~ **Done.** New `primary` token (navy-slate #1e3a5f) added; all `hermes` usages replaced with `primary` across the app. project.mdc and code-and-model.mdc updated. Typography (font-display, font-body) unchanged. Insights layout unchanged per user preference.
 
 ---
 
 ## Status
 
-- **Fixed:** Footer duplicate link; footer hex colours replaced with design tokens (text-cream-400, text-charcoal-muted, border-charcoal-light/40); header hamburger 44px min touch target; SchoolCard padding `sm:p-7` → `sm:p-8`; currency dropdown options min-height 44px on mobile; homepage city grid `gap-5` → `gap-6` for scale consistency.
-- **Deferred (Phase 3):** New design language (Rightmove + Louvre palette, type scale, project.mdc, Tailwind theme, full component refresh). The skill and this audit support that when you’re ready.
+- **Fixed:** Footer duplicate link; footer hex colours replaced with design tokens; header hamburger 44px min touch target; SchoolCard padding; currency dropdown touch targets; homepage city grid gap. **Phase 3:** primary navy-slate (#1e3a5f) added; all hermes replaced with primary; project.mdc and code-and-model.mdc updated. **Typography pass:** body-sm/body-xs tokens added; one-off font sizes replaced with design scale site-wide; globals.css aligned to scale.
+- **Deferred:** None.

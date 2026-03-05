@@ -30,7 +30,7 @@ export default function PrivacyPage() {
           <h2 className="font-display text-display-lg mb-5">Who we are</h2>
           <p className="text-[0.9375rem] text-charcoal-light leading-relaxed max-w-2xl">
             International Schools Guide is an independent editorial platform that profiles international schools for expat families. The site is operated by The Schools Trust Ltd, registered in England and Wales. For privacy enquiries, email{" "}
-            <a href="mailto:privacy@international-schools-guide.com" className="text-hermes hover:text-hermes-hover transition-colors">
+            <a href="mailto:privacy@international-schools-guide.com" className="text-primary hover:text-primary-hover transition-colors">
               privacy@international-schools-guide.com
             </a>.
           </p>
@@ -41,21 +41,21 @@ export default function PrivacyPage() {
         <h2 className="font-display text-display-lg mb-5">What we collect</h2>
         <ul className="space-y-4 max-w-2xl">
           <li className="flex gap-3">
-            <span className="text-hermes font-medium shrink-0">Contact forms and emails</span>
+            <span className="text-primary font-medium shrink-0">Contact forms and emails</span>
             <span className="text-charcoal-muted">-</span>
             <span className="text-[0.9375rem] text-charcoal-light leading-relaxed">
               Name, email address, message content. Used to respond to enquiries.
             </span>
           </li>
           <li className="flex gap-3">
-            <span className="text-hermes font-medium shrink-0">Analytics</span>
+            <span className="text-primary font-medium shrink-0">Analytics</span>
             <span className="text-charcoal-muted">-</span>
             <span className="text-[0.9375rem] text-charcoal-light leading-relaxed">
               Google Analytics 4 with cookies for anonymised usage data (pages visited, time on site, devices). Not used to identify individuals.
             </span>
           </li>
           <li className="flex gap-3">
-            <span className="text-hermes font-medium shrink-0">Technical data</span>
+            <span className="text-primary font-medium shrink-0">Technical data</span>
             <span className="text-charcoal-muted">-</span>
             <span className="text-[0.9375rem] text-charcoal-light leading-relaxed">
               Cloudflare automatically logs IP addresses, browser type, and request data for security and performance.
@@ -101,7 +101,7 @@ export default function PrivacyPage() {
           <h2 className="font-display text-display-lg mb-5">Your rights</h2>
           <p className="text-[0.9375rem] text-charcoal-light leading-relaxed max-w-2xl">
             UK/EEA users can access, correct, delete, or export personal data. Email{" "}
-            <a href="mailto:privacy@international-schools-guide.com" className="text-hermes hover:text-hermes-hover transition-colors">
+            <a href="mailto:privacy@international-schools-guide.com" className="text-primary hover:text-primary-hover transition-colors">
               privacy@international-schools-guide.com
             </a>
             ; we will respond within 30 days.
@@ -128,7 +128,7 @@ export default function PrivacyPage() {
       <section className="container-site py-14 text-center">
         <p className="text-[0.9375rem] text-charcoal-light max-w-lg mx-auto mb-6 leading-relaxed">
           Questions? Email{" "}
-          <a href="mailto:privacy@international-schools-guide.com" className="text-hermes hover:text-hermes-hover transition-colors">
+          <a href="mailto:privacy@international-schools-guide.com" className="text-primary hover:text-primary-hover transition-colors">
             privacy@international-schools-guide.com
           </a>{" "}
           or get in touch.

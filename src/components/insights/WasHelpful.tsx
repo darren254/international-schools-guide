@@ -14,7 +14,7 @@ export function WasHelpful() {
           onClick={() => setChoice("yes")}
           className={`px-3 py-1.5 text-sm rounded border transition-colors ${
             choice === "yes"
-              ? "border-hermes bg-hermes/10 text-hermes"
+              ? "border-primary bg-primary/10 text-primary"
               : "border-warm-border text-charcoal hover:border-charcoal"
           }`}
         >
@@ -25,7 +25,7 @@ export function WasHelpful() {
           onClick={() => setChoice("no")}
           className={`px-3 py-1.5 text-sm rounded border transition-colors ${
             choice === "no"
-              ? "border-hermes bg-hermes/10 text-hermes"
+              ? "border-primary bg-primary/10 text-primary"
               : "border-warm-border text-charcoal hover:border-charcoal"
           }`}
         >

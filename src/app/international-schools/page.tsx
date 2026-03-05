@@ -16,7 +16,7 @@ export default function InternationalSchoolsIndexPage() {
         <p className="text-charcoal mb-4">
           Browse international schools by city.
         </p>
-        <Link href="/cities" className="text-hermes hover:underline">
+        <Link href="/cities" className="text-primary hover:underline">
           Choose a city &rarr;
         </Link>
       </main>
