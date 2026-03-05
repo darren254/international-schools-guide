@@ -10,6 +10,34 @@ interface ExamResult {
   value: string;
 }
 
+const CARD_ONELINER_MAX = 150;
+
+/** Derive a short one-liner from editorialSummary: first sentence, strip leading fee-only phrase, cap length. */
+function getCardOneLiner(summary: string): string {
+  const trimmed = summary.trim();
+  if (!trimmed) return "";
+
+  const feeLikeStart = /^(Fees |\d{4}\/\d{4} fees |\d{4} fees |Enrolment |Capital levy |Registration |Sibling |Flat fee )/i;
+  let out = trimmed;
+
+  const firstPeriod = out.search(/\.\s+/);
+  const firstSentence = firstPeriod >= 0 ? out.slice(0, firstPeriod + 1).trim() : out;
+
+  if (feeLikeStart.test(firstSentence)) {
+    const rest = firstPeriod >= 0 ? out.slice(firstPeriod + 1).trim() : "";
+    const nextPeriod = rest.search(/\.\s+/);
+    out = nextPeriod >= 0 ? rest.slice(0, nextPeriod + 1).trim() : rest;
+  } else {
+    out = firstSentence;
+  }
+
+  if (out.length > CARD_ONELINER_MAX) {
+    const cut = out.slice(0, CARD_ONELINER_MAX).lastIndexOf(" ");
+    out = cut > 0 ? out.slice(0, cut) + "…" : out.slice(0, CARD_ONELINER_MAX) + "…";
+  }
+  return out;
+}
+
 interface SchoolCardProps {
   name: string;
   slug: string;
@@ -26,6 +54,7 @@ interface SchoolCardProps {
   editorialSummary: string;
   imageUrl?: string;
   hasProfile?: boolean;
+  foundedYear?: string;
 }
 
 export function SchoolCard({
@@ -44,6 +73,7 @@ export function SchoolCard({
   editorialSummary,
   imageUrl,
   hasProfile = false,
+  foundedYear,
 }: SchoolCardProps) {
   const shortlist = useShortlistOptional();
   const { fmtRange } = useCurrency();
@@ -62,6 +92,13 @@ export function SchoolCard({
     : (feeLabel || "Fees not published");
 
   const profileHref = hasProfile ? `/international-schools/${citySlug}/${slug}/` : undefined;
+
+  const metaParts = [area, `Ages ${ageRange}`];
+  if (foundedYear) metaParts.push(`Est. ${foundedYear}`);
+  if (studentCount && studentCount !== "-") metaParts.push(`${studentCount} students`);
+  const metaLine = metaParts.join(" · ");
+
+  const oneLiner = getCardOneLiner(editorialSummary);
 
   const inner = (
     <>
@@ -97,35 +134,37 @@ export function SchoolCard({
           {verified && <VerifiedBadge verified={verified} />}
         </div>
         <p className="text-[0.8125rem] text-charcoal-muted mb-3 font-body">
-          {area} · Ages {ageRange} · {studentCount} students
+          {metaLine}
         </p>
-        <p className="text-[0.875rem] text-charcoal-light leading-relaxed mb-4 font-body">
-          {editorialSummary}
-        </p>
-        <div className="flex flex-wrap gap-x-3 gap-y-1 mb-4 mt-auto">
+        <div className="flex flex-wrap gap-x-3 gap-y-1 mb-3 font-body">
           {curricula.map((c) => (
             <span key={c} className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted">
               {c}
             </span>
           ))}
         </div>
-        <div className="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-warm-border">
-          <div className="flex items-center gap-6">
-            <div>
-              <p className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted mb-0.5 font-body">
-                Annual Fees
-              </p>
-              <p className="text-[0.9375rem] font-medium text-charcoal font-body">{feeDisplay}</p>
-            </div>
-            {examResults?.map((result, i) => (
-              <div key={i} className="pl-6 border-l border-warm-border">
-                <p className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted mb-0.5 font-body">
-                  {result.label}
-                </p>
-                <p className="text-[0.9375rem] font-medium text-charcoal font-body">{result.value}</p>
-              </div>
-            ))}
+        <div className="flex flex-wrap gap-x-6 gap-y-1 mb-3">
+          <div>
+            <p className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted mb-0.5 font-body">
+              Annual fees
+            </p>
+            <p className="text-[0.9375rem] font-medium text-charcoal font-body">{feeDisplay}</p>
           </div>
+          {examResults?.map((result, i) => (
+            <div key={i} className="pl-0 sm:pl-6 sm:border-l sm:border-warm-border">
+              <p className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted mb-0.5 font-body">
+                {result.label}
+              </p>
+              <p className="text-[0.9375rem] font-medium text-charcoal font-body">{result.value}</p>
+            </div>
+          ))}
+        </div>
+        {oneLiner && (
+          <p className="text-[0.875rem] text-charcoal-light leading-relaxed mb-4 font-body">
+            {oneLiner}
+          </p>
+        )}
+        <div className="flex flex-wrap items-center justify-between gap-3 pt-4 mt-auto border-t border-warm-border">
           <div className="flex items-center gap-4">
             {shortlist && (
               <button
