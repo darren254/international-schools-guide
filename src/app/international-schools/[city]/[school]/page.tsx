@@ -56,6 +56,8 @@ export function generateMetadata({
   if (!school) return { title: "School Not Found" };
 
   const canonical = `${BASE_URL}/international-schools/${school.citySlug}/${params.school}`;
+  const profileImageUrl = getSchoolImageUrl(params.school, "profile");
+  const ogImageUrl = profileImageUrl ? `${BASE_URL}${profileImageUrl}` : `${BASE_URL}/og-default.png`;
   return {
     title: school.metaTitle,
     description: school.metaDescription,
@@ -65,7 +67,7 @@ export function generateMetadata({
       description: school.metaDescription,
       url: canonical,
       type: "profile",
-      images: [{ url: `${BASE_URL}/og-default.png`, width: 1200, height: 630, alt: school.name }],
+      images: [{ url: ogImageUrl, width: 1200, height: 630, alt: school.name }],
     },
   };
 }
@@ -105,6 +107,7 @@ export default function SchoolProfilePage({
     name: s.name,
     description: s.jsonLd.description,
     url: s.contact.website || canonicalUrl,
+    ...(getSchoolImageUrl(s.slug, "profile") ? { image: `${BASE_URL}${getSchoolImageUrl(s.slug, "profile")}` } : {}),
     telephone: s.contact.phone || undefined,
     email: s.contact.email || undefined,
     address: s.campuses.map((c) => ({
@@ -187,12 +190,16 @@ export default function SchoolProfilePage({
 
       {/* Photo Strip */}
       <PhotoStrip
-        images={s.photoAlts.map((alt, i) => {
-          const variants = ["profile", "photo1", "photo2", "photo3"] as const;
-          const variant = variants[i];
+        images={(["profile", "photo1", "photo2", "photo3"] as const).map((variant, i) => {
+          const slotLabels: Record<typeof variant, string> = {
+            profile: "campus",
+            photo1: "facilities",
+            photo2: "students",
+            photo3: "campus",
+          };
           return {
-            alt,
-            src: variant ? getSchoolImageUrl(s.slug, variant) : undefined,
+            alt: `${s.name} ${slotLabels[variant]}`,
+            src: getSchoolImageUrl(s.slug, variant),
           };
         })}
       />

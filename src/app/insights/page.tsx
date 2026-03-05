@@ -50,7 +50,7 @@ function HeroCard({ article, priority = false }: { article: InsightArticle; prio
         {src ? (
           <Image
             src={src}
-            alt=""
+            alt={article.h1}
             width={960}
             height={540}
             className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"
@@ -99,7 +99,7 @@ function MediumCard({ article }: { article: InsightArticle }) {
         {src ? (
           <Image
             src={src}
-            alt=""
+            alt={article.h1}
             width={400}
             height={250}
             className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"

@@ -15,7 +15,7 @@ export function PhotoStrip({ images }: PhotoStripProps) {
             <img
               src={img.src}
               alt={img.alt}
-              className="w-full h-full object-cover school-image"
+              className="w-full h-full object-cover brightness-[1.02] contrast-[1.02] saturate-[0.98]"
             />
           ) : (
             <div className="w-full h-full flex items-center justify-center text-charcoal-muted text-label-sm uppercase">
