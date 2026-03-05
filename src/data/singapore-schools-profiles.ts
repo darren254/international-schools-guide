@@ -366,16 +366,22 @@ applySingaporeIntelligence("gess", {
 
 applySingaporeIntelligence("iss-international-school", {
   verdict:
-    "IB World School with a long history; fees span a wide range. Ask about section differences and support.",
+    "A small, IB-only school with a long track record in Singapore. It suits families who value a warm, low-key community over flashy facilities or big-school branding; if you want top-tier facilities or the most competitive exam profile, compare carefully.",
   paragraphs: [
-    "ISS runs the full IB continuum. Programme and community are well established.",
-    "Experience can vary by section and campus. Ask about pastoral support and teacher retention.",
+    "ISS runs the full IB continuum (PYP through Diploma) plus an American-style high school diploma track. EAL and personalised support are strengths; several families report good progress from low English to solid IB outcomes. Public exam data for the last two years is limited; ask the school for recent Diploma averages, pass rates and university destinations.",
+    "The Preston Road hilltop campus is green and heritage-feel, but facilities are routinely described as tired and in need of investment. Teacher-side reports suggest resources and salaries lag some competitors, which may affect recruitment and the pace of upgrades. Experiences can vary by section and by teacher; at least one family has described a very poor relationship with a specific teacher.",
+    "Overall ISS suits families who prioritise community, inclusion and smaller scale over facilities and brand. Visit during a normal school day and ask to see your child's section; primary and secondary can feel different.",
   ],
   positives: [
-    "Full IB programme; long-established. Range of fee points.",
+    "Warm, inclusive feel; many parents describe it as a village where teachers know students by name and children make friends easily.",
+    "Full IB continuum plus high school diploma pathway; continuity for mobile families and flexibility for different routes to graduation.",
+    "Strong EAL support and willingness to take students with varied backgrounds; smaller size suits children who might be overwhelmed in very large schools.",
   ],
   considerations: [
-    "Ask about section and campus differences. Verify support for different needs.",
+    "Facilities on the Preston Road campus are routinely described as tired or in need of significant investment; don't expect the newest sports or arts complexes.",
+    "Teacher-side reports suggest resources and salaries lag some competitors; may affect recruitment, retention and the pace of campus upgrades.",
+    "Parent reviews are mixed: many describe a caring environment, but at least one family reports a very poor relationship with a specific teacher. Experiences can depend heavily on individual staff.",
+    "ISS is seen more as a mid-tier, community-oriented option than as one of Singapore's headline academic schools; factor that in if you are targeting the most competitive university pathways.",
   ],
 });
 
