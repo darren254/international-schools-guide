@@ -156,7 +156,7 @@ export function ExploreSchoolsClient({
             International Schools in {cityName}
           </h1>
           <p className="text-body-sm text-charcoal-muted font-body">
-            Filter by curriculum or area; sort by fees.
+            Compare fees and read honest reviews. Filter by curriculum or area; sort by fees.
           </p>
         </div>
 

@@ -55,11 +55,17 @@ export default function HomePage() {
         id="help-me-choose"
         className="min-h-[85vh] md:min-h-0 pt-20 pb-10 md:pt-28 md:pb-16 text-center px-4 flex flex-col justify-center"
       >
-        <h1 className="font-display text-[clamp(2.25rem,5.5vw,3.75rem)] font-medium tracking-tight leading-[1.1] mb-8 max-w-3xl mx-auto">
+        <h1 className="font-display text-[clamp(2.25rem,5.5vw,3.75rem)] font-medium tracking-tight leading-[1.1] mb-4 max-w-3xl mx-auto">
           Where are you moving?
         </h1>
+        <p className="text-lg md:text-xl text-charcoal-muted mb-8 max-w-2xl mx-auto">
+          Find the right international school — compare fees, curricula, and honest reviews.
+        </p>
 
         <HeroSearch cities={CITIES.map((c) => ({ slug: c.slug, name: c.name, live: c.live, comingNext: c.comingNext }))} />
+        <p className="text-sm text-charcoal-muted mt-6">
+          Verified fees and editorial reviews across {TOTAL_SCHOOLS_LIVE}+ schools in {LIVE_CITIES.length} cities.
+        </p>
       </section>
 
       {/* ─── City tiles (6) ─── */}

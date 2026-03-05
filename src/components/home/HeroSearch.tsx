@@ -142,7 +142,7 @@ export function HeroSearch({ cities }: { cities: CityLink[] }) {
           type="submit"
           className="min-h-[48px] px-8 py-3 bg-primary text-white text-body-sm font-semibold uppercase tracking-wider hover:bg-primary-hover transition-colors rounded-none shrink-0"
         >
-          Show schools
+          Find schools
         </button>
       </form>
 

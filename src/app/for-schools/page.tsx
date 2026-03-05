@@ -162,7 +162,7 @@ export default function ForSchoolsPage() {
           href="mailto:schools@international-schools-guide.com"
           className="inline-block bg-primary text-white px-8 py-3 text-sm font-medium uppercase tracking-wider hover:bg-primary-hover transition-colors"
         >
-          Email schools@international-schools-guide.com
+          Email us to get started
         </a>
       </section>
     </div>

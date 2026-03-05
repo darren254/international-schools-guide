@@ -235,9 +235,9 @@ export default function InsightsPage() {
       <section className="bg-charcoal text-cream pt-12 md:pt-16 pb-8 md:pb-10 border-b-4 border-primary">
         <div className="container-site">
           <p className="text-xs uppercase tracking-[0.18em] text-cream-400 mb-2">Insights</p>
-          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl mb-2">International Schools Guide</h1>
+          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl mb-2">Briefings on schools, fees & relocation</h1>
           <p className="text-cream-300 text-base md:text-lg max-w-2xl">
-            Briefings on schools, fees, admissions and relocation for international families.
+            Independent analysis for international families. From International Schools Guide.
           </p>
         </div>
       </section>

@@ -10,7 +10,7 @@ export function SiteFooter() {
               International Schools <span className="text-primary">Guide</span>
             </p>
             <p className="text-sm text-charcoal-muted leading-relaxed max-w-sm">
-              Helping expat families navigate international school choices with
+              Helping expat families choose international schools with
               fair, balanced information.
             </p>
           </div>

@@ -49,7 +49,7 @@ export default function ContactPage() {
           Contact
         </p>
         <h1 className="font-display text-[clamp(2rem,4.5vw,3rem)] font-medium tracking-tight leading-[1.15] mb-6 max-w-2xl">
-          Get in touch
+          We&apos;ll get back to you quickly
         </h1>
         <p className="text-base text-charcoal-light leading-relaxed max-w-2xl">
           Whether you&apos;re a parent with a correction, a school claiming your
