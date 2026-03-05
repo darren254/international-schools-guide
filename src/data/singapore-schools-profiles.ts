@@ -434,18 +434,68 @@ applySingaporeIntelligence("north-london-collegiate-school", {
 
 applySingaporeIntelligence("brighton-college", {
   verdict:
-    "British IGCSE and A-Levels from 2026; small year groups and strong Mandarin. No Singapore exam results yet, so families are buying the brand.",
+    "If you want a deliberately small, British, academically focused school with strong pastoral attention in primary and lower secondary, and you like the Brighton UK ethos, put it on your shortlist. If you need a long-proven IBDP track record, a huge range of senior subject combinations, or lower fees, compare larger, more established campuses first.",
   paragraphs: [
-    "Brighton College Singapore opened in 2020 under Cognita at 1 Chuan Lane, a short walk from Lorong Chuan MRT. WhichSchoolAdvisor describes it as a small, friendly UK independent school dropped into a large campus. Specialist subject teaching starts earlier than most; Mandarin has multiple pathways.",
-    "First IGCSEs are in 2027 and first A-levels no earlier than 2028. University guidance is still being built; founding head left in 2021. Cognita ownership is a known variable for teacher retention.",
+    "Among Singapore parents and independent reviewers, Brighton College (Singapore) is seen as a small, academically selective British school that combines the Brighton UK brand with an intimate, prep-style environment and access to large-scale facilities through its partnership with AIS. Families who choose it tend to like the low class sizes, strong focus on core literacy and numeracy, and the clear British identity: EYFS then National Curriculum for England leading to IGCSE/GCSE and, in time, Sixth Form.",
+    "The school is still relatively young compared to long-established Singapore internationals. Reviews note that it is growing up quickly: adding GCSE, building out senior spaces and evolving leadership. Some see that as exciting; others as a work in progress. Recent parent-feature pieces and social media comments highlight a welcoming admissions and communication culture. Several families say they felt well looked after from the first enquiry and that leadership is accessible and responsive.",
+    "The small size is repeatedly framed as a strength for younger children and new-to-Singapore families. Children are known by name; teachers know the siblings; the campus feels calm rather than overwhelming. On the flip side, parents conscious of long-term options sometimes worry about joining while the Senior School is still developing and while the public exam track record for Years 11–13 is only just emerging.",
+    "Independent reviewers emphasise that fees sit firmly in the premium bracket, on par with other top-tier British schools. Brighton leans into a selective, academically focused positioning rather than trying to be all things to all families. That means strong stretch and ambition for able pupils; families with children who need significant learning support or a very broad, US-style high school programme may find a better fit elsewhere. Overall sentiment from parent interviews and commentary is that Brighton College (Singapore) feels like a well-run, still-growing British school best suited to families who value small scale, clear academic structure and the UK connection enough to accept a newer senior phase and a premium price tag.",
   ],
   positives: [
-    "Small year-group caps and village-school feel. Early specialist teaching at primary; strong Mandarin across native, second language and foreign language pathways. Lorong Chuan MRT access.",
+    "Intimate scale and small classes give a prep-school feel where children and families are known personally.",
+    "Strong British character: EYFS in early years and National Curriculum for England, with a clear path to GCSEs and future A-levels. Early and specialist teaching in key subjects, including structured English and maths and meaningful Mandarin rather than token language lessons.",
+    "Partnership with AIS gives access to large, shared facilities: full sports halls, fields, 8-lane pool and a professional theatre, while keeping Brighton's own campus relatively compact.",
+    "Leadership is described as visible and approachable; parents in interviews praise communication, the sense of community, and values like kindness and curiosity.",
   ],
   considerations: [
-    "No Singapore-campus exam results; first IGCSEs 2027, first A-levels 2028. Premium fees with no proven local outcomes. EAL adds ~SGD 11,772/year if required.",
+    "Premium fee level: tuition and compulsory facility fees put Brighton at the top end of Singapore's international school market.",
+    "Senior phase is still young. GCSEs have only recently started; Year 11 opens in 2026 and Sixth Form is planned but not yet established, so long-term exam track record is limited.",
+    "Selective admissions and structured academic expectations may not suit children who need a more flexible or alternative pathway, or those requiring extensive learning support. Smaller roll means a narrower peer group compared with mega-campuses; some families prefer the buzz and breadth of very large schools.",
+    "As a relatively new school, elements of campus build-out and programme development are still evolving year by year.",
   ],
 });
+
+// Brighton College Singapore: override head, academics, student body, school life
+const brightonProfile = PROFILES_MAP["brighton-college"];
+if (brightonProfile) {
+  brightonProfile.head = {
+    name: "Nick Davies",
+    since: 0,
+    bio: "Nick Davies is Head of College, with Gavin Clark heading the Prep School; both are frequently mentioned in recent independent reviews as visible, hands-on leaders focused on academic stretch and community. Founding Headmaster Paul Wilson led the school through its opening phase before leadership transitioned as the school expanded beyond primary.",
+  };
+  brightonProfile.academics = {
+    results: [],
+    paragraphs: [
+      "Brighton College (Singapore) follows the English National Curriculum with a clear pathway to IGCSE/GCSE in the Senior School. Years 10 are open and Year 11 is due to open in 2026, with Sixth Form planned thereafter. Independent reviews describe the school as academically selective but not harshly so, aiming for bright, curious pupils and offering structured pathways (such as PCP and PCS) for students developing their English.",
+      "Because the Senior School is still young, there is not yet a long public record of GCSE and A-level outcomes comparable to older Singapore schools. The academic strategy is described as clear and confident. Reviewers highlight small classes, early specialist teaching and a timetable that has been adjusted as the school learns what works best.",
+    ],
+  };
+  brightonProfile.studentBody = {
+    paragraphs: [
+      "The school currently enrols pupils from Pre-Nursery (around 18 months) to Year 10, with Year 11 and then Sixth Form on the way. It has grown from a small primary into a through-school structure. The student body is described as international but with a noticeable British contingent, reflecting both the brand and the curriculum.",
+      "Parents in recent interviews speak positively about the sense of belonging their children feel, citing strong teacher commitment, a caring ethos and effective communication via a detailed parent portal and regular updates. For many families relocating from the UK or familiar with Brighton College there, the brand provides reassurance.",
+    ],
+    inspection: {
+      date: "",
+      body: "Brighton College (Singapore) operates in line with Singapore's private education regulations and, like other international schools, is subject to local quality-assurance frameworks. External reviewers characterise the school as well run with visible leadership and a clear trajectory as it expands its Senior School.",
+      rating: "",
+      findings: "Operates under Singapore private education regulations; subject to local quality-assurance frameworks. External reviewers characterise the school as well run with visible leadership.",
+    },
+  };
+  brightonProfile.schoolLife = {
+    activitiesCount: 0,
+    uniformRequired: true,
+    facilities: [],
+    paragraphs: [
+      "The campus is modern and purpose-built, with bright, calm classrooms and specialist spaces developing for Senior School (such as quiet study rooms and black-box drama). Access to extensive sports and performance facilities comes via the partnership with AIS. As the school grows, more senior-phase spaces are being added in stages, including sixth-form-style areas and expanded assembly and drama facilities.",
+      "Culture-wise, Brighton is described as values-driven, with repeated emphasis on kindness, confidence and curiosity, and on pupils feeling known and supported. Co-curricular life draws on both the school's own programmes and shared AIS facilities, offering a breadth of sport and arts while keeping a relatively small day-to-day community feel.",
+    ],
+  };
+  brightonProfile.campuses[0].address =
+    "1 Chuan Lane, Singapore 554299. East of Singapore, on a shared education campus with the Australian International School; ready access to AIS fields, pool and theatre. Well connected to major residential districts by road; many families factor in proximity to central Singapore.";
+  brightonProfile.fees.note =
+    "Fees 2025–2026, SGD, per pupil, three-term year (incl. 9% GST). Facility fee S$3,633/year for all pupils. Application S$1,085 (non-refundable); Enrolment S$4,010; Development Fund S$3,610 (refundable only in narrowly defined circumstances). EAL Intermediate S$2,878/term if required. Sibling discounts: 5% (2nd child), 10% (3rd and 4th). Invoices issued three times a year in advance; tuition and facility fees pro-rated to month of start. 100% refund of course and facility fees only if written withdrawal received by cut-off dates before term start; no refund after term starts. Application, Enrolment and Development Fund generally non-refundable.";
+}
 
 applySingaporeIntelligence("the-winstedt-school", {
   verdict:
