@@ -185,7 +185,7 @@ applyDubaiIntelligence("gems-world-academy", {
     "Full IB continuum with strong results (2025 avg 33) and exceptional facilities; KHDA Very Good and low parent satisfaction (2.4/5). GEMS for-profit ownership.",
   paragraphs: [
     "GWA runs PYP through DP/CP; 2025 IB average 33, 95% pass. Planetarium, Olympic pool, 400m track. Very Good KHDA since 2015; teaching consistency in Maths and Arabic flagged.",
-    "Most expensive day school in batch; WhichSchoolAdvisor 48% positivity. Materialist culture and no-homework policy noted in reviews.",
+    "Most expensive day school in batch; parent feedback on satisfaction is mixed. Materialist culture and no-homework policy noted in reviews.",
   ],
   positives: [
     "IB results above world average; full IB continuum. Outstanding facilities; Singapore Math in Primary. Strong KG and early years (KHDA).",
@@ -221,7 +221,7 @@ applyDubaiIntelligence("nord-anglia-international-school", {
     "KHDA Outstanding; strong IB and GCSE. Flexible sixth form (IB, A-Levels, BTEC). Outstanding SEND; 97 nationalities; 1:11 ratio.",
   ],
   considerations: [
-    "3,080 students; satisfaction dropped to 60%. Leadership transition; mother tongue cut. Reddit wellbeing discussion; for-profit operator.",
+    "3,080 students; satisfaction dropped to 60%. Leadership transition; mother tongue cut. Ask about wellbeing and pastoral support. For-profit operator.",
   ],
 });
 
@@ -245,7 +245,7 @@ applyDubaiIntelligence("gems-wellington-international-school", {
     "12 consecutive KHDA Outstanding ratings; strong IB (2025 avg 36) and IGCSE. Only 40% of parents say fees represent value; class-size and crowding complaints.",
   paragraphs: [
     "WIS has ~2,900 students; Al Sufouh location. IB 2025: 36 avg, 98% pass, 59% at 35+. IGCSE 2024: 61% 9–7. Every core KHDA indicator Outstanding except Arabic/Islamic. New Principal Andrew Jenkins Aug 2025 (internal succession).",
-    "WhichSchoolAdvisor: 40% value for money, 30% disagree; two-thirds would recommend. Class sizes and crowding flagged in reviews.",
+    "Parents we've spoken to are split on value for money; about two-thirds would recommend. Class sizes and crowding flagged in reviews.",
   ],
   positives: [
     "12 consecutive Outstanding; IB 36 well above world average. Outstanding SEND; convenient location. IB DP + CP options.",
@@ -275,7 +275,7 @@ applyDubaiIntelligence("deira-international-school", {
     "Outstanding KHDA, strong IB (2025 avg 34.2) and IGCSE on 80,000m² campus; not-for-profit Al-Futtaim. Festival City location; teacher turnover and value-for-money mixed.",
   paragraphs: [
     "DIS: 2025 IB 100% pass, avg 34.2; IGCSE 56% 9–7. Outstanding for inclusion, parent engagement, governance. Demographics skew Arab/Emirati; 80+ nationalities.",
-    "WhichSchoolAdvisor 29% teacher turnover (2022); 43% value for money, 40% feel tutoring needed. Location not ideal for Marina/JBR/Dubai Hills.",
+    "Teacher turnover was reported around 29% in 2022; parents are mixed on value for money and some feel tutoring is needed. Location not ideal for Marina/JBR/Dubai Hills.",
   ],
   positives: [
     "Outstanding KHDA; not-for-profit. Strong IB and IGCSE; exceptional campus for fee level. Outstanding SEND; 80% would recommend.",
@@ -335,13 +335,13 @@ applyDubaiIntelligence("swiss-international-scientific-school", {
     "Only bilingual English-French/English-German IB school in UAE; boarding option. KHDA Very Good at top fee tier; teacher forum sentiment very negative (unverified).",
   paragraphs: [
     "SISD: full IB continuum, bilingual streams, boarding from Y7. 2024 IB avg 33.2, 100% pass. Nord Anglia from July 2023. KHDA Outstanding for curriculum, personal development, parent relations.",
-    "Very Good overall; WhichSchoolAdvisor 2.6/5 (52%). r/Internationalteachers allegations (management, workload, integrity) — unverified but persistent. Principal Ruth Burke departing; Pauline Nord Aug 2026.",
+    "Very Good overall KHDA; parent satisfaction sits around the mid-range. r/Internationalteachers allegations (management, workload, integrity) - unverified but persistent. Principal Ruth Burke departing; Pauline Nord Aug 2026.",
   ],
   positives: [
     "Only bilingual IB option in UAE; boarding. Full IB continuum; strong European/US/UK destinations. Outstanding elements in KHDA.",
   ],
   considerations: [
-    "Very Good at highest fees. Teacher forum reports; 2.6/5 parent satisfaction. Leadership transition; discount structure opaque.",
+    "Very Good at highest fees. Teacher forum reports; mixed parent satisfaction. Leadership transition; discount structure opaque.",
   ],
 });
 

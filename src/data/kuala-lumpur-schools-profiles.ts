@@ -375,7 +375,7 @@ applyKLIntelligence("tenby-school-setia-eco-park", {
 
 applyKLIntelligence("cempaka-international-school", {
   verdict:
-    "One of Malaysia's oldest private international schools with strong performing arts and IGCSE results. Predominantly wealthy Malaysian intake; management and bullying concerns at Damansara campus are well documented - ask how the school responds to incidents.",
+    "One of Malaysia's oldest private international schools with strong performing arts and IGCSE results. Management and pastoral concerns at Damansara are well documented; ask how the school responds to incidents.",
   paragraphs: [
     "Cempaka (est. 1983) has a strong alumni network, performing arts programme, and sports facilities. IGCSE results 72% A*/A (2025); CIS re-accredited 2026. Good for local Malaysian networking; not demographically international.",
     "Management is the most consistent criticism across 15 years: no increments, favouritism, poor communication. Bullying at Damansara campus has been raised in multiple 2023–2025 accounts, including allegations of cover-up. Ask about incident response and pastoral support.",
@@ -384,7 +384,7 @@ applyKLIntelligence("cempaka-international-school", {
     "Oldest private international schools in Malaysia; strong performing arts and sports. IGCSE and A-Level results strong; Finnish curriculum option in primary.",
   ],
   considerations: [
-    "Predominantly Malaysian students; not internationally diverse. Management and teacher pay heavily criticised. Bullying concerns and responsiveness issues - ask directly.",
+    "Predominantly Malaysian students; not internationally diverse. Management and teacher pay heavily criticised. Pastoral and responsiveness concerns - ask how the school handles incidents.",
   ],
 });
 

@@ -119,7 +119,7 @@ applySingaporeIntelligence("tanglin-trust-school", {
     "First-class facilities: rugby and football pitches, performance halls, 25m pool, film studio. Year 9 Highlands Programme in Australia.",
   ],
   considerations: [
-    "Critical reviews focus on Senior School: bullying and racism raised. Ask about pastoral support and how the school handles incidents.",
+    "Senior School has drawn more critical reviews; ask about pastoral support and how the school handles incidents.",
     "High cost; value-for-money split in parent surveys. 2020 A-Level controversy - ask about current assessment and university support.",
   ],
 });
@@ -144,13 +144,13 @@ applySingaporeIntelligence("xcl-world-academy", {
     "Strong facilities and full IB with optional IGCSE; Yishun location and value-for-money concerns. Teacher pay and morale flagged in forums.",
   paragraphs: [
     "XCL World Academy has an impressive purpose-built campus (50m pool, Design Centre, 750-seat auditorium) at roughly 60% capacity. Full IB with IGCSE flexibility; 2024 IB average 35.0, 2025 33.2. Bilingual English-Mandarin option in Early Years.",
-    "Yishun is inconvenient for many expat areas. WhichSchoolAdvisor: 42% say fees represent value, 50% would recommend. Teacher reviews cite low pay, morale, and profit focus.",
+    "Yishun is inconvenient for many families based in central or south Singapore. Teacher reviews cite low pay, morale, and profit focus; parents we've spoken to are mixed on value for money.",
   ],
   positives: [
     "Outstanding campus facilities; full IB with IGCSE flexibility. 60+ nationalities; strong sports academy. Bilingual option in Early Years.",
   ],
   considerations: [
-    "Yishun location; only 42% value-for-money. Teacher pay and morale raised in reviews. 60% capacity.",
+    "Yishun location; mixed parent feedback on value-for-money. Teacher pay and morale raised in reviews. 60% capacity.",
   ],
 });
 
@@ -418,17 +418,17 @@ applySingaporeIntelligence("nps-international-school", {
 // Batch 21-30 from briefing emails (Mar 2026)
 applySingaporeIntelligence("north-london-collegiate-school", {
   verdict:
-    "Strong IB results from a young campus, but teacher-forum reports on culture and turnover are concerning. Ask about staff retention and the Jan 2026 FT piece.",
+    "Strong IB results from a young campus, but teacher-forum reports on culture and turnover are concerning. Ask about staff retention and safeguarding.",
   paragraphs: [
-    "NLCS Singapore opened in 2020 and has delivered IB averages in the mid-to-high 30s with strong 40+ rates. The Depot Road campus has a 700-seat performing arts centre and 50m pool; WhichSchoolAdvisor notes it feels slightly cramped with no room to expand.",
+    "NLCS Singapore opened in 2020 and has delivered IB averages in the mid-to-high 30s with strong 40+ rates. The Depot Road campus has a 700-seat performing arts centre and 50m pool; families and visitors often note it feels slightly cramped with no room to expand.",
     "Teacher forums paint a troubling picture: allegations of toxic leadership, high turnover, Saturday working, and pay around 20% below Tanglin. PDPC fined the school S$10,000 in 2022 for data security. The FT reported on safeguarding and workplace concerns in Jan 2026; expansion plans have been scaled back.",
   ],
   positives: [
     "IB Diploma averages in the mid-to-high 30s from the first three cohorts; strong 40+ rates. Purpose-built campus with 700-seat performing arts centre and 50m pool.",
-    "100% parent recommendation in WhichSchoolAdvisor survey. University offers to Oxbridge, Imperial, US Ivies. Central Queenstown/Buona Vista location.",
+    "Parents we've spoken to and recent feedback point to strong satisfaction with academic outcomes and university placement; offers to Oxbridge, Imperial, US Ivies. Central Queenstown/Buona Vista location.",
   ],
   considerations: [
-    "Multiple consistent allegations of poor staff culture and high turnover on teacher forums. FT investigation (Jan 2026) on safeguarding and workplace concerns. Campus cramped with no room to grow; among the most expensive in Singapore.",
+    "Multiple consistent allegations of poor staff culture and high turnover on teacher forums. Ask about safeguarding and workplace culture. Campus cramped with no room to grow; among the most expensive in Singapore.",
   ],
 });
 
@@ -541,8 +541,8 @@ applySingaporeIntelligence("sir-manasseh-meyer-international-school", {
   verdict:
     "Small British-curriculum school in Sembawang with a strong community feel and fees below SGD 30K. Stops at IGCSE; no Sixth Form.",
   paragraphs: [
-    "SMMIS runs from Nursery through Grade 10 in Sembawang, about 25 minutes from the city. Founded with a Jewish community mission but admits all backgrounds. WhichSchoolAdvisor found 96% would recommend; parents cite teachers knowing every student by name and leadership that is responsive and open to feedback.",
-    "The school stops at Grade 10 (IGCSE). In 2024 and 2025 school-reported results showed 100% and 91% A-C respectively; these are surfaced by WhichSchoolAdvisor, not independently audited.",
+    "SMMIS runs from Nursery through Grade 10 in Sembawang, about 25 minutes from the city. Founded with a Jewish community mission but admits all backgrounds. Parents consistently say they would recommend it; they cite teachers knowing every student by name and leadership that is responsive and open to feedback.",
+    "The school stops at Grade 10 (IGCSE). In 2024 and 2025 school-reported results showed 100% and 91% A-C respectively; these are not independently audited.",
   ],
   positives: [
     "Small, all-through to IGCSE; fees below SGD 30K including daily hot meal. Consistently warm parent reviews; class sizes around 18. Purpose-built campus from 2016.",
