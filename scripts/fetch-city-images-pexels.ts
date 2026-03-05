@@ -25,13 +25,13 @@ type CityImageConfig = {
 const CITIES_TO_FETCH: CityImageConfig[] = [
   { slug: "london", pexelsPhotoId: "16622396" },
   { slug: "riyadh", pexelsPhotoId: "325185" },
-  { slug: "doha", pexelsPhotoId: "2603464" },
+  { slug: "doha", pexelsPhotoId: "4515573" },
   { slug: "shanghai", pexelsPhotoId: "169647" },
   { slug: "seoul", pexelsPhotoId: "237211" },
   { slug: "munich", pexelsPhotoId: "3847794" },
-  { slug: "manila", pexelsPhotoId: "10421637" },
-  { slug: "saigon", pexelsPhotoId: "2178179" },
-  { slug: "abu-dhabi", pexelsPhotoId: "12413177" },
+  { slug: "manila", pexelsPhotoId: "3773288" },
+  { slug: "saigon", pexelsPhotoId: "2662116" },
+  { slug: "abu-dhabi", pexelsPhotoId: "5045851" },
 ];
 
 function pexelsImageUrl(photoId: string, ext = "jpeg"): string {
