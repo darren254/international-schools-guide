@@ -188,20 +188,27 @@ export default function SchoolProfilePage({
         bio={s.head.bio}
       />
 
-      {/* Photo Strip */}
+      {/* Photo Strip — show each image at most once; use placeholders for duplicates or missing */}
       <PhotoStrip
-        images={(["profile", "photo1", "photo2", "photo3"] as const).map((variant, i) => {
-          const slotLabels: Record<typeof variant, string> = {
+        images={(() => {
+          const variants = ["profile", "photo1", "photo2", "photo3"] as const;
+          const slotLabels: Record<(typeof variants)[number], string> = {
             profile: "campus",
             photo1: "facilities",
             photo2: "students",
             photo3: "campus",
           };
-          return {
-            alt: `${s.name} ${slotLabels[variant]}`,
-            src: getSchoolImageUrl(s.slug, variant),
-          };
-        })}
+          const seen = new Set<string>();
+          return variants.map((variant) => {
+            const src = getSchoolImageUrl(s.slug, variant);
+            const isDuplicate = src != null && seen.has(src);
+            if (src) seen.add(src);
+            return {
+              alt: `${s.name} ${slotLabels[variant]}`,
+              src: isDuplicate ? undefined : src,
+            };
+          });
+        })()}
       />
 
       {/* Sticky section nav */}
