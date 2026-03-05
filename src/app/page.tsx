@@ -59,7 +59,7 @@ export default function HomePage() {
           Where are you moving?
         </h1>
         <p className="text-lg md:text-xl text-charcoal-muted mb-8 max-w-2xl mx-auto">
-          Find the right international school — compare fees, curricula, and honest reviews.
+          Find the right international school. Compare fees, curricula, and honest reviews.
         </p>
 
         <HeroSearch cities={CITIES.map((c) => ({ slug: c.slug, name: c.name, live: c.live, comingNext: c.comingNext }))} />
