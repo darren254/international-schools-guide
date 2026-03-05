@@ -90,6 +90,50 @@ function CompactCard({ article }: { article: InsightArticle }) {
   );
 }
 
+/** Text-only list item for "More to read" / link blocks */
+function ArticleLinkItem({ article }: { article: InsightArticle }) {
+  return (
+    <Link
+      href={`/insights/${article.slug}`}
+      className="block py-2 border-b border-warm-border-light last:border-b-0 group"
+    >
+      <span className="font-display text-[0.9375rem] text-charcoal leading-snug group-hover:text-hermes transition-colors line-clamp-2">
+        {article.h1}
+      </span>
+    </Link>
+  );
+}
+
+/** Large feature card: image + headline + standfirst, ~half width */
+function FeatureCard({ article }: { article: InsightArticle }) {
+  const src = getInsightImageUrl(article.slug, "card") ?? getInsightImageUrl(article.slug, "hero");
+  return (
+    <Link href={`/insights/${article.slug}`} className="group block h-full">
+      <div className="aspect-[16/10] bg-cream-200 rounded-sm overflow-hidden mb-3">
+        {src ? (
+          <Image
+            src={src}
+            alt={article.h1}
+            width={640}
+            height={400}
+            className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"
+          />
+        ) : (
+          <div className="w-full h-full bg-cream-300" aria-hidden />
+        )}
+      </div>
+      <p className="text-[10px] uppercase tracking-wider text-hermes font-semibold mb-1">{article.categoryTag}</p>
+      <h2 className="font-display text-xl md:text-2xl text-charcoal leading-tight mb-2 group-hover:text-hermes transition-colors">
+        {article.h1}
+      </h2>
+      <p className="text-charcoal-muted text-sm leading-relaxed line-clamp-3">
+        {article.standfirst || article.metaDescription}
+      </p>
+      <p className="text-[11px] text-charcoal-muted mt-2">{displayDate(article.date)} · {article.readTime}</p>
+    </Link>
+  );
+}
+
 /** Medium: small image, headline, category, date */
 function MediumCard({ article }: { article: InsightArticle }) {
   const src = getInsightImageUrl(article.slug, "card") ?? getInsightImageUrl(article.slug, "hero");
@@ -177,13 +221,13 @@ export default function InsightsPage() {
   ]);
   const latest = articles.filter((a) => !shownInTop.has(a.slug)).slice(0, 24);
 
-  // Mixed grid: each article is medium (has image) or compact (text-only)
-  const latestMixed = latest.map((article) => ({
-    article,
-    variant: (getInsightImageUrl(article.slug, "card") ?? getInsightImageUrl(article.slug, "hero"))
-      ? ("medium" as const)
-      : ("compact" as const),
-  }));
+  // Section 1 (FT-style): 3 image cards + "More to read" link list
+  const section1Cards = latest.slice(0, 3);
+  const section1LinkArticles = latest.slice(3, 9);
+
+  // Section 2 (FT-style): 1 large feature + small text-only cards
+  const section2FeatureArticle = latest[9];
+  const section2Small = latest.slice(10, 15);
 
   return (
     <>
@@ -245,25 +289,46 @@ export default function InsightsPage() {
               </section>
             )}
 
-            {/* 3. Latest analysis — mixed density grid */}
+            {/* 3. FT-style: Cards + "More to read" link block */}
+            <section className="py-8 md:py-10 border-b border-warm-border">
+              <h2 className="font-display text-xl md:text-2xl text-charcoal mb-5 border-t-2 border-charcoal pt-4">
+                More from Insights
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div className="md:col-span-2 lg:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  {section1Cards.map((article) => (
+                    <MediumCard key={article.slug} article={article} />
+                  ))}
+                </div>
+                <div className="border-t md:border-t-0 md:border-l border-warm-border pt-4 md:pt-0 md:pl-6">
+                  <p className="text-[10px] uppercase tracking-wider text-charcoal-muted mb-3">More to read</p>
+                  <nav className="flex flex-col" aria-label="More articles">
+                    {section1LinkArticles.map((article) => (
+                      <ArticleLinkItem key={article.slug} article={article} />
+                    ))}
+                  </nav>
+                </div>
+              </div>
+            </section>
+
+            {/* 4. FT-style: Large feature + small text-only cards */}
             <section className="py-8 md:py-10">
               <h2 className="font-display text-xl md:text-2xl text-charcoal mb-5 border-t-2 border-charcoal pt-4">
-                Latest analysis
+                In depth
               </h2>
-              {/* Desktop: asymmetric grid. Mobile: single column. */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-6 md:gap-y-8">
-                {latestMixed.map(({ article, variant }) =>
-                  variant === "medium" ? (
-                    <div key={article.slug} className="md:min-h-0">
-                      <MediumCard article={article} />
-                    </div>
-                  ) : (
-                    <div key={article.slug} className="md:flex md:flex-col">
-                      <CompactCard article={article} />
-                    </div>
-                  )
-                )}
-              </div>
+              {section2FeatureArticle && (
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+                  <div>
+                    <FeatureCard article={section2FeatureArticle} />
+                  </div>
+                  <div className="flex flex-col border-l-0 lg:border-l border-warm-border lg:pl-8">
+                    <p className="text-[10px] uppercase tracking-wider text-charcoal-muted mb-3">Latest</p>
+                    {section2Small.map((article) => (
+                      <CompactCard key={article.slug} article={article} />
+                    ))}
+                  </div>
+                </div>
+              )}
             </section>
           </div>
 
