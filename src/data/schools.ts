@@ -189,9 +189,9 @@ const jis: SchoolProfile = {
   ],
 
   head: {
-    name: "Dr. Tarek Razik",
-    since: 2022,
-    bio: "Dr. Tarek Razik has led JIS since 2022. He holds a doctorate in Educational Leadership from Columbia University and has over 25 years of experience in international schools, including previous headships in the Middle East and Africa.",
+    name: "Maya Nelson",
+    since: 0,
+    bio: "Maya Nelson is Head of School at JIS. She first came to the school as a student, later returning as a teacher, parent, Elementary School Principal, and Deputy Head of School before taking up the headship. Her work at JIS has included a focus on neurodiversities, inclusive education, and service-learning, and she leads the school's mission of academic excellence and being Best for the World.",
   },
 
   photoAlts: [

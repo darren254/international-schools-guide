@@ -185,7 +185,7 @@ applyDubaiIntelligence("gems-world-academy", {
     "Full IB continuum with strong results (2025 avg 33) and exceptional facilities; KHDA Very Good and low parent satisfaction (2.4/5). GEMS for-profit ownership.",
   paragraphs: [
     "GWA runs PYP through DP/CP; 2025 IB average 33, 95% pass. Planetarium, Olympic pool, 400m track. Very Good KHDA since 2015; teaching consistency in Maths and Arabic flagged.",
-    "Most expensive day school in batch; parent feedback on satisfaction is mixed. Materialist culture and no-homework policy noted in reviews.",
+    "Most expensive day school in batch; parent feedback on satisfaction is mixed. Some parents mention materialist culture and the no-homework policy.",
   ],
   positives: [
     "IB results above world average; full IB continuum. Outstanding facilities; Singapore Math in Primary. Strong KG and early years (KHDA).",
@@ -215,7 +215,7 @@ applyDubaiIntelligence("nord-anglia-international-school", {
     "Large British-curriculum school (3,080+ students) with KHDA Outstanding and strong IB/GCSE results; rapid growth and parent satisfaction drop (60% positivity). Leadership transition 2025.",
   paragraphs: [
     "NAS Dubai offers IB DP (avg 36.2 in 2024) and A-Levels; GCSE 63% 7–9. Outstanding 2022–23; 320 SoD, Outstanding inclusion. New Principal Kenny Duncan Sept 2025.",
-    "Scale and growth concerns; mother tongue programme cut. Reddit bullying/self-harm thread (contested). Value-for-money 39% vs UAE 52%.",
+    "Scale and growth concerns; mother tongue programme cut. Wellbeing and pastoral support are worth asking about; some parents have raised concerns. Value-for-money 39% vs UAE 52%.",
   ],
   positives: [
     "KHDA Outstanding; strong IB and GCSE. Flexible sixth form (IB, A-Levels, BTEC). Outstanding SEND; 97 nationalities; 1:11 ratio.",
@@ -245,7 +245,7 @@ applyDubaiIntelligence("gems-wellington-international-school", {
     "12 consecutive KHDA Outstanding ratings; strong IB (2025 avg 36) and IGCSE. Only 40% of parents say fees represent value; class-size and crowding complaints.",
   paragraphs: [
     "WIS has ~2,900 students; Al Sufouh location. IB 2025: 36 avg, 98% pass, 59% at 35+. IGCSE 2024: 61% 9–7. Every core KHDA indicator Outstanding except Arabic/Islamic. New Principal Andrew Jenkins Aug 2025 (internal succession).",
-    "Parents we've spoken to are split on value for money; about two-thirds would recommend. Class sizes and crowding flagged in reviews.",
+    "Parents we've spoken to are split on value for money; about two-thirds would recommend. Class sizes and crowding are worth asking about.",
   ],
   positives: [
     "12 consecutive Outstanding; IB 36 well above world average. Outstanding SEND; convenient location. IB DP + CP options.",
@@ -281,7 +281,7 @@ applyDubaiIntelligence("deira-international-school", {
     "Outstanding KHDA; not-for-profit. Strong IB and IGCSE; exceptional campus for fee level. Outstanding SEND; 80% would recommend.",
   ],
   considerations: [
-    "Teacher turnover; value-for-money split. Festival City location. Some pastoral/bullying allegations in reviews.",
+    "Teacher turnover; value-for-money split. Festival City location. Pastoral care and how the school handles incidents are worth asking about.",
   ],
 });
 
@@ -320,7 +320,7 @@ applyDubaiIntelligence("dubai-international-academy-emirates-hills", {
     "Outstanding KHDA IB school with DP average 35–36 at lower fees than GWA; strong value proposition. Large school; Emirates Hills location.",
   paragraphs: [
     "DIA Emirates Hills: 2024–25 IB avg 35–36, 100% pass; MYP eAssessment 43/56. First IB school to achieve and retain Outstanding. 482,000 sq ft campus; ~2,800 students, 80–90 nationalities.",
-    "Class sizes 24–28; teacher pressure noted. IB-only; no GCSE pathway. Forum voice thin.",
+    "Class sizes 24–28; teacher pressure noted. IB-only; no GCSE pathway. Independent parent feedback is limited.",
   ],
   positives: [
     "Outstanding KHDA; IB 35–36 at lower fees than GWA. Full IB continuum; strong destinations. Stable leadership; Emirates Hills campus.",
@@ -332,16 +332,16 @@ applyDubaiIntelligence("dubai-international-academy-emirates-hills", {
 
 applyDubaiIntelligence("swiss-international-scientific-school", {
   verdict:
-    "Only bilingual English-French/English-German IB school in UAE; boarding option. KHDA Very Good at top fee tier; teacher forum sentiment very negative (unverified).",
+    "Only bilingual English-French/English-German IB school in UAE; boarding option. KHDA Very Good at top fee tier; staff retention and workplace culture are worth asking about.",
   paragraphs: [
     "SISD: full IB continuum, bilingual streams, boarding from Y7. 2024 IB avg 33.2, 100% pass. Nord Anglia from July 2023. KHDA Outstanding for curriculum, personal development, parent relations.",
-    "Very Good overall KHDA; parent satisfaction sits around the mid-range. r/Internationalteachers allegations (management, workload, integrity) - unverified but persistent. Principal Ruth Burke departing; Pauline Nord Aug 2026.",
+    "Very Good overall KHDA; parent satisfaction sits around the mid-range. We've heard mixed things about management and workload; worth asking about if that matters to you. Principal Ruth Burke departing; Pauline Nord Aug 2026.",
   ],
   positives: [
     "Only bilingual IB option in UAE; boarding. Full IB continuum; strong European/US/UK destinations. Outstanding elements in KHDA.",
   ],
   considerations: [
-    "Very Good at highest fees. Teacher forum reports; mixed parent satisfaction. Leadership transition; discount structure opaque.",
+    "Very Good at highest fees. Staff retention and workplace culture worth asking about; parent satisfaction mixed. Leadership transition; discount structure opaque.",
   ],
 });
 
