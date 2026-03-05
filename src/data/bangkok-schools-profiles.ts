@@ -199,16 +199,31 @@ applyBangkokIntelligence("harrows-international-school", {
 
 applyBangkokIntelligence("brighton-college", {
   verdict:
-    "Genuine Brighton College UK affiliation with two campuses (Krungthep Kreetha and Vibhavadi). Verify which campus you are enrolling in - track records and stability differ.",
+    "Genuine Brighton College UK affiliation; Krungthep Kreetha is the purpose-built campus (2016) with strong IGCSE and A-Level results. Brighton College Bangkok also has a separate Vibhavadi campus, which we list as a separate school.",
   paragraphs: [
-    "Krungthep Kreetha campus (2016) is purpose-built with strong IGCSE results; 50-rai site with 650-seat theatre, 50m pool. Running at 400–550 students in a school built for 1,500. Vibhavadi is a 2023–2024 rebrand of St Stephen's; some parents left over treatment of a long-serving principal.",
-    "Families need to know which campus they are enrolling in. Exam cohort sizes not always disclosed; strong percentages may reflect small groups. Under-capacity at Krungthep Kreetha raises sustainability questions.",
+    "Krungthep Kreetha campus is purpose-built with strong IGCSE results; 50-rai site with 650-seat theatre, 50m pool. Running at 400–550 students in a school built for 1,500. Families should confirm they are looking at this campus rather than Vibhavadi.",
+    "Exam cohort sizes not always disclosed; strong percentages may reflect small groups. Under-capacity at Krungthep Kreetha raises sustainability questions.",
   ],
   positives: [
     "Genuine Brighton College UK affiliation; ISI inspections. Purpose-built campus and facilities. 100% A-Level pass, 75% A*-B (2024). Selective admissions.",
   ],
   considerations: [
-    "Two campuses with different histories - confirm which you are joining. Vibhavadi rebrand drew parent criticism. Under-capacity at Krungthep Kreetha.",
+    "Brighton College Bangkok has two campuses (this is Krungthep Kreetha). Under-capacity here may have sustainability implications.",
+  ],
+});
+
+applyBangkokIntelligence("brighton-college-bangkok-vibhavadi", {
+  verdict:
+    "Brighton College Bangkok's Vibhavadi campus (2023–2024 rebrand of St Stephen's International School). Same UK affiliation as the Krungthep Kreetha campus, which we list as a separate school.",
+  paragraphs: [
+    "Vibhavadi offers the Brighton College curriculum and brand; some families who were at St Stephen's left during the rebrand. Contact the school for current leadership, results and facilities.",
+    "Brighton College Bangkok has two campuses in Bangkok; this profile is for Vibhavadi only.",
+  ],
+  positives: [
+    "Genuine Brighton College UK affiliation. British curriculum. Same brand as Krungthep Kreetha campus.",
+  ],
+  considerations: [
+    "Rebrand from St Stephen's drew some parent criticism. Brighton College Bangkok has two campuses—confirm which you are visiting.",
   ],
 });
 
