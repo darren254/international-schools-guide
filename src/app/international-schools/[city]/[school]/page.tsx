@@ -19,6 +19,7 @@ import {
 import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 import type { CurrencyCode } from "@/lib/currency/rates";
 import { getSchoolImageUrl } from "@/lib/schools/images";
+import { getHeadImageUrl, getHeadOverride } from "@/lib/schools/head-images";
 import photoStripUnique from "@/data/school-photo-strip-unique.json";
 import { BackToResults } from "@/components/home/BackToResults";
 
@@ -186,9 +187,14 @@ export default function SchoolProfilePage({
 
       {/* Head of School */}
       <HeadOfSchool
-        name={s.head.name}
+        name={(() => {
+          const override = getHeadOverride(s.slug);
+          return override ? override.name : s.head.name;
+        })()}
         since={s.head.since}
         bio={s.head.bio}
+        photoUrl={getHeadImageUrl(s.slug)}
+        credentials={getHeadOverride(s.slug)?.title}
       />
 
       {/* Photo Strip — content-deduplicated (by hash); placeholders for missing/duplicate slots */}

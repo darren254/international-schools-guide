@@ -13,6 +13,7 @@ export function HeadOfSchool({
   since,
   bio,
   photoUrl,
+  credentials,
 }: HeadOfSchoolProps) {
   const displayName = displayValue(name, "Contact the school for leadership details.");
   const displayBio = displayValue(bio, "Contact the school for details.");
@@ -41,6 +42,11 @@ export function HeadOfSchool({
         {showSince && (
           <p className="text-body-xs text-charcoal-muted mb-2">
             In post since {since}
+          </p>
+        )}
+        {credentials && (
+          <p className="text-body-xs text-charcoal-muted mb-2">
+            {credentials}
           </p>
         )}
         <p className="text-sm text-charcoal-light leading-relaxed">{displayBio}</p>
