@@ -1,5 +1,5 @@
 /**
- * One-off: add Harrows International School Bangkok images.
+ * One-off: add Harrow International School Bangkok images.
  * Campus = profile + card; second exterior = photo1.
  * Run: npx tsx scripts/add-harrow-bangkok-images.ts
  */
