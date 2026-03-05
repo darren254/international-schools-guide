@@ -84,7 +84,6 @@ export const SECTION2_ALL_SCHOOLS: Section2Row[] = [
   { school: "Sekolah Lentera Kasih Jakarta", area: "North Jakarta", curriculum: "Cambridge / IGCSEs", fees: "US$3.1K – US$6.8K", slug: "sekolah-lentera-kasih-jakarta" },
   { school: "Bunda Mulia School", area: "North Jakarta", curriculum: "Cambridge Primary / Lower Secondary", fees: "US$3.7K – US$6.2K", slug: "bunda-mulia-school" },
   { school: "Holy Angels School", area: "West Jakarta", curriculum: "Singapore / Cambridge", fees: "US$3.1K – US$6.2K", slug: "holy-angels-school" },
-  { school: "Al Fajar Schule Jakarta", area: "South Jakarta", curriculum: "Cambridge / IGCSEs", fees: "US$2.5K – US$6.2K", slug: "al-fajar-schule-jakarta" },
   { school: "Sekolah Terpadu Pahoa", area: "West Jakarta", curriculum: "Cambridge / IGCSEs + Mandarin", fees: "US$2.2K – US$6.2K", slug: "sekolah-terpadu-pahoa" },
   { school: "Sekolah Madania", area: "South Jakarta", curriculum: "IB PYP / IGCSEs", fees: "US$2.5K – US$5.9K", slug: "sekolah-madania" },
   { school: "Sekolah Pelita Bangsa", area: "West Jakarta", curriculum: "Cambridge / IGCSEs", fees: "US$2.2K – US$5.9K", slug: "sekolah-pelita-bangsa" },
