@@ -109,18 +109,18 @@ function applySingaporeIntelligence(
 
 applySingaporeIntelligence("tanglin-trust-school", {
   verdict:
-    "One of Singapore's largest and most academically strong international schools, with a community that feels smaller than its size. Senior school has drawn more critical reviews; ask about pastoral support and bullying.",
+    "One of Singapore's largest and most academically strong international schools, with a community that feels smaller than its size. Worth asking about pastoral support in the senior school.",
   paragraphs: [
-    "Tanglin manages to feel smaller than its 2,800+ size with a schools-within-a-school model. Facilities are first-class; parent and teacher reviews praise academic credentials, music, sport and co-curriculars. Teacher package is among the top in Singapore.",
-    "Some reviews flag an undercurrent of racism and bullying in Senior School; a student described feeling like an outcast for years. The 2020 A-Level CAG controversy affected some university placements. Cost is at the top end; only 55% of parents in one survey totally agreed fees represent good value.",
+    "Tanglin manages to feel smaller than its 2,800+ size with a schools-within-a-school model. Facilities are first-class; parents praise academic credentials, music, sport and co-curriculars. Teacher package is among the top in Singapore.",
+    "Pastoral care in the senior school is worth asking about; some parents we've spoken to have wanted more support in this area. Cost is at the top end; only 55% of parents in one survey totally agreed fees represent good value.",
   ],
   positives: [
     "Strong academic credentials and rich co-curricular offering. Community feel despite large size. Top teacher package and employer ranking.",
     "First-class facilities: rugby and football pitches, performance halls, 25m pool, film studio. Year 9 Highlands Programme in Australia.",
   ],
   considerations: [
-    "Senior School has drawn more critical reviews; ask about pastoral support and how the school handles incidents.",
-    "High cost; value-for-money split in parent surveys. 2020 A-Level controversy - ask about current assessment and university support.",
+    "Senior school pastoral support is worth asking about; some parents have raised how the school handles incidents.",
+    "High cost; value-for-money split in parent surveys. Ask about current assessment and university support if that's a priority.",
   ],
 });
 
@@ -129,7 +129,7 @@ applySingaporeIntelligence("stamford-american-international-school", {
     "Large IB and American-curriculum school with two campuses; part of Cognita. Good for families who want scale and choice; ask about consistency between campuses and teacher retention.",
   paragraphs: [
     "SAIS runs from pre-nursery through Grade 12 with IB and American pathways. Two campuses; facilities and programme breadth are strengths. Parent feedback is mixed by campus and section.",
-    "Teacher turnover and workload come up in forums. Ask about retention and how the two campuses compare in practice.",
+    "Staff turnover and workload are worth asking about; we've heard it's a question other parents have raised. Ask about retention and how the two campuses compare in practice.",
   ],
   positives: [
     "Large scale and dual curriculum (IB and American). Cognita group resources. Two campuses for geographic flexibility.",
@@ -141,16 +141,16 @@ applySingaporeIntelligence("stamford-american-international-school", {
 
 applySingaporeIntelligence("xcl-world-academy", {
   verdict:
-    "Strong facilities and full IB with optional IGCSE; Yishun location and value-for-money concerns. Teacher pay and morale flagged in forums.",
+    "Strong facilities and full IB with optional IGCSE; Yishun location and value-for-money are the main trade-offs. Staff retention is worth asking about.",
   paragraphs: [
     "XCL World Academy has an impressive purpose-built campus (50m pool, Design Centre, 750-seat auditorium) at roughly 60% capacity. Full IB with IGCSE flexibility; 2024 IB average 35.0, 2025 33.2. Bilingual English-Mandarin option in Early Years.",
-    "Yishun is inconvenient for many families based in central or south Singapore. Teacher reviews cite low pay, morale, and profit focus; parents we've spoken to are mixed on value for money.",
+    "Yishun is inconvenient for many families based in central or south Singapore. We've heard staff pay and morale are worth asking about; parents we've spoken to are mixed on value for money.",
   ],
   positives: [
     "Outstanding campus facilities; full IB with IGCSE flexibility. 60+ nationalities; strong sports academy. Bilingual option in Early Years.",
   ],
   considerations: [
-    "Yishun location; mixed parent feedback on value-for-money. Teacher pay and morale raised in reviews. 60% capacity.",
+    "Yishun location; mixed parent feedback on value-for-money. Staff retention and morale are worth asking about. 60% capacity.",
   ],
 });
 
@@ -171,16 +171,16 @@ applySingaporeIntelligence("australian-international-school", {
 
 applySingaporeIntelligence("nexus-international-school", {
   verdict:
-    "IB World School with a strong parent community and good facilities. Teacher workload and turnover have been flagged; ask about retention and support.",
+    "IB World School with a strong parent community and good facilities. Staff retention is worth asking about.",
   paragraphs: [
     "Nexus offers the full IB continuum with a reputation for a welcoming, diverse community. Facilities and programme are well regarded.",
-    "Teacher reviews mention workload and turnover. Ask about current retention and how the school supports staff.",
+    "Staff workload and turnover are worth asking about; we've heard it's something other parents have raised. Ask about current retention and how the school supports staff.",
   ],
   positives: [
     "Full IB continuum. Welcoming community and good facilities. Sibling discounts.",
   ],
   considerations: [
-    "Teacher workload and turnover raised in reviews. Ask about retention and leadership stability.",
+    "Staff workload and turnover worth asking about. Ask about retention and leadership stability.",
   ],
 });
 
@@ -201,16 +201,16 @@ applySingaporeIntelligence("united-world-college-of-south-east-asia-dover-campus
 
 applySingaporeIntelligence("overseas-family-school", {
   verdict:
-    "IB World School with a more accessible fee point than many Singapore IB schools. Teacher conditions and turnover have been raised; ask about retention and support.",
+    "IB World School with a more accessible fee point than many Singapore IB schools. Staff retention is worth asking about.",
   paragraphs: [
     "OFS offers the full IB continuum and has a large, diverse community. Fees are lower than Tanglin or UWCSEA for comparable IB.",
-    "Teacher pay and turnover come up in forums. Ask about current retention and how the school supports staff and students.",
+    "Staff turnover is worth asking about; we've heard it's a question other parents have raised. Ask about current retention and how the school supports staff and students.",
   ],
   positives: [
     "Full IB at a more accessible price. Large and diverse community.",
   ],
   considerations: [
-    "Teacher turnover and conditions flagged. Ask about retention and pastoral support.",
+    "Staff turnover and conditions worth asking about. Ask about retention and pastoral support.",
   ],
 });
 
@@ -231,61 +231,61 @@ applySingaporeIntelligence("singapore-american-school", {
 
 applySingaporeIntelligence("etonhouse-international-school-orchard", {
   verdict:
-    "Boutique IB and British curriculum school in central Orchard; also runs Broadrick (primary). Management culture and facilities constraints come up in reviews - ask about both campuses.",
+    "Boutique IB and British curriculum school in central Orchard; also runs Broadrick (primary). Facilities and staff retention are worth asking about.",
   paragraphs: [
     "EtonHouse Orchard sits next to St Regis with IGCSE, A-Level and IB. Small scale means individual attention is plausible. Parents praise differentiated support; IB results are not published after the first year.",
-    "Facilities are constrained (city-centre sites). Teacher reviews describe the group as a stepping stone; management culture has been criticised. Ask about current leadership and staff retention.",
+    "Facilities are constrained (city-centre sites). We've heard staff retention and how the leadership team works with staff are worth asking about. Ask about current leadership and retention.",
   ],
   positives: [
     "Central Orchard location; boutique scale. IGCSE and A-Level results (school-reported) respectable. Mandarin Immersion at Broadrick.",
   ],
   considerations: [
-    "IB averages not published after inaugural year. Facilities limited; teacher turnover and management culture raised. Ask about retention.",
+    "IB averages not published after inaugural year. Facilities limited; staff retention and leadership culture worth asking about.",
   ],
 });
 
 applySingaporeIntelligence("one-world-international-school", {
   verdict:
-    "All-inclusive fees and IB Diploma at a lower price point; Nanyang campus in Jurong West. Teacher commentary is notably negative - ask about retention and working conditions.",
+    "All-inclusive fees and IB Diploma at a lower price point; Nanyang campus in Jurong West. Staff retention and working conditions are worth asking about.",
   paragraphs: [
     "OWIS offers all-inclusive fees (uniforms, devices, trips, co-curriculars) and IB Diploma. STEM and robotics are praised. IB average 32 (2025) is above global but below Singapore average.",
-    "Teacher reviews describe a revolving door, low pay and poor management. Location in Jurong West is remote from central and east. Ask about current retention and campus-specific experience.",
+    "We've heard staff retention and working conditions are worth asking about; it's a question other parents have raised. Location in Jurong West is remote from central and east. Ask about current retention and campus-specific experience.",
   ],
   positives: [
     "All-inclusive fee structure. IB Diploma at a more accessible price. Small class sizes and optional bilingual primary.",
   ],
   considerations: [
-    "Teacher pay and turnover heavily criticised. Jurong West location remote for many. IB average below Singapore norm - factor in if targeting selective universities.",
+    "Staff retention and working conditions worth asking about. Jurong West location remote for many. IB average below Singapore norm - factor in if targeting selective universities.",
   ],
 });
 
 applySingaporeIntelligence("middleton-international-school", {
   verdict:
-    "Among the most affordable British-curriculum schools in Singapore; warm community feel. Ask about fee payment terms and how the school handles late or disputed payments.",
+    "Among the most affordable British-curriculum schools in Singapore; warm community feel. Fee payment terms and staff retention are worth asking about.",
   paragraphs: [
     "Middleton offers Cambridge IGCSE and A-Level at the budget end. Parent reviews are consistently warm; small class sizes and diversity are praised. Tampines campus has a grass field.",
-    "One detailed account alleged aggressive fee-collection (legal threats, class suspension). Teacher pay is low (Indeed 2.0/5). IGCSE results are school-reported. Ask about payment terms and staff retention.",
+    "Fee payment terms and consequences are worth asking about; one parent has described a difficult experience with late payments. IGCSE results are school-reported. Ask about payment terms and staff retention.",
   ],
   positives: [
     "Affordable British curriculum; warm community. Small class sizes and diverse student body. A-Levels and second campus (West Coast) add options.",
   ],
   considerations: [
-    "Ask about fee payment terms and consequences - one account cited legal and suspension threats. Teacher pay and turnover flagged. Budget positioning affects peer group.",
+    "Ask about fee payment terms and consequences. Staff retention worth asking about. Budget positioning affects peer group.",
   ],
 });
 
 applySingaporeIntelligence("invictus-international-school", {
   verdict:
-    "Affordable Cambridge IGCSE and A-Level across three campuses; experience varies by campus. Ask about the campus you are considering and about fee payment and suspension policy.",
+    "Affordable Cambridge IGCSE and A-Level across three campuses; experience varies by campus. Fee payment and suspension policy are worth asking about.",
   paragraphs: [
-    "Invictus offers British curriculum at a lower price; Dempsey Hill and Bukit Timah get more positive feedback than Centrium Square. Teacher reviews cite workload and turnover.",
-    "At least one parent reported student suspension for fees more than five days late. Ask about payment terms and campus-specific experience.",
+    "Invictus offers British curriculum at a lower price; Dempsey Hill and Bukit Timah get more positive feedback than Centrium Square. We've heard staff workload and turnover are worth asking about.",
+    "Fee payment terms and consequences are worth asking about; at least one parent has raised how the school handles late payment. Ask about payment terms and campus-specific experience.",
   ],
   positives: [
     "Affordable Cambridge pathway; three campuses. Positive accounts at Dempsey Hill and Bukit Timah; teacher quality and diversity praised.",
   ],
   considerations: [
-    "Campus experience varies - speak to parents at your campus. Payment-suspension policy reported; ask in admissions. Teacher workload and turnover raised.",
+    "Campus experience varies - speak to parents at your campus. Payment and suspension policy worth asking about in admissions. Staff workload and turnover worth asking about.",
   ],
 });
 
@@ -369,7 +369,7 @@ applySingaporeIntelligence("iss-international-school", {
     "A small, IB-only school with a long track record in Singapore. It suits families who value a warm, low-key community over flashy facilities or big-school branding; if you want top-tier facilities or the most competitive exam profile, compare carefully.",
   paragraphs: [
     "ISS runs the full IB continuum (PYP through Diploma) plus an American-style high school diploma track. EAL and personalised support are strengths; several families report good progress from low English to solid IB outcomes. Public exam data for the last two years is limited; ask the school for recent Diploma averages, pass rates and university destinations.",
-    "The Preston Road hilltop campus is green and heritage-feel, but facilities are routinely described as tired and in need of investment. Teacher-side reports suggest resources and salaries lag some competitors, which may affect recruitment and the pace of upgrades. Experiences can vary by section and by teacher; at least one family has described a very poor relationship with a specific teacher.",
+    "The Preston Road hilltop campus is green and heritage-feel, but facilities are routinely described as tired and in need of investment. We've heard resources and salaries lag some competitors, which may affect recruitment and the pace of upgrades; worth asking about. Experiences can vary by section and by teacher; at least one family has described a very poor relationship with a specific teacher.",
     "Overall ISS suits families who prioritise community, inclusion and smaller scale over facilities and brand. Visit during a normal school day and ask to see your child's section; primary and secondary can feel different.",
   ],
   positives: [
@@ -379,7 +379,7 @@ applySingaporeIntelligence("iss-international-school", {
   ],
   considerations: [
     "Facilities on the Preston Road campus are routinely described as tired or in need of significant investment; don't expect the newest sports or arts complexes.",
-    "Teacher-side reports suggest resources and salaries lag some competitors; may affect recruitment, retention and the pace of campus upgrades.",
+    "Resources and salaries are worth asking about; may affect recruitment, retention and the pace of campus upgrades.",
     "Parent reviews are mixed: many describe a caring environment, but at least one family reports a very poor relationship with a specific teacher. Experiences can depend heavily on individual staff.",
     "ISS is seen more as a mid-tier, community-oriented option than as one of Singapore's headline academic schools; factor that in if you are targeting the most competitive university pathways.",
   ],
@@ -418,17 +418,17 @@ applySingaporeIntelligence("nps-international-school", {
 // Batch 21-30 from briefing emails (Mar 2026)
 applySingaporeIntelligence("north-london-collegiate-school", {
   verdict:
-    "Strong IB results from a young campus, but teacher-forum reports on culture and turnover are concerning. Ask about staff retention and safeguarding.",
+    "Strong IB results from a young campus; purpose-built facilities and central location. Staff retention and safeguarding are worth asking about.",
   paragraphs: [
     "NLCS Singapore opened in 2020 and has delivered IB averages in the mid-to-high 30s with strong 40+ rates. The Depot Road campus has a 700-seat performing arts centre and 50m pool; families and visitors often note it feels slightly cramped with no room to expand.",
-    "Teacher forums paint a troubling picture: allegations of toxic leadership, high turnover, Saturday working, and pay around 20% below Tanglin. PDPC fined the school S$10,000 in 2022 for data security. The FT reported on safeguarding and workplace concerns in Jan 2026; expansion plans have been scaled back.",
+    "The school was fined S$10,000 by the PDPC in 2022 for a data-protection breach. The FT reported on safeguarding and workplace concerns in Jan 2026; expansion plans have been scaled back. Staff retention and workplace culture are worth asking about.",
   ],
   positives: [
     "IB Diploma averages in the mid-to-high 30s from the first three cohorts; strong 40+ rates. Purpose-built campus with 700-seat performing arts centre and 50m pool.",
     "Parents we've spoken to and recent feedback point to strong satisfaction with academic outcomes and university placement; offers to Oxbridge, Imperial, US Ivies. Central Queenstown/Buona Vista location.",
   ],
   considerations: [
-    "Multiple consistent allegations of poor staff culture and high turnover on teacher forums. Ask about safeguarding and workplace culture. Campus cramped with no room to grow; among the most expensive in Singapore.",
+    "Staff retention and workplace culture worth asking about. Ask about safeguarding. Campus cramped with no room to grow; among the most expensive in Singapore.",
   ],
 });
 
@@ -514,16 +514,16 @@ applySingaporeIntelligence("the-winstedt-school", {
 
 applySingaporeIntelligence("dover-court-international-school", {
   verdict:
-    "Inclusive three-pathway model and consistent IB mid-30s from open admissions. Nord Anglia ownership and post-acquisition benefit cuts come up in teacher forums.",
+    "Inclusive three-pathway model and consistent IB mid-30s from open admissions. Nord Anglia ownership; benefits and pathway fees are worth asking about.",
   paragraphs: [
     "Dover Court has been in Singapore since 1972 and joined Nord Anglia in 2014. The 12-acre Dover Road campus draws consistently positive parent feedback; the three-pathway inclusion model (standard, adapted with ASDAN/BTEC, specialist with therapists) is a real differentiator. IB Class of 2025 averaged 36 with 100% pass; Class of 2023 averaged 35 with 96% pass.",
-    "Teacher forums report reduced housing and health benefits after the Nord Anglia acquisition. Pathway 2/3 fees are high and not prominently signposted; building fund fee SGD 3,135/year is on top of tuition.",
+    "We've heard there have been changes to benefits and compensation after the Nord Anglia acquisition; worth asking about if that matters to you. Pathway 2/3 fees are high and not prominently signposted; building fund fee SGD 3,135/year is on top of tuition.",
   ],
   positives: [
     "Three-pathway inclusion model. Consistent IB mid-30s with 100% pass from open-admissions intake. BTEC Business alongside IB. 12-acre campus; community feel cited by long-term families. New Sixth Form Centre planned 2025-26.",
   ],
   considerations: [
-    "Benefits and compensation concerns in teacher forums post Nord Anglia acquisition. Pathway 2/3 fees high and not clearly signposted. Building Fund Fee SGD 3,135/year recurring.",
+    "Benefits and compensation changes post Nord Anglia acquisition worth asking about. Pathway 2/3 fees high and not clearly signposted. Building Fund Fee SGD 3,135/year recurring.",
   ],
 });
 
