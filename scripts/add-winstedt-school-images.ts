@@ -7,12 +7,15 @@ import fs from "fs";
 import path from "path";
 import sharp from "sharp";
 
-const ASSETS = process.env.WINSTEDT_ASSETS ?? "/Users/darren/.cursor/projects/Users-darren-international-schools-guide/assets";
+const ASSETS = process.env.WINSTEDT_ASSETS ?? path.join(__dirname, "../assets");
 const OUT_DIR = path.join(__dirname, "../public/images/schools/the-winstedt-school");
 const PROFILE_WIDTH = 1600;
 const CARD_WIDTH = 800;
 const PHOTO_WIDTH = 800;
 const WEBP_QUALITY = 78;
+
+/** Campus / primary image: courtyard with buildings and shade sails (card + profile hero). */
+const CAMPUS_IMAGE = path.join(ASSETS, "2025-07-21-a5c2cf4e-f13e-49a7-86fd-ae1840e08f6d.png");
 
 async function optimizeToWebp(
   inputPath: string,
@@ -31,22 +34,27 @@ async function main() {
   const classroom = path.join(ASSETS, "House-Systems-1-ad06bcf9-8edf-4f65-b352-85e9fce161cb.png");
   const playground = path.join(ASSETS, "Playground-Outdoor-classes-63-scaled-037a438b-209a-4f0a-8d67-e086bb2b1a0f.png");
 
-  for (const p of [building, classroom, playground]) {
-    if (!fs.existsSync(p)) {
-      console.error(`Missing: ${p}`);
-      process.exit(1);
-    }
+  if (!fs.existsSync(CAMPUS_IMAGE)) {
+    console.error(`Missing campus image: ${CAMPUS_IMAGE}`);
+    process.exit(1);
   }
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
-  await optimizeToWebp(building, path.join(OUT_DIR, "profile.webp"), PROFILE_WIDTH);
-  await optimizeToWebp(building, path.join(OUT_DIR, "card.webp"), CARD_WIDTH);
-  await optimizeToWebp(classroom, path.join(OUT_DIR, "photo1.webp"), PHOTO_WIDTH);
-  await optimizeToWebp(playground, path.join(OUT_DIR, "photo2.webp"), PHOTO_WIDTH);
+  // Campus image = main card + first spot on profile (hero)
+  await optimizeToWebp(CAMPUS_IMAGE, path.join(OUT_DIR, "profile.webp"), PROFILE_WIDTH);
+  await optimizeToWebp(CAMPUS_IMAGE, path.join(OUT_DIR, "card.webp"), CARD_WIDTH);
+
+  // Optional: keep existing photo1/photo2 or regenerate if sources exist
+  if (fs.existsSync(classroom)) {
+    await optimizeToWebp(classroom, path.join(OUT_DIR, "photo1.webp"), PHOTO_WIDTH);
+  }
+  if (fs.existsSync(playground)) {
+    await optimizeToWebp(playground, path.join(OUT_DIR, "photo2.webp"), PHOTO_WIDTH);
+  }
 
   console.log("Wrote:", OUT_DIR);
-  console.log("  profile.webp (max 1600px), card.webp (800px), photo1.webp, photo2.webp");
+  console.log("  profile.webp (campus), card.webp (campus)" + (fs.existsSync(classroom) ? ", photo1.webp" : "") + (fs.existsSync(playground) ? ", photo2.webp" : ""));
 }
 
 main().catch((err) => {
