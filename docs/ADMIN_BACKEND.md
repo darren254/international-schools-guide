@@ -44,7 +44,11 @@ Assigning an image to `hero`, `og`, or `logo` also updates `schools.hero_image_u
 
 The live site reads from static data (`school-images.json`, TS profile files). To push admin changes to the site:
 
-1. Run a sync script (e.g. `scripts/sync-schools-from-db.ts`) that reads from Neon (+ R2 if used) and writes `src/data/school-images.json` (and optionally other static sources).
-2. Run `npm run build` and deploy `out/`.
+**Publish workflow:**
+
+1. **Sync DB → static:** Run `npx tsx scripts/sync-schools-from-db.ts` (with `DATABASE_URL` in `.env.local` or env). This reads from Neon (`schools` + `school_media`) and writes `src/data/school-images.json`. If you use R2 keys in `school_media.url`, set `R2_PUBLIC_URL` so the script can build full image URLs.
+2. **Build and deploy:** Run `npm run build`, then deploy the `out/` directory (e.g. via Cloudflare Pages or `wrangler pages deploy`).
+
+Repeat whenever you want admin edits to go live.
 
 Image processing (resize, WebP, OG crop) can be done in the sync script (Node + Sharp) before writing the manifest.

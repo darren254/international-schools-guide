@@ -62,6 +62,20 @@ export async function onRequestPatch(
     if (body.heroImageUrl != null) await sql`UPDATE schools SET hero_image_url = ${String(body.heroImageUrl)}, last_updated = NOW() WHERE id = ${schoolId}`;
     if (body.ogImageUrl != null) await sql`UPDATE schools SET og_image_url = ${String(body.ogImageUrl)}, last_updated = NOW() WHERE id = ${schoolId}`;
     if (body.logoUrl != null) await sql`UPDATE schools SET logo_url = ${String(body.logoUrl)}, last_updated = NOW() WHERE id = ${schoolId}`;
+    if (body.addressFull != null) await sql`UPDATE schools SET address_full = ${String(body.addressFull)}, last_updated = NOW() WHERE id = ${schoolId}`;
+    if (body.studentCount != null) await sql`UPDATE schools SET student_count = ${String(body.studentCount)}, last_updated = NOW() WHERE id = ${schoolId}`;
+    if (body.ageRange != null) await sql`UPDATE schools SET age_range = ${String(body.ageRange)}, last_updated = NOW() WHERE id = ${schoolId}`;
+    if (body.headSince != null) {
+      const v = body.headSince === "" ? null : Number(body.headSince);
+      if (v !== null && !Number.isNaN(v)) await sql`UPDATE schools SET head_since = ${v}, last_updated = NOW() WHERE id = ${schoolId}`;
+    }
+    if (body.studentBodyDescription != null) await sql`UPDATE schools SET student_body_description = ${String(body.studentBodyDescription)}, last_updated = NOW() WHERE id = ${schoolId}`;
+    if (body.academicDescription != null) await sql`UPDATE schools SET academic_description = ${String(body.academicDescription)}, last_updated = NOW() WHERE id = ${schoolId}`;
+    if (body.schoolLifeDescription != null) await sql`UPDATE schools SET school_life_description = ${String(body.schoolLifeDescription)}, last_updated = NOW() WHERE id = ${schoolId}`;
+    if (body.lastInspected != null) await sql`UPDATE schools SET last_inspected = ${body.lastInspected === "" ? null : String(body.lastInspected)}, last_updated = NOW() WHERE id = ${schoolId}`;
+    if (body.inspectionBody != null) await sql`UPDATE schools SET inspection_body = ${String(body.inspectionBody)}, last_updated = NOW() WHERE id = ${schoolId}`;
+    if (body.inspectionRating != null) await sql`UPDATE schools SET inspection_rating = ${String(body.inspectionRating)}, last_updated = NOW() WHERE id = ${schoolId}`;
+    if (body.inspectionFindings != null) await sql`UPDATE schools SET inspection_findings = ${String(body.inspectionFindings)}, last_updated = NOW() WHERE id = ${schoolId}`;
     const updated = (await sql`SELECT * FROM schools WHERE id = ${schoolId}`) as Record<string, unknown>[];
     return json({ ok: true, school: updated[0] });
   } catch (e) {

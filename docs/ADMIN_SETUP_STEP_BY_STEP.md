@@ -73,6 +73,13 @@ Then open `http://localhost:3000/admin`. The UI will load, but **login and all a
 
 ## 6. Deploy to Cloudflare (production)
 
+**Production checklist:**
+
+- **DATABASE_URL** — Set in Cloudflare Pages → your project → Settings → Environment variables (required for admin login and school list).
+- **R2** (optional) — Create an R2 bucket and add a bucket binding named `R2_BUCKET` if you want image uploads in admin; otherwise you can add images by URL only.
+
+Steps:
+
 1. **Connect the repo** to Cloudflare Pages (or your existing Worker/Pages project).
 2. **Build command:** `npm run build` (output directory `out` for static export).
 3. **Environment variables** (Cloudflare dashboard → your project → Settings → Environment variables):
@@ -83,30 +90,41 @@ Then open `http://localhost:3000/admin`. The UI will load, but **login and all a
    - Without R2, you can still add images by URL via the API (JSON `{ variant, url }`).
 5. Redeploy. After deploy, open `https://your-site.pages.dev/admin` and log in.
 
-## 7. (Optional) Populate schools in the database
+## 7. Populate schools in the database
 
-The admin “Schools” list is filled from the **database** `schools` table. If that table is empty, the list will be empty even though the site has school pages (from static data).
+The admin “Schools” list is filled from the **database** `schools` table. To populate it from your existing static data (one-off):
 
-To populate from your existing static data you’d need a one-off script that reads from `src/data` (or `school-images.json`, etc.) and inserts into Neon `schools` (and optionally `school_media`). That script is not in this repo yet; you can add one that uses Drizzle or raw SQL and run it once.
+```bash
+npx tsx scripts/seed-schools-from-static.ts
+```
 
-## 8. Pushing admin changes to the live site
+Requires `DATABASE_URL` in `.env.local`. The script reads `SCHOOL_PROFILES` from `src/data/schools.ts`, inserts into `cities` and `schools`, and is safe to re-run (upserts by slug). After running, `/admin/schools` will show all schools.
 
-The live site reads from **static** data (`school-images.json`, profile files). To push edits made in the admin UI to the site:
+**Populate images from existing manifest (optional):** To show the site’s current static images in the admin Images section, run:
+```bash
+npx tsx scripts/seed-school-images-from-manifest.ts
+```
+This reads `src/data/school-images.json` and fills `school_media` (and hero/og/logo on `schools`). Safe to re-run.
 
-1. Run the sync script (reads from Neon + optional R2 and writes the manifest):
+## 8. Publish: push admin changes to the live site
 
+The live site reads from **static** data (`school-images.json`, profile files). After you edit schools or images in the admin UI, push those changes to the site as follows.
+
+**Publish workflow:**
+
+1. **Sync DB → static manifest** (from project root, with `DATABASE_URL` set in `.env.local` or env):
    ```bash
-   DATABASE_URL=postgresql://... npx tsx scripts/sync-schools-from-db.ts
+   npx tsx scripts/sync-schools-from-db.ts
    ```
+   This reads from Neon (`schools` + `school_media`) and writes `src/data/school-images.json`. If you use R2 keys in `school_media.url`, set `R2_PUBLIC_URL` so the script can build full image URLs.
 
-   If you use R2 keys in `school_media.url`, set `R2_PUBLIC_URL` to your R2 public URL so the script can build full image URLs.
-
-2. Build and deploy:
-
+2. **Build and deploy:**
    ```bash
    npm run build
-   # then deploy `out/` (e.g. wrangler pages deploy, or your CI).
    ```
+   Then deploy the `out/` directory (e.g. via your Cloudflare Pages connection or `wrangler pages deploy`).
+
+Repeat this workflow whenever you want admin edits to go live.
 
 ---
 
@@ -120,5 +138,5 @@ The live site reads from **static** data (`school-images.json`, profile files). 
 | 4 | `ADMIN_EMAIL=... ADMIN_PASSWORD=... npx tsx scripts/seed-admin-user.ts` |
 | 5 | `npm run build` then add `.dev.vars` with `DATABASE_URL`, run `npx wrangler pages dev out` → open `/admin` |
 | 6 | Set `DATABASE_URL` (and optional R2) in Cloudflare → deploy |
-| 7 | (Optional) Seed `schools` from static data |
-| 8 | After editing in admin: run `sync-schools-from-db.ts`, then `npm run build` and deploy |
+| 7 | `npx tsx scripts/seed-schools-from-static.ts` (populate schools list) |
+| 8 | After editing in admin: run `npx tsx scripts/sync-schools-from-db.ts`, then `npm run build` and deploy |

@@ -40,6 +40,81 @@ const statements = [
     "display_order" integer DEFAULT 0,
     "created_at" timestamp DEFAULT now()
   )`,
+  `CREATE TABLE IF NOT EXISTS "cities" (
+    "id" varchar PRIMARY KEY NOT NULL,
+    "name" varchar(255) NOT NULL,
+    "slug" varchar(255) NOT NULL,
+    "country" varchar(100),
+    "description" text,
+    "meta_title" varchar(255),
+    "meta_description" text,
+    "center_latitude" numeric(10, 8),
+    "center_longitude" numeric(11, 8),
+    "map_zoom" integer DEFAULT 11,
+    "created_at" timestamp DEFAULT now(),
+    CONSTRAINT "cities_slug_unique" UNIQUE("slug")
+  )`,
+  `CREATE TABLE IF NOT EXISTS "schools" (
+    "id" varchar PRIMARY KEY NOT NULL,
+    "name" varchar(255) NOT NULL,
+    "slug" varchar(255) NOT NULL,
+    "city_slug" varchar(255),
+    "address_full" text,
+    "latitude" numeric(10, 8),
+    "longitude" numeric(11, 8),
+    "nearest_mrt" varchar(255),
+    "phone" varchar(50),
+    "email" varchar(255),
+    "website" varchar(255),
+    "student_count" varchar(50),
+    "age_range" varchar(50),
+    "curriculum" text[],
+    "accreditation" text[],
+    "founded_year" integer,
+    "school_type" varchar(100),
+    "fee_system_type" varchar(20),
+    "fee_currency" varchar(3) DEFAULT 'IDR',
+    "application_fee" integer,
+    "enrollment_fee" integer,
+    "head_name" varchar(255),
+    "head_since" integer,
+    "head_bio" text,
+    "head_photo_url" varchar(500),
+    "head_credentials" varchar(500),
+    "nationalities_count" integer,
+    "nationalities_description" text,
+    "gender_split" varchar(50),
+    "student_body_description" text,
+    "academic_description" text,
+    "school_hours" varchar(100),
+    "uniform_required" boolean,
+    "activities_count" integer,
+    "facilities" text[],
+    "school_life_description" text,
+    "intelligence_summary" text,
+    "intelligence_positives" text[],
+    "intelligence_considerations" text[],
+    "intelligence_updated_at" timestamp,
+    "last_inspected" date,
+    "inspection_body" varchar(255),
+    "inspection_rating" varchar(100),
+    "inspection_findings" text,
+    "hero_image_url" varchar(500),
+    "og_image_url" varchar(500),
+    "logo_url" varchar(500),
+    "gallery_images" text[],
+    "verified_status" boolean DEFAULT false,
+    "verified_date" date,
+    "verified_content" text,
+    "verified_content_updated_at" timestamp,
+    "is_premium" boolean DEFAULT false,
+    "published" boolean DEFAULT true,
+    "last_updated" timestamp DEFAULT now(),
+    "created_at" timestamp DEFAULT now(),
+    "meta_title" varchar(255),
+    "meta_description" text,
+    CONSTRAINT "schools_slug_unique" UNIQUE("slug")
+  )`,
 ];
 
 async function main() {
@@ -57,7 +132,15 @@ async function main() {
       // duplicate constraint
     } else throw e;
   }
-  console.log("Done. Admin tables ready. Run: ADMIN_EMAIL=you@example.com ADMIN_PASSWORD=xxx npx tsx scripts/seed-admin-user.ts");
+  try {
+    await sql([`ALTER TABLE "schools" ADD CONSTRAINT "schools_city_slug_cities_slug_fk" FOREIGN KEY ("city_slug") REFERENCES "public"."cities"("slug") ON DELETE no action ON UPDATE no action`] as unknown as TemplateStringsArray);
+    console.log("OK: schools FK");
+  } catch (e: unknown) {
+    if (e && typeof e === "object" && "code" in e && (e as { code: string }).code === "42710") {
+      // duplicate constraint
+    } else throw e;
+  }
+  console.log("Done. Admin tables ready. Run sync-schools-from-db or a seed script to populate schools.");
 }
 
 main().catch((e) => {
