@@ -37,7 +37,11 @@ export function getSchoolImageUrl(
   variant: SchoolImageVariant = "card"
 ): string | undefined {
   const entry = manifest.slugs[slug] ?? manifest.slugs[IMAGE_ALIAS_SLUGS[slug]];
-  return entry?.[variant];
+  const url = entry?.[variant];
+  if (!url) return undefined;
+  // Normalize protocol-relative "//images/..." to same-origin "/images/..." so images load correctly
+  if (url.startsWith("//") && url.slice(2).startsWith("images/")) return "/" + url.slice(2);
+  return url;
 }
 
 /** Prefer OG image for metadata; fallback to profile then card. */

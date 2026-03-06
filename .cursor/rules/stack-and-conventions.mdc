@@ -10,7 +10,7 @@ alwaysApply: true
 - **Config:** `wrangler.jsonc`
 - **Never** suggest Vercel, `vercel.json`, or Vercel CLI
 - **Never** suggest `next start` — we use static export only
-- Deploy with `wrangler` only
+- Production deploy is triggered by **git push** (Cloudflare Pages builds from repo). Do not ask the user to run `wrangler deploy` or other CLI deploy commands.
 
 ## Framework & stack
 - Next.js 14 (App Router)

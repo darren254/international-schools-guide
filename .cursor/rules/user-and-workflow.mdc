@@ -1,0 +1,36 @@
+---
+description: User context, full stack summary, publish workflow, simple-for-you; see docs/AI_CONTEXT.md for full stack.
+alwaysApply: true
+---
+
+# User context and workflow
+
+## User context
+
+The user is **not a developer**; they don't use the terminal or write code. Prefer solutions where they do one simple thing (e.g. say "publish" in chat) rather than running commands or editing config.
+
+## Tech stack and integrations (summary)
+
+Full list and env vars: [docs/AI_CONTEXT.md](docs/AI_CONTEXT.md). When we add a new service, update that doc.
+
+- **Framework:** Next.js 14 (App Router), TypeScript, React.
+- **Styling:** Tailwind CSS (Rightmove/Louvre design system).
+- **Database:** **Neon** (Postgres) only. Never suggest or mention Supabase or any other database.
+- **ORM:** Drizzle ORM.
+- **Hosting:** Cloudflare Pages. Production deploy = **git push** (Cloudflare builds from repo). Do not ask the user to run `wrangler deploy` or other CLI deploy commands.
+- **Storage:** Cloudflare R2 (admin image uploads; optional).
+- **Maps:** Mapbox GL JS (`NEXT_PUBLIC_MAPBOX_TOKEN`).
+- **Email:** Resend (optional; not fully wired).
+- **APIs / services:** Pexels (city/insight images), Google Geocoding (campus addresses), NewsData.io, GA4. See docs/AI_CONTEXT.md for env vars and details.
+
+## Publish
+
+When the user says **"publish"** (or equivalent): run `npx tsx scripts/sync-schools-from-db.ts`, then **git add** changed files, **git commit** with a clear message, and **git push**. Do not suggest they run deploy from the terminal.
+
+## Simple-for-you preference
+
+If two options exist — one that requires the user to run terminal commands or do technical steps, and one that the AI can do for them — choose the option where **the user does the minimal, non-technical action**.
+
+## Self-improving
+
+When adding a new service, API, or integration to the project, **update [docs/AI_CONTEXT.md](docs/AI_CONTEXT.md)** (Tech stack and integrations section) so the AI keeps referencing the correct stack. If it's a common point of confusion (e.g. database or hosting), add a one-line reminder in this rule.

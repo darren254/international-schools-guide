@@ -32,8 +32,10 @@ function uniqueOrderedUrls(manifest: Manifest, slug: string): string[] {
   const urls: string[] = [];
 
   for (const v of VARIANTS) {
-    const url = entry[v];
+    let url = entry[v];
     if (!url) continue;
+    // Normalize protocol-relative "//images/..." to "/images/..." for filesystem and output
+    if (url.startsWith("//") && url.slice(2).startsWith("images/")) url = "/" + url.slice(2);
     const fullPath = path.join(ROOT, "public", url.replace(/^\//, ""));
     if (!fs.existsSync(fullPath)) continue;
     const hash = hashFile(fullPath);
