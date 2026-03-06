@@ -20,7 +20,13 @@ export function FooterAuth() {
     window.location.href = "/";
   }
 
-  if (authenticated === null) return null;
+  if (authenticated === null) {
+    return (
+      <Link href="/admin/login" className="hover:text-cream-400 transition-colors">
+        Log in
+      </Link>
+    );
+  }
 
   return (
     <>
