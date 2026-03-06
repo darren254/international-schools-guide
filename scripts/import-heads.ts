@@ -32,6 +32,15 @@ const CITY_FOLDER_TO_SLUG: Record<string, string> = {
   Singapore: "singapore",
 };
 
+const EXCEL_NAME_ALIASES: Record<string, string> = {
+  "singapore|uwcsea east campus": "united-world-college-of-south-east-asia-east-campus",
+  "singapore|australian international school singapore": "australian-international-school",
+  "singapore|stamford american international school singapore": "stamford-american-international-school",
+  "dubai|queen elizabeths school dubai sports city": "queen-elizabeth-s-school-dubai-sports-city",
+  "dubai|nord anglia international school dubai": "nord-anglia-international-school",
+  "dubai|brighton college dubai": "brighton-college",
+};
+
 function toSlug(s: string): string {
   return s
     .toLowerCase()
@@ -84,7 +93,7 @@ function parseExcel(filePath: string): HeadRow[] {
       const leader = String(r[2] ?? "").trim();
       const title = String(r[3] ?? "").trim();
       const photoKey = String(r[4] ?? "").trim();
-      if (photoKey) {
+      if (school && leader) {
         out.push({
           city: currentCity,
           citySlug: currentCitySlug,
@@ -121,6 +130,8 @@ async function main() {
     nameToSlugByCity[city][toSlug(p.name)] = slug;
   }
   function resolveSlug(citySlug: string, schoolName: string): string | null {
+    const aliasKey = citySlug + "|" + normalizeNameForMatch(schoolName);
+    if (EXCEL_NAME_ALIASES[aliasKey]) return EXCEL_NAME_ALIASES[aliasKey];
     const byCity = nameToSlugByCity[citySlug];
     if (!byCity) return null;
     const normalized = normalizeNameForMatch(schoolName);
@@ -142,11 +153,13 @@ async function main() {
 
   const headImages: Record<string, string> = {};
   const headOverrides: Record<string, { name: string; title?: string }> = {};
-  const cityFolders = fs.readdirSync(HEAD_IMAGES_DIR, { withFileTypes: true }).filter((d) => d.isDirectory());
   const cityDirMap: Record<string, string> = {};
-  for (const d of cityFolders) {
-    const slug = CITY_FOLDER_TO_SLUG[d.name];
-    if (slug) cityDirMap[slug] = path.join(HEAD_IMAGES_DIR, d.name);
+  if (fs.existsSync(HEAD_IMAGES_DIR)) {
+    const cityFolders = fs.readdirSync(HEAD_IMAGES_DIR, { withFileTypes: true }).filter((d) => d.isDirectory());
+    for (const d of cityFolders) {
+      const slug = CITY_FOLDER_TO_SLUG[d.name];
+      if (slug) cityDirMap[slug] = path.join(HEAD_IMAGES_DIR, d.name);
+    }
   }
 
   for (const row of rows) {
@@ -155,17 +168,13 @@ async function main() {
       console.warn("No slug for", row.citySlug, row.school);
       continue;
     }
-    const cityDir = cityDirMap[row.citySlug];
-    if (!cityDir) {
-      console.warn("No folder for city", row.citySlug);
-      continue;
-    }
-    const srcPath = findImageInDir(cityDir, row.photoKey);
-    if (!srcPath) {
-      console.warn("No image for", row.photoKey, "in", cityDir);
-      continue;
-    }
     headOverrides[slug] = { name: row.leader, title: row.title || undefined };
+
+    if (!row.photoKey) continue;
+    const cityDir = cityDirMap[row.citySlug];
+    if (!cityDir) continue;
+    const srcPath = findImageInDir(cityDir, row.photoKey);
+    if (!srcPath) continue;
     const destDir = path.join(PUBLIC_HEADS, row.citySlug);
     if (!fs.existsSync(destDir)) fs.mkdirSync(destDir, { recursive: true });
     const ext = path.extname(srcPath).toLowerCase();
@@ -186,14 +195,17 @@ async function main() {
   }
 
   fs.writeFileSync(
-    OUT_HEADS_JSON,
-    JSON.stringify({ generatedAt: new Date().toISOString(), slugs: headImages }, null, 2)
-  );
-  fs.writeFileSync(
     OUT_OVERRIDES_JSON,
     JSON.stringify({ generatedAt: new Date().toISOString(), slugs: headOverrides }, null, 2)
   );
-  console.log("Wrote", OUT_HEADS_JSON, "and", OUT_OVERRIDES_JSON);
+  if (Object.keys(headImages).length > 0) {
+    fs.writeFileSync(
+      OUT_HEADS_JSON,
+      JSON.stringify({ generatedAt: new Date().toISOString(), slugs: headImages }, null, 2)
+    );
+  }
+  console.log("Wrote", OUT_OVERRIDES_JSON, Object.keys(headImages).length > 0 ? "and " + OUT_HEADS_JSON : "(kept existing " + OUT_HEADS_JSON + ")");
+  console.log("Head overrides:", Object.keys(headOverrides).length);
   console.log("Head images:", Object.keys(headImages).length);
 }
 

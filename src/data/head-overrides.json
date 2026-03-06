@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-05T18:31:13.987Z",
+  "generatedAt": "2026-03-06T01:34:26.815Z",
   "slugs": {
     "the-winstedt-school": {
       "name": "Nicholas Andrew Fawcett",
@@ -20,6 +20,18 @@
     "dulwich-college": {
       "name": "David Ingram",
       "title": "Head of College"
+    },
+    "united-world-college-of-south-east-asia-east-campus": {
+      "name": "Cathy Jones",
+      "title": "Head of UWCSEA East"
+    },
+    "australian-international-school": {
+      "name": "Shaun Porter",
+      "title": "Principal"
+    },
+    "stamford-american-international-school": {
+      "name": "Shaun Porter",
+      "title": "Principal"
     },
     "singapore-american-school": {
       "name": "Steve Lupton",
@@ -45,15 +57,7 @@
       "name": "Shaun Porter",
       "title": "Principal"
     },
-    "stamford-american-international-school": {
-      "name": "Shaun Porter",
-      "title": "Principal"
-    },
     "kellett-school": {
-      "name": "Shaun Porter",
-      "title": "Principal"
-    },
-    "australian-international-school": {
       "name": "Shaun Porter",
       "title": "Principal"
     },
@@ -69,9 +73,25 @@
       "name": "Shaun Porter",
       "title": "Principal"
     },
+    "gems-school-of-research-and-innovation": {
+      "name": "Rami Madani",
+      "title": "Head of School"
+    },
+    "queen-elizabeth-s-school-dubai-sports-city": {
+      "name": "Mr. Matthew Pearce",
+      "title": "Principal"
+    },
+    "gems-world-academy": {
+      "name": "Tammy Murphy",
+      "title": "Head of School"
+    },
     "royal-grammar-school-guildford": {
       "name": "Mr. Matthew Pearce",
       "title": "Principal"
+    },
+    "swiss-international-scientific-school": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
     },
     "dubai-college": {
       "name": "Tomas Duckling",
@@ -81,17 +101,61 @@
       "name": "Mr. Matthew Pearce",
       "title": "Principal"
     },
+    "nord-anglia-international-school": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
+    },
+    "brighton-college": {
+      "name": "Simon Crane",
+      "title": "Head Master"
+    },
+    "the-international-school-of": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
+    },
+    "sunway-international-school": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
+    },
     "charterhouse-malaysia": {
       "name": "Dr. Jo Evans",
       "title": "Headteacher"
+    },
+    "the-british-international-school-of": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
+    },
+    "the-alice-smith-school": {
+      "name": "Nicholas Andrew Fawcett",
+      "title": "Principal"
+    },
+    "garden-international-school": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
+    },
+    "igb-international-school": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
     },
     "epsom-college-in-malaysia": {
       "name": "Avis Parker",
       "title": "Head of School"
     },
+    "nexus-international-school": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
+    },
+    "concord-college-international-school": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
+    },
     "jakarta-intercultural-school": {
       "name": "Maya Nelson",
       "title": "Head of School"
+    },
+    "independent-school-of-jakarta": {
+      "name": "Nicholas Andrew Fawcett",
+      "title": "Principal"
     },
     "british-school-jakarta": {
       "name": "Maya Nelson",
@@ -99,6 +163,10 @@
     },
     "btb-school": {
       "name": "Maya Nelson",
+      "title": "Head of School"
+    },
+    "australian-independent-school-jakarta": {
+      "name": "Steve Lupton",
       "title": "Head of School"
     },
     "acg-school-jakarta": {
@@ -113,8 +181,48 @@
       "name": "Dale Wood",
       "title": "Head of School"
     },
+    "nord-anglia-school-jakarta": {
+      "name": "Kenny Duncan",
+      "title": "Principal"
+    },
     "french-school-jakarta": {
       "name": "Maya Nelson",
+      "title": "Head of School"
+    },
+    "shrewsbury-international-school": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
+    },
+    "wellington-college-international-school": {
+      "name": "Dr. Philip James Outram",
+      "title": "Executive Principal"
+    },
+    "international-school": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
+    },
+    "dulwich-college-international-school": {
+      "name": "David Ingram",
+      "title": "Head of College"
+    },
+    "nist-international-school": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
+    },
+    "king-s-college-international-school": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
+    },
+    "harrows-international-school": {
+      "name": "Steve Lupton",
+      "title": "Head of School"
+    },
+    "brighton-college-bangkok-vibhavadi": {
+      "name": "Simon Crane",
+      "title": "Head Master"
+    },
+    "basis-international-school": {
+      "name": "Steve Lupton",
       "title": "Head of School"
     }
   }
