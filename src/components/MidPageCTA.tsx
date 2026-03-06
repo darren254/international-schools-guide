@@ -6,7 +6,7 @@ export default function MidPageCTA() {
       <h2 className="font-display text-display-lg text-cream-50 mb-3">
         Not sure where to start?
       </h2>
-      <p className="text-cream-400 text-[0.9375rem] max-w-lg mx-auto mb-8 leading-relaxed">
+      <p className="text-cream-400 text-body-sm max-w-lg mx-auto mb-8 leading-relaxed">
         Save schools to your shortlist as you browse, then review them in one place.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center">

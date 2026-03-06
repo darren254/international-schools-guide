@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FooterAuth } from "./FooterAuth";
 
 export function SiteFooter() {
   return (
@@ -49,7 +50,8 @@ export function SiteFooter() {
 
         <div className="flex flex-col md:flex-row justify-between items-center border-t border-charcoal-light/40 pt-6 text-xs text-charcoal-muted">
           <span>&copy; {new Date().getFullYear()} International Schools Guide. All rights reserved.</span>
-          <div className="flex gap-6 mt-3 md:mt-0">
+          <div className="flex items-center gap-6 mt-3 md:mt-0">
+            <FooterAuth />
             <Link href="/privacy/" className="hover:text-cream-400 transition-colors">Privacy</Link>
             <Link href="/terms/" className="hover:text-cream-400 transition-colors">Terms</Link>
           </div>

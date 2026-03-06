@@ -4,9 +4,12 @@ out/
 .env
 .env.local
 .env.*.local
+.dev.vars
 *.tsbuildinfo
 next-env.d.ts
 .open-next/
+.wrangler/
+.DS_Store
 
 # Generated API data (built at deploy)
 functions/api/data/

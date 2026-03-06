@@ -42,13 +42,13 @@ export function ProfileSidebar({
   return (
     <aside className="self-start space-y-5">
       <div className="lg:sticky lg:top-[88px] bg-warm-white border border-warm-border-light border-t-2 border-t-charcoal p-6">
-        <h3 className="font-display text-[1.0625rem] font-semibold mb-5">
+        <h3 className="font-display text-base font-semibold mb-5">
           Quick Facts
         </h3>
         {quickFacts.map((f) => (
           <div
             key={f.label}
-            className="flex justify-between py-2 border-b border-warm-border-light last:border-b-0 text-[0.8125rem]"
+            className="flex justify-between py-2 border-b border-warm-border-light last:border-b-0 text-body-xs"
           >
             <span className="text-charcoal-muted">{f.label}</span>
             <span className="font-medium">{displayValue(f.value, "Not available")}</span>
@@ -60,10 +60,10 @@ export function ProfileSidebar({
       </div>
 
       <div className="bg-warm-white border border-warm-border-light p-6">
-        <h3 className="font-display text-[1.0625rem] font-semibold mb-4">
+        <h3 className="font-display text-base font-semibold mb-4">
           {cityName} Schools Guide
         </h3>
-        <p className="text-[0.8125rem] text-charcoal-muted mb-4">
+        <p className="text-body-xs text-charcoal-muted mb-4">
           Compare schools, fees and curricula in {cityName}.
         </p>
         <Link
@@ -75,7 +75,7 @@ export function ProfileSidebar({
       </div>
 
       <div className="bg-warm-white border border-warm-border-light p-6">
-        <h3 className="font-display text-[1.0625rem] font-semibold mb-4">
+        <h3 className="font-display text-base font-semibold mb-4">
           Related Insights
         </h3>
         {relatedInsights.map((insight) => (
@@ -86,16 +86,16 @@ export function ProfileSidebar({
             >
               {insight.title}
             </Link>
-            <p className="text-[0.75rem] text-charcoal-muted">{insight.readTime}</p>
+            <p className="text-label-sm text-charcoal-muted">{insight.readTime}</p>
           </div>
         ))}
       </div>
 
       <div className="bg-warm-white border border-primary p-6">
-        <p className="font-display text-[1.0625rem] font-semibold mb-2">
+        <p className="font-display text-base font-semibold mb-2">
           Are you from this school?
         </p>
-        <p className="text-[0.8125rem] text-charcoal-muted mb-4 leading-relaxed">
+        <p className="text-body-xs text-charcoal-muted mb-4 leading-relaxed">
           Accurate, up-to-date information matters to families. Update your listing or get in touch about featured opportunities.
         </p>
         <Button as="a" href="/contact/" variant="primary" fullWidth>

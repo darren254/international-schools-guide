@@ -1,0 +1,70 @@
+/**
+ * Sync school images from Neon (school_media + schools.hero_image_url etc.) into school-images.json.
+ * Run after editing in admin. Requires DATABASE_URL.
+ * Usage: npx tsx scripts/sync-schools-from-db.ts
+ *
+ * Optional: R2_PUBLIC_URL — if school_media.url stores R2 keys (e.g. schools/slug/uuid.webp),
+ * set this to the public base URL so output paths are full URLs.
+ */
+
+import * as fs from "fs";
+import * as path from "path";
+import { neon } from "@neondatabase/serverless";
+
+const OUT_PATH = path.join(process.cwd(), "src/data/school-images.json");
+const R2_PUBLIC_URL = process.env.R2_PUBLIC_URL ?? "";
+
+async function main() {
+  const url = process.env.DATABASE_URL;
+  if (!url) {
+    console.error("DATABASE_URL required");
+    process.exit(1);
+  }
+  const sql = neon(url);
+
+  const schools = (await sql`
+    SELECT id, slug, hero_image_url, og_image_url, logo_url
+    FROM schools
+    WHERE slug IS NOT NULL
+  `) as { id: string; slug: string; hero_image_url: string | null; og_image_url: string | null; logo_url: string | null }[];
+
+  const media = (await sql`
+    SELECT school_id, variant, url FROM school_media ORDER BY school_id, display_order, created_at
+  `) as { school_id: string; variant: string; url: string }[];
+
+  const mediaBySchool: Record<string, Record<string, string>> = {};
+  for (const m of media) {
+    if (!mediaBySchool[m.school_id]) mediaBySchool[m.school_id] = {};
+    const urlStr = m.url.startsWith("http") ? m.url : R2_PUBLIC_URL ? `${R2_PUBLIC_URL.replace(/\/$/, "")}/${m.url}` : `/${m.url}`;
+    mediaBySchool[m.school_id][m.variant] = urlStr;
+  }
+
+  const slugs: Record<string, Record<string, string>> = {};
+  for (const s of schools) {
+    const entry: Record<string, string> = { ...mediaBySchool[s.id] };
+    if (s.hero_image_url) entry.hero = s.hero_image_url.startsWith("http") ? s.hero_image_url : (R2_PUBLIC_URL ? `${R2_PUBLIC_URL}/${s.hero_image_url}` : s.hero_image_url);
+    if (s.og_image_url) entry.og = s.og_image_url.startsWith("http") ? s.og_image_url : (R2_PUBLIC_URL ? `${R2_PUBLIC_URL}/${s.og_image_url}` : s.og_image_url);
+    if (s.logo_url) entry.logo = s.logo_url.startsWith("http") ? s.logo_url : (R2_PUBLIC_URL ? `${R2_PUBLIC_URL}/${s.logo_url}` : s.logo_url);
+    if (Object.keys(entry).length > 0) slugs[s.slug] = entry;
+  }
+
+  const existing = fs.existsSync(OUT_PATH)
+    ? (JSON.parse(fs.readFileSync(OUT_PATH, "utf-8")) as { generatedAt?: string; sourceRoot?: string; slugs: Record<string, Record<string, string>> })
+    : { slugs: {} };
+  const merged = { ...existing.slugs };
+  for (const [slug, entry] of Object.entries(slugs)) {
+    merged[slug] = { ...merged[slug], ...entry };
+  }
+  const out = {
+    generatedAt: new Date().toISOString(),
+    ...(existing.sourceRoot && { sourceRoot: existing.sourceRoot }),
+    slugs: merged,
+  };
+  fs.writeFileSync(OUT_PATH, JSON.stringify(out, null, 2));
+  console.log("Wrote", OUT_PATH, "—", Object.keys(slugs).length, "schools from DB,", Object.keys(merged).length, "total slugs");
+}
+
+main().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});

@@ -6,7 +6,7 @@ export default function EmailCapture() {
       <h2 className="font-display text-display-lg md:text-display-xl mb-2">
         Get the free Jakarta schools guide
       </h2>
-      <p className="text-sm text-charcoal-muted max-w-md mx-auto mb-7 leading-relaxed">
+      <p className="text-sm text-charcoal-muted max-w-md mx-auto mb-8 leading-relaxed">
         A curated breakdown of fees, curricula, and honest takes - delivered
         to your inbox. Plus early access when new cities go live.
       </p>

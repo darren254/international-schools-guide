@@ -32,5 +32,5 @@
 
 ## Status
 
-- **Fixed:** Footer duplicate link; footer hex colours replaced with design tokens; header hamburger 44px min touch target; SchoolCard padding; currency dropdown touch targets; homepage city grid gap. **Phase 3:** primary navy-slate (#1e3a5f) added; all hermes replaced with primary; project.mdc and code-and-model.mdc updated. **Typography pass:** body-sm/body-xs tokens added; one-off font sizes replaced with design scale site-wide; globals.css aligned to scale.
+- **Fixed:** Footer duplicate link; footer hex colours replaced with design tokens; header hamburger 44px min touch target; SchoolCard padding; currency dropdown touch targets; homepage city grid gap. **Phase 3:** primary navy-slate (#1e3a5f) added; all hermes replaced with primary; project.mdc and code-and-model.mdc updated. **Typography pass:** body-sm/body-xs tokens added; one-off font sizes replaced with design scale site-wide; globals.css aligned to scale. **Follow-up audit:** Remaining arbitrary font sizes (shortlist, ContactSection, EmailCapture, cities, school profile, SchoolLife, FilterDropdownMulti, SortDropdown, ProfileSidebar, SchoolCard, FeesTable, privacy, MidPageCTA, insights) replaced with design tokens; EmailCapture `mb-7` → `mb-8` for spacing scale.
 - **Deferred:** None.

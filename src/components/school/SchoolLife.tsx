@@ -40,7 +40,7 @@ export function SchoolLife({
 
       <div className="flex flex-col sm:flex-row gap-8 mb-8">
         <div className="flex flex-col gap-0.5">
-          <span className="font-display text-[1.375rem] font-semibold">
+          <span className="font-display text-display-sm font-semibold">
             {activitiesDisplay}
           </span>
           <span className="text-label-sm uppercase text-charcoal-muted">
@@ -48,7 +48,7 @@ export function SchoolLife({
           </span>
         </div>
         <div className="flex flex-col gap-0.5">
-          <span className="font-display text-[1.375rem] font-semibold">
+          <span className="font-display text-display-sm font-semibold">
             {uniformRequired ? "Required" : "Not required"}
           </span>
           <span className="text-label-sm uppercase text-charcoal-muted">
@@ -74,7 +74,7 @@ export function SchoolLife({
                   <span className="flex items-center justify-center w-11 h-11 sm:w-12 sm:h-12 rounded-sm border border-warm-border bg-warm-white text-charcoal">
                     <FacilityIcon type={type} className="w-6 h-6" />
                   </span>
-                  <span className="text-[0.6875rem] sm:text-[0.75rem] font-medium text-charcoal leading-tight">
+                  <span className="text-label-xs sm:text-label-sm font-medium text-charcoal leading-tight">
                     {label}
                   </span>
                 </div>
@@ -84,19 +84,19 @@ export function SchoolLife({
 
           {/* Remaining facilities: single inline comma-separated line */}
           {remaining.length > 0 && (
-            <p className="text-[0.8125rem] text-charcoal-muted leading-relaxed mb-8">
+            <p className="text-body-xs text-charcoal-muted leading-relaxed mb-8">
               {remaining.join(", ")}
             </p>
           )}
         </>
       ) : (
-        <p className="text-[0.9375rem] text-charcoal-light leading-relaxed mb-8">
+        <p className="text-body-sm text-charcoal-light leading-relaxed mb-8">
           Contact the school for facility details.
         </p>
       )}
 
       {validParagraphs.map((text, i) => (
-        <p key={i} className="text-[0.9375rem] text-charcoal-light leading-relaxed mb-4">
+        <p key={i} className="text-body-sm text-charcoal-light leading-relaxed mb-4">
           {text}
         </p>
       ))}

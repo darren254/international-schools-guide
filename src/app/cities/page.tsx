@@ -33,7 +33,7 @@ function CityCard({
         <p className="text-sm text-charcoal-light leading-relaxed mb-3">
           {city.tagline ?? ""}
         </p>
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[0.8125rem] text-charcoal-muted mb-3">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-body-xs text-charcoal-muted mb-3">
           <span>{city.schoolCount ?? "-"}+ schools</span>
           <span>{city.feeRange ?? ""}</span>
         </div>
@@ -48,7 +48,7 @@ function CityCard({
           ))}
         </div>
         {!city.live && (
-          <p className={`text-[0.75rem] uppercase tracking-wider mt-3 ${
+          <p className={`text-label-sm uppercase tracking-wider mt-3 ${
             city.comingNext ? "text-primary" : "text-charcoal-muted/70"
           }`}>
             {city.comingNext ? "Coming next" : "Coming soon"}

@@ -18,7 +18,7 @@ import {
 } from "@/data/schools";
 import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 import type { CurrencyCode } from "@/lib/currency/rates";
-import { getSchoolImageUrl } from "@/lib/schools/images";
+import { getSchoolImageUrl, getSchoolOgImageUrl } from "@/lib/schools/images";
 import { getHeadImageUrl, getHeadOverride } from "@/lib/schools/head-images";
 import photoStripUnique from "@/data/school-photo-strip-unique.json";
 import { BackToResults } from "@/components/home/BackToResults";
@@ -60,8 +60,8 @@ export function generateMetadata({
   if (!school) return { title: "School Not Found" };
 
   const canonical = `${BASE_URL}/international-schools/${school.citySlug}/${params.school}`;
-  const profileImageUrl = getSchoolImageUrl(params.school, "profile");
-  const ogImageUrl = profileImageUrl ? `${BASE_URL}${profileImageUrl}` : `${BASE_URL}/og-default.png`;
+  const ogImage = getSchoolOgImageUrl(params.school);
+  const ogImageUrl = ogImage ? `${BASE_URL}${ogImage}` : `${BASE_URL}/og-default.png`;
   return {
     title: school.metaTitle,
     description: school.metaDescription,
@@ -146,7 +146,7 @@ export default function SchoolProfilePage({
       <BackToResults />
       {/* Breadcrumb */}
       <nav
-        className="py-5 text-[0.8125rem] text-charcoal-muted"
+        className="py-5 text-body-xs text-charcoal-muted"
         aria-label="Breadcrumb"
       >
         <Link
@@ -223,7 +223,7 @@ export default function SchoolProfilePage({
 
       {/* Sticky section nav */}
       <nav className="sticky top-16 z-40 bg-cream border-b border-warm-border -mx-5 md:-mx-8 px-5 md:px-8 overflow-x-auto">
-        <div className="flex gap-6 py-3 text-[0.75rem] uppercase tracking-wider whitespace-nowrap">
+        <div className="flex gap-6 py-3 text-label-sm uppercase tracking-wider whitespace-nowrap">
           {[
             { label: "Review", href: "#intelligence" },
             { label: "Fees", href: "#fees" },

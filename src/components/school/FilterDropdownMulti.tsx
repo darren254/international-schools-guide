@@ -43,7 +43,7 @@ export function FilterDropdownMulti({
       <button
         type="button"
         onClick={() => setOpen(!open)}
-        className={`flex items-center gap-2 px-3 py-2 text-[0.8125rem] font-body rounded-sm border transition-colors ${
+        className={`flex items-center gap-2 px-3 py-2 text-body-xs font-body rounded-sm border transition-colors ${
           selected.length > 0
             ? "border-primary text-primary bg-primary-light/30"
             : "border-warm-border text-charcoal-muted hover:border-charcoal-muted hover:text-charcoal"
@@ -53,7 +53,7 @@ export function FilterDropdownMulti({
       >
         {label}
         {selected.length > 0 && (
-          <span className="bg-primary text-white text-[10px] min-w-[1.25rem] h-5 px-1 rounded-full flex items-center justify-center font-semibold">
+          <span className="bg-primary text-white text-label-xs min-w-[1.25rem] h-5 px-1 rounded-full flex items-center justify-center font-semibold">
             {selected.length}
           </span>
         )}
@@ -93,7 +93,7 @@ export function FilterDropdownMulti({
                   e.stopPropagation();
                   toggle(opt.value);
                 }}
-                className="flex items-center gap-2 w-full px-3 py-2 text-[0.8125rem] font-body text-left hover:bg-cream-200 transition-colors"
+                className="flex items-center gap-2 w-full px-3 py-2 text-body-xs font-body text-left hover:bg-cream-200 transition-colors"
               >
                 <span
                   className={`w-4 h-4 rounded-sm border flex items-center justify-center flex-shrink-0 ${

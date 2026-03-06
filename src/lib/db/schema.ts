@@ -104,6 +104,8 @@ export const schools = pgTable("schools", {
   inspectionFindings: text("inspection_findings"),
   // Media
   heroImageUrl: varchar("hero_image_url", { length: 500 }),
+  ogImageUrl: varchar("og_image_url", { length: 500 }),
+  logoUrl: varchar("logo_url", { length: 500 }),
   galleryImages: text("gallery_images").array(),
   // Verified status
   verifiedStatus: boolean("verified_status").default(false),
@@ -313,4 +315,37 @@ export const factCheckClaims = pgTable("fact_check_claims", {
   confidence: numeric("confidence", { precision: 3, scale: 2 }),
   isjBiasApplied: boolean("isj_bias_applied").default(false),
   stageData: jsonb("stage_data").default({}),
+});
+
+// ─── School Media (per-school image variants for admin) ─────
+export const schoolMedia = pgTable("school_media", {
+  id: varchar("id")
+    .primaryKey()
+    .$defaultFn(() => crypto.randomUUID()),
+  schoolId: varchar("school_id", { length: 255 }).notNull(), // references schools.id
+  variant: varchar("variant", { length: 30 }).notNull(), // card | profile | hero | og | logo | photo1 | photo2 | photo3
+  url: varchar("url", { length: 500 }).notNull(), // R2 or path
+  displayOrder: integer("display_order").default(0),
+  createdAt: timestamp("created_at").defaultNow(),
+});
+
+// ─── Admin Users (for login) ─────────────────────────────
+export const adminUsers = pgTable("admin_users", {
+  id: varchar("id")
+    .primaryKey()
+    .$defaultFn(() => crypto.randomUUID()),
+  email: varchar("email", { length: 255 }).notNull().unique(),
+  passwordHash: varchar("password_hash", { length: 255 }).notNull(),
+  passwordSalt: varchar("password_salt", { length: 64 }).notNull(),
+  createdAt: timestamp("created_at").defaultNow(),
+});
+
+// ─── Admin Sessions ─────────────────────────────────────
+export const adminSessions = pgTable("admin_sessions", {
+  id: varchar("id")
+    .primaryKey()
+    .$defaultFn(() => crypto.randomUUID()),
+  userId: varchar("user_id", { length: 255 }).references(() => adminUsers.id).notNull(),
+  expiresAt: timestamp("expires_at").notNull(),
+  createdAt: timestamp("created_at").defaultNow(),
 });

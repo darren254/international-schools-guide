@@ -32,7 +32,7 @@ export function SortDropdown({ value, onChange, isOpen: controlledOpen, onOpenCh
       <button
         type="button"
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-2 px-3 py-2 text-[0.8125rem] font-body rounded-sm border border-warm-border text-charcoal hover:border-charcoal-muted transition-colors bg-cream"
+        className="flex items-center gap-2 px-3 py-2 text-body-xs font-body rounded-sm border border-warm-border text-charcoal hover:border-charcoal-muted transition-colors bg-cream"
         aria-expanded={open}
         aria-haspopup="listbox"
         aria-label={`Sort by fees. Current: ${currentLabel}. Click to change.`}
@@ -88,7 +88,7 @@ export function SortDropdown({ value, onChange, isOpen: controlledOpen, onOpenCh
                   onChange(opt.value);
                   setOpen(false);
                 }}
-                className={`flex items-center gap-2 w-full px-3 py-2 text-[0.8125rem] font-body text-left transition-colors ${
+                className={`flex items-center gap-2 w-full px-3 py-2 text-body-xs font-body text-left transition-colors ${
                   value === opt.value
                     ? "bg-primary-light/20 text-primary"
                     : "hover:bg-cream-200 text-charcoal"

@@ -18,13 +18,13 @@ export function ContactSection({ phone, email, website }: ContactSectionProps) {
       <div className="p-6 bg-warm-white border border-warm-border-light">
         <div className="flex flex-wrap gap-6 mb-6">
           {phone && (
-            <div className="flex items-center gap-2 text-[0.9375rem] text-charcoal-light">
+            <div className="flex items-center gap-2 text-body-sm text-charcoal-light">
               <span className="text-charcoal-muted text-sm">☎</span>
               <span>{phone}</span>
             </div>
           )}
           {email && (
-            <div className="flex items-center gap-2 text-[0.9375rem]">
+            <div className="flex items-center gap-2 text-body-sm">
               <span className="text-charcoal-muted text-sm">✉</span>
               <a href={`mailto:${email}`} className="text-primary hover:text-primary-hover transition-colors">
                 {email}

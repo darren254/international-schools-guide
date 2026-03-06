@@ -95,7 +95,7 @@ function QuickAddButton({
     <button
       type="button"
       onClick={() => onAdd(slugs, citySlug)}
-      className="px-4 py-2.5 text-[0.8125rem] font-medium uppercase tracking-wider rounded-sm border-2 border-primary text-primary bg-primary-light/15 hover:bg-primary-light/25 transition-colors"
+      className="px-4 py-2.5 text-body-xs font-medium uppercase tracking-wider rounded-sm border-2 border-primary text-primary bg-primary-light/15 hover:bg-primary-light/25 transition-colors"
     >
       {label}
     </button>
@@ -188,11 +188,11 @@ function ShortlistContent() {
             My Shortlist
           </h1>
           {isEmpty ? (
-            <p className="text-charcoal-muted max-w-lg text-[0.9375rem] md:text-base">
+            <p className="text-charcoal-muted max-w-lg text-body-sm md:text-base">
               Browse schools in a city, tap the heart on ones you like, then come back here to compare them side by side. Shortlists are per city — up to 4 schools per city.
             </p>
           ) : (
-            <p className="text-charcoal-muted text-[0.9375rem] md:text-base">
+            <p className="text-charcoal-muted text-body-sm md:text-base">
               {shortlistedSlugs.length} school{shortlistedSlugs.length !== 1 ? "s" : ""} across{" "}
               {citiesWithShortlist.length} {citiesWithShortlist.length === 1 ? "city" : "cities"}.
             </p>
@@ -230,7 +230,7 @@ function ShortlistContent() {
                         {city.country}
                       </span>
                     </div>
-                    <p className="text-[0.8125rem] text-charcoal-muted leading-snug">
+                    <p className="text-body-xs text-charcoal-muted leading-snug">
                       {city.schoolCount ?? "—"}+ schools
                     </p>
                   </div>
@@ -244,7 +244,7 @@ function ShortlistContent() {
             <h2 className="font-display text-lg md:text-xl text-charcoal mb-3">
               Not sure where to start?
             </h2>
-            <p className="text-[0.8125rem] text-charcoal-muted mb-4 max-w-lg">
+            <p className="text-body-xs text-charcoal-muted mb-4 max-w-lg">
               Add a few top picks to your shortlist with one tap, then browse to add more or remove any.
             </p>
             <div className="flex flex-wrap gap-3">
@@ -302,7 +302,7 @@ function ShortlistContent() {
                           >
                             {school.name}
                           </Link>
-                          <p className="text-[0.8125rem] text-charcoal-muted mt-0.5">
+                          <p className="text-body-xs text-charcoal-muted mt-0.5">
                             {school.area} · {feeDisplay(school)}
                           </p>
                         </div>

@@ -54,7 +54,7 @@ export function FeesTable({
                 Age
               </th>
               <th className="text-right text-label-xs uppercase text-charcoal-muted font-medium pb-2 border-b border-warm-border">
-                <span className="block text-[10px] font-normal normal-case tracking-normal text-charcoal-muted/80">
+                <span className="block text-label-xs font-normal normal-case tracking-normal text-charcoal-muted/80">
                   {currency}
                 </span>
                 Total Annual Tuition
@@ -64,13 +64,13 @@ export function FeesTable({
           <tbody>
             {fees.map((fee) => (
               <tr key={fee.gradeLevel}>
-                <td className="py-3 border-b border-warm-border-light text-[0.9375rem] text-charcoal-light">
+                <td className="py-3 border-b border-warm-border-light text-body-sm text-charcoal-light">
                   {fee.gradeLevel}
                 </td>
-                <td className="py-3 border-b border-warm-border-light text-[0.9375rem] text-charcoal-light">
+                <td className="py-3 border-b border-warm-border-light text-body-sm text-charcoal-light">
                   {fee.ages ?? "—"}
                 </td>
-                <td className="py-3 border-b border-warm-border-light text-[0.9375rem] text-right tabular-nums font-medium text-charcoal-light">
+                <td className="py-3 border-b border-warm-border-light text-body-sm text-right tabular-nums font-medium text-charcoal-light">
                   {f(fee.totalStandard)}
                 </td>
               </tr>
@@ -79,7 +79,7 @@ export function FeesTable({
         </table>
       </div>
 
-      <p className="text-[0.6875rem] text-charcoal-muted mt-4 leading-relaxed">
+      <p className="text-label-xs text-charcoal-muted mt-4 leading-relaxed">
         {FEE_DISCLAIMER}
       </p>
 

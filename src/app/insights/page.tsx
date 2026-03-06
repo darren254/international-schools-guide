@@ -81,7 +81,7 @@ function CompactCard({ article }: { article: InsightArticle }) {
       href={`/insights/${article.slug}`}
       className="block py-3 border-b border-warm-border-light last:border-b-0 group"
     >
-      <p className="text-[10px] uppercase tracking-wider text-charcoal-muted mb-1">{article.categoryTag}</p>
+      <p className="text-label-xs uppercase tracking-wider text-charcoal-muted mb-1">{article.categoryTag}</p>
       <h3 className="font-display text-body-sm md:text-base text-charcoal leading-snug group-hover:text-primary transition-colors line-clamp-2">
         {article.h1}
       </h3>
@@ -122,7 +122,7 @@ function FeatureCard({ article }: { article: InsightArticle }) {
           <div className="w-full h-full bg-cream-300" aria-hidden />
         )}
       </div>
-      <p className="text-[10px] uppercase tracking-wider text-primary font-semibold mb-1">{article.categoryTag}</p>
+      <p className="text-label-xs uppercase tracking-wider text-primary font-semibold mb-1">{article.categoryTag}</p>
       <h2 className="font-display text-xl md:text-2xl text-charcoal leading-tight mb-2 group-hover:text-primary transition-colors">
         {article.h1}
       </h2>
@@ -152,7 +152,7 @@ function MediumCard({ article }: { article: InsightArticle }) {
           <div className="w-full h-full bg-cream-300" aria-hidden />
         )}
       </div>
-      <p className="text-[10px] uppercase tracking-wider text-charcoal-muted mb-1">{article.categoryTag}</p>
+      <p className="text-label-xs uppercase tracking-wider text-charcoal-muted mb-1">{article.categoryTag}</p>
       <h3 className="font-display text-base md:text-lg text-charcoal leading-snug group-hover:text-primary transition-colors line-clamp-2">
         {article.h1}
       </h3>
@@ -251,7 +251,7 @@ export default function InsightsPage() {
                 <HeroCard article={hero} priority />
               </div>
               <div className="flex flex-col gap-0 border-l-0 lg:border-l border-warm-border lg:pl-8">
-                <p className="text-[10px] uppercase tracking-wider text-charcoal-muted mb-3 lg:mb-4">Latest</p>
+                <p className="text-label-xs uppercase tracking-wider text-charcoal-muted mb-3 lg:mb-4">Latest</p>
                 {secondaries.map((article) => (
                   <CompactCard key={article.slug} article={article} />
                 ))}
@@ -273,7 +273,7 @@ export default function InsightsPage() {
                         <div className="aspect-[16/10] bg-cream-200 rounded-sm overflow-hidden mb-2">
                           <CardImage slug={article.slug} alt={article.h1} className="w-full h-full" />
                         </div>
-                        <p className="text-[10px] uppercase tracking-wider text-primary font-semibold mb-1">
+                        <p className="text-label-xs uppercase tracking-wider text-primary font-semibold mb-1">
                           {cityName}
                         </p>
                         <h3 className="font-display text-base md:text-lg text-charcoal leading-snug group-hover:text-primary transition-colors line-clamp-2">
@@ -301,7 +301,7 @@ export default function InsightsPage() {
                   ))}
                 </div>
                 <div className="border-t md:border-t-0 md:border-l border-warm-border pt-4 md:pt-0 md:pl-6">
-                  <p className="text-[10px] uppercase tracking-wider text-charcoal-muted mb-3">More to read</p>
+                  <p className="text-label-xs uppercase tracking-wider text-charcoal-muted mb-3">More to read</p>
                   <nav className="flex flex-col" aria-label="More articles">
                     {section1LinkArticles.map((article) => (
                       <ArticleLinkItem key={article.slug} article={article} />
@@ -322,7 +322,7 @@ export default function InsightsPage() {
                     <FeatureCard article={section2FeatureArticle} />
                   </div>
                   <div className="flex flex-col border-l-0 lg:border-l border-warm-border lg:pl-8">
-                    <p className="text-[10px] uppercase tracking-wider text-charcoal-muted mb-3">Latest</p>
+                    <p className="text-label-xs uppercase tracking-wider text-charcoal-muted mb-3">Latest</p>
                     {section2Small.map((article) => (
                       <CompactCard key={article.slug} article={article} />
                     ))}

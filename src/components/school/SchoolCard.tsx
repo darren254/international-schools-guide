@@ -111,7 +111,7 @@ export function SchoolCard({
             className="w-full h-full object-cover brightness-[1.02] contrast-[1.02] saturate-[0.98] transition-transform duration-300 ease-out group-hover:scale-105"
           />
         ) : (
-          <div className="w-full h-full min-h-[140px] sm:min-h-full flex items-center justify-center text-charcoal-muted/30 text-[0.625rem] uppercase tracking-widest">
+          <div className="w-full h-full min-h-[140px] sm:min-h-full flex items-center justify-center text-charcoal-muted/30 text-label-xs uppercase tracking-widest">
             Photo
           </div>
         )}
@@ -133,34 +133,34 @@ export function SchoolCard({
           </span>
           {verified && <VerifiedBadge verified={verified} />}
         </div>
-        <p className="text-[0.8125rem] text-charcoal-muted mb-3 font-body">
+        <p className="text-body-xs text-charcoal-muted mb-3 font-body">
           {metaLine}
         </p>
         <div className="flex flex-wrap gap-x-3 gap-y-1 mb-3 font-body">
           {curricula.map((c) => (
-            <span key={c} className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted">
+            <span key={c} className="text-label-xs uppercase tracking-widest text-charcoal-muted">
               {c}
             </span>
           ))}
         </div>
         <div className="flex flex-wrap gap-x-6 gap-y-1 mb-3">
           <div>
-            <p className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted mb-0.5 font-body">
+            <p className="text-label-xs uppercase tracking-widest text-charcoal-muted mb-0.5 font-body">
               Annual fees
             </p>
-            <p className="text-[0.9375rem] font-medium text-charcoal font-body">{feeDisplay}</p>
+            <p className="text-body-sm font-medium text-charcoal font-body">{feeDisplay}</p>
           </div>
           {examResults?.map((result, i) => (
             <div key={i} className="pl-0 sm:pl-6 sm:border-l sm:border-warm-border">
-              <p className="text-[0.6875rem] uppercase tracking-widest text-charcoal-muted mb-0.5 font-body">
+              <p className="text-label-xs uppercase tracking-widest text-charcoal-muted mb-0.5 font-body">
                 {result.label}
               </p>
-              <p className="text-[0.9375rem] font-medium text-charcoal font-body">{result.value}</p>
+              <p className="text-body-sm font-medium text-charcoal font-body">{result.value}</p>
             </div>
           ))}
         </div>
         {oneLiner && (
-          <p className="text-[0.875rem] text-charcoal-light leading-relaxed mb-4 font-body">
+          <p className="text-sm text-charcoal-light leading-relaxed mb-4 font-body">
             {oneLiner}
           </p>
         )}
@@ -171,17 +171,17 @@ export function SchoolCard({
                 type="button"
                 onClick={handleShortlist}
                 disabled={!canAdd && !shortlisted}
-                className="text-[0.75rem] font-semibold uppercase tracking-wider text-charcoal-muted hover:text-primary transition-colors font-body disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:text-charcoal-muted"
+                className="text-label-sm font-semibold uppercase tracking-wider text-charcoal-muted hover:text-primary transition-colors font-body disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:text-charcoal-muted"
               >
                 {shortlisted ? "In shortlist" : "Shortlist +"}
               </button>
             )}
             {hasProfile ? (
-              <span className="text-[0.75rem] font-medium uppercase tracking-wider text-primary font-body">
+              <span className="text-label-sm font-medium uppercase tracking-wider text-primary font-body">
                 Full profile →
               </span>
             ) : (
-              <span className="text-[0.75rem] font-medium uppercase tracking-wider text-charcoal-muted/50 font-body">
+              <span className="text-label-sm font-medium uppercase tracking-wider text-charcoal-muted/50 font-body">
                 Profile coming soon
               </span>
             )}

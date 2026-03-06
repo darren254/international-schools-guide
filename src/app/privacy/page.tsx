@@ -28,7 +28,7 @@ export default function PrivacyPage() {
       <section className="bg-warm-white border-y border-warm-border-light py-14">
         <div className="container-site">
           <h2 className="font-display text-display-lg mb-5">Who we are</h2>
-          <p className="text-[0.9375rem] text-charcoal-light leading-relaxed max-w-2xl">
+          <p className="text-body-sm text-charcoal-light leading-relaxed max-w-2xl">
             International Schools Guide is an independent editorial platform that profiles international schools for expat families. The site is operated by The Schools Trust Ltd, registered in England and Wales. For privacy enquiries, email{" "}
             <a href="mailto:privacy@international-schools-guide.com" className="text-primary hover:text-primary-hover transition-colors">
               privacy@international-schools-guide.com
@@ -43,21 +43,21 @@ export default function PrivacyPage() {
           <li className="flex gap-3">
             <span className="text-primary font-medium shrink-0">Contact forms and emails</span>
             <span className="text-charcoal-muted">-</span>
-            <span className="text-[0.9375rem] text-charcoal-light leading-relaxed">
+            <span className="text-body-sm text-charcoal-light leading-relaxed">
               Name, email address, message content. Used to respond to enquiries.
             </span>
           </li>
           <li className="flex gap-3">
             <span className="text-primary font-medium shrink-0">Analytics</span>
             <span className="text-charcoal-muted">-</span>
-            <span className="text-[0.9375rem] text-charcoal-light leading-relaxed">
+            <span className="text-body-sm text-charcoal-light leading-relaxed">
               Google Analytics 4 with cookies for anonymised usage data (pages visited, time on site, devices). Not used to identify individuals.
             </span>
           </li>
           <li className="flex gap-3">
             <span className="text-primary font-medium shrink-0">Technical data</span>
             <span className="text-charcoal-muted">-</span>
-            <span className="text-[0.9375rem] text-charcoal-light leading-relaxed">
+            <span className="text-body-sm text-charcoal-light leading-relaxed">
               Cloudflare automatically logs IP addresses, browser type, and request data for security and performance.
             </span>
           </li>
@@ -67,7 +67,7 @@ export default function PrivacyPage() {
       <section className="bg-warm-white border-y border-warm-border-light py-14">
         <div className="container-site">
           <h2 className="font-display text-display-lg mb-5">What we don&apos;t collect</h2>
-          <p className="text-[0.9375rem] text-charcoal-light leading-relaxed max-w-2xl">
+          <p className="text-body-sm text-charcoal-light leading-relaxed max-w-2xl">
             No payment information, no user accounts required, no social media tracking pixels, no selling or sharing personal data for marketing.
           </p>
         </div>
@@ -75,7 +75,7 @@ export default function PrivacyPage() {
 
       <section className="container-site py-14">
         <h2 className="font-display text-display-lg mb-5">Cookies</h2>
-        <p className="text-[0.9375rem] text-charcoal-light leading-relaxed max-w-2xl">
+        <p className="text-body-sm text-charcoal-light leading-relaxed max-w-2xl">
           Essential cookies for site functionality and GA4 analytics cookies. Can be disabled in browser settings. The site works without them.
         </p>
       </section>
@@ -83,7 +83,7 @@ export default function PrivacyPage() {
       <section className="bg-warm-white border-y border-warm-border-light py-14">
         <div className="container-site">
           <h2 className="font-display text-display-lg mb-5">How we use your data</h2>
-          <p className="text-[0.9375rem] text-charcoal-light leading-relaxed max-w-2xl">
+          <p className="text-body-sm text-charcoal-light leading-relaxed max-w-2xl">
             Respond to enquiries, correct school profiles, process profile claims, improve the site, ensure security and performance. Nothing else.
           </p>
         </div>
@@ -91,7 +91,7 @@ export default function PrivacyPage() {
 
       <section className="container-site py-14">
         <h2 className="font-display text-display-lg mb-5">Data retention</h2>
-        <p className="text-[0.9375rem] text-charcoal-light leading-relaxed max-w-2xl mb-4">
+        <p className="text-body-sm text-charcoal-light leading-relaxed max-w-2xl mb-4">
           Contact submissions retained indefinitely unless deletion requested. Analytics data retained 14 months (GA4 default). Cloudflare logs retained up to 72 hours.
         </p>
       </section>
@@ -99,7 +99,7 @@ export default function PrivacyPage() {
       <section className="bg-warm-white border-y border-warm-border-light py-14">
         <div className="container-site">
           <h2 className="font-display text-display-lg mb-5">Your rights</h2>
-          <p className="text-[0.9375rem] text-charcoal-light leading-relaxed max-w-2xl">
+          <p className="text-body-sm text-charcoal-light leading-relaxed max-w-2xl">
             UK/EEA users can access, correct, delete, or export personal data. Email{" "}
             <a href="mailto:privacy@international-schools-guide.com" className="text-primary hover:text-primary-hover transition-colors">
               privacy@international-schools-guide.com
@@ -111,7 +111,7 @@ export default function PrivacyPage() {
 
       <section className="container-site py-14">
         <h2 className="font-display text-display-lg mb-5">Third-party services</h2>
-        <p className="text-[0.9375rem] text-charcoal-light leading-relaxed max-w-2xl">
+        <p className="text-body-sm text-charcoal-light leading-relaxed max-w-2xl">
           Cloudflare (hosting/CDN), Google Analytics 4, Mapbox (campus maps), Neon (database). Each has their own privacy policy.
         </p>
       </section>
@@ -119,14 +119,14 @@ export default function PrivacyPage() {
       <section className="bg-warm-white border-y border-warm-border-light py-14">
         <div className="container-site">
           <h2 className="font-display text-display-lg mb-5">Changes to this policy</h2>
-          <p className="text-[0.9375rem] text-charcoal-light leading-relaxed max-w-2xl">
+          <p className="text-body-sm text-charcoal-light leading-relaxed max-w-2xl">
             We may update this policy from time to time. Material changes will be noted with an updated date. We won&apos;t reduce your rights without your consent.
           </p>
         </div>
       </section>
 
       <section className="container-site py-14 text-center">
-        <p className="text-[0.9375rem] text-charcoal-light max-w-lg mx-auto mb-6 leading-relaxed">
+        <p className="text-body-sm text-charcoal-light max-w-lg mx-auto mb-6 leading-relaxed">
           Questions? Email{" "}
           <a href="mailto:privacy@international-schools-guide.com" className="text-primary hover:text-primary-hover transition-colors">
             privacy@international-schools-guide.com
