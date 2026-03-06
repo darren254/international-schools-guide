@@ -1,11 +1,14 @@
 /**
  * Sync school images from Neon (school_media + schools.hero_image_url etc.) into school-images.json.
- * Run after editing in admin. Requires DATABASE_URL.
+ * Run after editing in admin. Requires DATABASE_URL (e.g. in .env.local).
  * Usage: npx tsx scripts/sync-schools-from-db.ts
  *
  * Optional: R2_PUBLIC_URL — if school_media.url stores R2 keys (e.g. schools/slug/uuid.webp),
  * set this to the public base URL so output paths are full URLs.
  */
+
+import { config } from "dotenv";
+config({ path: ".env.local" });
 
 import * as fs from "fs";
 import * as path from "path";
@@ -23,10 +26,10 @@ async function main() {
   const sql = neon(url);
 
   const schools = (await sql`
-    SELECT id, slug, hero_image_url, og_image_url, logo_url
+    SELECT id, slug, hero_image_url, og_image_url, logo_url, head_photo_url
     FROM schools
     WHERE slug IS NOT NULL
-  `) as { id: string; slug: string; hero_image_url: string | null; og_image_url: string | null; logo_url: string | null }[];
+  `) as { id: string; slug: string; hero_image_url: string | null; og_image_url: string | null; logo_url: string | null; head_photo_url: string | null }[];
 
   const media = (await sql`
     SELECT school_id, variant, url FROM school_media ORDER BY school_id, display_order, created_at
@@ -45,6 +48,7 @@ async function main() {
     if (s.hero_image_url) entry.hero = s.hero_image_url.startsWith("http") ? s.hero_image_url : (R2_PUBLIC_URL ? `${R2_PUBLIC_URL}/${s.hero_image_url}` : s.hero_image_url);
     if (s.og_image_url) entry.og = s.og_image_url.startsWith("http") ? s.og_image_url : (R2_PUBLIC_URL ? `${R2_PUBLIC_URL}/${s.og_image_url}` : s.og_image_url);
     if (s.logo_url) entry.logo = s.logo_url.startsWith("http") ? s.logo_url : (R2_PUBLIC_URL ? `${R2_PUBLIC_URL}/${s.logo_url}` : s.logo_url);
+    if (s.head_photo_url) entry.head = s.head_photo_url.startsWith("http") ? s.head_photo_url : (R2_PUBLIC_URL ? `${R2_PUBLIC_URL}/${s.head_photo_url}` : s.head_photo_url);
     if (Object.keys(entry).length > 0) slugs[s.slug] = entry;
   }
 

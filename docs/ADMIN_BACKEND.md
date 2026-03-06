@@ -33,12 +33,13 @@ School profile editing and image management.
 - `POST /api/admin/schools/:slug/images` — Upload (multipart file) or add by URL (JSON `{ variant, url }`).
 - `DELETE /api/admin/schools/:slug/images/:id` — Delete image.
 - `PATCH /api/admin/schools/:slug/images/assign` — Set variant (body: `{ imageId, variant }`).
+- `PATCH /api/admin/schools/:slug/images/reorder` — Reorder images (body: `{ orderedIds: string[] }`). Returns updated image list.
 
 ## Image variants
 
-`card` | `profile` | `hero` | `og` | `logo` | `photo1` | `photo2` | `photo3`
+`card` | `profile` | `hero` | `og` | `logo` | `head` | `photo1` | `photo2` | `photo3`
 
-Assigning an image to `hero`, `og`, or `logo` also updates `schools.hero_image_url`, `og_image_url`, `logo_url` for that school.
+Assigning an image to `hero`, `og`, `logo`, or `head` also updates `schools.hero_image_url`, `og_image_url`, `logo_url`, or `head_photo_url` respectively.
 
 ## Sync / publish
 

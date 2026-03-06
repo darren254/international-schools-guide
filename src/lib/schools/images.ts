@@ -6,6 +6,7 @@ export type SchoolImageVariant =
   | "hero"
   | "og"
   | "logo"
+  | "head"
   | "photo1"
   | "photo2"
   | "photo3";
@@ -16,6 +17,7 @@ type SchoolImageEntry = {
   hero?: string;
   og?: string;
   logo?: string;
+  head?: string;
   photo1?: string;
   photo2?: string;
   photo3?: string;

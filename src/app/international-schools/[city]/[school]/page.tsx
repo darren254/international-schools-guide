@@ -193,7 +193,7 @@ export default function SchoolProfilePage({
         })()}
         since={s.head.since}
         bio={s.head.bio}
-        photoUrl={getHeadImageUrl(s.slug)}
+        photoUrl={getSchoolImageUrl(s.slug, "head") ?? getHeadImageUrl(s.slug)}
         credentials={getHeadOverride(s.slug)?.title}
       />
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 
@@ -33,6 +33,16 @@ export default function AdminSchoolEditClient() {
   const [addImageUrl, setAddImageUrl] = useState("");
   const [addImageVariant, setAddImageVariant] = useState("photo1");
   const [addingImage, setAddingImage] = useState(false);
+  const [uploadR2Unavailable, setUploadR2Unavailable] = useState(false);
+  const [reordering, setReordering] = useState<string | null>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const VARIANT_GROUPS: { label: string; variants: string[] }[] = [
+    { label: "Identity", variants: ["logo", "card", "profile"] },
+    { label: "Sharing", variants: ["hero", "og"] },
+    { label: "People", variants: ["head"] },
+    { label: "Gallery", variants: ["photo1", "photo2", "photo3"] },
+  ];
 
   useEffect(() => {
     fetch(`/api/admin/schools/${slug}`, { credentials: "include" })
@@ -198,6 +208,78 @@ export default function AdminSchoolEditClient() {
     } finally {
       setAddingImage(false);
     }
+  }
+
+  async function handleReorder(orderedIds: string[]) {
+    setError("");
+    try {
+      const res = await fetch(`/api/admin/schools/${slug}/images/reorder`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        credentials: "include",
+        body: JSON.stringify({ orderedIds }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Reorder failed");
+      if (data.images) setImages(data.images);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Reorder failed");
+    } finally {
+      setReordering(null);
+    }
+  }
+
+  function handleMoveLeft(index: number) {
+    if (index <= 0) return;
+    setReordering(images[index].id);
+    const next = [...images];
+    [next[index - 1], next[index]] = [next[index], next[index - 1]];
+    handleReorder(next.map((i) => i.id));
+  }
+
+  function handleMoveRight(index: number) {
+    if (index >= images.length - 1) return;
+    setReordering(images[index].id);
+    const next = [...images];
+    [next[index], next[index + 1]] = [next[index + 1], next[index]];
+    handleReorder(next.map((i) => i.id));
+  }
+
+  async function handleFileUpload(file: File) {
+    const form = new FormData();
+    form.set("file", file);
+    form.set("variant", addImageVariant);
+    const res = await fetch(`/api/admin/schools/${slug}/images`, {
+      method: "POST",
+      credentials: "include",
+      body: form,
+    });
+    if (res.status === 501) {
+      setUploadR2Unavailable(true);
+      return;
+    }
+    const data = await res.json();
+    if (!res.ok) {
+      setError(data.error || "Upload failed");
+      return;
+    }
+    if (data.image) setImages((prev) => [...prev, data.image]);
+  }
+
+  function onDrop(e: React.DragEvent) {
+    e.preventDefault();
+    const files = e.dataTransfer?.files;
+    if (!files?.length) return;
+    setError("");
+    for (let i = 0; i < files.length; i++) {
+      const file = files[i];
+      if (!file.type.startsWith("image/")) continue;
+      handleFileUpload(file);
+    }
+  }
+
+  function onDragOver(e: React.DragEvent) {
+    e.preventDefault();
   }
 
   if (loading) {
@@ -497,8 +579,39 @@ function AdminImageWithFallback({ url }: { url: string }) {
       <section className="bg-warm-white border border-warm-border rounded-lg p-6">
         <h2 className="font-display text-display-sm text-charcoal mb-4">Images</h2>
         <p className="text-body-sm text-charcoal-muted mb-4">
-          Assign an image as hero, OG, or logo. Add by URL below, or upload via API; then set the variant.
+          Assign an image as hero, OG, logo, or head. Use the box below to drag and drop image files, or add by URL.
         </p>
+        <div
+          role="button"
+          tabIndex={0}
+          onDrop={onDrop}
+          onDragOver={onDragOver}
+          onClick={() => fileInputRef.current?.click()}
+          onKeyDown={(e) => e.key === "Enter" && fileInputRef.current?.click()}
+          className="mb-4 border-2 border-dashed border-primary/40 rounded-lg p-10 text-center text-body-sm text-charcoal bg-cream/30 hover:border-primary hover:bg-cream/50 transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary/30"
+        >
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept="image/*"
+            multiple
+            className="hidden"
+            onChange={(e) => {
+              const files = e.target.files;
+              if (!files?.length) return;
+              setError("");
+              for (let i = 0; i < files.length; i++) handleFileUpload(files[i]);
+              e.target.value = "";
+            }}
+          />
+          <span className="block text-charcoal-muted mb-1">Drag and drop image files here</span>
+          <span className="block text-body-xs text-charcoal-muted">or click to choose files</span>
+        </div>
+        {uploadR2Unavailable ? (
+          <div className="mb-4 p-4 bg-amber-50 border border-amber-200 rounded-lg text-body-sm text-amber-900">
+            Image upload needs cloud storage. Configure an R2 bucket in Cloudflare (Settings → Functions → R2 bucket binding named R2_BUCKET), or add images by URL below.
+          </div>
+        ) : null}
         <form onSubmit={handleAddImageByUrl} className="flex flex-wrap items-end gap-3 mb-6">
           <div className="min-w-[200px] flex-1">
             <label className="block text-label-xs text-charcoal-muted mb-1">Image URL</label>
@@ -517,8 +630,12 @@ function AdminImageWithFallback({ url }: { url: string }) {
               onChange={(e) => setAddImageVariant(e.target.value)}
               className="px-3 py-2 border border-warm-border rounded bg-cream text-body-sm"
             >
-              {variants.map((v) => (
-                <option key={v} value={v}>{v}</option>
+              {VARIANT_GROUPS.map((grp) => (
+                <optgroup key={grp.label} label={grp.label}>
+                  {grp.variants.map((v) => (
+                    <option key={v} value={v}>{v}</option>
+                  ))}
+                </optgroup>
               ))}
             </select>
           </div>
@@ -532,11 +649,11 @@ function AdminImageWithFallback({ url }: { url: string }) {
         </form>
         {images.length === 0 ? (
           <p className="text-body-sm text-charcoal-muted">
-            No images yet. Use the API <code className="bg-cream px-1 rounded">POST /api/admin/schools/{slug}/images</code> with a file or URL, or run the sync script.
+            No images yet. Drop files above, add by URL, or run the sync script.
           </p>
         ) : (
           <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-            {images.map((img) => (
+            {images.map((img, idx) => (
               <div
                 key={img.id}
                 className="border border-warm-border rounded-lg p-3 flex flex-col"
@@ -544,14 +661,39 @@ function AdminImageWithFallback({ url }: { url: string }) {
                 <div className="aspect-video bg-cream rounded mb-3 overflow-hidden flex items-center justify-center text-charcoal-muted text-body-xs">
                   <AdminImageWithFallback url={img.url} />
                 </div>
+                <div className="flex items-center gap-2 mb-2">
+                  <button
+                    type="button"
+                    aria-label="Move left"
+                    disabled={idx === 0 || reordering === img.id}
+                    onClick={() => handleMoveLeft(idx)}
+                    className="p-1.5 rounded border border-warm-border bg-cream text-charcoal hover:bg-warm-white disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    ←
+                  </button>
+                  <button
+                    type="button"
+                    aria-label="Move right"
+                    disabled={idx === images.length - 1 || reordering === img.id}
+                    onClick={() => handleMoveRight(idx)}
+                    className="p-1.5 rounded border border-warm-border bg-cream text-charcoal hover:bg-warm-white disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    →
+                  </button>
+                  <span className="text-label-sm text-charcoal-muted">Order</span>
+                </div>
                 <p className="text-label-sm text-charcoal-muted mb-2">Current: {img.variant}</p>
                 <select
                   value={img.variant}
                   onChange={(e) => handleAssign(img.id, e.target.value)}
                   className="mb-2 px-2 py-1.5 border border-warm-border rounded text-body-sm bg-cream"
                 >
-                  {variants.map((v) => (
-                    <option key={v} value={v}>{v}</option>
+                  {VARIANT_GROUPS.map((grp) => (
+                    <optgroup key={grp.label} label={grp.label}>
+                      {grp.variants.map((v) => (
+                        <option key={v} value={v}>{v}</option>
+                      ))}
+                    </optgroup>
                   ))}
                 </select>
                 <button
