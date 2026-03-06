@@ -7,10 +7,13 @@ export function FooterAuth() {
   const [authenticated, setAuthenticated] = useState<boolean | null>(null);
 
   useEffect(() => {
-    fetch("/api/admin/login", { credentials: "include" })
-      .then((r) => r.json())
-      .then((data) => setAuthenticated(data.authenticated === true))
-      .catch(() => setAuthenticated(false));
+    const id = window.setTimeout(() => {
+      fetch("/api/admin/login", { credentials: "include" })
+        .then((r) => r.json())
+        .then((data) => setAuthenticated(data.authenticated === true))
+        .catch(() => setAuthenticated(false));
+    }, 2000);
+    return () => window.clearTimeout(id);
   }, []);
 
   async function handleLogout(e: React.MouseEvent) {

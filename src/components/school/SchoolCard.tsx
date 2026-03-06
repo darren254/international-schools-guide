@@ -55,6 +55,8 @@ interface SchoolCardProps {
   imageUrl?: string;
   hasProfile?: boolean;
   foundedYear?: string;
+  /** First few cards above the fold: load image eagerly with high priority. */
+  priority?: boolean;
 }
 
 export function SchoolCard({
@@ -74,6 +76,7 @@ export function SchoolCard({
   imageUrl,
   hasProfile = false,
   foundedYear,
+  priority = false,
 }: SchoolCardProps) {
   const shortlist = useShortlistOptional();
   const { fmtRange } = useCurrency();
@@ -108,6 +111,8 @@ export function SchoolCard({
           <img
             src={imageUrl}
             alt={name}
+            loading={priority ? "eager" : "lazy"}
+            fetchPriority={priority ? "high" : "auto"}
             className="w-full h-full object-cover brightness-[1.02] contrast-[1.02] saturate-[0.98] transition-transform duration-300 ease-out group-hover:scale-105"
           />
         ) : (

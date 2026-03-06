@@ -206,7 +206,7 @@ export function ExploreSchoolsClient({
 
       <div className="pt-6 pb-10">
         <div className="space-y-4">
-          {filteredAndSorted.map((school) => (
+          {filteredAndSorted.map((school, index) => (
             <SchoolCard
               key={school.slug}
               citySlug={citySlug}
@@ -224,6 +224,7 @@ export function ExploreSchoolsClient({
               examResults={school.examResults}
               editorialSummary={school.editorialSummary}
               imageUrl={getSchoolImageUrl(school.slug, "card")}
+              priority={index < 4}
             />
           ))}
         </div>

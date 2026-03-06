@@ -2,10 +2,10 @@ import { getAdminSql } from "@api/_db";
 import { getSessionUserId } from "@api/_auth";
 import type { AdminEnv } from "@api/_db";
 
-function json(body: unknown, status = 200) {
+function json(body: unknown, status = 200, headers?: Record<string, string>) {
   return new Response(JSON.stringify(body), {
     status,
-    headers: { "Content-Type": "application/json" },
+    headers: { "Content-Type": "application/json", ...headers },
   });
 }
 
@@ -18,32 +18,38 @@ export async function onRequestGet(
     const sql = await getAdminSql(context.env);
     const url = new URL(context.request.url);
     const citySlug = url.searchParams.get("city");
-    let schools: { id: string; name: string; slug: string; city_slug: string | null }[];
+    type Row = { id: string; name: string; slug: string; city_slug: string | null; image_count: string };
+    let rows: Row[];
     if (citySlug) {
-      schools = (await sql`
-        SELECT id, name, slug, city_slug FROM schools
-        WHERE city_slug = ${citySlug}
-        ORDER BY name
-      `) as { id: string; name: string; slug: string; city_slug: string | null }[];
+      rows = (await sql`
+        SELECT s.id, s.name, s.slug, s.city_slug, COUNT(m.id)::text AS image_count
+        FROM schools s
+        LEFT JOIN school_media m ON m.school_id = s.id
+        WHERE s.city_slug = ${citySlug}
+        GROUP BY s.id, s.name, s.slug, s.city_slug
+        ORDER BY s.name
+      `) as Row[];
     } else {
-      schools = (await sql`
-        SELECT id, name, slug, city_slug FROM schools
-        ORDER BY city_slug, name
-      `) as { id: string; name: string; slug: string; city_slug: string | null }[];
+      rows = (await sql`
+        SELECT s.id, s.name, s.slug, s.city_slug, COUNT(m.id)::text AS image_count
+        FROM schools s
+        LEFT JOIN school_media m ON m.school_id = s.id
+        GROUP BY s.id, s.name, s.slug, s.city_slug
+        ORDER BY s.city_slug, s.name
+      `) as Row[];
     }
-    const mediaCounts = (await sql`
-      SELECT school_id, COUNT(*) as count FROM school_media GROUP BY school_id
-    `) as { school_id: string; count: string }[];
-    const countBySchoolId: Record<string, number> = {};
-    for (const r of mediaCounts) countBySchoolId[r.school_id] = parseInt(r.count, 10);
-    const list = schools.map((s) => ({
+    const list = rows.map((s) => ({
       id: s.id,
       name: s.name,
       slug: s.slug,
       citySlug: s.city_slug,
-      imageCount: countBySchoolId[s.id] ?? 0,
+      imageCount: parseInt(s.image_count, 10) || 0,
     }));
-    return json({ schools: list });
+    return json(
+      { schools: list },
+      200,
+      { "Cache-Control": "private, max-age=60" }
+    );
   } catch (e) {
     return json(
       { error: "Failed to list schools", detail: e instanceof Error ? e.message : "" },
