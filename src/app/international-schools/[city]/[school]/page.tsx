@@ -87,6 +87,7 @@ export default function SchoolProfilePage({
 }) {
   const s = SCHOOL_PROFILES[params.school];
   if (!s) return notFound();
+  if (params.city !== s.citySlug) return notFound();
 
   const canonicalUrl = `${BASE_URL}/international-schools/${s.citySlug}/${params.school}`;
   const cityName = s.citySlug

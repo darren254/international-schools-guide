@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
+import { SCHOOL_PROFILES } from "@/data/schools";
 
 type SortDir = "asc" | "desc" | null;
 
@@ -104,7 +105,7 @@ export function SortableSchoolsTableSection1({ rows }: { rows: Section1Row[] }) 
               <td className="py-3 pr-4 max-md:sticky max-md:left-0 max-md:z-[1] max-md:bg-white max-md:group-hover:bg-cream-50/50 max-md:shadow-[4px_0_8px_-4px_rgba(0,0,0,0.08)]">
                 {row.slug ? (
                   <Link
-                    href={`/international-schools/jakarta/${row.slug}/`}
+                    href={`/international-schools/${SCHOOL_PROFILES[row.slug]?.citySlug ?? "jakarta"}/${row.slug}/`}
                     className="text-primary hover:underline font-medium"
                   >
                     {row.school}
@@ -190,7 +191,7 @@ export function SortableSchoolsTableSection2({ rows }: { rows: Section2Row[] }) 
               <td className="py-3 pr-4 max-md:sticky max-md:left-0 max-md:z-[1] max-md:bg-white max-md:group-hover:bg-cream-50/50 max-md:shadow-[4px_0_8px_-4px_rgba(0,0,0,0.08)]">
                 {row.slug ? (
                   <Link
-                    href={`/international-schools/jakarta/${row.slug}/`}
+                    href={`/international-schools/${SCHOOL_PROFILES[row.slug]?.citySlug ?? "jakarta"}/${row.slug}/`}
                     className="text-primary hover:underline font-medium"
                   >
                     {row.school}

@@ -36,7 +36,7 @@ export const SECTION2_ALL_SCHOOLS: Section2Row[] = [
   { school: "The Independent School of Jakarta", area: "South Jakarta", curriculum: "British", fees: "US$9.2K – US$30K", slug: "independent-school-of-jakarta" },
   { school: "Australian Independent School Jakarta", area: "South Jakarta", curriculum: "Australian / IB Diploma", fees: "US$9.3K – US$27K", slug: "australian-independent-school-jakarta" },
   { school: "Tunas Muda School", area: "West Jakarta", curriculum: "IB PYP / MYP / DP", fees: "US$6.9K – US$27K", slug: "tunas-muda-school" },
-  { school: "BTB School", area: "North Jakarta", curriculum: "IB PYP / IGCSEs / IB DP", fees: "US$7.4K – US$26K", slug: "btb-school" },
+  { school: "BTB School", area: "North Jakarta", curriculum: "IB PYP / IGCSEs / IB DP", fees: "Contact school", slug: "btb-school" },
   { school: "ACG School Jakarta", area: "South Jakarta", curriculum: "IB PYP / IGCSEs / IB DP", fees: "US$9.8K – US$25K", slug: "acg-school-jakarta" },
   { school: "NationalHigh Jakarta School", area: "West Jakarta", curriculum: "Cambridge / Singapore", fees: "US$9.8K – US$24K", slug: "nationalhigh-jakarta-school" },
   { school: "Raffles Christian School Jakarta", area: "South Jakarta", curriculum: "Cambridge / IGCSEs / A-Levels", fees: "US$4.9K – US$24K", slug: "raffles-christian-school-jakarta" },

@@ -2036,7 +2036,7 @@ const tunasMuda: SchoolProfile = {
       { name: "Sekolah Pelita Harapan", slug: "sekolah-pelita-harapan", meta: "IB · Ages 4–18 · Lippo Village", feeRange: "US$7.2K – $22K / year" },
       { name: "Mentari Intercultural School", slug: "mentari-intercultural-school-jakarta", meta: "IB · Ages 3–18 · Kebayoran Baru", feeRange: "US$5.6K – $14K / year" },
       { name: "The Independent School of Jakarta", slug: "independent-school-of-jakarta", meta: "British · Ages 2–13 (expanding to 18) · Pondok Pinang", feeRange: "US$10K – $32K / year" },
-      { name: "BTB School", slug: "btb-school", meta: "IB · Ages 3–18 · Pluit", feeRange: "US$7.4K – $26K / year" },
+      { name: "BTB School", slug: "btb-school", meta: "IB · Ages 3–18 · Pluit", feeRange: "Contact school" },
     ],
     relatedInsights: [
       { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
@@ -2064,7 +2064,7 @@ const btb: SchoolProfile = {
 
   metaTitle: "BTB School Jakarta (Bina Tunas Bangsa) - Fees, IB Results & Review",
   metaDescription:
-    "BTB School profile - fees from US$7.4K–US$26K/year, IB World School since 2005, Pluit campus, 700+ students. Well-established IB school in North Jakarta. Editorial review.",
+    "BTB School profile - fees not publicly listed, IB World School since 2005, Pluit campus, 700+ students. Well-established IB school in North Jakarta. Editorial review.",
 
   campuses: [
     {
@@ -2081,7 +2081,7 @@ const btb: SchoolProfile = {
     { value: "700+", label: "Students" },
     { value: "3–18", label: "Age Range" },
     { value: "20+", label: "Nationalities" },
-    { value: "US$7.4K – US$26K", label: "Annual Fees" },
+    { value: "Contact school", label: "Annual Fees" },
   ],
 
   head: {
@@ -2103,13 +2103,12 @@ const btb: SchoolProfile = {
     paragraphs: [
       "The word among expat families is that BTB School (formerly Bina Tunas Bangsa) is North Jakarta's established IB option. Authorised as an IB World School since 2005, it's been running long enough to have credibility. The Pluit location suits families in North Jakarta who don't want to commute to South Jakarta schools.",
       "What comes up again and again is the character development focus. BTB emphasises values education alongside academic achievement - the school culture takes character seriously. The curriculum combines IB PYP, IGCSEs, and IB Diploma - a pathway that gives students internationally recognised qualifications at multiple stages.",
-      "Fees run US$7.4K to US$26K - mid-range, making it accessible to self-funding families. The Pluit location is convenient for families already in North Jakarta, but if you're in South Jakarta or central Jakarta, you're looking at a long commute. The school doesn't publish detailed results or fee schedules publicly - you'll need to contact admissions directly.",
+      "Fees are not published publicly; contact admissions for the current fee schedule. The Pluit location is convenient for families already in North Jakarta, but if you're in South Jakarta or central Jakarta, you're looking at a long commute. The school doesn't publish detailed results or fee schedules publicly - you'll need to contact admissions directly.",
     ],
     positives: [
       "IB World School since 2005 - been running long enough to have credibility and an established approach to IB education.",
       "Pluit location suits families in North Jakarta who don't want to commute to South Jakarta schools.",
       "Dual curriculum pathway - IB PYP, IGCSEs, and IB Diploma - gives students internationally recognised qualifications at multiple stages.",
-      "Fees at US$7.4K to US$26K are mid-range, making it accessible to self-funding families who want IB without premium prices.",
       "Character development focus - the school culture takes values education seriously alongside academic achievement.",
     ],
     considerations: [
@@ -2124,17 +2123,9 @@ const btb: SchoolProfile = {
   fees: {
     academicYear: "2025–2026",
     feeCurrency: "IDR",
-    rows: [
-      { gradeLevel: "Early Years (Ages 3–5)", ages: "3–5 years", tuition: 100_000_000, capital: 0, totalEarlyBird: 100_000_000, totalStandard: 100_000_000 },
-      { gradeLevel: "Primary IB PYP (Grades 1–5)", ages: "5–11 years", tuition: 180_000_000, capital: 0, totalEarlyBird: 180_000_000, totalStandard: 180_000_000 },
-      { gradeLevel: "Middle School IGCSE (Grades 6–10)", ages: "11–15 years", tuition: 250_000_000, capital: 0, totalEarlyBird: 250_000_000, totalStandard: 250_000_000 },
-      { gradeLevel: "High School IB DP (Grades 11–12)", ages: "15–18 years", tuition: 350_000_000, capital: 0, totalEarlyBird: 350_000_000, totalStandard: 350_000_000 },
-    ],
-    oneTime: [
-      { name: "Application Fee", amount: 3_500_000 },
-      { name: "Enrolment Fee", amount: 18_000_000, note: "One-time, new students" },
-    ],
-    note: "Fee ranges shown are approximate annual tuition. BTB School does not publish detailed fee schedules publicly. Contact admissions for the current 2025–2026 fee schedule including all one-time fees and payment options.",
+    rows: [],
+    oneTime: [],
+    note: "BTB School does not publish fee schedules publicly. Contact admissions for the current 2025–2026 fee schedule, including tuition and one-time fees.",
   },
 
   academics: {
@@ -2196,7 +2187,7 @@ const btb: SchoolProfile = {
       { label: "Ages", value: "3–18" },
       { label: "Nationalities", value: "20+" },
       { label: "IB Authorised", value: "Since 2005" },
-      { label: "Fees", value: "US$7.4K – $26K" },
+      { label: "Fees", value: "Contact school" },
     ],
     otherSchools: [
       { name: "Tunas Muda School", slug: "tunas-muda-school", meta: "IB · Ages 1–18 · Meruya", feeRange: "US$6.9K – $27K / year" },
