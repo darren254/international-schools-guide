@@ -33,29 +33,32 @@ export function SchoolMasthead({
   curricula,
   stats,
 }: SchoolMastheadProps) {
+  const campusSummary = campuses
+    .map((c) => c.name.split("(")[0].trim())
+    .join(" · ");
+  const locationText =
+    locationLabel && locationLabel !== cityName
+      ? `${locationLabel}, ${cityName}`
+      : cityName;
+
   return (
     <section className="pt-6 pb-5">
-      <h1 className="font-display text-[clamp(1.75rem,3.5vw,2.5rem)] font-medium tracking-tight leading-tight mb-2">
-        {name}
+      {/* Row 1 – Name and verification */}
+      <h1 className="font-display text-display-lg md:text-display-xl font-medium tracking-tight leading-tight mb-4">
+        <span>{name}</span>
         <VerifiedBadge verified={verified} />
       </h1>
 
-      {/* Campus summary - compact */}
-      <p className="text-body-xs text-charcoal-muted leading-relaxed mb-3">
-        {campuses.map((c, i) => (
-          <span key={c.name}>
-            {i > 0 && <span className="mx-1.5 text-cream-400">·</span>}
-            <span className="text-charcoal-light font-medium">{c.name.split("(")[0].trim()}</span>
-          </span>
-        ))}
+      {/* Row 2 – Campus and location */}
+      <p className="text-body-sm text-charcoal-muted font-body leading-relaxed mb-3">
+        {campusSummary}
         <span className="ml-1">
-          – {campuses.length} {campuses.length === 1 ? "campus" : "campuses"} in{" "}
-          {locationLabel && locationLabel !== cityName ? `${locationLabel}, ${cityName}` : cityName}
+          – {campuses.length} {campuses.length === 1 ? "campus" : "campuses"} in {locationText}
         </span>
       </p>
 
-      {/* Curricula + updated */}
-      <div className="flex flex-wrap items-center gap-2 mb-4">
+      {/* Row 3 – Curriculum tags and updated */}
+      <div className="flex flex-wrap items-center gap-2 mb-6">
         {curricula.map((c) => (
           <CurriculumTag key={c} label={c} />
         ))}
@@ -64,21 +67,23 @@ export function SchoolMasthead({
         </span>
       </div>
 
-      {/* Stats bar - never show null or 0 to visitors */}
-      <div className="flex flex-wrap gap-6 sm:gap-10 py-4 border-y border-warm-border-light">
-        {stats.map((stat) => (
-          <div key={stat.label}>
-            <span className="font-display text-display-sm font-semibold block leading-none mb-0.5">
-              {displayValue(stat.value, "—")}
-            </span>
-            <span className="text-label-xs uppercase tracking-wider text-charcoal-muted">
-              {stat.label}
-            </span>
-          </div>
-        ))}
+      {/* Stats band – key facts */}
+      <div className="bg-warm-white border-y border-warm-border-light">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 py-6">
+          {stats.map((stat) => (
+            <div key={stat.label}>
+              <span className="font-display text-display-sm font-semibold block leading-none mb-1">
+                {displayValue(stat.value, "—")}
+              </span>
+              <span className="text-label-xs uppercase tracking-wider text-charcoal-muted font-body">
+                {stat.label}
+              </span>
+            </div>
+          ))}
+        </div>
       </div>
 
-      {/* Actions */}
+      {/* Shortlist */}
       <div className="mt-4">
         <ShortlistActions slug={slug} />
       </div>

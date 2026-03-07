@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SchoolMasthead } from "@/components/school/SchoolMasthead";
 import { HeadOfSchool } from "@/components/school/HeadOfSchool";
@@ -12,6 +11,7 @@ import { SchoolLife } from "@/components/school/SchoolLife";
 import { CampusMap } from "@/components/school/CampusMap";
 import { ContactSection } from "@/components/school/ContactSection";
 import { ProfileSidebar } from "@/components/school/ProfileSidebar";
+import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import {
   SCHOOL_PROFILES,
   ALL_SCHOOL_SLUGS,
@@ -89,7 +89,10 @@ export default function SchoolProfilePage({
   if (!s) return notFound();
 
   const canonicalUrl = `${BASE_URL}/international-schools/${s.citySlug}/${params.school}`;
-  const cityName = s.citySlug.charAt(0).toUpperCase() + s.citySlug.slice(1);
+  const cityName = s.citySlug
+    .split("-")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
   const feeStat = s.stats.find((st) => st.label === "Annual Fees");
   const feeRangeStr = feeStat?.value ?? "";
   const lowK = extractLowestFee(feeRangeStr);
@@ -144,27 +147,13 @@ export default function SchoolProfilePage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <BackToResults />
-      {/* Breadcrumb */}
-      <nav
-        className="py-5 text-body-xs text-charcoal-muted"
-        aria-label="Breadcrumb"
-      >
-        <Link
-          href="/international-schools/"
-          className="hover:text-primary transition-colors"
-        >
-          International Schools
-        </Link>
-        <span className="mx-1.5 opacity-50">›</span>
-        <Link
-          href={`/international-schools/${s.citySlug}/`}
-          className="hover:text-primary transition-colors"
-        >
-          {s.citySlug.charAt(0).toUpperCase() + s.citySlug.slice(1)}
-        </Link>
-        <span className="mx-1.5 opacity-50">›</span>
-        <span className="text-charcoal">{s.name}</span>
-      </nav>
+      <Breadcrumb
+        items={[
+          { label: "International Schools", href: "/international-schools/" },
+          { label: cityName, href: `/international-schools/${s.citySlug}/` },
+          { label: s.name },
+        ]}
+      />
 
       {/* Masthead */}
       <SchoolMasthead

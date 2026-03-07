@@ -30,7 +30,7 @@ export const CITIES: CityConfig[] = [
     topCurricula: ["IB", "British", "American"],
     tagline:
       "Asia's education hub with world-class IB and British curriculum schools",
-    photoCredit: { label: "Photo: Robert Butts / Pexels", href: "https://www.pexels.com/photo/marina-bay-sands-and-singapore-skyline-3583192/" },
+    photoCredit: { label: "Andrea Durey", href: "https://www.pexels.com/@andrea-durey-498853/" },
   },
   {
     name: "Hong Kong",

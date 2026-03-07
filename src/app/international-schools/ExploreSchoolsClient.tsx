@@ -5,6 +5,7 @@ import Link from "next/link";
 import { SchoolCard } from "@/components/school/SchoolCard";
 import { FilterDropdownMulti } from "@/components/school/FilterDropdownMulti";
 import { SortDropdown, type FeeSortValue } from "@/components/school/SortDropdown";
+import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { getCurriculumFilterLabels, getLocationFilter } from "@/data/jakarta-schools";
 import { getDubaiLocationFilter } from "@/data/dubai-schools";
 import { getSingaporeLocationFilter } from "@/data/singapore-schools";
@@ -142,25 +143,26 @@ export function ExploreSchoolsClient({
 
   return (
     <div className="container-site">
-      <nav className="py-5 text-body-xs text-charcoal-muted" aria-label="Breadcrumb">
-        <Link href="/international-schools/" className="hover:text-primary transition-colors">
-          International Schools
-        </Link>
-        <span className="mx-1.5 opacity-50">›</span>
-        <span className="text-charcoal">{cityName}</span>
-      </nav>
+      <Breadcrumb
+        items={[
+          { label: "International Schools", href: "/international-schools/" },
+          { label: cityName },
+        ]}
+      />
 
-      <section className="pb-6 border-b border-warm-border">
-        <div className="mb-4">
-          <h1 className="font-display text-[clamp(1.75rem,4vw,2.5rem)] font-medium tracking-tight leading-tight mb-1.5">
+      <section className="mb-8">
+        {/* Hero */}
+        <div className="mb-6">
+          <h1 className="font-display text-display-lg md:text-display-xl font-medium tracking-tight leading-tight mb-2">
             International Schools in {cityName}
           </h1>
-          <p className="text-body-sm text-charcoal-muted font-body">
+          <p className="text-body-sm text-charcoal-muted font-body max-w-2xl">
             Compare fees and read honest reviews. Filter by curriculum or area; sort by fees.
           </p>
         </div>
 
-        <div className="flex flex-wrap items-center gap-2 md:gap-3 overflow-x-auto pb-1 md:overflow-visible">
+        {/* Toolbar */}
+        <div className="flex flex-wrap items-center gap-2 md:gap-3 py-3 px-4 bg-warm-white border border-warm-border rounded-sm overflow-x-auto min-h-[44px] md:min-h-0">
           <FilterDropdownMulti
             label="Curriculum"
             options={curriculumOptions}
@@ -185,26 +187,26 @@ export function ExploreSchoolsClient({
             isOpen={openFilterId === "sort"}
             onOpenChange={(open) => setOpenFilterId(open ? "sort" : null)}
           />
-          <span className="text-body-xs text-charcoal-muted font-body shrink-0 ml-auto">
+          <span className="text-label-sm text-charcoal-muted font-body uppercase tracking-wider shrink-0 ml-auto">
             {filteredAndSorted.length} school{filteredAndSorted.length !== 1 ? "s" : ""}
           </span>
           {hasActiveFilters && (
             <button
               type="button"
               onClick={clearFilters}
-              className="text-body-xs font-body text-charcoal-muted hover:text-primary transition-colors shrink-0"
+              className="text-body-xs font-body text-charcoal-muted hover:text-primary transition-colors shrink-0 py-2 min-h-[44px] md:min-h-0 flex items-center"
             >
               Clear filters
             </button>
           )}
         </div>
 
-        <p className="text-label-sm text-charcoal-muted mt-3 font-body">
+        <p className="text-label-xs text-charcoal-muted mt-3 font-body">
           Fees in approximate equivalent. Rates updated periodically ({exchangeRateDate}).
         </p>
       </section>
 
-      <div className="pt-6 pb-10">
+      <div className="pt-8 pb-10">
         <div className="space-y-4">
           {filteredAndSorted.map((school, index) => (
             <SchoolCard

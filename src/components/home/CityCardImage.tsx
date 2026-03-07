@@ -37,7 +37,7 @@ export function CityCardImage({ city, photoCredit }: CityCardImageProps) {
           href={photoCredit.href}
           target="_blank"
           rel="noopener noreferrer"
-          className="absolute bottom-1.5 left-2 text-label-xs text-white/80 hover:text-white font-body no-underline z-10 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]"
+          className="absolute bottom-1.5 left-2 text-[0.55rem] text-white/80 hover:text-white font-body no-underline z-10 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]"
         >
           {photoCredit.label}
         </a>
