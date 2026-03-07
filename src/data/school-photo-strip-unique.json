@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-07T00:35:24.421Z",
+  "generatedAt": "2026-03-07T11:54:49.213Z",
   "slugs": {
     "acg-school-jakarta": [
       "/images/schools/acg-school-jakarta/campus.webp",
@@ -552,7 +552,9 @@
     ],
     "berkeley-international-school": [
       "/images/schools/berkeley-international-school/profile.webp",
-      "/images/schools/berkeley-international-school/photo2.webp"
+      "/images/schools/berkeley-international-school/photo1.webp",
+      "/images/schools/berkeley-international-school/photo2.webp",
+      "/images/schools/berkeley-international-school/photo3.webp"
     ],
     "bromsgrove-international-school-thailand": [
       "/images/schools/bromsgrove-international-school-thailand/profile.webp",
@@ -576,7 +578,9 @@
     ],
     "dbs-denla-british-school": [
       "/images/schools/dbs-denla-british-school/profile.webp",
-      "/images/schools/dbs-denla-british-school/photo2.webp"
+      "/images/schools/dbs-denla-british-school/photo1.webp",
+      "/images/schools/dbs-denla-british-school/photo2.webp",
+      "/images/schools/dbs-denla-british-school/photo3.webp"
     ],
     "ekamai-international-school": [
       "/images/schools/ekamai-international-school/profile.webp",
@@ -612,7 +616,9 @@
     ],
     "kis-international-school": [
       "/images/schools/kis-international-school/profile.webp",
-      "/images/schools/kis-international-school/photo2.webp"
+      "/images/schools/kis-international-school/photo1.webp",
+      "/images/schools/kis-international-school/photo2.webp",
+      "/images/schools/kis-international-school/photo3.webp"
     ],
     "lycee-francais-international-de": [
       "/images/schools/lycee-francais-international-de/profile.webp",
@@ -783,6 +789,42 @@
     "basis-international-school": [
       "/images/schools/basis-international-school/profile.webp",
       "/images/schools/basis-international-school/photo1.webp"
+    ],
+    "kis-international-school-reignwood-park": [
+      "/images/schools/kis-international-school-reignwood-park/profile.webp",
+      "/images/schools/kis-international-school-reignwood-park/photo1.webp",
+      "/images/schools/kis-international-school-reignwood-park/photo2.webp",
+      "/images/schools/kis-international-school-reignwood-park/photo3.webp"
+    ],
+    "st-andrews-samakee-international-school": [
+      "/images/schools/st-andrews-samakee-international-school/profile.webp",
+      "/images/schools/st-andrews-samakee-international-school/photo1.webp",
+      "/images/schools/st-andrews-samakee-international-school/photo2.webp",
+      "/images/schools/st-andrews-samakee-international-school/photo3.webp"
+    ],
+    "xcl-american-school-of": [
+      "/images/schools/xcl-american-school-of/profile.webp",
+      "/images/schools/xcl-american-school-of/photo1.webp",
+      "/images/schools/xcl-american-school-of/photo2.webp",
+      "/images/schools/xcl-american-school-of/photo3.webp"
+    ],
+    "british-mandarin-international-school": [
+      "/images/schools/british-mandarin-international-school/profile.webp",
+      "/images/schools/british-mandarin-international-school/photo1.webp",
+      "/images/schools/british-mandarin-international-school/photo2.webp",
+      "/images/schools/british-mandarin-international-school/photo3.webp"
+    ],
+    "montessori-academy-bangkok-international-school": [
+      "/images/schools/montessori-academy-bangkok-international-school/profile.webp",
+      "/images/schools/montessori-academy-bangkok-international-school/photo1.webp",
+      "/images/schools/montessori-academy-bangkok-international-school/photo2.webp",
+      "/images/schools/montessori-academy-bangkok-international-school/photo3.webp"
+    ],
+    "st-andrews-international-school-sukhumvit-107": [
+      "/images/schools/st-andrews-international-school-sukhumvit-107/profile.webp",
+      "/images/schools/st-andrews-international-school-sukhumvit-107/photo1.webp",
+      "/images/schools/st-andrews-international-school-sukhumvit-107/photo2.webp",
+      "/images/schools/st-andrews-international-school-sukhumvit-107/photo3.webp"
     ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-07T01:34:50.613Z",
+  "generatedAt": "2026-03-07T11:57:43.020Z",
   "sourceRoot": "external/jakarta-school-automation-images",
   "slugs": {
     "acg-school-jakarta": {
@@ -972,8 +972,8 @@
     "berkeley-international-school": {
       "card": "/images/schools/berkeley-international-school/card.webp",
       "profile": "/images/schools/berkeley-international-school/profile.webp",
-      "sourceFolder": "The Guide/Images",
-      "sourceFile": "Bangkok_Berkeley_International_School_campus1.jpg",
+      "sourceFolder": "more images",
+      "sourceFile": "Berkley",
       "photo1": "/images/schools/berkeley-international-school/photo1.webp",
       "photo2": "/images/schools/berkeley-international-school/photo2.webp",
       "photo3": "/images/schools/berkeley-international-school/photo3.webp"
@@ -1026,8 +1026,8 @@
     "dbs-denla-british-school": {
       "card": "/images/schools/dbs-denla-british-school/card.webp",
       "profile": "/images/schools/dbs-denla-british-school/profile.webp",
-      "sourceFolder": "The Guide/Images",
-      "sourceFile": "Bangkok_Denla_British_School_campus1.jpg",
+      "sourceFolder": "more images",
+      "sourceFile": "DBS Denla",
       "photo1": "/images/schools/dbs-denla-british-school/photo1.webp",
       "photo2": "/images/schools/dbs-denla-british-school/photo2.webp",
       "photo3": "/images/schools/dbs-denla-british-school/photo3.webp"
@@ -1107,8 +1107,8 @@
     "kis-international-school": {
       "card": "/images/schools/kis-international-school/card.webp",
       "profile": "/images/schools/kis-international-school/profile.webp",
-      "sourceFolder": "The Guide/Images",
-      "sourceFile": "Bangkok_KIS_International_School_campus1.jpg",
+      "sourceFolder": "more images",
+      "sourceFile": "KIS International School Bangkok Huai Khwang ",
       "photo1": "/images/schools/kis-international-school/photo1.webp",
       "photo2": "/images/schools/kis-international-school/photo2.webp",
       "photo3": "/images/schools/kis-international-school/photo3.webp"
@@ -1467,6 +1467,60 @@
       "photo1": "/images/schools/basis-international-school/photo1.webp",
       "sourceFolder": "assets",
       "sourceFile": "BASIS International School Bangkok"
+    },
+    "kis-international-school-reignwood-park": {
+      "profile": "/images/schools/kis-international-school-reignwood-park/profile.webp",
+      "card": "/images/schools/kis-international-school-reignwood-park/card.webp",
+      "photo1": "/images/schools/kis-international-school-reignwood-park/photo1.webp",
+      "photo2": "/images/schools/kis-international-school-reignwood-park/photo2.webp",
+      "photo3": "/images/schools/kis-international-school-reignwood-park/photo3.webp",
+      "sourceFolder": "more images",
+      "sourceFile": "KIS Intl Bangkok Reignwood Park"
+    },
+    "st-andrews-samakee-international-school": {
+      "profile": "/images/schools/st-andrews-samakee-international-school/profile.webp",
+      "card": "/images/schools/st-andrews-samakee-international-school/card.webp",
+      "photo1": "/images/schools/st-andrews-samakee-international-school/photo1.webp",
+      "photo2": "/images/schools/st-andrews-samakee-international-school/photo2.webp",
+      "photo3": "/images/schools/st-andrews-samakee-international-school/photo3.webp",
+      "sourceFolder": "more images",
+      "sourceFile": "St Andrews Samakee International School Bangkok Nonthaburi"
+    },
+    "xcl-american-school-of": {
+      "profile": "/images/schools/xcl-american-school-of/profile.webp",
+      "card": "/images/schools/xcl-american-school-of/card.webp",
+      "photo1": "/images/schools/xcl-american-school-of/photo1.webp",
+      "photo2": "/images/schools/xcl-american-school-of/photo2.webp",
+      "photo3": "/images/schools/xcl-american-school-of/photo3.webp",
+      "sourceFolder": "more images",
+      "sourceFile": "XCL Bangkok"
+    },
+    "british-mandarin-international-school": {
+      "profile": "/images/schools/british-mandarin-international-school/profile.webp",
+      "card": "/images/schools/british-mandarin-international-school/card.webp",
+      "photo1": "/images/schools/british-mandarin-international-school/photo1.webp",
+      "photo2": "/images/schools/british-mandarin-international-school/photo2.webp",
+      "photo3": "/images/schools/british-mandarin-international-school/photo3.webp",
+      "sourceFolder": "more images",
+      "sourceFile": "british mandarin intl school bangkok"
+    },
+    "montessori-academy-bangkok-international-school": {
+      "profile": "/images/schools/montessori-academy-bangkok-international-school/profile.webp",
+      "card": "/images/schools/montessori-academy-bangkok-international-school/card.webp",
+      "sourceFolder": "more images",
+      "sourceFile": "montessori academy bangkok international school",
+      "photo1": "/images/schools/montessori-academy-bangkok-international-school/photo1.webp",
+      "photo2": "/images/schools/montessori-academy-bangkok-international-school/photo2.webp",
+      "photo3": "/images/schools/montessori-academy-bangkok-international-school/photo3.webp"
+    },
+    "st-andrews-international-school-sukhumvit-107": {
+      "profile": "/images/schools/st-andrews-international-school-sukhumvit-107/profile.webp",
+      "card": "/images/schools/st-andrews-international-school-sukhumvit-107/card.webp",
+      "photo1": "/images/schools/st-andrews-international-school-sukhumvit-107/photo1.webp",
+      "photo2": "/images/schools/st-andrews-international-school-sukhumvit-107/photo2.webp",
+      "photo3": "/images/schools/st-andrews-international-school-sukhumvit-107/photo3.webp",
+      "sourceFolder": "more images",
+      "sourceFile": "St Andrews International School Sukhumvit 107 Bangkok"
     }
   }
 }
