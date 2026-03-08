@@ -8,7 +8,7 @@ export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const navLinks = [
-    { href: "/cities", label: "Schools" },
+    { href: "/cities", label: "Browse by city" },
     { href: "/insights/", label: "Insights" },
     { href: "/about/", label: "About" },
   ];
