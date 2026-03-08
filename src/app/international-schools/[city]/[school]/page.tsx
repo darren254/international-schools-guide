@@ -207,7 +207,7 @@ export default function SchoolProfilePage({
               : [profileUrl, ...galleryUrls].filter(Boolean);
           const seen = new Set<string>();
           return stripUrls.map((src, i) => {
-            const isDuplicate = seen.has(src);
+            const isDuplicate = src != null && seen.has(src);
             if (src) seen.add(src);
             const label = PHOTO_STRIP_LABELS[i % PHOTO_STRIP_LABELS.length];
             return {
@@ -315,6 +315,13 @@ export default function SchoolProfilePage({
             email={s.contact.email}
             website={s.contact.website}
           />
+
+          {/* Created / Last updated — very subtle */}
+          <p className="mt-12 pt-6 border-t border-warm-border-light text-[11px] text-charcoal-muted/70 tracking-wide">
+            {s.created && <span>Created {s.created}</span>}
+            {s.created && <span className="mx-2" aria-hidden>·</span>}
+            <span>Last updated {s.lastUpdated}</span>
+          </p>
         </div>
 
         {/* Sidebar */}

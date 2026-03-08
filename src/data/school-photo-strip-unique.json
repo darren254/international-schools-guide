@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T02:32:30.208Z",
+  "generatedAt": "2026-03-08T05:29:55.086Z",
   "slugs": {
     "acg-school-jakarta": [
       "/images/schools/acg-school-jakarta/campus.webp",
@@ -1981,6 +1981,9 @@
     "welearn-academy": [
       "/images/schools/welearn-academy/profile.webp",
       "/images/schools/welearn-academy/photo1.webp"
+    ],
+    "hkca-po-leung-kuk-school": [
+      "/images/schools/hkca-po-leung-kuk-school/photo2.webp"
     ]
   }
 }

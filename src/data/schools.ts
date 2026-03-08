@@ -54,6 +54,8 @@ export interface SchoolProfile {
   // ── Masthead ──
   campuses: Campus[];
   lastUpdated: string;
+  /** Optional: when the profile was first created (e.g. "February 2026"). */
+  created?: string;
   curricula: string[];
   stats: { value: string; label: string }[];
 

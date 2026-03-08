@@ -50,7 +50,7 @@ const IMAGE_ALIAS_SLUGS: Record<string, string> = {
   "sekolah-cita-buana": "cita-buana-school",
 };
 
-const GALLERY_KEYS = Array.from({ length: 20 }, (_, i) => `photo${i + 1}`) as const;
+const GALLERY_KEYS: readonly string[] = Array.from({ length: 20 }, (_, i) => `photo${i + 1}`);
 
 function normalizeUrl(url: string): string {
   if (url.startsWith("//") && url.slice(2).startsWith("images/")) return "/" + url.slice(2);
