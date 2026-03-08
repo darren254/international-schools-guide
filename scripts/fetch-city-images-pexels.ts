@@ -23,7 +23,8 @@ type CityImageConfig = {
 };
 
 const CITIES_TO_FETCH: CityImageConfig[] = [
-  { slug: "singapore", pexelsPhotoId: "3583192" },
+  { slug: "singapore", pexelsPhotoId: "14337953" },
+  { slug: "jakarta", pexelsPhotoId: "4984212" },
   { slug: "london", pexelsPhotoId: "16622396" },
   { slug: "riyadh", pexelsPhotoId: "325185" },
   { slug: "doha", pexelsPhotoId: "4515573" },
