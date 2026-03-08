@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T02:24:51.928Z",
+  "generatedAt": "2026-03-08T02:25:58.542Z",
   "sourceRoot": "external/jakarta-school-automation-images",
   "slugs": {
     "acg-school-jakarta": {
@@ -3277,6 +3277,265 @@
       "sourceFolder": "images-hongkong",
       "sourceFile": "Yew-Chung-International-School-Hong-Kong_1.jpg",
       "photo1": "/images/schools/yew-chung-international-school/photo1.webp"
+    },
+    "ait-international-school": {
+      "profile": "/images/schools/ait-international-school/profile.webp",
+      "card": "/images/schools/ait-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "AIT-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/ait-international-school/photo1.webp"
+    },
+    "aster-international-school": {
+      "profile": "/images/schools/aster-international-school/profile.webp",
+      "card": "/images/schools/aster-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Aster-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/aster-international-school/photo1.webp"
+    },
+    "astra-academy-international-school": {
+      "profile": "/images/schools/astra-academy-international-school/profile.webp",
+      "card": "/images/schools/astra-academy-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Astra-Academy-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/astra-academy-international-school/photo1.webp"
+    },
+    "bsb-british-international-primary-school": {
+      "profile": "/images/schools/bsb-british-international-primary-school/profile.webp",
+      "card": "/images/schools/bsb-british-international-primary-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "BSB-British-International-Primary-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/bsb-british-international-primary-school/photo1.webp"
+    },
+    "bangkok-adventist-international-school": {
+      "profile": "/images/schools/bangkok-adventist-international-school/profile.webp",
+      "card": "/images/schools/bangkok-adventist-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Bangkok-Adventist-International-School_1.jpg",
+      "photo1": "/images/schools/bangkok-adventist-international-school/photo1.webp"
+    },
+    "bangkok-chicago-christian-international-school": {
+      "profile": "/images/schools/bangkok-chicago-christian-international-school/profile.webp",
+      "card": "/images/schools/bangkok-chicago-christian-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Bangkok-Chicago-Christian-International-School_1.jpg",
+      "photo1": "/images/schools/bangkok-chicago-christian-international-school/photo1.webp"
+    },
+    "bangkok-grace-international-school": {
+      "profile": "/images/schools/bangkok-grace-international-school/profile.webp",
+      "card": "/images/schools/bangkok-grace-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Bangkok-Grace-International-School_1.jpg",
+      "photo1": "/images/schools/bangkok-grace-international-school/photo1.webp"
+    },
+    "beaconhouse-yamsaard-international-school": {
+      "profile": "/images/schools/beaconhouse-yamsaard-international-school/profile.webp",
+      "card": "/images/schools/beaconhouse-yamsaard-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Beaconhouse-Yamsaard-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/beaconhouse-yamsaard-international-school/photo1.webp"
+    },
+    "british-columbia-international-school": {
+      "profile": "/images/schools/british-columbia-international-school/profile.webp",
+      "card": "/images/schools/british-columbia-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "British-Columbia-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/british-columbia-international-school/photo1.webp"
+    },
+    "centurion-international-school": {
+      "profile": "/images/schools/centurion-international-school/profile.webp",
+      "card": "/images/schools/centurion-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Centurion-International-School-Bangkok_1.png",
+      "photo1": "/images/schools/centurion-international-school/photo1.webp"
+    },
+    "crescent-international-school": {
+      "profile": "/images/schools/crescent-international-school/profile.webp",
+      "card": "/images/schools/crescent-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Crescent-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/crescent-international-school/photo1.webp"
+    },
+    "elc-family-of-international-schools": {
+      "profile": "/images/schools/elc-family-of-international-schools/profile.webp",
+      "card": "/images/schools/elc-family-of-international-schools/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "ELC-Family-of-International-Schools-Bangkok_1.jpg",
+      "photo1": "/images/schools/elc-family-of-international-schools/photo1.webp"
+    },
+    "future-steps-international-school": {
+      "profile": "/images/schools/future-steps-international-school/profile.webp",
+      "card": "/images/schools/future-steps-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Future-Steps-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/future-steps-international-school/photo1.webp"
+    },
+    "international-christian-school-nonthaburi": {
+      "profile": "/images/schools/international-christian-school-nonthaburi/profile.webp",
+      "card": "/images/schools/international-christian-school-nonthaburi/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "International-Christian-School-Nonthaburi-Bangkok_1.jpg",
+      "photo1": "/images/schools/international-christian-school-nonthaburi/photo1.webp"
+    },
+    "international-pioneers-school": {
+      "profile": "/images/schools/international-pioneers-school/profile.webp",
+      "card": "/images/schools/international-pioneers-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "International-Pioneers-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/international-pioneers-school/photo1.webp"
+    },
+    "invictus-international-programme": {
+      "profile": "/images/schools/invictus-international-programme/profile.webp",
+      "card": "/images/schools/invictus-international-programme/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Invictus-International-Programme-Bangkok_1.jpg",
+      "photo1": "/images/schools/invictus-international-programme/photo1.webp"
+    },
+    "john-wyatt-montessori-bangkok-campus": {
+      "profile": "/images/schools/john-wyatt-montessori-bangkok-campus/profile.webp",
+      "card": "/images/schools/john-wyatt-montessori-bangkok-campus/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "John-Wyatt-Montessori-Bangkok-Campus_1.jpg",
+      "photo1": "/images/schools/john-wyatt-montessori-bangkok-campus/photo1.webp"
+    },
+    "kpis-international-school": {
+      "profile": "/images/schools/kpis-international-school/profile.webp",
+      "card": "/images/schools/kpis-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "KPIS-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/kpis-international-school/photo1.webp"
+    },
+    "knightsbridge-house-nonthaburi": {
+      "profile": "/images/schools/knightsbridge-house-nonthaburi/profile.webp",
+      "card": "/images/schools/knightsbridge-house-nonthaburi/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Knightsbridge-House-Nonthaburi-Bangkok_1.webp",
+      "photo1": "/images/schools/knightsbridge-house-nonthaburi/photo1.webp"
+    },
+    "lertlah-school": {
+      "profile": "/images/schools/lertlah-school/profile.webp",
+      "card": "/images/schools/lertlah-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Lertlah-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/lertlah-school/photo1.webp"
+    },
+    "new-day-learning": {
+      "profile": "/images/schools/new-day-learning/profile.webp",
+      "card": "/images/schools/new-day-learning/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "New-Day-Learning-Bangkok_1.png",
+      "photo1": "/images/schools/new-day-learning/photo1.webp"
+    },
+    "niva-american-international-school": {
+      "profile": "/images/schools/niva-american-international-school/profile.webp",
+      "card": "/images/schools/niva-american-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Niva-American-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/niva-american-international-school/photo1.webp"
+    },
+    "pensmith-school": {
+      "profile": "/images/schools/pensmith-school/profile.webp",
+      "card": "/images/schools/pensmith-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Pensmith-International-School_1.jpg",
+      "photo1": "/images/schools/pensmith-school/photo1.webp"
+    },
+    "rbis-international-school": {
+      "profile": "/images/schools/rbis-international-school/profile.webp",
+      "card": "/images/schools/rbis-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "RBIS-International-School-Bangkok_1.png",
+      "photo1": "/images/schools/rbis-international-school/photo1.webp"
+    },
+    "rc-international-school": {
+      "profile": "/images/schools/rc-international-school/profile.webp",
+      "card": "/images/schools/rc-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "RC-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/rc-international-school/photo1.webp"
+    },
+    "raffles-american-school": {
+      "profile": "/images/schools/raffles-american-school/profile.webp",
+      "card": "/images/schools/raffles-american-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Raffles-American-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/raffles-american-school/photo1.webp"
+    },
+    "rising-oaks-international-school": {
+      "profile": "/images/schools/rising-oaks-international-school/profile.webp",
+      "card": "/images/schools/rising-oaks-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Rising-Oaks-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/rising-oaks-international-school/photo1.webp"
+    },
+    "roong-aroon-international-school": {
+      "profile": "/images/schools/roong-aroon-international-school/profile.webp",
+      "card": "/images/schools/roong-aroon-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Roong-Aroon-International-School_1.jpg",
+      "photo1": "/images/schools/roong-aroon-international-school/photo1.webp"
+    },
+    "rose-marie-academy": {
+      "profile": "/images/schools/rose-marie-academy/profile.webp",
+      "card": "/images/schools/rose-marie-academy/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Rose-Marie-Academy-Bangkok_1.jpg",
+      "photo1": "/images/schools/rose-marie-academy/photo1.webp"
+    },
+    "royce-royal-international-school": {
+      "profile": "/images/schools/royce-royal-international-school/profile.webp",
+      "card": "/images/schools/royce-royal-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Royce-Royal-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/royce-royal-international-school/photo1.webp"
+    },
+    "satit-pattana-secondary-school": {
+      "profile": "/images/schools/satit-pattana-secondary-school/profile.webp",
+      "card": "/images/schools/satit-pattana-secondary-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Satit-Pattana-Secondary-School_1.jpg",
+      "photo1": "/images/schools/satit-pattana-secondary-school/photo1.webp"
+    },
+    "sequoia-nova-international-primary-school": {
+      "profile": "/images/schools/sequoia-nova-international-primary-school/profile.webp",
+      "card": "/images/schools/sequoia-nova-international-primary-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Sequoia-Nova-International-Primary-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/sequoia-nova-international-primary-school/photo1.webp"
+    },
+    "siam-international-school": {
+      "profile": "/images/schools/siam-international-school/profile.webp",
+      "card": "/images/schools/siam-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Siam-International-School-Bangkok_1.png",
+      "photo1": "/images/schools/siam-international-school/photo1.webp"
+    },
+    "siam-singapore-international-school": {
+      "profile": "/images/schools/siam-singapore-international-school/profile.webp",
+      "card": "/images/schools/siam-singapore-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Siam-Singapore-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/siam-singapore-international-school/photo1.webp"
+    },
+    "thai-singapore-international-school": {
+      "profile": "/images/schools/thai-singapore-international-school/profile.webp",
+      "card": "/images/schools/thai-singapore-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Thai-Singapore-International-School-Bangkok_1.jpg",
+      "photo1": "/images/schools/thai-singapore-international-school/photo1.webp"
+    },
+    "tsi-international-school": {
+      "profile": "/images/schools/tsi-international-school/profile.webp",
+      "card": "/images/schools/tsi-international-school/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Tsi-International-School-Bangkok_1.webp",
+      "photo1": "/images/schools/tsi-international-school/photo1.webp"
+    },
+    "welearn-academy": {
+      "profile": "/images/schools/welearn-academy/profile.webp",
+      "card": "/images/schools/welearn-academy/card.webp",
+      "sourceFolder": "images-bangkok",
+      "sourceFile": "Welearn-Academy-Bangkok_1.png",
+      "photo1": "/images/schools/welearn-academy/photo1.webp"
     }
   }
 }
