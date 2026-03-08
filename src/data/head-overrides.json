@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-06T01:34:26.815Z",
+  "generatedAt": "2026-03-08T04:50:17.340Z",
   "slugs": {
     "the-winstedt-school": {
       "name": "Nicholas Andrew Fawcett",
@@ -223,6 +223,30 @@
     },
     "basis-international-school": {
       "name": "Steve Lupton",
+      "title": "Head of School"
+    },
+    "5-steps-academy": {
+      "name": "Mr. Sripalan Chandra Mohan",
+      "title": "Executive Director"
+    },
+    "american-international-school": {
+      "name": "Ms. Diana Lo",
+      "title": "Principal"
+    },
+    "ajman-academy": {
+      "name": "Natalia Svetenok",
+      "title": "Principal"
+    },
+    "abedeen-international-school": {
+      "name": "Dr. Inderjeet Singh",
+      "title": "Executive Principal"
+    },
+    "holy-angels-school": {
+      "name": "Benjamin Tsao",
+      "title": "Principal"
+    },
+    "ait-international-school": {
+      "name": "Dr. Connie Kim",
       "title": "Head of School"
     }
   }
