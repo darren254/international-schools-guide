@@ -77,6 +77,7 @@ Then open `http://localhost:3000/admin`. The UI will load, but **login and all a
 
 - **DATABASE_URL** — Set in Cloudflare Pages → your project → Settings → Environment variables (required for admin login and school list).
 - **R2** (optional) — Create an R2 bucket and add a bucket binding named `R2_BUCKET` if you want image uploads in admin; otherwise you can add images by URL only.
+- **APIFY_TOKEN** (optional) — Required for the admin **Image Scraper** (Admin → Image Scraper). Get a token from [apify.com](https://apify.com); add it to Cloudflare Pages env and to `.dev.vars` for local. If not set, the scraper API returns 503.
 
 Steps:
 

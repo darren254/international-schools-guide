@@ -4,6 +4,7 @@ export type AdminEnv = {
   DATABASE_URL?: string;
   ADMIN_SESSION_SECRET?: string;
   R2_BUCKET?: { put: (key: string, value: ArrayBuffer | ReadableStream, options?: unknown) => Promise<unknown> };
+  APIFY_TOKEN?: string;
 };
 
 export async function getAdminSql(env: AdminEnv) {

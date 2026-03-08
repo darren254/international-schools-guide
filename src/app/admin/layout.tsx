@@ -26,6 +26,9 @@ export default function AdminLayout({
             <Link href="/admin/schools" className="text-charcoal-muted hover:text-primary">
               Schools
             </Link>
+            <Link href="/admin/image-scraper" className="text-charcoal-muted hover:text-primary">
+              Image Scraper
+            </Link>
             {pathname !== "/admin/login" && (
               <button type="button" onClick={handleLogout} className="text-charcoal-muted hover:text-primary">
                 Log out

@@ -29,6 +29,7 @@ Keep this section up to date when we add services. Never suggest alternatives we
 | | NewsData.io | News. `NEWSDATA_API_KEY`. |
 | | GA4 | Analytics. `NEXT_PUBLIC_GA_MEASUREMENT_ID`. |
 | **Admin auth** | Neon tables | `admin_users`, `admin_sessions`; session cookie. No Supabase, Auth0, etc. |
+| **Admin image scraper** | Apify | Optional. `APIFY_TOKEN` in Cloudflare (and in `.dev.vars` for local). Used by admin Image Scraper to fetch candidate images via Google Images actor. If missing, scraper returns 503. |
 
 ---
 
