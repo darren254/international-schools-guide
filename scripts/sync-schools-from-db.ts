@@ -16,6 +16,7 @@ import * as path from "path";
 import { neon } from "@neondatabase/serverless";
 
 const OUT_PATH = path.join(process.cwd(), "src/data/school-images.json");
+const LAST_PUBLISH_PATH = path.join(process.cwd(), "src/data/last-publish.json");
 const R2_PUBLIC_URL = process.env.R2_PUBLIC_URL ?? "";
 
 function normalizeImageUrl(url: string): string {
@@ -77,6 +78,7 @@ async function main() {
     slugs: merged,
   };
   fs.writeFileSync(OUT_PATH, JSON.stringify(out, null, 2));
+  fs.writeFileSync(LAST_PUBLISH_PATH, JSON.stringify({ publishedAt: out.generatedAt }, null, 2));
   console.log("Wrote", OUT_PATH, "—", Object.keys(slugs).length, "schools from DB,", Object.keys(merged).length, "total slugs");
 }
 
