@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-07T15:02:38.062Z",
+  "generatedAt": "2026-03-08T00:26:38.090Z",
   "sourceRoot": "external/jakarta-school-automation-images",
   "slugs": {
     "acg-school-jakarta": {
@@ -1521,6 +1521,85 @@
       "photo3": "/images/schools/st-andrews-international-school-sukhumvit-107/photo3.webp",
       "sourceFolder": "more images",
       "sourceFile": "St Andrews International School Sukhumvit 107 Bangkok"
+    },
+    "rd-american-school": {
+      "profile": "/images/schools/rd-american-school/profile.webp",
+      "card": "/images/schools/rd-american-school/card.webp",
+      "sourceFolder": "RD american international school singapore",
+      "sourceFile": "2025-09-09-1.webp",
+      "photo1": "/images/schools/rd-american-school/photo1.webp",
+      "photo2": "/images/schools/rd-american-school/photo2.webp",
+      "photo3": "/images/schools/rd-american-school/photo3.webp"
+    },
+    "etonhouse-international-school-broadrick": {
+      "profile": "/images/schools/etonhouse-international-school-broadrick/profile.webp",
+      "card": "/images/schools/etonhouse-international-school-broadrick/card.webp",
+      "sourceFolder": "etonhouse international school singapore",
+      "sourceFile": "Broadrick Mandarin Immersion Pathway thumbnail.webp",
+      "photo1": "/images/schools/etonhouse-international-school-broadrick/photo1.webp",
+      "photo2": "/images/schools/etonhouse-international-school-broadrick/photo2.webp",
+      "photo3": "/images/schools/etonhouse-international-school-broadrick/photo3.webp"
+    },
+    "etonhouse-international-school-orchard": {
+      "profile": "/images/schools/etonhouse-international-school-orchard/profile.webp",
+      "card": "/images/schools/etonhouse-international-school-orchard/card.webp",
+      "sourceFolder": "etonhouse international school singapore",
+      "sourceFile": "Broadrick Mandarin Immersion Pathway thumbnail.webp",
+      "photo1": "/images/schools/etonhouse-international-school-orchard/photo1.webp",
+      "photo2": "/images/schools/etonhouse-international-school-orchard/photo2.webp",
+      "photo3": "/images/schools/etonhouse-international-school-orchard/photo3.webp"
+    },
+    "the-guild-international-college": {
+      "profile": "/images/schools/the-guild-international-college/profile.webp",
+      "card": "/images/schools/the-guild-international-college/card.webp",
+      "sourceFolder": "guild international school ",
+      "sourceFile": "the_guild_international_college_cover.jpg",
+      "photo1": "/images/schools/the-guild-international-college/photo1.webp"
+    },
+    "kindle-kids-international-school": {
+      "profile": "/images/schools/kindle-kids-international-school/profile.webp",
+      "card": "/images/schools/kindle-kids-international-school/card.webp",
+      "sourceFolder": "kindle kids singapore",
+      "sourceFile": "1-10.jpg",
+      "photo1": "/images/schools/kindle-kids-international-school/photo1.webp",
+      "photo2": "/images/schools/kindle-kids-international-school/photo2.webp",
+      "photo3": "/images/schools/kindle-kids-international-school/photo3.webp"
+    },
+    "melbourne-international-school": {
+      "profile": "/images/schools/melbourne-international-school/profile.webp",
+      "card": "/images/schools/melbourne-international-school/card.webp",
+      "sourceFolder": "melbourne international school singapore",
+      "sourceFile": "2025-10-02-1.webp",
+      "photo1": "/images/schools/melbourne-international-school/photo1.webp",
+      "photo2": "/images/schools/melbourne-international-school/photo2.webp",
+      "photo3": "/images/schools/melbourne-international-school/photo3.webp"
+    },
+    "san-yu-adventist-school": {
+      "profile": "/images/schools/san-yu-adventist-school/profile.webp",
+      "card": "/images/schools/san-yu-adventist-school/card.webp",
+      "sourceFolder": "san yu adventist",
+      "sourceFile": "20220404_Canteen-scaled.jpg",
+      "photo1": "/images/schools/san-yu-adventist-school/photo1.webp",
+      "photo2": "/images/schools/san-yu-adventist-school/photo2.webp",
+      "photo3": "/images/schools/san-yu-adventist-school/photo3.webp"
+    },
+    "stalford-academy": {
+      "profile": "/images/schools/stalford-academy/profile.webp",
+      "card": "/images/schools/stalford-academy/card.webp",
+      "sourceFolder": "stalford academy singapore",
+      "sourceFile": "Screenshot 2026-03-07 at 8.17.48 pm.png",
+      "photo1": "/images/schools/stalford-academy/photo1.webp",
+      "photo2": "/images/schools/stalford-academy/photo2.webp",
+      "photo3": "/images/schools/stalford-academy/photo3.webp"
+    },
+    "westbourne-college": {
+      "profile": "/images/schools/westbourne-college/profile.webp",
+      "card": "/images/schools/westbourne-college/card.webp",
+      "sourceFolder": "westbourne college singapore",
+      "sourceFile": "Westbourne College.jpg",
+      "photo1": "/images/schools/westbourne-college/photo1.webp",
+      "photo2": "/images/schools/westbourne-college/photo2.webp",
+      "photo3": "/images/schools/westbourne-college/photo3.webp"
     }
   }
 }

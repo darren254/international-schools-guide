@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-07T11:54:49.213Z",
+  "generatedAt": "2026-03-08T00:24:14.844Z",
   "slugs": {
     "acg-school-jakarta": [
       "/images/schools/acg-school-jakarta/campus.webp",
@@ -825,6 +825,58 @@
       "/images/schools/st-andrews-international-school-sukhumvit-107/photo1.webp",
       "/images/schools/st-andrews-international-school-sukhumvit-107/photo2.webp",
       "/images/schools/st-andrews-international-school-sukhumvit-107/photo3.webp"
+    ],
+    "rd-american-school": [
+      "/images/schools/rd-american-school/profile.webp",
+      "/images/schools/rd-american-school/photo1.webp",
+      "/images/schools/rd-american-school/photo2.webp",
+      "/images/schools/rd-american-school/photo3.webp"
+    ],
+    "etonhouse-international-school-broadrick": [
+      "/images/schools/etonhouse-international-school-broadrick/profile.webp",
+      "/images/schools/etonhouse-international-school-broadrick/photo1.webp",
+      "/images/schools/etonhouse-international-school-broadrick/photo2.webp",
+      "/images/schools/etonhouse-international-school-broadrick/photo3.webp"
+    ],
+    "etonhouse-international-school-orchard": [
+      "/images/schools/etonhouse-international-school-orchard/profile.webp",
+      "/images/schools/etonhouse-international-school-orchard/photo1.webp",
+      "/images/schools/etonhouse-international-school-orchard/photo2.webp",
+      "/images/schools/etonhouse-international-school-orchard/photo3.webp"
+    ],
+    "the-guild-international-college": [
+      "/images/schools/the-guild-international-college/profile.webp",
+      "/images/schools/the-guild-international-college/photo1.webp"
+    ],
+    "kindle-kids-international-school": [
+      "/images/schools/kindle-kids-international-school/profile.webp",
+      "/images/schools/kindle-kids-international-school/photo1.webp",
+      "/images/schools/kindle-kids-international-school/photo2.webp",
+      "/images/schools/kindle-kids-international-school/photo3.webp"
+    ],
+    "melbourne-international-school": [
+      "/images/schools/melbourne-international-school/profile.webp",
+      "/images/schools/melbourne-international-school/photo1.webp",
+      "/images/schools/melbourne-international-school/photo2.webp",
+      "/images/schools/melbourne-international-school/photo3.webp"
+    ],
+    "san-yu-adventist-school": [
+      "/images/schools/san-yu-adventist-school/profile.webp",
+      "/images/schools/san-yu-adventist-school/photo1.webp",
+      "/images/schools/san-yu-adventist-school/photo2.webp",
+      "/images/schools/san-yu-adventist-school/photo3.webp"
+    ],
+    "stalford-academy": [
+      "/images/schools/stalford-academy/profile.webp",
+      "/images/schools/stalford-academy/photo1.webp",
+      "/images/schools/stalford-academy/photo2.webp",
+      "/images/schools/stalford-academy/photo3.webp"
+    ],
+    "westbourne-college": [
+      "/images/schools/westbourne-college/profile.webp",
+      "/images/schools/westbourne-college/photo1.webp",
+      "/images/schools/westbourne-college/photo2.webp",
+      "/images/schools/westbourne-college/photo3.webp"
     ]
   }
 }
