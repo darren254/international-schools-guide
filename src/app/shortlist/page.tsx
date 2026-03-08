@@ -16,6 +16,7 @@ import { CityCardImage } from "@/components/home/CityCardImage";
 import { useCurrency } from "@/context/CurrencyContext";
 import { getFeeDisplay } from "@/lib/utils/fees";
 import { getCityName } from "@/app/international-schools/city-configs";
+import { getSchoolDisplayName } from "@/lib/schools/head-images";
 
 const ALL_SCHOOLS = [
   ...JAKARTA_SCHOOLS.map((s) => ({ ...s, citySlug: "jakarta" as const })),
@@ -67,7 +68,7 @@ function toShortlistSchool(s: (typeof ALL_SCHOOLS)[0]): ShortlistSchool {
   return {
     slug: s.slug,
     citySlug: s.citySlug,
-    name: s.name,
+    name: getSchoolDisplayName(s.slug, { name: s.name, shortName: s.name.split(" ").slice(0, 3).join(" ") }),
     area: s.area,
     curricula: s.curricula,
     feeLabel: getFeeDisplay(s.feeRange, s.slug),

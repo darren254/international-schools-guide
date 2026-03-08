@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { SchoolProfile } from "@/data/schools";
 import { getSchoolImageUrl } from "@/lib/schools/images";
+import { getSchoolDisplayName } from "@/lib/schools/head-images";
 
 interface SchoolSnapshotCardProps {
   school: SchoolProfile;
@@ -13,6 +14,7 @@ export function SchoolSnapshotCard({ school }: SchoolSnapshotCardProps) {
   );
   const curriculum = school.curricula.slice(0, 2).join(" / ");
   const imageUrl = getSchoolImageUrl(school.slug, "card");
+  const displayName = getSchoolDisplayName(school.slug, school);
 
   return (
     <Link
@@ -22,7 +24,7 @@ export function SchoolSnapshotCard({ school }: SchoolSnapshotCardProps) {
       <div className="aspect-[16/10] bg-cream-200 border-b border-warm-border flex items-center justify-center overflow-hidden">
         {imageUrl ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={imageUrl} alt={school.name} className="w-full h-full object-cover brightness-[1.02] contrast-[1.02] saturate-[0.98]" loading="lazy" />
+          <img src={imageUrl} alt={displayName} className="w-full h-full object-cover brightness-[1.02] contrast-[1.02] saturate-[0.98]" loading="lazy" />
         ) : (
           <svg
             className="w-12 h-12 text-charcoal-muted/30"
@@ -42,7 +44,7 @@ export function SchoolSnapshotCard({ school }: SchoolSnapshotCardProps) {
       </div>
       <div className="p-4">
         <p className="font-display text-lg font-semibold mb-2 text-charcoal group-hover:text-primary transition-colors">
-          {school.name}
+          {displayName}
         </p>
         <div className="h-px bg-warm-border mb-3" aria-hidden />
         <dl className="space-y-1 text-sm font-sans text-charcoal">

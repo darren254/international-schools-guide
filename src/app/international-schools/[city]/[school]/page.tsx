@@ -19,7 +19,7 @@ import {
 import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 import type { CurrencyCode } from "@/lib/currency/rates";
 import { getSchoolImageUrl, getSchoolOgImageUrl } from "@/lib/schools/images";
-import { getHeadImageUrl, getHeadOverride, getHeadBioOverride } from "@/lib/schools/head-images";
+import { getHeadImageUrl, getHeadOverride, getHeadBioOverride, getSchoolDisplayName } from "@/lib/schools/head-images";
 import photoStripUnique from "@/data/school-photo-strip-unique.json";
 import { BackToResults } from "@/components/home/BackToResults";
 
@@ -62,6 +62,7 @@ export function generateMetadata({
   const canonical = `${BASE_URL}/international-schools/${school.citySlug}/${params.school}`;
   const ogImage = getSchoolOgImageUrl(params.school);
   const ogImageUrl = ogImage ? `${BASE_URL}${ogImage}` : `${BASE_URL}/og-default.png`;
+  const displayName = getSchoolDisplayName(params.school, school);
   return {
     title: school.metaTitle,
     description: school.metaDescription,
@@ -71,7 +72,7 @@ export function generateMetadata({
       description: school.metaDescription,
       url: canonical,
       type: "profile",
-      images: [{ url: ogImageUrl, width: 1200, height: 630, alt: school.name }],
+      images: [{ url: ogImageUrl, width: 1200, height: 630, alt: displayName }],
     },
   };
 }
@@ -90,6 +91,7 @@ export default function SchoolProfilePage({
   if (params.city !== s.citySlug) return notFound();
 
   const canonicalUrl = `${BASE_URL}/international-schools/${s.citySlug}/${params.school}`;
+  const displayName = getSchoolDisplayName(s.slug, s);
   const cityName = s.citySlug
     .split("-")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
@@ -105,14 +107,14 @@ export default function SchoolProfilePage({
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "International Schools", item: `${BASE_URL}/international-schools` },
       { "@type": "ListItem", position: 2, name: cityName, item: `${BASE_URL}/international-schools/${s.citySlug}` },
-      { "@type": "ListItem", position: 3, name: s.name, item: canonicalUrl },
+      { "@type": "ListItem", position: 3, name: displayName, item: canonicalUrl },
     ],
   };
 
   const educationalOrgJsonLd = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
-    name: s.name,
+    name: displayName,
     description: s.jsonLd.description,
     url: s.contact.website || canonicalUrl,
     ...(getSchoolImageUrl(s.slug, "profile") ? { image: `${BASE_URL}${getSchoolImageUrl(s.slug, "profile")}` } : {}),
@@ -152,14 +154,14 @@ export default function SchoolProfilePage({
         items={[
           { label: "International Schools", href: "/international-schools/" },
           { label: cityName, href: `/international-schools/${s.citySlug}/` },
-          { label: s.name },
+          { label: displayName },
         ]}
       />
 
       {/* Masthead */}
       <SchoolMasthead
         slug={s.slug}
-        name={s.name}
+        name={displayName}
         verified={s.verified}
         campuses={s.campuses.map((c) => ({
           name: c.name,
@@ -193,7 +195,7 @@ export default function SchoolProfilePage({
           const uniqueUrls = (photoStripUnique as { slugs: Record<string, string[]> }).slugs[s.slug];
           if (uniqueUrls && uniqueUrls.length > 0) {
             return PHOTO_STRIP_LABELS.map((label, i) => ({
-              alt: `${s.name} ${label}`,
+              alt: `${displayName} ${label}`,
               src: uniqueUrls[i],
             }));
           }
@@ -204,7 +206,7 @@ export default function SchoolProfilePage({
             const isDuplicate = src != null && seen.has(src);
             if (src) seen.add(src);
             return {
-              alt: `${s.name} ${PHOTO_STRIP_LABELS[variants.indexOf(variant)]}`,
+              alt: `${displayName} ${PHOTO_STRIP_LABELS[variants.indexOf(variant)]}`,
               src: isDuplicate ? undefined : src,
             };
           });
@@ -281,7 +283,7 @@ export default function SchoolProfilePage({
           {/* Location */}
           <CampusMap
             campuses={s.campuses}
-            currentSchoolName={s.name}
+            currentSchoolName={displayName}
             citySlug={s.citySlug}
             otherSchools={s.sidebar.otherSchools
               .map((os) => {
@@ -291,7 +293,7 @@ export default function SchoolProfilePage({
                 );
                 if (!first) return null;
                 return {
-                  name: os.name,
+                  name: getSchoolDisplayName(os.slug, profile ?? { name: os.name, shortName: os.name.split(" ").slice(0, 3).join(" ") }),
                   slug: os.slug,
                   meta: os.meta,
                   feeRange: os.feeRange,

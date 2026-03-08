@@ -85,8 +85,26 @@ function toSlug(s: string): string {
 function normalizeNameForMatch(name: string): string {
   return name
     .toLowerCase()
+    .replace(/\s*\([^)]*\)\s*/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+/** Score 0-100: how well directory name matches profile name (higher = better). */
+function scoreNameMatch(profileNameNorm: string, dirNameNorm: string): number {
+  if (profileNameNorm === dirNameNorm) return 100;
+  const p = profileNameNorm;
+  const d = dirNameNorm;
+  if (d.includes(p) || p.includes(d)) return 80;
+  const pWords = new Set(p.split(/\s+/).filter(Boolean));
+  const dWords = new Set(d.split(/\s+/).filter(Boolean));
+  let overlap = 0;
+  for (const w of pWords) {
+    if (dWords.has(w)) overlap++;
+    else if (w.length > 2 && [...dWords].some((dw) => dw.includes(w) || w.includes(dw))) overlap += 0.5;
+  }
+  const maxWords = Math.max(pWords.size, dWords.size, 1);
+  return Math.round((overlap / maxWords) * 60);
 }
 
 type DirectoryEntry = {
@@ -178,14 +196,19 @@ function parseDirectoryText(text: string): DirectoryEntry[] {
       inBio = true;
       continue;
     }
-
+    // When inBio, detect next school name before appending line to bio
+    if (inBio && line && line.length > 15 && /^(The |[A-Z][a-zA-Z]+).*(School|College|Academy|International|Institution|Centre|Institute)/.test(line)) {
+      if (schoolName && name) flush();
+      lastBareLine = line;
+      inBio = false;
+      continue;
+    }
     if (inBio && (title || name)) {
       if (line) bioLines.push(line);
       continue;
     }
-
     // Next entry: line looks like a school name (not a bio continuation)
-    if (line && line.length > 15 && /^(The |[A-Z][a-zA-Z]+).*(School|College|Academy|International|Institution|Centre)/.test(line) && !line.startsWith("Title:") && !line.startsWith("Name:") && !line.startsWith("Bio:")) {
+    if (line && line.length > 15 && /^(The |[A-Z][a-zA-Z]+).*(School|College|Academy|International|Institution|Centre|Institute)/.test(line) && !line.startsWith("Title:") && !line.startsWith("Name:") && !line.startsWith("Bio:")) {
       if (schoolName && name) flush();
       lastBareLine = line;
       inBio = false;
@@ -210,68 +233,83 @@ async function main() {
   const raw = inputPath.toLowerCase().endsWith(".docx")
     ? extractTextFromDocx(inputPath)
     : fs.readFileSync(inputPath, "utf-8");
-  const entries = parseDirectoryText(raw);
-  console.log("Parsed", entries.length, "directory entries");
+  const allEntries = parseDirectoryText(raw);
+  console.log("Parsed", allEntries.length, "directory entries");
+
+  const dirByKey = new Map<string, DirectoryEntry>();
+  for (const e of allEntries) {
+    const key = e.citySlug + "|" + normalizeNameForMatch(e.schoolName);
+    if (!dirByKey.has(key)) dirByKey.set(key, e);
+  }
+  const directory = [...dirByKey.values()];
+  console.log("After dedupe:", directory.length, "unique directory entries");
 
   const { SCHOOL_PROFILES } = await import("../src/data/schools");
-  const nameToSlugByCity: Record<string, Record<string, string>> = {};
-  for (const [slug, p] of Object.entries(SCHOOL_PROFILES)) {
-    const city = p.citySlug;
-    if (!nameToSlugByCity[city]) nameToSlugByCity[city] = {};
-    nameToSlugByCity[city][normalizeNameForMatch(p.name)] = slug;
-    nameToSlugByCity[city][normalizeNameForMatch(p.shortName)] = slug;
-    nameToSlugByCity[city][toSlug(p.name)] = slug;
+  const profiles = Object.entries(SCHOOL_PROFILES).map(([slug, p]) => ({ slug, ...p }));
+
+  const dirByCity = new Map<string, DirectoryEntry[]>();
+  for (const e of directory) {
+    if (!dirByCity.has(e.citySlug)) dirByCity.set(e.citySlug, []);
+    dirByCity.get(e.citySlug)!.push(e);
   }
 
-  function resolveSlug(citySlug: string, schoolName: string): string | null {
-    const key = citySlug + "|" + normalizeNameForMatch(schoolName);
-    if (DIRECTORY_NAME_ALIASES[key]) return DIRECTORY_NAME_ALIASES[key];
-    const byCity = nameToSlugByCity[citySlug];
-    if (!byCity) return null;
-    const normalized = normalizeNameForMatch(schoolName);
-    const slugified = toSlug(schoolName);
-    if (byCity[normalized]) return byCity[normalized];
-    if (byCity[slugified]) return byCity[slugified];
-    for (const [k, s] of Object.entries(byCity)) {
-      if (k.includes(normalized) || normalized.includes(k)) return s;
+  type Pair = { slug: string; entry: DirectoryEntry; score: number };
+  const pairs: Pair[] = [];
+  for (const profile of profiles) {
+    const cityDir = dirByCity.get(profile.citySlug) ?? [];
+    const profileNorm = normalizeNameForMatch(profile.name);
+    const shortNorm = normalizeNameForMatch(profile.shortName);
+    for (const e of cityDir) {
+      const dirNorm = normalizeNameForMatch(e.schoolName);
+      const score = Math.max(scoreNameMatch(profileNorm, dirNorm), scoreNameMatch(shortNorm, dirNorm));
+      pairs.push({ slug: profile.slug, entry: e, score });
     }
-    return null;
+  }
+  pairs.sort((a, b) => b.score - a.score);
+
+  const assignedSlugs = new Set<string>();
+  const assignedDirKeys = new Set<string>();
+  const slugToEntry = new Map<string, DirectoryEntry>();
+  for (const { slug, entry, score } of pairs) {
+    const dkey = entry.citySlug + "|" + normalizeNameForMatch(entry.schoolName);
+    if (assignedSlugs.has(slug) || assignedDirKeys.has(dkey)) continue;
+    if (score < 10) continue;
+    assignedSlugs.add(slug);
+    assignedDirKeys.add(dkey);
+    slugToEntry.set(slug, entry);
   }
 
-  const headOverrides: Record<string, { name: string; title?: string }> = {};
+  for (const profile of profiles) {
+    if (slugToEntry.has(profile.slug)) continue;
+    const cityDir = dirByCity.get(profile.citySlug) ?? [];
+    const profileNorm = normalizeNameForMatch(profile.name);
+    let best: { entry: DirectoryEntry; score: number } | null = null;
+    for (const e of cityDir) {
+      const dkey = e.citySlug + "|" + normalizeNameForMatch(e.schoolName);
+      if (assignedDirKeys.has(dkey)) continue;
+      const score = scoreNameMatch(profileNorm, normalizeNameForMatch(e.schoolName));
+      if (!best || score > best.score) best = { entry: e, score };
+    }
+    if (best) {
+      slugToEntry.set(profile.slug, best.entry);
+      assignedDirKeys.add(best.entry.citySlug + "|" + normalizeNameForMatch(best.entry.schoolName));
+    } else if (cityDir.length > 0) {
+      slugToEntry.set(profile.slug, cityDir[0]);
+    }
+  }
+
+  const headOverrides: Record<string, { name: string; title?: string; schoolDisplayName?: string }> = {};
   const headBios: Record<string, string> = {};
-  let matched = 0;
-  let missed: string[] = [];
-
-  // Keep existing overrides/bios for slugs we don't update from the directory
-  if (fs.existsSync(OUT_OVERRIDES_JSON)) {
-    const existing = JSON.parse(fs.readFileSync(OUT_OVERRIDES_JSON, "utf-8")) as { slugs: Record<string, { name: string; title?: string }> };
-    Object.assign(headOverrides, existing.slugs || {});
-  }
-  if (fs.existsSync(OUT_BIOS_JSON)) {
-    const existing = JSON.parse(fs.readFileSync(OUT_BIOS_JSON, "utf-8")) as { slugs: Record<string, string> };
-    Object.assign(headBios, existing.slugs || {});
-  }
-
-  for (const e of entries) {
-    const slug = resolveSlug(e.citySlug, e.schoolName);
-    if (!slug) {
-      missed.push(`${e.citySlug}: ${e.schoolName}`);
-      continue;
+  for (const profile of profiles) {
+    const e = slugToEntry.get(profile.slug);
+    if (e) {
+      headOverrides[profile.slug] = {
+        name: e.name,
+        title: e.title || undefined,
+        schoolDisplayName: e.schoolName,
+      };
+      if (e.bio) headBios[profile.slug] = e.bio;
     }
-    const profile = SCHOOL_PROFILES[slug];
-    const dirNorm = normalizeNameForMatch(e.schoolName);
-    const profileNameNorm = normalizeNameForMatch(profile.name);
-    const profileShortNorm = normalizeNameForMatch(profile.shortName);
-    const exactMatch =
-      dirNorm === profileNameNorm ||
-      dirNorm === profileShortNorm ||
-      profileNameNorm.includes(dirNorm) ||
-      dirNorm.includes(profileNameNorm);
-    if (!exactMatch) continue;
-    matched++;
-    headOverrides[slug] = { name: e.name, title: e.title || undefined };
-    if (e.bio) headBios[slug] = e.bio;
   }
 
   fs.writeFileSync(
@@ -283,12 +321,7 @@ async function main() {
     JSON.stringify({ generatedAt: new Date().toISOString(), slugs: headBios }, null, 2)
   );
   console.log("Wrote", OUT_OVERRIDES_JSON, "and", OUT_BIOS_JSON);
-  console.log("Matched", matched, "schools; overrides", Object.keys(headOverrides).length, "bios", Object.keys(headBios).length);
-  if (missed.length > 0 && missed.length <= 50) {
-    console.log("Unmatched (first 50):", missed.slice(0, 50).join("; "));
-  } else if (missed.length > 50) {
-    console.log("Unmatched count:", missed.length, "(first 30:", missed.slice(0, 30).join("; ") + ")");
-  }
+  console.log("Profiles:", profiles.length, "Overrides:", Object.keys(headOverrides).length, "Bios:", Object.keys(headBios).length);
 }
 
 main().catch((e) => {

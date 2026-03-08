@@ -13,6 +13,7 @@ import { getBangkokLocationFilter } from "@/data/bangkok-schools";
 import { getHongKongLocationFilter } from "@/data/hong-kong-schools";
 import { getKualaLumpurLocationFilter } from "@/data/kuala-lumpur-schools";
 import { getSchoolImageUrl } from "@/lib/schools/images";
+import { getSchoolDisplayName } from "@/lib/schools/head-images";
 import { useShortlistOptional } from "@/context/ShortlistContext";
 import { useCurrency } from "@/context/CurrencyContext";
 
@@ -125,7 +126,11 @@ export function ExploreSchoolsClient({
     );
     if (sort === "a-z" || sort === "z-a") {
       const dir = sort === "a-z" ? 1 : -1;
-      list = [...list].sort((a, b) => dir * a.name.localeCompare(b.name, undefined, { sensitivity: "base" }));
+      list = [...list].sort((a, b) => {
+        const nameA = getSchoolDisplayName(a.slug, { name: a.name, shortName: a.name.split(" ").slice(0, 3).join(" ") });
+        const nameB = getSchoolDisplayName(b.slug, { name: b.name, shortName: b.name.split(" ").slice(0, 3).join(" ") });
+        return dir * nameA.localeCompare(nameB, undefined, { sensitivity: "base" });
+      });
     } else {
       const sortMultiplier = sort === "high-low" ? -1 : 1;
       list = [...list].sort((a, b) => {
@@ -218,7 +223,7 @@ export function ExploreSchoolsClient({
               key={school.slug}
               citySlug={citySlug}
               hasProfile={profileSet.has(school.slug)}
-              name={school.name}
+              name={getSchoolDisplayName(school.slug, { name: school.name, shortName: school.name.split(" ").slice(0, 3).join(" ") })}
               slug={school.slug}
               verified={school.verified}
               curricula={school.curricula}
