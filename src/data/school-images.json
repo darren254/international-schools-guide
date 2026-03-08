@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T02:09:32.136Z",
+  "generatedAt": "2026-03-08T02:17:12.475Z",
   "sourceRoot": "external/jakarta-school-automation-images",
   "slugs": {
     "acg-school-jakarta": {
@@ -1600,6 +1600,1047 @@
       "photo1": "/images/schools/westbourne-college/photo1.webp",
       "photo2": "/images/schools/westbourne-college/photo2.webp",
       "photo3": "/images/schools/westbourne-college/photo3.webp"
+    },
+    "ajman-academy": {
+      "profile": "/images/schools/ajman-academy/profile.webp",
+      "card": "/images/schools/ajman-academy/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Ajman-Academy-Dubai_1.jpg",
+      "photo1": "/images/schools/ajman-academy/photo1.webp"
+    },
+    "al-diyafah-high-school": {
+      "profile": "/images/schools/al-diyafah-high-school/profile.webp",
+      "card": "/images/schools/al-diyafah-high-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Al-Diyafah-High-School-Dubai_1.jpg",
+      "photo1": "/images/schools/al-diyafah-high-school/photo1.webp"
+    },
+    "al-ittihad-private-school-jumeira": {
+      "profile": "/images/schools/al-ittihad-private-school-jumeira/profile.webp",
+      "card": "/images/schools/al-ittihad-private-school-jumeira/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Al-Ittihad-Private-School-Jumeira-Dubai_1.jpg",
+      "photo1": "/images/schools/al-ittihad-private-school-jumeira/photo1.webp"
+    },
+    "al-mawakeb-school": {
+      "profile": "/images/schools/al-mawakeb-school/profile.webp",
+      "card": "/images/schools/al-mawakeb-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Al-Mawakeb-School-Dubai_1.jpg",
+      "photo1": "/images/schools/al-mawakeb-school/photo1.webp"
+    },
+    "ambassador-international-academy": {
+      "profile": "/images/schools/ambassador-international-academy/profile.webp",
+      "card": "/images/schools/ambassador-international-academy/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Ambassador-International-Academy-Dubai_1.webp",
+      "photo1": "/images/schools/ambassador-international-academy/photo1.webp"
+    },
+    "ambassador-international-academy-mankhool": {
+      "profile": "/images/schools/ambassador-international-academy-mankhool/profile.webp",
+      "card": "/images/schools/ambassador-international-academy-mankhool/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Ambassador-International-Academy-Mankhool-Dubai_1.webp",
+      "photo1": "/images/schools/ambassador-international-academy-mankhool/photo1.webp"
+    },
+    "american-gulf-school": {
+      "profile": "/images/schools/american-gulf-school/profile.webp",
+      "card": "/images/schools/american-gulf-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "American-Gulf-School-Dubai_1.jpg",
+      "photo1": "/images/schools/american-gulf-school/photo1.webp"
+    },
+    "american-international-school": {
+      "profile": "/images/schools/american-international-school/profile.webp",
+      "card": "/images/schools/american-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "American-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/american-international-school/photo1.webp"
+    },
+    "american-school-of-creative-science-maliha": {
+      "profile": "/images/schools/american-school-of-creative-science-maliha/profile.webp",
+      "card": "/images/schools/american-school-of-creative-science-maliha/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "American-School-Of-Creative-Science-Maliha-Dubai_1.jpg",
+      "photo1": "/images/schools/american-school-of-creative-science-maliha/photo1.webp"
+    },
+    "american-school-of": {
+      "profile": "/images/schools/american-school-of/profile.webp",
+      "card": "/images/schools/american-school-of/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "American-School-Of-Dubai_1.jpg"
+    },
+    "arcadia-global-school": {
+      "profile": "/images/schools/arcadia-global-school/profile.webp",
+      "card": "/images/schools/arcadia-global-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Arcadia-Global-School-Dubai_1.webp",
+      "photo1": "/images/schools/arcadia-global-school/photo1.webp"
+    },
+    "arcadia-school": {
+      "profile": "/images/schools/arcadia-school/profile.webp",
+      "card": "/images/schools/arcadia-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Arcadia-School-Dubai_1.webp",
+      "photo1": "/images/schools/arcadia-school/photo1.webp"
+    },
+    "bloom-world-academy": {
+      "profile": "/images/schools/bloom-world-academy/profile.webp",
+      "card": "/images/schools/bloom-world-academy/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Bloom-World-Academy-Dubai_1.jpg",
+      "photo1": "/images/schools/bloom-world-academy/photo1.webp"
+    },
+    "bright-learners-private-school": {
+      "profile": "/images/schools/bright-learners-private-school/profile.webp",
+      "card": "/images/schools/bright-learners-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Bright-Learners-Private-School-Dubai_1.jpg",
+      "photo1": "/images/schools/bright-learners-private-school/photo1.webp"
+    },
+    "bright-riders-school": {
+      "profile": "/images/schools/bright-riders-school/profile.webp",
+      "card": "/images/schools/bright-riders-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Bright-Riders-School-Dubai_1.webp",
+      "photo1": "/images/schools/bright-riders-school/photo1.webp"
+    },
+    "british-international-school-ajman": {
+      "profile": "/images/schools/british-international-school-ajman/profile.webp",
+      "card": "/images/schools/british-international-school-ajman/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "British-International-School-Ajman-Dubai_1.jpg",
+      "photo1": "/images/schools/british-international-school-ajman/photo1.webp"
+    },
+    "clarion-school": {
+      "profile": "/images/schools/clarion-school/profile.webp",
+      "card": "/images/schools/clarion-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Clarion-School-Dubai_1.jpg",
+      "photo1": "/images/schools/clarion-school/photo1.webp"
+    },
+    "credence-high-school": {
+      "profile": "/images/schools/credence-high-school/profile.webp",
+      "card": "/images/schools/credence-high-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Credence-High-School-Dubai_1.jpg",
+      "photo1": "/images/schools/credence-high-school/photo1.webp"
+    },
+    "crown-american-private-school": {
+      "profile": "/images/schools/crown-american-private-school/profile.webp",
+      "card": "/images/schools/crown-american-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Crown-American-Private-School-Dubai_1.jpg",
+      "photo1": "/images/schools/crown-american-private-school/photo1.webp"
+    },
+    "dar-al-marefa-private-school": {
+      "profile": "/images/schools/dar-al-marefa-private-school/profile.webp",
+      "card": "/images/schools/dar-al-marefa-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dar-Al-Marefa-Private-School-Dubai_1.jpg",
+      "photo1": "/images/schools/dar-al-marefa-private-school/photo1.webp"
+    },
+    "deira-international-school": {
+      "profile": "/images/schools/deira-international-school/profile.webp",
+      "card": "/images/schools/deira-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Deira-International-School-Dubai_1.webp",
+      "photo1": "/images/schools/deira-international-school/photo1.webp"
+    },
+    "deira-private-school": {
+      "profile": "/images/schools/deira-private-school/profile.webp",
+      "card": "/images/schools/deira-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Deira-Private-School-Dubai_1.jpg",
+      "photo1": "/images/schools/deira-private-school/photo1.webp"
+    },
+    "deutsche-internationale-schule": {
+      "profile": "/images/schools/deutsche-internationale-schule/profile.webp",
+      "card": "/images/schools/deutsche-internationale-schule/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Deutsche-Internationale-Schule-Dubai_1.jpg",
+      "photo1": "/images/schools/deutsche-internationale-schule/photo1.webp"
+    },
+    "dhruv-global-school": {
+      "profile": "/images/schools/dhruv-global-school/profile.webp",
+      "card": "/images/schools/dhruv-global-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dhruv-Global-School-Dubai_1.jpg",
+      "photo1": "/images/schools/dhruv-global-school/photo1.webp"
+    },
+    "dove-green-private-school": {
+      "profile": "/images/schools/dove-green-private-school/profile.webp",
+      "card": "/images/schools/dove-green-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dove-Green-Private-School-Dubai_1.jpg",
+      "photo1": "/images/schools/dove-green-private-school/photo1.webp"
+    },
+    "dubai-arabian-american-private-school": {
+      "profile": "/images/schools/dubai-arabian-american-private-school/profile.webp",
+      "card": "/images/schools/dubai-arabian-american-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-Arabian-American-Private-School_1.jpg",
+      "photo1": "/images/schools/dubai-arabian-american-private-school/photo1.webp"
+    },
+    "dubai-british-school-emirates-hills": {
+      "profile": "/images/schools/dubai-british-school-emirates-hills/profile.webp",
+      "card": "/images/schools/dubai-british-school-emirates-hills/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-British-School-Emirates-Hills_1.jpg",
+      "photo1": "/images/schools/dubai-british-school-emirates-hills/photo1.webp"
+    },
+    "dubai-british-school-jumeira": {
+      "profile": "/images/schools/dubai-british-school-jumeira/profile.webp",
+      "card": "/images/schools/dubai-british-school-jumeira/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-British-School-Jumeira_1.jpg",
+      "photo1": "/images/schools/dubai-british-school-jumeira/photo1.webp"
+    },
+    "dubai-british-school-jumeirah-park": {
+      "profile": "/images/schools/dubai-british-school-jumeirah-park/profile.webp",
+      "card": "/images/schools/dubai-british-school-jumeirah-park/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-British-School-Jumeirah-Park_1.jpg",
+      "photo1": "/images/schools/dubai-british-school-jumeirah-park/photo1.webp"
+    },
+    "dubai-british-school-mira": {
+      "profile": "/images/schools/dubai-british-school-mira/profile.webp",
+      "card": "/images/schools/dubai-british-school-mira/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-British-School-Mira_1.jpg",
+      "photo1": "/images/schools/dubai-british-school-mira/photo1.webp"
+    },
+    "dubai-carmel-school": {
+      "profile": "/images/schools/dubai-carmel-school/profile.webp",
+      "card": "/images/schools/dubai-carmel-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-Carmel-School_1.jpg",
+      "photo1": "/images/schools/dubai-carmel-school/photo1.webp"
+    },
+    "dubai-english-speaking-college": {
+      "profile": "/images/schools/dubai-english-speaking-college/profile.webp",
+      "card": "/images/schools/dubai-english-speaking-college/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-English-Speaking-College_1.webp",
+      "photo1": "/images/schools/dubai-english-speaking-college/photo1.webp"
+    },
+    "dubai-english-speaking-school-academic-city": {
+      "profile": "/images/schools/dubai-english-speaking-school-academic-city/profile.webp",
+      "card": "/images/schools/dubai-english-speaking-school-academic-city/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-English-Speaking-School-Academic-City_1.jpg",
+      "photo1": "/images/schools/dubai-english-speaking-school-academic-city/photo1.webp"
+    },
+    "dubai-english-speaking-school-oud-metha": {
+      "profile": "/images/schools/dubai-english-speaking-school-oud-metha/profile.webp",
+      "card": "/images/schools/dubai-english-speaking-school-oud-metha/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-English-Speaking-School-Oud-Metha_1.jpg",
+      "photo1": "/images/schools/dubai-english-speaking-school-oud-metha/photo1.webp"
+    },
+    "dubai-heights-academy": {
+      "profile": "/images/schools/dubai-heights-academy/profile.webp",
+      "card": "/images/schools/dubai-heights-academy/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-Heights-Academy_1.jpg",
+      "photo1": "/images/schools/dubai-heights-academy/photo1.webp"
+    },
+    "dubai-international-academy-al-barsha": {
+      "profile": "/images/schools/dubai-international-academy-al-barsha/profile.webp",
+      "card": "/images/schools/dubai-international-academy-al-barsha/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-International-Academy-Al-Barsha_1.jpg",
+      "photo1": "/images/schools/dubai-international-academy-al-barsha/photo1.webp"
+    },
+    "dubai-international-academy-emirates-hills": {
+      "profile": "/images/schools/dubai-international-academy-emirates-hills/profile.webp",
+      "card": "/images/schools/dubai-international-academy-emirates-hills/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-International-Academy-Emirates-Hills_1.webp",
+      "photo1": "/images/schools/dubai-international-academy-emirates-hills/photo1.webp"
+    },
+    "dubai-international-academy-town-square": {
+      "profile": "/images/schools/dubai-international-academy-town-square/profile.webp",
+      "card": "/images/schools/dubai-international-academy-town-square/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-International-Academy-Town-Square_1.jpg",
+      "photo1": "/images/schools/dubai-international-academy-town-square/photo1.webp"
+    },
+    "dubai-international-private-school": {
+      "profile": "/images/schools/dubai-international-private-school/profile.webp",
+      "card": "/images/schools/dubai-international-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-International-Private-School_1.jpg",
+      "photo1": "/images/schools/dubai-international-private-school/photo1.webp"
+    },
+    "dubai-modern-education-school": {
+      "profile": "/images/schools/dubai-modern-education-school/profile.webp",
+      "card": "/images/schools/dubai-modern-education-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-Modern-Education-School_1.jpg",
+      "photo1": "/images/schools/dubai-modern-education-school/photo1.webp"
+    },
+    "dubai-national-school-al-barsha": {
+      "profile": "/images/schools/dubai-national-school-al-barsha/profile.webp",
+      "card": "/images/schools/dubai-national-school-al-barsha/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-National-School-Al-Barsha_1.jpg",
+      "photo1": "/images/schools/dubai-national-school-al-barsha/photo1.webp"
+    },
+    "dubai-scholars-private-school": {
+      "profile": "/images/schools/dubai-scholars-private-school/profile.webp",
+      "card": "/images/schools/dubai-scholars-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dubai-Scholars-Private-School_1.jpg",
+      "photo1": "/images/schools/dubai-scholars-private-school/photo1.webp"
+    },
+    "dunecrest-american-school": {
+      "profile": "/images/schools/dunecrest-american-school/profile.webp",
+      "card": "/images/schools/dunecrest-american-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dunecrest-American-School-Dubai_1.jpg",
+      "photo1": "/images/schools/dunecrest-american-school/photo1.webp"
+    },
+    "durham-school": {
+      "profile": "/images/schools/durham-school/profile.webp",
+      "card": "/images/schools/durham-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Durham-School-Dubai_1.webp",
+      "photo1": "/images/schools/durham-school/photo1.webp"
+    },
+    "dwight-school": {
+      "profile": "/images/schools/dwight-school/profile.webp",
+      "card": "/images/schools/dwight-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Dwight-School-Dubai_1.jpg",
+      "photo1": "/images/schools/dwight-school/photo1.webp"
+    },
+    "emirates-american-school": {
+      "profile": "/images/schools/emirates-american-school/profile.webp",
+      "card": "/images/schools/emirates-american-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Emirates-American-School-Dubai_1.jpg",
+      "photo1": "/images/schools/emirates-american-school/photo1.webp"
+    },
+    "emirates-international-school-jumeirah": {
+      "profile": "/images/schools/emirates-international-school-jumeirah/profile.webp",
+      "card": "/images/schools/emirates-international-school-jumeirah/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Emirates-International-School-Jumeirah-Dubai_1.jpg",
+      "photo1": "/images/schools/emirates-international-school-jumeirah/photo1.webp"
+    },
+    "emirates-international-school-meadows": {
+      "profile": "/images/schools/emirates-international-school-meadows/profile.webp",
+      "card": "/images/schools/emirates-international-school-meadows/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Emirates-International-School-Meadows-Dubai_1.jpg",
+      "photo1": "/images/schools/emirates-international-school-meadows/photo1.webp"
+    },
+    "fairgreen-international-school": {
+      "profile": "/images/schools/fairgreen-international-school/profile.webp",
+      "card": "/images/schools/fairgreen-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Fairgreen-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/fairgreen-international-school/photo1.webp"
+    },
+    "gems-dubai-american-academy": {
+      "profile": "/images/schools/gems-dubai-american-academy/profile.webp",
+      "card": "/images/schools/gems-dubai-american-academy/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Dubai-American-Academy_1.jpg",
+      "photo1": "/images/schools/gems-dubai-american-academy/photo1.webp"
+    },
+    "gems-firstpoint-school": {
+      "profile": "/images/schools/gems-firstpoint-school/profile.webp",
+      "card": "/images/schools/gems-firstpoint-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Firstpoint-School-Dubai_1.png",
+      "photo1": "/images/schools/gems-firstpoint-school/photo1.webp"
+    },
+    "gems-founders-school-al-mizhar": {
+      "profile": "/images/schools/gems-founders-school-al-mizhar/profile.webp",
+      "card": "/images/schools/gems-founders-school-al-mizhar/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Founders-School-Al-Mizhar-Dubai_1.jpg",
+      "photo1": "/images/schools/gems-founders-school-al-mizhar/photo1.webp"
+    },
+    "gems-founders-school-dubai-south": {
+      "profile": "/images/schools/gems-founders-school-dubai-south/profile.webp",
+      "card": "/images/schools/gems-founders-school-dubai-south/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Founders-School-Dubai-South_1.jpg",
+      "photo1": "/images/schools/gems-founders-school-dubai-south/photo1.webp"
+    },
+    "gems-founders-school": {
+      "profile": "/images/schools/gems-founders-school/profile.webp",
+      "card": "/images/schools/gems-founders-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Founders-School-Dubai_1.webp",
+      "photo1": "/images/schools/gems-founders-school/photo1.webp"
+    },
+    "gems-international-school-al-khail": {
+      "profile": "/images/schools/gems-international-school-al-khail/profile.webp",
+      "card": "/images/schools/gems-international-school-al-khail/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-International-School-Al-Khail-Dubai_1.jpg",
+      "photo1": "/images/schools/gems-international-school-al-khail/photo1.webp"
+    },
+    "gems-jumeirah-primary-school": {
+      "profile": "/images/schools/gems-jumeirah-primary-school/profile.webp",
+      "card": "/images/schools/gems-jumeirah-primary-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Jumeirah-Primary-School-Dubai_1.webp",
+      "photo1": "/images/schools/gems-jumeirah-primary-school/photo1.webp"
+    },
+    "gems-metropole-school-al-waha": {
+      "profile": "/images/schools/gems-metropole-school-al-waha/profile.webp",
+      "card": "/images/schools/gems-metropole-school-al-waha/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Metropole-School-Al-Waha-Dubai_1.png",
+      "photo1": "/images/schools/gems-metropole-school-al-waha/photo1.webp"
+    },
+    "gems-metropole-school": {
+      "profile": "/images/schools/gems-metropole-school/profile.webp",
+      "card": "/images/schools/gems-metropole-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Metropole-School-Dubai_1.jpg",
+      "photo1": "/images/schools/gems-metropole-school/photo1.webp"
+    },
+    "gems-modern-academy": {
+      "profile": "/images/schools/gems-modern-academy/profile.webp",
+      "card": "/images/schools/gems-modern-academy/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Modern-Academy-Dubai_1.jpg",
+      "photo1": "/images/schools/gems-modern-academy/photo1.webp"
+    },
+    "gems-new-millennium-school": {
+      "profile": "/images/schools/gems-new-millennium-school/profile.webp",
+      "card": "/images/schools/gems-new-millennium-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-New-Millennium-School-Dubai_1.jpg",
+      "photo1": "/images/schools/gems-new-millennium-school/photo1.webp"
+    },
+    "gems-royal-dubai-school": {
+      "profile": "/images/schools/gems-royal-dubai-school/profile.webp",
+      "card": "/images/schools/gems-royal-dubai-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Royal-Dubai-School_1.jpg",
+      "photo1": "/images/schools/gems-royal-dubai-school/photo1.webp"
+    },
+    "gems-school-of-research-and-innovation": {
+      "profile": "/images/schools/gems-school-of-research-and-innovation/profile.webp",
+      "card": "/images/schools/gems-school-of-research-and-innovation/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-School-Of-Research-And-Innovation-Dubai_1.jpg",
+      "photo1": "/images/schools/gems-school-of-research-and-innovation/photo1.webp"
+    },
+    "gems-wellington-academy-al-khail": {
+      "profile": "/images/schools/gems-wellington-academy-al-khail/profile.webp",
+      "card": "/images/schools/gems-wellington-academy-al-khail/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Wellington-Academy-Al-Khail-Dubai_1.jpg",
+      "photo1": "/images/schools/gems-wellington-academy-al-khail/photo1.webp"
+    },
+    "gems-wellington-academy-silicon-oasis": {
+      "profile": "/images/schools/gems-wellington-academy-silicon-oasis/profile.webp",
+      "card": "/images/schools/gems-wellington-academy-silicon-oasis/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Wellington-Academy-Silicon-Oasis-Dubai_1.jpg",
+      "photo1": "/images/schools/gems-wellington-academy-silicon-oasis/photo1.webp"
+    },
+    "gems-wellington-international-school": {
+      "profile": "/images/schools/gems-wellington-international-school/profile.webp",
+      "card": "/images/schools/gems-wellington-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Wellington-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/gems-wellington-international-school/photo1.webp"
+    },
+    "gems-westminster-school-sharjah": {
+      "profile": "/images/schools/gems-westminster-school-sharjah/profile.webp",
+      "card": "/images/schools/gems-westminster-school-sharjah/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Westminster-School-Sharjah-Dubai_1.jpg",
+      "photo1": "/images/schools/gems-westminster-school-sharjah/photo1.webp"
+    },
+    "gems-winchester-school": {
+      "profile": "/images/schools/gems-winchester-school/profile.webp",
+      "card": "/images/schools/gems-winchester-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Gems-Winchester-School-Dubai_1.jpg",
+      "photo1": "/images/schools/gems-winchester-school/photo1.webp"
+    },
+    "german-international-school-sharjah": {
+      "profile": "/images/schools/german-international-school-sharjah/profile.webp",
+      "card": "/images/schools/german-international-school-sharjah/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "German-International-School-Sharjah-Dubai_1.jpg",
+      "photo1": "/images/schools/german-international-school-sharjah/photo1.webp"
+    },
+    "glendale-international-school": {
+      "profile": "/images/schools/glendale-international-school/profile.webp",
+      "card": "/images/schools/glendale-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Glendale-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/glendale-international-school/photo1.webp"
+    },
+    "global-indian-international-school": {
+      "profile": "/images/schools/global-indian-international-school/profile.webp",
+      "card": "/images/schools/global-indian-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Global-Indian-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/global-indian-international-school/photo1.webp"
+    },
+    "greenfield-international-school": {
+      "profile": "/images/schools/greenfield-international-school/profile.webp",
+      "card": "/images/schools/greenfield-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Greenfield-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/greenfield-international-school/photo1.webp"
+    },
+    "hampton-heights-international-school": {
+      "profile": "/images/schools/hampton-heights-international-school/profile.webp",
+      "card": "/images/schools/hampton-heights-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Hampton-Heights-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/hampton-heights-international-school/photo1.webp"
+    },
+    "hartland-international-school": {
+      "profile": "/images/schools/hartland-international-school/profile.webp",
+      "card": "/images/schools/hartland-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Hartland-International-School-Dubai_1.webp",
+      "photo1": "/images/schools/hartland-international-school/photo1.webp"
+    },
+    "horizon-english-school": {
+      "profile": "/images/schools/horizon-english-school/profile.webp",
+      "card": "/images/schools/horizon-english-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Horizon-English-School-Dubai_1.jpg",
+      "photo1": "/images/schools/horizon-english-school/photo1.webp"
+    },
+    "horizon-international-school": {
+      "profile": "/images/schools/horizon-international-school/profile.webp",
+      "card": "/images/schools/horizon-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Horizon-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/horizon-international-school/photo1.webp"
+    },
+    "ignite-school": {
+      "profile": "/images/schools/ignite-school/profile.webp",
+      "card": "/images/schools/ignite-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Ignite-School-Dubai_1.jpg",
+      "photo1": "/images/schools/ignite-school/photo1.webp"
+    },
+    "impact-american-school": {
+      "profile": "/images/schools/impact-american-school/profile.webp",
+      "card": "/images/schools/impact-american-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Impact-American-School-Dubai_1.jpg",
+      "photo1": "/images/schools/impact-american-school/photo1.webp"
+    },
+    "international-concept-for-education": {
+      "profile": "/images/schools/international-concept-for-education/profile.webp",
+      "card": "/images/schools/international-concept-for-education/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "International-Concept-For-Education-Dubai_1.jpg",
+      "photo1": "/images/schools/international-concept-for-education/photo1.webp"
+    },
+    "international-indian-school": {
+      "profile": "/images/schools/international-indian-school/profile.webp",
+      "card": "/images/schools/international-indian-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "International-Indian-School-Dubai_1.jpg",
+      "photo1": "/images/schools/international-indian-school/photo1.webp"
+    },
+    "international-school-of-creative-science-muwaileh": {
+      "profile": "/images/schools/international-school-of-creative-science-muwaileh/profile.webp",
+      "card": "/images/schools/international-school-of-creative-science-muwaileh/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "International-School-Of-Creative-Science-Muwaileh-Dubai_1.webp",
+      "photo1": "/images/schools/international-school-of-creative-science-muwaileh/photo1.webp"
+    },
+    "international-school-of-creative-science-nad-al-sheba": {
+      "profile": "/images/schools/international-school-of-creative-science-nad-al-sheba/profile.webp",
+      "card": "/images/schools/international-school-of-creative-science-nad-al-sheba/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "International-School-Of-Creative-Science-Nad-Al-Sheba-Dubai_1.webp",
+      "photo1": "/images/schools/international-school-of-creative-science-nad-al-sheba/photo1.webp"
+    },
+    "jebel-ali-school": {
+      "profile": "/images/schools/jebel-ali-school/profile.webp",
+      "card": "/images/schools/jebel-ali-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Jebel-Ali-School-Dubai_1.png",
+      "photo1": "/images/schools/jebel-ali-school/photo1.webp"
+    },
+    "jss-private-school": {
+      "profile": "/images/schools/jss-private-school/profile.webp",
+      "card": "/images/schools/jss-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Jss-Private-School-Dubai_1.jpg",
+      "photo1": "/images/schools/jss-private-school/photo1.webp"
+    },
+    "jumeira-baccalaureate-school": {
+      "profile": "/images/schools/jumeira-baccalaureate-school/profile.webp",
+      "card": "/images/schools/jumeira-baccalaureate-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Jumeira-Baccalaureate-School-Dubai_1.jpg",
+      "photo1": "/images/schools/jumeira-baccalaureate-school/photo1.webp"
+    },
+    "jumeirah-college": {
+      "profile": "/images/schools/jumeirah-college/profile.webp",
+      "card": "/images/schools/jumeirah-college/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Jumeirah-College-Dubai_1.jpg",
+      "photo1": "/images/schools/jumeirah-college/photo1.webp"
+    },
+    "kent-college": {
+      "profile": "/images/schools/kent-college/profile.webp",
+      "card": "/images/schools/kent-college/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Kent-College-Dubai_1.jpg",
+      "photo1": "/images/schools/kent-college/photo1.webp"
+    },
+    "lycee-francais-bilingue-international": {
+      "profile": "/images/schools/lycee-francais-bilingue-international/profile.webp",
+      "card": "/images/schools/lycee-francais-bilingue-international/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Lycee-Francais-Bilingue-International-Dubai_1.png"
+    },
+    "lycee-francais-international": {
+      "profile": "/images/schools/lycee-francais-international/profile.webp",
+      "card": "/images/schools/lycee-francais-international/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Lycee-Francais-International-Dubai_1.jpg",
+      "photo1": "/images/schools/lycee-francais-international/photo1.webp"
+    },
+    "lycee-libanais-francophone-prive-meydan": {
+      "profile": "/images/schools/lycee-libanais-francophone-prive-meydan/profile.webp",
+      "card": "/images/schools/lycee-libanais-francophone-prive-meydan/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Lycee-Libanais-Francophone-Prive-Meydan-Dubai_1.jpg",
+      "photo1": "/images/schools/lycee-libanais-francophone-prive-meydan/photo1.webp"
+    },
+    "mirdif-american-school": {
+      "profile": "/images/schools/mirdif-american-school/profile.webp",
+      "card": "/images/schools/mirdif-american-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Mirdif-American-School-Dubai_1.jpg",
+      "photo1": "/images/schools/mirdif-american-school/photo1.webp"
+    },
+    "new-dawn-private-school": {
+      "profile": "/images/schools/new-dawn-private-school/profile.webp",
+      "card": "/images/schools/new-dawn-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "New-Dawn-Private-School-Dubai_1.jpg",
+      "photo1": "/images/schools/new-dawn-private-school/photo1.webp"
+    },
+    "newlands-school": {
+      "profile": "/images/schools/newlands-school/profile.webp",
+      "card": "/images/schools/newlands-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Newlands-School-Dubai-Sharjah-Ajman_1.jpg",
+      "photo1": "/images/schools/newlands-school/photo1.webp"
+    },
+    "next-generation-school": {
+      "profile": "/images/schools/next-generation-school/profile.webp",
+      "card": "/images/schools/next-generation-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Next-Generation-School-Dubai_1.jpg",
+      "photo1": "/images/schools/next-generation-school/photo1.webp"
+    },
+    "nibras-international-school": {
+      "profile": "/images/schools/nibras-international-school/profile.webp",
+      "card": "/images/schools/nibras-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Nibras-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/nibras-international-school/photo1.webp"
+    },
+    "north-american-international-school": {
+      "profile": "/images/schools/north-american-international-school/profile.webp",
+      "card": "/images/schools/north-american-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "North-American-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/north-american-international-school/photo1.webp"
+    },
+    "oaktree-primary-school": {
+      "profile": "/images/schools/oaktree-primary-school/profile.webp",
+      "card": "/images/schools/oaktree-primary-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Oaktree-Primary-School-Dubai_1.jpg",
+      "photo1": "/images/schools/oaktree-primary-school/photo1.webp"
+    },
+    "our-own-high-school": {
+      "profile": "/images/schools/our-own-high-school/profile.webp",
+      "card": "/images/schools/our-own-high-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Our-Own-High-School_1.jpg",
+      "photo1": "/images/schools/our-own-high-school/photo1.webp"
+    },
+    "pace-british-school": {
+      "profile": "/images/schools/pace-british-school/profile.webp",
+      "card": "/images/schools/pace-british-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Pace-British-School-Dubai_1.jpg",
+      "photo1": "/images/schools/pace-british-school/photo1.webp"
+    },
+    "pace-modern-british-school": {
+      "profile": "/images/schools/pace-modern-british-school/profile.webp",
+      "card": "/images/schools/pace-modern-british-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Pace-Modern-British-School-Dubai_1.jpg",
+      "photo1": "/images/schools/pace-modern-british-school/photo1.webp"
+    },
+    "pace-springfield-international-school": {
+      "profile": "/images/schools/pace-springfield-international-school/profile.webp",
+      "card": "/images/schools/pace-springfield-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Pace-Springfield-International-School-Dubai_1.webp",
+      "photo1": "/images/schools/pace-springfield-international-school/photo1.webp"
+    },
+    "philadelphia-private-school": {
+      "profile": "/images/schools/philadelphia-private-school/profile.webp",
+      "card": "/images/schools/philadelphia-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Philadelphia-Private-School-Dubai_1.jpg",
+      "photo1": "/images/schools/philadelphia-private-school/photo1.webp"
+    },
+    "pristine-private-school": {
+      "profile": "/images/schools/pristine-private-school/profile.webp",
+      "card": "/images/schools/pristine-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Pristine-Private-School-Dubai_1.jpg",
+      "photo1": "/images/schools/pristine-private-school/photo1.webp"
+    },
+    "providence-english-private-school": {
+      "profile": "/images/schools/providence-english-private-school/profile.webp",
+      "card": "/images/schools/providence-english-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Providence-English-Private-School-Dubai_1.jpg",
+      "photo1": "/images/schools/providence-english-private-school/photo1.webp"
+    },
+    "queen-elizabeth-s-school-dubai-sports-city": {
+      "profile": "/images/schools/queen-elizabeth-s-school-dubai-sports-city/profile.webp",
+      "card": "/images/schools/queen-elizabeth-s-school-dubai-sports-city/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Queen-Elizabeth-S-School-Dubai-Sports-City_1.png",
+      "photo1": "/images/schools/queen-elizabeth-s-school-dubai-sports-city/photo1.webp"
+    },
+    "queen-international-school": {
+      "profile": "/images/schools/queen-international-school/profile.webp",
+      "card": "/images/schools/queen-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Queen-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/queen-international-school/photo1.webp"
+    },
+    "raffles-international-schools": {
+      "profile": "/images/schools/raffles-international-schools/profile.webp",
+      "card": "/images/schools/raffles-international-schools/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Raffles-International-Schools-Dubai_1.jpg",
+      "photo1": "/images/schools/raffles-international-schools/photo1.webp"
+    },
+    "raffles-world-academy": {
+      "profile": "/images/schools/raffles-world-academy/profile.webp",
+      "card": "/images/schools/raffles-world-academy/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Raffles-World-Academy-Dubai_1.webp",
+      "photo1": "/images/schools/raffles-world-academy/photo1.webp"
+    },
+    "ranches-primary-school": {
+      "profile": "/images/schools/ranches-primary-school/profile.webp",
+      "card": "/images/schools/ranches-primary-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Ranches-Primary-School-Dubai_1.jpg",
+      "photo1": "/images/schools/ranches-primary-school/photo1.webp"
+    },
+    "rashid-and-latifa-school": {
+      "profile": "/images/schools/rashid-and-latifa-school/profile.webp",
+      "card": "/images/schools/rashid-and-latifa-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Rashid-And-Latifa-School-Dubai_1.jpg",
+      "photo1": "/images/schools/rashid-and-latifa-school/photo1.webp"
+    },
+    "regent-international-school": {
+      "profile": "/images/schools/regent-international-school/profile.webp",
+      "card": "/images/schools/regent-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Regent-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/regent-international-school/photo1.webp"
+    },
+    "repton-school-al-barsha": {
+      "profile": "/images/schools/repton-school-al-barsha/profile.webp",
+      "card": "/images/schools/repton-school-al-barsha/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Repton-School-Al-Barsha-Dubai_1.jpg",
+      "photo1": "/images/schools/repton-school-al-barsha/photo1.webp"
+    },
+    "royal-grammar-school-guildford": {
+      "profile": "/images/schools/royal-grammar-school-guildford/profile.webp",
+      "card": "/images/schools/royal-grammar-school-guildford/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Royal-Grammar-School-Guildford-Dubai_1.webp",
+      "photo1": "/images/schools/royal-grammar-school-guildford/photo1.webp"
+    },
+    "rushmore-american-school": {
+      "profile": "/images/schools/rushmore-american-school/profile.webp",
+      "card": "/images/schools/rushmore-american-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Rushmore-American-School-Dubai_1.webp",
+      "photo1": "/images/schools/rushmore-american-school/photo1.webp"
+    },
+    "sabis-international-school-aljada": {
+      "profile": "/images/schools/sabis-international-school-aljada/profile.webp",
+      "card": "/images/schools/sabis-international-school-aljada/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Sabis-International-School-Aljada-Dubai_1.webp",
+      "photo1": "/images/schools/sabis-international-school-aljada/photo1.webp"
+    },
+    "safa-british-school": {
+      "profile": "/images/schools/safa-british-school/profile.webp",
+      "card": "/images/schools/safa-british-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Safa-British-School-Dubai_1.jpg",
+      "photo1": "/images/schools/safa-british-school/photo1.webp"
+    },
+    "safa-community-school": {
+      "profile": "/images/schools/safa-community-school/profile.webp",
+      "card": "/images/schools/safa-community-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Safa-Community-School-Dubai_1.webp",
+      "photo1": "/images/schools/safa-community-school/photo1.webp"
+    },
+    "scholars-international-academy": {
+      "profile": "/images/schools/scholars-international-academy/profile.webp",
+      "card": "/images/schools/scholars-international-academy/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Scholars-International-Academy-Dubai_1.webp",
+      "photo1": "/images/schools/scholars-international-academy/photo1.webp"
+    },
+    "school-of-modern-skills": {
+      "profile": "/images/schools/school-of-modern-skills/profile.webp",
+      "card": "/images/schools/school-of-modern-skills/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "School-Of-Modern-Skills-Dubai_1.webp",
+      "photo1": "/images/schools/school-of-modern-skills/photo1.webp"
+    },
+    "sharjah-american-international-school": {
+      "profile": "/images/schools/sharjah-american-international-school/profile.webp",
+      "card": "/images/schools/sharjah-american-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Sharjah-American-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/sharjah-american-international-school/photo1.webp"
+    },
+    "sharjah-british-international-school": {
+      "profile": "/images/schools/sharjah-british-international-school/profile.webp",
+      "card": "/images/schools/sharjah-british-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Sharjah-British-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/sharjah-british-international-school/photo1.webp"
+    },
+    "sharjah-english-school": {
+      "profile": "/images/schools/sharjah-english-school/profile.webp",
+      "card": "/images/schools/sharjah-english-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Sharjah-English-School-Dubai_1.webp",
+      "photo1": "/images/schools/sharjah-english-school/photo1.webp"
+    },
+    "smart-vision-school": {
+      "profile": "/images/schools/smart-vision-school/profile.webp",
+      "card": "/images/schools/smart-vision-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Smart-Vision-School-Dubai_1.jpg",
+      "photo1": "/images/schools/smart-vision-school/photo1.webp"
+    },
+    "south-view-school": {
+      "profile": "/images/schools/south-view-school/profile.webp",
+      "card": "/images/schools/south-view-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "South-View-School-Dubai_1.jpg",
+      "photo1": "/images/schools/south-view-school/photo1.webp"
+    },
+    "star-international-school-altwar": {
+      "profile": "/images/schools/star-international-school-altwar/profile.webp",
+      "card": "/images/schools/star-international-school-altwar/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Star-International-School-Altwar-Dubai_1.webp",
+      "photo1": "/images/schools/star-international-school-altwar/photo1.webp"
+    },
+    "star-international-school-mirdiff": {
+      "profile": "/images/schools/star-international-school-mirdiff/profile.webp",
+      "card": "/images/schools/star-international-school-mirdiff/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Star-International-School-Mirdiff-Dubai_1.webp",
+      "photo1": "/images/schools/star-international-school-mirdiff/photo1.webp"
+    },
+    "sunmarke-school": {
+      "profile": "/images/schools/sunmarke-school/profile.webp",
+      "card": "/images/schools/sunmarke-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Sunmarke-School-Dubai_1.jpg",
+      "photo1": "/images/schools/sunmarke-school/photo1.webp"
+    },
+    "swiss-international-scientific-school": {
+      "profile": "/images/schools/swiss-international-scientific-school/profile.webp",
+      "card": "/images/schools/swiss-international-scientific-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Swiss-International-Scientific-School-Dubai_1.jpg",
+      "photo1": "/images/schools/swiss-international-scientific-school/photo1.webp"
+    },
+    "the-apple-international-school": {
+      "profile": "/images/schools/the-apple-international-school/profile.webp",
+      "card": "/images/schools/the-apple-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-Apple-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/the-apple-international-school/photo1.webp"
+    },
+    "the-aquila-school": {
+      "profile": "/images/schools/the-aquila-school/profile.webp",
+      "card": "/images/schools/the-aquila-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-Aquila-School-Dubai_1.webp",
+      "photo1": "/images/schools/the-aquila-school/photo1.webp"
+    },
+    "the-arbor-school": {
+      "profile": "/images/schools/the-arbor-school/profile.webp",
+      "card": "/images/schools/the-arbor-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-Arbor-School-Dubai_1.jpg",
+      "photo1": "/images/schools/the-arbor-school/photo1.webp"
+    },
+    "the-city-school-international": {
+      "profile": "/images/schools/the-city-school-international/profile.webp",
+      "card": "/images/schools/the-city-school-international/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-City-School-International-Dubai_1.jpg",
+      "photo1": "/images/schools/the-city-school-international/photo1.webp"
+    },
+    "the-english-college": {
+      "profile": "/images/schools/the-english-college/profile.webp",
+      "card": "/images/schools/the-english-college/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-English-College-Dubai_1.jpg",
+      "photo1": "/images/schools/the-english-college/photo1.webp"
+    },
+    "the-international-school-of-choueifat-ajman": {
+      "profile": "/images/schools/the-international-school-of-choueifat-ajman/profile.webp",
+      "card": "/images/schools/the-international-school-of-choueifat-ajman/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-International-School-Of-Choueifat-Ajman-Dubai_1.jpg",
+      "photo1": "/images/schools/the-international-school-of-choueifat-ajman/photo1.webp"
+    },
+    "the-international-school-of-choueifat-dubai-investments-park": {
+      "profile": "/images/schools/the-international-school-of-choueifat-dubai-investments-park/profile.webp",
+      "card": "/images/schools/the-international-school-of-choueifat-dubai-investments-park/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-International-School-Of-Choueifat-Dubai-Investments-Park_1.jpg",
+      "photo1": "/images/schools/the-international-school-of-choueifat-dubai-investments-park/photo1.webp"
+    },
+    "the-international-school-of-choueifat-sharjah": {
+      "profile": "/images/schools/the-international-school-of-choueifat-sharjah/profile.webp",
+      "card": "/images/schools/the-international-school-of-choueifat-sharjah/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-International-School-Of-Choueifat-Sharjah-Dubai_1.jpg",
+      "photo1": "/images/schools/the-international-school-of-choueifat-sharjah/photo1.webp"
+    },
+    "the-millennium-school": {
+      "profile": "/images/schools/the-millennium-school/profile.webp",
+      "card": "/images/schools/the-millennium-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-Millennium-School-Dubai_1.jpg",
+      "photo1": "/images/schools/the-millennium-school/photo1.webp"
+    },
+    "the-oxford-school": {
+      "profile": "/images/schools/the-oxford-school/profile.webp",
+      "card": "/images/schools/the-oxford-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-Oxford-School-Dubai_1.jpg",
+      "photo1": "/images/schools/the-oxford-school/photo1.webp"
+    },
+    "the-scholars-school": {
+      "profile": "/images/schools/the-scholars-school/profile.webp",
+      "card": "/images/schools/the-scholars-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-Scholars-School-Dubai_1.jpg",
+      "photo1": "/images/schools/the-scholars-school/photo1.webp"
+    },
+    "the-school-of-research-science": {
+      "profile": "/images/schools/the-school-of-research-science/profile.webp",
+      "card": "/images/schools/the-school-of-research-science/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-School-Of-Research-Science-Dubai_1.jpg",
+      "photo1": "/images/schools/the-school-of-research-science/photo1.webp"
+    },
+    "the-sheffield-private-school": {
+      "profile": "/images/schools/the-sheffield-private-school/profile.webp",
+      "card": "/images/schools/the-sheffield-private-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-Sheffield-Private-School-Dubai_1.jpg",
+      "photo1": "/images/schools/the-sheffield-private-school/photo1.webp"
+    },
+    "the-winchester-school": {
+      "profile": "/images/schools/the-winchester-school/profile.webp",
+      "card": "/images/schools/the-winchester-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "The-Winchester-School-Dubai_1.jpg",
+      "photo1": "/images/schools/the-winchester-school/photo1.webp"
+    },
+    "universal-american-school": {
+      "profile": "/images/schools/universal-american-school/profile.webp",
+      "card": "/images/schools/universal-american-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Universal-American-School-Dubai_1.webp",
+      "photo1": "/images/schools/universal-american-school/photo1.webp"
+    },
+    "uptown-international-school": {
+      "profile": "/images/schools/uptown-international-school/profile.webp",
+      "card": "/images/schools/uptown-international-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Uptown-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/uptown-international-school/photo1.webp"
+    },
+    "victoria-english-school": {
+      "profile": "/images/schools/victoria-english-school/profile.webp",
+      "card": "/images/schools/victoria-english-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Victoria-English-School-Dubai_1.webp",
+      "photo1": "/images/schools/victoria-english-school/photo1.webp"
+    },
+    "victoria-international-school-of-sharjah": {
+      "profile": "/images/schools/victoria-international-school-of-sharjah/profile.webp",
+      "card": "/images/schools/victoria-international-school-of-sharjah/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Victoria-International-School-Of-Sharjah-Dubai_1.png",
+      "photo1": "/images/schools/victoria-international-school-of-sharjah/photo1.webp"
+    },
+    "victory-heights-primary-school-city-of-arabia": {
+      "profile": "/images/schools/victory-heights-primary-school-city-of-arabia/profile.webp",
+      "card": "/images/schools/victory-heights-primary-school-city-of-arabia/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Victory-Heights-Primary-School-City-Of-Arabia-Dubai_1.jpg",
+      "photo1": "/images/schools/victory-heights-primary-school-city-of-arabia/photo1.webp"
+    },
+    "victory-heights-primary-school": {
+      "profile": "/images/schools/victory-heights-primary-school/profile.webp",
+      "card": "/images/schools/victory-heights-primary-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Victory-Heights-Primary-School-Dubai_1.jpg",
+      "photo1": "/images/schools/victory-heights-primary-school/photo1.webp"
+    },
+    "wise-indian-academy": {
+      "profile": "/images/schools/wise-indian-academy/profile.webp",
+      "card": "/images/schools/wise-indian-academy/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Wise-Indian-Academy-Dubai_1.jpg",
+      "photo1": "/images/schools/wise-indian-academy/photo1.webp"
+    },
+    "woodlem-british-school": {
+      "profile": "/images/schools/woodlem-british-school/profile.webp",
+      "card": "/images/schools/woodlem-british-school/card.webp",
+      "sourceFolder": "images-dubai-final",
+      "sourceFile": "Woodlem-British-School_1.jpg",
+      "photo1": "/images/schools/woodlem-british-school/photo1.webp"
     }
   }
 }

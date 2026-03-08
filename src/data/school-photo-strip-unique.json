@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T00:52:39.864Z",
+  "generatedAt": "2026-03-08T02:13:09.316Z",
   "slugs": {
     "acg-school-jakarta": [
       "/images/schools/acg-school-jakarta/campus.webp",
@@ -877,6 +877,599 @@
       "/images/schools/westbourne-college/photo1.webp",
       "/images/schools/westbourne-college/photo2.webp",
       "/images/schools/westbourne-college/photo3.webp"
+    ],
+    "ajman-academy": [
+      "/images/schools/ajman-academy/profile.webp",
+      "/images/schools/ajman-academy/photo1.webp"
+    ],
+    "al-diyafah-high-school": [
+      "/images/schools/al-diyafah-high-school/profile.webp",
+      "/images/schools/al-diyafah-high-school/photo1.webp"
+    ],
+    "al-ittihad-private-school-jumeira": [
+      "/images/schools/al-ittihad-private-school-jumeira/profile.webp",
+      "/images/schools/al-ittihad-private-school-jumeira/photo1.webp"
+    ],
+    "al-mawakeb-school": [
+      "/images/schools/al-mawakeb-school/profile.webp",
+      "/images/schools/al-mawakeb-school/photo1.webp"
+    ],
+    "ambassador-international-academy": [
+      "/images/schools/ambassador-international-academy/profile.webp",
+      "/images/schools/ambassador-international-academy/photo1.webp"
+    ],
+    "ambassador-international-academy-mankhool": [
+      "/images/schools/ambassador-international-academy-mankhool/profile.webp",
+      "/images/schools/ambassador-international-academy-mankhool/photo1.webp"
+    ],
+    "american-gulf-school": [
+      "/images/schools/american-gulf-school/profile.webp",
+      "/images/schools/american-gulf-school/photo1.webp"
+    ],
+    "american-international-school": [
+      "/images/schools/american-international-school/profile.webp",
+      "/images/schools/american-international-school/photo1.webp"
+    ],
+    "american-school-of-creative-science-maliha": [
+      "/images/schools/american-school-of-creative-science-maliha/profile.webp",
+      "/images/schools/american-school-of-creative-science-maliha/photo1.webp"
+    ],
+    "american-school-of": [
+      "/images/schools/american-school-of/profile.webp"
+    ],
+    "arcadia-global-school": [
+      "/images/schools/arcadia-global-school/profile.webp",
+      "/images/schools/arcadia-global-school/photo1.webp"
+    ],
+    "arcadia-school": [
+      "/images/schools/arcadia-school/profile.webp",
+      "/images/schools/arcadia-school/photo1.webp"
+    ],
+    "bloom-world-academy": [
+      "/images/schools/bloom-world-academy/profile.webp",
+      "/images/schools/bloom-world-academy/photo1.webp"
+    ],
+    "bright-learners-private-school": [
+      "/images/schools/bright-learners-private-school/profile.webp",
+      "/images/schools/bright-learners-private-school/photo1.webp"
+    ],
+    "bright-riders-school": [
+      "/images/schools/bright-riders-school/profile.webp",
+      "/images/schools/bright-riders-school/photo1.webp"
+    ],
+    "british-international-school-ajman": [
+      "/images/schools/british-international-school-ajman/profile.webp",
+      "/images/schools/british-international-school-ajman/photo1.webp"
+    ],
+    "clarion-school": [
+      "/images/schools/clarion-school/profile.webp",
+      "/images/schools/clarion-school/photo1.webp"
+    ],
+    "credence-high-school": [
+      "/images/schools/credence-high-school/profile.webp",
+      "/images/schools/credence-high-school/photo1.webp"
+    ],
+    "crown-american-private-school": [
+      "/images/schools/crown-american-private-school/profile.webp",
+      "/images/schools/crown-american-private-school/photo1.webp"
+    ],
+    "dar-al-marefa-private-school": [
+      "/images/schools/dar-al-marefa-private-school/profile.webp",
+      "/images/schools/dar-al-marefa-private-school/photo1.webp"
+    ],
+    "deira-international-school": [
+      "/images/schools/deira-international-school/profile.webp",
+      "/images/schools/deira-international-school/photo1.webp"
+    ],
+    "deira-private-school": [
+      "/images/schools/deira-private-school/profile.webp",
+      "/images/schools/deira-private-school/photo1.webp"
+    ],
+    "deutsche-internationale-schule": [
+      "/images/schools/deutsche-internationale-schule/profile.webp",
+      "/images/schools/deutsche-internationale-schule/photo1.webp"
+    ],
+    "dhruv-global-school": [
+      "/images/schools/dhruv-global-school/profile.webp",
+      "/images/schools/dhruv-global-school/photo1.webp"
+    ],
+    "dove-green-private-school": [
+      "/images/schools/dove-green-private-school/profile.webp",
+      "/images/schools/dove-green-private-school/photo1.webp"
+    ],
+    "dubai-arabian-american-private-school": [
+      "/images/schools/dubai-arabian-american-private-school/profile.webp",
+      "/images/schools/dubai-arabian-american-private-school/photo1.webp"
+    ],
+    "dubai-british-school-emirates-hills": [
+      "/images/schools/dubai-british-school-emirates-hills/profile.webp",
+      "/images/schools/dubai-british-school-emirates-hills/photo1.webp"
+    ],
+    "dubai-british-school-jumeira": [
+      "/images/schools/dubai-british-school-jumeira/profile.webp",
+      "/images/schools/dubai-british-school-jumeira/photo1.webp"
+    ],
+    "dubai-british-school-jumeirah-park": [
+      "/images/schools/dubai-british-school-jumeirah-park/profile.webp",
+      "/images/schools/dubai-british-school-jumeirah-park/photo1.webp"
+    ],
+    "dubai-british-school-mira": [
+      "/images/schools/dubai-british-school-mira/profile.webp",
+      "/images/schools/dubai-british-school-mira/photo1.webp"
+    ],
+    "dubai-carmel-school": [
+      "/images/schools/dubai-carmel-school/profile.webp",
+      "/images/schools/dubai-carmel-school/photo1.webp"
+    ],
+    "dubai-english-speaking-college": [
+      "/images/schools/dubai-english-speaking-college/profile.webp",
+      "/images/schools/dubai-english-speaking-college/photo1.webp"
+    ],
+    "dubai-english-speaking-school-academic-city": [
+      "/images/schools/dubai-english-speaking-school-academic-city/profile.webp",
+      "/images/schools/dubai-english-speaking-school-academic-city/photo1.webp"
+    ],
+    "dubai-english-speaking-school-oud-metha": [
+      "/images/schools/dubai-english-speaking-school-oud-metha/profile.webp",
+      "/images/schools/dubai-english-speaking-school-oud-metha/photo1.webp"
+    ],
+    "dubai-heights-academy": [
+      "/images/schools/dubai-heights-academy/profile.webp",
+      "/images/schools/dubai-heights-academy/photo1.webp"
+    ],
+    "dubai-international-academy-al-barsha": [
+      "/images/schools/dubai-international-academy-al-barsha/profile.webp",
+      "/images/schools/dubai-international-academy-al-barsha/photo1.webp"
+    ],
+    "dubai-international-academy-emirates-hills": [
+      "/images/schools/dubai-international-academy-emirates-hills/profile.webp",
+      "/images/schools/dubai-international-academy-emirates-hills/photo1.webp"
+    ],
+    "dubai-international-academy-town-square": [
+      "/images/schools/dubai-international-academy-town-square/profile.webp",
+      "/images/schools/dubai-international-academy-town-square/photo1.webp"
+    ],
+    "dubai-international-private-school": [
+      "/images/schools/dubai-international-private-school/profile.webp",
+      "/images/schools/dubai-international-private-school/photo1.webp"
+    ],
+    "dubai-modern-education-school": [
+      "/images/schools/dubai-modern-education-school/profile.webp",
+      "/images/schools/dubai-modern-education-school/photo1.webp"
+    ],
+    "dubai-national-school-al-barsha": [
+      "/images/schools/dubai-national-school-al-barsha/profile.webp",
+      "/images/schools/dubai-national-school-al-barsha/photo1.webp"
+    ],
+    "dubai-scholars-private-school": [
+      "/images/schools/dubai-scholars-private-school/profile.webp",
+      "/images/schools/dubai-scholars-private-school/photo1.webp"
+    ],
+    "dunecrest-american-school": [
+      "/images/schools/dunecrest-american-school/profile.webp",
+      "/images/schools/dunecrest-american-school/photo1.webp"
+    ],
+    "durham-school": [
+      "/images/schools/durham-school/profile.webp",
+      "/images/schools/durham-school/photo1.webp"
+    ],
+    "dwight-school": [
+      "/images/schools/dwight-school/profile.webp",
+      "/images/schools/dwight-school/photo1.webp"
+    ],
+    "emirates-american-school": [
+      "/images/schools/emirates-american-school/profile.webp",
+      "/images/schools/emirates-american-school/photo1.webp"
+    ],
+    "emirates-international-school-jumeirah": [
+      "/images/schools/emirates-international-school-jumeirah/profile.webp",
+      "/images/schools/emirates-international-school-jumeirah/photo1.webp"
+    ],
+    "emirates-international-school-meadows": [
+      "/images/schools/emirates-international-school-meadows/profile.webp",
+      "/images/schools/emirates-international-school-meadows/photo1.webp"
+    ],
+    "fairgreen-international-school": [
+      "/images/schools/fairgreen-international-school/profile.webp",
+      "/images/schools/fairgreen-international-school/photo1.webp"
+    ],
+    "gems-dubai-american-academy": [
+      "/images/schools/gems-dubai-american-academy/profile.webp",
+      "/images/schools/gems-dubai-american-academy/photo1.webp"
+    ],
+    "gems-firstpoint-school": [
+      "/images/schools/gems-firstpoint-school/profile.webp",
+      "/images/schools/gems-firstpoint-school/photo1.webp"
+    ],
+    "gems-founders-school-al-mizhar": [
+      "/images/schools/gems-founders-school-al-mizhar/profile.webp",
+      "/images/schools/gems-founders-school-al-mizhar/photo1.webp"
+    ],
+    "gems-founders-school-dubai-south": [
+      "/images/schools/gems-founders-school-dubai-south/profile.webp",
+      "/images/schools/gems-founders-school-dubai-south/photo1.webp"
+    ],
+    "gems-founders-school": [
+      "/images/schools/gems-founders-school/profile.webp",
+      "/images/schools/gems-founders-school/photo1.webp"
+    ],
+    "gems-international-school-al-khail": [
+      "/images/schools/gems-international-school-al-khail/profile.webp",
+      "/images/schools/gems-international-school-al-khail/photo1.webp"
+    ],
+    "gems-jumeirah-primary-school": [
+      "/images/schools/gems-jumeirah-primary-school/profile.webp",
+      "/images/schools/gems-jumeirah-primary-school/photo1.webp"
+    ],
+    "gems-metropole-school-al-waha": [
+      "/images/schools/gems-metropole-school-al-waha/profile.webp",
+      "/images/schools/gems-metropole-school-al-waha/photo1.webp"
+    ],
+    "gems-metropole-school": [
+      "/images/schools/gems-metropole-school/profile.webp",
+      "/images/schools/gems-metropole-school/photo1.webp"
+    ],
+    "gems-modern-academy": [
+      "/images/schools/gems-modern-academy/profile.webp",
+      "/images/schools/gems-modern-academy/photo1.webp"
+    ],
+    "gems-new-millennium-school": [
+      "/images/schools/gems-new-millennium-school/profile.webp",
+      "/images/schools/gems-new-millennium-school/photo1.webp"
+    ],
+    "gems-royal-dubai-school": [
+      "/images/schools/gems-royal-dubai-school/profile.webp",
+      "/images/schools/gems-royal-dubai-school/photo1.webp"
+    ],
+    "gems-school-of-research-and-innovation": [
+      "/images/schools/gems-school-of-research-and-innovation/profile.webp",
+      "/images/schools/gems-school-of-research-and-innovation/photo1.webp"
+    ],
+    "gems-wellington-academy-al-khail": [
+      "/images/schools/gems-wellington-academy-al-khail/profile.webp",
+      "/images/schools/gems-wellington-academy-al-khail/photo1.webp"
+    ],
+    "gems-wellington-academy-silicon-oasis": [
+      "/images/schools/gems-wellington-academy-silicon-oasis/profile.webp",
+      "/images/schools/gems-wellington-academy-silicon-oasis/photo1.webp"
+    ],
+    "gems-wellington-international-school": [
+      "/images/schools/gems-wellington-international-school/profile.webp",
+      "/images/schools/gems-wellington-international-school/photo1.webp"
+    ],
+    "gems-westminster-school-sharjah": [
+      "/images/schools/gems-westminster-school-sharjah/profile.webp",
+      "/images/schools/gems-westminster-school-sharjah/photo1.webp"
+    ],
+    "gems-winchester-school": [
+      "/images/schools/gems-winchester-school/profile.webp",
+      "/images/schools/gems-winchester-school/photo1.webp"
+    ],
+    "german-international-school-sharjah": [
+      "/images/schools/german-international-school-sharjah/profile.webp",
+      "/images/schools/german-international-school-sharjah/photo1.webp"
+    ],
+    "glendale-international-school": [
+      "/images/schools/glendale-international-school/profile.webp"
+    ],
+    "global-indian-international-school": [
+      "/images/schools/global-indian-international-school/profile.webp",
+      "/images/schools/global-indian-international-school/photo1.webp"
+    ],
+    "greenfield-international-school": [
+      "/images/schools/greenfield-international-school/profile.webp",
+      "/images/schools/greenfield-international-school/photo1.webp"
+    ],
+    "hampton-heights-international-school": [
+      "/images/schools/hampton-heights-international-school/profile.webp",
+      "/images/schools/hampton-heights-international-school/photo1.webp"
+    ],
+    "hartland-international-school": [
+      "/images/schools/hartland-international-school/profile.webp",
+      "/images/schools/hartland-international-school/photo1.webp"
+    ],
+    "horizon-english-school": [
+      "/images/schools/horizon-english-school/profile.webp",
+      "/images/schools/horizon-english-school/photo1.webp"
+    ],
+    "horizon-international-school": [
+      "/images/schools/horizon-international-school/profile.webp",
+      "/images/schools/horizon-international-school/photo1.webp"
+    ],
+    "ignite-school": [
+      "/images/schools/ignite-school/profile.webp",
+      "/images/schools/ignite-school/photo1.webp"
+    ],
+    "impact-american-school": [
+      "/images/schools/impact-american-school/profile.webp",
+      "/images/schools/impact-american-school/photo1.webp"
+    ],
+    "international-concept-for-education": [
+      "/images/schools/international-concept-for-education/profile.webp",
+      "/images/schools/international-concept-for-education/photo1.webp"
+    ],
+    "international-indian-school": [
+      "/images/schools/international-indian-school/profile.webp",
+      "/images/schools/international-indian-school/photo1.webp"
+    ],
+    "international-school-of-creative-science-muwaileh": [
+      "/images/schools/international-school-of-creative-science-muwaileh/profile.webp",
+      "/images/schools/international-school-of-creative-science-muwaileh/photo1.webp"
+    ],
+    "international-school-of-creative-science-nad-al-sheba": [
+      "/images/schools/international-school-of-creative-science-nad-al-sheba/profile.webp",
+      "/images/schools/international-school-of-creative-science-nad-al-sheba/photo1.webp"
+    ],
+    "jebel-ali-school": [
+      "/images/schools/jebel-ali-school/profile.webp",
+      "/images/schools/jebel-ali-school/photo1.webp"
+    ],
+    "jss-private-school": [
+      "/images/schools/jss-private-school/profile.webp",
+      "/images/schools/jss-private-school/photo1.webp"
+    ],
+    "jumeira-baccalaureate-school": [
+      "/images/schools/jumeira-baccalaureate-school/profile.webp",
+      "/images/schools/jumeira-baccalaureate-school/photo1.webp"
+    ],
+    "jumeirah-college": [
+      "/images/schools/jumeirah-college/profile.webp",
+      "/images/schools/jumeirah-college/photo1.webp"
+    ],
+    "kent-college": [
+      "/images/schools/kent-college/profile.webp",
+      "/images/schools/kent-college/photo1.webp"
+    ],
+    "lycee-francais-bilingue-international": [
+      "/images/schools/lycee-francais-bilingue-international/profile.webp"
+    ],
+    "lycee-francais-international": [
+      "/images/schools/lycee-francais-international/profile.webp",
+      "/images/schools/lycee-francais-international/photo1.webp"
+    ],
+    "lycee-libanais-francophone-prive-meydan": [
+      "/images/schools/lycee-libanais-francophone-prive-meydan/profile.webp",
+      "/images/schools/lycee-libanais-francophone-prive-meydan/photo1.webp"
+    ],
+    "mirdif-american-school": [
+      "/images/schools/mirdif-american-school/profile.webp",
+      "/images/schools/mirdif-american-school/photo1.webp"
+    ],
+    "new-dawn-private-school": [
+      "/images/schools/new-dawn-private-school/profile.webp",
+      "/images/schools/new-dawn-private-school/photo1.webp"
+    ],
+    "newlands-school": [
+      "/images/schools/newlands-school/profile.webp",
+      "/images/schools/newlands-school/photo1.webp"
+    ],
+    "next-generation-school": [
+      "/images/schools/next-generation-school/profile.webp",
+      "/images/schools/next-generation-school/photo1.webp"
+    ],
+    "nibras-international-school": [
+      "/images/schools/nibras-international-school/profile.webp",
+      "/images/schools/nibras-international-school/photo1.webp"
+    ],
+    "north-american-international-school": [
+      "/images/schools/north-american-international-school/profile.webp",
+      "/images/schools/north-american-international-school/photo1.webp"
+    ],
+    "oaktree-primary-school": [
+      "/images/schools/oaktree-primary-school/profile.webp",
+      "/images/schools/oaktree-primary-school/photo1.webp"
+    ],
+    "our-own-high-school": [
+      "/images/schools/our-own-high-school/profile.webp",
+      "/images/schools/our-own-high-school/photo1.webp"
+    ],
+    "pace-british-school": [
+      "/images/schools/pace-british-school/profile.webp",
+      "/images/schools/pace-british-school/photo1.webp"
+    ],
+    "pace-modern-british-school": [
+      "/images/schools/pace-modern-british-school/profile.webp",
+      "/images/schools/pace-modern-british-school/photo1.webp"
+    ],
+    "pace-springfield-international-school": [
+      "/images/schools/pace-springfield-international-school/profile.webp",
+      "/images/schools/pace-springfield-international-school/photo1.webp"
+    ],
+    "philadelphia-private-school": [
+      "/images/schools/philadelphia-private-school/profile.webp",
+      "/images/schools/philadelphia-private-school/photo1.webp"
+    ],
+    "pristine-private-school": [
+      "/images/schools/pristine-private-school/profile.webp",
+      "/images/schools/pristine-private-school/photo1.webp"
+    ],
+    "providence-english-private-school": [
+      "/images/schools/providence-english-private-school/profile.webp",
+      "/images/schools/providence-english-private-school/photo1.webp"
+    ],
+    "queen-elizabeth-s-school-dubai-sports-city": [
+      "/images/schools/queen-elizabeth-s-school-dubai-sports-city/profile.webp",
+      "/images/schools/queen-elizabeth-s-school-dubai-sports-city/photo1.webp"
+    ],
+    "queen-international-school": [
+      "/images/schools/queen-international-school/profile.webp",
+      "/images/schools/queen-international-school/photo1.webp"
+    ],
+    "raffles-international-schools": [
+      "/images/schools/raffles-international-schools/profile.webp",
+      "/images/schools/raffles-international-schools/photo1.webp"
+    ],
+    "raffles-world-academy": [
+      "/images/schools/raffles-world-academy/profile.webp",
+      "/images/schools/raffles-world-academy/photo1.webp"
+    ],
+    "ranches-primary-school": [
+      "/images/schools/ranches-primary-school/profile.webp",
+      "/images/schools/ranches-primary-school/photo1.webp"
+    ],
+    "rashid-and-latifa-school": [
+      "/images/schools/rashid-and-latifa-school/profile.webp",
+      "/images/schools/rashid-and-latifa-school/photo1.webp"
+    ],
+    "regent-international-school": [
+      "/images/schools/regent-international-school/profile.webp",
+      "/images/schools/regent-international-school/photo1.webp"
+    ],
+    "repton-school-al-barsha": [
+      "/images/schools/repton-school-al-barsha/profile.webp",
+      "/images/schools/repton-school-al-barsha/photo1.webp"
+    ],
+    "royal-grammar-school-guildford": [
+      "/images/schools/royal-grammar-school-guildford/profile.webp",
+      "/images/schools/royal-grammar-school-guildford/photo1.webp"
+    ],
+    "rushmore-american-school": [
+      "/images/schools/rushmore-american-school/profile.webp",
+      "/images/schools/rushmore-american-school/photo1.webp"
+    ],
+    "sabis-international-school-aljada": [
+      "/images/schools/sabis-international-school-aljada/profile.webp",
+      "/images/schools/sabis-international-school-aljada/photo1.webp"
+    ],
+    "safa-british-school": [
+      "/images/schools/safa-british-school/profile.webp",
+      "/images/schools/safa-british-school/photo1.webp"
+    ],
+    "safa-community-school": [
+      "/images/schools/safa-community-school/profile.webp",
+      "/images/schools/safa-community-school/photo1.webp"
+    ],
+    "scholars-international-academy": [
+      "/images/schools/scholars-international-academy/profile.webp",
+      "/images/schools/scholars-international-academy/photo1.webp"
+    ],
+    "school-of-modern-skills": [
+      "/images/schools/school-of-modern-skills/profile.webp",
+      "/images/schools/school-of-modern-skills/photo1.webp"
+    ],
+    "sharjah-american-international-school": [
+      "/images/schools/sharjah-american-international-school/profile.webp",
+      "/images/schools/sharjah-american-international-school/photo1.webp"
+    ],
+    "sharjah-british-international-school": [
+      "/images/schools/sharjah-british-international-school/profile.webp",
+      "/images/schools/sharjah-british-international-school/photo1.webp"
+    ],
+    "sharjah-english-school": [
+      "/images/schools/sharjah-english-school/profile.webp",
+      "/images/schools/sharjah-english-school/photo1.webp"
+    ],
+    "smart-vision-school": [
+      "/images/schools/smart-vision-school/profile.webp",
+      "/images/schools/smart-vision-school/photo1.webp"
+    ],
+    "south-view-school": [
+      "/images/schools/south-view-school/profile.webp",
+      "/images/schools/south-view-school/photo1.webp"
+    ],
+    "star-international-school-altwar": [
+      "/images/schools/star-international-school-altwar/profile.webp",
+      "/images/schools/star-international-school-altwar/photo1.webp"
+    ],
+    "star-international-school-mirdiff": [
+      "/images/schools/star-international-school-mirdiff/profile.webp",
+      "/images/schools/star-international-school-mirdiff/photo1.webp"
+    ],
+    "sunmarke-school": [
+      "/images/schools/sunmarke-school/profile.webp",
+      "/images/schools/sunmarke-school/photo1.webp"
+    ],
+    "swiss-international-scientific-school": [
+      "/images/schools/swiss-international-scientific-school/profile.webp",
+      "/images/schools/swiss-international-scientific-school/photo1.webp"
+    ],
+    "the-apple-international-school": [
+      "/images/schools/the-apple-international-school/profile.webp",
+      "/images/schools/the-apple-international-school/photo1.webp"
+    ],
+    "the-aquila-school": [
+      "/images/schools/the-aquila-school/profile.webp",
+      "/images/schools/the-aquila-school/photo1.webp"
+    ],
+    "the-arbor-school": [
+      "/images/schools/the-arbor-school/profile.webp",
+      "/images/schools/the-arbor-school/photo1.webp"
+    ],
+    "the-city-school-international": [
+      "/images/schools/the-city-school-international/profile.webp",
+      "/images/schools/the-city-school-international/photo1.webp"
+    ],
+    "the-english-college": [
+      "/images/schools/the-english-college/profile.webp",
+      "/images/schools/the-english-college/photo1.webp"
+    ],
+    "the-international-school-of-choueifat-ajman": [
+      "/images/schools/the-international-school-of-choueifat-ajman/profile.webp",
+      "/images/schools/the-international-school-of-choueifat-ajman/photo1.webp"
+    ],
+    "the-international-school-of-choueifat-dubai-investments-park": [
+      "/images/schools/the-international-school-of-choueifat-dubai-investments-park/profile.webp",
+      "/images/schools/the-international-school-of-choueifat-dubai-investments-park/photo1.webp"
+    ],
+    "the-international-school-of-choueifat-sharjah": [
+      "/images/schools/the-international-school-of-choueifat-sharjah/profile.webp",
+      "/images/schools/the-international-school-of-choueifat-sharjah/photo1.webp"
+    ],
+    "the-millennium-school": [
+      "/images/schools/the-millennium-school/profile.webp",
+      "/images/schools/the-millennium-school/photo1.webp"
+    ],
+    "the-oxford-school": [
+      "/images/schools/the-oxford-school/profile.webp",
+      "/images/schools/the-oxford-school/photo1.webp"
+    ],
+    "the-scholars-school": [
+      "/images/schools/the-scholars-school/profile.webp",
+      "/images/schools/the-scholars-school/photo1.webp"
+    ],
+    "the-school-of-research-science": [
+      "/images/schools/the-school-of-research-science/profile.webp",
+      "/images/schools/the-school-of-research-science/photo1.webp"
+    ],
+    "the-sheffield-private-school": [
+      "/images/schools/the-sheffield-private-school/profile.webp",
+      "/images/schools/the-sheffield-private-school/photo1.webp"
+    ],
+    "the-winchester-school": [
+      "/images/schools/the-winchester-school/profile.webp",
+      "/images/schools/the-winchester-school/photo1.webp"
+    ],
+    "universal-american-school": [
+      "/images/schools/universal-american-school/profile.webp",
+      "/images/schools/universal-american-school/photo1.webp"
+    ],
+    "uptown-international-school": [
+      "/images/schools/uptown-international-school/profile.webp",
+      "/images/schools/uptown-international-school/photo1.webp"
+    ],
+    "victoria-english-school": [
+      "/images/schools/victoria-english-school/profile.webp",
+      "/images/schools/victoria-english-school/photo1.webp"
+    ],
+    "victoria-international-school-of-sharjah": [
+      "/images/schools/victoria-international-school-of-sharjah/profile.webp",
+      "/images/schools/victoria-international-school-of-sharjah/photo1.webp"
+    ],
+    "victory-heights-primary-school-city-of-arabia": [
+      "/images/schools/victory-heights-primary-school-city-of-arabia/profile.webp",
+      "/images/schools/victory-heights-primary-school-city-of-arabia/photo1.webp"
+    ],
+    "victory-heights-primary-school": [
+      "/images/schools/victory-heights-primary-school/profile.webp",
+      "/images/schools/victory-heights-primary-school/photo1.webp"
+    ],
+    "wise-indian-academy": [
+      "/images/schools/wise-indian-academy/profile.webp",
+      "/images/schools/wise-indian-academy/photo1.webp"
+    ],
+    "woodlem-british-school": [
+      "/images/schools/woodlem-british-school/profile.webp",
+      "/images/schools/woodlem-british-school/photo1.webp"
     ]
   }
 }
