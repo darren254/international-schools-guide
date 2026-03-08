@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T02:22:06.194Z",
+  "generatedAt": "2026-03-08T02:23:18.342Z",
   "sourceRoot": "external/jakarta-school-automation-images",
   "slugs": {
     "acg-school-jakarta": {
@@ -2641,6 +2641,125 @@
       "sourceFolder": "images-dubai-final",
       "sourceFile": "Woodlem-British-School_1.jpg",
       "photo1": "/images/schools/woodlem-british-school/photo1.webp"
+    },
+    "5-steps-academy": {
+      "profile": "/images/schools/5-steps-academy/profile.webp",
+      "card": "/images/schools/5-steps-academy/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "5-Steps-Academy-Singapore_1.jpg",
+      "photo1": "/images/schools/5-steps-academy/photo1.webp"
+    },
+    "all-hands-together": {
+      "profile": "/images/schools/all-hands-together/profile.webp",
+      "card": "/images/schools/all-hands-together/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "All-Hands-Together-Singapore_1.jpg",
+      "photo1": "/images/schools/all-hands-together/photo1.webp"
+    },
+    "astor-international-school": {
+      "profile": "/images/schools/astor-international-school/profile.webp",
+      "card": "/images/schools/astor-international-school/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "Astor-International-School-Singapore_1.jpg",
+      "photo1": "/images/schools/astor-international-school/photo1.webp"
+    },
+    "dynamics-international-school": {
+      "profile": "/images/schools/dynamics-international-school/profile.webp",
+      "card": "/images/schools/dynamics-international-school/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "Dynamics-International-School-Singapore_1.jpg",
+      "photo1": "/images/schools/dynamics-international-school/photo1.webp"
+    },
+    "gig-international-school": {
+      "profile": "/images/schools/gig-international-school/profile.webp",
+      "card": "/images/schools/gig-international-school/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "Gig-International-School-Singapore_1.jpg",
+      "photo1": "/images/schools/gig-international-school/photo1.webp"
+    },
+    "heritage-academy": {
+      "profile": "/images/schools/heritage-academy/profile.webp",
+      "card": "/images/schools/heritage-academy/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "Heritage-Academy-Singapore_1.png",
+      "photo1": "/images/schools/heritage-academy/photo1.webp"
+    },
+    "holland-international-school": {
+      "profile": "/images/schools/holland-international-school/profile.webp",
+      "card": "/images/schools/holland-international-school/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "Holland-International-School-Singapore_1.jpg",
+      "photo1": "/images/schools/holland-international-school/photo1.webp"
+    },
+    "international-french-school": {
+      "profile": "/images/schools/international-french-school/profile.webp",
+      "card": "/images/schools/international-french-school/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "International-French-School-Singapore_1.jpg",
+      "photo1": "/images/schools/international-french-school/photo1.webp"
+    },
+    "knightsbridge-house-international-school": {
+      "profile": "/images/schools/knightsbridge-house-international-school/profile.webp",
+      "card": "/images/schools/knightsbridge-house-international-school/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "Knightsbridge-House-International-School-Singapore_1.webp",
+      "photo1": "/images/schools/knightsbridge-house-international-school/photo1.webp"
+    },
+    "lodestar-montessori-school": {
+      "profile": "/images/schools/lodestar-montessori-school/profile.webp",
+      "card": "/images/schools/lodestar-montessori-school/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "Lodestar-Montessori-School-Singapore_1.jpg",
+      "photo1": "/images/schools/lodestar-montessori-school/photo1.webp"
+    },
+    "lotus-bridge-international-school": {
+      "profile": "/images/schools/lotus-bridge-international-school/profile.webp",
+      "card": "/images/schools/lotus-bridge-international-school/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "Lotus-Bridge-International-School-Singapore_1.jpg",
+      "photo1": "/images/schools/lotus-bridge-international-school/photo1.webp"
+    },
+    "sfa-eduhearts-international-school": {
+      "profile": "/images/schools/sfa-eduhearts-international-school/profile.webp",
+      "card": "/images/schools/sfa-eduhearts-international-school/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "Sfa-Eduhearts-International-School-Singapore_1.png",
+      "photo1": "/images/schools/sfa-eduhearts-international-school/photo1.webp"
+    },
+    "sish-international-high-school": {
+      "profile": "/images/schools/sish-international-high-school/profile.webp",
+      "card": "/images/schools/sish-international-high-school/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "Sish-International-High-School-Singapore_1.jpg",
+      "photo1": "/images/schools/sish-international-high-school/photo1.webp"
+    },
+    "tls-academy": {
+      "profile": "/images/schools/tls-academy/profile.webp",
+      "card": "/images/schools/tls-academy/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "TLS-Academy-Singapore_1.jpg",
+      "photo1": "/images/schools/tls-academy/photo1.webp"
+    },
+    "waseda-shibuya-senior-high-school": {
+      "profile": "/images/schools/waseda-shibuya-senior-high-school/profile.webp",
+      "card": "/images/schools/waseda-shibuya-senior-high-school/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "Waseda-Shibuya-Senior-High-School-Singapore_1.jpg",
+      "photo1": "/images/schools/waseda-shibuya-senior-high-school/photo1.webp"
+    },
+    "wise-oaks-international-school": {
+      "profile": "/images/schools/wise-oaks-international-school/profile.webp",
+      "card": "/images/schools/wise-oaks-international-school/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "Wise-Oaks-International-School-Singapore_1.jpg",
+      "photo1": "/images/schools/wise-oaks-international-school/photo1.webp"
+    },
+    "yuva-bharathi-international-school": {
+      "profile": "/images/schools/yuva-bharathi-international-school/profile.webp",
+      "card": "/images/schools/yuva-bharathi-international-school/card.webp",
+      "sourceFolder": "images-singapore",
+      "sourceFile": "Yuvabharathi-International-School-Singapore_1.jpg",
+      "photo1": "/images/schools/yuva-bharathi-international-school/photo1.webp"
     }
   }
 }

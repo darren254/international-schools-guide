@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T02:22:05.249Z",
+  "generatedAt": "2026-03-08T02:23:17.373Z",
   "slugs": {
     "acg-school-jakarta": [
       "/images/schools/acg-school-jakarta/campus.webp",
@@ -1470,6 +1470,73 @@
     "woodlem-british-school": [
       "/images/schools/woodlem-british-school/profile.webp",
       "/images/schools/woodlem-british-school/photo1.webp"
+    ],
+    "5-steps-academy": [
+      "/images/schools/5-steps-academy/profile.webp",
+      "/images/schools/5-steps-academy/photo1.webp"
+    ],
+    "all-hands-together": [
+      "/images/schools/all-hands-together/profile.webp",
+      "/images/schools/all-hands-together/photo1.webp"
+    ],
+    "astor-international-school": [
+      "/images/schools/astor-international-school/profile.webp",
+      "/images/schools/astor-international-school/photo1.webp"
+    ],
+    "dynamics-international-school": [
+      "/images/schools/dynamics-international-school/profile.webp",
+      "/images/schools/dynamics-international-school/photo1.webp"
+    ],
+    "gig-international-school": [
+      "/images/schools/gig-international-school/profile.webp",
+      "/images/schools/gig-international-school/photo1.webp"
+    ],
+    "heritage-academy": [
+      "/images/schools/heritage-academy/profile.webp",
+      "/images/schools/heritage-academy/photo1.webp"
+    ],
+    "holland-international-school": [
+      "/images/schools/holland-international-school/profile.webp",
+      "/images/schools/holland-international-school/photo1.webp"
+    ],
+    "international-french-school": [
+      "/images/schools/international-french-school/profile.webp",
+      "/images/schools/international-french-school/photo1.webp"
+    ],
+    "knightsbridge-house-international-school": [
+      "/images/schools/knightsbridge-house-international-school/profile.webp",
+      "/images/schools/knightsbridge-house-international-school/photo1.webp"
+    ],
+    "lodestar-montessori-school": [
+      "/images/schools/lodestar-montessori-school/profile.webp"
+    ],
+    "lotus-bridge-international-school": [
+      "/images/schools/lotus-bridge-international-school/profile.webp",
+      "/images/schools/lotus-bridge-international-school/photo1.webp"
+    ],
+    "sfa-eduhearts-international-school": [
+      "/images/schools/sfa-eduhearts-international-school/profile.webp",
+      "/images/schools/sfa-eduhearts-international-school/photo1.webp"
+    ],
+    "sish-international-high-school": [
+      "/images/schools/sish-international-high-school/profile.webp",
+      "/images/schools/sish-international-high-school/photo1.webp"
+    ],
+    "tls-academy": [
+      "/images/schools/tls-academy/profile.webp",
+      "/images/schools/tls-academy/photo1.webp"
+    ],
+    "waseda-shibuya-senior-high-school": [
+      "/images/schools/waseda-shibuya-senior-high-school/profile.webp",
+      "/images/schools/waseda-shibuya-senior-high-school/photo1.webp"
+    ],
+    "wise-oaks-international-school": [
+      "/images/schools/wise-oaks-international-school/profile.webp",
+      "/images/schools/wise-oaks-international-school/photo1.webp"
+    ],
+    "yuva-bharathi-international-school": [
+      "/images/schools/yuva-bharathi-international-school/profile.webp",
+      "/images/schools/yuva-bharathi-international-school/photo1.webp"
     ]
   }
 }
