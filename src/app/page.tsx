@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CITIES, LIVE_CITIES, TOTAL_SCHOOLS_LIVE } from "@/data/cities";
 import { HeroSearch } from "@/components/home/HeroSearch";
-import { CityCardImage } from "@/components/home/CityCardImage";
+import { CityCard } from "@/components/home/CityCard";
 
 export const metadata: Metadata = {
   title: "Find the Right International School",
@@ -68,54 +68,13 @@ export default function HomePage() {
         </p>
       </section>
 
-      {/* ─── City tiles (6) ─── */}
+      {/* ─── City tiles (6) — same cards and grid as /cities for consistent mobile ─── */}
       <section className="bg-warm-white border-y border-warm-border-light pt-8 pb-12 md:pt-16 md:pb-16">
         <div className="container-site">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-            {CITIES.slice(0, 6).map((city) => {
-              const content = (
-                <>
-                  <CityCardImage
-                    city={city}
-                    photoCredit={city.photoCredit}
-                  />
-                  <div className="p-3 md:p-4 flex flex-col min-w-0">
-                    <div className="flex items-baseline justify-between gap-2 mb-1 min-w-0">
-                      <span className="font-display text-display-sm font-medium text-charcoal truncate">
-                        {city.name}
-                      </span>
-                      <span
-                        className="text-label-xs uppercase text-charcoal-muted shrink-0 truncate max-w-[45%]"
-                        title={city.country}
-                      >
-                        {city.country}
-                      </span>
-                    </div>
-                    <p className="text-body-xs text-charcoal-muted leading-snug">
-                      {city.schoolCount ?? "—"}+ schools
-                    </p>
-                  </div>
-                </>
-              );
-
-              const wrapperClasses = city.live
-                ? "group border-2 border-primary rounded-sm overflow-hidden hover:shadow-lg transition-all duration-200 bg-cream-50 flex flex-col h-full"
-                : "group border border-charcoal-muted/40 rounded-sm overflow-hidden bg-cream-50 transition-all duration-200 flex flex-col h-full";
-
-              return city.live ? (
-                <Link
-                  key={city.slug}
-                  href={`/international-schools/${city.slug}/`}
-                  className={wrapperClasses}
-                >
-                  {content}
-                </Link>
-              ) : (
-                <div key={city.slug} className={wrapperClasses}>
-                  {content}
-                </div>
-              );
-            })}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {CITIES.slice(0, 6).map((city) => (
+              <CityCard key={city.slug} city={city} />
+            ))}
           </div>
 
           <p className="text-center text-body-sm text-charcoal-muted mt-8 font-body">
