@@ -37,7 +37,12 @@ export function getSchoolImageUrl(
   variant: SchoolImageVariant = "card"
 ): string | undefined {
   const entry = manifest.slugs[slug] ?? manifest.slugs[IMAGE_ALIAS_SLUGS[slug]];
-  const url = entry?.[variant];
+  if (!entry) return undefined;
+  let url = entry[variant];
+  // If card/profile is missing but gallery photos exist, use first available so URL-only uploads still show
+  if (!url && (variant === "card" || variant === "profile")) {
+    url = entry.profile ?? entry.card ?? entry.photo1 ?? entry.photo2 ?? entry.photo3;
+  }
   if (!url) return undefined;
   // Normalize protocol-relative "//images/..." to same-origin "/images/..." so images load correctly
   if (url.startsWith("//") && url.slice(2).startsWith("images/")) return "/" + url.slice(2);
