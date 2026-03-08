@@ -2,16 +2,21 @@
 
 import { useState } from "react";
 
-export type FeeSortValue = "high-low" | "low-high";
+export type SortValue = "high-low" | "low-high" | "a-z" | "z-a";
 
-const OPTIONS: { value: FeeSortValue; label: string }[] = [
+/** @deprecated Use SortValue */
+export type FeeSortValue = SortValue;
+
+const OPTIONS: { value: SortValue; label: string }[] = [
   { value: "high-low", label: "Fees: High → Low" },
   { value: "low-high", label: "Fees: Low → High" },
+  { value: "a-z", label: "Alphabetical A–Z" },
+  { value: "z-a", label: "Alphabetical Z–A" },
 ];
 
 type SortDropdownProps = {
-  value: FeeSortValue;
-  onChange: (value: FeeSortValue) => void;
+  value: SortValue;
+  onChange: (value: SortValue) => void;
   /** When provided, dropdown open state is controlled by parent (only one open at a time). */
   isOpen?: boolean;
   onOpenChange?: (open: boolean) => void;
@@ -35,7 +40,7 @@ export function SortDropdown({ value, onChange, isOpen: controlledOpen, onOpenCh
         className="flex items-center gap-2 px-3 py-2 text-body-xs font-body rounded-sm border border-warm-border text-charcoal hover:border-charcoal-muted transition-colors bg-cream"
         aria-expanded={open}
         aria-haspopup="listbox"
-        aria-label={`Sort by fees. Current: ${currentLabel}. Click to change.`}
+        aria-label={`Sort by fees or name. Current: ${currentLabel}. Click to change.`}
       >
         <svg
           width="14"

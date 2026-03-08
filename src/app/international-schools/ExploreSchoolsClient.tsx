@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { SchoolCard } from "@/components/school/SchoolCard";
 import { FilterDropdownMulti } from "@/components/school/FilterDropdownMulti";
-import { SortDropdown, type FeeSortValue } from "@/components/school/SortDropdown";
+import { SortDropdown, type SortValue } from "@/components/school/SortDropdown";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { getCurriculumFilterLabels, getLocationFilter } from "@/data/jakarta-schools";
 import { getDubaiLocationFilter } from "@/data/dubai-schools";
@@ -96,7 +96,7 @@ export function ExploreSchoolsClient({
 }: ExploreSchoolsClientProps) {
   const [curriculumFilter, setCurriculumFilter] = useState<string[]>([]);
   const [locationFilter, setLocationFilter] = useState<string[]>([]);
-  const [feeSort, setFeeSort] = useState<FeeSortValue>("high-low");
+  const [sort, setSort] = useState<SortValue>("high-low");
   const [openFilterId, setOpenFilterId] = useState<"curriculum" | "area" | "sort" | null>(null);
 
   const shortlist = useShortlistOptional();
@@ -123,17 +123,22 @@ export function ExploreSchoolsClient({
         schoolMatchesCurriculum(s, curriculumFilter) &&
         schoolMatchesLocation(s, locationFilter, citySlug)
     );
-    const sortMultiplier = feeSort === "high-low" ? -1 : 1;
-    list = [...list].sort((a, b) => {
-      const aHasFee = a.feeHighUsd > 0;
-      const bHasFee = b.feeHighUsd > 0;
-      if (aHasFee !== bHasFee) return aHasFee ? -1 : 1;
-      if (!aHasFee) return 0;
-      if (a.feeHighUsd !== b.feeHighUsd) return (a.feeHighUsd - b.feeHighUsd) * sortMultiplier;
-      return (a.feeLowUsd - b.feeLowUsd) * sortMultiplier;
-    });
+    if (sort === "a-z" || sort === "z-a") {
+      const dir = sort === "a-z" ? 1 : -1;
+      list = [...list].sort((a, b) => dir * a.name.localeCompare(b.name, undefined, { sensitivity: "base" }));
+    } else {
+      const sortMultiplier = sort === "high-low" ? -1 : 1;
+      list = [...list].sort((a, b) => {
+        const aHasFee = a.feeHighUsd > 0;
+        const bHasFee = b.feeHighUsd > 0;
+        if (aHasFee !== bHasFee) return aHasFee ? -1 : 1;
+        if (!aHasFee) return 0;
+        if (a.feeHighUsd !== b.feeHighUsd) return (a.feeHighUsd - b.feeHighUsd) * sortMultiplier;
+        return (a.feeLowUsd - b.feeLowUsd) * sortMultiplier;
+      });
+    }
     return list;
-  }, [schools, curriculumFilter, locationFilter, feeSort, citySlug]);
+  }, [schools, curriculumFilter, locationFilter, sort, citySlug]);
 
   const hasActiveFilters = curriculumFilter.length > 0 || locationFilter.length > 0;
   const clearFilters = () => {
@@ -157,7 +162,7 @@ export function ExploreSchoolsClient({
             International Schools in {cityName}
           </h1>
           <p className="text-body-sm text-charcoal-muted font-body max-w-2xl">
-            Compare fees and read honest reviews. Filter by curriculum or area; sort by fees.
+            Compare fees and read honest reviews. Filter by curriculum or area; sort by fees or name.
           </p>
         </div>
 
@@ -182,8 +187,8 @@ export function ExploreSchoolsClient({
             />
           )}
           <SortDropdown
-            value={feeSort}
-            onChange={setFeeSort}
+            value={sort}
+            onChange={setSort}
             isOpen={openFilterId === "sort"}
             onOpenChange={(open) => setOpenFilterId(open ? "sort" : null)}
           />
