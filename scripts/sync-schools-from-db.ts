@@ -4,7 +4,8 @@
  * Usage: npx tsx scripts/sync-schools-from-db.ts
  *
  * Optional: R2_PUBLIC_URL — if school_media.url stores R2 keys (e.g. schools/slug/uuid.webp),
- * set this to the public base URL so output paths are full URLs.
+ * set this to the public base URL (e.g. in Cloudflare Pages env or .env.local when running sync)
+ * so output paths are full URLs.
  */
 
 import { config } from "dotenv";

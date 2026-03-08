@@ -85,10 +85,12 @@ Steps:
 2. **Build command:** `npm run build` (output directory `out` for static export).
 3. **Environment variables** (Cloudflare dashboard → your project → Settings → Environment variables):
    - `DATABASE_URL` = your Neon connection string (required for admin).
-4. **Optional – R2 for image uploads:**
-   - Create an R2 bucket in the Cloudflare dashboard.
-   - In the Pages project, add an R2 bucket **binding** named `R2_BUCKET` pointing to that bucket.
-   - Without R2, you can still add images by URL via the API (JSON `{ variant, url }`).
+4. **Optional – R2 for image uploads (enables drag-and-drop):**
+   - Create an R2 bucket: Cloudflare dashboard → **R2** → **Create bucket** (e.g. name `isg-admin-uploads`).
+   - Bind it to your Pages project: **Pages** → your project → **Settings** → **Functions** → **R2 bucket bindings** → **Add binding**. Set **Variable name** to exactly `R2_BUCKET` and select your bucket. Save.
+   - Redeploy (e.g. **Deployments** → **Retry deployment**) so the binding is active. After that, the admin “drop here” box and file picker will upload to R2 instead of showing “Image upload needs cloud storage.”
+   - **Optional – public URLs:** If you enable public access on the bucket (or use a custom domain), set the **Environment variable** `R2_PUBLIC_URL` to that base URL (e.g. `https://your-r2-public-url.com`) so `sync-schools-from-db.ts` can build full image URLs when you publish. Without it, the sync script will prefix R2 keys with `/`, which only works if your app serves those paths.
+   - Without R2, you can still add images by URL in the admin (JSON `{ variant, url }`).
 5. Redeploy. After deploy, open `https://your-site.pages.dev/admin` and log in.
 
 ## 7. Populate schools in the database
@@ -117,7 +119,7 @@ The live site reads from **static** data (`school-images.json`, profile files). 
    ```bash
    npx tsx scripts/sync-schools-from-db.ts
    ```
-   This reads from Neon (`schools` + `school_media`) and writes `src/data/school-images.json`. If you use R2 keys in `school_media.url`, set `R2_PUBLIC_URL` so the script can build full image URLs.
+   This reads from Neon (`schools` + `school_media`) and writes `src/data/school-images.json`. If you use R2 for uploads, set `R2_PUBLIC_URL` (in Cloudflare Pages env or in `.env.local` when running the script) to the public base URL so the script can build full image URLs for R2 keys.
 
 2. **Build and deploy:**
    ```bash
@@ -138,6 +140,6 @@ Repeat this workflow whenever you want admin edits to go live.
 | 3 | `npm run db:migrate` (or `db:push` if DB already has tables) |
 | 4 | `ADMIN_EMAIL=... ADMIN_PASSWORD=... npx tsx scripts/seed-admin-user.ts` |
 | 5 | `npm run build` then add `.dev.vars` with `DATABASE_URL`, run `npx wrangler pages dev out` → open `/admin` |
-| 6 | Set `DATABASE_URL` (and optional R2) in Cloudflare → deploy |
+| 6 | Set `DATABASE_URL` in Cloudflare; optional: add R2 bucket binding named `R2_BUCKET`, then redeploy |
 | 7 | `npx tsx scripts/seed-schools-from-static.ts` (populate schools list) |
 | 8 | After editing in admin: run `npx tsx scripts/sync-schools-from-db.ts`, then `npm run build` and deploy |
