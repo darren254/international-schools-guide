@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T02:23:18.342Z",
+  "generatedAt": "2026-03-08T02:24:51.928Z",
   "sourceRoot": "external/jakarta-school-automation-images",
   "slugs": {
     "acg-school-jakarta": {
@@ -1653,8 +1653,8 @@
     "american-international-school": {
       "profile": "/images/schools/american-international-school/profile.webp",
       "card": "/images/schools/american-international-school/card.webp",
-      "sourceFolder": "images-dubai-final",
-      "sourceFile": "American-International-School-Dubai_1.jpg",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "American-International-School-Hong-Kong_1.jpg",
       "photo1": "/images/schools/american-international-school/photo1.webp"
     },
     "american-school-of-creative-science-maliha": {
@@ -2760,6 +2760,523 @@
       "sourceFolder": "images-singapore",
       "sourceFile": "Yuvabharathi-International-School-Singapore_1.jpg",
       "photo1": "/images/schools/yuva-bharathi-international-school/photo1.webp"
+    },
+    "american-school": {
+      "profile": "/images/schools/american-school/profile.webp",
+      "card": "/images/schools/american-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "American-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/american-school/photo1.webp"
+    },
+    "anchors-academy": {
+      "profile": "/images/schools/anchors-academy/profile.webp",
+      "card": "/images/schools/anchors-academy/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Anchors-Academy-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/anchors-academy/photo1.webp"
+    },
+    "anfield-school": {
+      "profile": "/images/schools/anfield-school/profile.webp",
+      "card": "/images/schools/anfield-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Anfield-International-School-Hong-Kong_1.webp",
+      "photo1": "/images/schools/anfield-school/photo1.webp"
+    },
+    "beacon-hill-school": {
+      "profile": "/images/schools/beacon-hill-school/profile.webp",
+      "card": "/images/schools/beacon-hill-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Beacon-Hill-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/beacon-hill-school/photo1.webp"
+    },
+    "bloom-kkca-academy": {
+      "profile": "/images/schools/bloom-kkca-academy/profile.webp",
+      "card": "/images/schools/bloom-kkca-academy/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Bloom-KKCA-Academy_1.jpg",
+      "photo1": "/images/schools/bloom-kkca-academy/photo1.webp"
+    },
+    "bradbury-school": {
+      "profile": "/images/schools/bradbury-school/profile.webp",
+      "card": "/images/schools/bradbury-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Bradbury-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/bradbury-school/photo1.webp"
+    },
+    "california-school": {
+      "profile": "/images/schools/california-school/profile.webp",
+      "card": "/images/schools/california-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "California-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/california-school/photo1.webp"
+    },
+    "canadian-international-school-of": {
+      "profile": "/images/schools/canadian-international-school-of/profile.webp",
+      "card": "/images/schools/canadian-international-school-of/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Canadian-International-School-of-Hong-Kong_1.png",
+      "photo1": "/images/schools/canadian-international-school-of/photo1.webp"
+    },
+    "carmel-school": {
+      "profile": "/images/schools/carmel-school/profile.webp",
+      "card": "/images/schools/carmel-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Carmel-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/carmel-school/photo1.webp"
+    },
+    "chinese-international-school": {
+      "profile": "/images/schools/chinese-international-school/profile.webp",
+      "card": "/images/schools/chinese-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Chinese-International-School_1.webp",
+      "photo1": "/images/schools/chinese-international-school/photo1.webp"
+    },
+    "christian-alliance-international-school": {
+      "profile": "/images/schools/christian-alliance-international-school/profile.webp",
+      "card": "/images/schools/christian-alliance-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Christian-Alliance-International-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/christian-alliance-international-school/photo1.webp"
+    },
+    "christian-alliance-p-c-lau-memorial-international-school": {
+      "profile": "/images/schools/christian-alliance-p-c-lau-memorial-international-school/profile.webp",
+      "card": "/images/schools/christian-alliance-p-c-lau-memorial-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Christian-Alliance-PC-Lau-Memorial-International-School_1.jpg",
+      "photo1": "/images/schools/christian-alliance-p-c-lau-memorial-international-school/photo1.webp"
+    },
+    "clearwater-bay-school": {
+      "profile": "/images/schools/clearwater-bay-school/profile.webp",
+      "card": "/images/schools/clearwater-bay-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Clearwater-Bay-School_1.jpg",
+      "photo1": "/images/schools/clearwater-bay-school/photo1.webp"
+    },
+    "concordia-international-school": {
+      "profile": "/images/schools/concordia-international-school/profile.webp",
+      "card": "/images/schools/concordia-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Concordia-International-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/concordia-international-school/photo1.webp"
+    },
+    "creative-primary-school": {
+      "profile": "/images/schools/creative-primary-school/profile.webp",
+      "card": "/images/schools/creative-primary-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Creative-Primary-School_1.jpg",
+      "photo1": "/images/schools/creative-primary-school/photo1.webp"
+    },
+    "creative-secondary-school": {
+      "profile": "/images/schools/creative-secondary-school/profile.webp",
+      "card": "/images/schools/creative-secondary-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Creative-Secondary-School-Hong-Kong_1.png",
+      "photo1": "/images/schools/creative-secondary-school/photo1.webp"
+    },
+    "dalton-school": {
+      "profile": "/images/schools/dalton-school/profile.webp",
+      "card": "/images/schools/dalton-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Dalton-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/dalton-school/photo1.webp"
+    },
+    "discovery-bay-international-school": {
+      "profile": "/images/schools/discovery-bay-international-school/profile.webp",
+      "card": "/images/schools/discovery-bay-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Discovery-Bay-International-School-Hong-Kong_1.webp",
+      "photo1": "/images/schools/discovery-bay-international-school/photo1.webp"
+    },
+    "discovery-college": {
+      "profile": "/images/schools/discovery-college/profile.webp",
+      "card": "/images/schools/discovery-college/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Discovery-College-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/discovery-college/photo1.webp"
+    },
+    "discovery-mind-educational-organisation": {
+      "profile": "/images/schools/discovery-mind-educational-organisation/profile.webp",
+      "card": "/images/schools/discovery-mind-educational-organisation/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Discovery-Mind-Educational-Organisation-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/discovery-mind-educational-organisation/photo1.webp"
+    },
+    "kennedy-school": {
+      "profile": "/images/schools/kennedy-school/profile.webp",
+      "card": "/images/schools/kennedy-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "ESF-Kennedy-School_1.jpg",
+      "photo1": "/images/schools/kennedy-school/photo1.webp"
+    },
+    "quarry-bay-school": {
+      "profile": "/images/schools/quarry-bay-school/profile.webp",
+      "card": "/images/schools/quarry-bay-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "ESF-Quarry-Bay-School_1.jpg",
+      "photo1": "/images/schools/quarry-bay-school/photo1.webp"
+    },
+    "elchk-lutheran-academy": {
+      "profile": "/images/schools/elchk-lutheran-academy/profile.webp",
+      "card": "/images/schools/elchk-lutheran-academy/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Elchk-Lutheran-Academy_1.jpg",
+      "photo1": "/images/schools/elchk-lutheran-academy/photo1.webp"
+    },
+    "forest-house-waldorf-school": {
+      "profile": "/images/schools/forest-house-waldorf-school/profile.webp",
+      "card": "/images/schools/forest-house-waldorf-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Forest-House-Waldorf-School_1.jpg",
+      "photo1": "/images/schools/forest-house-waldorf-school/photo1.webp"
+    },
+    "french-international-school-of": {
+      "profile": "/images/schools/french-international-school-of/profile.webp",
+      "card": "/images/schools/french-international-school-of/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "French-International-School-of-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/french-international-school-of/photo1.webp"
+    },
+    "garden-house-waldorf-school": {
+      "profile": "/images/schools/garden-house-waldorf-school/profile.webp",
+      "card": "/images/schools/garden-house-waldorf-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Garden-House-Waldorf-School-Hong-Kong_1.png",
+      "photo1": "/images/schools/garden-house-waldorf-school/photo1.webp"
+    },
+    "german-swiss-international-school": {
+      "profile": "/images/schools/german-swiss-international-school/profile.webp",
+      "card": "/images/schools/german-swiss-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "German-Swiss-International-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/german-swiss-international-school/photo1.webp"
+    },
+    "guidepost": {
+      "profile": "/images/schools/guidepost/profile.webp",
+      "card": "/images/schools/guidepost/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Guidepost-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/guidepost/photo1.webp"
+    },
+    "han-academy": {
+      "profile": "/images/schools/han-academy/profile.webp",
+      "card": "/images/schools/han-academy/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Han-Academy-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/han-academy/photo1.webp"
+    },
+    "harrow-international-school": {
+      "profile": "/images/schools/harrow-international-school/profile.webp",
+      "card": "/images/schools/harrow-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Harrow-International-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/harrow-international-school/photo1.webp"
+    },
+    "hkila": {
+      "profile": "/images/schools/hkila/profile.webp",
+      "card": "/images/schools/hkila/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Hkila-Hong-Kong_1.webp",
+      "photo1": "/images/schools/hkila/photo1.webp"
+    },
+    "hong-kong-academy": {
+      "profile": "/images/schools/hong-kong-academy/profile.webp",
+      "card": "/images/schools/hong-kong-academy/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Hong-Kong-Academy_1.jpg",
+      "photo1": "/images/schools/hong-kong-academy/photo1.webp"
+    },
+    "hong-kong-adventist-academy": {
+      "profile": "/images/schools/hong-kong-adventist-academy/profile.webp",
+      "card": "/images/schools/hong-kong-adventist-academy/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Hong-Kong-Adventist-Academy_1.jpg",
+      "photo1": "/images/schools/hong-kong-adventist-academy/photo1.webp"
+    },
+    "hong-kong-international-school": {
+      "profile": "/images/schools/hong-kong-international-school/profile.webp",
+      "card": "/images/schools/hong-kong-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Hong-Kong-International-School_1.jpg",
+      "photo1": "/images/schools/hong-kong-international-school/photo1.webp"
+    },
+    "ichk-kindergarten-and-primary": {
+      "profile": "/images/schools/ichk-kindergarten-and-primary/profile.webp",
+      "card": "/images/schools/ichk-kindergarten-and-primary/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "ICHK-Hong-Lok-Yuen-Kindergarten-and-Primary_1.jpg",
+      "photo1": "/images/schools/ichk-kindergarten-and-primary/photo1.webp"
+    },
+    "ichk-secondary": {
+      "profile": "/images/schools/ichk-secondary/profile.webp",
+      "card": "/images/schools/ichk-secondary/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "ICHK-Secondary_1.jpg",
+      "photo1": "/images/schools/ichk-secondary/photo1.webp"
+    },
+    "international-christian-school": {
+      "profile": "/images/schools/international-christian-school/profile.webp",
+      "card": "/images/schools/international-christian-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "International-Christian-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/international-christian-school/photo1.webp"
+    },
+    "invictus-school": {
+      "profile": "/images/schools/invictus-school/profile.webp",
+      "card": "/images/schools/invictus-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Invictus-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/invictus-school/photo1.webp"
+    },
+    "island-school": {
+      "profile": "/images/schools/island-school/profile.webp",
+      "card": "/images/schools/island-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Island-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/island-school/photo1.webp"
+    },
+    "island-waldorf-school": {
+      "profile": "/images/schools/island-waldorf-school/profile.webp",
+      "card": "/images/schools/island-waldorf-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Island-Waldorf-School_1.jpg",
+      "photo1": "/images/schools/island-waldorf-school/photo1.webp"
+    },
+    "japanese-international-school": {
+      "profile": "/images/schools/japanese-international-school/profile.webp",
+      "card": "/images/schools/japanese-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Japanese-International-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/japanese-international-school/photo1.webp"
+    },
+    "kellett-school": {
+      "profile": "/images/schools/kellett-school/profile.webp",
+      "card": "/images/schools/kellett-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Kellett-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/kellett-school/photo1.webp"
+    },
+    "kiangsu-chekiang-school-international-sections": {
+      "profile": "/images/schools/kiangsu-chekiang-school-international-sections/profile.webp",
+      "card": "/images/schools/kiangsu-chekiang-school-international-sections/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Kiangsu-Chekiang-School-International-Sections-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/kiangsu-chekiang-school-international-sections/photo1.webp"
+    },
+    "king-george-v-school": {
+      "profile": "/images/schools/king-george-v-school/profile.webp",
+      "card": "/images/schools/king-george-v-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "King-George-V-School_1.jpg",
+      "photo1": "/images/schools/king-george-v-school/photo1.webp"
+    },
+    "kingston-international-school": {
+      "profile": "/images/schools/kingston-international-school/profile.webp",
+      "card": "/images/schools/kingston-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Kingston-International-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/kingston-international-school/photo1.webp"
+    },
+    "korean-international-school": {
+      "profile": "/images/schools/korean-international-school/profile.webp",
+      "card": "/images/schools/korean-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Korean-International-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/korean-international-school/photo1.webp"
+    },
+    "kowloon-junior-school": {
+      "profile": "/images/schools/kowloon-junior-school/profile.webp",
+      "card": "/images/schools/kowloon-junior-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Kowloon-Junior-School_1.jpg",
+      "photo1": "/images/schools/kowloon-junior-school/photo1.webp"
+    },
+    "lantau-international-school": {
+      "profile": "/images/schools/lantau-international-school/profile.webp",
+      "card": "/images/schools/lantau-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Lantau-International-School_1.jpg",
+      "photo1": "/images/schools/lantau-international-school/photo1.webp"
+    },
+    "li-po-chun-united-world-college-of": {
+      "profile": "/images/schools/li-po-chun-united-world-college-of/profile.webp",
+      "card": "/images/schools/li-po-chun-united-world-college-of/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Li-Po-Chun-United-World-College-of-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/li-po-chun-united-world-college-of/photo1.webp"
+    },
+    "malvern-college": {
+      "profile": "/images/schools/malvern-college/profile.webp",
+      "card": "/images/schools/malvern-college/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Malvern-College-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/malvern-college/photo1.webp"
+    },
+    "norwegian-international-school": {
+      "profile": "/images/schools/norwegian-international-school/profile.webp",
+      "card": "/images/schools/norwegian-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Norwegian-International-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/norwegian-international-school/photo1.webp"
+    },
+    "oxbridge-school": {
+      "profile": "/images/schools/oxbridge-school/profile.webp",
+      "card": "/images/schools/oxbridge-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Oxbridge-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/oxbridge-school/photo1.webp"
+    },
+    "peak-school": {
+      "profile": "/images/schools/peak-school/profile.webp",
+      "card": "/images/schools/peak-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Peak-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/peak-school/photo1.webp"
+    },
+    "po-leung-kuk-choi-kai-yau-school": {
+      "profile": "/images/schools/po-leung-kuk-choi-kai-yau-school/profile.webp",
+      "card": "/images/schools/po-leung-kuk-choi-kai-yau-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Po-Leung-Kuk-Choi-Kai-Yau-School_1.jpg",
+      "photo1": "/images/schools/po-leung-kuk-choi-kai-yau-school/photo1.webp"
+    },
+    "renaissance-college": {
+      "profile": "/images/schools/renaissance-college/profile.webp",
+      "card": "/images/schools/renaissance-college/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Renaissance-College-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/renaissance-college/photo1.webp"
+    },
+    "saint-too-bloom-academy": {
+      "profile": "/images/schools/saint-too-bloom-academy/profile.webp",
+      "card": "/images/schools/saint-too-bloom-academy/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Saint-Too-Bloom-Academy_1.jpg",
+      "photo1": "/images/schools/saint-too-bloom-academy/photo1.webp"
+    },
+    "san-wui-commercial-society-ymca-of-hong-kong-christian-school": {
+      "profile": "/images/schools/san-wui-commercial-society-ymca-of-hong-kong-christian-school/profile.webp",
+      "card": "/images/schools/san-wui-commercial-society-ymca-of-hong-kong-christian-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "San-Wui-Commercial-Society-YMCA-of-Hong-Kong-Christian-School_1.jpg",
+      "photo1": "/images/schools/san-wui-commercial-society-ymca-of-hong-kong-christian-school/photo1.webp"
+    },
+    "sear-rogers-international-school": {
+      "profile": "/images/schools/sear-rogers-international-school/profile.webp",
+      "card": "/images/schools/sear-rogers-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Sear-Rogers-International-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/sear-rogers-international-school/photo1.webp"
+    },
+    "sha-tin-college": {
+      "profile": "/images/schools/sha-tin-college/profile.webp",
+      "card": "/images/schools/sha-tin-college/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Sha-Tin-College_1.jpg",
+      "photo1": "/images/schools/sha-tin-college/photo1.webp"
+    },
+    "sha-tin-junior-school": {
+      "profile": "/images/schools/sha-tin-junior-school/profile.webp",
+      "card": "/images/schools/sha-tin-junior-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Sha-Tin-Junior-School_1.jpg",
+      "photo1": "/images/schools/sha-tin-junior-school/photo1.webp"
+    },
+    "singapore-international-school": {
+      "profile": "/images/schools/singapore-international-school/profile.webp",
+      "card": "/images/schools/singapore-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Singapore-International-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/singapore-international-school/photo1.webp"
+    },
+    "south-island-school": {
+      "profile": "/images/schools/south-island-school/profile.webp",
+      "card": "/images/schools/south-island-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "South-Island-School_1.jpg",
+      "photo1": "/images/schools/south-island-school/photo1.webp"
+    },
+    "spanish-school-of": {
+      "profile": "/images/schools/spanish-school-of/profile.webp",
+      "card": "/images/schools/spanish-school-of/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Spanish-School-of-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/spanish-school-of/photo1.webp"
+    },
+    "the-harbour-school": {
+      "profile": "/images/schools/the-harbour-school/profile.webp",
+      "card": "/images/schools/the-harbour-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "The-Harbour-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/the-harbour-school/photo1.webp"
+    },
+    "the-isf-academy": {
+      "profile": "/images/schools/the-isf-academy/profile.webp",
+      "card": "/images/schools/the-isf-academy/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "The-ISF-Academy-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/the-isf-academy/photo1.webp"
+    },
+    "the-international-montessori-school": {
+      "profile": "/images/schools/the-international-montessori-school/profile.webp",
+      "card": "/images/schools/the-international-montessori-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "The-International-Montessori-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/the-international-montessori-school/photo1.webp"
+    },
+    "the-jockey-club-sarah-roe-school": {
+      "profile": "/images/schools/the-jockey-club-sarah-roe-school/profile.webp",
+      "card": "/images/schools/the-jockey-club-sarah-roe-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "The-Jockey-Club-Sarah-Roe-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/the-jockey-club-sarah-roe-school/photo1.webp"
+    },
+    "victoria-shanghai-academy": {
+      "profile": "/images/schools/victoria-shanghai-academy/profile.webp",
+      "card": "/images/schools/victoria-shanghai-academy/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Victoria-Shanghai-Academy_1.jpg",
+      "photo1": "/images/schools/victoria-shanghai-academy/photo1.webp"
+    },
+    "west-island-school": {
+      "profile": "/images/schools/west-island-school/profile.webp",
+      "card": "/images/schools/west-island-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "West-Island-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/west-island-school/photo1.webp"
+    },
+    "wycombe-abbey-school": {
+      "profile": "/images/schools/wycombe-abbey-school/profile.webp",
+      "card": "/images/schools/wycombe-abbey-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Wycombe-Abbey-School-Hong-Kong_1.webp",
+      "photo1": "/images/schools/wycombe-abbey-school/photo1.webp"
+    },
+    "yk-pao-school": {
+      "profile": "/images/schools/yk-pao-school/profile.webp",
+      "card": "/images/schools/yk-pao-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "YK-Pao-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/yk-pao-school/photo1.webp"
+    },
+    "ymca-christian-academy": {
+      "profile": "/images/schools/ymca-christian-academy/profile.webp",
+      "card": "/images/schools/ymca-christian-academy/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "YMCA-Christian-Academy-Hong-Kong_1.jpg"
+    },
+    "ymca-of-hong-kong-christian-college": {
+      "profile": "/images/schools/ymca-of-hong-kong-christian-college/profile.webp",
+      "card": "/images/schools/ymca-of-hong-kong-christian-college/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "YMCA-of-Hong-Kong-Christian-College_1.jpg",
+      "photo1": "/images/schools/ymca-of-hong-kong-christian-college/photo1.webp"
+    },
+    "yew-chung-international-school": {
+      "profile": "/images/schools/yew-chung-international-school/profile.webp",
+      "card": "/images/schools/yew-chung-international-school/card.webp",
+      "sourceFolder": "images-hongkong",
+      "sourceFile": "Yew-Chung-International-School-Hong-Kong_1.jpg",
+      "photo1": "/images/schools/yew-chung-international-school/photo1.webp"
     }
   }
 }

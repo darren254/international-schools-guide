@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T02:23:17.373Z",
+  "generatedAt": "2026-03-08T02:24:50.933Z",
   "slugs": {
     "acg-school-jakarta": [
       "/images/schools/acg-school-jakarta/campus.webp",
@@ -1537,6 +1537,300 @@
     "yuva-bharathi-international-school": [
       "/images/schools/yuva-bharathi-international-school/profile.webp",
       "/images/schools/yuva-bharathi-international-school/photo1.webp"
+    ],
+    "american-school": [
+      "/images/schools/american-school/profile.webp",
+      "/images/schools/american-school/photo1.webp"
+    ],
+    "anchors-academy": [
+      "/images/schools/anchors-academy/profile.webp",
+      "/images/schools/anchors-academy/photo1.webp"
+    ],
+    "anfield-school": [
+      "/images/schools/anfield-school/profile.webp",
+      "/images/schools/anfield-school/photo1.webp"
+    ],
+    "beacon-hill-school": [
+      "/images/schools/beacon-hill-school/profile.webp",
+      "/images/schools/beacon-hill-school/photo1.webp"
+    ],
+    "bloom-kkca-academy": [
+      "/images/schools/bloom-kkca-academy/profile.webp",
+      "/images/schools/bloom-kkca-academy/photo1.webp"
+    ],
+    "bradbury-school": [
+      "/images/schools/bradbury-school/profile.webp",
+      "/images/schools/bradbury-school/photo1.webp"
+    ],
+    "california-school": [
+      "/images/schools/california-school/profile.webp",
+      "/images/schools/california-school/photo1.webp"
+    ],
+    "canadian-international-school-of": [
+      "/images/schools/canadian-international-school-of/profile.webp",
+      "/images/schools/canadian-international-school-of/photo1.webp"
+    ],
+    "carmel-school": [
+      "/images/schools/carmel-school/profile.webp",
+      "/images/schools/carmel-school/photo1.webp"
+    ],
+    "chinese-international-school": [
+      "/images/schools/chinese-international-school/profile.webp",
+      "/images/schools/chinese-international-school/photo1.webp"
+    ],
+    "christian-alliance-international-school": [
+      "/images/schools/christian-alliance-international-school/profile.webp",
+      "/images/schools/christian-alliance-international-school/photo1.webp"
+    ],
+    "christian-alliance-p-c-lau-memorial-international-school": [
+      "/images/schools/christian-alliance-p-c-lau-memorial-international-school/profile.webp",
+      "/images/schools/christian-alliance-p-c-lau-memorial-international-school/photo1.webp"
+    ],
+    "clearwater-bay-school": [
+      "/images/schools/clearwater-bay-school/profile.webp",
+      "/images/schools/clearwater-bay-school/photo1.webp"
+    ],
+    "concordia-international-school": [
+      "/images/schools/concordia-international-school/profile.webp",
+      "/images/schools/concordia-international-school/photo1.webp"
+    ],
+    "creative-primary-school": [
+      "/images/schools/creative-primary-school/profile.webp",
+      "/images/schools/creative-primary-school/photo1.webp"
+    ],
+    "creative-secondary-school": [
+      "/images/schools/creative-secondary-school/profile.webp",
+      "/images/schools/creative-secondary-school/photo1.webp"
+    ],
+    "dalton-school": [
+      "/images/schools/dalton-school/profile.webp",
+      "/images/schools/dalton-school/photo1.webp"
+    ],
+    "discovery-bay-international-school": [
+      "/images/schools/discovery-bay-international-school/profile.webp",
+      "/images/schools/discovery-bay-international-school/photo1.webp"
+    ],
+    "discovery-college": [
+      "/images/schools/discovery-college/profile.webp",
+      "/images/schools/discovery-college/photo1.webp"
+    ],
+    "discovery-mind-educational-organisation": [
+      "/images/schools/discovery-mind-educational-organisation/profile.webp",
+      "/images/schools/discovery-mind-educational-organisation/photo1.webp"
+    ],
+    "kennedy-school": [
+      "/images/schools/kennedy-school/profile.webp",
+      "/images/schools/kennedy-school/photo1.webp"
+    ],
+    "quarry-bay-school": [
+      "/images/schools/quarry-bay-school/profile.webp",
+      "/images/schools/quarry-bay-school/photo1.webp"
+    ],
+    "elchk-lutheran-academy": [
+      "/images/schools/elchk-lutheran-academy/profile.webp",
+      "/images/schools/elchk-lutheran-academy/photo1.webp"
+    ],
+    "forest-house-waldorf-school": [
+      "/images/schools/forest-house-waldorf-school/profile.webp",
+      "/images/schools/forest-house-waldorf-school/photo1.webp"
+    ],
+    "french-international-school-of": [
+      "/images/schools/french-international-school-of/profile.webp",
+      "/images/schools/french-international-school-of/photo1.webp"
+    ],
+    "garden-house-waldorf-school": [
+      "/images/schools/garden-house-waldorf-school/profile.webp",
+      "/images/schools/garden-house-waldorf-school/photo1.webp"
+    ],
+    "german-swiss-international-school": [
+      "/images/schools/german-swiss-international-school/profile.webp",
+      "/images/schools/german-swiss-international-school/photo1.webp"
+    ],
+    "guidepost": [
+      "/images/schools/guidepost/profile.webp",
+      "/images/schools/guidepost/photo1.webp"
+    ],
+    "han-academy": [
+      "/images/schools/han-academy/profile.webp",
+      "/images/schools/han-academy/photo1.webp"
+    ],
+    "harrow-international-school": [
+      "/images/schools/harrow-international-school/profile.webp",
+      "/images/schools/harrow-international-school/photo1.webp"
+    ],
+    "hkila": [
+      "/images/schools/hkila/profile.webp",
+      "/images/schools/hkila/photo1.webp"
+    ],
+    "hong-kong-academy": [
+      "/images/schools/hong-kong-academy/profile.webp",
+      "/images/schools/hong-kong-academy/photo1.webp"
+    ],
+    "hong-kong-adventist-academy": [
+      "/images/schools/hong-kong-adventist-academy/profile.webp",
+      "/images/schools/hong-kong-adventist-academy/photo1.webp"
+    ],
+    "hong-kong-international-school": [
+      "/images/schools/hong-kong-international-school/profile.webp",
+      "/images/schools/hong-kong-international-school/photo1.webp"
+    ],
+    "ichk-kindergarten-and-primary": [
+      "/images/schools/ichk-kindergarten-and-primary/profile.webp",
+      "/images/schools/ichk-kindergarten-and-primary/photo1.webp"
+    ],
+    "ichk-secondary": [
+      "/images/schools/ichk-secondary/profile.webp",
+      "/images/schools/ichk-secondary/photo1.webp"
+    ],
+    "international-christian-school": [
+      "/images/schools/international-christian-school/profile.webp",
+      "/images/schools/international-christian-school/photo1.webp"
+    ],
+    "invictus-school": [
+      "/images/schools/invictus-school/profile.webp",
+      "/images/schools/invictus-school/photo1.webp"
+    ],
+    "island-school": [
+      "/images/schools/island-school/profile.webp",
+      "/images/schools/island-school/photo1.webp"
+    ],
+    "island-waldorf-school": [
+      "/images/schools/island-waldorf-school/profile.webp",
+      "/images/schools/island-waldorf-school/photo1.webp"
+    ],
+    "japanese-international-school": [
+      "/images/schools/japanese-international-school/profile.webp",
+      "/images/schools/japanese-international-school/photo1.webp"
+    ],
+    "kellett-school": [
+      "/images/schools/kellett-school/profile.webp",
+      "/images/schools/kellett-school/photo1.webp"
+    ],
+    "kiangsu-chekiang-school-international-sections": [
+      "/images/schools/kiangsu-chekiang-school-international-sections/profile.webp",
+      "/images/schools/kiangsu-chekiang-school-international-sections/photo1.webp"
+    ],
+    "king-george-v-school": [
+      "/images/schools/king-george-v-school/profile.webp",
+      "/images/schools/king-george-v-school/photo1.webp"
+    ],
+    "kingston-international-school": [
+      "/images/schools/kingston-international-school/profile.webp",
+      "/images/schools/kingston-international-school/photo1.webp"
+    ],
+    "korean-international-school": [
+      "/images/schools/korean-international-school/profile.webp",
+      "/images/schools/korean-international-school/photo1.webp"
+    ],
+    "kowloon-junior-school": [
+      "/images/schools/kowloon-junior-school/profile.webp",
+      "/images/schools/kowloon-junior-school/photo1.webp"
+    ],
+    "lantau-international-school": [
+      "/images/schools/lantau-international-school/profile.webp",
+      "/images/schools/lantau-international-school/photo1.webp"
+    ],
+    "li-po-chun-united-world-college-of": [
+      "/images/schools/li-po-chun-united-world-college-of/profile.webp",
+      "/images/schools/li-po-chun-united-world-college-of/photo1.webp"
+    ],
+    "malvern-college": [
+      "/images/schools/malvern-college/profile.webp",
+      "/images/schools/malvern-college/photo1.webp"
+    ],
+    "norwegian-international-school": [
+      "/images/schools/norwegian-international-school/profile.webp",
+      "/images/schools/norwegian-international-school/photo1.webp"
+    ],
+    "oxbridge-school": [
+      "/images/schools/oxbridge-school/profile.webp",
+      "/images/schools/oxbridge-school/photo1.webp"
+    ],
+    "peak-school": [
+      "/images/schools/peak-school/profile.webp",
+      "/images/schools/peak-school/photo1.webp"
+    ],
+    "po-leung-kuk-choi-kai-yau-school": [
+      "/images/schools/po-leung-kuk-choi-kai-yau-school/profile.webp",
+      "/images/schools/po-leung-kuk-choi-kai-yau-school/photo1.webp"
+    ],
+    "renaissance-college": [
+      "/images/schools/renaissance-college/profile.webp",
+      "/images/schools/renaissance-college/photo1.webp"
+    ],
+    "saint-too-bloom-academy": [
+      "/images/schools/saint-too-bloom-academy/profile.webp",
+      "/images/schools/saint-too-bloom-academy/photo1.webp"
+    ],
+    "san-wui-commercial-society-ymca-of-hong-kong-christian-school": [
+      "/images/schools/san-wui-commercial-society-ymca-of-hong-kong-christian-school/profile.webp",
+      "/images/schools/san-wui-commercial-society-ymca-of-hong-kong-christian-school/photo1.webp"
+    ],
+    "sear-rogers-international-school": [
+      "/images/schools/sear-rogers-international-school/profile.webp",
+      "/images/schools/sear-rogers-international-school/photo1.webp"
+    ],
+    "sha-tin-college": [
+      "/images/schools/sha-tin-college/profile.webp",
+      "/images/schools/sha-tin-college/photo1.webp"
+    ],
+    "sha-tin-junior-school": [
+      "/images/schools/sha-tin-junior-school/profile.webp",
+      "/images/schools/sha-tin-junior-school/photo1.webp"
+    ],
+    "singapore-international-school": [
+      "/images/schools/singapore-international-school/profile.webp",
+      "/images/schools/singapore-international-school/photo1.webp"
+    ],
+    "south-island-school": [
+      "/images/schools/south-island-school/profile.webp",
+      "/images/schools/south-island-school/photo1.webp"
+    ],
+    "spanish-school-of": [
+      "/images/schools/spanish-school-of/profile.webp",
+      "/images/schools/spanish-school-of/photo1.webp"
+    ],
+    "the-harbour-school": [
+      "/images/schools/the-harbour-school/profile.webp"
+    ],
+    "the-isf-academy": [
+      "/images/schools/the-isf-academy/profile.webp",
+      "/images/schools/the-isf-academy/photo1.webp"
+    ],
+    "the-international-montessori-school": [
+      "/images/schools/the-international-montessori-school/profile.webp",
+      "/images/schools/the-international-montessori-school/photo1.webp"
+    ],
+    "the-jockey-club-sarah-roe-school": [
+      "/images/schools/the-jockey-club-sarah-roe-school/profile.webp",
+      "/images/schools/the-jockey-club-sarah-roe-school/photo1.webp"
+    ],
+    "victoria-shanghai-academy": [
+      "/images/schools/victoria-shanghai-academy/profile.webp",
+      "/images/schools/victoria-shanghai-academy/photo1.webp"
+    ],
+    "west-island-school": [
+      "/images/schools/west-island-school/profile.webp",
+      "/images/schools/west-island-school/photo1.webp"
+    ],
+    "wycombe-abbey-school": [
+      "/images/schools/wycombe-abbey-school/profile.webp",
+      "/images/schools/wycombe-abbey-school/photo1.webp"
+    ],
+    "yk-pao-school": [
+      "/images/schools/yk-pao-school/profile.webp",
+      "/images/schools/yk-pao-school/photo1.webp"
+    ],
+    "ymca-christian-academy": [
+      "/images/schools/ymca-christian-academy/profile.webp"
+    ],
+    "ymca-of-hong-kong-christian-college": [
+      "/images/schools/ymca-of-hong-kong-christian-college/profile.webp",
+      "/images/schools/ymca-of-hong-kong-christian-college/photo1.webp"
+    ],
+    "yew-chung-international-school": [
+      "/images/schools/yew-chung-international-school/profile.webp",
+      "/images/schools/yew-chung-international-school/photo1.webp"
     ]
   }
 }
