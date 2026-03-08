@@ -18,7 +18,7 @@ import {
 } from "@/data/schools";
 import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 import type { CurrencyCode } from "@/lib/currency/rates";
-import { getSchoolImageUrl, getSchoolOgImageUrl } from "@/lib/schools/images";
+import { getSchoolImageUrl, getSchoolOgImageUrl, getSchoolGalleryUrls } from "@/lib/schools/images";
 import { getHeadImageUrl, getHeadOverride, getHeadBioOverride, getSchoolDisplayName } from "@/lib/schools/head-images";
 import photoStripUnique from "@/data/school-photo-strip-unique.json";
 import { BackToResults } from "@/components/home/BackToResults";
@@ -199,14 +199,19 @@ export default function SchoolProfilePage({
               src: uniqueUrls[i],
             }));
           }
-          const variants = ["profile", "photo1", "photo2", "photo3"] as const;
+          const profileUrl = getSchoolImageUrl(s.slug, "profile");
+          const galleryUrls = getSchoolGalleryUrls(s.slug);
+          const stripUrls =
+            profileUrl && galleryUrls.length > 0 && galleryUrls[0] === profileUrl
+              ? galleryUrls
+              : [profileUrl, ...galleryUrls].filter(Boolean);
           const seen = new Set<string>();
-          return variants.map((variant) => {
-            const src = getSchoolImageUrl(s.slug, variant);
-            const isDuplicate = src != null && seen.has(src);
+          return stripUrls.map((src, i) => {
+            const isDuplicate = seen.has(src);
             if (src) seen.add(src);
+            const label = PHOTO_STRIP_LABELS[i % PHOTO_STRIP_LABELS.length];
             return {
-              alt: `${displayName} ${PHOTO_STRIP_LABELS[variants.indexOf(variant)]}`,
+              alt: `${displayName} ${label}`,
               src: isDuplicate ? undefined : src,
             };
           });

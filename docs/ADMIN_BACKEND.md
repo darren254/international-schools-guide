@@ -37,7 +37,7 @@ School profile editing and image management.
 
 ## Image variants
 
-`card` | `profile` | `hero` | `og` | `logo` | `head` | `photo1` | `photo2` | `photo3`
+`card` | `profile` | `hero` | `og` | `logo` | `head` | `photo1` … `photo20`
 
 Assigning an image to `hero`, `og`, `logo`, or `head` also updates `schools.hero_image_url`, `og_image_url`, `logo_url`, or `head_photo_url` respectively.
 

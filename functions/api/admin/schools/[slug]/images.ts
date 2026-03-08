@@ -9,6 +9,13 @@ function json(body: unknown, status = 200) {
   });
 }
 
+const PHOTO_VARIANTS = Array.from({ length: 20 }, (_, i) => `photo${i + 1}`);
+const ALLOWED_VARIANTS = new Set(["card", "profile", "hero", "og", "logo", "head", ...PHOTO_VARIANTS]);
+
+function isValidVariant(v: string): boolean {
+  return ALLOWED_VARIANTS.has(v);
+}
+
 export async function onRequestGet(
   context: { request: Request; params: Promise<{ slug: string }>; env: AdminEnv }
 ): Promise<Response> {
@@ -50,12 +57,14 @@ export async function onRequestPost(
     if (contentType.includes("multipart/form-data")) {
       const formData = await context.request.formData();
       variant = (formData.get("variant") as string) || "photo1";
+      if (!isValidVariant(variant)) variant = "photo1";
       const file = formData.get("file") as File | null;
       if (!file) return json({ error: "No file in form" }, 400);
       fileData = await file.arrayBuffer();
     } else {
       const body = await context.request.json() as { variant?: string; url?: string };
       variant = body.variant ?? "photo1";
+      if (!isValidVariant(variant)) variant = "photo1";
       if (body.url) {
         const id = crypto.randomUUID();
         await sql`

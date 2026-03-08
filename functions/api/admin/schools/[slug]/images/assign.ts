@@ -9,7 +9,8 @@ function json(body: unknown, status = 200) {
   });
 }
 
-const VARIANTS = ["card", "profile", "hero", "og", "logo", "head", "photo1", "photo2", "photo3"] as const;
+const PHOTO_VARIANTS = Array.from({ length: 20 }, (_, i) => `photo${i + 1}`) as readonly string[];
+const VARIANTS = ["card", "profile", "hero", "og", "logo", "head", ...PHOTO_VARIANTS] as const;
 
 export async function onRequestPatch(
   context: { request: Request; params: Promise<{ slug: string }>; env: AdminEnv }
@@ -20,8 +21,8 @@ export async function onRequestPatch(
   try {
     const body = (await context.request.json()) as { imageId: string; variant: string };
     const { imageId, variant } = body;
-    if (!imageId || !variant || !VARIANTS.includes(variant as typeof VARIANTS[number])) {
-      return json({ error: "imageId and variant (card|profile|hero|og|logo|head|photo1|photo2|photo3) required" }, 400);
+    if (!imageId || !variant || !VARIANTS.includes(variant as (typeof VARIANTS)[number])) {
+      return json({ error: "imageId and variant (card|profile|hero|og|logo|head|photo1..photo20) required" }, 400);
     }
     const sql = await getAdminSql(context.env);
     const schools = (await sql`SELECT id FROM schools WHERE slug = ${slug}`) as { id: string }[];

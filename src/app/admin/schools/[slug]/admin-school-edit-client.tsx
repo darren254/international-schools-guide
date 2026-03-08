@@ -41,7 +41,7 @@ export default function AdminSchoolEditClient() {
     { label: "Identity", variants: ["logo", "card", "profile"] },
     { label: "Sharing", variants: ["hero", "og"] },
     { label: "People", variants: ["head"] },
-    { label: "Gallery", variants: ["photo1", "photo2", "photo3"] },
+    { label: "Gallery", variants: Array.from({ length: 20 }, (_, i) => `photo${i + 1}`) },
   ];
 
   useEffect(() => {
