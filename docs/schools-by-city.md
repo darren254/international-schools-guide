@@ -1,0 +1,610 @@
+# Every school in every city
+
+## Singapore (64 schools)
+
+- 5 Steps Academy Singapore
+- All Hands Together Singapore
+- Anglo Chinese School Singapore
+- Astor International School Singapore
+- Australian International School Singapore
+- Brighton College Singapore
+- Canadian International School Singapore
+- Chatsworth International School Singapore
+- Dimensions International College Singapore
+- Dover Court International School Singapore
+- Dps International School Singapore
+- Dulwich College Singapore
+- Dynamics International School Singapore
+- Etonhouse International School Broadrick Singapore
+- Etonhouse International School Orchard Singapore
+- Furen International School Singapore
+- Gess Singapore
+- Gig International School Singapore
+- Heritage Academy Singapore
+- Holland International School Singapore
+- Hwa Chong International School Singapore
+- Hwa International School Singapore
+- Insworld Institute Singapore
+- Integrated International School Singapore
+- International Community School Singapore
+- International French School Singapore
+- Invictus International School Singapore
+- ISS International School Singapore
+- Kindle Kids International School Singapore
+- Knightsbridge House International School Singapore
+- Le Petite Ecole Singapore
+- Lodestar Montessori School Singapore
+- Lotus Bridge International School Singapore
+- Melbourne International School Singapore
+- Middleton International School Singapore
+- Nexus International School Singapore
+- North London Collegiate School Singapore
+- Nps International School Singapore
+- One World International School Singapore
+- Overseas Family School Singapore
+- Rd American School Singapore
+- San Yu Adventist School Singapore
+- Sfa Eduhearts International School Singapore
+- Singapore American School
+- Singapore Korean International School
+- Sir Manasseh Meyer International School Singapore
+- Sish International High School Singapore
+- St Francis Methodist School Singapore
+- Stalford Academy Singapore
+- Stamford American International School Singapore
+- Swiss School In Singapore
+- Tanglin Trust School Singapore
+- The Grange Institution And International Preschool Singapore
+- The Guild International College Singapore
+- The Straits Waldorf School Singapore
+- The Winstedt School Singapore
+- Tls Academy Singapore
+- United World College Of South East Asia Dover Campus Singapore
+- United World College Of South East Asia East Campus Singapore
+- Waseda Shibuya Senior High School Singapore
+- Westbourne College Singapore
+- Wise Oaks International School Singapore
+- Xcl World Academy Singapore
+- Yuva Bharathi International School Singapore
+
+## Hong Kong (80 schools)
+
+- Christian Alliance P C Lau Memorial International School Hong Kong
+- American International School Hong Kong
+- American School Hong Kong
+- Anchors Academy Hong Kong
+- Anfield School Hong Kong
+- Australian International School Hong Kong
+- Beacon Hill School Hong Kong
+- Bloom Kkca Academy Hong Kong
+- Bradbury School Hong Kong
+- California School Hong Kong
+- Canadian International School Of Hong Kong
+- Carmel School Hong Kong
+- Chinese International School Hong Kong
+- Christian Alliance International School Hong Kong
+- Clearwater Bay School Hong Kong
+- Concordia International School Hong Kong
+- Creative Primary School Hong Kong
+- Creative Secondary School Hong Kong
+- Dalton School Hong Kong
+- Discovery Bay International School Hong Kong
+- Discovery College Hong Kong
+- Discovery Mind Educational Organisation Hong Kong
+- Dsc International School Hong Kong
+- Elchk Lutheran Academy Hong Kong
+- Forest House Waldorf School Hong Kong
+- French International School Of Hong Kong
+- Garden House Waldorf School Hong Kong
+- German Swiss International School Hong Kong
+- Guidepost Hong Kong
+- Han Academy Hong Kong
+- Harrow International School Hong Kong
+- Hkca Po Leung Kuk School Hong Kong
+- Hkila Hong Kong
+- Hong Kong Academy
+- Hong Kong Adventist Academy
+- Hong Kong International School
+- Ichk Kindergarten And Primary Hong Kong
+- Ichk Secondary Hong Kong
+- International Christian School Hong Kong
+- Invictus School Hong Kong
+- Island School Hong Kong
+- Island Waldorf School Hong Kong
+- Japanese International School Hong Kong
+- Kellett School Hong Kong
+- Kennedy School Hong Kong
+- Kiangsu Chekiang School International Sections Hong Kong
+- King George V School Hong Kong
+- Kingston International School Hong Kong
+- Korean International School Hong Kong
+- Kowloon Junior School Hong Kong
+- Lantau International School Hong Kong
+- Li Po Chun United World College Of Hong Kong
+- Malvern College Hong Kong
+- Nord Anglia International School Hong Kong
+- Norwegian International School Hong Kong
+- Oxbridge School Hong Kong
+- Peak School Hong Kong
+- Po Leung Kuk Choi Kai Yau School Hong Kong
+- Quarry Bay School Hong Kong
+- Renaissance College Hong Kong
+- Saint Too Bloom Academy Hong Kong
+- San Wui Commercial Society Ymca Of Hong Kong Christian School
+- Sear Rogers International School Hong Kong
+- Sha Tin College Hong Kong
+- Sha Tin Junior School Hong Kong
+- Singapore International School Hong Kong
+- South Island School Hong Kong
+- Spanish School Of Hong Kong
+- Stamford American International School Hong Kong
+- The Harbour School Hong Kong
+- The International Montessori School Hong Kong
+- The Isf Academy Hong Kong
+- The Jockey Club Sarah Roe School Hong Kong
+- Victoria Shanghai Academy Hong Kong
+- West Island School Hong Kong
+- Wycombe Abbey School Hong Kong
+- Yew Chung International School Hong Kong
+- Yk Pao School Hong Kong
+- Ymca Christian Academy Hong Kong
+- Ymca Of Hong Kong Christian College
+
+## Dubai (172 schools)
+
+- Ajman Academy Dubai
+- Ajman American Private School Dubai
+- Al Diyafah High School Dubai
+- Al Ittihad Private School Jumeira Dubai
+- Al Khaleej International School Dubai
+- Al Mawakeb School Dubai
+- Al Salam Community School Dubai
+- Al Salam Private School Dubai
+- Ambassador International Academy Dubai
+- Ambassador International Academy Mankhool Dubai
+- American Academy For Girls Dubai
+- American Gulf School Dubai
+- American International School Dubai
+- American School Of Creative Science Maliha Dubai
+- American School Of Dubai
+- Amity English School Dubai
+- Amity Private School Sharjah Dubai
+- Amity School Dubai
+- Arcadia Global School Dubai
+- Arcadia School Dubai
+- Ash Mount School Dubai
+- Australian International School Dubai
+- Bc Academy International School Dubai
+- Bloom World Academy Dubai
+- Bright Learners Private School Dubai
+- Bright Riders School Dubai
+- Brighton College Dubai
+- British International School Ajman Dubai
+- Cambridge International School Dubai
+- Capital School Dubai
+- Citizens School Dubai
+- Clarion School Dubai
+- Collegiate International School Dubai
+- Credence High School Dubai
+- Crown American Private School Dubai
+- Dar Al Marefa Private School Dubai
+- Deira International School Dubai
+- Deira Private School Dubai
+- Deutsche Internationale Schule Dubai
+- Dhruv Global School Dubai
+- Dove Green Private School Dubai
+- Dubai Arabian American Private School
+- Dubai British School Emirates Hills
+- Dubai British School Jumeira
+- Dubai British School Jumeirah Park
+- Dubai British School Mira
+- Dubai Carmel School
+- Dubai College
+- Dubai English Speaking College
+- Dubai English Speaking School Academic City
+- Dubai English Speaking School Oud Metha
+- Dubai Heights Academy
+- Dubai International Academy Al Barsha
+- Dubai International Academy Emirates Hills
+- Dubai International Academy Town Square
+- Dubai International Private School
+- Dubai Modern Education School
+- Dubai National School Al Barsha
+- Dubai Scholars Private School
+- Dunecrest American School Dubai
+- Durham School Dubai
+- Dwight School Dubai
+- Emirates American School Dubai
+- Emirates International School Jumeirah Dubai
+- Emirates International School Meadows Dubai
+- Fairgreen International School Dubai
+- Gems Dubai American Academy
+- Gems Firstpoint School Dubai
+- Gems Founders School Al Mizhar Dubai
+- Gems Founders School Dubai
+- Gems Founders School Dubai South
+- Gems International School Al Khail Dubai
+- Gems Jumeirah Primary School Dubai
+- Gems Metropole School Al Waha Dubai
+- Gems Metropole School Dubai
+- Gems Modern Academy Dubai
+- Gems New Millennium School Dubai
+- Gems Royal Dubai School
+- Gems School Of Research And Innovation Dubai
+- Gems Wellington Academy Al Khail Dubai
+- Gems Wellington Academy Silicon Oasis Dubai
+- Gems Wellington International School Dubai
+- Gems Westminster School Sharjah Dubai
+- Gems Winchester School Dubai
+- Gems World Academy Dubai
+- German International School Sharjah Dubai
+- Glendale International School Dubai
+- Global Indian International School Dubai
+- Greenfield International School Dubai
+- Hampton Heights International School Dubai
+- Hartland International School Dubai
+- Horizon English School Dubai
+- Horizon International School Dubai
+- Ignite School Dubai
+- Impact American School Dubai
+- International Concept For Education Dubai
+- International Indian School Dubai
+- International School Of Creative Science Muwaileh Dubai
+- International School Of Creative Science Nad Al Sheba Dubai
+- Jebel Ali School Dubai
+- Jss Private School Dubai
+- Jumeira Baccalaureate School Dubai
+- Jumeirah College Dubai
+- Jumeirah English Speaking School (JESS AR) Dubai
+- Kent College Dubai
+- Lycee Francais Bilingue International Dubai
+- Lycee Francais International Dubai
+- Lycee Libanais Francophone Prive Meydan Dubai
+- Mirdif American School Dubai
+- New Dawn Private School Dubai
+- Newlands School Dubai Sharjah Ajman
+- Next Generation School Dubai
+- Nibras International School Dubai
+- Nord Anglia International School Dubai
+- North American International School Dubai
+- North London Collegiate School Dubai
+- Oaktree Primary School Dubai
+- Our Own High School
+- Pace British School Dubai
+- Pace Modern British School Dubai
+- Pace Springfield International School Dubai
+- Philadelphia Private School Dubai
+- Pristine Private School Dubai
+- Providence English Private School Dubai
+- Queen Elizabeth S School Dubai Sports City
+- Queen International School Dubai
+- Raffles International Schools Dubai
+- Raffles World Academy Dubai
+- Ranches Primary School Dubai
+- Rashid And Latifa School Dubai
+- Regent International School Dubai
+- Repton School Al Barsha Dubai
+- Repton School Dubai
+- Royal Grammar School Guildford Dubai
+- Rushmore American School Dubai
+- Sabis International School Aljada Dubai
+- Safa British School Dubai
+- Safa Community School Dubai
+- Scholars International Academy Dubai
+- School Of Modern Skills Dubai
+- Sharjah American International School Dubai
+- Sharjah British International School Dubai
+- Sharjah English School Dubai
+- Smart Vision School Dubai
+- South View School Dubai
+- Star International School Altwar Dubai
+- Star International School Mirdiff Dubai
+- Sunmarke School Dubai
+- Swiss International Scientific School Dubai
+- The Apple International School Dubai
+- The Aquila School Dubai
+- The Arbor School Dubai
+- The City School International Dubai
+- The English College Dubai
+- The International School Of Choueifat Ajman Dubai
+- The International School Of Choueifat Dubai Investments Park
+- The International School Of Choueifat Sharjah Dubai
+- The Millennium School Dubai
+- The Oxford School Dubai
+- The Scholars School Dubai
+- The School Of Research Science Dubai
+- The Sheffield Private School Dubai
+- The Westminster School Dubai
+- The Winchester School Dubai
+- Universal American School Dubai
+- Uptown International School Dubai
+- Victoria English School Dubai
+- Victoria International School Of Sharjah Dubai
+- Victory Heights Primary School City Of Arabia Dubai
+- Victory Heights Primary School Dubai
+- Wise Indian Academy Dubai
+- Woodlem British School Dubai
+
+## Kuala Lumpur (112 schools)
+
+- Abedeen International School Kuala Lumpur
+- Ace Edventure Biosphere Academy Kuala Lumpur
+- Acmar International School Kuala Lumpur
+- Adcote Matrix International School Kuala Lumpur
+- Arrows International School Kuala Lumpur
+- Asia Pacific International School Kuala Lumpur
+- Aspiration International School Kuala Lumpur
+- Australian International School Malaysia Kuala Lumpur
+- Axcel International School Kuala Lumpur
+- Baseerah International School Kuala Lumpur
+- Beaconhouse Sri Inai International School Kuala Lumpur
+- Brainy Bunch International Islamic Montessori School Kuala Lumpur
+- Brighton International School Kuala Lumpur
+- Campus Rangers International School Kuala Lumpur
+- Canary International School Kuala Lumpur
+- Cempaka International School Kuala Lumpur
+- Charterhouse Malaysia Kuala Lumpur
+- Collinz International School Kuala Lumpur
+- Columbia International School Kuala Lumpur
+- Concord College International School Kuala Lumpur
+- Cranbridge International School Kuala Lumpur
+- Dwi Emas International School Kuala Lumpur
+- Eagles Grammar International School Kuala Lumpur
+- Eaton International School Kuala Lumpur
+- Elc International School Kuala Lumpur
+- Epsom College In Malaysia Kuala Lumpur
+- Fairview International School Kuala Lumpur
+- Fairview International School Subang Jaya Kuala Lumpur
+- Garden International School Kuala Lumpur
+- German School Kuala Lumpur
+- Global Indian International School Kuala Lumpur
+- Global Modern International School Kuala Lumpur
+- Global Oak Tree Scholars International School Kuala Lumpur
+- Greenview Islamic International School Kuala Lumpur
+- Havil International School Kuala Lumpur
+- Help International School Kuala Lumpur
+- Heritage International School Kuala Lumpur
+- Hibiscus International School Kuala Lumpur
+- Hua Xia International School Kuala Lumpur
+- Idrissi International School Kuala Lumpur
+- Igb International School Kuala Lumpur
+- Inspiros International School Kuala Lumpur
+- International Islamic School Malaysia Kuala Lumpur
+- International Modern Arabic School Kuala Lumpur
+- King Henry Viii College Kuala Lumpur
+- Kingsgate International School Kuala Lumpur
+- Knewton Global Schools Rawang Kuala Lumpur
+- Kolej Tunku Kurshiah Kuala Lumpur
+- Kueen Lai International Secondary School Kuala Lumpur
+- Lycee Francais De Kuala Lumpur
+- Mahsa International School Kuala Lumpur
+- Maple Leaf Kingsley International School Kuala Lumpur
+- Maverick International Primary School Kuala Lumpur
+- Maverick International Secondary School Kuala Lumpur
+- Maz International School Kuala Lumpur
+- Mindrich International Secondary School Kuala Lumpur
+- Mitstem International School Kuala Lumpur
+- Mutiara International Grammar School Kuala Lumpur
+- Nexus International School Kuala Lumpur
+- Nilai International School Kuala Lumpur
+- Nobel International School Kuala Lumpur
+- Oakbridge International School Kuala Lumpur
+- Oasis International School Kuala Lumpur
+- Orbix International School Klang Kuala Lumpur
+- Peninsula International School Australia Kuala Lumpur
+- Pine Hills International School Kuala Lumpur
+- Qosmo International School Kuala Lumpur
+- R E A L International School Cheras Campus Kuala Lumpur
+- R E A L International School Shah Alam Campus Kuala Lumpur
+- Rafflesia International School Puchong Kuala Lumpur
+- Regent International School Klang Kuala Lumpur
+- Reigate Grammar School Kuala Lumpur
+- Rocklin International School Kuala Lumpur
+- Sasana International School Kuala Lumpur
+- Sayfol International School Kuala Lumpur
+- Sekolah Sri Ucsi Kuala Lumpur
+- Seven Skies International School Kuala Lumpur
+- Soka International School Malaysia Kuala Lumpur
+- Spectrum International School Kuala Lumpur
+- Sri Bestari International School Kuala Lumpur
+- Sri Dasmesh International School Kuala Lumpur
+- Sri Emas International School Kuala Lumpur
+- Sri Kdu International School Klang Kuala Lumpur
+- Sri Kdu International School Subang Jaya Kuala Lumpur
+- Sri Kdu School Kuala Lumpur
+- Sri Kuala Lumpur School
+- Sri Sempurna International School Kuala Lumpur
+- Stars International School Kuala Lumpur
+- Stella Maris International School Kuala Lumpur
+- Straits International School Kuala Lumpur
+- Summer International Secondary School Kuala Lumpur
+- Sunway International School Kuala Lumpur
+- Tanarata International School Kuala Lumpur
+- Templer Park International School Kuala Lumpur
+- Tenby School Setia Eco Park Kuala Lumpur
+- Tenby School Setia Ecohill Kuala Lumpur
+- Tenby School Tropicana Aman Kuala Lumpur
+- The Alice Smith School Kuala Lumpur
+- The British International School Of Kuala Lumpur
+- The International School At Parkcity Kuala Lumpur
+- The International School Of Kuala Lumpur
+- Tls International School Kuala Lumpur
+- Tree Top International School Kuala Lumpur
+- Ucsi International School Kuala Lumpur
+- Ucsi International School Springhill Kuala Lumpur
+- Ucsi International School Subang Jaya Kuala Lumpur
+- Utama International School Kuala Lumpur
+- Valley International School Kuala Lumpur
+- Victoria International School Kuala Lumpur
+- Vikas International School Kuala Lumpur
+- Wesley Methodist School Kuala Lumpur
+- Zenith International School Seremban Kuala Lumpur
+
+## Jakarta (65 schools)
+
+- Jakarta Intercultural School
+- British School Jakarta
+- The Independent School of Jakarta
+- Sinarmas World Academy
+- Australian Independent School Jakarta
+- Tunas Muda School
+- BTB School
+- Sekolah Pelita Harapan Kemang Village
+- ACG School Jakarta
+- Raffles Christian School Jakarta
+- NationalHigh Jakarta School
+- Binus School Serpong
+- Nord Anglia School Jakarta
+- New Zealand School Jakarta
+- Sekolah Pelita Harapan
+- Jakarta Nanyang School
+- Stella Maris School
+- El Shaddai Intercontinental School
+- IPEKA Integrated Christian School
+- ACS Jakarta
+- Jakarta Indonesia Korean School
+- Sekolah Ciputra
+- Cikal School
+- North Jakarta Intercultural School
+- Springfield School Jakarta
+- Singapore Intercultural School South Jakarta
+- Binus School Bekasi
+- Cita Buana School
+- Binus School Simprug
+- Deutsche Internationale Schule Jakarta
+- Mentari Intercultural School Jakarta
+- HighScope Indonesia
+- Jakarta Multicultural School
+- Global Jaya School
+- Ichthus School Jakarta
+- Kanaan Global School
+- SIS Pantai Indah Kapuk
+- Al Jabr Islamic School
+- French School Jakarta
+- Global Sevilla School
+- Tzu Chi School
+- Sampoerna Academy Jakarta
+- SIS Kelapa Gading
+- Bina Bangsa School
+- Gandhi Memorial International School
+- Mentari Intercultural School Bintaro
+- Mutiara Harapan Islamic School
+- Kharisma Bangsa School
+- Al Azhar Syifa Budi Jakarta
+- Jubilee School Jakarta
+- Universal School Jakarta
+- Beacon Academy
+- Pelangi Kasih School
+- Sekolah Lentera Kasih Jakarta
+- Holy Angels School
+- Bunda Mulia School
+- Sekolah Terpadu Pahoa
+- Santa Laurensia School
+- Sekolah Madania
+- Sekolah Pelita Bangsa
+- Millennia World School
+- Sekolah Cita Buana
+- Labschool Jakarta
+- Sekolah Victory Plus
+- Penabur International School
+
+## Bangkok (96 schools)
+
+- Ait International School Bangkok
+- Amnuay Silpa School Bangkok
+- Anglo Singapore International School Bangkok
+- Ascot International School Bangkok
+- Aster International School Bangkok
+- Astra Academy International School Bangkok
+- Australian International School Bangkok
+- Bangkok Adventist International School
+- Bangkok Chicago Christian International School
+- Bangkok Christian International School
+- Bangkok Grace International School
+- Bangkok International Preparatory Secondary School
+- Bangkok Patana School
+- Basis International School Bangkok
+- Beaconhouse Yamsaard International School Bangkok
+- Berkeley International School Bangkok
+- Brighton College Bangkok, Krungthep Kreetha
+- Brighton College Bangkok, Vibhavadi
+- British Columbia International School Bangkok
+- British Mandarin International School Bangkok
+- Bromsgrove International School Thailand Bangkok
+- Bsb British International Primary School Bangkok
+- Canadian International School Of Thailand Bangkok
+- Centurion International School Bangkok
+- Charter International School Bangkok
+- Concordian International School Bangkok
+- Crescent International School Bangkok
+- D Prep International School Bangkok
+- Denla British School (DBS)
+- Dulwich College International School Bangkok
+- Ekamai International School Bangkok
+- Elc Family Of International Schools Bangkok
+- Future Steps International School Bangkok
+- Garden International School Bangkok
+- Glory Singapore International School Bangkok
+- Harrow International School Bangkok
+- Heathfield International School Bangkok
+- International Christian School Nonthaburi Bangkok
+- International Community School Bangkok
+- International Pioneers School Bangkok
+- International School Bangkok
+- Invictus International Programme Bangkok
+- John Wyatt Montessori Bangkok Campus
+- Kevalee International School Bangkok
+- Kids Academy International School Bangkok
+- Kincaid International School Of Bangkok
+- Kings College International School Bangkok
+- KIS International School Huai Khwang
+- KIS International School Reignwood Park
+- Knightsbridge House Nonthaburi Bangkok
+- Kpis International School Bangkok
+- Lertlah School Bangkok
+- Lycee Francais International De Bangkok
+- Magic Years International School Bangkok
+- Modern International School Bangkok
+- Montessori Academy Bangkok International School
+- New Day Learning Bangkok
+- NIST International School Bangkok
+- Niva American International School Bangkok
+- Pan Asia International School Bangkok
+- Pensmith School Bangkok
+- Raffles American School Bangkok
+- Ramkhamhaeng Advent International School Bangkok
+- Rbis International School Bangkok
+- Rc International School Bangkok
+- Ris Swiss Section Deutschsprachige Schule Bangkok
+- Rising Oaks International School Bangkok
+- Roong Aroon International School Bangkok
+- Rose Marie Academy Bangkok
+- Royce Royal International School Bangkok
+- Ruamrudee International School Bangkok
+- Sarasas Ektra School Bangkok
+- Satit Bilingual School Of Rangsit University Bangkok
+- Satit Pattana Secondary School Bangkok
+- Sequoia Nova International Primary School Bangkok
+- Shrewsbury International School Bangkok
+- Siam International School Bangkok
+- Siam Singapore International School Bangkok
+- Singapore International School Of Bangkok
+- St Andrews International School Bangkok
+- St Andrews International School Dusit Bangkok
+- St Andrews International School Sathorn Bangkok
+- St Andrews International School Sukhumvit 107 Bangkok
+- St Andrews Samakee International School Bangkok
+- Thai Chinese International School Bangkok
+- Thai International School Bangkok
+- Thai Singapore International School Bangkok
+- The American School Of Bangkok Green Valley Campus
+- Traill International School Bangkok
+- Trinity International School Bangkok
+- Tsi International School Bangkok
+- Verso International School Bangkok
+- Welearn Academy Bangkok
+- Wellington College International School Bangkok
+- Wells International School Bangkok
+- Xcl American School Of Bangkok
+
+**Total: 589 schools across 6 cities.**

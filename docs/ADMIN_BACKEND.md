@@ -43,13 +43,12 @@ Assigning an image to `hero`, `og`, `logo`, or `head` also updates `schools.hero
 
 ## Sync / publish
 
-The live site reads from static data (`school-images.json`, TS profile files). To push admin changes to the site:
+The live site reads from static data (`school-images.json`, `school-photo-strip-unique.json`, TS profile files). To push admin changes to the site:
 
 **Publish workflow:**
 
-1. **Sync DB → static:** Run `npx tsx scripts/sync-schools-from-db.ts` (with `DATABASE_URL` in `.env.local` or env). This reads from Neon (`schools` + `school_media`) and writes `src/data/school-images.json`. If you use R2 keys in `school_media.url`, set `R2_PUBLIC_URL` so the script can build full image URLs.
-2. **Build and deploy:** Run `npm run build`, then deploy the `out/` directory (e.g. via Cloudflare Pages or `wrangler pages deploy`).
+1. **Sync DB → static:** Run `npx tsx scripts/sync-schools-from-db.ts` (with `DATABASE_URL` in `.env.local` or env). This reads from Neon (`schools` + `school_media`) and writes `src/data/school-images.json`. If you use R2 for uploads, **set `R2_PUBLIC_URL`** (e.g. your R2 bucket’s public URL) so the script outputs full image URLs; otherwise paths like `/schools/slug/uuid.webp` will 404 on the static site.
+2. **Regenerate photo strip:** Run `npx tsx scripts/generate-school-photo-strip-unique.ts` so the profile photo strip includes any new or R2 images from the manifest.
+3. **Build and deploy:** Run `npm run build`, then deploy the `out/` directory (e.g. via Cloudflare Pages).
 
-Repeat whenever you want admin edits to go live.
-
-Image processing (resize, WebP, OG crop) can be done in the sync script (Node + Sharp) before writing the manifest.
+Repeat whenever you want admin edits (including new images) to go live.

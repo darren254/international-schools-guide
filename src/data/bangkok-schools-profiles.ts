@@ -331,6 +331,9 @@ applyBangkokIntelligence("bangkok-international-preparatory-secondary-school", {
     "Ask about teacher retention. Verify total cost.",
   ],
 });
+// Display name: full name is in bangkok-schools.ts; shortName for masthead
+const bangkokPrep = PROFILES_MAP["bangkok-international-preparatory-secondary-school"];
+if (bangkokPrep) bangkokPrep.shortName = "BKK Prep";
 
 applyBangkokIntelligence("verso-international-school", {
   verdict:

@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
+import { createPortal } from "react-dom";
 
 export type SortValue = "high-low" | "low-high" | "a-z" | "z-a";
 
@@ -24,17 +25,72 @@ type SortDropdownProps = {
 
 export function SortDropdown({ value, onChange, isOpen: controlledOpen, onOpenChange }: SortDropdownProps) {
   const [internalOpen, setInternalOpen] = useState(false);
+  const [panelRect, setPanelRect] = useState<{ top: number; left: number } | null>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
   const isControlled = onOpenChange !== undefined;
   const open = isControlled ? (controlledOpen ?? false) : internalOpen;
   const setOpen = (v: boolean) => {
+    if (!v) setPanelRect(null);
     if (isControlled) onOpenChange(v);
     else setInternalOpen(v);
   };
   const currentLabel = OPTIONS.find((o) => o.value === value)?.label ?? OPTIONS[0].label;
 
+  useEffect(() => {
+    if (!open || typeof document === "undefined") return;
+    const btn = buttonRef.current;
+    if (!btn) return;
+    const rect = btn.getBoundingClientRect();
+    setPanelRect({
+      top: rect.bottom + 4,
+      left: rect.left,
+    });
+  }, [open]);
+
+  const panel = open && typeof document !== "undefined" && (
+    <>
+      <div
+        className="fixed inset-0 z-10"
+        aria-hidden
+        onClick={() => setOpen(false)}
+      />
+      <div
+        role="listbox"
+        className="fixed z-20 bg-warm-white border border-warm-border rounded-sm shadow-lg min-w-[200px] py-1"
+        style={
+          panelRect
+            ? { top: panelRect.top, left: panelRect.left }
+            : { visibility: "hidden" }
+        }
+      >
+        {OPTIONS.map((opt) => (
+          <button
+            key={opt.value}
+            type="button"
+            role="option"
+            aria-selected={value === opt.value}
+            onClick={(e) => {
+              e.stopPropagation();
+              onChange(opt.value);
+              setOpen(false);
+            }}
+            className={`flex items-center gap-2 w-full px-3 py-2 text-body-xs font-body text-left transition-colors ${
+              value === opt.value
+                ? "bg-primary-light/20 text-primary"
+                : "hover:bg-cream-200 text-charcoal"
+            }`}
+          >
+            {opt.label}
+          </button>
+        ))}
+      </div>
+    </>
+  );
+
   return (
     <div className="relative shrink-0">
       <button
+        ref={buttonRef}
         type="button"
         onClick={() => setOpen(!open)}
         className="flex items-center gap-2 px-3 py-2 text-body-xs font-body rounded-sm border border-warm-border text-charcoal hover:border-charcoal-muted transition-colors bg-cream"
@@ -71,40 +127,7 @@ export function SortDropdown({ value, onChange, isOpen: controlledOpen, onOpenCh
           />
         </svg>
       </button>
-      {open && (
-        <>
-          <div
-            className="fixed inset-0 z-10"
-            aria-hidden
-            onClick={() => setOpen(false)}
-          />
-          <div
-            role="listbox"
-            className="absolute top-full left-0 mt-1 bg-warm-white border border-warm-border rounded-sm shadow-lg z-20 min-w-[200px] py-1"
-          >
-            {OPTIONS.map((opt) => (
-              <button
-                key={opt.value}
-                type="button"
-                role="option"
-                aria-selected={value === opt.value}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  onChange(opt.value);
-                  setOpen(false);
-                }}
-                className={`flex items-center gap-2 w-full px-3 py-2 text-body-xs font-body text-left transition-colors ${
-                  value === opt.value
-                    ? "bg-primary-light/20 text-primary"
-                    : "hover:bg-cream-200 text-charcoal"
-                }`}
-              >
-                {opt.label}
-              </button>
-            ))}
-          </div>
-        </>
-      )}
+      {panel && createPortal(panel, document.body)}
     </div>
   );
 }

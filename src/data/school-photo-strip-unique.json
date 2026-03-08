@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T02:25:57.602Z",
+  "generatedAt": "2026-03-08T02:32:30.208Z",
   "slugs": {
     "acg-school-jakarta": [
       "/images/schools/acg-school-jakarta/campus.webp",
@@ -544,7 +544,9 @@
     ],
     "bangkok-international-preparatory-secondary-school": [
       "/images/schools/bangkok-international-preparatory-secondary-school/profile.webp",
-      "/images/schools/bangkok-international-preparatory-secondary-school/photo2.webp"
+      "https://www.bangkokprep.ac.th/wp-content/uploads/jom_7991__2_.jpg",
+      "/images/schools/bangkok-international-preparatory-secondary-school/photo2.webp",
+      "https://www.bangkokprep.ac.th/wp-content/uploads/bkk_prep-primary_058-1.jpg"
     ],
     "bangkok-patana-school": [
       "/images/schools/bangkok-patana-school/profile.webp",

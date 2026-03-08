@@ -1,7 +1,8 @@
 /**
- * Build-time: deduplicate school photo-strip images by file content hash.
- * Reads public/images/schools/{slug}/*.webp, outputs unique URLs in order.
- * Run before next build: tsx scripts/generate-school-photo-strip-unique.ts
+ * Build-time: deduplicate school photo-strip images by file content hash (local) or include remote URLs (admin/R2).
+ * Local: reads public/images/schools/{slug}/*.webp, dedupes by hash.
+ * Remote (http/https): includes URLs from manifest without file check so admin-uploaded images appear after sync.
+ * Run after sync-schools-from-db: tsx scripts/generate-school-photo-strip-unique.ts
  */
 
 import fs from "fs";
@@ -36,6 +37,13 @@ function uniqueOrderedUrls(manifest: Manifest, slug: string): string[] {
     if (!url) continue;
     // Normalize protocol-relative "//images/..." to "/images/..." for filesystem and output
     if (url.startsWith("//") && url.slice(2).startsWith("images/")) url = "/" + url.slice(2);
+    // Remote URLs (e.g. R2 after admin upload + sync): include without file check so they appear on profile
+    if (url.startsWith("http://") || url.startsWith("https://")) {
+      if (seen.has(url)) continue;
+      seen.add(url);
+      urls.push(url);
+      continue;
+    }
     const fullPath = path.join(ROOT, "public", url.replace(/^\//, ""));
     if (!fs.existsSync(fullPath)) continue;
     const hash = hashFile(fullPath);
