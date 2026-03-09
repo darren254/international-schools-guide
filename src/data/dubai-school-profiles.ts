@@ -294,7 +294,7 @@ export const DUBAI_FEE_DATA: Record<string, DubaiFeeData> = {
     ],
     oneTimeFees: {"Application Fee": 143},
   },
-  "american-international-school": {
+  "american-international-school-dubai": {
     address: "6th St, Dubai, United Arab Emirates",
     lat: 25.2834,
     lng: 55.3687,
@@ -504,7 +504,7 @@ export const DUBAI_FEE_DATA: Record<string, DubaiFeeData> = {
     ],
     oneTimeFees: {},
   },
-  "australian-international-school": {
+  "australian-international-school-dubai": {
     address: "Al Barsha - Al Barsha South - Dubai - United Arab Emirates",
     lat: 25.061410000782057,
     lng: 55.2323697116437,
@@ -601,7 +601,7 @@ export const DUBAI_FEE_DATA: Record<string, DubaiFeeData> = {
     feeRows: [],
     oneTimeFees: {},
   },
-  "brighton-college": {
+  "brighton-college-dubai": {
     address: "Al Barsha South - Dubai - United Arab Emirates",
     lat: 25.077582,
     lng: 55.233259,
@@ -1941,7 +1941,7 @@ export const DUBAI_FEE_DATA: Record<string, DubaiFeeData> = {
     ],
     oneTimeFees: {"Application Fee": 136, "Registration Deposit": 409},
   },
-  "global-indian-international-school": {
+  "global-indian-international-school-dubai": {
     address: "Near Al Manar Islamic Center - Al Meydan Rd - Dubai - United Arab Emirates",
     lat: 25.177383235944138,
     lng: 55.25734042993555,
@@ -2478,7 +2478,7 @@ export const DUBAI_FEE_DATA: Record<string, DubaiFeeData> = {
     ],
     oneTimeFees: {},
   },
-  "nord-anglia-international-school": {
+  "nord-anglia-international-school-dubai": {
     address: "Al Barsha South, Dubai, United Arab Emirates",
     lat: 25.0618,
     lng: 55.2273,
@@ -2527,7 +2527,7 @@ export const DUBAI_FEE_DATA: Record<string, DubaiFeeData> = {
     ],
     oneTimeFees: {"Registration Fee": 136},
   },
-  "north-london-collegiate-school": {
+  "north-london-collegiate-school-dubai": {
     address: "Nad Al Sheba,, Mohammed Bin Rashid Al Maktoum City,, PO Box 242773, Dubai, United Arab Emirates",
     lat: 25.178967,
     lng: 55.305027,

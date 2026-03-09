@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T07:21:08.286Z",
+  "generatedAt": "2026-03-09T12:36:24.329Z",
   "sourceRoot": "external/jakarta-school-automation-images",
   "slugs": {
     "acg-school-jakarta": {
@@ -562,11 +562,45 @@
       "photo2": "/images/schools/australian-international-school/photo2.webp",
       "photo3": "/images/schools/australian-international-school/photo3.webp"
     },
+    "australian-international-school-singapore": {
+      "card": "/images/schools/australian-international-school/card.webp",
+      "profile": "/images/schools/australian-international-school/profile.webp",
+      "photo1": "/images/schools/australian-international-school/photo1.webp",
+      "photo2": "/images/schools/australian-international-school/photo2.webp",
+      "photo3": "/images/schools/australian-international-school/photo3.webp"
+    },
+    "australian-international-school-dubai": {
+      "card": "/images/schools/australian-international-school/card.webp",
+      "profile": "/images/schools/australian-international-school/profile.webp",
+      "photo1": "/images/schools/australian-international-school/photo1.webp",
+      "photo2": "/images/schools/australian-international-school/photo2.webp",
+      "photo3": "/images/schools/australian-international-school/photo3.webp"
+    },
+    "australian-international-school-bangkok": {
+      "card": "/images/schools/australian-international-school/card.webp",
+      "profile": "/images/schools/australian-international-school/profile.webp",
+      "photo1": "/images/schools/australian-international-school/photo1.webp",
+      "photo2": "/images/schools/australian-international-school/photo2.webp",
+      "photo3": "/images/schools/australian-international-school/photo3.webp"
+    },
     "brighton-college": {
       "card": "/images/schools/brighton-college/card.webp",
       "profile": "/images/schools/brighton-college/profile.webp",
       "sourceFolder": "assets",
-      "sourceFile": "Brighton College Bangkok Krungthep Kreetha campus",
+      "photo1": "/images/schools/brighton-college/photo2.webp",
+      "photo2": "/images/schools/brighton-college/photo2.webp",
+      "photo3": "/images/schools/brighton-college/photo3.webp"
+    },
+    "brighton-college-singapore": {
+      "card": "/images/schools/brighton-college/card.webp",
+      "profile": "/images/schools/brighton-college/profile.webp",
+      "photo1": "/images/schools/brighton-college/photo2.webp",
+      "photo2": "/images/schools/brighton-college/photo2.webp",
+      "photo3": "/images/schools/brighton-college/photo3.webp"
+    },
+    "brighton-college-dubai": {
+      "card": "/images/schools/brighton-college/card.webp",
+      "profile": "/images/schools/brighton-college/profile.webp",
       "photo1": "/images/schools/brighton-college/photo2.webp",
       "photo2": "/images/schools/brighton-college/photo2.webp",
       "photo3": "/images/schools/brighton-college/photo3.webp"
@@ -690,6 +724,13 @@
       "photo2": "/images/schools/international-community-school/photo2.webp",
       "photo3": "/images/schools/international-community-school/photo3.webp"
     },
+    "international-community-school-singapore": {
+      "card": "/images/schools/international-community-school/card.webp",
+      "profile": "/images/schools/international-community-school/profile.webp",
+      "photo1": "/images/schools/international-community-school/photo1.webp",
+      "photo2": "/images/schools/international-community-school/photo2.webp",
+      "photo3": "/images/schools/international-community-school/photo3.webp"
+    },
     "invictus-international-school": {
       "card": "/images/schools/invictus-international-school/card.webp",
       "profile": "/images/schools/invictus-international-school/profile.webp",
@@ -725,11 +766,25 @@
       "photo2": "/images/schools/nexus-international-school/photo2.webp",
       "photo3": "/images/schools/nexus-international-school/photo3.webp"
     },
+    "nexus-international-school-singapore": {
+      "card": "/images/schools/nexus-international-school/card.webp",
+      "profile": "/images/schools/nexus-international-school/profile.webp",
+      "photo1": "/images/schools/nexus-international-school/photo1.webp",
+      "photo2": "/images/schools/nexus-international-school/photo2.webp",
+      "photo3": "/images/schools/nexus-international-school/photo3.webp"
+    },
     "north-london-collegiate-school": {
       "card": "/images/schools/north-london-collegiate-school/card.webp",
       "profile": "/images/schools/north-london-collegiate-school/profile.webp",
       "sourceFolder": "The Guide/Images",
       "sourceFile": "Singapore_North_London_Collegiate_School_Singapore_campus1.jpg",
+      "photo1": "/images/schools/north-london-collegiate-school/photo1.webp",
+      "photo2": "/images/schools/north-london-collegiate-school/photo2.webp",
+      "photo3": "/images/schools/north-london-collegiate-school/photo3.webp"
+    },
+    "north-london-collegiate-school-dubai": {
+      "card": "/images/schools/north-london-collegiate-school/card.webp",
+      "profile": "/images/schools/north-london-collegiate-school/profile.webp",
       "photo1": "/images/schools/north-london-collegiate-school/photo1.webp",
       "photo2": "/images/schools/north-london-collegiate-school/photo2.webp",
       "photo3": "/images/schools/north-london-collegiate-school/photo3.webp"
@@ -802,6 +857,13 @@
       "profile": "/images/schools/stamford-american-international-school/profile.webp",
       "sourceFolder": "The Guide/Images",
       "sourceFile": "Singapore_Stamford_American_International_School_campus1.jpg",
+      "photo1": "/images/schools/stamford-american-international-school/photo1.webp",
+      "photo2": "/images/schools/stamford-american-international-school/photo2.webp",
+      "photo3": "/images/schools/stamford-american-international-school/photo3.webp"
+    },
+    "stamford-american-international-school-singapore": {
+      "card": "/images/schools/stamford-american-international-school/card.webp",
+      "profile": "/images/schools/stamford-american-international-school/profile.webp",
       "photo1": "/images/schools/stamford-american-international-school/photo1.webp",
       "photo2": "/images/schools/stamford-american-international-school/photo2.webp",
       "photo3": "/images/schools/stamford-american-international-school/photo3.webp"
@@ -904,6 +966,13 @@
       "profile": "/images/schools/nord-anglia-international-school/profile.webp",
       "sourceFolder": "The Guide/Images",
       "sourceFile": "Dubai_Nord_Anglia_International_School_Dubai_campus1.jpg",
+      "photo1": "/images/schools/nord-anglia-international-school/photo1.webp",
+      "photo2": "/images/schools/nord-anglia-international-school/photo2.webp",
+      "photo3": "/images/schools/nord-anglia-international-school/photo3.webp"
+    },
+    "nord-anglia-international-school-dubai": {
+      "card": "/images/schools/nord-anglia-international-school/card.webp",
+      "profile": "/images/schools/nord-anglia-international-school/profile.webp",
       "photo1": "/images/schools/nord-anglia-international-school/photo1.webp",
       "photo2": "/images/schools/nord-anglia-international-school/photo2.webp",
       "photo3": "/images/schools/nord-anglia-international-school/photo3.webp"
@@ -1048,6 +1117,13 @@
       "profile": "/images/schools/garden-international-school/profile.webp",
       "sourceFolder": "The Guide/Images",
       "sourceFile": "Bangkok_Garden_International_School_Bangkok_campus1.jpg",
+      "photo1": "/images/schools/garden-international-school/photo1.webp",
+      "photo2": "/images/schools/garden-international-school/photo2.webp",
+      "photo3": "/images/schools/garden-international-school/photo3.webp"
+    },
+    "garden-international-school-bangkok": {
+      "card": "/images/schools/garden-international-school/card.webp",
+      "profile": "/images/schools/garden-international-school/profile.webp",
       "photo1": "/images/schools/garden-international-school/photo1.webp",
       "photo2": "/images/schools/garden-international-school/photo2.webp",
       "photo3": "/images/schools/garden-international-school/photo3.webp"
@@ -1667,6 +1743,12 @@
       "photo1": "/images/schools/american-international-school/photo1.webp",
       "photo2": "/images/schools/american-international-school/photo2.webp"
     },
+    "american-international-school-dubai": {
+      "profile": "/images/schools/american-international-school/profile.webp",
+      "card": "/images/schools/american-international-school/card.webp",
+      "photo1": "/images/schools/american-international-school/photo1.webp",
+      "photo2": "/images/schools/american-international-school/photo2.webp"
+    },
     "american-school-of-creative-science-maliha": {
       "profile": "/images/schools/american-school-of-creative-science-maliha/profile.webp",
       "card": "/images/schools/american-school-of-creative-science-maliha/card.webp",
@@ -2159,6 +2241,12 @@
       "card": "/images/schools/global-indian-international-school/card.webp",
       "sourceFolder": "images-dubai-final",
       "sourceFile": "Global-Indian-International-School-Dubai_1.jpg",
+      "photo1": "/images/schools/global-indian-international-school/photo1.webp",
+      "photo2": "/images/schools/global-indian-international-school/photo2.webp"
+    },
+    "global-indian-international-school-dubai": {
+      "profile": "/images/schools/global-indian-international-school/profile.webp",
+      "card": "/images/schools/global-indian-international-school/card.webp",
       "photo1": "/images/schools/global-indian-international-school/photo1.webp",
       "photo2": "/images/schools/global-indian-international-school/photo2.webp"
     },

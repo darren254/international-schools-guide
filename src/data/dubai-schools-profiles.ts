@@ -165,7 +165,7 @@ function applyDubaiIntelligence(
   if (p) p.intelligence = intelligence;
 }
 
-applyDubaiIntelligence("brighton-college", {
+applyDubaiIntelligence("brighton-college-dubai", {
   verdict:
     "British franchise with strong exam results and BSO Outstanding; fee premium and British-heavy demographic. KHDA Very Good (Arabic/Islamic drag).",
   paragraphs: [
@@ -210,7 +210,7 @@ applyDubaiIntelligence("dubai-college", {
   ],
 });
 
-applyDubaiIntelligence("nord-anglia-international-school", {
+applyDubaiIntelligence("nord-anglia-international-school-dubai", {
   verdict:
     "Large British-curriculum school (3,080+ students) with KHDA Outstanding and strong IB/GCSE results; rapid growth and parent satisfaction drop (60% positivity). Leadership transition 2025.",
   paragraphs: [

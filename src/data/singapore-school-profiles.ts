@@ -82,7 +82,7 @@ export const SINGAPORE_FEE_DATA: Record<string, SingaporeFeeData> = {
     ],
     oneTimeFees: {},
   },
-  "australian-international-school": {
+  "australian-international-school-singapore": {
     address: "1 Lorong Chuan , Singapore 556 818",
     lat: 1.3493,
     lng: 103.86,
@@ -109,7 +109,7 @@ export const SINGAPORE_FEE_DATA: Record<string, SingaporeFeeData> = {
     ],
     oneTimeFees: {"Application Fee": 659, "Enrolment Fee": 3185},
   },
-  "brighton-college": {
+  "brighton-college-singapore": {
     address: "1 Chuan Lane, Singapore 554299",
     lat: 1.350336,
     lng: 103.858943,
@@ -478,7 +478,7 @@ export const SINGAPORE_FEE_DATA: Record<string, SingaporeFeeData> = {
     ],
     oneTimeFees: {"Application Fee": 2074},
   },
-  "international-community-school": {
+  "international-community-school-singapore": {
     address: "27A Jubilee Road, , Singapore 128575",
     lat: 1.30682,
     lng: 103.766,
@@ -722,7 +722,7 @@ export const SINGAPORE_FEE_DATA: Record<string, SingaporeFeeData> = {
     ],
     oneTimeFees: {},
   },
-  "nexus-international-school": {
+  "nexus-international-school-singapore": {
     address: "1 Aljunied Walk, Singapore 387293",
     lat: 1.321752,
     lng: 103.880919,
@@ -1012,7 +1012,7 @@ export const SINGAPORE_FEE_DATA: Record<string, SingaporeFeeData> = {
     ],
     oneTimeFees: {"Application Fee": 407, "Enrolment Fee": 1627},
   },
-  "stamford-american-international-school": {
+  "stamford-american-international-school-singapore": {
     address: "1 Woodleigh Lane (Off Upper Serangoon Road), Singapore 357684",
     lat: 1.33751,
     lng: 103.869,

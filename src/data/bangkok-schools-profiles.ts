@@ -451,7 +451,7 @@ applyBangkokIntelligence("wells-international-school", {
   considerations: ["Confirm which campus and compare. Ask about retention and DP results."],
 });
 
-applyBangkokIntelligence("garden-international-school", {
+applyBangkokIntelligence("garden-international-school-bangkok", {
   verdict:
     "British curriculum in Sathorn; enrolment ฿60K–120K, deposit ฿40K. Ask about IGCSE and A-Level results and retention.",
   paragraphs: [

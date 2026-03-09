@@ -132,7 +132,7 @@ export const BANGKOK_FEE_DATA: Record<string, BangkokFeeData> = {
     feeRows: [],
     oneTimeFees: {},
   },
-  "australian-international-school": {
+  "australian-international-school-bangkok": {
     address: "Soi Sukhumvit 31, Bangkok 10110 Thailand",
     lat: 13.7287,
     lng: 100.564,
@@ -694,7 +694,7 @@ export const BANGKOK_FEE_DATA: Record<string, BangkokFeeData> = {
     ],
     oneTimeFees: {"Registration Fee": 1931},
   },
-  "garden-international-school": {
+  "garden-international-school-bangkok": {
     address: "2/1 Yen Akart, Soi 2, , Yen Akart Road, Sathorn,  Bangkok 10120, , Thailand",
     lat: 13.7152,
     lng: 100.546,

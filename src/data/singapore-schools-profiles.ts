@@ -141,7 +141,7 @@ applySingaporeIntelligence("tanglin-trust-school", {
   ],
 });
 
-applySingaporeIntelligence("stamford-american-international-school", {
+applySingaporeIntelligence("stamford-american-international-school-singapore", {
   verdict:
     "Large IB and American-curriculum school with two campuses; part of Cognita. Good for families who want scale and choice; ask about consistency between campuses and teacher retention.",
   paragraphs: [
@@ -171,7 +171,7 @@ applySingaporeIntelligence("xcl-world-academy", {
   ],
 });
 
-applySingaporeIntelligence("australian-international-school", {
+applySingaporeIntelligence("australian-international-school-singapore", {
   verdict:
     "Australian curriculum with IB Diploma; strong for families targeting Australian universities or wanting continuity with the Australian system. Ask about recent leadership and curriculum focus.",
   paragraphs: [
@@ -186,7 +186,7 @@ applySingaporeIntelligence("australian-international-school", {
   ],
 });
 
-applySingaporeIntelligence("nexus-international-school", {
+applySingaporeIntelligence("nexus-international-school-singapore", {
   verdict:
     "IB World School with a strong parent community and good facilities. Staff retention is worth asking about.",
   paragraphs: [
@@ -321,7 +321,7 @@ applySingaporeIntelligence("chatsworth-international-school", {
   ],
 });
 
-applySingaporeIntelligence("international-community-school", {
+applySingaporeIntelligence("international-community-school-singapore", {
   verdict:
     "Christian American school with a strong community feel. Ask about curriculum fit and pastoral support.",
   paragraphs: [
@@ -449,7 +449,7 @@ applySingaporeIntelligence("north-london-collegiate-school", {
   ],
 });
 
-applySingaporeIntelligence("brighton-college", {
+applySingaporeIntelligence("brighton-college-singapore", {
   verdict:
     "If you want a deliberately small, British, academically focused school with strong pastoral attention in primary and lower secondary, and you like the Brighton UK ethos, put it on your shortlist. If you need a long-proven IBDP track record, a huge range of senior subject combinations, or lower fees, compare larger, more established campuses first.",
   paragraphs: [
@@ -473,7 +473,7 @@ applySingaporeIntelligence("brighton-college", {
 });
 
 // Brighton College Singapore: override head, academics, student body, school life
-const brightonProfile = PROFILES_MAP["brighton-college"];
+const brightonProfile = PROFILES_MAP["brighton-college-singapore"];
 if (brightonProfile) {
   brightonProfile.head = {
     name: "Nick Davies",
@@ -524,7 +524,7 @@ if (knightsbridgeProfile) {
 }
 
 // Stamford American International School Singapore: fee note + two campuses (Woodleigh, Early Learning Village)
-const stamfordSgProfile = PROFILES_MAP["stamford-american-international-school"];
+const stamfordSgProfile = PROFILES_MAP["stamford-american-international-school-singapore"];
 if (stamfordSgProfile && stamfordSgProfile.citySlug === "singapore") {
   stamfordSgProfile.campuses = [
     { name: "Woodleigh", address: "1 Woodleigh Lane (Off Upper Serangoon Road), Singapore 357684", grades: "1–12", lat: 1.33751, lng: 103.869 },

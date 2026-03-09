@@ -34,11 +34,11 @@ const CITY_FOLDER_TO_SLUG: Record<string, string> = {
 
 const EXCEL_NAME_ALIASES: Record<string, string> = {
   "singapore|uwcsea east campus": "united-world-college-of-south-east-asia-east-campus",
-  "singapore|australian international school singapore": "australian-international-school",
-  "singapore|stamford american international school singapore": "stamford-american-international-school",
+  "singapore|australian international school singapore": "australian-international-school-singapore",
+  "singapore|stamford american international school singapore": "stamford-american-international-school-singapore",
   "dubai|queen elizabeths school dubai sports city": "queen-elizabeth-s-school-dubai-sports-city",
   "dubai|nord anglia international school dubai": "nord-anglia-international-school",
-  "dubai|brighton college dubai": "brighton-college",
+  "dubai|brighton college dubai": "brighton-college-dubai",
 };
 
 function toSlug(s: string): string {
