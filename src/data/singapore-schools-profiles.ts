@@ -523,6 +523,17 @@ if (knightsbridgeProfile) {
   ];
 }
 
+// Stamford American International School Singapore: fee note + two campuses (Woodleigh, Early Learning Village)
+const stamfordSgProfile = PROFILES_MAP["stamford-american-international-school"];
+if (stamfordSgProfile && stamfordSgProfile.citySlug === "singapore") {
+  stamfordSgProfile.campuses = [
+    { name: "Woodleigh", address: "1 Woodleigh Lane (Off Upper Serangoon Road), Singapore 357684", grades: "1–12", lat: 1.33751, lng: 103.869 },
+    { name: "Early Learning Village", address: "3 Chuan Lane, Gate 4, Singapore 554350", grades: "18 months – 6", lat: 1.3493, lng: 103.86 },
+  ];
+  stamfordSgProfile.fees.note =
+    "Fees 2025–2026, SGD, incl. 9% GST. Table shows Woodleigh campus (Grades 1–12). Tuition includes textbooks, workbooks, stationery, selected ASAs and Year Book. Application S$920 (non-refundable, one-off for new students). Early Years and Early Learning Village have separate fee schedules — see [sais.edu.sg](https://www.sais.edu.sg/).";
+}
+
 applySingaporeIntelligence("the-winstedt-school", {
   verdict:
     "Specialist school for learning differences and neurodiversity; therapy included in fees. No published cohort outcomes; the Winstedt Diploma is not IB or A-level.",
