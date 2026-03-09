@@ -28,21 +28,38 @@ function buildOneTimeFees(slug: string): OneTimeFee[] {
     .map(([name, amount]) => ({ name, amount }));
 }
 
+const INSWORLD_FEE_NOTE =
+  "Tuition is per term and depends on programme (GCE A-Level/IAL, IGCSE, Junior Secondary, English for Academic Study). Typical range S$8,500–S$12,000 per term (before 9% GST). Application S$1,600 (non-refundable). Course Enrolment S$2,500 (1 term), S$4,500 (2 terms), S$5,500 (3–6 terms). Full fee schedule: [insworld.edu.sg](https://www.insworld.edu.sg).";
+
 function createProfile(L: SingaporeSchoolListing): SchoolProfile {
   const feeData = SINGAPORE_FEE_DATA[L.slug];
   const address = feeData?.address || L.area;
   const lat = feeData?.lat ?? 1.35;
   const lng = feeData?.lng ?? 103.82;
   const website = L.website || feeData?.website || "";
-  const feeRows = buildFeeRows(L.slug);
+  const rawFeeRows = buildFeeRows(L.slug);
+  const isInsworld = L.slug === "insworld-institute";
+  const feeRows = isInsworld ? [] : rawFeeRows;
   const oneTimeFees = buildOneTimeFees(L.slug);
   const highK = extractHighestFee(L.feeRange);
   const hasFeeData = feeRows.length > 0;
-  const feeNote = hasFeeData
-    ? "Fees shown in SGD. 1 USD ≈ 1.34 SGD. Contact the school for the full fee schedule."
-    : L.feeRange === "Contact school"
-      ? "Fees not publicly disclosed. Contact the school for current fee schedule."
-      : `Approximate annual fee range: ${L.feeRange}. Contact the school for the full fee schedule.`;
+  const feeNote = isInsworld
+    ? INSWORLD_FEE_NOTE
+    : hasFeeData
+      ? "Fees shown in SGD. 1 USD ≈ 1.34 SGD. Contact the school for the full fee schedule."
+      : L.feeRange === "Contact school"
+        ? "Fees not publicly disclosed. Contact the school for current fee schedule."
+        : `Approximate annual fee range: ${L.feeRange}. Contact the school for the full fee schedule.`;
+  const fallbackRow = [
+    {
+      gradeLevel: "All grades",
+      ages: L.ageRange,
+      tuition: highK > 0 ? Math.round(highK * 1000 * 1.34) : 0,
+      capital: 0,
+      totalEarlyBird: highK > 0 ? Math.round(highK * 1000 * 1.34) : 0,
+      totalStandard: highK > 0 ? Math.round(highK * 1000 * 1.34) : 0,
+    },
+  ];
   return {
     slug: L.slug,
     citySlug: "singapore",
@@ -66,7 +83,7 @@ function createProfile(L: SingaporeSchoolListing): SchoolProfile {
     fees: {
       academicYear: "2025–2026",
       feeCurrency: "SGD",
-      rows: hasFeeData ? feeRows : [{ gradeLevel: "All grades", ages: L.ageRange, tuition: highK > 0 ? Math.round(highK * 1000 * 1.34) : 0, capital: 0, totalEarlyBird: highK > 0 ? Math.round(highK * 1000 * 1.34) : 0, totalStandard: highK > 0 ? Math.round(highK * 1000 * 1.34) : 0 }],
+      rows: hasFeeData ? feeRows : isInsworld ? [] : fallbackRow,
       oneTime: oneTimeFees,
       note: feeNote,
     },

@@ -445,15 +445,13 @@ export const SINGAPORE_FEE_DATA: Record<string, SingaporeFeeData> = {
     lng: 103.85479855309823,
     website: "https://insworld.edu.sg/",
     maxClassSize: "12",
-    feeRows: [
-      { age: 12, grade: "Grade 7", amount: 20000 },
-      { age: 13, grade: "Grade 8", amount: 20000 },
-      { age: 14, grade: "Grade 9", amount: 21111 },
-      { age: 15, grade: "Grade 10", amount: 21111 },
-      { age: 16, grade: "Grade 11", amount: 21111 },
-      { age: 17, grade: "Grade 12", amount: 21111 },
-    ],
-    oneTimeFees: {},
+    feeRows: [],
+    oneTimeFees: {
+      "Application Fee (non-refundable)": 1600,
+      "Course Enrolment (1 term)": 2500,
+      "Course Enrolment (2 terms)": 4500,
+      "Course Enrolment (3–6 terms)": 5500,
+    },
   },
   "integrated-international-school": {
     address: "Capital Square Two,, 21 Church Street, #01-01,, Singapore 049480, ,",
