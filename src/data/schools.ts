@@ -2990,6 +2990,17 @@ const MINIMAL_PROFILES_MAP: Record<string, SchoolProfile> = Object.fromEntries(
   MINIMAL_PROFILES.map((p) => [p.slug, p])
 );
 
+// ── Multi-campus overrides for minimal-profile Jakarta schools ──
+const raffles = MINIMAL_PROFILES_MAP["raffles-christian-school-jakarta"];
+if (raffles) {
+  raffles.campuses = [
+    { name: "Pondok Indah Campus 1", address: "Jl. Gedung Hijau Raya I, No. 1 Pondok Indah, South Jakarta 12310", grades: "2–18", lat: -6.280197880619824, lng: 106.77843357313061 },
+    { name: "Pondok Indah Campus 2", address: "Jl. Sultan Iskandar Muda No.1, Kebayoran Lama, South Jakarta 12240", grades: "2–18", lat: -6.260788340578404, lng: 106.78209043135442 },
+    { name: "Kelapa Gading Campus", address: "Jl. Gading Pelangi No. 1 Kelapa Gading, North Jakarta 14240", grades: "2–18", lat: -6.175828026826696, lng: 106.91337786573943 },
+    { name: "Kebon Jeruk Campus", address: "Jl. Meruya Ilir No. 89 Meruya Utara, West Jakarta 11620", grades: "2–18", lat: -6.197373355131425, lng: 106.76093999322735 },
+  ];
+}
+
 // ═══════════════════════════════════════════════════════
 // SCHOOL MAP - keyed by slug for O(1) lookup
 // ═══════════════════════════════════════════════════════
