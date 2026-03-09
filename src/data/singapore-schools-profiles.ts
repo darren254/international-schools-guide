@@ -514,6 +514,15 @@ if (brightonProfile) {
     "Fees 2025–2026, SGD, per pupil, three-term year (incl. 9% GST). Facility fee S$3,633/year for all pupils. Application S$1,085 (non-refundable); Enrolment S$4,010; Development Fund S$3,610 (refundable only in narrowly defined circumstances). EAL Intermediate S$2,878/term if required. Sibling discounts: 5% (2nd child), 10% (3rd and 4th). Invoices issued three times a year in advance; tuition and facility fees pro-rated to month of start. 100% refund of course and facility fees only if written withdrawal received by cut-off dates before term start; no refund after term starts. Application, Enrolment and Development Fund generally non-refundable.";
 }
 
+// Knightsbridge House International School: two campuses (Bukit Merah + Changi)
+const knightsbridgeProfile = PROFILES_MAP["knightsbridge-house-international-school"];
+if (knightsbridgeProfile) {
+  knightsbridgeProfile.campuses = [
+    { name: "Bukit Merah", address: "Bukit Merah, Singapore", grades: "5–14", lat: 1.2826899202577027, lng: 103.81840265087187 },
+    { name: "Changi", address: "Changi Business Park, Singapore", grades: "5–14", lat: 1.3330701288102464, lng: 103.96597890508167 },
+  ];
+}
+
 applySingaporeIntelligence("the-winstedt-school", {
   verdict:
     "Specialist school for learning differences and neurodiversity; therapy included in fees. No published cohort outcomes; the Winstedt Diploma is not IB or A-level.",

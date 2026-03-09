@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T06:49:35.786Z",
+  "generatedAt": "2026-03-09T07:12:59.090Z",
   "sourceRoot": "external/jakarta-school-automation-images",
   "slugs": {
     "acg-school-jakarta": {
@@ -668,7 +668,9 @@
       "sourceFile": "Singapore_INSWORLD_Institute_campus1.jpg",
       "photo1": "/images/schools/insworld-institute/photo1.webp",
       "photo2": "/images/schools/insworld-institute/photo2.webp",
-      "photo3": "/images/schools/insworld-institute/photo3.webp"
+      "photo3": "/images/schools/insworld-institute/photo3.webp",
+      "photo4": "/images/schools/insworld-institute/photo4.webp",
+      "photo5": "/images/schools/insworld-institute/photo5.webp"
     },
     "integrated-international-school": {
       "card": "/images/schools/integrated-international-school/card.webp",
@@ -2858,10 +2860,12 @@
     "knightsbridge-house-international-school": {
       "profile": "/images/schools/knightsbridge-house-international-school/profile.webp",
       "card": "/images/schools/knightsbridge-house-international-school/card.webp",
-      "sourceFolder": "images-singapore",
-      "sourceFile": "Knightsbridge-House-International-School-Singapore_1.webp",
       "photo1": "/images/schools/knightsbridge-house-international-school/photo1.webp",
-      "photo2": "/images/schools/knightsbridge-house-international-school/photo2.webp"
+      "photo2": "/images/schools/knightsbridge-house-international-school/photo2.webp",
+      "photo3": "/images/schools/knightsbridge-house-international-school/photo3.webp",
+      "photo4": "/images/schools/knightsbridge-house-international-school/photo4.webp",
+      "photo5": "/images/schools/knightsbridge-house-international-school/photo5.webp",
+      "photo6": "/images/schools/knightsbridge-house-international-school/photo6.webp"
     },
     "lodestar-montessori-school": {
       "profile": "/images/schools/lodestar-montessori-school/profile.webp",
