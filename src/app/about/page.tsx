@@ -18,17 +18,17 @@ const TEAM = [
   {
     name: "Mia Windsor",
     role: "Managing Editor",
-    bio: "Mia moved her three children through four Jakarta international schools over eight years. She knows the school run, the fee negotiations, and the WhatsApp group politics from the inside. Before launching ISG she was a features editor at a national broadsheet in London.",
+    bio: "Mia sets the editorial standards at The Guide, drawing on eight years navigating the international school landscape as a parent and an ex-London journalist.",
   },
   {
     name: "James Chen",
     role: "Head of Development",
-    bio: "James builds the platform - the search tools, comparison features, and data pipelines that keep fee information and school profiles accurate. Previously he led product engineering at a Singapore-based edtech company.",
+    bio: "James builds and maintains the platform, tools, features, and data infrastructure that keep The Guide going.",
   },
   {
     name: "Emma Torres",
-    role: "Content & Research Lead",
-    bio: "Emma visits schools, interviews heads, and writes the editorial reviews. She's a former IB teacher who taught in Bangkok, Hong Kong, and Jakarta before joining ISG. She knows what good teaching looks like - and what marketing copy looks like.",
+    role: "Content & Research",
+    bio: "Emma researches, writes, visits, and interviews to get the data and information we need. As a former teacher she knows the difference between good teaching and a good brochure.",
   },
 ];
 
