@@ -10,7 +10,7 @@
 - Brighton College Singapore
 - Canadian International School Singapore
 - Chatsworth International School Singapore
-- Dimensions International College Singapore
+- Dimensions International School
 - Dover Court International School Singapore
 - Dps International School Singapore
 - Dulwich College Singapore
@@ -51,7 +51,7 @@
 - Sish International High School Singapore
 - St Francis Methodist School Singapore
 - Stalford Academy Singapore
-- Stamford American International School Singapore
+- Stamford American International School (SAIS)
 - Swiss School In Singapore
 - Tanglin Trust School Singapore
 - The Grange Institution And International Preschool Singapore

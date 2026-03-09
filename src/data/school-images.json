@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T12:36:24.329Z",
+  "generatedAt": "2026-03-09T13:19:22.631Z",
   "sourceRoot": "external/jakarta-school-automation-images",
   "slugs": {
     "acg-school-jakarta": {
@@ -630,7 +630,11 @@
       "sourceFile": "Singapore_Dimensions_International_College_campus1.jpg",
       "photo1": "/images/schools/dimensions-international-college/photo1.webp",
       "photo2": "/images/schools/dimensions-international-college/photo2.webp",
-      "photo3": "/images/schools/dimensions-international-college/photo3.webp"
+      "photo3": "/images/schools/dimensions-international-college/photo3.webp",
+      "photo4": "/images/schools/dimensions-international-college/photo4.webp",
+      "photo5": "/images/schools/dimensions-international-college/photo5.webp",
+      "photo6": "/images/schools/dimensions-international-college/photo6.webp",
+      "photo7": "/images/schools/dimensions-international-college/photo7.webp"
     },
     "dover-court-international-school": {
       "card": "/images/schools/dover-court-international-school/card.webp",
@@ -639,7 +643,10 @@
       "sourceFile": "Singapore_Dover_Court_International_School_campus1.jpg",
       "photo1": "/images/schools/dover-court-international-school/photo1.webp",
       "photo2": "/images/schools/dover-court-international-school/photo2.webp",
-      "photo3": "/images/schools/dover-court-international-school/photo3.webp"
+      "photo3": "/images/schools/dover-court-international-school/photo3.webp",
+      "photo4": "/images/schools/dover-court-international-school/photo4.webp",
+      "photo5": "/images/schools/dover-court-international-school/photo5.webp",
+      "photo6": "/images/schools/dover-court-international-school/photo6.webp"
     },
     "dps-international-school": {
       "card": "/images/schools/dps-international-school/card.webp",
@@ -704,7 +711,9 @@
       "photo2": "/images/schools/insworld-institute/photo2.webp",
       "photo3": "/images/schools/insworld-institute/photo3.webp",
       "photo4": "/images/schools/insworld-institute/photo4.webp",
-      "photo5": "/images/schools/insworld-institute/photo5.webp"
+      "photo5": "/images/schools/insworld-institute/photo5.webp",
+      "photo6": "/images/schools/insworld-institute/photo6.webp",
+      "photo7": "/images/schools/insworld-institute/photo7.webp"
     },
     "integrated-international-school": {
       "card": "/images/schools/integrated-international-school/card.webp",
@@ -866,7 +875,9 @@
       "profile": "/images/schools/stamford-american-international-school/profile.webp",
       "photo1": "/images/schools/stamford-american-international-school/photo1.webp",
       "photo2": "/images/schools/stamford-american-international-school/photo2.webp",
-      "photo3": "/images/schools/stamford-american-international-school/photo3.webp"
+      "photo3": "/images/schools/stamford-american-international-school/photo3.webp",
+      "photo4": "/images/schools/stamford-american-international-school/photo4.webp",
+      "photo5": "/images/schools/stamford-american-international-school/photo5.webp"
     },
     "swiss-school-in": {
       "card": "/images/schools/swiss-school-in/card.webp",
@@ -2895,7 +2906,9 @@
       "sourceFolder": "images-singapore",
       "sourceFile": "All-Hands-Together-Singapore_1.jpg",
       "photo1": "/images/schools/all-hands-together/photo1.webp",
-      "photo2": "/images/schools/all-hands-together/photo2.webp"
+      "photo2": "/images/schools/all-hands-together/photo2.webp",
+      "photo3": "/images/schools/all-hands-together/photo3.webp",
+      "photo4": "/images/schools/all-hands-together/photo4.webp"
     },
     "astor-international-school": {
       "profile": "/images/schools/astor-international-school/profile.webp",
