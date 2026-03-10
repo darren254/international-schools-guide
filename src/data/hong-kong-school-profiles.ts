@@ -340,8 +340,13 @@ export const HONG_KONG_FEE_DATA: Record<string, HongKongFeeData> = {
     lng: 114.02340208452625,
     website: "https://discoverymind.edu.hk/",
     maxClassSize: "",
-    feeRows: [],
-    oneTimeFees: {},
+    feeRows: [
+      { age: 1, grade: "Play Centre (Half Day)", amount: 8974 },
+      { age: 3, grade: "Kindergarten (Half Day)", amount: 10256 },
+      { age: 3, grade: "Kindergarten (Full Day)", amount: 14103 },
+      { age: 6, grade: "Primary (Year 1–5)", amount: 16667 },
+    ],
+    oneTimeFees: { "Application Fee": 385 },
   },
   "dsc-international-school": {
     address: "Tai Fung Avenue, , Taikoo Shing, , Hong Kong",
@@ -532,7 +537,11 @@ export const HONG_KONG_FEE_DATA: Record<string, HongKongFeeData> = {
     lng: 114.01699107759255,
     website: "https://www.studyhkila.edu.hk/",
     maxClassSize: "15",
-    feeRows: [],
+    feeRows: [
+      { age: 5, grade: "Primary (Year 1–6)", amount: 10256 },
+      { age: 12, grade: "Secondary (Year 7–11)", amount: 12821 },
+      { age: 16, grade: "Sixth Form (Year 12–13)", amount: 14103 },
+    ],
     oneTimeFees: {},
   },
   "hong-kong-academy": {
@@ -1027,7 +1036,12 @@ export const HONG_KONG_FEE_DATA: Record<string, HongKongFeeData> = {
     lng: 114.149,
     website: "http://cky.edu.hk/",
     maxClassSize: "",
-    feeRows: [],
+    feeRows: [
+      { age: 5, grade: "Year 1–5", amount: 12798 },
+      { age: 11, grade: "Year 6–8", amount: 16639 },
+      { age: 14, grade: "Year 9–10", amount: 18647 },
+      { age: 16, grade: "Year 11–12", amount: 18836 },
+    ],
     oneTimeFees: {},
   },
   "quarry-bay-school": {
@@ -1104,8 +1118,14 @@ export const HONG_KONG_FEE_DATA: Record<string, HongKongFeeData> = {
     lng: 114.170384,
     website: "https://sris.edu.hk/index.html",
     maxClassSize: "",
-    feeRows: [],
-    oneTimeFees: {},
+    feeRows: [
+      { age: 5, grade: "Year 1–3", amount: 10154 },
+      { age: 8, grade: "Year 4–6", amount: 10897 },
+      { age: 11, grade: "Year 7–9", amount: 11795 },
+      { age: 14, grade: "Year 10–11 (IGCSE)", amount: 12949 },
+      { age: 16, grade: "Year 12–13 (A-Level)", amount: 13718 },
+    ],
+    oneTimeFees: { "Application Fee": 256 },
   },
   "sha-tin-college": {
     address: "No. 3 Lai Wo Lane , Fo Tan, Sha Tin , Hong Kong",
@@ -1416,7 +1436,9 @@ export const HONG_KONG_FEE_DATA: Record<string, HongKongFeeData> = {
     lng: 114.2361856926011,
     website: "https://ykpaoschool.hk/",
     maxClassSize: "",
-    feeRows: [],
+    feeRows: [
+      { age: 5, grade: "Year 1–3", amount: 28205 },
+    ],
     oneTimeFees: {},
   },
   "ymca-christian-academy": {

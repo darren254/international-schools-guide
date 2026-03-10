@@ -1,0 +1,17 @@
+anna-smakowska_esf-jockey-club-sarah-roe-school.jpg	schoolPart=esf-jockey-club-sarah-roe-school
+benjamin-tsao_tzu-chi-walnut-elementary-school.jpg	schoolPart=tzu-chi-walnut-elementary-school
+brenda-cook_esf-kennedy-school.jpg	schoolPart=esf-kennedy-school
+carol-larkin_esf-sha-tin-college.jpg	schoolPart=esf-sha-tin-college
+chloë-pollack_esf-discovery-college.jpg	schoolPart=esf-discovery-college
+derek-pinchbeck_international-college-hong-kong-hong-lok.jpg	schoolPart=international-college-hong-kong-hong-lok
+dr-harjinder-kaur_lotus-bridge-international-academy.jpg	schoolPart=lotus-bridge-international-academy
+dr-kanjwarin-pholanunt_satit-pattana-school.jpg	schoolPart=satit-pattana-school
+dr-rehana-shanks_esf-sha-tin-junior-school.jpg	schoolPart=esf-sha-tin-junior-school
+gavin-macgregor_esf-kowloon-junior-school.jpg	schoolPart=esf-kowloon-junior-school
+justine-barlow_hong-kong-international-learning-academy.jpg	schoolPart=hong-kong-international-learning-academy
+kate-gower_esf-bradbury-school.jpg	schoolPart=esf-bradbury-school
+khanum-thampi_myis-international-school.png	schoolPart=myis-international-school
+melinda-hanlon_academy-of-the-holy-angels.jpg	schoolPart=academy-of-the-holy-angels
+mrs-vicki-hallatt_esf-west-island-school.jpg	schoolPart=esf-west-island-school
+oksje-rumagit_sekolah-pelangi-kasih.jpg	schoolPart=sekolah-pelangi-kasih
+sue-yee_esf-quarry-bay-school.jpg	schoolPart=esf-quarry-bay-school
