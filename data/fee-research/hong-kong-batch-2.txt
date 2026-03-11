@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in HKD (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Hong Kong — Batch 2 of 8 (10 schools)
+CURRENCY: HKD
+
+1. [carmel-school] Carmel School Hong Kong — https://www.carmel.edu.hk/
+2. [chinese-international-school] Chinese International School Hong Kong — https://www.cis.edu.hk/
+3. [christian-alliance-international-school] Christian Alliance International School Hong Kong — https://www.caisbv.edu.hk/
+4. [christian-alliance-p-c-lau-memorial-international-school] Christian Alliance P C Lau Memorial International School Hong Kong — https://www.capcl.edu.hk/
+5. [clearwater-bay-school] Clearwater Bay School Hong Kong — https://cwbs.esf.edu.hk/en/
+6. [concordia-international-school] Concordia International School Hong Kong — https://www.cihs.edu.hk/
+7. [creative-primary-school] Creative Primary School Hong Kong — https://www.creativeprisch.edu.hk/
+8. [creative-secondary-school] Creative Secondary School Hong Kong — https://www.css.edu.hk/
+9. [dalton-school] Dalton School Hong Kong — https://dshk.edu.hk/
+10. [discovery-bay-international-school] Discovery Bay International School Hong Kong — https://www.dbis.edu.hk/

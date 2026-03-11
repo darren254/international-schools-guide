@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in HKD (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Hong Kong — Batch 8 of 8 (10 schools)
+CURRENCY: HKD
+
+1. [the-international-montessori-school] The International Montessori School Hong Kong — https://www.ims.edu.hk/en
+2. [the-isf-academy] The Isf Academy Hong Kong — https://academy.isf.edu.hk/
+3. [the-jockey-club-sarah-roe-school] The Jockey Club Sarah Roe School Hong Kong — https://jcsrs.esf.edu.hk/en/
+4. [victoria-shanghai-academy] Victoria Shanghai Academy Hong Kong — https://www.vsa.edu.hk/
+5. [west-island-school] West Island School Hong Kong — https://wis.esf.edu.hk/en/
+6. [wycombe-abbey-school] Wycombe Abbey School Hong Kong — https://was.edu.hk/
+7. [yew-chung-international-school] Yew Chung International School Hong Kong — https://www.ycis-hk.com/en/
+8. [yk-pao-school] Yk Pao School Hong Kong — https://ykpaoschool.hk/
+9. [ymca-christian-academy] Ymca Christian Academy Hong Kong — https://yca.edu.hk/
+10. [ymca-of-hong-kong-christian-college] Ymca Of Hong Kong Christian College — https://yhkcc.edu.hk/

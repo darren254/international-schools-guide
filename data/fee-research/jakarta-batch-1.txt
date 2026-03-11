@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in IDR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Jakarta — Batch 1 of 7 (10 schools)
+CURRENCY: IDR
+
+1. [acg-school-jakarta] ACG School Jakarta — https://jakarta.acgedu.com
+2. [acs-jakarta] ACS Jakarta — https://www.acsjakarta.sch.id
+3. [al-azhar-syifa-budi-jakarta] Al Azhar Syifa Budi Jakarta — https://alazhar.syifabudi.id/
+4. [al-jabr-islamic-school] Al Jabr Islamic School — https://aljabrislamicschool.sch.id/en/admissions/school-fees/
+5. [australian-independent-school-jakarta] Australian Independent School Jakarta — https://www.ais-indonesia.com
+6. [beacon-academy] Beacon Academy — https://beaconacademy.net
+7. [bina-bangsa-school] Bina Bangsa School — https://binabangsaschool.com
+8. [binus-school-bekasi] Binus School Bekasi — https://bekasi.binus.sch.id
+9. [binus-school-serpong] Binus School Serpong — https://www.binus.edu
+10. [binus-school-simprug] Binus School Simprug — https://simprug.binus.sch.id

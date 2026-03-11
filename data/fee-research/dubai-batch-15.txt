@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in AED (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Dubai — Batch 15 of 18 (10 schools)
+CURRENCY: AED
+
+1. [sharjah-american-international-school] Sharjah American International School Dubai — https://www.saissharjah.com/
+2. [sharjah-british-international-school] Sharjah British International School Dubai — https://www.sharjahbritishinternationalschool.com/
+3. [sharjah-english-school] Sharjah English School Dubai — https://www.sharjahenglishschool.org/
+4. [smart-vision-school] Smart Vision School Dubai — https://www.svschool.ae/
+5. [south-view-school] South View School Dubai — https://www.southviewschool.com/
+6. [star-international-school-altwar] Star International School Altwar Dubai — https://www.starintlschoolaltwar.com/
+7. [star-international-school-mirdiff] Star International School Mirdiff Dubai — https://www.starmirdifschool.com/
+8. [sunmarke-school] Sunmarke School Dubai — https://www.sunmarke.com/
+9. [swiss-international-scientific-school] Swiss International Scientific School Dubai — https://www.nordangliaeducation.com/sisd-dubai
+10. [the-apple-international-school] The Apple International School Dubai — https://apple.sch.ae/

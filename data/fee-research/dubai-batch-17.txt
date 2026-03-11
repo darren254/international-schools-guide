@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in AED (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Dubai — Batch 17 of 18 (10 schools)
+CURRENCY: AED
+
+1. [the-school-of-research-science] The School Of Research Science Dubai — https://srsdubai.ae/
+2. [the-sheffield-private-school] The Sheffield Private School Dubai — https://sheffield-school.com/
+3. [the-westminster-school] The Westminster School Dubai — https://www.gemsws-ghusais.com/
+4. [the-winchester-school] The Winchester School Dubai — https://www.thewinchesterschool.com/
+5. [universal-american-school] Universal American School Dubai — https://www.uasdubai.ae/
+6. [uptown-international-school] Uptown International School Dubai — https://uischool.ae/
+7. [victoria-english-school] Victoria English School Dubai — https://victoriaenglishschools.com/
+8. [victoria-international-school-of-sharjah] Victoria International School Of Sharjah Dubai — https://viss.ae/
+9. [victory-heights-primary-school] Victory Heights Primary School Dubai — https://www.vhprimary.com/
+10. [victory-heights-primary-school-city-of-arabia] Victory Heights Primary School City Of Arabia Dubai — https://vhprimarycoa.com/

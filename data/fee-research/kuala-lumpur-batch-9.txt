@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in MYR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Kuala Lumpur — Batch 9 of 12 (10 schools)
+CURRENCY: MYR
+
+1. [sri-dasmesh-international-school] Sri Dasmesh International School Kuala Lumpur — https://sridasmesh.edu.my/
+2. [sri-emas-international-school] Sri Emas International School Kuala Lumpur — https://sriemas.edu.my/
+3. [sri-kdu-international-school-klang] Sri Kdu International School Klang Kuala Lumpur — https://srikdu.edu.my/klang/
+4. [sri-kdu-international-school-subang-jaya] Sri Kdu International School Subang Jaya Kuala Lumpur — https://srikdu.edu.my/subang-jaya/
+5. [sri-kdu-school] Sri Kdu School Kuala Lumpur — https://srikdu.edu.my/kota-damansara-international/
+6. [sri-kuala-lumpur-school] Sri Kuala Lumpur School — https://www.srikl.edu.my/
+7. [sri-sempurna-international-school] Sri Sempurna International School Kuala Lumpur — https://srisempurna.edu.my/
+8. [stars-international-school] Stars International School Kuala Lumpur — https://stars.edu.my/
+9. [stella-maris-international-school] Stella Maris International School Kuala Lumpur — https://stellamaris.edu.my/stella-maris-international-school-2/
+10. [straits-international-school] Straits International School Kuala Lumpur — https://www.rawangsisgroup.edu.my/

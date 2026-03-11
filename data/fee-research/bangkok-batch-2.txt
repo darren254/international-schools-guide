@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in THB (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Bangkok — Batch 2 of 10 (10 schools)
+CURRENCY: THB
+
+1. [bangkok-grace-international-school] Bangkok Grace International School — https://www.grace.ac.th/bgis-10/
+2. [bangkok-international-preparatory-secondary-school] Bangkok International Preparatory and Secondary School (BKK Prep) — https://www.bangkokprep.ac.th/
+3. [bangkok-patana-school] Bangkok Patana School — https://www.patana.ac.th/
+4. [basis-international-school] Basis International School Bangkok — https://basis.ac.th/
+5. [beaconhouse-yamsaard-international-school] Beaconhouse Yamsaard International School Bangkok — https://bys.ac.th/byis/en/
+6. [berkeley-international-school] Berkeley International School Bangkok — https://www.berkeley.ac.th/
+7. [brighton-college] Brighton College Bangkok, Krungthep Kreetha — https://brightoncollege.ac.th/
+8. [brighton-college-bangkok-vibhavadi] Brighton College Bangkok, Vibhavadi — https://brightoncollege.ac.th/vibhavadi
+9. [british-columbia-international-school] British Columbia International School Bangkok — https://www.bcisb.ac.th/
+10. [british-mandarin-international-school] British Mandarin International School Bangkok — https://bmis.ac.th/

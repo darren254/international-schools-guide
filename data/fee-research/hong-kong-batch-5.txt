@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in HKD (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Hong Kong — Batch 5 of 8 (10 schools)
+CURRENCY: HKD
+
+1. [island-school] Island School Hong Kong — https://island.esf.edu.hk/en/
+2. [island-waldorf-school] Island Waldorf School Hong Kong — https://iws.edu.hk/
+3. [japanese-international-school] Japanese International School Hong Kong — https://es.jis.edu.hk/
+4. [kellett-school] Kellett School Hong Kong — https://www.kellettschool.com/
+5. [kennedy-school] Kennedy School Hong Kong — https://kennedy.esf.edu.hk/
+6. [kiangsu-chekiang-school-international-sections] Kiangsu Chekiang School International Sections Hong Kong — https://www.kcis.edu.hk/
+7. [king-george-v-school] King George V School Hong Kong — https://kgv.esf.edu.hk/en/
+8. [kingston-international-school] Kingston International School Hong Kong — https://www.kingston.edu.hk/
+9. [korean-international-school] Korean International School Hong Kong — https://www.kis.edu.hk/
+10. [kowloon-junior-school] Kowloon Junior School Hong Kong — https://kjs.esf.edu.hk/en/

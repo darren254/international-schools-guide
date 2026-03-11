@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in HKD (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Hong Kong — Batch 1 of 8 (10 schools)
+CURRENCY: HKD
+
+1. [american-international-school] American International School Hong Kong — https://www.ais.edu.hk/
+2. [american-school] American School Hong Kong — https://www.ashk.edu.hk/
+3. [anchors-academy] Anchors Academy Hong Kong — https://anchorsacademy.edu.hk/en/
+4. [anfield-school] Anfield School Hong Kong — https://anfield.edu.hk/
+5. [australian-international-school] Australian International School Hong Kong — https://www.aishk.edu.hk/
+6. [beacon-hill-school] Beacon Hill School Hong Kong — https://beaconhill.esf.edu.hk/en/
+7. [bloom-kkca-academy] Bloom Kkca Academy Hong Kong — https://bloom.edu.hk/
+8. [bradbury-school] Bradbury School Hong Kong — https://bradbury.esf.edu.hk/en/
+9. [california-school] California School Hong Kong — https://www.californiaschool.edu.hk/
+10. [canadian-international-school-of] Canadian International School Of Hong Kong — https://www.cdnis.edu.hk/

@@ -1,0 +1,32 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in THB (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Bangkok — Batch 10 of 10 (6 schools)
+CURRENCY: THB
+
+1. [tsi-international-school] Tsi International School Bangkok — https://www.tsi.ac.th/
+2. [verso-international-school] Verso International School Bangkok — https://www.verso.ac.th/
+3. [welearn-academy] Welearn Academy Bangkok — https://welearnthailand.com/
+4. [wellington-college-international-school] Wellington College International School Bangkok — https://www.wellingtoncollege.ac.th/
+5. [wells-international-school] Wells International School Bangkok — https://wells.ac.th/
+6. [xcl-american-school-of] Xcl American School Of Bangkok — https://www.asbsk.ac.th/en/home

@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in AED (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Dubai — Batch 7 of 18 (10 schools)
+CURRENCY: AED
+
+1. [durham-school] Durham School Dubai — https://durhamdubai.ae/
+2. [dwight-school] Dwight School Dubai — https://dwight.ae/
+3. [emirates-american-school] Emirates American School Dubai — https://emiratesamericanschool.com/
+4. [emirates-international-school-jumeirah] Emirates International School Jumeirah Dubai — https://eischools.ae/jumeirah
+5. [emirates-international-school-meadows] Emirates International School Meadows Dubai — https://eischools.ae/meadows
+6. [fairgreen-international-school] Fairgreen International School Dubai — https://www.fairgreen.ae/
+7. [gems-dubai-american-academy] Gems Dubai American Academy — https://www.gemsaa-dubai.com/
+8. [gems-firstpoint-school] Gems Firstpoint School Dubai — https://www.gemsfirstpointschool-dubai.com/en/
+9. [gems-founders-school] Gems Founders School Dubai — https://www.gemsfoundersschool-dubai.com/en/
+10. [gems-founders-school-al-mizhar] Gems Founders School Al Mizhar Dubai — https://www.gemsfoundersschool-mizhar.com/en/

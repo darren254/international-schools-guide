@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in THB (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Bangkok — Batch 1 of 10 (10 schools)
+CURRENCY: THB
+
+1. [ait-international-school] Ait International School Bangkok — http://www.aitis.ait.ac.th/
+2. [amnuay-silpa-school] Amnuay Silpa School Bangkok — https://www.amnuaysilpa.ac.th/
+3. [anglo-singapore-international-school] Anglo Singapore International School Bangkok — https://anglosingapore.ac.th/
+4. [ascot-international-school] Ascot International School Bangkok — https://ascot.ac.th/en/home/
+5. [aster-international-school] Aster International School Bangkok — https://aster.ac.th/
+6. [astra-academy-international-school] Astra Academy International School Bangkok — https://www.astra.ac.th/
+7. [australian-international-school-bangkok] Australian International School Bangkok — https://www.australianisb.ac.th/
+8. [bangkok-adventist-international-school] Bangkok Adventist International School — https://bais.ac.th/
+9. [bangkok-chicago-christian-international-school] Bangkok Chicago Christian International School — https://bcci.ac.th/
+10. [bangkok-christian-international-school] Bangkok Christian International School — https://www.bcis.ac.th/

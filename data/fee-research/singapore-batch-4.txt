@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in SGD (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Singapore — Batch 4 of 7 (10 schools)
+CURRENCY: SGD
+
+1. [le-petite-ecole] Le Petite Ecole Singapore — https://www.lpesingapore.com/en/
+2. [lodestar-montessori-school] Lodestar Montessori School Singapore — https://lodestarmontessori.com/
+3. [lotus-bridge-international-school] Lotus Bridge International School Singapore — https://www.lotusbridge.edu.sg/
+4. [melbourne-international-school] Melbourne International School Singapore — https://melis.edu.sg/
+5. [middleton-international-school] Middleton International School Singapore — https://www.middleton.edu.sg/
+6. [nexus-international-school-singapore] Nexus International School Singapore — https://www.nexus.edu.sg/
+7. [north-london-collegiate-school] North London Collegiate School Singapore — https://nlcssingapore.sg/
+8. [nps-international-school] Nps International School Singapore — https://www.npsinternational.com.sg/
+9. [one-world-international-school] One World International School Singapore — https://owis.org/sg/
+10. [overseas-family-school] Overseas Family School Singapore — https://www.ofs.edu.sg/

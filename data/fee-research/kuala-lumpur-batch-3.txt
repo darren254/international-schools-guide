@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in MYR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Kuala Lumpur — Batch 3 of 12 (10 schools)
+CURRENCY: MYR
+
+1. [cranbridge-international-school] Cranbridge International School Kuala Lumpur — https://www.cranbridge.edu.my/
+2. [dwi-emas-international-school] Dwi Emas International School Kuala Lumpur — https://dwiemas.edu.my/
+3. [eagles-grammar-international-school] Eagles Grammar International School Kuala Lumpur — https://egis.edu.my/
+4. [eaton-international-school] Eaton International School Kuala Lumpur — https://www.eaton.edu.my/
+5. [elc-international-school] Elc International School Kuala Lumpur — https://www.elc.edu.my/
+6. [epsom-college-in-malaysia] Epsom College In Malaysia Kuala Lumpur — https://www.epsomcollege.edu.my/
+7. [fairview-international-school] Fairview International School Kuala Lumpur — https://fairview.edu.my/our-campuses/location-kuala-lumpur/
+8. [fairview-international-school-subang-jaya] Fairview International School Subang Jaya Kuala Lumpur — https://fairview.edu.my/our-campuses/location-subang-jaya/
+9. [garden-international-school] Garden International School Kuala Lumpur — https://www.gardenschool.edu.my/
+10. [german-school] German School Kuala Lumpur — https://www.dskl.edu.my/en/

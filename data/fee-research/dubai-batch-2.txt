@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in AED (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Dubai — Batch 2 of 18 (10 schools)
+CURRENCY: AED
+
+1. [american-academy-for-girls] American Academy For Girls Dubai — https://www.americanacademy.ae/
+2. [american-gulf-school] American Gulf School Dubai — https://ags.ae/
+3. [american-international-school-dubai] American International School Dubai — https://aisch.ae/
+4. [american-school-of] American School Of Dubai — https://www.asdubai.org/
+5. [american-school-of-creative-science-maliha] American School Of Creative Science Maliha Dubai — https://ascs.sch.ae/sharjah-maliha/
+6. [amity-english-school] Amity English School Dubai — https://www.amityenglishschooldubai.com/
+7. [amity-private-school-sharjah] Amity Private School Sharjah Dubai — https://amitysharjah.com/
+8. [amity-school] Amity School Dubai — https://amityschooldubai.com/
+9. [arcadia-global-school] Arcadia Global School Dubai — https://arcadiaglobal.sch.ae/
+10. [arcadia-school] Arcadia School Dubai — https://arcadia.sch.ae/

@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in AED (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Dubai — Batch 4 of 18 (10 schools)
+CURRENCY: AED
+
+1. [citizens-school] Citizens School Dubai — https://citizens.me/
+2. [clarion-school] Clarion School Dubai — https://clarionschooldubai.com/
+3. [collegiate-international-school] Collegiate International School Dubai — https://www.collegiate.sch.ae/
+4. [credence-high-school] Credence High School Dubai — https://www.credencehighschool.com/
+5. [crown-american-private-school] Crown American Private School Dubai — https://crownamerican.ae/
+6. [dar-al-marefa-private-school] Dar Al Marefa Private School Dubai — https://www.daralmarefa.ae/
+7. [deira-international-school] Deira International School Dubai — https://www.disdubai.ae/
+8. [deira-private-school] Deira Private School Dubai — https://deiraprivateschool.ae/
+9. [deutsche-internationale-schule] Deutsche Internationale Schule Dubai — https://germanschool.ae/
+10. [dhruv-global-school] Dhruv Global School Dubai — https://dhruv.ae/

@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in MYR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Kuala Lumpur — Batch 7 of 12 (10 schools)
+CURRENCY: MYR
+
+1. [nobel-international-school] Nobel International School Kuala Lumpur — https://www.nobel.edu.my/
+2. [oakbridge-international-school] Oakbridge International School Kuala Lumpur — https://oakbridge.edu.my/
+3. [oasis-international-school] Oasis International School Kuala Lumpur — https://www.ois.edu.my/
+4. [orbix-international-school-klang] Orbix International School Klang Kuala Lumpur — https://www.orbix.edu.my/klang
+5. [peninsula-international-school-australia] Peninsula International School Australia Kuala Lumpur — https://peninsula.edu.my/
+6. [pine-hills-international-school] Pine Hills International School Kuala Lumpur — https://www.pinehillsschool.edu.my/
+7. [qosmo-international-school] Qosmo International School Kuala Lumpur — https://qosmoschools.edu.my/
+8. [r-e-a-l-international-school-cheras-campus] R E A L International School Cheras Campus Kuala Lumpur — https://realschools.edu.my/cheras-campus
+9. [r-e-a-l-international-school-shah-alam-campus] R E A L International School Shah Alam Campus Kuala Lumpur — https://realschools.edu.my/shah-alam-campus
+10. [rafflesia-international-school-puchong] Rafflesia International School Puchong Kuala Lumpur — https://www.ris.edu.my/rafflesia-international-school-puchong

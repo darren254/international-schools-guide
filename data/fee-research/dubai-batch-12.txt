@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in AED (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Dubai — Batch 12 of 18 (10 schools)
+CURRENCY: AED
+
+1. [newlands-school] Newlands School Dubai Sharjah Ajman — https://www.newlandsschool.ae/
+2. [next-generation-school] Next Generation School Dubai — https://nextgenerationschool.ae/
+3. [nibras-international-school] Nibras International School Dubai — https://www.nisdubai.ae/
+4. [nord-anglia-international-school-dubai] Nord Anglia International School Dubai — https://www.nordangliaeducation.com/nas-dubai
+5. [north-american-international-school] North American International School Dubai — https://naischool.com/
+6. [north-london-collegiate-school-dubai] North London Collegiate School Dubai — https://nlcsdubai.ae/
+7. [oaktree-primary-school] Oaktree Primary School Dubai — https://www.oaktreeprimary.com/
+8. [our-own-high-school] Our Own High School — https://www.gemsoo-alwarqa.com/
+9. [pace-british-school] Pace British School Dubai — https://pacebritish.com/
+10. [pace-modern-british-school] Pace Modern British School Dubai — https://pacembs.com/

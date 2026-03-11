@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in AED (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Dubai — Batch 10 of 18 (10 schools)
+CURRENCY: AED
+
+1. [hartland-international-school] Hartland International School Dubai — https://www.hartlandinternational.com/
+2. [horizon-english-school] Horizon English School Dubai — https://horizonschooldubai.com/
+3. [horizon-international-school] Horizon International School Dubai — https://hisdubai.ae/
+4. [ignite-school] Ignite School Dubai — https://igniteschool.ae/
+5. [impact-american-school] Impact American School Dubai — https://impactschool.ae/
+6. [international-concept-for-education] International Concept For Education Dubai — https://icedubai.org/
+7. [international-indian-school] International Indian School Dubai — https://iisajman.org/
+8. [international-school-of-creative-science-muwaileh] International School Of Creative Science Muwaileh Dubai — https://iscs.sch.ae/sharjah-muwaileh/
+9. [international-school-of-creative-science-nad-al-sheba] International School Of Creative Science Nad Al Sheba Dubai — https://iscs.sch.ae/dubai-nad-al-sheba/
+10. [jebel-ali-school] Jebel Ali School Dubai — https://jebelalischool.org/

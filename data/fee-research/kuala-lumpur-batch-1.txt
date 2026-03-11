@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in MYR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Kuala Lumpur — Batch 1 of 12 (10 schools)
+CURRENCY: MYR
+
+1. [abedeen-international-school] Abedeen International School Kuala Lumpur — https://abedeen.edu.my/international-school/
+2. [ace-edventure-biosphere-academy] Ace Edventure Biosphere Academy Kuala Lumpur — https://dwiemas.edu.my/ace-edventure-biosphere/
+3. [acmar-international-school] Acmar International School Kuala Lumpur — https://acmarschools.com.my/
+4. [adcote-matrix-international-school] Adcote Matrix International School Kuala Lumpur — https://matrixschools.edu.my/learning/curriculum/
+5. [arrows-international-school] Arrows International School Kuala Lumpur — https://www.arrows.my/
+6. [asia-pacific-international-school] Asia Pacific International School Kuala Lumpur — https://www.apschools.edu.my/
+7. [aspiration-international-school] Aspiration International School Kuala Lumpur — https://www.aspirationis.edu.my/
+8. [australian-international-school-malaysia] Australian International School Malaysia Kuala Lumpur — https://aism.edu.my/
+9. [axcel-international-school] Axcel International School Kuala Lumpur — https://axcel.edu.my/
+10. [baseerah-international-school] Baseerah International School Kuala Lumpur — https://baseerah.edu.my/

@@ -1,0 +1,163 @@
+[bangkok-grace-international-school] FEES NOT AVAILABLE
+[bangkok-grace-international-school] SOURCE: https://www.grace.ac.th/bgis-10/
+
+[bangkok-international-preparatory-secondary-school] ANNUAL FEES:
+- Pre-Nursery (Half Day): 295,000
+- Pre-Nursery (Full Day): 370,000
+- Nursery: 575,930
+- Reception: 609,000
+- Year 1 - 2: 682,500
+- Year 3 - 4: 703,500
+- Year 5 - 6: 719,250
+- Year 7 - 9: 756,000
+- Year 10 - 11: 808,500
+- Year 12: 821,100
+- Year 13: 714,000
+[bangkok-international-preparatory-secondary-school] ONE-TIME FEES:
+- Assessment Fee: 5,000
+- Placement Fee: 30,000
+- Security Deposit: 60,000
+- Registration Fee (Early Years - Pre-Nursery, Nursery, Reception): 120,000
+- Registration Fee (Year 1 - Year 6): 160,000
+- Registration Fee (Year 7 - Year 12): 110,000
+[bangkok-international-preparatory-secondary-school] SOURCE: https://www.bangkokprep.ac.th/wp-content/uploads/School-Fee-Updated-2026-1.pdf
+[bangkok-international-preparatory-secondary-school] YEAR: 2025-2026
+
+[bangkok-patana-school] ANNUAL FEES:
+- Nursery: 495,000
+- Foundation Stage 1: 555,000
+- Foundation Stage 2: 615,000
+- Year 1 - Year 2: 720,000
+- Year 3: 760,000
+- Year 4 - Year 5: 765,000
+- Year 6: 780,000
+- Year 7 - Year 9: 810,000
+- Year 10: 920,000
+- Year 11: 680,000
+- Year 12: 975,000
+- Year 13: 720,000
+[bangkok-patana-school] ONE-TIME FEES:
+- Application Fee: 4,000
+- Entrance Fee (First Child): 250,000
+- Entrance Fee (Second and Subsequent Children): 200,000
+- Deposit: 50,000
+[bangkok-patana-school] SOURCE: https://www.patana.ac.th/admissions/tuition-and-fees/
+[bangkok-patana-school] YEAR: 2025-2026
+
+[basis-international-school] ANNUAL FEES:
+- Nursery: 545,000
+- PreK 1-2: 630,000
+- Kinder: 650,000
+- Grades 1-3: 775,000
+- Grades 4-5: 782,500
+- Grades 6-8: 898,000
+- Grades 9-12: 998,000
+[basis-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- Registration Fee: 250,000
+- Security Deposit: 100,000
+- Campus Development Fee (annual): 22,000
+[basis-international-school] SOURCE: https://basis.ac.th/admissions/tuitions-fees/
+[basis-international-school] YEAR: 2025-2026
+
+[beaconhouse-yamsaard-international-school] ANNUAL FEES:
+- Nursery: 219,392
+- Kindergarten 1: 225,757
+- Kindergarten 2: 225,548
+- Year 1: 232,092
+- Year 2: 232,265
+- Year 3: 239,004
+- Year 4: 237,861
+- Year 5: 237,861
+- Year 6: 237,861
+- Year 7: 255,614
+[beaconhouse-yamsaard-international-school] ONE-TIME FEES:
+- Application Fee: 2,500
+- Assessment Fee: 1,500
+- Registration Fee: 50,000
+[beaconhouse-yamsaard-international-school] SOURCE: https://bys.ac.th/byis/en/fees/
+[beaconhouse-yamsaard-international-school] YEAR: 2025-2026
+
+[berkeley-international-school] ANNUAL FEES:
+- Pre K: 519,200
+- K1: 545,300
+- K2-K3: 623,550
+- Grade 1-5: 685,350
+- Grade 6-8: 748,500
+- Grade 9-11: 839,200
+- Grade 12: 806,900
+[berkeley-international-school] ONE-TIME FEES:
+- Application Fee: 3,000
+- Registration Fee: 200,000
+- Book Deposit Fee: 30,000
+- Testing Fee: 1,000
+[berkeley-international-school] SOURCE: https://www.berkeley.ac.th/tuition-and-fees/
+[berkeley-international-school] YEAR: 2025-2026
+
+[brighton-college] ANNUAL FEES:
+- Pre-Nursery: 590,300
+- Nursery: 669,500
+- Reception: 711,000
+- Year 1: 823,500
+- Year 2: 823,500
+- Year 3: 854,500
+- Year 4: 854,500
+- Year 5: 894,700
+- Year 6: 894,700
+- Year 7: 901,300
+- Year 8: 920,100
+- Year 9: 920,100
+- Year 10: 988,900
+- Year 11: 988,900
+- Year 12: 1,021,800
+- Year 13: 1,021,800
+[brighton-college] ONE-TIME FEES:
+- Application Fee: 5,000
+- Admission Fee: 200,000
+- Security Deposit (refundable): 150,000
+[brighton-college] SOURCE: https://brightoncollege.ac.th/krungthep-kreetha/prep/join/fees1
+[brighton-college] YEAR: 2025-2026
+
+[brighton-college-bangkok-vibhavadi] ANNUAL FEES:
+- Pre-Nursery: 590,300
+- Nursery: 669,500
+- Reception: 711,000
+- Year 1: 823,500
+- Year 2: 823,500
+- Year 3: 854,500
+- Year 4: 854,500
+- Year 5: 894,700
+- Year 6: 894,700
+- Year 7: 901,300
+- Year 8: 920,100
+- Year 9: 920,100
+- Year 10: 988,900
+- Year 11: 988,900
+- Year 12: 1,021,800
+- Year 13: 1,021,800
+[brighton-college-bangkok-vibhavadi] ONE-TIME FEES:
+- Application Fee: 5,000
+- Admission Fee: 200,000
+- Security Deposit (refundable): 150,000
+[brighton-college-bangkok-vibhavadi] SOURCE: https://brightoncollege.ac.th/vibhavadi/prep/join/fees
+[brighton-college-bangkok-vibhavadi] YEAR: 2025-2026
+
+[british-columbia-international-school] ANNUAL FEES:
+- K.1 - K.3: 387,000
+- G.1 - G.3: 403,000
+- G.4: 463,000
+- G.5: 479,000
+- G.6: 479,000
+- G.7 - G.8: 500,000
+- G.9: 507,000
+- G.10 - G.12: 570,000
+[british-columbia-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- Registration Fee: 130,000
+- Damage Deposit (refundable): 50,000
+- Embroidery Bedset (K1/K2, compulsory): 2,500
+[british-columbia-international-school] SOURCE: https://www.bcisb.ac.th/tuition-fees/
+[british-columbia-international-school] YEAR: 2024-2025
+
+[british-mandarin-international-school] FEES NOT AVAILABLE
+[british-mandarin-international-school] SOURCE: https://bmis.ac.th/

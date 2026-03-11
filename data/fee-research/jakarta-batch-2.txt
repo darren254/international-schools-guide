@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in IDR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Jakarta — Batch 2 of 7 (10 schools)
+CURRENCY: IDR
+
+1. [british-school-jakarta] British School Jakarta — https://www.bsj.sch.id
+2. [btb-school] BTB School — https://www.btbschool.sch.id
+3. [bunda-mulia-school] Bunda Mulia School — https://bundamulia.sch.id
+4. [cikal-school] Cikal School — https://www.cikal.sch.id
+5. [cita-buana-school] Cita Buana School — https://citabuana.sch.id
+6. [deutsche-internationale-schule-jakarta] Deutsche Internationale Schule Jakarta — https://www.germanschooljakarta.id
+7. [el-shaddai-intercontinental-school] El Shaddai Intercontinental School — https://elshaddaischool.com/
+8. [french-school-jakarta] French School Jakarta — https://frenchschooljakarta.com
+9. [gandhi-memorial-international-school] Gandhi Memorial International School — https://www.gandhijkt.org
+10. [global-jaya-school] Global Jaya School — https://www.globaljaya.com

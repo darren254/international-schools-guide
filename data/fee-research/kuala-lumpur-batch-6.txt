@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in MYR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Kuala Lumpur — Batch 6 of 12 (10 schools)
+CURRENCY: MYR
+
+1. [mahsa-international-school] Mahsa International School Kuala Lumpur — https://www.miskl.edu.my/
+2. [maple-leaf-kingsley-international-school] Maple Leaf Kingsley International School Kuala Lumpur — https://www.kingsley.edu.my/kis/
+3. [maverick-international-primary-school] Maverick International Primary School Kuala Lumpur — https://www.maverick.edu.my/Primary/index.php
+4. [maverick-international-secondary-school] Maverick International Secondary School Kuala Lumpur — https://www.maverick.edu.my/Secondary/index.php
+5. [maz-international-school] Maz International School Kuala Lumpur — https://mazinternational.edu.my/
+6. [mindrich-international-secondary-school] Mindrich International Secondary School Kuala Lumpur — https://www.mindrich.edu.my/
+7. [mitstem-international-school] Mitstem International School Kuala Lumpur — https://mitstem.edu.my/
+8. [mutiara-international-grammar-school] Mutiara International Grammar School Kuala Lumpur — https://migs.edu.my/
+9. [nexus-international-school] Nexus International School Kuala Lumpur — https://www.nexus.edu.my/
+10. [nilai-international-school] Nilai International School Kuala Lumpur — https://www.nis.edu.my/

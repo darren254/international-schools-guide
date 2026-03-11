@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in MYR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Kuala Lumpur — Batch 11 of 12 (10 schools)
+CURRENCY: MYR
+
+1. [the-international-school-of] The International School Of Kuala Lumpur — https://www.iskl.edu.my/
+2. [tls-international-school] Tls International School Kuala Lumpur — https://tlsinternational.edu.my/
+3. [tree-top-international-school] Tree Top International School Kuala Lumpur — https://treetop.edu.my/
+4. [ucsi-international-school] Ucsi International School Kuala Lumpur — https://www.ucsiinternationalschool.edu.my/kl/
+5. [ucsi-international-school-springhill] Ucsi International School Springhill Kuala Lumpur — https://www.ucsiinternationalschool.edu.my/sh/
+6. [ucsi-international-school-subang-jaya] Ucsi International School Subang Jaya Kuala Lumpur — https://www.ucsiinternationalschool.edu.my/sj/
+7. [utama-international-school] Utama International School Kuala Lumpur — https://utama.edu.my/
+8. [valley-international-school] Valley International School Kuala Lumpur — https://www.valley.edu.my/
+9. [victoria-international-school] Victoria International School Kuala Lumpur — https://victoria.edu.my/
+10. [vikas-international-school] Vikas International School Kuala Lumpur — https://vikas.edu.my/

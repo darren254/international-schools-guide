@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in SGD (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Singapore — Batch 3 of 7 (10 schools)
+CURRENCY: SGD
+
+1. [hwa-chong-international-school] Hwa Chong International School Singapore — https://www.hcis.edu.sg/
+2. [hwa-international-school] Hwa International School Singapore — https://www.hwa.edu.sg/
+3. [insworld-institute] Insworld Institute Singapore — https://insworld.edu.sg/
+4. [integrated-international-school] Integrated International School Singapore — https://iis.edu.sg/
+5. [international-community-school-singapore] International Community School Singapore — https://www.ics.edu.sg/
+6. [international-french-school] International French School Singapore — https://www.ifs.edu.sg/
+7. [invictus-international-school] Invictus International School Singapore — https://www.invictus.edu.sg/
+8. [iss-international-school] ISS International School Singapore — https://www.iss.edu.sg/
+9. [kindle-kids-international-school] Kindle Kids International School Singapore — https://kindlekids.sg/
+10. [knightsbridge-house-international-school] Knightsbridge House International School Singapore — https://www.kbh.edu.sg/

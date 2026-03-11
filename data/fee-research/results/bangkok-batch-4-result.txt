@@ -1,0 +1,159 @@
+[ekamai-international-school] ANNUAL FEES:
+- Pre-K to K2: 120,000
+- K3: 120,000
+- G1: 120,000
+- G2: 120,000
+- G3: 120,000
+- G4-G7: 120,000
+- G8: 120,000
+- G9: 130,000
+- G10: 130,000
+- G11: 130,000
+- G12: 130,000
+[ekamai-international-school] ONE-TIME FEES:
+- Admission Fee: 3,500
+- Registration Fee: 150,000
+- Development Fund (100% refundable): 100,000
+- Book Deposit (70% refundable): 30,000
+[ekamai-international-school] SOURCE: https://www.eis.ac.th/financial-information/
+[ekamai-international-school] YEAR: 2025-2026
+
+[elc-family-of-international-schools] FEES NOT AVAILABLE
+[elc-family-of-international-schools] SOURCE: https://www.elc.ac.th/
+
+[future-steps-international-school] ANNUAL FEES:
+- Pre-Nursery (3 days): 215,000
+- Pre-Nursery (4 days): 268,500
+- Pre-Nursery (5 days): 316,000
+- Nursery (3 days): 241,000
+- Nursery (4 days): 302,000
+- Nursery (5 days): 356,000
+- K1 (FS2): 376,000
+- K2 (FS3): 416,000
+- Year 1: 456,000
+- Year 2: 466,000
+- Year 3: 486,000
+- Year 4: 486,000
+- Year 5: 530,000
+- Year 6: 530,000
+[future-steps-international-school] ONE-TIME FEES:
+- Registration Fee (1st child): 60,000
+- Registration Fee (2nd & subsequent child): 30,000
+- Taster Day Fee: 2,000
+[future-steps-international-school] SOURCE: https://www.fsb.ac.th/en/admissions/school-fees
+[future-steps-international-school] YEAR: 2025-2026
+
+[garden-international-school-bangkok] ANNUAL FEES:
+- Pre-Nursery (5 half days/week): 142,500
+- Pre-Nursery (5 full days/week): 260,100
+- Nursery: 324,900
+- Reception: 395,400
+- Year 1 to 6: 431,100
+- Year 7 to 9: 502,500
+- Year 10 (IGCSE): 505,500
+- Year 11 (IGCSE): 504,600
+- Year 12 and 13 (A-level): 514,000
+[garden-international-school-bangkok] ONE-TIME FEES:
+- Application Fee: 5,000
+- Enrolment Fee (Foundation Stage): 60,000
+- Enrolment Fee (Primary and Secondary): 120,000
+- Refundable Deposit: 40,000
+[garden-international-school-bangkok] SOURCE: https://gardenbangkok.com/join-our-community/fees/
+[garden-international-school-bangkok] YEAR: 2025-2026
+
+[glory-singapore-international-school] ANNUAL FEES:
+- Nursery 1-2: 198,000
+- Kindergarten 1-2: 213,000
+- Primary 1-3: 228,000
+- Primary 4-6: 243,000
+- Grade 7 - Grade 9: 258,000
+- Grade 10 - Grade 12: 273,000
+[glory-singapore-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- School Development Fee: 70,000
+[glory-singapore-international-school] SOURCE: https://glorysingapore.com/admission/admission-how-to/
+[glory-singapore-international-school] YEAR: 2025-2026
+
+[harrows-international-school] ANNUAL FEES:
+- Lion Cubs Parent Toddler (2 sessions/week): 136,800
+- Lion Cubs Toddler Only Half Day (3 sessions/week): 256,500
+- Lion Cubs Toddler Only Full Day (3 sessions/week): 302,100
+- Pre Nursery Half Day: 553,100
+- Pre Nursery Full Day: 614,600
+- Nursery Half Day: 646,100
+- Nursery Full Day: 717,900
+- Reception: 737,300
+- Year 1 - Year 5: 852,600
+- Year 6 - Year 8: 933,900
+- Year 9 - Year 11: 1,012,200
+- Year 12 - Year 13: 1,037,100
+[harrows-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- Admission Fee: 225,000
+- Deposit (Day Student): 200,000
+- Deposit (Boarding Student): 275,000
+[harrows-international-school] SOURCE: https://www.harrowschool.ac.th/admissions/tuition-fees
+[harrows-international-school] YEAR: 2025-2026
+
+[heathfield-international-school] ANNUAL FEES:
+- Pre-Nursery: 258,300
+- Nursery & Reception: 314,800
+- Year 1 & 2: 351,500
+- Year 3 & 4: 375,500
+- Year 5 & 6: 412,300
+- Year 7 to 9: 437,200
+- Year 10: 452,800
+- Year 11: 452,800
+- Year 12 & 13: 511,700
+[heathfield-international-school] ONE-TIME FEES:
+- Application Fee (Year 1-13): 2,500
+- Enrolment Fee: 100,000
+- Security Deposit (refundable): 100,000
+[heathfield-international-school] SOURCE: https://heathfield.ac.th/school-fee-academic-year-2024-2025/
+[heathfield-international-school] YEAR: 2025-2026
+
+[international-christian-school-nonthaburi] ANNUAL FEES:
+- Nursery: 230,000
+- Kindergarten 1-3: 434,000
+- Grade 1-2: 471,000
+- Grade 3-5: 472,200
+- Grade 6: 479,800
+- Grade 7-9: 502,000
+- Grade 10-12: 555,500
+[international-christian-school-nonthaburi] ONE-TIME FEES:
+- Nursery Registration Fee: 15,000
+- Nursery Resource Fee: 5,000
+- K1-G12 Application Fee: 4,000
+- K1-G12 Registration Fee: 150,000
+- K1-K3 School Development Fee: 40,000
+- G1-G5 School Development Fee: 60,000
+- G6-G12 School Development Fee: 70,000
+- Reservation Fee (refundable): 20,000
+[international-christian-school-nonthaburi] SOURCE: https://icsn.ac.th/admissions/tuition-fees/
+[international-christian-school-nonthaburi] YEAR: 2025-2026
+
+[international-community-school] ANNUAL FEES:
+- K4 - Grade 5: 525,000
+- Grade 6 - Grade 8: 566,400
+- Grade 9 - Grade 12: 621,800
+[international-community-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- Registration Fee: 200,000
+- Annual Capital Fee: 30,000
+[international-community-school] SOURCE: https://www.ics.ac.th/s/Tuition-and-Fees-Schedule-SY25-26.pdf
+[international-community-school] YEAR: 2025-2026
+
+[international-pioneers-school] ANNUAL FEES:
+- K1, K2, Y1: 184,000
+- Y2, Y3, Y4: 202,000
+- Y5, Y6: 220,000
+- Y7, Y8, Y9: 260,000
+- Y10, Y11: 262,500
+- Y12 & Y13: 295,000
+[international-pioneers-school] ONE-TIME FEES:
+- Registration Fee: 70,000
+- Development Fee: 15,000
+- Placement Test Fee: 1,000
+- Application Form (K1): 700
+[international-pioneers-school] SOURCE: https://ips.ac.th/fees-structure-krungthonburi-campus/
+[international-pioneers-school] YEAR: 2025-2026

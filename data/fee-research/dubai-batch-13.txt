@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in AED (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Dubai — Batch 13 of 18 (10 schools)
+CURRENCY: AED
+
+1. [pace-springfield-international-school] Pace Springfield International School Dubai — https://pacespringfield.com/
+2. [philadelphia-private-school] Philadelphia Private School Dubai — https://ppsdubai.org/
+3. [pristine-private-school] Pristine Private School Dubai — https://pristineschool.com/
+4. [providence-english-private-school] Providence English Private School Dubai — https://www.peps.ae/
+5. [queen-elizabeth-s-school-dubai-sports-city] Queen Elizabeth S School Dubai Sports City — https://www.qedubaisportscity.com/
+6. [queen-international-school] Queen International School Dubai — http://www.qisdubai.com/
+7. [raffles-international-schools] Raffles International Schools Dubai — https://www.rafflesis.com/
+8. [raffles-world-academy] Raffles World Academy Dubai — https://www.rwadubai.com/
+9. [ranches-primary-school] Ranches Primary School Dubai — https://www.rpsdubai.com/
+10. [rashid-and-latifa-school] Rashid And Latifa School Dubai — https://rls.sch.ae/

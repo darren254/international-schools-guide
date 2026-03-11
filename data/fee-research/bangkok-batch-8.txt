@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in THB (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Bangkok — Batch 8 of 10 (10 schools)
+CURRENCY: THB
+
+1. [ruamrudee-international-school] Ruamrudee International School Bangkok — https://www.rism.ac.th/
+2. [sarasas-ektra-school] Sarasas Ektra School Bangkok — https://www.ektra.ac.th/indexEn.html
+3. [satit-bilingual-school-of-rangsit-university] Satit Bilingual School Of Rangsit University Bangkok — https://sbs.ac.th/
+4. [satit-pattana-secondary-school] Satit Pattana Secondary School Bangkok — https://lsp.ac.th/
+5. [sequoia-nova-international-primary-school] Sequoia Nova International Primary School Bangkok — https://sequoia-nova.com/about-sequoia-nova/
+6. [shrewsbury-international-school] Shrewsbury International School Bangkok — https://www.shrewsbury.ac.th/
+7. [siam-international-school] Siam International School Bangkok — https://siamis.ac.th/
+8. [siam-singapore-international-school] Siam Singapore International School Bangkok — https://www.siamsingapore.com/
+9. [singapore-international-school-of] Singapore International School Of Bangkok — https://sisb.ac.th/
+10. [st-andrews-international-school] St Andrews International School Bangkok — https://www.nordangliaeducation.com/sta-bangkok

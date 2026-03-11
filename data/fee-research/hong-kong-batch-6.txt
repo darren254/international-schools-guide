@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in HKD (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Hong Kong — Batch 6 of 8 (10 schools)
+CURRENCY: HKD
+
+1. [lantau-international-school] Lantau International School Hong Kong — https://www.lis.edu.hk/
+2. [li-po-chun-united-world-college-of] Li Po Chun United World College Of Hong Kong — https://www.lpcuwc.edu.hk/
+3. [malvern-college] Malvern College Hong Kong — https://www.malverncollege.org.hk/
+4. [nord-anglia-international-school] Nord Anglia International School Hong Kong — https://www.nordangliaeducation.com/nais-hong-kong/campaign-ppc-1
+5. [norwegian-international-school] Norwegian International School Hong Kong — https://nis.edu.hk/
+6. [oxbridge-school] Oxbridge School Hong Kong — https://www.oxbridgeschool.hk/
+7. [peak-school] Peak School Hong Kong — https://ps.esf.edu.hk/en/
+8. [po-leung-kuk-choi-kai-yau-school] Po Leung Kuk Choi Kai Yau School Hong Kong — http://cky.edu.hk/
+9. [quarry-bay-school] Quarry Bay School Hong Kong — https://qbs.esf.edu.hk/en/
+10. [renaissance-college] Renaissance College Hong Kong — https://rchk.esf.edu.hk/en/

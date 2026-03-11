@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in THB (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Bangkok — Batch 4 of 10 (10 schools)
+CURRENCY: THB
+
+1. [ekamai-international-school] Ekamai International School Bangkok — https://www.eis.ac.th/
+2. [elc-family-of-international-schools] Elc Family Of International Schools Bangkok — https://www.elc.ac.th/
+3. [future-steps-international-school] Future Steps International School Bangkok — https://www.fsb.ac.th/
+4. [garden-international-school-bangkok] Garden International School Bangkok — https://gardenbangkok.com/
+5. [glory-singapore-international-school] Glory Singapore International School Bangkok — https://glorysingapore.com/
+6. [harrows-international-school] Harrow International School Bangkok — https://www.harrowschool.ac.th/
+7. [heathfield-international-school] Heathfield International School Bangkok — https://heathfield.ac.th/
+8. [international-christian-school-nonthaburi] International Christian School Nonthaburi Bangkok — https://icsn.ac.th/
+9. [international-community-school] International Community School Bangkok — https://www.ics.ac.th/
+10. [international-pioneers-school] International Pioneers School Bangkok — https://ips.ac.th/

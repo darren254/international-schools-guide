@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in THB (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Bangkok — Batch 7 of 10 (10 schools)
+CURRENCY: THB
+
+1. [pensmith-school] Pensmith School Bangkok — https://pensmithschool.com/
+2. [raffles-american-school] Raffles American School Bangkok — https://ras.ac.th/
+3. [ramkhamhaeng-advent-international-school] Ramkhamhaeng Advent International School Bangkok — https://www.rais.ac.th/
+4. [rbis-international-school] Rbis International School Bangkok — https://rbis.ac.th/
+5. [rc-international-school] Rc International School Bangkok — https://www.rcis.ac.th/
+6. [ris-swiss-section-deutschsprachige-schule] Ris Swiss Section Deutschsprachige Schule Bangkok — https://ris-swiss-section.org/
+7. [rising-oaks-international-school] Rising Oaks International School Bangkok — https://roisb.ac.th/
+8. [roong-aroon-international-school] Roong Aroon International School Bangkok — https://www.roongaroonis.ac.th/
+9. [rose-marie-academy] Rose Marie Academy Bangkok — https://rose-marie.ac.th/
+10. [royce-royal-international-school] Royce Royal International School Bangkok — https://www.royceroyal.ac.th/

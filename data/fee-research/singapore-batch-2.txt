@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in SGD (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Singapore — Batch 2 of 7 (10 schools)
+CURRENCY: SGD
+
+1. [dps-international-school] Dps International School Singapore — https://dps.edu.sg/
+2. [dulwich-college] Dulwich College Singapore — https://singapore.dulwich.org/
+3. [dynamics-international-school] Dynamics International School Singapore — https://dynamics.edu.sg/
+4. [etonhouse-international-school-broadrick] Etonhouse International School Broadrick Singapore — https://www.etonhouse.edu.sg/school/broadrick/
+5. [etonhouse-international-school-orchard] Etonhouse International School Orchard Singapore — https://www.etonhouse.edu.sg/school/orchard/
+6. [furen-international-school] Furen International School Singapore — https://www.fis.edu.sg/
+7. [gess] Gess Singapore — https://www.gess.edu.sg/en/
+8. [gig-international-school] Gig International School Singapore — https://gigis.edu.sg/home/
+9. [heritage-academy] Heritage Academy Singapore — https://www.heritageacademy.edu.sg/
+10. [holland-international-school] Holland International School Singapore — https://www.hollandinternationalschool.sg/en

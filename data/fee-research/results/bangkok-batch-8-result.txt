@@ -1,0 +1,160 @@
+[ruamrudee-international-school] ANNUAL FEES:
+- Pre-K 2-4: 538,400
+- KG: 544,400
+- Grade 1: 718,400
+- Grades 2-5: 686,000
+- Grades 6-8: 716,000
+- Grades 9-12: 786,000
+[ruamrudee-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- Registration Fee: 200,000
+- Learning Resources Fee: 40,000
+- Re-Enrollment Deposit: 50,000
+[ruamrudee-international-school] SOURCE: https://www.rism.ac.th/admissions/tuition-fees/
+[ruamrudee-international-school] YEAR: 2025-2026
+
+[sarasas-ektra-school] ANNUAL FEES:
+- Nursery (NC): 67,000
+- Kindergarten 1 (KG.1): 85,000
+- Kindergarten 2 - Year 1: 94,000
+- Year 2 - Year 4: 114,000
+- Year 5 - Year 6: 115,000
+- Year 7 - Year 9: 118,200
+- Year 10 Bilingual (Science-Math): 95,200
+- Year 10 Extra Class (Language): 120,200
+- Year 10 GAC: 151,200
+[sarasas-ektra-school] ONE-TIME FEES:
+- Application Fee: 600
+- New Student Registration Fee: 1,000
+- School Development Fee: 20,000
+[sarasas-ektra-school] SOURCE: https://www.doris.school/schools/thailand/sarasas-ektra-school/essentials
+[sarasas-ektra-school] YEAR: 2025-2026
+
+[satit-bilingual-school-of-rangsit-university] ANNUAL FEES:
+- Toddler - Kindergarten 3: 218,000
+- P1: 252,800
+- P2-P3: 261,800
+- P4-P5: 290,200
+- P6: 279,800
+- M1-M3: 307,000
+- M4-M6: 332,800
+[satit-bilingual-school-of-rangsit-university] ONE-TIME FEES:
+- Admission Fee: 85,000
+- Student Deposit: 50,000
+- Security Deposit: 5,000
+[satit-bilingual-school-of-rangsit-university] SOURCE: https://sbs.ac.th/admissions/
+[satit-bilingual-school-of-rangsit-university] YEAR: 2025-2026
+
+[satit-pattana-secondary-school] ANNUAL FEES:
+Signature Program:
+- Grade 7 (M.1): 332,000
+- Grade 8 (M.2): 339,000
+- Grade 9 (M.3): 345,000
+- Grade 10 (M.4): 347,000
+- Grade 11 (M.5): 352,000
+- Grade 12 (M.6): 357,000
+Inter-Experience Signature Program:
+- Grade 7 (M.1): 408,000
+- Grade 8 (M.2): 417,000
+- Grade 9 (M.3): 423,000
+- Grade 10 (M.4): 481,000
+- Grade 11 (M.5): 485,000
+- Grade 12 (M.6): 489,000
+[satit-pattana-secondary-school] ONE-TIME FEES:
+- Application Fee: 1,000
+- Entrance Fee: 50,000
+[satit-pattana-secondary-school] SOURCE: https://lsp.ac.th/school-fees/
+[satit-pattana-secondary-school] YEAR: 2026
+
+[sequoia-nova-international-primary-school] ANNUAL FEES:
+- Primary (Ages 6-11): 280,000
+[sequoia-nova-international-primary-school] ONE-TIME FEES:
+- Enrolment Fee: 60,000
+- Stationery Fee: 5,000
+[sequoia-nova-international-primary-school] SOURCE: https://sequoia-nova.com/wp-content/uploads/2025/06/Sequoia-nova-Plans-Fees-2025-2026.pdf
+[sequoia-nova-international-primary-school] YEAR: 2025-2026
+
+[shrewsbury-international-school] ANNUAL FEES:
+- Nursery (City Campus Only): 669,600
+- EY1: 691,800
+- EY2: 728,700
+- Years 1-2: 818,700
+- Years 3-4: 878,100
+- Years 5-6: 908,400
+- Years 7-9: 939,300
+- Year 10: 1,203,900
+- Year 11: 802,600
+- Year 12: 1,208,400
+- Year 13: 805,600
+[shrewsbury-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- Guaranteed Place Fee: 225,000
+- Refundable Deposit: 225,000
+[shrewsbury-international-school] SOURCE: https://www.shrewsbury.ac.th/admissions/fees/overview/
+[shrewsbury-international-school] YEAR: 2025-2026
+
+[siam-international-school] ANNUAL FEES:
+- Nursery: 291,000
+- KG 1-2: 291,000
+- Year 1-6: 369,000
+- Year 7-9: 450,000
+- Year 10-11: 480,000
+- Year 12-13: 550,000
+[siam-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- Enrollment Fee: 150,000
+- Visa Assistance: 5,000
+[siam-international-school] SOURCE: https://siamis.ac.th/admissions/school-fees/
+[siam-international-school] YEAR: 2025-2026
+
+[siam-singapore-international-school] FEES NOT AVAILABLE
+
+[singapore-international-school-of] ANNUAL FEES:
+- Nursery 1: 401,700
+- Nursery 2: 401,700
+- Kindergarten 1: 429,600
+- Kindergarten 2: 429,600
+- Primary 1: 470,700
+- Primary 2: 470,700
+- Primary 3: 512,400
+- Primary 4: 512,400
+- Primary 5: 567,300
+- Primary 6: 567,300
+- Grade 7: 609,300
+- Grade 8: 609,300
+- Grade 9: 650,700
+- Grade 10: 650,700
+- Grade 11: 789,300
+- Grade 12: 789,300
+[singapore-international-school-of] ONE-TIME FEES:
+- Application Fee: 5,000
+- Assessment Fee: 5,000
+- Enrolment Fee: 220,000
+- Deposit (Refundable): 50,000
+[singapore-international-school-of] SOURCE: https://sisb.ac.th/admissions/tuition-fee/pracha-uthit-campus/
+[singapore-international-school-of] YEAR: 2025-2026
+
+[st-andrews-international-school] ANNUAL FEES:
+- Foundation Stage 1: 400,700
+- Foundation Stage 2: 607,200
+- Foundation Stage 3: 636,200
+- Year 1: 636,200
+- Year 2: 636,200
+- Year 3: 662,700
+- Year 4: 662,700
+- Year 5: 662,700
+- Year 6: 662,700
+- Year 7: 735,700
+- Year 8: 735,700
+- Year 9: 735,700
+- Year 10: 800,400
+- Year 11: 710,300
+- Year 12: 849,100
+- Year 13: 745,100
+[st-andrews-international-school] ONE-TIME FEES:
+- Application Fee: 6,500
+- Enrolment Fee (Year 1 - Year 6): 160,000
+- Enrolment Fee (Year 7 - Year 13): 90,000
+- Reservation Fee (Foundation Stage Only): 50,000
+[st-andrews-international-school] SOURCE: https://www.nordangliaeducation.com/sta-bangkok
+[st-andrews-international-school] YEAR: 2025-2026

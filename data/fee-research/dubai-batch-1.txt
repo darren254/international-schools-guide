@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in AED (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Dubai — Batch 1 of 18 (10 schools)
+CURRENCY: AED
+
+1. [ajman-academy] Ajman Academy Dubai — https://www.ajmanacademy.com/
+2. [ajman-american-private-school] Ajman American Private School Dubai — https://ajmanamericanschool.com/
+3. [al-diyafah-high-school] Al Diyafah High School Dubai — https://www.diyafah.com/
+4. [al-ittihad-private-school-jumeira] Al Ittihad Private School Jumeira Dubai — https://arabian-edu.com/jumeirah
+5. [al-khaleej-international-school] Al Khaleej International School Dubai — https://www.gemsakinternationalschool.com/en
+6. [al-mawakeb-school] Al Mawakeb School Dubai — https://almawakeb.sch.ae/
+7. [al-salam-community-school] Al Salam Community School Dubai — https://www.alsalamcommunity.ae/
+8. [al-salam-private-school] Al Salam Private School Dubai — https://www.alsalamschool.ae/
+9. [ambassador-international-academy] Ambassador International Academy Dubai — https://aiadubai.com/
+10. [ambassador-international-academy-mankhool] Ambassador International Academy Mankhool Dubai — https://www.aiamankhool.com/

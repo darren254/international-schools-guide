@@ -1,0 +1,175 @@
+[ait-international-school] ANNUAL FEES:
+- Nursery: 122,500
+- Pre-K1: 122,500
+- Pre-K2: 122,500
+- Kindergarten: 146,500
+- G1: 146,500
+- G2: 146,500
+- G3: 146,500
+- G4: 146,500
+- G5: 146,500
+- G6: 146,500
+[ait-international-school] ONE-TIME FEES:
+- Application Fee (non-AIT families): 5,000
+- School and Campus Development Fund (annual, non-AIT families): 10,000
+- PTA Fee (annual): 1,000
+- Technology Fee (annual): 5,000
+[ait-international-school] SOURCE: https://www.aitis.ait.ac.th/admissions/fees-and-payment/
+[ait-international-school] YEAR: 2025-2026
+
+[amnuay-silpa-school] ANNUAL FEES:
+International Bilingual Programme:
+- Nursery: 476,300
+- Reception: 485,500
+- Year 1: 488,250
+- Year 2: 492,000
+- Year 3: 492,000
+- Year 4: 492,000
+- Year 5: 496,000
+- Year 6: 496,000
+- Year 7: 503,800
+- Year 8: 509,800
+- Year 9: 513,800
+- Year 10: 513,800
+- Year 11: 513,800
+- Year 12: 516,800
+- Year 13: 516,800
+International Programme:
+- Year 7: 566,800
+- Year 8: 581,800
+- Year 9: 591,800
+- Year 10: 591,800
+- Year 11: 609,165
+- Year 12: 626,800
+- Year 13: 626,800
+[amnuay-silpa-school] ONE-TIME FEES:
+- Application Fee: 3,000
+- Admission Fee: 320,000
+- Deposit (Nursery-Year 10): 100,000
+- Deposit (Year 11-13): 50,000
+[amnuay-silpa-school] SOURCE: https://www.amnuaysilpa.ac.th/admissions/fees-entry-guide
+[amnuay-silpa-school] YEAR: 2025-2026
+
+[anglo-singapore-international-school] FEES NOT AVAILABLE
+[anglo-singapore-international-school] SOURCE: https://anglosingapore.ac.th/64/admissions/tuition-and-fees/
+
+[ascot-international-school] ANNUAL FEES:
+- Pre Nursery: 273,819
+- EY 1: 331,908
+- EY 2 - EY 3: 384,516
+- Year 1 - Year 2: 447,390
+- Year 3 - Year 6: 507,687
+- Year 7 - Year 9: 543,561
+- Year 10 - Year 11: 575,688
+- Year 12 - Year 13: 594,969
+[ascot-international-school] ONE-TIME FEES:
+- Application Fee: 4,000
+- Enrollment Fee (per child): 100,000
+- Enrollment Fee (per family): 180,000
+- General Deposit (Pre Nursery to Year 6): 5,000
+- General Deposit (Year 7 to Year 13): 10,000
+- Re-enrollment Security Fee: 50,000
+[ascot-international-school] SOURCE: https://ascot.ac.th/en/tuition-fees/
+[ascot-international-school] YEAR: 2025-2026
+
+[aster-international-school] ANNUAL FEES:
+- Pre-Nursery: 317,190
+- Nursery - Reception: 400,539
+- Year 1 - 2: 449,160
+- Year 3 - 4: 457,263
+- Year 5 - 6: 468,840
+- Year 7 - 9: 509,358
+- Year 10: 561,450
+- Year 11: 538,296
+- Year 12: 578,814
+- Year 13: 555,662
+[aster-international-school] ONE-TIME FEES:
+- Enrollment Fee (Pre-Nursery to Reception): 65,000
+- Enrollment Fee (Year 1 to Year 13): 125,000
+- Refundable Deposit: 65,000
+[aster-international-school] SOURCE: https://aster.ac.th/admissions/#fees
+[aster-international-school] YEAR: 2025-2026
+
+[astra-academy-international-school] ANNUAL FEES:
+- Year 1 - Year 4: 504,000
+- Year 5 - Year 6: 528,000
+- Year 7 - Year 13: 537,000
+[astra-academy-international-school] ONE-TIME FEES:
+- Application Fee: 3,500
+- Registration Fee: 120,000
+- Security Deposit (refundable): 30,000
+- Resource Fee Primary (annual, per term 5,700): 17,100
+- Resource Fee Secondary (annual, per term 10,500): 31,500
+[astra-academy-international-school] SOURCE: https://www.astra.ac.th/admissions
+[astra-academy-international-school] YEAR: 2025-2026
+
+[australian-international-school-bangkok] ANNUAL FEES:
+- Foundation: 393,200
+- Year 1: 440,000
+- Year 2: 455,500
+- Year 3: 474,500
+- Year 4: 474,500
+- Year 5: 490,000
+- Year 6: 490,000
+- Year 7: 500,000
+- Year 8: 500,000
+- Year 9: 508,000
+- Year 10: 508,000
+- Year 11: 520,000
+- Year 12: 520,000
+[australian-international-school-bangkok] ONE-TIME FEES:
+- Registration Fee: 90,000
+- Application and Assessment Fee: 4,000
+- Years 7-9 Camps Deposit: 10,000
+- Education Resource Fee Foundation (annual): 9,000
+- Education Resource Fee Year 1 (annual): 11,000
+- Education Resource Fee Year 2-12 (annual): 15,000
+[australian-international-school-bangkok] SOURCE: https://aca36a1c-8966-4902-b745-810cb54c88aa.filesusr.com/ugd/331e36_330a54f055c3439aaf93b08423ca85e8.pdf
+[australian-international-school-bangkok] YEAR: 2025-2026
+
+[bangkok-adventist-international-school] ANNUAL FEES:
+- Kindergarten (K1-K3): 158,000
+- Grade 1: 162,000
+- Grade 2: 162,000
+- Grade 3: 162,000
+- Grade 4: 162,000
+- Grade 5: 162,000
+- Grade 6: 162,000
+- Grade 7: 162,000
+- Grade 8: 162,000
+[bangkok-adventist-international-school] ONE-TIME FEES:
+- Admission Fee: 50,000
+- Development Fee (refundable): 20,000
+- Application Fee: 1,000
+- Testing Fee: 500
+[bangkok-adventist-international-school] SOURCE: https://bais.ac.th/admission/
+[bangkok-adventist-international-school] YEAR: 2025-2026
+
+[bangkok-chicago-christian-international-school] FEES NOT AVAILABLE
+[bangkok-chicago-christian-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+[bangkok-chicago-christian-international-school] SOURCE: https://bcci.ac.th/admissions/apply/
+[bangkok-chicago-christian-international-school] YEAR: 2025-2026
+
+[bangkok-christian-international-school] ANNUAL FEES:
+- Kindergarten 1: 258,300
+- Kindergarten 2: 258,300
+- Kindergarten 3: 264,300
+- Grade 1: 245,600
+- Grade 2: 245,600
+- Grade 3: 245,600
+- Grade 4: 271,600
+- Grade 5: 271,600
+- Grade 6: 274,600
+- Grade 7: 316,000
+- Grade 8: 316,000
+- Grade 9: 327,000
+- Grade 10: 327,000
+- Grade 11: 329,000
+- Grade 12: 333,000
+[bangkok-christian-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- Admission Fee (Kindergarten): 120,000
+- Admission Fee (Elementary and High School): 140,000
+[bangkok-christian-international-school] SOURCE: https://www.bcis.ac.th/school-fees
+[bangkok-christian-international-school] YEAR: 2025-2026

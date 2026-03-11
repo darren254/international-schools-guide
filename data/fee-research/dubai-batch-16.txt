@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in AED (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Dubai — Batch 16 of 18 (10 schools)
+CURRENCY: AED
+
+1. [the-aquila-school] The Aquila School Dubai — https://www.theaquilaschool.com/
+2. [the-arbor-school] The Arbor School Dubai — https://thearborschool.ae/
+3. [the-city-school-international] The City School International Dubai — https://thecityschool.sch.ae/
+4. [the-english-college] The English College Dubai — https://www.englishcollegedubai.com/
+5. [the-international-school-of-choueifat-ajman] The International School Of Choueifat Ajman Dubai — https://iscajman.sabis.net/
+6. [the-international-school-of-choueifat-dubai-investments-park] The International School Of Choueifat Dubai Investments Park — https://iscdip.sabis.net/
+7. [the-international-school-of-choueifat-sharjah] The International School Of Choueifat Sharjah Dubai — https://iscsharjah.sabis.net/
+8. [the-millennium-school] The Millennium School Dubai — https://www.themillenniumschool-dubai.com/About-Us/Our-School
+9. [the-oxford-school] The Oxford School Dubai — https://oxford.sch.ae/
+10. [the-scholars-school] The Scholars School Dubai — https://scholarsschool.com/

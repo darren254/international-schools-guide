@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in MYR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Kuala Lumpur — Batch 10 of 12 (10 schools)
+CURRENCY: MYR
+
+1. [summer-international-secondary-school] Summer International Secondary School Kuala Lumpur — https://www.siss.edu.my/
+2. [sunway-international-school] Sunway International School Kuala Lumpur — https://sunwayschools.edu.my/siskl/discover/welcome-to-sunway-city-kl-campus
+3. [tanarata-international-school] Tanarata International School Kuala Lumpur — https://www.tanarata.net/
+4. [templer-park-international-school] Templer Park International School Kuala Lumpur — https://tpis.edu.my/
+5. [tenby-school-setia-eco-park] Tenby School Setia Eco Park Kuala Lumpur — https://www.tenby.edu.my/setia-eco-park
+6. [tenby-school-setia-ecohill] Tenby School Setia Ecohill Kuala Lumpur — https://www.tenby.edu.my/setia-ecohill
+7. [tenby-school-tropicana-aman] Tenby School Tropicana Aman Kuala Lumpur — https://www.tenby.edu.my/tropicana-aman
+8. [the-alice-smith-school] The Alice Smith School Kuala Lumpur — https://www.alice-smith.edu.my/
+9. [the-british-international-school-of] The British International School Of Kuala Lumpur — https://www.nordangliaeducation.com/bskl-kuala-lumpur/admissions/tuition-fees
+10. [the-international-school-at-parkcity] The International School At Parkcity Kuala Lumpur — https://isp.edu.my/

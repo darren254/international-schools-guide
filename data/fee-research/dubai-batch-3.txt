@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in AED (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Dubai — Batch 3 of 18 (10 schools)
+CURRENCY: AED
+
+1. [ash-mount-school] Ash Mount School Dubai — https://ashmountschool.com/
+2. [australian-international-school-dubai] Australian International School Dubai — https://www.aisdubai.ae/
+3. [bc-academy-international-school] Bc Academy International School Dubai — https://bcacademy.ae/
+4. [bloom-world-academy] Bloom World Academy Dubai — https://www.bloomworldacademy.ae/
+5. [bright-learners-private-school] Bright Learners Private School Dubai — https://www.brightlearners.ae/
+6. [bright-riders-school] Bright Riders School Dubai — https://www.brightridersdubai.com/
+7. [brighton-college-dubai] Brighton College Dubai — https://www.brightoncollegedubai.ae/
+8. [british-international-school-ajman] British International School Ajman Dubai — https://bisuae.ae/
+9. [cambridge-international-school] Cambridge International School Dubai — https://www.gemscis-dubai.com/
+10. [capital-school] Capital School Dubai — https://www.capitalschooluae.com/

@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in MYR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Kuala Lumpur — Batch 5 of 12 (10 schools)
+CURRENCY: MYR
+
+1. [igb-international-school] Igb International School Kuala Lumpur — https://igbis.edu.my/
+2. [inspiros-international-school] Inspiros International School Kuala Lumpur — https://inspiros.edu.my/
+3. [international-islamic-school-malaysia] International Islamic School Malaysia Kuala Lumpur — https://iium-schools.edu.my/v3/
+4. [international-modern-arabic-school] International Modern Arabic School Kuala Lumpur — https://imas.edu.my/
+5. [king-henry-viii-college] King Henry Viii College Kuala Lumpur — https://kinghenryviii.edu.my/
+6. [kingsgate-international-school] Kingsgate International School Kuala Lumpur — https://www.kingsgate.edu.my/
+7. [knewton-global-schools-rawang] Knewton Global Schools Rawang Kuala Lumpur — https://rawang.knewton.edu.my/
+8. [kolej-tunku-kurshiah] Kolej Tunku Kurshiah Kuala Lumpur — https://ibdp.tkc.edu.my/
+9. [kueen-lai-international-secondary-school] Kueen Lai International Secondary School Kuala Lumpur — https://www.kueenlai.edu.my/
+10. [lycee-francais-de] Lycee Francais De Kuala Lumpur — https://www.lfkl.edu.my/

@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in IDR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Jakarta — Batch 4 of 7 (10 schools)
+CURRENCY: IDR
+
+1. [jubilee-school-jakarta] Jubilee School Jakarta — https://www.jubilee-jkt.sch.id
+2. [kanaan-global-school] Kanaan Global School — https://www.kanaanglobal.sch.id/
+3. [kharisma-bangsa-school] Kharisma Bangsa School — https://kbs.sch.id
+4. [labschool-jakarta] Labschool Jakarta — https://labschool-unj.sch.id/labschool-jakarta/
+5. [mentari-intercultural-school-bintaro] Mentari Intercultural School Bintaro — https://www.mentarischool.com/mis-bintaro
+6. [mentari-intercultural-school-jakarta] Mentari Intercultural School Jakarta — https://www.mentarischool.com
+7. [millennia-world-school] Millennia World School — https://millenniaws.sch.id
+8. [mutiara-harapan-islamic-school] Mutiara Harapan Islamic School — https://mutiaraharapan.sch.id
+9. [nationalhigh-jakarta-school] NationalHigh Jakarta School — https://www.nationalhigh.sch.id
+10. [new-zealand-school-jakarta] New Zealand School Jakarta — https://www.nzsj.sch.id

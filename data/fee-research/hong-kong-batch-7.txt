@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in HKD (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Hong Kong — Batch 7 of 8 (10 schools)
+CURRENCY: HKD
+
+1. [saint-too-bloom-academy] Saint Too Bloom Academy Hong Kong — https://secondary.bloom.edu.hk/en
+2. [san-wui-commercial-society-ymca-of-hong-kong-christian-school] San Wui Commercial Society Ymca Of Hong Kong Christian School — https://www.cs.edu.hk/
+3. [sear-rogers-international-school] Sear Rogers International School Hong Kong — https://sris.edu.hk
+4. [sha-tin-college] Sha Tin College Hong Kong — https://shatincollege.esf.edu.hk/en/
+5. [sha-tin-junior-school] Sha Tin Junior School Hong Kong — https://sjs.esf.edu.hk/
+6. [singapore-international-school] Singapore International School Hong Kong — https://www.singapore.edu.hk/
+7. [south-island-school] South Island School Hong Kong — https://sis.esf.edu.hk/en/
+8. [spanish-school-of] Spanish School Of Hong Kong — https://sshk.edu.hk/
+9. [stamford-american-international-school] Stamford American International School Hong Kong — https://www.sais.edu.hk/
+10. [the-harbour-school] The Harbour School Hong Kong — https://www.ths.edu.hk/

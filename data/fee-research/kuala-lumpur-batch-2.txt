@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in MYR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Kuala Lumpur — Batch 2 of 12 (10 schools)
+CURRENCY: MYR
+
+1. [beaconhouse-sri-inai-international-school] Beaconhouse Sri Inai International School Kuala Lumpur — https://beaconhousesriinai.edu.my/
+2. [brainy-bunch-international-islamic-montessori-school] Brainy Bunch International Islamic Montessori School Kuala Lumpur — https://www.bbis.edu.my/
+3. [brighton-international-school] Brighton International School Kuala Lumpur — https://brighton.edu.my/
+4. [campus-rangers-international-school] Campus Rangers International School Kuala Lumpur — https://www.campusrangers.edu.my/
+5. [canary-international-school] Canary International School Kuala Lumpur — https://canaryis.com.my/
+6. [cempaka-international-school] Cempaka International School Kuala Lumpur — https://cdh.cempaka.edu.my/
+7. [charterhouse-malaysia] Charterhouse Malaysia Kuala Lumpur — https://www.charterhouse-htms.edu.my/
+8. [collinz-international-school] Collinz International School Kuala Lumpur — https://collinz.edu.my/school/
+9. [columbia-international-school] Columbia International School Kuala Lumpur — https://columbiaschool.edu.my/
+10. [concord-college-international-school] Concord College International School Kuala Lumpur — https://www.concordcollege.edu.my/

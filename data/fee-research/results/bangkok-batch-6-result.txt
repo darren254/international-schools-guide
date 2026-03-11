@@ -1,0 +1,159 @@
+[kpis-international-school] ANNUAL FEES:
+- Nursery - Kindergarten: 348,000
+- Grade 1-5: 414,000
+- Grade 6-8: 482,000
+- Grade 9-12: 544,000
+[kpis-international-school] ONE-TIME FEES:
+- Placement Test Fee: 2,000
+- Application and Processing Fee: 5,000
+- Enrollment Fee: 100,000
+- Booking Deposit (non-refundable, deducted from tuition): 100,000
+- eBook and Printed Book Security Deposit: 30,000
+[kpis-international-school] SOURCE: https://drive.google.com/file/d/18sttIc1GnGQd5hFLbp1MoXHh9qNcwWkx/view
+[kpis-international-school] YEAR: 2025-2026
+
+[lertlah-school] FEES NOT AVAILABLE
+
+[lycee-francais-international-de] ANNUAL FEES:
+- Kindergarten (PS, MS, GS) - Other nationalities: 375,400
+- Kindergarten (PS, MS, GS) - French/Thai/EU: 297,750
+- Elementary (CP-CM2) - Other nationalities: 375,400
+- Elementary (CP-CM2) - French/Thai/EU: 297,750
+- Junior High School - Other nationalities: 463,500
+- Junior High School - French/Thai/EU: 368,200
+- High School Seconde - Other nationalities: 485,600
+- High School Seconde - French/Thai/EU: 386,400
+- High School Premiere - Other nationalities: 490,150
+- High School Premiere - French/Thai/EU: 389,800
+- High School Terminale - Other nationalities: 527,700
+- High School Terminale - French/Thai/EU: 434,800
+[lycee-francais-international-de] ONE-TIME FEES:
+- Registration Fee (DPI): 150,000
+- Application Fee: 5,000
+- Registration Fee for SIB or BFI: 22,000
+[lycee-francais-international-de] SOURCE: https://lfib.ac.th/en/financial-information/school-fees/
+[lycee-francais-international-de] YEAR: 2026-2027
+
+[magic-years-international-school] ANNUAL FEES:
+- Trust & Caring (1 year old) - 3 days: 249,600
+- Trust & Caring (1 year old) - 5 days: 398,800
+- Joy & Confidence (2 years old) - 3 days: 249,600
+- Joy & Confidence (2 years old) - 5 days: 398,800
+- Peace & Unity (3 years old): 436,800
+- Creativity & Service (4 years old): 601,200
+- Excellence (5 years old): 620,200
+- Primary Years (Grades 1-5): 645,400
+- Middle Years (Grades 6-10): 645,400
+[magic-years-international-school] ONE-TIME FEES:
+- Application Fee: 3,000
+- Registration Fee: 70,000
+- Annual Development Fee: 20,000
+[magic-years-international-school] SOURCE: https://magicyears.ac.th/wp-content/uploads/2025/02/Fee-Schedule-2025-26.pdf
+[magic-years-international-school] YEAR: 2025-2026
+
+[modern-international-school] ANNUAL FEES:
+- Nursery: 234,300
+- Reception: 234,300
+- Year 1: 234,300
+- Year 2: 261,450
+- Year 3: 273,900
+- Year 4: 273,900
+- Year 5: 273,900
+- Year 6: 280,500
+- Year 7: 285,000
+- Year 8: 288,000
+- Year 9: 291,000
+- Year 10: 295,500
+- Year 11: 295,500
+- Year 12: 306,600
+- Year 13: 306,600
+[modern-international-school] ONE-TIME FEES:
+- Registration Fee: 3,000
+- Admission Fee (Early Years): 25,000
+- Admission Fee (Year 2-9): 55,000
+- Admission Fee (Year 10-13): 51,000
+- Development Fee (Year 2-9): 35,000
+[modern-international-school] SOURCE: https://www.misb.ac.th/2015-01-02-18-01-05/fee-structure.html
+[modern-international-school] YEAR: 2025-2026
+
+[montessori-academy-bangkok-international-school] ANNUAL FEES:
+- Toddler (Half Day): 420,000
+- Toddler (Full Day): 460,000
+- Casa Program (Ages 3-6): 545,000
+- Elementary Program (Grades 1-5): 590,000
+- Middle School Program (Grades 6-8): 610,000
+- High School Program (Grades 9-12): 620,000
+[montessori-academy-bangkok-international-school] ONE-TIME FEES:
+- Application Fee: 4,000
+- Entrance Fee: 120,000
+- General Purpose Deposit - Toddler and Casa (Annual): 10,000
+- General Purpose Deposit - Elementary (Annual): 40,000
+- General Purpose Deposit - Middle School & High School (Annual): 62,000
+[montessori-academy-bangkok-international-school] SOURCE: https://drive.google.com/file/d/14Sq5ZqO8RjIzqjW4Cz5kXn0iGsp6OqsR/view
+[montessori-academy-bangkok-international-school] YEAR: 2025-2026
+
+[new-day-learning] FEES NOT AVAILABLE
+
+[nist-international-school] ANNUAL FEES:
+- Early Years 1: 628,200
+- Early Years 2: 628,200
+- Year 1: 796,700
+- Year 2: 842,800
+- Year 3: 842,800
+- Year 4: 842,800
+- Year 5: 842,800
+- Year 6: 842,800
+- Year 7: 923,700
+- Year 8: 923,700
+- Year 9: 923,700
+- Year 10: 1,003,800
+- Year 11: 1,003,800
+- Year 12: 1,094,500
+- Year 13: 1,094,500
+[nist-international-school] ONE-TIME FEES:
+- Application Fee: 6,000
+- Assessment Fee: 2,500
+- Registration Fee: 265,000
+- Campus Development Deposit (Refundable): 575,000
+[nist-international-school] SOURCE: https://www.nist.ac.th/admissions/tuition-fees
+[nist-international-school] YEAR: 2025-2026
+
+[niva-american-international-school] ANNUAL FEES:
+- Nursery: 273,000
+- K1: 308,000
+- K2: 313,000
+- K3: 323,000
+- G1: 347,000
+- G2: 352,000
+- G3: 366,000
+- G4: 367,000
+- G5: 374,000
+- G6: 382,000
+- G7: 384,000
+- G8: 389,000
+- G9: 406,000
+- G10: 410,000
+- G11: 412,000
+- G12: 414,000
+[niva-american-international-school] ONE-TIME FEES:
+- Application Fee (Nursery, K1-K3): 2,000
+- Application Fee (G1-G12): 5,000
+- Registration Fee (K1-K3): 100,000
+- Registration Fee (G1-G12): 120,000
+- Initial Setup Fee (Nursery): 20,000
+- Accountability Fee (Refundable): 10,000
+- Ongoing Enrollment Deposit (Refundable): 10,000
+- Grade 12 Graduation Fee: 5,000
+[niva-american-international-school] SOURCE: https://www.niva.ac.th/fees
+[niva-american-international-school] YEAR: 2025-2026
+
+[pan-asia-international-school] ANNUAL FEES:
+- Preschool/Kindergarten: 355,000
+- Primary (Grades 1-5): 415,000
+- Middle School (Grades 6-8): 485,000
+- High School (Grades 9-12): 545,000
+[pan-asia-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- Admission Fee: 70,000
+[pan-asia-international-school] SOURCE: https://www.doris.school/schools/thailand/pan-asia-international-school/essentials
+[pan-asia-international-school] YEAR: 2025-2026

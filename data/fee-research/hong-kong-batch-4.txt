@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in HKD (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Hong Kong — Batch 4 of 8 (10 schools)
+CURRENCY: HKD
+
+1. [harrow-international-school] Harrow International School Hong Kong — https://www.harrowhongkong.hk/
+2. [hkca-po-leung-kuk-school] Hkca Po Leung Kuk School Hong Kong — https://www.plkis.edu.hk/
+3. [hkila] Hkila Hong Kong — https://www.studyhkila.edu.hk/
+4. [hong-kong-academy] Hong Kong Academy — https://hkacademy.edu.hk/
+5. [hong-kong-adventist-academy] Hong Kong Adventist Academy — https://www.hkaa.edu.hk/
+6. [hong-kong-international-school] Hong Kong International School — https://www.hkis.edu.hk/
+7. [ichk-kindergarten-and-primary] Ichk Kindergarten And Primary Hong Kong — https://ichkhly.edu.hk/
+8. [ichk-secondary] Ichk Secondary Hong Kong — https://www.ichk.edu.hk/
+9. [international-christian-school] International Christian School Hong Kong — https://www.ics.edu.hk/
+10. [invictus-school] Invictus School Hong Kong — https://www.invictus.edu.hk/

@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in MYR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Kuala Lumpur — Batch 8 of 12 (10 schools)
+CURRENCY: MYR
+
+1. [regent-international-school-klang] Regent International School Klang Kuala Lumpur — https://regent.edu.my/klang/
+2. [reigate-grammar-school] Reigate Grammar School Kuala Lumpur — https://www.reigategrammar.edu.my/
+3. [rocklin-international-school] Rocklin International School Kuala Lumpur — https://www.rocklinschool.edu.my/
+4. [sasana-international-school] Sasana International School Kuala Lumpur — https://sasana.edu.my/
+5. [sayfol-international-school] Sayfol International School Kuala Lumpur — https://sayfol.edu.my/
+6. [sekolah-sri-ucsi] Sekolah Sri Ucsi Kuala Lumpur — https://www.sriucsi.edu.my/kl/
+7. [seven-skies-international-school] Seven Skies International School Kuala Lumpur — https://sevenskies.edu.my/
+8. [soka-international-school-malaysia] Soka International School Malaysia Kuala Lumpur — https://sism.edu.my/
+9. [spectrum-international-school] Spectrum International School Kuala Lumpur — https://spectrumiis.edu.my/
+10. [sri-bestari-international-school] Sri Bestari International School Kuala Lumpur — https://www.sribestariinternational.edu.my/

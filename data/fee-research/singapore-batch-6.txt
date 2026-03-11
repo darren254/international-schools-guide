@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in SGD (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Singapore — Batch 6 of 7 (10 schools)
+CURRENCY: SGD
+
+1. [swiss-school-in] Swiss School In Singapore — https://www.swiss-school.edu.sg/
+2. [tanglin-trust-school] Tanglin Trust School Singapore — https://www.tts.edu.sg/
+3. [the-grange-institution-and-international-preschool] The Grange Institution And International Preschool Singapore — https://www.thegrange.edu.sg/
+4. [the-guild-international-college] The Guild International College Singapore — https://www.theguild.edu.sg/
+5. [the-straits-waldorf-school] The Straits Waldorf School Singapore — https://straitswaldorf.com/
+6. [the-winstedt-school] The Winstedt School Singapore — https://winstedt.edu.sg/
+7. [tls-academy] Tls Academy Singapore — https://tlsacademy.org/
+8. [united-world-college-of-south-east-asia-dover-campus] United World College Of South East Asia Dover Campus Singapore — https://www.uwcsea.edu.sg/dover-campus
+9. [united-world-college-of-south-east-asia-east-campus] United World College Of South East Asia East Campus Singapore — https://www.uwcsea.edu.sg/east-campus
+10. [waseda-shibuya-senior-high-school] Waseda Shibuya Senior High School Singapore — https://www.waseda-shibuya.edu.sg/

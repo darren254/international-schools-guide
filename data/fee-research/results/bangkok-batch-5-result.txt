@@ -1,0 +1,113 @@
+[international-school] ANNUAL FEES:
+- Pre-Kindergarten: 640,000
+- Elementary (KG-5): 985,000
+- Middle (6-8): 1,104,000
+- High (9-12): 1,162,000
+[international-school] ONE-TIME FEES:
+- Application Processing Fee: 4,700
+- Registration Fee: 260,000
+- Non-refundable Deposit (new students): 40,000
+- Annual Fee: 22,000
+- ISA Membership Fee: 10
+[international-school] SOURCE: https://www.isb.ac.th/admissions/fees
+[international-school] YEAR: 2025-2026
+
+[invictus-international-programme] ANNUAL FEES:
+- Nursery: 280,000
+- Reception: 305,000
+- Year 1: 350,000
+- Year 2: 350,000
+- Year 3: 370,000
+- Year 4: 370,000
+- Year 5: 390,000
+- Year 6: 390,000
+[invictus-international-programme] ONE-TIME FEES:
+- Admission Fee: 50,000
+- Entry Assessment Fee (Reception): 2,500
+- Entry Assessment Fee (Year 1-6): 3,000
+[invictus-international-programme] SOURCE: https://www.invictus.school/admissions/school-fees
+[invictus-international-programme] YEAR: 2025-2026
+
+[john-wyatt-montessori-bangkok-campus] FEES NOT AVAILABLE
+[john-wyatt-montessori-bangkok-campus] SOURCE: https://www.jwmontessori.com/admission
+
+[kevalee-international-school] FEES NOT AVAILABLE
+[kevalee-international-school] SOURCE: https://www.kevalee.ac.th/fee.php
+
+[kids-academy-international-school] FEES NOT AVAILABLE
+[kids-academy-international-school] SOURCE: https://www.kidsacademy.ac.th/admissions
+
+[kincaid-international-school-of] ANNUAL FEES:
+- Pre.K - K.3 (Campus 1): 140,000
+- Grade 1 - Grade 6 (Campus 1): 160,000
+- Grade 7 - Grade 12 (Campus 1): 180,000
+- Pre.K - K.3 (Campus 2): 200,000
+- Grade 1 - Grade 6 (Campus 2): 250,000
+- Grade 7 - Grade 12 (Campus 2): 320,000
+[kincaid-international-school-of] ONE-TIME FEES:
+- Application Fee (Campus 1): 2,000
+- Registration Fee (Campus 1): 30,000
+- Application Fee (Campus 2): 5,000
+- Registration Fee (Campus 2): 50,000
+[kincaid-international-school-of] SOURCE: https://kincaidbangkok.com/admission/
+[kincaid-international-school-of] YEAR: 2025-2026
+
+[king-s-college-international-school] ANNUAL FEES:
+- Pre-nursery: 616,000
+- Nursery: 698,000
+- Reception: 756,000
+- Year 1: 851,000
+- Year 2: 851,000
+- Year 3: 912,000
+- Year 4: 912,000
+- Year 5: 933,000
+- Year 6: 933,000
+- Year 7: 968,000
+- Year 8: 968,000
+- Year 9: 968,000
+- Year 10: 1,063,000
+- Year 11: 990,000
+- Year 12: 1,063,000
+- Year 13: 990,000
+[king-s-college-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- Registration Fee: 225,000
+- Security Deposit (refundable): 200,000
+[king-s-college-international-school] SOURCE: https://www.kingsbangkok.ac.th/en/admissions/fees-and-payments
+[king-s-college-international-school] YEAR: 2025-2026
+
+[kis-international-school] ANNUAL FEES:
+- Early Years Prep (Half day): 440,100
+- Early Years 1: 596,500
+- Early Years 2: 631,600
+- Early Years 3 to Grade 5: 725,500
+- Grade 6 to Grade 10: 859,700
+- Grade 11: 944,600
+- Grade 12: 882,600
+[kis-international-school] ONE-TIME FEES:
+- Application Fee: 6,000
+- Registration Fee (Early Years Prep to Grade 10): 260,000
+- Registration Fee (Grade 11 and Grade 12): 185,000
+- School Development Fund (refundable, one-time): 250,000
+[kis-international-school] SOURCE: https://www.kis.ac.th/fs/resource-manager/view/74143a1b-3066-4fa7-a1d9-77f87c60e8aa
+[kis-international-school] YEAR: 2025-2026
+
+[kis-international-school-reignwood-park] ANNUAL FEES:
+- EY Prep: 560,000
+- Early Years 1: 661,600
+- Early Years 2: 682,600
+- Early Years 3: 798,000
+- Grade 1 to Grade 5: 876,900
+- Grade 6 to Grade 10: 945,000
+- Grade 11 and Grade 12: 997,600
+[kis-international-school-reignwood-park] ONE-TIME FEES:
+- Application Fee: 6,000
+- Registration Fee: 260,000
+- School Development Fund (refundable, one-time): 250,000
+[kis-international-school-reignwood-park] SOURCE: https://www.kisrp.com/join/tuition-boarding-fees
+[kis-international-school-reignwood-park] YEAR: 2025-2026
+
+[knightsbridge-house-nonthaburi] ANNUAL FEES:
+- Year 1 - Year 8: 226,000
+[knightsbridge-house-nonthaburi] SOURCE: https://kbh.ac.th/admissions
+[knightsbridge-house-nonthaburi] YEAR: 2025-2026

@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in HKD (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Hong Kong — Batch 3 of 8 (10 schools)
+CURRENCY: HKD
+
+1. [discovery-college] Discovery College Hong Kong — https://www.discovery.edu.hk/
+2. [discovery-mind-educational-organisation] Discovery Mind Educational Organisation Hong Kong — https://discoverymind.edu.hk/
+3. [dsc-international-school] Dsc International School Hong Kong — https://www.dsc.edu.hk/
+4. [elchk-lutheran-academy] Elchk Lutheran Academy Hong Kong — https://www.luac.edu.hk/
+5. [forest-house-waldorf-school] Forest House Waldorf School Hong Kong — https://foresthouse.edu.hk/
+6. [french-international-school-of] French International School Of Hong Kong — https://www.fis.edu.hk/
+7. [garden-house-waldorf-school] Garden House Waldorf School Hong Kong — https://www.gardenhouse.edu.hk/
+8. [german-swiss-international-school] German Swiss International School Hong Kong — https://www.gsis.edu.hk/en/
+9. [guidepost] Guidepost Hong Kong — https://guidepost.hk/
+10. [han-academy] Han Academy Hong Kong — https://www.hanacademy.edu.hk/en/home

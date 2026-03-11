@@ -1,0 +1,156 @@
+[pensmith-school] ANNUAL FEES:
+- Nursery: 246,800
+- Grades 1-3: 272,800
+- Grades 4-6: 323,800
+- Grades 7-9: 334,800
+- Grades 10-12: 415,800
+[pensmith-school] ONE-TIME FEES:
+- Application Fee: 2,500
+- Enrolment Fee (Nursery): 20,000
+- Enrolment Fee (Grades 1-3): 20,000
+- Enrolment Fee (Grades 4-6): 25,000
+- Enrolment Fee (Grades 7-9): 25,000
+- Enrolment Fee (Grades 10-12): 30,000
+- Graduation Fee (Kindergarten 3): 4,500
+- Graduation Fee (Grade 6): 5,500
+- Graduation Fee (Grade 12): 6,500
+[pensmith-school] SOURCE: https://pensmithschool.com/wp-content/uploads/2024/09/Ch_Tuition-Fees-_Enrollment-_Pensmith_compressed.pdf
+[pensmith-school] YEAR: 2025-2026
+
+[raffles-american-school] ANNUAL FEES:
+- Nursery (2-3 years old): 198,000
+- Kindergarten 1-2 (3-5 years old): 234,000
+- Kindergarten 3 (5-6 years old): 255,000
+- Grade 1-4 (6-10 years old): 279,000
+- Grade 5-12 (10-18 years old): 297,000
+[raffles-american-school] ONE-TIME FEES:
+- Application Fee: 5,000
+[raffles-american-school] SOURCE: https://ras.ac.th/ras-tuition-fees/
+[raffles-american-school] YEAR: 2025-2026
+
+[ramkhamhaeng-advent-international-school] ANNUAL FEES:
+- Nursery: 185,000
+- K1-K2: 192,000
+- K3: 192,000
+- Grade 1-2: 216,000
+- Grade 3: 216,000
+- Grade 4: 217,000
+- Grade 5: 217,000
+- Grade 6-8: 218,000
+- Grade 9-11: 230,000
+- Grade 12: 230,000
+[ramkhamhaeng-advent-international-school] ONE-TIME FEES:
+- Admission Fee (Nursery to K3): 50,000
+- Admission Fee (Grade 1 to 5): 75,000
+- Admission Fee (Grade 6 to 8): 80,000
+- Admission Fee (Grade 9 to 12): 90,000
+- Book Deposit (Refundable): 30,000
+[ramkhamhaeng-advent-international-school] SOURCE: https://www.rais.ac.th/school-fees/
+[ramkhamhaeng-advent-international-school] YEAR: 2026-2027
+
+[rbis-international-school] ANNUAL FEES:
+- Toddler: 264,000
+- Nursery: 294,000
+- Pre-Reception: 348,000
+- Reception: 348,000
+- Years 1-2: 429,000
+- Years 3-6: 444,000
+- Years 7-9: 534,000
+- Years 10-11: 570,000
+- Years 12-13: 564,000
+[rbis-international-school] ONE-TIME FEES:
+- Application and Assessment Fee: 5,000
+- Registration Fee: 100,000
+- Refundable Deposit: 30,000
+[rbis-international-school] SOURCE: https://rbis.ac.th/wp-content/uploads/2025/01/School-Fees-Structure-2025-2026.pdf
+[rbis-international-school] YEAR: 2025-2026
+
+[rc-international-school] ANNUAL FEES:
+- Nursery 3 days (Half Day): 132,000
+- Nursery 3 days (Full Day): 147,600
+- Nursery 5 days (Half Day): 163,200
+- Nursery 5 days (Full Day): 203,850
+- Kindergarten 1 (Half Day): 172,650
+- Kindergarten 1 (Full Day): 203,850
+- Kindergarten 2: 213,300
+- Year 1: 213,300
+- Year 2: 219,555
+- Year 3: 225,840
+- Year 4: 225,840
+- Year 5: 235,275
+- Year 6: 235,275
+- Year 7: 244,650
+[rc-international-school] ONE-TIME FEES:
+- Application and Placement Test Fee: 2,000
+- Registration Fee (Nursery - Year 1): 50,000
+- Registration Fee (Year 2 - Year 7): 80,000
+[rc-international-school] SOURCE: https://www.rcis.ac.th/admission/
+[rc-international-school] YEAR: 2025-2026
+
+[ris-swiss-section-deutschsprachige-schule] ANNUAL FEES:
+- Kindergarten 1 & 2: 350,000
+- Preschool: 360,000
+- Grade 1-2: 470,000
+- Grades 3-6: 530,000
+- Grades 7-10: 670,000
+- Grades 11-12: 710,000
+[ris-swiss-section-deutschsprachige-schule] ONE-TIME FEES:
+- Entrance Fee (KG - G.12): 165,000
+- Campus Development Fund (Refundable): 200,000
+- Membership Fee (per family, per year): 10,000
+- Seat Reservation Deposit: 50,000
+[ris-swiss-section-deutschsprachige-schule] SOURCE: https://ris-swiss-section.org/tuition-fees/
+[ris-swiss-section-deutschsprachige-schule] YEAR: 2025-2026
+
+[rising-oaks-international-school] ANNUAL FEES:
+- Nursery: 81,000
+- Year 1: 81,000
+- Year 2: 81,000
+- Year 3: 81,000
+- Year 4: 81,000
+- Year 5: 81,000
+- Year 6: 81,000
+- Year 7: 81,000
+- Year 8: 81,000
+- Year 9: 89,000
+- Year 10: 89,000
+- Year 11: 89,000
+[rising-oaks-international-school] ONE-TIME FEES:
+- Registration Fee: 12,000
+[rising-oaks-international-school] SOURCE: https://roisb.ac.th/fee_policy.php
+[rising-oaks-international-school] YEAR: 2026-2027
+
+[roong-aroon-international-school] ANNUAL FEES:
+- Grades 6-12: 450,000
+[roong-aroon-international-school] ONE-TIME FEES:
+- Application Fee: 3,000
+- Enrollment Fee: 120,000
+[roong-aroon-international-school] SOURCE: https://www.roongaroonis.ac.th/admission/tuition-fees/
+[roong-aroon-international-school] YEAR: 2025-2026
+
+[rose-marie-academy] ANNUAL FEES:
+- Primary School (Grades 1-6): 550,000
+- Junior High School (Grades 7-8): 550,000
+- Senior High School (Grades 9-12): 550,000
+[rose-marie-academy] ONE-TIME FEES:
+- Application Processing Fee: 3,000
+- Registration Fee: 30,000
+[rose-marie-academy] SOURCE: https://rose-marie.ac.th/admissions/tuition-fees/
+[rose-marie-academy] YEAR: 2024-2025
+
+[royce-royal-international-school] ANNUAL FEES:
+- Nursery/Toddler: 287,000
+- Early Year 1: 311,000
+- Early Year 2: 311,000
+- Year 1: 314,000
+- Year 2: 318,000
+- Year 3: 333,000
+- Year 4: 336,000
+- Year 5: 339,000
+- Year 6: 342,000
+[royce-royal-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- School Development Fee: 100,000
+- Damage Deposit: 5,000
+[royce-royal-international-school] SOURCE: https://www.royceroyal.ac.th/fees
+[royce-royal-international-school] YEAR: 2025-2026

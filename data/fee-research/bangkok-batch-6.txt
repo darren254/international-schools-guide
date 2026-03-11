@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in THB (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Bangkok — Batch 6 of 10 (10 schools)
+CURRENCY: THB
+
+1. [kpis-international-school] Kpis International School Bangkok — https://kpis.ac.th/
+2. [lertlah-school] Lertlah School Bangkok — https://lertlah.com/
+3. [lycee-francais-international-de] Lycee Francais International De Bangkok — https://lfib.ac.th/
+4. [magic-years-international-school] Magic Years International School Bangkok — https://magicyears.ac.th/
+5. [modern-international-school] Modern International School Bangkok — https://www.misb.ac.th/
+6. [montessori-academy-bangkok-international-school] Montessori Academy Bangkok International School — https://www.montessoribkk.com/
+7. [new-day-learning] New Day Learning Bangkok — https://newdaylearningco.com/
+8. [nist-international-school] NIST International School Bangkok — https://www.nist.ac.th/
+9. [niva-american-international-school] Niva American International School Bangkok — https://www.niva.ac.th/
+10. [pan-asia-international-school] Pan Asia International School Bangkok — https://www.pais.ac.th/

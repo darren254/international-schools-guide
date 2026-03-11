@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in THB (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Bangkok — Batch 3 of 10 (10 schools)
+CURRENCY: THB
+
+1. [bromsgrove-international-school-thailand] Bromsgrove International School Thailand Bangkok — https://bromsgrove.ac.th/
+2. [bsb-british-international-primary-school] Bsb British International Primary School Bangkok — https://www.bsbangkok.ac/
+3. [canadian-international-school-of-thailand] Canadian International School Of Thailand Bangkok — https://canadianschool.com/
+4. [centurion-international-school] Centurion International School Bangkok — https://cisb.ac.th/
+5. [charter-international-school] Charter International School Bangkok — https://charter.ac.th/
+6. [concordian-international-school] Concordian International School Bangkok — https://www.concordian.ac.th/
+7. [crescent-international-school] Crescent International School Bangkok — https://cis.ac.th/
+8. [d-prep-international-school] D Prep International School Bangkok — https://dprep.ac.th/
+9. [dbs-denla-british-school] Denla British School (DBS) — https://www.dbsbangkok.ac.th/
+10. [dulwich-college-international-school] Dulwich College International School Bangkok — https://bangkok.dulwich.org/

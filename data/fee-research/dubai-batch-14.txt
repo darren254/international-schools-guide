@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in AED (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Dubai — Batch 14 of 18 (10 schools)
+CURRENCY: AED
+
+1. [regent-international-school] Regent International School Dubai — https://risdubai.com/
+2. [repton-school] Repton School Dubai — https://www.reptondubai.org/
+3. [repton-school-al-barsha] Repton School Al Barsha Dubai — https://www.reptonalbarsha.org/
+4. [royal-grammar-school-guildford] Royal Grammar School Guildford Dubai — https://www.rgsgd.com/
+5. [rushmore-american-school] Rushmore American School Dubai — https://www.rushmoreamericanschool.ae/
+6. [sabis-international-school-aljada] Sabis International School Aljada Dubai — https://sisaljada.sabis.net/
+7. [safa-british-school] Safa British School Dubai — https://safabritishschool.com/
+8. [safa-community-school] Safa Community School Dubai — https://safacommunityschool.com/
+9. [scholars-international-academy] Scholars International Academy Dubai — https://sia.ae/
+10. [school-of-modern-skills] School Of Modern Skills Dubai — https://dubai-sms.com/

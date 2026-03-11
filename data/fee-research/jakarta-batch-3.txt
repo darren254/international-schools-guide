@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in IDR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Jakarta — Batch 3 of 7 (10 schools)
+CURRENCY: IDR
+
+1. [global-sevilla-school] Global Sevilla School — https://www.globalsevilla.org
+2. [highscope-indonesia] HighScope Indonesia — https://highscope.or.id
+3. [holy-angels-school] Holy Angels School — https://www.holyangels.sch.id
+4. [ichthus-school-jakarta] Ichthus School Jakarta — https://www.ichthusschool.com/
+5. [independent-school-of-jakarta] The Independent School of Jakarta — https://www.isj.id
+6. [ipeka-integrated-christian-school] IPEKA Integrated Christian School — https://iics.sch.id
+7. [jakarta-indonesia-korean-school] Jakarta Indonesia Korean School — https://www.jiks.com
+8. [jakarta-intercultural-school] Jakarta Intercultural School — https://www.jisedu.or.id
+9. [jakarta-multicultural-school] Jakarta Multicultural School — https://jms.sch.id
+10. [jakarta-nanyang-school] Jakarta Nanyang School — https://jny.sch.id/

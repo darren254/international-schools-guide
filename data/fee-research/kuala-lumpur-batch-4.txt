@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in MYR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Kuala Lumpur — Batch 4 of 12 (10 schools)
+CURRENCY: MYR
+
+1. [global-indian-international-school] Global Indian International School Kuala Lumpur — https://globalindianschool.org/my/
+2. [global-modern-international-school] Global Modern International School Kuala Lumpur — https://www.gmis-edu.com/
+3. [global-oak-tree-scholars-international-school] Global Oak Tree Scholars International School Kuala Lumpur — https://gots.edu.my/
+4. [greenview-islamic-international-school] Greenview Islamic International School Kuala Lumpur — https://greenviewiis.com/
+5. [havil-international-school] Havil International School Kuala Lumpur — https://havil.edu.my/
+6. [help-international-school] Help International School Kuala Lumpur — https://his.edu.my/
+7. [heritage-international-school] Heritage International School Kuala Lumpur — https://heritage.edu.my/
+8. [hibiscus-international-school] Hibiscus International School Kuala Lumpur — https://hibiscus.edu.my/
+9. [hua-xia-international-school] Hua Xia International School Kuala Lumpur — https://hxis.huaxia.edu.my/
+10. [idrissi-international-school] Idrissi International School Kuala Lumpur — https://www.idrissischool.edu.my/

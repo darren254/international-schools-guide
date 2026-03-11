@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in THB (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Bangkok — Batch 9 of 10 (10 schools)
+CURRENCY: THB
+
+1. [st-andrews-international-school-dusit] St Andrews International School Dusit Bangkok — https://www.standrewsdusit.com/
+2. [st-andrews-international-school-sathorn] St Andrews International School Sathorn Bangkok — https://www.standrewssathorn.com/
+3. [st-andrews-international-school-sukhumvit-107] St Andrews International School Sukhumvit 107 Bangkok — https://www.standrewssukhumvit.com/
+4. [st-andrews-samakee-international-school] St Andrews Samakee International School Bangkok — https://www.standrews-samakee.com/
+5. [thai-chinese-international-school] Thai Chinese International School Bangkok — https://tcis.ac.th/
+6. [thai-international-school] Thai International School Bangkok — https://thaiinternationalschool.ac.th/
+7. [thai-singapore-international-school] Thai Singapore International School Bangkok — https://www.tsis.ac.th/
+8. [the-american-school-of-bangkok-green-valley-campus] The American School Of Bangkok Green Valley Campus — https://asbgv.ac.th/
+9. [traill-international-school] Traill International School Bangkok — https://www.traillschool.com/
+10. [trinity-international-school] Trinity International School Bangkok — https://trinity.ac.th/

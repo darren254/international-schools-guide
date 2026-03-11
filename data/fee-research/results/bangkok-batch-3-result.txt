@@ -1,0 +1,141 @@
+[bromsgrove-international-school-thailand] ANNUAL FEES:
+- Pre-Nursery: 361,200
+- Nursery & Reception: 392,100
+- Year 1: 449,400
+- Year 2: 492,600
+- Year 3 to Year 6: 609,000
+- Year 7, 8 & 9: 650,700
+- Year 10: 743,700
+- Year 11, 12 & 13: 743,700
+[bromsgrove-international-school-thailand] ONE-TIME FEES:
+- Application Fee: 5,000
+- Registration Fee: 100,000
+- School Development & Enrollment Fee (Pre-Nursery to Year 1): 50,000
+- School Development & Enrollment Fee (Year 2 to Year 13): 105,000
+- Student Deposit (Day/Weekly Boarder): 50,000
+- Student Deposit (Overseas Full Boarder): 100,000
+- Activities & Sundries Deposit (Pre-Nursery & Nursery): 5,000
+- Activities & Sundries Deposit (Reception to Year 13): 10,000
+[bromsgrove-international-school-thailand] SOURCE: https://bromsgrove.ac.th/admissions/school-fees/
+[bromsgrove-international-school-thailand] YEAR: 2025-2026
+
+[bsb-british-international-primary-school] ANNUAL FEES:
+- Nursery (5 days, half day 8:30-12pm): 165,000
+- Nursery (5 days, full day 8:30-2pm): 195,000
+- Early Years: 208,260
+- Reception: 261,720
+- Year 1: 334,020
+- Year 2: 376,650
+- Year 3: 401,370
+- Year 4: 401,370
+- Year 5: 401,370
+- Year 6: 401,370
+[bsb-british-international-primary-school] ONE-TIME FEES:
+- Application Fee: 2,000
+- Registration Fee: 65,000
+[bsb-british-international-primary-school] SOURCE: https://c1e4a20c-40f8-48cb-b7cd-12bbb7204e08.usrfiles.com/ugd/c1e4a2_80305947813642f1a9dd9cc1e06c19f1.pdf
+[bsb-british-international-primary-school] YEAR: 2025-2026
+
+[canadian-international-school-of-thailand] ANNUAL FEES:
+- PreK2: 189,500
+- PreK3-Kindergarten: 189,000
+- Grade 1-3: 231,000
+- Grade 4-6: 283,500
+- Grade 7-9: 336,000
+- Grade 10-12: 383,250
+[canadian-international-school-of-thailand] ONE-TIME FEES:
+- Application Fee: 5,000
+- Registration Fee: 150,000
+- School Association Fee: 2,500
+[canadian-international-school-of-thailand] SOURCE: https://canadianschool.com/pages/our-fees
+[canadian-international-school-of-thailand] YEAR: 2026-2027
+
+[centurion-international-school] ANNUAL FEES:
+- Early Years & Foundation: 139,000
+- Year 1-3: 151,000
+- Year 4-6: 155,000
+[centurion-international-school] ONE-TIME FEES:
+- Application Fee: 2,000
+- Enrollment Fee: 30,000
+- Refundable Deposit: 15,000
+- Security Deposit (refundable at graduation): 50,000
+[centurion-international-school] SOURCE: https://cisb.ac.th/admission/
+[centurion-international-school] YEAR: 2024-2025
+
+[charter-international-school] ANNUAL FEES:
+- Nursery: 285,000
+- KG-Reception: 432,000
+- Year 1 - Year 6: 496,500
+- Year 7 - Year 9: 564,000
+- Year 10 - Year 13: 594,000
+[charter-international-school] ONE-TIME FEES:
+- Application Fee: 2,000
+- Enrollment Fee (individual): 100,000
+- Enrollment Fee (per family): 150,000
+- Place Guarantee Deposit: 25,000
+- Damage/Loss Deposit: 10,000
+[charter-international-school] SOURCE: https://charter.ac.th/wp-content/uploads/2025/05/School-fees-25-26.pdf
+[charter-international-school] YEAR: 2025-2026
+
+[concordian-international-school] ANNUAL FEES:
+- Pre K - Kindergarten 1: 626,400
+- Kindergarten 2: 696,400
+- Kindergarten 3: 750,000
+- Grade 1 - 2: 793,800
+- Grade 3 - 5: 793,800
+- Grade 6 - 10: 877,800
+- Grade 11 - 12: 963,400
+[concordian-international-school] ONE-TIME FEES:
+- Application Fee: 4,000
+- Assessment Fee: 3,000
+- Entrance Fee (1st Child): 250,000
+- Entrance Fee (2nd Child/subsequent): 187,500
+- Capital Fund (refundable): 400,000
+- Damage Deposit (refundable): 10,000
+- PTA Membership (annual): 1,000
+[concordian-international-school] SOURCE: https://www.concordian.ac.th/student-admissions/application-form/
+[concordian-international-school] YEAR: 2025-2026
+
+[crescent-international-school] FEES NOT AVAILABLE
+[crescent-international-school] SOURCE: https://cis.ac.th/school-info/admissions/
+
+[d-prep-international-school] ANNUAL FEES:
+- Nursery (N1-N2): 440,660
+- Kindergarten (K1-K2): 519,780
+- Primary School (G1-G5): 606,660
+- Middle School (G6-G8): 657,130
+- High School (G9-G12): 677,950
+[d-prep-international-school] ONE-TIME FEES:
+- Security Deposit: 50,000
+- Development Fund: 200,000
+[d-prep-international-school] SOURCE: https://dprep.ac.th/admission/tuition-fees/
+[d-prep-international-school] YEAR: 2025-2026
+
+[dbs-denla-british-school] ANNUAL FEES:
+- Mini Dragons (Pre-Nursery): 530,700
+- Nursery (EY1): 588,700
+- Reception (EY2): 671,800
+- Year 1 - Year 5: 799,600
+- Year 6 - Year 8: 880,250
+- Year 9 - Year 11: 934,400
+- Year 12 - Year 13: 1,009,200
+[dbs-denla-british-school] ONE-TIME FEES:
+- Admission Fee: 220,000
+- Reservation Fee (applied to first term/admission fee): 220,000
+[dbs-denla-british-school] SOURCE: https://www.dbsbangkok.ac.th/fees-and-promotions/
+[dbs-denla-british-school] YEAR: 2025-2026
+
+[dulwich-college-international-school] ANNUAL FEES:
+- Nursery: 711,100
+- Reception: 743,200
+- Year 1 - Year 2: 866,300
+- Year 3 - Year 6: 895,300
+- Year 7 - Year 9: 988,500
+- Year 10 - Year 11: 1,055,700
+- Year 12 - Year 13: 1,107,500
+[dulwich-college-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- Registration Fee: 250,000
+- Security Deposit: 50,000
+[dulwich-college-international-school] SOURCE: https://bangkok.dulwich.org/admissions/admissions-overview
+[dulwich-college-international-school] YEAR: 2026-2027

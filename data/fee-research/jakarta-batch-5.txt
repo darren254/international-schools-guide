@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in IDR (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Jakarta — Batch 5 of 7 (10 schools)
+CURRENCY: IDR
+
+1. [nord-anglia-school-jakarta] Nord Anglia School Jakarta — https://www.nordangliaeducation.com/nas-jakarta
+2. [north-jakarta-intercultural-school] North Jakarta Intercultural School — https://www.njis.org
+3. [pelangi-kasih-school] Pelangi Kasih School — https://pelangikasih.or.id/en
+4. [penabur-international-school] Penabur International School — https://www.penabur-inter.sch.id
+5. [raffles-christian-school-jakarta] Raffles Christian School Jakarta — https://www.raffles.sch.id
+6. [sampoerna-academy-jakarta] Sampoerna Academy Jakarta — https://www.sampoernaacademy.sch.id
+7. [santa-laurensia-school] Santa Laurensia School — https://www.santa-laurensia.com
+8. [sekolah-ciputra] Sekolah Ciputra — https://www.ciputra.sch.id
+9. [sekolah-cita-buana] Sekolah Cita Buana — https://sekolahcitabuana.com
+10. [sekolah-lentera-kasih-jakarta] Sekolah Lentera Kasih Jakarta — https://www.lenteraschools.com

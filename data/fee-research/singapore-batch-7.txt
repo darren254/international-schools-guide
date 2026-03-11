@@ -1,0 +1,30 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in SGD (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Singapore — Batch 7 of 7 (4 schools)
+CURRENCY: SGD
+
+1. [westbourne-college] Westbourne College Singapore — https://westbournecollege.com.sg/
+2. [wise-oaks-international-school] Wise Oaks International School Singapore — https://wiseoaks.sg/
+3. [xcl-world-academy] Xcl World Academy Singapore — https://xwa.edu.sg/
+4. [yuva-bharathi-international-school] Yuva Bharathi International School Singapore — https://www.yuvabharathi.sg/

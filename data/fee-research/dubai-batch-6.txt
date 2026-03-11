@@ -1,0 +1,36 @@
+For each school listed below, find the current annual tuition fees per grade level, and any one-time/upfront fees (registration, enrolment, deposit, etc.).
+
+Return the data in this EXACT format — use the slug in square brackets exactly as shown:
+
+[slug] ANNUAL FEES:
+- Grade Name: AMOUNT
+- Grade Name: AMOUNT
+[slug] ONE-TIME FEES:
+- Fee Name: AMOUNT
+[slug] SOURCE: url
+[slug] YEAR: 2025-2026
+
+Rules:
+- All amounts in AED (no currency symbol needed, just the number)
+- Use the school's own grade names (e.g. "Year 1", "Grade 7", "KG1")
+- If fees are per term or per semester, convert to annual (multiply accordingly)
+- If fees are not publicly available, write: [slug] FEES NOT AVAILABLE
+- If one-time fees are not publicly available, omit the ONE-TIME FEES section entirely for that school
+- Do NOT use international-schools-guide.com as a source — use the school's own website, official fee schedules, or government/regulatory sources (e.g. KHDA, MOE)
+- Include the source URL and academic year
+
+---
+
+CITY: Dubai — Batch 6 of 18 (10 schools)
+CURRENCY: AED
+
+1. [dubai-english-speaking-school-oud-metha] Dubai English Speaking School Oud Metha — https://dess.sch.ae/dess-primary-oud-metha
+2. [dubai-heights-academy] Dubai Heights Academy — https://www.dubaiheightsacademy.com/
+3. [dubai-international-academy-al-barsha] Dubai International Academy Al Barsha — https://www.diabarsha.com/
+4. [dubai-international-academy-emirates-hills] Dubai International Academy Emirates Hills — https://www.diadubai.com/
+5. [dubai-international-academy-town-square] Dubai International Academy Town Square — https://www.diats.com/
+6. [dubai-international-private-school] Dubai International Private School — https://www.dips-alquoz.ae/
+7. [dubai-modern-education-school] Dubai Modern Education School — https://dmes.ae/en/
+8. [dubai-national-school-al-barsha] Dubai National School Al Barsha — https://dnsalbarsha.com/
+9. [dubai-scholars-private-school] Dubai Scholars Private School — https://dubaischolars.com/
+10. [dunecrest-american-school] Dunecrest American School Dubai — https://www.dunecrest.ae/
