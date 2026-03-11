@@ -290,11 +290,11 @@ async function main() {
       const score = scoreNameMatch(profileNorm, normalizeNameForMatch(e.schoolName));
       if (!best || score > best.score) best = { entry: e, score };
     }
-    if (best) {
+    if (best && best.score >= 30) {
       slugToEntry.set(profile.slug, best.entry);
       assignedDirKeys.add(best.entry.citySlug + "|" + normalizeNameForMatch(best.entry.schoolName));
-    } else if (cityDir.length > 0) {
-      slugToEntry.set(profile.slug, cityDir[0]);
+    } else {
+      console.warn(`  SKIP: ${profile.slug} (${profile.citySlug}) — no confident match (best score: ${best?.score ?? 0})`);
     }
   }
 
