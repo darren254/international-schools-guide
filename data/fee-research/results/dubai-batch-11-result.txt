@@ -1,0 +1,201 @@
+[jss-private-school] ANNUAL FEES:
+- Pre-KG: 12,145
+- KG 1: 12,731
+- KG 2: 12,731
+- Grade 1: 14,004
+- Grade 2: 14,004
+- Grade 3: 15,278
+- Grade 4: 15,278
+- Grade 5: 16,550
+- Grade 6: 16,550
+- Grade 7: 17,823
+- Grade 8: 17,823
+- Grade 9: 19,096
+- Grade 10: 19,096
+- Grade 11: 22,524
+- Grade 12: 26,375
+[jss-private-school] ONE-TIME FEES:
+- Registration Fee: 500
+[jss-private-school] SOURCE: https://jsspsdubai.com/school-fee-structure-ay-2025-2026/
+[jss-private-school] YEAR: 2025-2026
+
+[jumeira-baccalaureate-school] ANNUAL FEES:
+- Pre KG: 43,325
+- KG1: 47,675
+- KG2: 52,915
+- Grade 1: 57,285
+- Grade 2: 57,285
+- Grade 3: 63,825
+- Grade 4: 68,195
+- Grade 5: 68,195
+- Grade 6: 79,610
+- Grade 7: 79,610
+- Grade 8: 79,610
+- Grade 9: 79,610
+- Grade 10: 79,610
+- Grade 11: 91,840
+- Grade 12: 91,840
+[jumeira-baccalaureate-school] ONE-TIME FEES:
+- Application Fee: 525
+- Registration Fee (New Student Deposit): 4,000
+[jumeira-baccalaureate-school] SOURCE: https://www.jbschool.ae/tuition-fees/
+[jumeira-baccalaureate-school] YEAR: 2025-2026
+
+[jumeirah-college] ANNUAL FEES:
+- Year 7: 78,946
+- Year 8: 78,946
+- Year 9: 78,946
+- Year 10: 88,813
+- Year 11: 88,813
+- Year 12: 98,681
+- Year 13: 98,681
+[jumeirah-college] ONE-TIME FEES:
+- Application Fee: 525
+[jumeirah-college] SOURCE: https://www.gemsjc.com/Admissions/Fees-and-Payments
+[jumeirah-college] YEAR: 2025-2026
+
+[jumeirah-english-speaking-school] ANNUAL FEES:
+- Foundation 1: 54,129
+- Foundation 2 to Year 6: 65,097
+- Years 7-11: 91,923
+- Years 12-13: 104,544
+[jumeirah-english-speaking-school] ONE-TIME FEES:
+- Application Fee: 500
+- Personal Debenture (Refundable): 20,000
+[jumeirah-english-speaking-school] SOURCE: https://www.jess.sch.ae/admissions-at-jess/school-fees/
+[jumeirah-english-speaking-school] YEAR: 2025-2026
+
+[kent-college] ANNUAL FEES:
+- Nursery (45 days-3 years): 37,430
+- Nursery (3-4 years): 39,130
+- FS1: 55,243
+- FS2: 55,243
+- Year 1: 59,335
+- Year 2: 70,589
+- Year 3: 70,589
+- Year 4: 75,704
+- Year 5: 75,704
+- Year 6: 81,842
+- Year 7: 81,842
+- Year 8: 87,980
+- Year 9: 87,980
+- Year 10: 94,118
+- Year 11: 94,118
+- Year 12: 100,256
+- Year 13: 100,256
+[kent-college] ONE-TIME FEES:
+- Application Fee: 500
+- Nursery Application & Medical Fees: 1,050
+[kent-college] SOURCE: https://www.kentcollege.sch.ae/fee-information/
+[kent-college] YEAR: 2025-2026
+
+[lycee-francais-bilingue-international] ANNUAL FEES:
+- PS (Pre-KG): 46,350
+- MS (KG-1): 56,650
+- GS (KG-2): 59,740
+- CP (Grade 1): 62,830
+- CE1 (Grade 2): 65,920
+- CE2 (Grade 3): 69,010
+- CM1 (Grade 4): 72,100
+- CM2 (Grade 5): 75,190
+- 6eme (Grade 6): 79,310
+- 5eme (Grade 7): 79,310
+- 4eme (Grade 8): 84,460
+- 3eme (Grade 9): 84,460
+- 2nde (Grade 10): 65,827
+- 1ere BFI++ (Grade 11): 68,643
+- 1ere IBDP (Grade 11): 72,363
+- Terminale IBDP (Grade 12): 72,363
+[lycee-francais-bilingue-international] ONE-TIME FEES:
+- File Processing Fee: 500
+[lycee-francais-bilingue-international] SOURCE: https://icedubai.org/enroll-at-our-school/?lang=en
+[lycee-francais-bilingue-international] YEAR: 2025-2026
+
+[lycee-francais-international] ANNUAL FEES:
+- PS / Pre-KG3 (Oud Metha): 29,488
+- MS / KG1 (Oud Metha): 29,488
+- GS / KG2 (Oud Metha): 29,488
+- CP / Grade 1 (Oud Metha): 35,385
+- CE1 / Grade 2 (Oud Metha): 35,385
+- CE2 / Grade 3 (Oud Metha): 35,385
+- CM1 / Grade 4 (Oud Metha): 35,385
+- CM2 / Grade 5 (Oud Metha): 35,385
+- 6e / Grade 6 (Oud Metha): 41,806
+- 5e / Grade 7 (Oud Metha): 41,806
+- 4e / Grade 8 (Oud Metha): 41,806
+- 3e / Grade 9 (Oud Metha): 47,509
+- 2nde / Grade 10 (Oud Metha): 59,338
+- 1ere / Grade 11 (Oud Metha): 62,363
+- Terminale / Grade 12 (Oud Metha): 62,363
+- PS (Mudon): 41,500
+- MS (Mudon): 42,500
+- GS (Mudon): 43,500
+- CP-CM2 (Mudon): 48,500
+[lycee-francais-international] ONE-TIME FEES:
+- File Deposit Fee: 500
+- New Students Fee (ICT, Lab, Library, Medical): 5,000
+[lycee-francais-international] SOURCE: https://lfidubai.aflec-fr.org/frais-de-scolarite/
+[lycee-francais-international] YEAR: 2025-2026
+
+[lycee-libanais-francophone-prive-meydan] ANNUAL FEES:
+- Toute Petite Section: 39,904
+- Petite Section: 39,904
+- Moyenne Section: 39,904
+- Grande Section: 42,004
+- CP: 42,004
+- CE1: 44,105
+- CE2: 44,105
+- CM1: 46,205
+- CM2: 46,205
+- 6eme: 50,405
+- 5eme: 50,405
+- 4eme: 54,606
+- 3eme: 54,606
+- Seconde: 60,906
+- Premiere: 69,307
+- Terminale: 69,307
+[lycee-libanais-francophone-prive-meydan] ONE-TIME FEES:
+- Application Fee: 525
+[lycee-libanais-francophone-prive-meydan] SOURCE: https://llfpm.com/admissions/les-frais-de-scolarite/
+[lycee-libanais-francophone-prive-meydan] YEAR: 2025-2026
+
+[mirdif-american-school] ANNUAL FEES:
+- Pre-K: 25,944
+- KG 1: 26,020
+- KG 2: 27,260
+- GR 1: 28,498
+- GR 2: 29,739
+- GR 3: 30,977
+- GR 4: 32,217
+- GR 5: 33,454
+- GR 6: 34,695
+- GR 7: 37,172
+- GR 8: 38,410
+- GR 9: 41,905
+- GR 10: 43,952
+[mirdif-american-school] ONE-TIME FEES:
+- Application Fee: 525
+[mirdif-american-school] SOURCE: https://mirdifamericanschool.ae/school-free-structure/
+[mirdif-american-school] YEAR: 2025-2026
+
+[new-dawn-private-school] ANNUAL FEES:
+- FS 1: 21,500
+- FS 2: 21,500
+- Year 1: 23,000
+- Year 2: 23,000
+- Year 3: 23,000
+- Year 4: 24,000
+- Year 5: 24,000
+- Year 6: 24,000
+- Year 7: 25,000
+- Year 8: 25,000
+- Year 9: 25,000
+- Year 10: 27,000
+- Year 11: 27,000
+- Year 12: 30,000
+- Year 13: 30,000
+[new-dawn-private-school] ONE-TIME FEES:
+- Application Fee: 500
+- Placement Test Fee: 300
+[new-dawn-private-school] SOURCE: https://web.khda.gov.ae/en/Education-Directory/Schools/School-Details?Id=5590&CenterID=504994
+[new-dawn-private-school] YEAR: 2025-2026

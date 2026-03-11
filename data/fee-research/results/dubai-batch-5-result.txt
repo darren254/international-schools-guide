@@ -1,0 +1,153 @@
+[dove-green-private-school] ANNUAL FEES:
+- FS 1: 42,000
+- FS 2: 42,000
+- Year 1: 44,000
+- Year 2: 44,000
+- Year 3: 46,000
+- Year 4: 46,000
+- Year 5: 48,000
+- Year 6: 48,000
+- Year 7: 55,000
+- Year 8: 55,000
+- Year 9: 55,000
+- Year 10: 60,000
+- Year 11: 60,000
+[dove-green-private-school] SOURCE: https://dovegreenschool.com/
+[dove-green-private-school] YEAR: 2025-2026
+
+[dubai-arabian-american-private-school] ANNUAL FEES:
+- KG 1: 15,134
+- KG 2: 15,920
+- Grade 1: 18,215
+- Grade 2: 18,998
+- Grade 3: 19,783
+- Grade 4: 20,568
+- Grade 5: 21,353
+- Grade 6: 22,009
+- Grade 7: 24,197
+- Grade 8: 25,637
+- Grade 9: 27,206
+- Grade 10: 30,179
+- Grade 11: 32,795
+- Grade 12: 35,411
+[dubai-arabian-american-private-school] ONE-TIME FEES:
+- Application Fee: 350
+[dubai-arabian-american-private-school] SOURCE: https://www.doris.school/schools/united-arab-emirates/dubai-arabian-american-private-school/fees
+[dubai-arabian-american-private-school] YEAR: 2025-2026
+
+[dubai-british-school-emirates-hills] ANNUAL FEES:
+- Rising 3s: 53,027
+- FS1-FS2: 53,027
+- Years 1-2: 53,027
+- Years 3-6: 60,608
+- Years 7-11: 71,976
+- Years 12-13: 79,541
+[dubai-british-school-emirates-hills] ONE-TIME FEES:
+- Application Fee: 525
+- Registration Fee: 4,000
+[dubai-british-school-emirates-hills] SOURCE: https://www.dubaibritishschool.ae/admissions/fees/
+[dubai-british-school-emirates-hills] YEAR: 2025-2026
+
+[dubai-british-school-jumeira] ANNUAL FEES:
+- Rising 3s: 43,500
+- FS1-FS2: 51,477
+- Years 1-2: 51,477
+- Years 3-6: 58,836
+- Years 7-8: 69,872
+- Years 9-11: 69,872
+- Years 12-13: 77,217
+[dubai-british-school-jumeira] ONE-TIME FEES:
+- Application Fee: 525
+- Registration Fee: 4,000
+[dubai-british-school-jumeira] SOURCE: https://dubaibritishschooljumeira.ae/admissions/fees/
+[dubai-british-school-jumeira] YEAR: 2025-2026
+
+[dubai-british-school-jumeirah-park] ANNUAL FEES:
+- Years 1-2: 64,160
+- Years 3-4: 67,490
+- Years 5-6: 71,950
+- Year 7: 77,490
+- Years 8-13: 83,015
+[dubai-british-school-jumeirah-park] ONE-TIME FEES:
+- Application Fee: 525
+- Registration Fee: 4,000
+[dubai-british-school-jumeirah-park] SOURCE: https://www.dubaibritishschooljp.ae/admissions/fees/
+[dubai-british-school-jumeirah-park] YEAR: 2025-2026
+
+[dubai-british-school-mira] ANNUAL FEES:
+- FS1: 51,477
+- FS2: 51,477
+- Year 1: 51,477
+- Year 2: 51,477
+- Year 3: 58,836
+- Year 4: 58,836
+- Year 5: 58,836
+- Year 6: 58,836
+- Years 7-8: 69,872
+- Years 9-11: 69,872
+- Years 12-13: 77,217
+[dubai-british-school-mira] ONE-TIME FEES:
+- Application Fee: 525
+- Registration Fee: 4,000
+[dubai-british-school-mira] SOURCE: https://dubaibritishschoolmira.ae/admissions/fees/
+[dubai-british-school-mira] YEAR: 2025-2026
+
+[dubai-carmel-school] ANNUAL FEES:
+- FS2: 8,912
+- Year 1: 8,912
+- Year 2: 9,059
+- Year 3: 9,285
+- Year 4: 9,434
+- Year 5: 9,584
+- Year 6: 9,584
+- Year 7: 9,584
+- Year 8: 10,931
+- Year 9: 11,682
+- Year 10: 12,430
+- Year 11: 13,027
+- Year 12: 13,627
+- Year 13: 15,124
+[dubai-carmel-school] SOURCE: https://www.doris.school/schools/united-arab-emirates/dubai-carmel-school/fees
+[dubai-carmel-school] YEAR: 2025-2026
+
+[dubai-college] ANNUAL FEES:
+- Year 7: 97,415
+- Year 8: 97,415
+- Year 9: 97,415
+- Year 10: 97,415
+- Year 11: 97,415
+- Year 12: 110,305
+- Year 13: 110,305
+[dubai-college] ONE-TIME FEES:
+- Application Fee: 525
+- Personal Debenture (Refundable): 30,000
+[dubai-college] SOURCE: https://www.doris.school/schools/united-arab-emirates/dubai-college/fees
+[dubai-college] YEAR: 2025-2026
+
+[dubai-english-speaking-college] ANNUAL FEES:
+- Year 7: 84,326
+- Year 8: 84,326
+- Year 9: 84,326
+- Year 10: 84,326
+- Year 11: 84,326
+- Year 12: 90,633
+[dubai-english-speaking-college] ONE-TIME FEES:
+- Application Fee: 525
+- Acceptance Fee (Years 7-11): 5,000
+- Acceptance Fee (Sixth Form): 7,500
+[dubai-english-speaking-college] SOURCE: https://www.doris.school/schools/united-arab-emirates/dubai-english-speaking-college/fees
+[dubai-english-speaking-college] YEAR: 2025-2026
+
+[dubai-english-speaking-school-academic-city] ANNUAL FEES:
+- Foundation Stage 1: 55,250
+- Foundation Stage 2: 63,750
+- Year 1: 63,750
+- Year 2: 63,750
+- Year 3: 63,750
+- Year 4: 63,750
+- Year 5: 63,750
+- Year 6: 63,750
+[dubai-english-speaking-school-academic-city] ONE-TIME FEES:
+- Acceptance Fee: 4,000
+[dubai-english-speaking-school-academic-city] SOURCE: https://dess.sch.ae/admissions/fee-structure
+[dubai-english-speaking-school-academic-city] YEAR: 2025-2026

@@ -1,0 +1,198 @@
+[durham-school] ANNUAL FEES:
+- FS 1: 48,105
+- FS 2: 48,105
+- Year 1: 51,622
+- Year 2: 51,622
+- Year 3: 57,762
+- Year 4: 57,762
+- Year 5: 57,762
+- Year 6: 57,762
+- Year 7: 64,480
+- Year 8: 64,480
+- Year 9: 65,186
+- Year 10: 65,383
+- Year 11: 65,383
+[durham-school] ONE-TIME FEES:
+- Application Fee: 525
+[durham-school] SOURCE: https://durhamdubai.ae/tuition-fees/
+[durham-school] YEAR: 2025-2026
+
+[dwight-school] ANNUAL FEES:
+- Pre-K: 65,117
+- KG 1: 72,909
+- KG 2: 84,597
+- Grade 1: 84,597
+- Grade 2: 84,597
+- Grade 3: 84,597
+- Grade 4: 87,936
+- Grade 5: 87,936
+- Grade 6: 98,511
+- Grade 7: 98,511
+- Grade 8: 98,511
+- Grade 9: 102,963
+- Grade 10: 102,963
+- Grade 11: 110,755
+- Grade 12: 110,755
+[dwight-school] ONE-TIME FEES:
+- Application Fee: 525
+- Registration Fee: 6,000
+[dwight-school] SOURCE: https://dwight.ae/admissions/school-fees/
+[dwight-school] YEAR: 2025-2026
+
+[emirates-american-school] ANNUAL FEES:
+- Pre-KG: 17,020
+- KG 1: 17,020
+- KG 2: 17,020
+- G 1: 19,856
+- G 2: 19,856
+- G 3: 19,881
+- G 4: 20,976
+- G 5: 21,121
+- G 6: 22,101
+- G 7: 22,130
+- G 8: 22,130
+- G 9: 23,855
+- G 10: 23,885
+- G 11: 25,160
+- G 12: 27,715
+[emirates-american-school] ONE-TIME FEES:
+- Registration Fee: 500
+[emirates-american-school] SOURCE: https://emiratesamericanschool.com/school-fee-structure/
+[emirates-american-school] YEAR: 2025-2026
+
+[emirates-international-school-jumeirah] ANNUAL FEES:
+- EY1: 38,636
+- EY2: 38,636
+- Year 1: 38,636
+- Year 2: 45,994
+- Year 3: 45,994
+- Year 4: 51,510
+- Year 5: 51,510
+- Year 6: 51,510
+- Year 7: 60,716
+- Year 8: 60,716
+- Year 9: 60,716
+- Year 10: 69,913
+- Year 11: 69,913
+- Year 12: 81,872
+- Year 13: 81,872
+[emirates-international-school-jumeirah] ONE-TIME FEES:
+- Application Fee: 525
+[emirates-international-school-jumeirah] SOURCE: https://eischools.ae/jumeirah/fee-policy
+[emirates-international-school-jumeirah] YEAR: 2025-2026
+
+[emirates-international-school-meadows] ANNUAL FEES:
+- EY1: 28,990
+- EY2: 38,046
+- Year 1: 38,046
+- Year 2: 45,292
+- Year 3: 45,292
+- Year 4: 50,734
+- Year 5: 50,734
+- Year 6: 50,734
+- Year 7: 59,790
+- Year 8: 59,790
+- Year 9: 59,790
+- Year 10: 68,858
+- Year 11: 68,858
+- Year 12: 80,621
+- Year 13: 85,976
+[emirates-international-school-meadows] ONE-TIME FEES:
+- Application Fee: 525
+[emirates-international-school-meadows] SOURCE: https://eischools.ae/meadows
+[emirates-international-school-meadows] YEAR: 2025-2026
+
+[fairgreen-international-school] ANNUAL FEES:
+- Pre-KG: 49,400
+- KG-1: 54,600
+- KG-2: 56,000
+- Grade 1: 69,300
+- Grade 2: 69,300
+- Grade 3: 69,300
+- Grade 4: 69,300
+- Grade 5: 77,750
+- Grade 6: 77,750
+- Grade 7: 77,750
+- Grade 8: 77,750
+- Grade 9: 79,800
+- Grade 10: 79,800
+- Grade 11: 84,500
+- Grade 12: 84,500
+[fairgreen-international-school] ONE-TIME FEES:
+- Application and Testing Fee: 525
+[fairgreen-international-school] SOURCE: https://www.fairgreen.ae/admissions/tuition-deadlines/fees-and-payment-2025-26
+[fairgreen-international-school] YEAR: 2025-2026
+
+[gems-dubai-american-academy] ANNUAL FEES:
+- KG 1: 66,185
+- KG 2: 66,185
+- Grade 1: 93,300
+- Grade 2: 93,300
+- Grade 3: 93,300
+- Grade 4: 93,300
+- Grade 5: 93,300
+- Grade 6: 93,300
+- Grade 7: 93,300
+- Grade 8: 93,300
+- Grade 9: 93,300
+- Grade 10: 93,300
+- Grade 11: 93,300
+- Grade 12: 93,300
+[gems-dubai-american-academy] ONE-TIME FEES:
+- Application Fee: 525
+[gems-dubai-american-academy] SOURCE: https://www.gemsaa-dubai.com/Admissions/Tuition-Fees
+[gems-dubai-american-academy] YEAR: 2025-2026
+
+[gems-firstpoint-school] ANNUAL FEES:
+- FS1-FS2: 41,388
+- Years 1-3: 49,013
+- Years 4-6: 54,458
+- Years 7-9: 59,904
+- Years 10-11: 65,350
+- Years 12-13: 70,796
+[gems-firstpoint-school] ONE-TIME FEES:
+- Application Fee: 525
+[gems-firstpoint-school] SOURCE: https://www.gemsfirstpointschool-dubai.com/Admissions/Tuition-Fees
+[gems-firstpoint-school] YEAR: 2025-2026
+
+[gems-founders-school] ANNUAL FEES:
+- FS 1: 24,749
+- FS 2: 28,126
+- Year 1: 30,375
+- Year 2: 30,375
+- Year 3: 30,375
+- Year 4: 30,375
+- Year 5: 30,375
+- Year 6: 30,375
+- Year 7: 32,624
+- Year 8: 32,624
+- Year 9: 32,624
+- Year 10: 34,875
+- Year 11: 34,875
+- Year 12: 37,124
+- Year 13: 37,124
+[gems-founders-school] ONE-TIME FEES:
+- Application Fee: 525
+[gems-founders-school] SOURCE: https://www.gemsfoundersschool-dubai.com/en/Admissions/Tuition-Fees
+[gems-founders-school] YEAR: 2025-2026
+
+[gems-founders-school-al-mizhar] ANNUAL FEES:
+- FS1: 24,877
+- FS2: 28,122
+- Y01: 30,285
+- Y02: 30,285
+- Y03: 30,285
+- Y04: 30,285
+- Y05: 30,285
+- Y06: 30,285
+- Y07: 32,448
+- Y08: 32,448
+- Y09: 32,448
+- Y10: 35,694
+- Y11: 35,694
+- Y12: 37,856
+- Y13: 37,856
+[gems-founders-school-al-mizhar] ONE-TIME FEES:
+- Application Fee: 525
+[gems-founders-school-al-mizhar] SOURCE: https://www.gemsfoundersschool-mizhar.com/en/Admissions/Fees-and-Payments
+[gems-founders-school-al-mizhar] YEAR: 2025-2026

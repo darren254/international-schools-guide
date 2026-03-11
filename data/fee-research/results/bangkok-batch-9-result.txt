@@ -1,0 +1,151 @@
+[st-andrews-international-school-dusit] ANNUAL FEES:
+- Nursery (3 Half Days): 269,000
+- Nursery (5 Half Days): 336,000
+- Nursery (5 Full Days): 448,000
+- Kindergarten: 506,000
+- Reception: 561,000
+- Year 1 - Year 2: 582,000
+- Year 3 - Year 6: 593,000
+[st-andrews-international-school-dusit] ONE-TIME FEES:
+- Application Fee: 5,000
+- Enrollment Fee: 120,000
+- General Deposit: 10,000
+[st-andrews-international-school-dusit] SOURCE: https://www.standrewsdusit.com/admissions/fee/
+[st-andrews-international-school-dusit] YEAR: 2025-2026
+
+[st-andrews-international-school-sathorn] ANNUAL FEES:
+- Nursery (3 Half Days): 213,000
+- Nursery (4 Half Days): 284,000
+- Nursery (5 Half Days): 354,500
+- Nursery (5 Full Days): 562,500
+- Kindergarten: 640,000
+- Reception: 643,500
+- Year 1 - Year 2: 699,500
+- Year 3 - Year 6: 709,800
+[st-andrews-international-school-sathorn] ONE-TIME FEES:
+- Application Fee: 5,000
+- Enrolment Fee: 120,000
+- Capital Levy Fee: 60,000
+- General Deposit: 10,000
+[st-andrews-international-school-sathorn] SOURCE: https://www.standrewssathorn.com/fees/
+[st-andrews-international-school-sathorn] YEAR: 2025-2026
+
+[st-andrews-international-school-sukhumvit-107] ANNUAL FEES:
+- Nursery (5 Days - Half Days): 362,000
+- Nursery (5 Days - Full Day): 574,500
+- KG to Reception: 629,500
+- Year 1 - Year 6: 679,000
+- Year 7 - Year 9: 731,000
+- Year 10: 742,500
+- Year 11 (2 terms only): 732,000
+- Year 12: 769,500
+- Year 13 (2 terms only): 759,000
+[st-andrews-international-school-sukhumvit-107] ONE-TIME FEES:
+- Application Fee: 5,000
+- Enrolment Fee (Early Years to Year 6): 120,000
+- Enrolment Fee (Year 7 to Year 13): 70,000
+- General Deposit: 10,000
+[st-andrews-international-school-sukhumvit-107] SOURCE: https://www.standrewssukhumvit.com/fees-and-payments/
+[st-andrews-international-school-sukhumvit-107] YEAR: 2025-2026
+
+[st-andrews-samakee-international-school] ANNUAL FEES:
+- Nursery - Reception (Morning Only, 3 days): 278,600
+- Nursery - Reception (Morning Only, 4 days): 370,600
+- Nursery - Reception (Morning Only, 5 days): 456,600
+- Nursery - Reception (Full Day, 3 days): 389,200
+- Nursery - Reception (Full Day, 4 days): 511,800
+- Nursery - Reception (Full Day, 5 days): 635,400
+- Year 1 - Year 9: 714,800
+[st-andrews-samakee-international-school] ONE-TIME FEES:
+- Application Fee: 2,500
+- Enrolment Fee: 60,000
+[st-andrews-samakee-international-school] SOURCE: https://www.standrews-samakee.com/admissions/tuition
+[st-andrews-samakee-international-school] YEAR: 2025-2026
+
+[thai-chinese-international-school] ANNUAL FEES:
+- PK2-PK4: 369,603
+- KG: 369,603
+- Grade 1-2: 408,194
+- Grade 3-5: 434,359
+- Grade 6: 464,227
+- Grade 7-9: 464,413
+- Grade 10-11: 490,389
+[thai-chinese-international-school] ONE-TIME FEES:
+- Application Fee: 5,000
+- Registration Fee: 100,000
+- Campus Development Fund (Refundable): 100,000
+[thai-chinese-international-school] SOURCE: https://tcis.ac.th/sites/default/files/2025-10/Updated-English-2025-2026%20Admissions%20Policies%20%26%20Placement.pdf
+[thai-chinese-international-school] YEAR: 2025-2026
+
+[thai-international-school] ANNUAL FEES:
+- Nursery - Kindergarten 2: 350,000
+- Kindergarten 3: 390,000
+- Primary School (Grade 1-5): 525,000
+- Middle School (Grade 6-8): 580,000
+[thai-international-school] ONE-TIME FEES:
+- Registration Fee: 5,200
+- Admission Fee: 120,000
+- Damage Insurance (Refundable): 100,000
+[thai-international-school] SOURCE: https://thaiinternationalschool.ac.th/tuition-and-fees/
+[thai-international-school] YEAR: 2025-2026
+
+[thai-singapore-international-school] FEES NOT AVAILABLE
+
+[the-american-school-of-bangkok-green-valley-campus] ANNUAL FEES:
+- Pre-Kindergarten: 430,000
+- Kindergarten 1-3: 460,000
+- Grades 1-5: 607,000
+- Grades 6-8: 690,000
+- Grades 9-12: 760,000
+[the-american-school-of-bangkok-green-valley-campus] ONE-TIME FEES:
+- Registration Fee: 200,000
+- Refundable Deposit: 30,000
+- Campus Development Fee (Refundable): 150,000
+[the-american-school-of-bangkok-green-valley-campus] SOURCE: https://asbgv.ac.th/admission/tuition-fees
+[the-american-school-of-bangkok-green-valley-campus] YEAR: 2025-2026
+
+[traill-international-school] ANNUAL FEES:
+- Pre KG: 358,200
+- KG1: 358,200
+- KG2: 358,200
+- Year 1: 390,300
+- Year 2: 390,300
+- Year 3: 416,250
+- Year 4: 416,250
+- Year 5: 444,000
+- Year 6: 444,000
+- Year 7: 484,800
+- Year 8: 484,800
+- Year 9: 512,700
+- Year 10: 553,200
+- Year 11: 553,200
+- Year 12: 558,000
+- Year 13: 558,000
+[traill-international-school] ONE-TIME FEES:
+- Registration Fee: 130,000
+- Security Deposit: 35,000
+[traill-international-school] SOURCE: https://www.traillschool.com/school-fees-charges
+[traill-international-school] YEAR: 2025-2026
+
+[trinity-international-school] ANNUAL FEES:
+- K1: 249,595
+- K2: 249,595
+- K3: 249,595
+- Grade 1: 288,440
+- Grade 2: 288,440
+- Grade 3: 288,440
+- Grade 4: 288,440
+- Grade 5: 288,440
+- Grade 6: 322,310
+- Grade 7: 322,310
+- Grade 8: 322,310
+- Grade 9: 322,310
+- Grade 10: 322,310
+- Grade 11: 322,310
+- Grade 12: 322,310
+[trinity-international-school] ONE-TIME FEES:
+- Application Fee: 40,000
+- Enrollment Fee (K1-K3): 80,000
+- Enrollment Fee (Grade 1-12): 110,000
+[trinity-international-school] SOURCE: https://www.doris.school/schools/thailand/trinity-international-school/fees
+[trinity-international-school] YEAR: 2025-2026

@@ -1,0 +1,216 @@
+[ajman-academy] ANNUAL FEES:
+- Pre-KG Normal Day: 24,000
+- Pre-KG Extended Day: 27,000
+- KG 1: 32,000
+- KG 2: 35,000
+- Grade 1: 35,000
+- Grade 2: 44,900
+- Grade 3: 44,900
+- Grade 4: 44,900
+- Grade 5: 48,200
+- Grade 6: 48,200
+- Grade 7: 54,800
+- Grade 8: 54,800
+- Grade 9: 54,800
+- Grade 10: 57,000
+- Grade 11: 57,000
+- Grade 12: 66,350
+[ajman-academy] ONE-TIME FEES:
+- Admission Fee: 500
+[ajman-academy] SOURCE: https://www.ajmanacademy.com/admissions/fees-structure
+[ajman-academy] YEAR: 2025-2026
+
+[ajman-american-private-school] ANNUAL FEES:
+- KG 1-2: 21,000
+- Grade 1-4: 24,000
+- Grade 5-6: 27,000
+- Grade 7-8: 30,000
+- Grade 9-10: 33,000
+- Grade 11-12: 36,000
+[ajman-american-private-school] ONE-TIME FEES:
+- Registration Fee: 500
+[ajman-american-private-school] SOURCE: https://ajmanamericanschool.com/tuition-fee/
+[ajman-american-private-school] YEAR: 2024-2025
+
+[al-diyafah-high-school] ANNUAL FEES:
+- FS 1: 11,596
+- FS 2: 11,596
+- Year 1: 12,214
+- Year 2: 12,214
+- Year 3: 12,214
+- Year 4: 12,578
+- Year 5: 12,578
+- Year 6: 12,578
+- Year 7: 12,851
+- Year 8: 14,626
+- Year 9: 16,153
+- Year 10: 20,521
+- Year 11: 20,521
+- Year 12: 20,831
+- Year 13: 24,655
+[al-diyafah-high-school] ONE-TIME FEES:
+- Admission and Registration Fee: 1,000
+[al-diyafah-high-school] SOURCE: https://www.diyafah.com/admissions/school%20fee%20structure%202026-2027
+[al-diyafah-high-school] YEAR: 2026-2027
+
+[al-ittihad-private-school-jumeira] ANNUAL FEES:
+- Pre KG: 23,184
+- KG1: 23,345
+- KG2: 23,345
+- Grade 1: 31,129
+- Grade 2: 31,129
+- Grade 3: 31,129
+- Grade 4: 36,495
+- Grade 5: 36,495
+- Grade 6: 36,495
+- Grade 7: 38,646
+- Grade 8: 38,646
+- Grade 9: 38,646
+- Grade 10: 47,633
+- Grade 11: 47,633
+- Grade 12: 47,633
+[al-ittihad-private-school-jumeira] ONE-TIME FEES:
+- Application Fee: 500
+[al-ittihad-private-school-jumeira] SOURCE: https://arabian-edu.com/jumeirah/admission#section4
+[al-ittihad-private-school-jumeira] YEAR: 2025-2026
+
+[al-khaleej-international-school] ANNUAL FEES:
+- Pre KG: 30,675
+- KG 1: 32,125
+- KG 2: 32,125
+- Grade 1: 35,622
+- Grade 2: 35,622
+- Grade 3: 35,622
+- Grade 4: 39,173
+- Grade 5: 39,173
+- Grade 6: 39,173
+- Grade 7: 44,219
+- Grade 8: 44,219
+- Grade 9: 44,709
+- Grade 10: 52,129
+- Grade 11 (American): 52,129
+- Grade 12 (American): 52,129
+- Grade 11 (IB): 63,457
+- Grade 12 (IB): 63,457
+[al-khaleej-international-school] ONE-TIME FEES:
+- Application Fee: 525
+[al-khaleej-international-school] SOURCE: https://www.gemsakinternationalschool.com/en/Admissions/Fees-and-Payments
+[al-khaleej-international-school] YEAR: 2025-2026
+
+[al-mawakeb-school] ANNUAL FEES:
+- KG1 (Garhoud/Barsha): 15,726
+- KG2 (Garhoud/Barsha): 15,726
+- G1 (Garhoud/Barsha): 15,982
+- G2 (Garhoud/Barsha): 16,045
+- G3 (Garhoud/Barsha): 16,457
+- G4 (Garhoud/Barsha): 16,805
+- G5 (Garhoud/Barsha): 17,316
+- G6 (Garhoud/Barsha): 17,502
+- G7 (Garhoud/Barsha): 19,406
+- G8 (Garhoud/Barsha): 19,532
+- G9 (Garhoud/Barsha): 21,246
+- G10 (Garhoud/Barsha): 21,436
+- G11 (Garhoud/Barsha): 23,970
+- G12 (Garhoud/Barsha): 25,493
+- Pre-K (Khawaneej): 36,181
+- KG 1 (Khawaneej): 37,587
+- KG 2 (Khawaneej): 39,209
+- Grade 1 (Khawaneej): 42,238
+- Grade 2 (Khawaneej): 43,320
+- Grade 3 (Khawaneej): 46,023
+- Grade 4 (Khawaneej): 48,186
+- Grade 5 (Khawaneej): 51,431
+- Grade 6 (Khawaneej): 55,758
+- Grade 7 (Khawaneej): 56,839
+- Grade 8 (Khawaneej): 58,461
+- Grade 9 (Khawaneej): 63,113
+- Grade 10 (Khawaneej): 66,033
+- Grade 11 (Khawaneej): 67,655
+- Grade 12 (Khawaneej): 69,602
+[al-mawakeb-school] ONE-TIME FEES:
+- Application and Processing Fee: 525
+[al-mawakeb-school] SOURCE: https://almawakeb.sch.ae/applying-almawakeb
+[al-mawakeb-school] YEAR: 2026-2027
+
+[al-salam-community-school] ANNUAL FEES:
+- FS1: 23,795
+- FS2: 23,795
+- YR 1: 27,041
+- YR 2: 27,041
+- YR 3: 29,204
+- YR 4: 29,204
+- YR 5: 31,367
+- YR 6: 31,367
+- YR 7: 35,152
+- YR 8: 35,152
+- YR 9: 36,775
+- YR 10: 38,938
+- YR 11: 38,938
+- YR 12: 41,102
+- YR 13: 41,102
+[al-salam-community-school] ONE-TIME FEES:
+- Assessment Fee: 525
+- Registration Fee: 2,000
+[al-salam-community-school] SOURCE: https://www.alsalamcommunity.ae/admissions/school-fees/
+[al-salam-community-school] YEAR: 2025-2026
+
+[al-salam-private-school] ANNUAL FEES:
+- FS1: 19,125
+- FS2: 18,252
+- Year 1: 18,779
+- Year 2: 19,228
+- Year 3: 19,455
+- Year 4: 19,787
+- Year 5: 20,365
+- Year 6: 21,130
+- Year 7: 23,860
+- Year 8: 24,759
+- Year 9: 25,761
+- Year 10: 28,536
+- Year 11: 31,390
+[al-salam-private-school] ONE-TIME FEES:
+- Application Fee: 500
+[al-salam-private-school] SOURCE: https://web.khda.gov.ae/en/Education-Directory/Schools/School-Details/Fact-Sheet?centerID=43&currID=1&gradeID=91&sectionID=1&QR=1&ispreview=0
+[al-salam-private-school] YEAR: 2025-2026
+
+[ambassador-international-academy] ANNUAL FEES:
+- FS 1/Pre-KG: 34,015
+- FS 2/KG-1: 36,805
+- Year 1/KG-2: 41,691
+- Year 2/Grade 1: 44,386
+- Year 3/Grade 2: 44,386
+- Year 4/Grade 3: 47,337
+- Year 5/Grade 4: 47,337
+- Year 6/Grade 5: 47,337
+- Year 7/Grade 6: 50,677
+- Year 8/Grade 7: 54,352
+- Year 9/Grade 8: 61,117
+- Year 10/Grade 9: 64,491
+- Year 11/Grade 10: 69,841
+- Year 12/Grade 11: 74,500
+- Year 13/Grade 12: 74,500
+[ambassador-international-academy] ONE-TIME FEES:
+- Registration Fee: 500
+[ambassador-international-academy] SOURCE: https://aiadubai.com/admissions#adtabTuitionFee
+[ambassador-international-academy] YEAR: 2025-2026
+
+[ambassador-international-academy-mankhool] ANNUAL FEES:
+- FS 1/Pre-KG: 45,000
+- FS 2/KG-1: 50,000
+- Year 1/KG-2: 55,000
+- Year 2/Grade 1: 59,000
+- Year 3/Grade 2: 59,000
+- Year 4/Grade 3: 59,000
+- Year 5/Grade 4: 59,000
+- Year 6/Grade 5: 59,000
+- Year 7/Grade 6: 69,000
+- Year 8/Grade 7: 69,000
+- Year 9/Grade 8: 69,000
+- Year 10/Grade 9: 95,000
+- Year 11/Grade 10: 95,000
+- Year 12/Grade 11: 95,000
+- Year 13/Grade 12: 95,000
+[ambassador-international-academy-mankhool] ONE-TIME FEES:
+- Registration Fee: 500
+[ambassador-international-academy-mankhool] SOURCE: https://www.aiamankhool.com/admissions
+[ambassador-international-academy-mankhool] YEAR: 2026-2027

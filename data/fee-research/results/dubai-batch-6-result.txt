@@ -1,0 +1,206 @@
+[dubai-english-speaking-school-oud-metha] ANNUAL FEES:
+- Foundation Stage 1: 43,084
+- Foundation Stage 2: 53,320
+- Years 1-6: 53,320
+[dubai-english-speaking-school-oud-metha] ONE-TIME FEES:
+- Application Fee: 525
+- Acceptance Fee: 3,500
+[dubai-english-speaking-school-oud-metha] SOURCE: https://dess.sch.ae/admissions/fee-structure
+[dubai-english-speaking-school-oud-metha] YEAR: 2025-2026
+
+[dubai-heights-academy] ANNUAL FEES:
+- FS1: 30,000
+- FS2: 37,500
+- Year 1: 43,000
+- Year 2: 43,000
+- Year 3: 48,000
+- Year 4: 48,000
+- Year 5: 51,000
+- Year 6: 51,000
+- Year 7: 53,500
+- Year 8: 53,500
+- Year 9: 58,500
+- Year 10: 63,500
+- Year 11: 63,500
+- Year 12: 65,000
+[dubai-heights-academy] ONE-TIME FEES:
+- Application Fee: 525
+[dubai-heights-academy] SOURCE: https://www.dubaiheightsacademy.com/admissions/fees
+[dubai-heights-academy] YEAR: 2025-2026
+
+[dubai-international-academy-al-barsha] ANNUAL FEES:
+- Pre KG: 47,807
+- KG1: 53,582
+- KG2: 56,237
+- Grade 1: 62,163
+- Grade 2: 62,163
+- Grade 3: 62,608
+- Grade 4: 62,608
+- Grade 5: 62,608
+- Grade 6: 70,635
+- Grade 7: 70,635
+- Grade 8: 70,635
+- Grade 9: 78,170
+- Grade 10: 78,170
+- Grade 11: 84,928
+- Grade 12: 84,928
+[dubai-international-academy-al-barsha] ONE-TIME FEES:
+- Entrance Test Fee: 525
+[dubai-international-academy-al-barsha] SOURCE: https://www.diabarsha.com/fees-25-26-diaab
+[dubai-international-academy-al-barsha] YEAR: 2025-2026
+
+[dubai-international-academy-emirates-hills] ANNUAL FEES:
+- KG1: 44,979
+- KG2: 50,726
+- Year 1: 51,202
+- Year 2: 57,983
+- Year 3: 57,983
+- Year 4: 57,983
+- Year 5: 57,983
+- Year 6: 57,983
+- Year 7: 65,224
+- Year 8: 65,224
+- Year 9: 65,224
+- Year 10: 72,482
+- Year 11: 72,482
+- Year 12: 79,696
+- Year 13: 79,696
+[dubai-international-academy-emirates-hills] ONE-TIME FEES:
+- Entrance Test Fee: 525
+[dubai-international-academy-emirates-hills] SOURCE: https://www.diadubai.com/fee-structure-25-26
+[dubai-international-academy-emirates-hills] YEAR: 2025-2026
+
+[dubai-international-academy-town-square] ANNUAL FEES:
+- Pre KG: 49,000
+- KG1: 49,000
+- KG2: 57,000
+- Grade 1: 57,000
+- Grade 2: 62,500
+- Grade 3: 62,500
+- Grade 4: 62,500
+- Grade 5: 62,500
+- Grade 6: 70,500
+- Grade 7: 70,500
+- Grade 8: 70,500
+[dubai-international-academy-town-square] ONE-TIME FEES:
+- Entrance Test Fee: 525
+[dubai-international-academy-town-square] SOURCE: https://www.diats.com/fees
+[dubai-international-academy-town-square] YEAR: 2026-2027
+
+[dubai-international-private-school] ANNUAL FEES:
+- KG 1: 15,974
+- KG 2: 15,974
+- Grade 1: 15,974
+- Grade 2: 16,164
+- Grade 3: 16,346
+- Grade 4: 16,346
+- Grade 5: 16,890
+- Grade 6: 16,890
+- Grade 7: 19,134
+- Grade 8: 19,134
+- Grade 9: 20,809
+- Grade 10: 20,992
+- Grade 11: 23,034
+- Grade 12: 25,080
+[dubai-international-private-school] ONE-TIME FEES:
+- Application Fee: 525
+[dubai-international-private-school] SOURCE: https://www.dips-alquoz.ae/fact-sheet
+[dubai-international-private-school] YEAR: 2025-2026
+
+[dubai-modern-education-school] ANNUAL FEES:
+- KG 1 (US): 13,487
+- KG 2 (US): 13,487
+- Grade 1 (US): 17,537
+- Grade 2 (US): 17,665
+- Grade 3 (US): 17,789
+- Grade 4 (US): 19,177
+- Grade 5 (US): 19,428
+- Grade 6 (US): 19,617
+- Grade 7 (US): 22,032
+- Grade 8 (US): 22,284
+- Grade 9 (US): 22,410
+- Grade 10 (US): 24,610
+- Grade 11 (US): 24,736
+- Grade 12 (US): 24,911
+- Grade 1 (MOE): 15,412
+- Grade 2 (MOE): 15,512
+- Grade 3 (MOE): 15,722
+- Grade 4 (MOE): 16,625
+- Grade 5 (MOE): 16,725
+- Grade 6 (MOE): 16,935
+- Grade 7 (MOE): 17,839
+- Grade 8 (MOE): 17,939
+- Grade 9 (MOE): 18,149
+- Grade 10 (MOE): 18,530
+- Grade 11 (MOE): 18,640
+- Grade 12 (MOE): 18,740
+[dubai-modern-education-school] ONE-TIME FEES:
+- Application Fee: 500
+[dubai-modern-education-school] SOURCE: https://dmes.ae/en/admissions/fee-structure/
+[dubai-modern-education-school] YEAR: 2025-2026
+
+[dubai-national-school-al-barsha] ANNUAL FEES:
+- Pre-KG: 24,172
+- KG 1: 24,172
+- KG 2: 24,172
+- Grade 1: 26,420
+- Grade 2: 26,420
+- Grade 3: 26,420
+- Grade 4: 27,936
+- Grade 5: 28,650
+- Grade 6: 28,650
+- Grade 7: 31,929
+- Grade 8: 31,929
+- Grade 9: 33,038
+- Grade 10: 35,119
+- Grade 11: 39,665
+- Grade 12: 39,665
+[dubai-national-school-al-barsha] ONE-TIME FEES:
+- Application Fee: 500
+[dubai-national-school-al-barsha] SOURCE: https://dnsalbarsha.com/tuition-fees/
+[dubai-national-school-al-barsha] YEAR: 2025-2026
+
+[dubai-scholars-private-school] ANNUAL FEES:
+- FS1: 15,833
+- FS2: 16,403
+- Year 1: 18,818
+- Year 2: 18,818
+- Year 3: 18,818
+- Year 4: 18,818
+- Year 5: 19,087
+- Year 6: 19,087
+- Year 7: 19,087
+- Year 8: 20,224
+- Year 9: 20,224
+- Year 10: 20,224
+- Year 11: 20,224
+- Year 12: 29,806
+- Year 13: 32,568
+[dubai-scholars-private-school] ONE-TIME FEES:
+- Application and Standard Assessment Fee: 500
+- Onboarding and Diagnostic Assessment Fee: 750
+[dubai-scholars-private-school] SOURCE: https://dubaischolars.com/school-fees/
+[dubai-scholars-private-school] YEAR: 2025-2026
+
+[dunecrest-american-school] ANNUAL FEES:
+- Pre-K: 41,500
+- KG1: 48,370
+- KG2: 52,700
+- Grade 1: 72,960
+- Grade 2: 72,960
+- Grade 3: 72,960
+- Grade 4: 72,960
+- Grade 5: 80,550
+- Grade 6: 80,550
+- Grade 7: 80,550
+- Grade 8: 80,550
+- Grade 9: 90,050
+- Grade 10: 90,050
+- Grade 11: 90,050
+- Grade 12: 90,050
+[dunecrest-american-school] ONE-TIME FEES:
+- Application/Testing Fee: 500
+- Registration Deposit (Pre-KG to KG2): 3,000
+- Registration Deposit (Grade 1 to Grade 12): 4,500
+[dunecrest-american-school] SOURCE: https://www.dunecrest.ae/admissions/tuition-fees
+[dunecrest-american-school] YEAR: 2025-2026

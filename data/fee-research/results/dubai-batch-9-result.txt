@@ -1,0 +1,197 @@
+[gems-wellington-academy-silicon-oasis] ANNUAL FEES:
+- Nursery: 45,428
+- FS 1: 40,340
+- FS 2: 50,099
+- Year 1: 50,099
+- Year 2: 50,099
+- Year 3: 50,099
+- Year 4: 50,099
+- Year 5: 50,099
+- Year 6: 50,099
+- Year 7: 75,719
+- Year 8: 79,045
+- Year 9: 79,045
+- Year 10: 81,595
+- Year 11: 81,595
+- Year 12: 89,246
+- Year 13: 89,246
+[gems-wellington-academy-silicon-oasis] ONE-TIME FEES:
+- Application Fee: 525
+[gems-wellington-academy-silicon-oasis] SOURCE: https://www.gemswellingtonacademy-dso.com/en/tuition-fees
+[gems-wellington-academy-silicon-oasis] YEAR: 2025-2026
+
+[gems-wellington-international-school] ANNUAL FEES:
+- FS 1: 47,527
+- FS 2: 59,862
+- Year 1: 59,862
+- Year 2: 59,862
+- Year 3: 59,862
+- Year 4: 59,862
+- Year 5: 59,862
+- Year 6: 59,862
+- Year 7: 82,540
+- Year 8: 82,540
+- Year 9: 82,540
+- Year 10: 92,879
+- Year 11: 92,879
+- Year 12: 103,399
+- Year 13: 103,399
+[gems-wellington-international-school] ONE-TIME FEES:
+- Application Fee: 525
+[gems-wellington-international-school] SOURCE: https://www.wellingtoninternationalschool.com/Admissions/Tuition-Fees
+[gems-wellington-international-school] YEAR: 2025-2026
+
+[gems-westminster-school-sharjah] ANNUAL FEES:
+- FS 1: 13,765
+- FS 2 / KG 1: 13,715
+- Year 1 / KG 2: 14,105
+- Year 2 / Grade 1: 16,540
+- Year 3 / Grade 2: 16,550
+- Year 4 / Grade 3: 16,655
+- Year 5 / Grade 4: 16,845
+- Year 6 / Grade 5: 16,990
+- Year 7 / Grade 6: 17,030
+- Year 8 / Grade 7: 18,815
+- Year 9 / Grade 8: 18,850
+- Year 10 / Grade 9: 21,050
+- Year 11 / Grade 10: 23,920
+- Year 12 / Grade 11: 25,145
+- Year 13: 27,005
+[gems-westminster-school-sharjah] SOURCE: https://www.gemswestminsterschool-sharjah.com/Admissions/Tuition-Fees
+[gems-westminster-school-sharjah] YEAR: 2025-2026
+
+[gems-winchester-school] ANNUAL FEES:
+- FS1: 20,370
+- FS2: 20,370
+- Y1: 25,157
+- Y2: 25,268
+- Y3: 25,490
+- Y4: 25,602
+- Y5: 25,602
+- Y6: 26,492
+- Y7: 27,160
+- Y8: 27,160
+- Y9: 32,615
+- Y10: 35,842
+- Y11: 35,842
+- Y12: 38,403
+- Y13: 38,403
+[gems-winchester-school] ONE-TIME FEES:
+- Application Fee: 525
+[gems-winchester-school] SOURCE: https://www.gemswinchesterschool-dubai.com/Admissions/Tuition-Fees
+[gems-winchester-school] YEAR: 2025-2026
+
+[gems-world-academy] ANNUAL FEES:
+- Pre-K: 71,113
+- KG 1: 71,113
+- KG 2: 88,960
+- Grade 1: 88,960
+- Grade 2: 88,960
+- Grade 3: 88,960
+- Grade 4: 88,960
+- Grade 5: 88,960
+- Grade 6: 102,378
+- Grade 7: 102,378
+- Grade 8: 102,378
+- Grade 9: 102,378
+- Grade 10: 112,709
+- Grade 11: 112,709
+- Grade 12: 123,442
+[gems-world-academy] ONE-TIME FEES:
+- Application Fee: 525
+[gems-world-academy] SOURCE: https://www.gemsworldacademy-dubai.com/en/Admissions/Tuition-Fees
+[gems-world-academy] YEAR: 2025-2026
+
+[german-international-school-sharjah] ANNUAL FEES:
+- Kindergarten: 20,950
+- Preschool: 21,500
+- Primary School (Class 1-4): 34,200
+- Orientation Stage (Class 5): 36,200
+- Secondary School (Class 6-10): 38,400
+- IB (Class 11-12): 49,800
+[german-international-school-sharjah] ONE-TIME FEES:
+- Registration Fee (First Child): 2,000
+- Registration Fee (Additional Children): 500
+- School Books Deposit (Primary): 400
+- School Books Deposit (Secondary/IB): 800
+[german-international-school-sharjah] SOURCE: https://www.dssharjah.org/wp-content/uploads/2025/09/Schedule-of-fees-ENG.pdf
+[german-international-school-sharjah] YEAR: 2025-2026
+
+[glendale-international-school] ANNUAL FEES:
+- Foundation Stage 1: 33,600
+- Foundation Stage 2: 33,600
+- Year 1: 37,440
+- Year 2: 38,400
+- Year 3: 38,400
+- Year 4: 41,280
+- Year 5: 41,280
+- Year 6: 44,160
+- Year 7: 44,160
+- Year 8: 46,080
+- Year 9: 46,080
+[glendale-international-school] ONE-TIME FEES:
+- Application Fee: 500
+- Registration Deposit: 1,500
+[glendale-international-school] SOURCE: https://glendaleschool.org/ae/dubai/school-fees/
+[glendale-international-school] YEAR: 2025-2026
+
+[global-indian-international-school-dubai] ANNUAL FEES:
+- Pre-KG: 17,749
+- KG 1: 18,957
+- KG 2: 20,165
+- Grade 1: 21,374
+- Grade 2: 22,582
+- Grade 3: 23,791
+- Grade 4: 24,998
+- Grade 5: 26,207
+- Grade 6: 26,919
+- Grade 7: 28,624
+- Grade 8: 29,832
+- Grade 9: 31,676
+- Grade 10: 32,248
+- Grade 11: 35,874
+- Grade 12: 35,874
+[global-indian-international-school-dubai] ONE-TIME FEES:
+- Application Fee: 525
+- Registration Deposit: 1,500
+[global-indian-international-school-dubai] SOURCE: https://globalindianschool.org/dubai/admissions/fees
+[global-indian-international-school-dubai] YEAR: 2026-2027
+
+[greenfield-international-school] ANNUAL FEES:
+- Pre-K: 34,470
+- KG 1: 39,905
+- KG 2: 42,065
+- Grade 1: 53,980
+- Grade 2: 53,980
+- Grade 3: 53,980
+- Grade 4: 53,980
+- Grade 5: 53,980
+- Grade 6: 58,115
+- Grade 7: 67,785
+- Grade 8: 67,785
+- Grade 9: 67,785
+- Grade 10: 67,785
+- Grade 11: 82,865
+- Grade 12: 82,865
+[greenfield-international-school] ONE-TIME FEES:
+- Registration Fee (KG2 or higher): 4,000
+- Registration Fee (Pre-K): 3,447
+- Registration Fee (KG1): 3,990
+[greenfield-international-school] SOURCE: https://gischool.ae/tuition-fee
+[greenfield-international-school] YEAR: 2025-2026
+
+[hampton-heights-international-school] ANNUAL FEES:
+- FS1: 12,850
+- FS2: 13,750
+- Year 1: 14,650
+- Year 2: 15,750
+- Year 3: 16,650
+- Year 4: 17,550
+- Year 5: 18,450
+- Year 6: 19,550
+- Year 7: 19,950
+[hampton-heights-international-school] ONE-TIME FEES:
+- Application Fee: 500
+- Registration Fee: 1,100
+[hampton-heights-international-school] SOURCE: http://hamptonheights.ae/school-admissions-in-dubai/fee-structure/
+[hampton-heights-international-school] YEAR: 2025-2026

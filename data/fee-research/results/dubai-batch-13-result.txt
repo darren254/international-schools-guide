@@ -1,0 +1,182 @@
+[pace-springfield-international-school] ANNUAL FEES:
+- FS1 / Pre-KG: 25,000
+- FS2 / KG1: 25,000
+- Year 1 / KG2: 28,400
+- Year 2 / Grade 1: 28,400
+- Year 3 / Grade 2: 28,400
+- Year 4 / Grade 3: 30,800
+- Year 5 / Grade 4: 30,800
+- Year 6 / Grade 5: 30,800
+- Year 7 / Grade 6: 35,000
+[pace-springfield-international-school] ONE-TIME FEES:
+- Entrance Fee: 500
+- Entrance Exam Fee: 500
+[pace-springfield-international-school] SOURCE: https://pacespringfield.com/school-fees/
+[pace-springfield-international-school] YEAR: 2025-2026
+
+[philadelphia-private-school] ANNUAL FEES:
+- Pre-KG: 19,517
+- KG 1: 20,532
+- KG 2: 20,532
+- Grade 1: 23,206
+- Grade 2: 23,206
+- Grade 3: 25,667
+- Grade 4: 25,667
+- Grade 5: 25,667
+- Grade 6: 25,667
+- Grade 7: 28,479
+- Grade 8: 28,479
+- Grade 9: 35,160
+- Grade 10: 35,160
+- Grade 11: 35,160
+- Grade 12: 35,160
+[philadelphia-private-school] ONE-TIME FEES:
+- Application Fee: 350
+- Registration Fee: 1,500
+[philadelphia-private-school] SOURCE: https://ppsdubai.org/wp-content/uploads/2026/01/School-Fees-ACY-25-26.pdf
+[philadelphia-private-school] YEAR: 2025-2026
+
+[pristine-private-school] ANNUAL FEES:
+- FS1: 19,988
+- FS2: 20,699
+- Year 1: 21,611
+- Year 2: 21,611
+- Year 3: 17,434
+- Year 4: 18,104
+- Year 5: 18,288
+- Year 6: 18,343
+- Year 7: 19,808
+- Year 8: 20,508
+- Year 9: 19,998
+- Year 10: 23,515
+- Year 11: 25,626
+- Year 12: 24,975
+- Year 13: 25,038
+[pristine-private-school] SOURCE: https://pristineschool.com/admissions/fee-structure/
+[pristine-private-school] YEAR: 2025-2026
+
+[providence-english-private-school] ANNUAL FEES:
+- FS2: 13,890
+- Year 1: 13,890
+- Year 2: 14,985
+- Year 3: 15,015
+- Year 4: 16,710
+- Year 5: 17,270
+- Year 6: 18,715
+- Year 7: 18,740
+- Year 8: 20,900
+- Year 9: 20,900
+- Year 10: 23,340
+- Year 11: 24,540
+- Year 12: 24,480
+- Year 13: 28,320
+[providence-english-private-school] ONE-TIME FEES:
+- Admission Fee: 500
+- Entrance Exam Fee: 150
+[providence-english-private-school] SOURCE: https://www.peps.ae/page.php?menu_id=2337
+[providence-english-private-school] YEAR: 2025-2026
+
+[queen-elizabeth-s-school-dubai-sports-city] ANNUAL FEES:
+- Nursery: 93,500
+- FS1: 103,344
+- FS2: 112,847
+- Year 1: 112,847
+- Year 2: 112,847
+- Year 3: 112,847
+- Year 4: 116,410
+- Year 5: 116,410
+- Year 6: 116,410
+- Year 7: 136,604
+- Year 8: 136,604
+- Year 9: 142,542
+- Year 10: 142,542
+- Year 11: 154,420
+- Year 12: 154,420
+- Year 13: 154,420
+[queen-elizabeth-s-school-dubai-sports-city] ONE-TIME FEES:
+- Application Fee: 525
+- Tuition Fee Deposit: 7,000
+[queen-elizabeth-s-school-dubai-sports-city] SOURCE: https://www.qedubaisportscity.com/admissions/fees/
+[queen-elizabeth-s-school-dubai-sports-city] YEAR: 2026-2027
+
+[queen-international-school] ANNUAL FEES:
+- FS 1: 17,175
+- FS 2: 15,554
+- Year 1: 15,554
+- Year 2: 16,526
+- Year 3: 16,526
+- Year 4: 16,526
+- Year 5: 17,494
+- Year 6: 17,494
+- Year 7: 17,494
+- Year 8: 18,471
+- Year 9: 19,445
+- Year 10: 23,337
+- Year 11: 23,337
+- Year 12: 25,282
+- Year 13: 29,170
+[queen-international-school] ONE-TIME FEES:
+- Application Fee: 500
+[queen-international-school] SOURCE: https://www.qisdubai.com/fee-structure.php
+[queen-international-school] YEAR: 2025-2026
+
+[raffles-international-schools] ANNUAL FEES:
+- FS 1: 34,055
+- FS 2: 34,055
+- Year 1: 42,092
+- Year 2: 54,080
+- Year 3: 54,080
+- Year 4: 54,080
+- Year 5: 63,881
+- Year 6: 63,881
+- Year 7: 64,950
+- Year 8: 72,269
+- Year 9: 72,269
+- Year 10: 72,269
+- Year 11: 76,619
+- Year 12: 86,815
+- Year 13: 86,815
+[raffles-international-schools] ONE-TIME FEES:
+- Assessment Test Fee: 525
+[raffles-international-schools] SOURCE: https://www.rafflesis.com/fee-structure-ris
+[raffles-international-schools] YEAR: 2025-2026
+
+[raffles-world-academy] ANNUAL FEES:
+- Pre KG: 33,544
+- KG 1: 33,544
+- KG 2: 40,253
+- Grade 1: 53,270
+- Grade 2: 53,270
+- Grade 3: 53,671
+- Grade 4: 64,405
+- Grade 5: 64,405
+- Grade 6: 64,807
+- Grade 7: 72,188
+- Grade 8: 72,188
+- Grade 9: 72,188
+- Grade 10: 78,488
+- Grade 11: 87,990
+- Grade 12: 87,990
+[raffles-world-academy] ONE-TIME FEES:
+- Assessment Test Fee: 525
+[raffles-world-academy] SOURCE: https://www.rwadubai.com/fees-rwa
+[raffles-world-academy] YEAR: 2025-2026
+
+[ranches-primary-school] ANNUAL FEES:
+- Nursery (5 days): 47,250
+- FS1: 50,436
+- FS2: 50,436
+- Year 1: 61,643
+- Year 2: 61,643
+- Year 3: 61,643
+- Year 4: 61,643
+- Year 5: 61,643
+- Year 6: 61,643
+[ranches-primary-school] ONE-TIME FEES:
+- Application Fee: 525
+- Medical Fee: 525
+[ranches-primary-school] SOURCE: https://www.rpsdubai.com/school-fees/
+[ranches-primary-school] YEAR: 2025-2026
+
+[rashid-and-latifa-school] FEES NOT AVAILABLE
+[rashid-and-latifa-school] SOURCE: https://rls.sch.ae/admissions/

@@ -1,0 +1,199 @@
+[the-school-of-research-science] ANNUAL FEES:
+- FS1: 37,163
+- FS2: 39,597
+- Year 1: 41,040
+- Year 2: 41,040
+- Year 3: 45,699
+- Year 4: 45,699
+- Year 5: 45,699
+- Year 6: 50,450
+- Year 7: 55,199
+- Year 8: 60,168
+- Year 9: 60,168
+- Year 10: 60,168
+- Year 11: 63,765
+- Year 12: 70,039
+- Year 13: 79,790
+[the-school-of-research-science] ONE-TIME FEES:
+- Application/Assessment Fee: 500
+[the-school-of-research-science] SOURCE: https://srsdubai.ae/school-fees/
+[the-school-of-research-science] YEAR: 2025-2026
+
+[the-sheffield-private-school] ANNUAL FEES:
+- FS1: 23,631
+- FS2: 23,631
+- Year 1: 28,059
+- Year 2: 28,059
+- Year 3: 28,059
+- Year 4: 28,059
+- Year 5: 28,059
+- Year 6: 28,059
+- Year 7: 33,231
+- Year 8: 33,231
+- Year 9: 33,231
+- Year 10: 36,921
+- Year 11: 36,921
+- Year 12: 44,563
+- Year 13: 44,563
+[the-sheffield-private-school] ONE-TIME FEES:
+- Application Fee: 500
+[the-sheffield-private-school] SOURCE: https://sheffield-school.com/tutions-fees/
+[the-sheffield-private-school] YEAR: 2025-2026
+
+[the-westminster-school] ANNUAL FEES:
+- FS1: 9,362
+- FS2: 9,362
+- Year 1: 11,565
+- Year 2: 11,565
+- Year 3: 11,565
+- Year 4: 11,565
+- Year 5: 11,565
+- Year 6: 11,565
+- Year 7: 12,482
+- Year 8: 12,482
+- Year 9: 14,686
+- Year 10: 14,686
+- Year 11: 18,203
+- Year 12: 18,203
+- Year 13: 18,203
+[the-westminster-school] ONE-TIME FEES:
+- Application Fee: 525
+[the-westminster-school] SOURCE: https://www.gemsws-ghusais.com/tuition-fees
+[the-westminster-school] YEAR: 2025-2026
+
+[the-winchester-school] ANNUAL FEES:
+- FS1: 14,950
+- FS2: 14,950
+- Year 1: 18,688
+- Year 2: 18,688
+- Year 3: 18,688
+- Year 4: 18,688
+- Year 5: 18,688
+- Year 6: 19,936
+- Year 7: 19,936
+- Year 8: 19,936
+- Year 9: 23,674
+- Year 10: 26,685
+- Year 11: 26,685
+- Year 12: 33,352
+- Year 13: 33,352
+[the-winchester-school] ONE-TIME FEES:
+- Application Fee: 525
+[the-winchester-school] SOURCE: https://www.thewinchesterschool.com/Admissions/Tuition-Fees
+[the-winchester-school] YEAR: 2025-2026
+
+[universal-american-school] ANNUAL FEES:
+- Pre-KG: 40,377
+- KG1: 43,745
+- KG2: 49,602
+- Grade 1: 63,077
+- Grade 2: 63,077
+- Grade 3: 66,113
+- Grade 4: 66,113
+- Grade 5: 73,419
+- Grade 6: 73,419
+- Grade 7: 73,419
+- Grade 8: 73,419
+- Grade 9: 82,925
+- Grade 10: 82,925
+- Grade 11: 82,925
+- Grade 12: 82,925
+[universal-american-school] ONE-TIME FEES:
+- Application Fee: 525
+[universal-american-school] SOURCE: https://www.uasdubai.ae/admissions/fees/
+[universal-american-school] YEAR: 2025-2026
+
+[uptown-international-school] ANNUAL FEES:
+- Nursery: 31,145
+- Rising 3s: 35,045
+- Pre-KG: 40,530
+- KG1: 47,040
+- KG2: 52,455
+- Grade 1: 57,860
+- Grade 2: 57,860
+- Grade 3: 59,485
+- Grade 4: 59,485
+- Grade 5: 59,485
+- Grade 6: 67,600
+- Grade 7: 67,600
+- Grade 8: 73,005
+- Grade 9: 73,005
+- Grade 10: 73,005
+- Grade 11: 78,420
+- Grade 12: 78,420
+[uptown-international-school] ONE-TIME FEES:
+- Application Fee: 525
+- Registration Fee: 4,000
+[uptown-international-school] SOURCE: https://uischool.ae/admissions/tuition-fees/
+[uptown-international-school] YEAR: 2025-2026
+
+[victoria-english-school] ANNUAL FEES:
+- FS1: 22,984
+- FS2: 22,984
+- Year 1: 24,300
+- Year 2: 25,895
+- Year 3: 25,870
+- Year 4: 28,300
+- Year 5: 28,320
+- Year 6: 28,381
+- Year 7: 32,912
+- Year 8: 34,162
+- Year 9: 34,972
+- Year 10: 39,999
+- Year 11: 40,030
+- Year 12: 40,263
+- Year 13: 41,645
+[victoria-english-school] ONE-TIME FEES:
+- Registration Fee: 1,000
+[victoria-english-school] SOURCE: https://spea.shj.ae/media/awufufaj/speaschoolfees_191.pdf
+[victoria-english-school] YEAR: 2025-2026
+
+[victoria-international-school-of-sharjah] ANNUAL FEES:
+- Pre-KG: 28,350
+- KG: 34,250
+- Preparatory Year: 40,150
+- Grade 1: 46,050
+- Grade 2: 51,950
+- Grade 3: 51,950
+- Grade 4: 51,950
+- Grade 5: 51,950
+- Grade 6: 55,930
+- Grade 7: 59,900
+- Grade 8: 59,900
+- Grade 9: 59,900
+- Grade 10: 66,000
+- Grade 11: 68,040
+- Grade 12: 74,900
+[victoria-international-school-of-sharjah] ONE-TIME FEES:
+- Application Fee: 500
+- Enrolment Fee: 1,000
+[victoria-international-school-of-sharjah] SOURCE: https://www.doris.school/schools/united-arab-emirates/victoria-international-school-of-sharjah/fees
+[victoria-international-school-of-sharjah] YEAR: 2025-2026
+
+[victory-heights-primary-school] ANNUAL FEES:
+- Foundation 1: 40,138
+- Foundation 2: 43,785
+- Year 1: 47,435
+- Year 2: 47,435
+- Year 3: 51,084
+- Year 4: 51,084
+- Year 5: 54,733
+- Year 6: 54,733
+[victory-heights-primary-school] ONE-TIME FEES:
+- Application Fee: 525
+[victory-heights-primary-school] SOURCE: https://www.vhprimary.com/admissions/fees
+[victory-heights-primary-school] YEAR: 2025-2026
+
+[victory-heights-primary-school-city-of-arabia] ANNUAL FEES:
+- FS1: 40,000
+- FS2: 44,000
+- Year 1: 48,000
+- Year 2: 51,000
+- Year 3: 51,000
+- Year 4: 55,000
+- Year 5: 55,000
+- Year 6: 57,000
+[victory-heights-primary-school-city-of-arabia] ONE-TIME FEES:
+- Application Fee: 525
+[victory-heights-primary-school-city-of-arabia] SOURCE: https://www.vhprimarycoa.com/fees.html
+[victory-heights-primary-school-city-of-arabia] YEAR: 2025-2026

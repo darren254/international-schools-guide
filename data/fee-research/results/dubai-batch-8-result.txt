@@ -1,0 +1,185 @@
+[gems-founders-school-dubai-south] ANNUAL FEES:
+- FS1: 36,400
+- FS2: 39,900
+- Year 1: 43,400
+- Year 2: 43,400
+- Year 3: 43,400
+- Year 4: 44,800
+- Year 5: 44,800
+- Year 6: 44,800
+- Year 7: 47,600
+- Year 8: 47,600
+- Year 9: 47,600
+- Year 10: 50,400
+[gems-founders-school-dubai-south] ONE-TIME FEES:
+- Application Fee: 500
+[gems-founders-school-dubai-south] SOURCE: https://www.gemsfoundersschool-dubaisouth.com/en/Admissions/Fees-and-Payments
+[gems-founders-school-dubai-south] YEAR: 2026-2027
+
+[gems-international-school-al-khail] ANNUAL FEES:
+- Pre KG: 52,415
+- KG 1: 54,301
+- KG 2: 54,301
+- Grade 1: 59,023
+- Grade 2: 59,023
+- Grade 3: 59,023
+- Grade 4: 59,023
+- Grade 5: 70,827
+- Grade 6: 70,827
+- Grade 7: 70,827
+- Grade 8: 70,827
+- Grade 9: 75,550
+- Grade 10: 75,550
+- Grade 11: 79,488
+- Grade 12: 79,488
+[gems-international-school-al-khail] ONE-TIME FEES:
+- Application Fee: 525
+[gems-international-school-al-khail] SOURCE: https://www.gemsinternationalschool-alkhail.com/en/tuition-fees
+[gems-international-school-al-khail] YEAR: 2025-2026
+
+[gems-jumeirah-primary-school] ANNUAL FEES:
+- FS1: 44,200
+- FS2: 55,714
+- Year 1: 55,714
+- Year 2: 55,714
+- Year 3: 55,714
+- Year 4: 55,714
+- Year 5: 55,714
+- Year 6: 55,714
+[gems-jumeirah-primary-school] ONE-TIME FEES:
+- Application Fee: 525
+[gems-jumeirah-primary-school] SOURCE: https://www.jumeirahprimaryschool.com/Admissions/Tuition-Fees
+[gems-jumeirah-primary-school] YEAR: 2025-2026
+
+[gems-metropole-school] ANNUAL FEES:
+- Foundation Stage 1: 38,393
+- Foundation Stage 2: 41,884
+- Year 1: 45,374
+- Year 2: 45,374
+- Year 3: 45,374
+- Year 4: 45,374
+- Year 5: 45,374
+- Year 6: 45,374
+- Year 7: 51,190
+- Year 8: 51,190
+- Year 9: 51,190
+- Year 10: 51,190
+- Year 11: 51,190
+- Years 12-13: 51,190
+[gems-metropole-school] ONE-TIME FEES:
+- Application Fee: 525
+[gems-metropole-school] SOURCE: https://www.gemsmetropoleschool-dubai.com/en/Admissions/Fees-and-Payments
+[gems-metropole-school] YEAR: 2025-2026
+
+[gems-metropole-school-al-waha] ANNUAL FEES:
+- Foundation Stage 1: 40,000
+- Foundation Stage 2: 40,000
+- Year 1-Year 6: 45,000
+- Year 7-Year 9: 50,000
+- Year 10-Year 11: 53,000
+- Year 12-Year 13: 55,000
+[gems-metropole-school-al-waha] ONE-TIME FEES:
+- Application Fee: 525
+[gems-metropole-school-al-waha] SOURCE: https://www.gemsmetropoleschool-alwaha.com/Admissions/Fees-and-Payments
+[gems-metropole-school-al-waha] YEAR: 2026-2027
+
+[gems-modern-academy] ANNUAL FEES:
+- Pre-Primary: 30,983
+- KG1: 38,246
+- KG2: 38,246
+- Grade 1: 43,311
+- Grade 2: 43,311
+- Grade 3: 45,670
+- Grade 4: 45,670
+- Grade 5: 48,173
+- Grade 6: 48,173
+- Grade 7: 48,173
+- Grade 8: 48,173
+- Grade 9: 51,345
+- Grade 10: 51,345
+- Grade 11: 73,876
+- Grade 12: 73,876
+[gems-modern-academy] ONE-TIME FEES:
+- Application Fee: 525
+[gems-modern-academy] SOURCE: https://www.doris.school/schools/united-arab-emirates/gems-modern-academy/fees
+[gems-modern-academy] YEAR: 2025-2026
+
+[gems-new-millennium-school] ANNUAL FEES:
+- Pre KG (CBSE): 23,143
+- KG I (CBSE): 23,143
+- KG II (CBSE): 23,143
+- Grade I (CBSE): 23,143
+- Grade II (CBSE): 23,143
+- Grade III (CBSE): 25,458
+- Grade IV (CBSE): 25,458
+- Grade V (CBSE): 31,244
+- Grade VI (CBSE): 31,244
+- Grade VII (CBSE): 31,244
+- Grade VIII (CBSE): 31,244
+- Grade IX (CBSE): 32,401
+- Grade X (CBSE): 32,401
+- Grade XI (CBSE): 33,557
+- Grade XII (CBSE): 33,557
+- Year 10 (British): 32,400
+- Year 11 (British): 32,400
+- Year 12 (British): 33,557
+- Year 13 (British): 32,580
+[gems-new-millennium-school] ONE-TIME FEES:
+- Application Fee: 525
+- Registration Fee: 525
+[gems-new-millennium-school] SOURCE: https://www.gemsnewmillenniumschool-alkhail.com/Admissions/Tuition-Fees
+[gems-new-millennium-school] YEAR: 2026-2027
+
+[gems-royal-dubai-school] ANNUAL FEES:
+- FS 1: 40,252
+- FS 2: 50,753
+- Year 1: 50,753
+- Year 2: 50,753
+- Year 3: 50,753
+- Year 4: 50,753
+- Year 5: 50,753
+- Year 6: 50,753
+- Year 7: 76,762
+- Year 8: 76,762
+[gems-royal-dubai-school] ONE-TIME FEES:
+- Application Fee: 525
+[gems-royal-dubai-school] SOURCE: https://www.royaldubaischool.com/en/admissions/tuition-fees
+[gems-royal-dubai-school] YEAR: 2025-2026
+
+[gems-school-of-research-and-innovation] ANNUAL FEES:
+- FS1: 116,000
+- FS2: 116,000
+- Year 1: 134,000
+- Year 2: 134,000
+- Year 3: 134,000
+- Year 4: 134,000
+- Year 5: 152,000
+- Year 6: 152,000
+- Year 7: 161,000
+- Year 8: 161,000
+[gems-school-of-research-and-innovation] ONE-TIME FEES:
+- Application Fee: 500
+[gems-school-of-research-and-innovation] SOURCE: https://www.gemsschoolofresearchandinnovation.com/en/school-fees
+[gems-school-of-research-and-innovation] YEAR: 2025-2026
+
+[gems-wellington-academy-al-khail] ANNUAL FEES:
+- Nursery: 19,460
+- FS 1: 47,527
+- FS 2: 59,862
+- Year 1: 59,862
+- Year 2: 59,862
+- Year 3: 59,862
+- Year 4: 59,862
+- Year 5: 59,862
+- Year 6: 59,862
+- Year 7: 82,540
+- Year 8: 82,540
+- Year 9: 82,540
+- Year 10: 92,878
+- Year 11: 92,878
+- Year 12: 93,959
+- Year 13: 93,959
+[gems-wellington-academy-al-khail] ONE-TIME FEES:
+- Application Fee: 525
+[gems-wellington-academy-al-khail] SOURCE: https://www.gemswellingtonacademy-alkhail.com/en/tuition-fees
+[gems-wellington-academy-al-khail] YEAR: 2025-2026

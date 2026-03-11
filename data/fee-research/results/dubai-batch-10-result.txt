@@ -1,0 +1,190 @@
+[hartland-international-school] ANNUAL FEES:
+- FS1: 48,781
+- FS2: 54,730
+- Year 1: 59,251
+- Year 2: 59,251
+- Year 3: 64,248
+- Year 4: 64,248
+- Year 5: 66,628
+- Year 6: 66,628
+- Year 7: 83,285
+- Year 8: 83,285
+- Year 9: 83,285
+- Year 10: 88,044
+- Year 11: 88,044
+- Year 12: 92,803
+- Year 13: 92,803
+[hartland-international-school] ONE-TIME FEES:
+- Application Fee: 525
+[hartland-international-school] SOURCE: https://www.hartlandinternational.com/tuition-fees/
+[hartland-international-school] YEAR: 2025-2026
+
+[horizon-english-school] ANNUAL FEES:
+- FS1: 43,849
+- FS2: 52,163
+- Year 1: 58,825
+- Year 2: 58,825
+- Year 3: 58,825
+- Year 4: 58,825
+- Year 5: 58,825
+- Year 6: 58,825
+[horizon-english-school] ONE-TIME FEES:
+- Application Fee: 525
+[horizon-english-school] SOURCE: https://horizonschooldubai.com/school-fees/
+[horizon-english-school] YEAR: 2025-2026
+
+[horizon-international-school] ANNUAL FEES:
+- FS1: 38,832
+- FS2: 38,832
+- Year 1: 44,572
+- Year 2: 44,572
+- Year 3: 50,863
+- Year 4: 50,863
+- Year 5: 54,377
+- Year 6: 54,377
+- Year 7: 61,587
+- Year 8: 61,587
+- Year 9: 61,587
+- Year 10: 66,374
+- Year 11: 66,374
+- Year 12: 73,124
+- Year 13: 73,124
+[horizon-international-school] ONE-TIME FEES:
+- Application Fee: 525
+[horizon-international-school] SOURCE: https://hisdubai.ae/school-fees/
+[horizon-international-school] YEAR: 2025-2026
+
+[ignite-school] ANNUAL FEES:
+- Pre Primary: 28,658
+- KG 1: 29,682
+- KG 2: 29,682
+- Grade 1: 33,776
+- Grade 2: 34,799
+- Grade 3: 35,822
+- Grade 4: 36,846
+- Grade 5: 37,870
+- Grade 6: 38,893
+- Grade 7: 39,916
+- Grade 8: 40,940
+- Grade 9: 41,964
+- Grade 10: 42,987
+- Grade 11: 44,010
+- Grade 12: 45,034
+[ignite-school] ONE-TIME FEES:
+- Admission Assessment Fee: 525
+- Admission Deposit: 1,000
+[ignite-school] SOURCE: https://igniteschool.ae/fee-schedule-and-fee-policy/
+[ignite-school] YEAR: 2025-2026
+
+[impact-american-school] FEES NOT AVAILABLE
+
+[international-concept-for-education] ANNUAL FEES:
+- PS / Pre-KG: 46,350
+- MS / KG-1: 56,650
+- GS / KG-2: 59,740
+- CP / Grade 1: 62,830
+- CE1 / Grade 2: 65,920
+- CE2 / Grade 3: 69,010
+- CM1 / Grade 4: 72,100
+- CM2 / Grade 5: 75,190
+- 6eme / Grade 6: 79,310
+- 5eme / Grade 7: 79,310
+- 4eme / Grade 8: 84,460
+- 3eme / Grade 9: 84,460
+- 2nde / Grade 10: 65,827
+- 1ere / Grade 11 (BFI++): 68,643
+- 1ere / Grade 11 (IBDP): 72,363
+- Terminale / Grade 12 (IBDP): 72,363
+[international-concept-for-education] ONE-TIME FEES:
+- File Processing Fee: 500
+[international-concept-for-education] SOURCE: https://icedubai.org/enroll-at-our-school/?lang=en
+[international-concept-for-education] YEAR: 2025-2026
+
+[international-indian-school] ANNUAL FEES:
+- KG 1: 5,200
+- KG 2: 5,200
+- Grade 1: 5,600
+- Grade 2: 5,600
+- Grade 3: 5,650
+- Grade 4: 5,850
+- Grade 5: 5,850
+- Grade 6: 6,050
+- Grade 7: 6,350
+- Grade 8: 6,450
+- Grade 9: 7,050
+- Grade 10: 7,100
+- Grade 11 (Com): 9,000
+- Grade 11 (Sci): 9,200
+- Grade 12 (Com): 9,050
+- Grade 12 (Sci): 9,250
+[international-indian-school] ONE-TIME FEES:
+- Application Fee: 100
+- Registration Fee: 200
+- Caution Deposit (Refundable): 300
+[international-indian-school] SOURCE: https://iisajman.org/
+[international-indian-school] YEAR: 2026-2027
+
+[international-school-of-creative-science-muwaileh] ANNUAL FEES:
+- FS 1: 23,080
+- FS 2: 23,080
+- Year 1: 23,395
+- Year 2: 27,440
+- Year 3: 27,440
+- Year 4: 27,465
+- Year 5: 31,060
+- Year 6: 31,085
+- Year 7: 31,235
+- Year 8: 37,390
+- Year 9: 37,425
+- Year 10: 37,425
+- Year 11: 41,090
+- Year 12: 41,120
+- Year 13: 45,020
+[international-school-of-creative-science-muwaileh] ONE-TIME FEES:
+- Registration Fee: 500
+[international-school-of-creative-science-muwaileh] SOURCE: https://iscs.sch.ae/sharjah-muwaileh/fees-structure
+[international-school-of-creative-science-muwaileh] YEAR: 2025-2026
+
+[international-school-of-creative-science-nad-al-sheba] ANNUAL FEES:
+- FS 1: 34,287
+- FS 2: 34,287
+- Year 1: 38,381
+- Year 2: 38,381
+- Year 3: 38,381
+- Year 4: 45,034
+- Year 5: 45,034
+- Year 6: 45,034
+- Year 7: 53,734
+- Year 8: 53,734
+- Year 9: 53,734
+- Year 10: 59,875
+- Year 11: 59,875
+- Year 12: 65,504
+- Year 13: 65,504
+[international-school-of-creative-science-nad-al-sheba] ONE-TIME FEES:
+- Application Fee: 525
+- Registration Deposit: 2,000
+- Assessment Fee: 500
+[international-school-of-creative-science-nad-al-sheba] SOURCE: https://iscs.sch.ae/dubai-nad-al-sheba/fees-structure
+[international-school-of-creative-science-nad-al-sheba] YEAR: 2026-2027
+
+[jebel-ali-school] ANNUAL FEES:
+- FS1: 49,630
+- FS2: 49,630
+- Year 1: 49,630
+- Year 2: 49,630
+- Year 3: 49,630
+- Year 4: 49,630
+- Year 5: 49,630
+- Year 6: 49,630
+- Year 7: 76,590
+- Year 8: 76,590
+- Year 9: 76,590
+- Year 10: 76,590
+- Year 11: 76,590
+- Year 12: 82,190
+- Year 13: 82,190
+[jebel-ali-school] ONE-TIME FEES:
+- Application Fee: 525
+[jebel-ali-school] SOURCE: https://jebelalischool.org/admissions/fee-structure/
+[jebel-ali-school] YEAR: 2025-2026

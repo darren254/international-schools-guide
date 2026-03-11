@@ -1,0 +1,206 @@
+[regent-international-school] ANNUAL FEES:
+- Foundation Stage 1: 49,076
+- Foundation Stage 2: 49,076
+- Year 1: 57,254
+- Year 2: 57,254
+- Year 3: 57,254
+- Year 4: 57,254
+- Year 5: 57,254
+- Year 6: 57,254
+- Year 7: 65,074
+- Year 8: 65,084
+- Year 9: 65,789
+- Year 10: 66,769
+- Year 11: 67,747
+- Year 12: 69,710
+- Year 13: 69,730
+[regent-international-school] ONE-TIME FEES:
+- Application Fee: 500
+[regent-international-school] SOURCE: https://www.doris.school/schools/united-arab-emirates/regent-international-school/fees
+[regent-international-school] YEAR: 2025-2026
+
+[repton-school] ANNUAL FEES:
+- FS1: 57,178
+- FS2: 63,025
+- Year 1: 64,631
+- Year 2: 64,631
+- Year 3: 66,732
+- Year 4: 67,266
+- Year 5: 75,953
+- Year 6: 75,953
+- Year 7: 81,121
+- Year 8: 84,366
+- Year 9: 86,529
+- Year 10: 95,182
+- Year 11: 95,182
+- Year 12: 102,753
+- Year 13: 102,753
+[repton-school] ONE-TIME FEES:
+- Application Fee: 525
+[repton-school] SOURCE: https://www.reptondubai.org/admissions/fees
+[repton-school] YEAR: 2025-2026
+
+[repton-school-al-barsha] ANNUAL FEES:
+- FS1: 53,540
+- FS2: 58,948
+- Year 1: 64,356
+- Year 2: 64,356
+- Year 3: 69,764
+- Year 4: 69,764
+- Year 5: 75,172
+- Year 6: 75,172
+- Year 7: 89,774
+- Year 8: 89,774
+- Year 9: 89,774
+- Year 10: 89,774
+- Year 11: 89,774
+- Year 12: 89,774
+- Year 13: 89,774
+[repton-school-al-barsha] ONE-TIME FEES:
+- Application Fee: 525
+[repton-school-al-barsha] SOURCE: https://www.reptonalbarsha.org/admissions/school-fees
+[repton-school-al-barsha] YEAR: 2025-2026
+
+[royal-grammar-school-guildford] ANNUAL FEES:
+- FS1: 78,758
+- FS2: 84,009
+- Year 1: 95,560
+- Year 2: 95,560
+- Year 3: 95,560
+- Year 4: 95,560
+- Year 5: 101,861
+- Year 6: 101,861
+- Year 7: 101,861
+- Year 8: 101,861
+- Year 9: 113,412
+- Year 10: 119,713
+- Year 11: 119,713
+- Year 12: 119,713
+- Year 13: 119,713
+[royal-grammar-school-guildford] ONE-TIME FEES:
+- Application Fee: 525
+[royal-grammar-school-guildford] SOURCE: https://www.rgsgd.com/fees/
+[royal-grammar-school-guildford] YEAR: 2025-2026
+
+[rushmore-american-school] ANNUAL FEES:
+- Pre-K: 35,000
+- Grade 1: 45,000
+- Grade 2: 45,000
+- Grade 3: 45,000
+- Grade 4: 45,000
+- Grade 5: 45,000
+- Grade 6: 55,000
+- Grade 7: 55,000
+- Grade 8: 55,000
+- Grade 9: 55,000
+- Grade 10: 63,000
+- Grade 11: 63,000
+- Grade 12: 63,000
+[rushmore-american-school] ONE-TIME FEES:
+- Application Fee: 500
+- Registration Deposit: 500
+[rushmore-american-school] SOURCE: https://www.rushmoreamericanschool.ae/admissions/our-fees
+[rushmore-american-school] YEAR: 2025-2026
+
+[sabis-international-school-aljada] ANNUAL FEES:
+- PS: 26,000
+- KG1: 26,000
+- KG2: 28,000
+- Grade 1: 30,000
+- Grade 2: 32,000
+- Grade 3: 32,000
+- Grade 4: 34,000
+- Grade 5: 34,000
+- Grade 6: 36,000
+- Grade 7: 36,000
+- Grade 8: 38,000
+- Grade 9: 40,000
+- Grade 10: 42,000
+- Grade 11: 44,000
+[sabis-international-school-aljada] SOURCE: https://sisaljada.sabis.net/downloads/public/sis-aljada-school-fees-ay25-26.pdf
+[sabis-international-school-aljada] YEAR: 2025-2026
+
+[safa-british-school] ANNUAL FEES:
+- FS1: 45,428
+- FS2: 49,754
+- Year 1: 49,754
+- Year 2: 54,081
+- Year 3: 54,081
+- Year 4: 58,407
+- Year 5: 58,407
+- Year 6: 60,571
+- Year 7: 62,733
+- Year 8: 64,897
+- Year 9: 67,060
+- Year 10: 70,305
+- Year 11: 70,305
+- Year 12: 73,550
+- Year 13: 73,550
+[safa-british-school] ONE-TIME FEES:
+- Application Fee: 500
+[safa-british-school] SOURCE: https://safabritishschool.com/fees/
+[safa-british-school] YEAR: 2025-2026
+
+[safa-community-school] ANNUAL FEES:
+- FS1: 54,437
+- FS2: 54,437
+- Year 1: 56,753
+- Year 2: 56,753
+- Year 3: 56,753
+- Year 4: 59,070
+- Year 5: 61,386
+- Year 6: 63,703
+- Year 7: 75,286
+- Year 8: 75,286
+- Year 9: 79,919
+- Year 10: 80,495
+- Year 11: 82,732
+- Year 12: 84,967
+- Year 13: 89,440
+[safa-community-school] ONE-TIME FEES:
+- Application Fee: 500
+- Security Deposit: 4,000
+[safa-community-school] SOURCE: https://safacommunityschool.com/fees/
+[safa-community-school] YEAR: 2025-2026
+
+[scholars-international-academy] ANNUAL FEES:
+- Nursery (4-day): 18,000
+- Pre-KG / FS1: 23,500
+- KG1 / FS2: 23,500
+- KG2 / Year 1: 25,970
+- Grade 1 / Year 2: 26,970
+- Grade 2 / Year 3: 27,970
+- Grade 3 / Year 4: 28,700
+- Grade 4 / Year 5: 30,200
+- Grade 5 / Year 6: 31,200
+- Grade 6 / Year 7: 31,775
+- Grade 7 / Year 8: 31,775
+- Grade 8 / Year 9: 34,338
+- Grade 9 / Year 10: 34,338
+- Grade 10 / Year 11: 35,875
+- Grade 11 / Year 12: 35,875
+- Grade 12 / Year 13: 35,875
+[scholars-international-academy] ONE-TIME FEES:
+- Assessment Fee: 200
+[scholars-international-academy] SOURCE: https://www.doris.school/schools/united-arab-emirates/scholars-international-academy/fees
+[scholars-international-academy] YEAR: 2025-2026
+
+[school-of-modern-skills] ANNUAL FEES:
+- KG1: 17,491
+- KG2: 18,247
+- Grade 1: 18,876
+- Grade 2: 19,631
+- Grade 3: 20,386
+- Grade 4: 21,140
+- Grade 5: 21,896
+- Grade 6: 22,652
+- Grade 7: 23,406
+- Grade 8: 24,162
+- Grade 9: 24,915
+- Grade 10: 25,671
+- Grade 11: 29,572
+- Grade 12: 29,572
+[school-of-modern-skills] ONE-TIME FEES:
+- Application Fee: 500
+[school-of-modern-skills] SOURCE: https://dubai-sms.com/registration-and-re-enrollment/
+[school-of-modern-skills] YEAR: 2025-2026

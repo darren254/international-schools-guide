@@ -1,0 +1,188 @@
+[newlands-school] ANNUAL FEES:
+- FS1: 21,372
+- FS2: 21,372
+- Year 1: 26,047
+- Year 2: 26,047
+- Year 3: 26,047
+- Year 4: 26,047
+- Year 5: 29,387
+- Year 6: 29,387
+- Year 7: 32,058
+- Year 8: 32,058
+- Year 9: 35,397
+- Year 10: 35,397
+- Year 11: 35,397
+- Year 12: 40,072
+- Year 13: 40,072
+[newlands-school] ONE-TIME FEES:
+- Application Fee: 500
+[newlands-school] SOURCE: https://www.newlandsschool.ae/pages/our_fees
+[newlands-school] YEAR: 2025-2026
+
+[next-generation-school] ANNUAL FEES:
+- Pre-K: 24,487
+- KG 1: 28,698
+- KG 2: 30,864
+- Grade 1: 35,197
+- Grade 2: 36,279
+- Grade 3: 37,363
+- Grade 4: 38,445
+- Grade 5: 39,528
+- Grade 6: 40,612
+- Grade 7: 41,694
+- Grade 8: 42,778
+- Grade 9: 43,859
+- Grade 10: 44,943
+- Grade 11: 46,025
+- Grade 12: 48,216
+[next-generation-school] ONE-TIME FEES:
+- Application Fee: 500
+[next-generation-school] SOURCE: https://nextgenerationschool.ae/en/admission#fees
+[next-generation-school] YEAR: 2025-2026
+
+[nibras-international-school] ANNUAL FEES:
+- KG1: 25,316
+- KG2: 25,316
+- Grades 1-3: 28,257
+- Grades 4-6: 35,224
+- Grades 7-9: 42,580
+- Grade 10: 50,320
+- Grades 11-12: 50,321
+[nibras-international-school] ONE-TIME FEES:
+- Application Fee: 500
+[nibras-international-school] SOURCE: https://www.nisdubai.ae/admissions/tuition-fees
+[nibras-international-school] YEAR: 2025-2026
+
+[nord-anglia-international-school-dubai] ANNUAL FEES:
+- FS1: 69,625
+- FS2: 69,625
+- Year 1: 81,228
+- Year 2: 81,228
+- Year 3: 87,030
+- Year 4: 87,030
+- Year 5: 87,030
+- Year 6: 87,030
+- Year 7: 92,832
+- Year 8: 92,832
+- Year 9: 92,832
+- Year 10: 99,794
+- Year 11: 99,794
+- Year 12: 105,288
+- Year 13: 105,288
+[nord-anglia-international-school-dubai] ONE-TIME FEES:
+- Application Fee: 525
+- Registration Fee: 5,000
+[nord-anglia-international-school-dubai] SOURCE: https://www.nordangliaeducation.com/nas-dubai/admissions/tuition-fees
+[nord-anglia-international-school-dubai] YEAR: 2025-2026
+
+[north-american-international-school] ANNUAL FEES:
+- KG 1: 30,664
+- KG 2: 30,664
+- Grade 1: 33,115
+- Grade 2: 33,115
+- Grade 3: 33,115
+- Grade 4: 33,115
+- Grade 5: 33,115
+- Grade 6: 33,115
+- Grade 7: 36,796
+- Grade 8: 36,796
+- Grade 9: 42,929
+- Grade 10: 42,929
+- Grade 11: 49,061
+- Grade 12: 49,061
+[north-american-international-school] ONE-TIME FEES:
+- Registration Fee: 500
+- Registration Advance Fee: 2,000
+[north-american-international-school] SOURCE: https://naischool.com/admission/
+[north-american-international-school] YEAR: 2025-2026
+
+[north-london-collegiate-school-dubai] ANNUAL FEES:
+- Pre-KG: 91,735
+- KG 1: 96,157
+- KG 2: 104,999
+- Grade 1: 104,999
+- Grade 2: 104,999
+- Grade 3: 104,999
+- Grade 4: 108,314
+- Grade 5: 108,314
+- Grade 6: 127,103
+- Grade 7: 127,103
+- Grade 8: 127,103
+- Grade 9: 132,629
+- Grade 10: 132,629
+- Grade 11: 143,681
+- Grade 12: 143,681
+[north-london-collegiate-school-dubai] ONE-TIME FEES:
+- Application Fee: 525
+- Confirmation Deposit: 10,000
+[north-london-collegiate-school-dubai] SOURCE: https://nlcsdubai.ae/school-fees-nlcs/
+[north-london-collegiate-school-dubai] YEAR: 2025-2026
+
+[oaktree-primary-school] ANNUAL FEES:
+- FS1: 16,225
+- FS2: 17,305
+- Year 1: 18,929
+- Year 2: 20,551
+- Year 3: 22,173
+- Year 4: 23,795
+- Year 5: 25,418
+- Year 6: 27,041
+[oaktree-primary-school] ONE-TIME FEES:
+- Registration Fee: 525
+[oaktree-primary-school] SOURCE: https://www.oaktreeprimary.com/en/fee-structure-and-payment
+[oaktree-primary-school] YEAR: 2025-2026
+
+[our-own-high-school] ANNUAL FEES:
+- KG1: 7,828
+- KG2: 7,828
+- Grades 1-3: 9,447
+- Grades 4-5: 9,558
+- Grades 6-8: 10,724
+- Grades 9-10: 13,276
+- Grade 11 (Commerce): 15,758
+- Grade 11 (Science): 16,299
+- Grade 12 (Commerce): 15,758
+- Grade 12 (Science): 16,299
+[our-own-high-school] ONE-TIME FEES:
+- Application Fee: 525
+[our-own-high-school] SOURCE: https://www.gemsoo-alwarqa.com/Admissions/Tuition-Fees
+[our-own-high-school] YEAR: 2025-2026
+
+[pace-british-school] ANNUAL FEES:
+- FS1 (Pre-KG): 19,000
+- FS2 (KG 1): 19,000
+- Year 1 (KG 2): 19,000
+- Year 2 (Grade 1): 22,000
+- Year 3 (Grade 2): 22,000
+- Year 4 (Grade 3): 22,000
+- Year 5 (Grade 4): 23,500
+- Year 6 (Grade 5): 23,500
+- Year 7 (Grade 6): 25,500
+- Year 8 (Grade 7): 25,500
+- Year 9 (Grade 8): 25,500
+- Year 10 (Grade 9): 28,500
+- Year 11 (Grade 10): 28,500
+- Year 12 (Grade 11): 29,500
+- Year 13 (Grade 12): 29,500
+[pace-british-school] ONE-TIME FEES:
+- Registration Fee: 500
+[pace-british-school] SOURCE: https://pacebritish.com/school-fee-structure/
+[pace-british-school] YEAR: 2025-2026
+
+[pace-modern-british-school] ANNUAL FEES:
+- FS1: 20,267
+- FS2: 20,267
+- Year 1: 21,737
+- Year 2: 21,737
+- Year 3: 22,787
+- Year 4: 23,208
+- Year 5: 24,783
+- Year 6: 24,783
+- Year 7: 26,043
+- Year 8: 27,093
+- Year 9: 27,430
+- Year 10: 29,784
+[pace-modern-british-school] ONE-TIME FEES:
+- Admission Entrance Fee: 500
+[pace-modern-british-school] SOURCE: https://pacembs.com/fee-structure/
+[pace-modern-british-school] YEAR: 2025-2026

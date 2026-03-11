@@ -1,0 +1,183 @@
+[american-academy-for-girls] ANNUAL FEES:
+- Pre-KG: 36,485
+- KG 1: 38,595
+- KG 2: 40,695
+- Grade 1 to 4: 49,250
+- Grade 5 to 8: 57,860
+- Grade 9 to 12: 65,270
+[american-academy-for-girls] ONE-TIME FEES:
+- Application Fee: 500
+[american-academy-for-girls] SOURCE: https://www.americanacademy.ae/admissions/fees
+[american-academy-for-girls] YEAR: 2025-2026
+
+[american-gulf-school] ANNUAL FEES:
+- Pre-K: 32,000
+- KG 1: 32,800
+- KG 2: 38,400
+- Grade 1: 38,400
+- Grade 2: 38,400
+- Grade 3: 42,800
+- Grade 4: 42,800
+- Grade 5: 42,800
+- Grade 6: 48,600
+- Grade 7: 48,600
+- Grade 8: 48,600
+- Grade 9: 56,400
+- Grade 10: 56,400
+- Grade 11: 63,100
+- Grade 12: 63,100
+[american-gulf-school] ONE-TIME FEES:
+- Application Processing Fee: 525
+- Admission Registration Fee (Deposit): 1,000
+[american-gulf-school] SOURCE: https://ags.ae/admission/tuition-fees
+[american-gulf-school] YEAR: 2025-2026
+
+[american-international-school-dubai] ANNUAL FEES:
+- KG1: 13,405
+- KG2: 13,405
+- Gr 1: 14,314
+- Gr 2: 14,314
+- Gr 3: 14,314
+- Gr 4: 15,422
+- Gr 5: 15,422
+- Gr 6: 15,422
+- Gr 7: 17,919
+- Gr 8: 17,919
+- Gr 9: 17,919
+- Gr 10: 19,520
+- Gr 11: 20,653
+- Gr 12: 21,732
+[american-international-school-dubai] ONE-TIME FEES:
+- Registration Fee: 525
+[american-international-school-dubai] SOURCE: https://aisch.ae/en/fee-structure-and-payment
+[american-international-school-dubai] YEAR: 2025-2026
+
+[american-school-of] ANNUAL FEES:
+- PreK: 60,571
+- K1: 64,092
+- K2: 82,945
+- Grades 1-12: 102,303
+[american-school-of] ONE-TIME FEES:
+- Capital Fee: 22,000
+[american-school-of] SOURCE: https://www.asdubai.org/admissions/tuition-and-fees
+[american-school-of] YEAR: 2025-2026
+
+[american-school-of-creative-science-maliha] ANNUAL FEES:
+- Pre-KG: 22,850
+- KG 1: 22,850
+- KG 2: 22,850
+- Grade 1: 26,980
+- Grade 2: 26,980
+- Grade 3: 26,980
+- Grade 4: 30,920
+- Grade 5: 33,560
+- Grade 6: 41,965
+- Grade 7: 43,870
+- Grade 8: 43,905
+- Grade 9: 49,920
+- Grade 10: 49,950
+- Grade 11: 50,490
+- Grade 12: 50,560
+[american-school-of-creative-science-maliha] ONE-TIME FEES:
+- Registration Deposit: 500
+[american-school-of-creative-science-maliha] SOURCE: https://ascs.sch.ae/sharjah-maliha/fees-structure
+[american-school-of-creative-science-maliha] YEAR: 2026-2027
+
+[amity-english-school] ANNUAL FEES:
+- FS1: 19,200
+- FS2: 19,200
+- Y1: 19,200
+- Y2: 20,800
+- Y3: 20,800
+- Y4: 20,800
+- Y5: 22,400
+- Y6: 22,400
+- Y7: 23,250
+[amity-english-school] ONE-TIME FEES:
+- Application Fee: 500
+[amity-english-school] SOURCE: https://www.amityenglishschooldubai.com/fees
+[amity-english-school] YEAR: 2025-2026
+
+[amity-private-school-sharjah] ANNUAL FEES:
+- Pre-KG: 12,760
+- KG1: 12,760
+- KG2: 12,760
+- Grade 1: 14,425
+- Grade 2: 14,925
+- Grade 3: 16,975
+- Grade 4: 17,475
+- Grade 5: 19,128
+- Grade 6: 19,628
+- Grade 7: 20,665
+- Grade 8: 21,165
+- Grade 9: 21,793
+- Grade 10: 22,293
+- Grade 11: 23,420
+- Grade 12: 23,420
+[amity-private-school-sharjah] ONE-TIME FEES:
+- Registration Fee: 500
+[amity-private-school-sharjah] SOURCE: https://amitysharjah.com/fees
+[amity-private-school-sharjah] YEAR: 2026-2027
+
+[amity-school] ANNUAL FEES:
+- Pre-KG: 16,696
+- KG-1: 16,696
+- KG-2: 17,810
+- Grade-1: 20,036
+- Grade-2: 22,262
+- Grade-3: 25,602
+- Grade-4: 25,602
+- Grade-5: 28,942
+- Grade-6: 28,942
+- Grade-7: 31,168
+- Grade-8: 31,168
+- Grade-9: 32,280
+- Grade-10: 32,280
+- Grade-11: 33,394
+- Grade-12: 33,394
+[amity-school] ONE-TIME FEES:
+- Application Fee: 500
+[amity-school] SOURCE: https://amityschooldubai.com/fees
+[amity-school] YEAR: 2025-2026
+
+[arcadia-global-school] ANNUAL FEES:
+- FS1: 25,865
+- FS2: 29,008
+- Year 1: 30,683
+- Year 2: 30,683
+- Year 3: 30,683
+- Year 4: 30,683
+- Year 5: 30,683
+- Year 6: 30,683
+- Year 7: 33,788
+- Year 8: 33,788
+- Year 9: 33,788
+[arcadia-global-school] ONE-TIME FEES:
+- Registration Fee (EYFS): 2,000
+- Registration Fee (Y1 onwards): 2,500
+[arcadia-global-school] SOURCE: https://arcadiaglobal.sch.ae/fee-structure/
+[arcadia-global-school] YEAR: 2025-2026
+
+[arcadia-school] ANNUAL FEES:
+- FS1: 50,765
+- FS2: 57,534
+- Year 1: 66,163
+- Year 2: 70,055
+- Year 3: 73,947
+- Year 4: 73,947
+- Year 5: 77,839
+- Year 6: 77,839
+- Year 7: 82,893
+- Year 8: 83,998
+- Year 9: 83,998
+- Year 10: 84,551
+- Year 11: 84,551
+- Year 12: 84,548
+- Year 13: 84,548
+[arcadia-school] ONE-TIME FEES:
+- Application Fee: 525
+- Admission Deposit (New Year): 7,500
+- Admission Deposit (Primary): 5,000
+- Admission Deposit (Secondary): 6,000
+[arcadia-school] SOURCE: https://arcadia.sch.ae/fees
+[arcadia-school] YEAR: 2026-2027

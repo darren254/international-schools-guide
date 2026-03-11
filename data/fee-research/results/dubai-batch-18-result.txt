@@ -1,0 +1,38 @@
+[wise-indian-academy] ANNUAL FEES:
+- KG1: 7,000
+- KG2: 7,000
+- Grade 1: 8,000
+- Grade 2: 8,000
+- Grade 3: 8,000
+- Grade 4: 8,000
+- Grade 5: 8,000
+- Grade 6: 8,500
+- Grade 7: 8,500
+- Grade 8: 8,500
+- Grade 9: 9,000
+- Grade 10: 9,000
+- Grade 11: 10,500
+- Grade 12: 10,500
+[wise-indian-academy] ONE-TIME FEES:
+- Admission Fee (KG1-KG2): 1,000
+- Admission Fee (Grade 1-Grade 10): 200
+[wise-indian-academy] SOURCE: https://www.squareyards.ae/school/ajman/wise-indian-academy-ajman
+[wise-indian-academy] YEAR: 2025-2026
+
+[woodlem-british-school] ANNUAL FEES:
+- KG1: 18,000
+- KG2: 18,000
+- Grade 1: 20,000
+- Grade 2: 20,000
+- Grade 3: 22,000
+- Grade 4: 22,000
+- Grade 5: 24,000
+- Grade 6: 24,000
+- Grade 7: 26,000
+- Grade 8: 26,000
+- Grade 9: 26,000
+[woodlem-british-school] ONE-TIME FEES:
+- Registration Fee: 500
+- Admission Deposit: 850
+[woodlem-british-school] SOURCE: https://whichschooladvisor.com/uae/school-review/woodlem-british-school-ajman/fees-and-availability
+[woodlem-british-school] YEAR: 2025-2026

@@ -1,0 +1,216 @@
+[sharjah-american-international-school] ANNUAL FEES:
+- KG1: 29,500
+- KG2: 29,500
+- Grade 1: 32,500
+- Grade 2: 32,500
+- Grade 3: 32,500
+- Grade 4: 32,500
+- Grade 5: 32,500
+- Grade 6: 35,700
+- Grade 7: 35,700
+- Grade 8: 35,700
+- Grade 9: 39,300
+- Grade 10: 39,300
+[sharjah-american-international-school] ONE-TIME FEES:
+- Registration Fee: 500
+[sharjah-american-international-school] SOURCE: https://www.saissharjah.com/fee-schedule
+[sharjah-american-international-school] YEAR: 2020-2021
+
+[sharjah-british-international-school] ANNUAL FEES:
+- FS1: 14,000
+- FS2: 15,939
+- Year 1: 17,055
+- Year 2: 17,055
+- Year 3: 19,265
+- Year 4: 20,215
+- Year 5: 20,320
+- Year 6: 21,422
+- Year 7: 22,772
+- Year 8: 22,982
+- Year 9: 25,532
+- Year 10: 28,742
+- Year 11: 32,597
+- Year 12: 33,332
+- Year 13: 33,832
+[sharjah-british-international-school] ONE-TIME FEES:
+- Registration Fee: 500
+[sharjah-british-international-school] SOURCE: https://www.sharjahbritishinternationalschool.com/school-tuition-fees/
+[sharjah-british-international-school] YEAR: 2025-2026
+
+[sharjah-english-school] ANNUAL FEES:
+- FS1 / Pre-KG: 28,420
+- FS2 / KG1: 40,580
+- Year 1 / KG2: 41,445
+- Year 2: 41,445
+- Year 3: 44,780
+- Year 4: 44,780
+- Year 5: 44,780
+- Year 6: 44,780
+- Year 7: 57,050
+- Year 8: 57,050
+- Year 9: 57,050
+- Year 10: 61,035
+- Year 11: 67,170
+- Year 12: 72,765
+- Year 13: 72,765
+[sharjah-english-school] ONE-TIME FEES:
+- Registration Fee: 400
+- Security Deposit (Refundable): 5,000
+[sharjah-english-school] SOURCE: https://www.sharjahenglishschool.org/fees
+[sharjah-english-school] YEAR: 2025-2026
+
+[smart-vision-school] ANNUAL FEES:
+- Starters: 30,037
+- FS1: 31,618
+- FS2: 37,963
+- Year 1-2: 43,250
+- Year 3-4: 48,537
+- Year 5: 53,825
+- Year 6: 56,997
+- Year 7: 57,002
+- Year 8: 57,220
+[smart-vision-school] ONE-TIME FEES:
+- Registration Fee: 525
+[smart-vision-school] SOURCE: https://www.svschool.ae/admissions/fees/
+[smart-vision-school] YEAR: 2025-2026
+
+[south-view-school] ANNUAL FEES:
+- Foundation Stage 1: 46,510
+- Foundation Stage 2: 47,050
+- Year 1: 47,591
+- Year 2: 47,591
+- Year 3: 47,591
+- Year 4: 47,591
+- Year 5: 47,591
+- Year 6: 47,591
+- Year 7: 61,511
+- Year 8: 61,511
+- Year 9: 61,511
+- Year 10: 66,519
+- Year 11: 66,519
+- Year 12: 66,519
+- Year 13: 66,519
+[south-view-school] SOURCE: https://www.doris.school/schools/united-arab-emirates/south-view-school/fees
+[south-view-school] YEAR: 2025-2026
+
+[star-international-school-altwar] ANNUAL FEES:
+- FS 1: 21,520
+- FS 2: 25,320
+- Year 1: 25,320
+- Year 2: 29,120
+- Year 3: 29,120
+- Year 4: 32,915
+- Year 5: 32,915
+- Year 6: 32,915
+- Year 7: 35,280
+- Year 8: 41,510
+- Year 9: 41,510
+- Year 10: 39,220
+- Year 11: 46,140
+- Year 12: 39,220
+- Year 13: 46,140
+[star-international-school-altwar] ONE-TIME FEES:
+- Registration Fee: 500
+- Assessment Fee: 500
+[star-international-school-altwar] SOURCE: https://www.starintlschoolaltwar.com/admissions/tuition-fees
+[star-international-school-altwar] YEAR: 2025-2026
+
+[star-international-school-mirdiff] ANNUAL FEES:
+- FS1: 34,179
+- FS2: 35,014
+- Year 1: 40,193
+- Year 2: 40,193
+- Year 3: 45,864
+- Year 4: 45,864
+- Year 5: 52,706
+- Year 6: 52,706
+- Year 7: 57,325
+- Year 8: 57,325
+- Year 9: 59,489
+- Year 10: 59,489
+- Year 11: 68,142
+- Year 12: 73,508
+- Year 13: 73,508
+[star-international-school-mirdiff] ONE-TIME FEES:
+- Medical Fee: 500
+[star-international-school-mirdiff] SOURCE: https://www.starmirdifschool.com/admissions/tuition-fees
+[star-international-school-mirdiff] YEAR: 2025-2026
+
+[sunmarke-school] ANNUAL FEES:
+- Foundation Stage 1: 53,040
+- Foundation Stage 2: 58,164
+- Year 1: 65,844
+- Year 2: 65,939
+- Year 3: 66,824
+- Year 4: 66,920
+- Year 5: 66,980
+- Year 6: 66,982
+- Year 7: 82,676
+- Year 8: 82,755
+- Year 9: 82,876
+- Year 10: 86,860
+- Year 11: 86,985
+- Year 12: 88,411
+- Year 13: 88,538
+[sunmarke-school] ONE-TIME FEES:
+- Application & Assessment Fee: 525
+[sunmarke-school] SOURCE: https://www.sunmarke.com/admissions/tuition-fees/
+[sunmarke-school] YEAR: 2025-2026
+
+[swiss-international-scientific-school] ANNUAL FEES:
+- Pre-KG (Bilingual): 68,868
+- KG 1 (Bilingual): 76,903
+- KG 2 (Bilingual): 76,903
+- Grade 1 (Bilingual): 91,823
+- Grade 2 (Bilingual): 91,823
+- Grade 3 (Bilingual): 91,823
+- Grade 4 (Bilingual): 91,823
+- Grade 5 (Bilingual): 94,692
+- Grade 6 (Bilingual): 100,976
+- Grade 7 (Bilingual): 100,976
+- Grade 8 (Bilingual): 100,976
+- Grade 9 (Bilingual): 109,205
+- Grade 10 (Bilingual): 109,205
+- Grade 11 (Bilingual): 114,268
+- Grade 12 (Bilingual): 114,268
+- Pre-KG (English+): 60,834
+- KG 1 (English+): 67,579
+- KG 2 (English+): 67,579
+- Grade 1 (English+): 78,111
+- Grade 2 (English+): 78,111
+- Grade 3 (English+): 78,111
+- Grade 4 (English+): 78,111
+- Grade 5 (English+): 80,477
+- Grade 6 (English+): 100,976
+- Grade 7 (English+): 100,976
+- Grade 8 (English+): 100,976
+- Grade 9 (English+): 109,205
+- Grade 10 (English+): 109,205
+- Grade 11 (English+): 114,268
+- Grade 12 (English+): 114,268
+[swiss-international-scientific-school] ONE-TIME FEES:
+- Application Fee: 525
+[swiss-international-scientific-school] SOURCE: https://www.nordangliaeducation.com/sisd-dubai/admissions/tuition-fees
+[swiss-international-scientific-school] YEAR: 2025-2026
+
+[the-apple-international-school] ANNUAL FEES:
+- FS 1: 6,993
+- FS 2: 7,244
+- Year 1: 8,198
+- Year 2: 8,198
+- Year 3: 8,198
+- Year 4: 8,198
+- Year 5: 9,408
+- Year 6: 10,409
+- Year 7: 11,242
+- Year 8: 13,304
+- Year 9: 14,001
+- Year 10: 15,731
+- Year 11: 17,652
+- Year 12: 18,847
+- Year 13: 20,131
+[the-apple-international-school] ONE-TIME FEES:
+- Application Fee: 525
+- Admission Fee: 500
+[the-apple-international-school] SOURCE: https://apple.sch.ae/fees-structure-ay-2025-2026/
+[the-apple-international-school] YEAR: 2025-2026

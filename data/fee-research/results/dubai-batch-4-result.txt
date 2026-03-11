@@ -1,0 +1,191 @@
+[citizens-school] ANNUAL FEES:
+- FS1: 45,000
+- FS2: 55,000
+- Year 1: 65,000
+- Year 2: 65,000
+- Year 3: 65,000
+- Year 4: 65,000
+- Year 5: 65,000
+- Year 6: 65,000
+- Year 7: 75,000
+- Year 8: 75,000
+- Year 9: 80,000
+[citizens-school] ONE-TIME FEES:
+- Registration Fee: 2,500
+[citizens-school] SOURCE: https://citizens.me/admissions/tuition-fees/
+[citizens-school] YEAR: 2025-2026
+
+[clarion-school] ANNUAL FEES:
+- Pre Primary: 42,080
+- KG 1: 54,704
+- KG 2: 63,120
+- Grade 1: 75,744
+- Grade 2: 75,744
+- Grade 3: 75,744
+- Grade 4: 75,744
+- Grade 5: 75,744
+- Grade 6: 94,680
+- Grade 7: 94,680
+- Grade 8: 94,680
+[clarion-school] ONE-TIME FEES:
+- Application Fee: 500
+- Seat Deposit Fee: 5,000
+[clarion-school] SOURCE: https://clarionschooldubai.com/
+[clarion-school] YEAR: 2025-2026
+
+[collegiate-international-school] ANNUAL FEES:
+- Pre KG: 39,478
+- KG 1: 39,478
+- KG 2: 43,373
+- Grade 1: 48,240
+- Grade 2: 48,240
+- Grade 3: 52,999
+- Grade 4: 52,999
+- Grade 5: 52,999
+- Grade 6: 59,597
+- Grade 7: 59,597
+- Grade 8: 59,597
+- Grade 9: 65,979
+- Grade 10: 65,979
+- Grade 11: 70,630
+- Grade 12: 70,630
+[collegiate-international-school] ONE-TIME FEES:
+- Entrance Test Fee: 525
+[collegiate-international-school] SOURCE: https://www.collegiate.sch.ae/fees-cis
+[collegiate-international-school] YEAR: 2025-2026
+
+[credence-high-school] ANNUAL FEES:
+- Pre-KG: 15,000
+- KG-1: 15,850
+- KG-2: 15,850
+- Grade-1: 17,850
+- Grade-2: 17,850
+- Grade-3: 19,950
+- Grade-4: 19,950
+- Grade-5: 22,050
+- Grade-6: 22,050
+- Grade-7: 24,000
+- Grade-8: 24,000
+- Grade-9: 26,000
+- Grade-10: 26,000
+- Grade-11: 27,000
+- Grade-12: 27,000
+[credence-high-school] ONE-TIME FEES:
+- Application Fee: 525
+[credence-high-school] SOURCE: https://www.credencehighschool.com/tuition-fee.html
+[credence-high-school] YEAR: 2026-2027
+
+[crown-american-private-school] ANNUAL FEES:
+- KG: 13,000
+- G1: 14,600
+- G2: 15,300
+- G3: 15,900
+- G4: 16,900
+- G5: 18,500
+- G6: 18,500
+- G7: 21,400
+- G8: 21,700
+- G9: 23,400
+- G10: 27,100
+- G11: 28,300
+- G12: 28,300
+[crown-american-private-school] ONE-TIME FEES:
+- Registration/Booking Fee: 1,000
+[crown-american-private-school] SOURCE: https://crownamerican.ae/admission/admission-process.html
+[crown-american-private-school] YEAR: 2025-2026
+
+[dar-al-marefa-private-school] ANNUAL FEES:
+- Pre-KG: 39,917
+- KG1: 39,917
+- KG2: 39,917
+- Grade 1: 49,333
+- Grade 2: 49,333
+- Grade 3: 54,655
+- Grade 4: 54,655
+- Grade 5: 54,655
+- Grade 6: 66,118
+- Grade 7: 66,118
+- Grade 8: 66,118
+- Grade 9: 71,440
+- Grade 10: 71,440
+- Grade 11: 81,880
+- Grade 12: 81,880
+[dar-al-marefa-private-school] ONE-TIME FEES:
+- Application Fee: 500
+[dar-al-marefa-private-school] SOURCE: https://www.daralmarefa.ae/admissions/tuition-fee
+[dar-al-marefa-private-school] YEAR: 2025-2026
+
+[deira-international-school] ANNUAL FEES:
+- FS1: 44,616
+- FS2: 44,616
+- Year 1: 58,034
+- Year 2: 58,034
+- Year 3: 58,034
+- Year 4: 58,034
+- Year 5: 58,034
+- Year 6: 63,057
+- Year 7: 63,057
+- Year 8: 68,094
+- Year 9: 68,094
+- Year 10: 71,453
+- Year 11: 81,501
+- Year 12/IB1: 89,889
+- Year 13/IB2: 89,889
+[deira-international-school] ONE-TIME FEES:
+- Booking Fee: 3,000
+[deira-international-school] SOURCE: https://www.disdubai.ae/admissions/fees/
+[deira-international-school] YEAR: 2025-2026
+
+[deira-private-school] ANNUAL FEES:
+- Foundation Stage 1: 24,067
+- Foundation Stage 2: 24,067
+- Year 1: 26,413
+- Year 2: 26,413
+- Year 3: 26,413
+- Year 4: 30,894
+- Year 5: 30,894
+- Year 6: 32,001
+- Year 7: 32,125
+- Year 8: 32,125
+- Year 9: 32,125
+[deira-private-school] ONE-TIME FEES:
+- Registration Fee: 500
+- Application Fee: 500
+- Assessment Fee: 500
+[deira-private-school] SOURCE: https://deiraprivateschool.ae/tuition-fees
+[deira-private-school] YEAR: 2025-2026
+
+[deutsche-internationale-schule] ANNUAL FEES:
+- PreKG: 38,760
+- KG 1: 38,760
+- KG 2: 42,843
+- Grade 1: 45,730
+- Grade 2: 45,730
+- Grade 3: 45,730
+- Grade 4: 45,730
+- Grade 5: 57,854
+- Grade 6: 62,656
+- Grade 7: 62,656
+- Grade 8: 62,656
+- Grade 9: 62,656
+- Grade 10: 62,656
+- Grade 11: 73,227
+- Grade 12: 73,227
+[deutsche-internationale-schule] ONE-TIME FEES:
+- Application Fee: 525
+[deutsche-internationale-schule] SOURCE: https://germanschool.ae/en/anmeldung/schulgebuehren/
+[deutsche-internationale-schule] YEAR: 2025-2026
+
+[dhruv-global-school] ANNUAL FEES:
+- Pre KG: 13,000
+- KG 1: 14,000
+- KG 2: 14,000
+- Grade 1: 15,000
+- Grade 2: 15,000
+- Grade 3: 16,000
+- Grade 4: 16,000
+- Grade 5: 17,000
+- Grade 6: 17,000
+- Grade 7: 19,000
+[dhruv-global-school] SOURCE: https://dhruv.ae/fees/
+[dhruv-global-school] YEAR: 2025-2026

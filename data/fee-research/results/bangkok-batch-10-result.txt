@@ -1,0 +1,118 @@
+[tsi-international-school] ANNUAL FEES:
+- Pre-Nursery (Little Lions): 240,000
+- Nursery: 306,500
+- Reception: 351,500
+- Year 1: 376,500
+- Year 2: 376,500
+- Year 3: 376,500
+- Year 4: 376,500
+- Year 5: 376,500
+- Year 6: 376,500
+- Year 7: 376,500
+- Year 8: 376,500
+- Year 9: 308,500
+- Year 10: 319,500
+- Year 11: 307,500
+- Year 12: 319,500
+- Year 13: 307,500
+[tsi-international-school] ONE-TIME FEES:
+- Admission Fee (Little Lions): 50,000
+- Admission Fee (Nursery - Year 6): 90,000
+- Admission Fee (Years 7-11): 50,000
+- Admission Fee (Years 12-13): 30,000
+- Deposit: 50,000
+[tsi-international-school] SOURCE: https://www.tsi.ac.th/fees
+[tsi-international-school] YEAR: 2026-2027
+
+[verso-international-school] ANNUAL FEES:
+- Early Years 2: 528,000
+- Early Years 3: 528,000
+- Early Years 4: 570,000
+- Early Years 5: 570,000
+- Grade 1: 653,000
+- Grade 2: 653,000
+- Grade 3: 653,000
+- Grade 4: 653,000
+- Grade 5: 695,000
+- Grade 6: 695,000
+- Grade 7: 695,000
+- Grade 8: 695,000
+- Grade 9: 764,000
+- Grade 10: 764,000
+- Grade 11: 764,000
+- Grade 12: 764,000
+[verso-international-school] ONE-TIME FEES:
+- Application Fee: 6,000
+- Enrollment Fee: 250,000
+[verso-international-school] SOURCE: https://www.doris.school/schools/thailand/verso-international-school/fees
+[verso-international-school] YEAR: 2025-2026
+
+[welearn-academy] ANNUAL FEES:
+- Lower Secondary - US Pathways Full-Time: 300,000
+- Lower Secondary - UK Pathways Full-Time: 330,000
+- Upper Secondary - US Pathways Full-Time: 320,000
+- Upper Secondary - UK Pathways Full-Time (IGCSE): 380,000
+- Upper Secondary - US Pathways GED Preparation: 300,000
+[welearn-academy] ONE-TIME FEES:
+- Processing Fee (Admission Fee): 60,000
+[welearn-academy] SOURCE: https://welearnthailand.com/pricing-and-tuition-fees/
+[welearn-academy] YEAR: 2025-2026
+
+[wellington-college-international-school] ANNUAL FEES:
+- Pre-Nursery: 615,250
+- Nursery: 676,000
+- Reception: 735,500
+- Year 1: 856,500
+- Year 2: 856,500
+- Year 3: 885,000
+- Year 4: 885,000
+- Year 5: 913,400
+- Year 6: 913,400
+- Year 7: 948,600
+- Year 8: 948,600
+- Year 9: 948,600
+- Year 10: 1,017,000
+- Year 11: 1,017,000
+- Year 12: 1,240,137
+- Year 13: 826,758
+[wellington-college-international-school] ONE-TIME FEES:
+- Application Fee: 6,000
+- Registration Fee: 225,000
+- Security Deposit: 175,000
+[wellington-college-international-school] SOURCE: https://www.wellingtoncollege.ac.th/admissions/fees
+[wellington-college-international-school] YEAR: 2025-2026
+
+[wells-international-school] ANNUAL FEES:
+- Nursery: 246,000
+- Kindergarten 1 (K1): 270,000
+- Kindergarten 2 (K2): 279,000
+- Kindergarten 3 (K3): 290,000
+- Grades 1-2: 373,200
+- Grades 3-4: 412,000
+- Grades 5-6: 444,000
+- Grades 7-8: 470,000
+- Grades 9-10: 516,000
+- Grades 11-12: 546,000
+[wells-international-school] ONE-TIME FEES:
+- Registration Fee (K1-G12): 4,500
+- Campus Development Fee (Nursery-K3): 70,000
+- Campus Development Fee (Grades 1-12): 130,000
+- Damage Deposit (Refundable): 35,000
+[wells-international-school] SOURCE: https://wells.ac.th/school-fees/
+[wells-international-school] YEAR: 2025-2026
+
+[xcl-american-school-of] ANNUAL FEES:
+- Pre-Kindergarten 1A: 453,450
+- Pre-Kindergarten 1B: 453,450
+- Pre-Kindergarten 2: 514,220
+- Kindergarten: 514,220
+- Grades 1-5: 648,860
+- Grades 6-8: 737,340
+- Grades 9-12: 808,630
+[xcl-american-school-of] ONE-TIME FEES:
+- Application Fee: 5,000
+- Registration Fee (1st child): 150,000
+- Refundable Deposit: 30,000
+- School Development Fund (One-time): 180,000
+[xcl-american-school-of] SOURCE: https://www.asbsk.ac.th/en/admission/tuition-and-fees
+[xcl-american-school-of] YEAR: 2025-2026

@@ -1,0 +1,175 @@
+[ash-mount-school] ANNUAL FEES:
+- Pre KG / FS1: 44,200
+- KG 1 / FS2: 44,200
+- KG 2 / Year 1: 44,200
+- Grade 1 / Year 2: 55,250
+- Grade 2 / Year 3: 55,250
+- Grade 3 / Year 4: 55,250
+- Grade 4 / Year 5: 63,750
+- Grade 5 / Year 6: 63,750
+- Grade 6 / Year 7: 63,750
+- Grade 7 / Year 8: 63,750
+- Grade 8 / Year 9: 63,750
+[ash-mount-school] SOURCE: https://ashmountschool.com/tuition-fees/
+[ash-mount-school] YEAR: 2026-2027
+
+[australian-international-school-dubai] ANNUAL FEES:
+- Pre-KG: 52,000
+- KG1: 52,000
+- KG2 (Prep): 52,000
+- Year 1: 56,000
+- Year 2: 56,000
+- Year 3: 60,000
+- Year 4: 63,000
+- Year 5: 63,000
+- Year 6: 71,000
+- Year 7: 81,000
+- Year 8: 81,000
+- Year 9: 85,000
+- Year 10: 85,000
+- Year 11: 90,000
+- Year 12: 90,000
+[australian-international-school-dubai] ONE-TIME FEES:
+- Enrolment Application Fee: 500
+[australian-international-school-dubai] SOURCE: https://www.aisdubai.ae/admissions/schedule-of-fees
+[australian-international-school-dubai] YEAR: 2025-2026
+
+[bc-academy-international-school] ANNUAL FEES:
+- Year 1: 50,000
+- Year 2: 53,000
+- Year 3: 55,000
+- Year 4: 57,000
+- Year 5: 57,000
+- Year 6: 60,000
+- Year 7: 60,000
+[bc-academy-international-school] ONE-TIME FEES:
+- Application Fee: 525
+[bc-academy-international-school] SOURCE: https://bcacademy.ae/admissions/tuitionfees
+[bc-academy-international-school] YEAR: 2025-2026
+
+[bloom-world-academy] ANNUAL FEES:
+- Pre-KG: 50,000
+- KG1: 53,000
+- KG2: 55,000
+- Grade 1: 60,000
+- Grade 2: 60,000
+- Grade 3: 60,000
+- Grade 4: 60,000
+- Grade 5: 60,000
+- Grade 6: 70,000
+- Grade 7: 75,000
+- Grade 8: 75,000
+- Grade 9: 78,000
+- Grade 10: 78,000
+- Grade 11: 85,000
+- Grade 12: 85,000
+[bloom-world-academy] ONE-TIME FEES:
+- Application Fee: 525
+- Registration Fee: 4,000
+[bloom-world-academy] SOURCE: https://www.bloomworldacademy.ae/admissions/school-fees
+[bloom-world-academy] YEAR: 2025-2026
+
+[bright-learners-private-school] ANNUAL FEES:
+- Pre-K: 24,606
+- KG 1: 25,688
+- KG 2: 27,851
+- Grade 1: 30,014
+- Grade 2: 30,014
+- Grade 3: 30,014
+- Grade 4: 30,014
+- Grade 5: 30,014
+- Grade 6: 32,719
+- Grade 7: 32,719
+- Grade 8: 32,719
+[bright-learners-private-school] ONE-TIME FEES:
+- Application/Assessment Fee: 500
+- Admission/Registration Fee: 500
+[bright-learners-private-school] SOURCE: https://www.brightlearners.ae/fees
+[bright-learners-private-school] YEAR: 2025-2026
+
+[bright-riders-school] ANNUAL FEES:
+- Pre-KG: 15,200
+- KG1-KG2: 12,500
+- Grade 1-2: 13,700
+- Grade 3-5: 15,600
+- Grade 6-8: 18,550
+- Grade 9-10: 19,600
+- Grades 11-12: 22,500
+[bright-riders-school] ONE-TIME FEES:
+- Registration Fee: 525
+[bright-riders-school] SOURCE: https://www.brightridersdubai.com/fees
+[bright-riders-school] YEAR: 2025-2026
+
+[brighton-college-dubai] ANNUAL FEES:
+- FS1: 64,175
+- FS2: 66,519
+- Year 1: 70,900
+- Year 2: 75,029
+- Year 3: 75,424
+- Year 4: 75,424
+- Year 5: 75,700
+- Year 6: 75,700
+- Year 7: 85,876
+- Year 8: 91,640
+- Year 9: 93,279
+- Year 10: 95,596
+- Year 11: 102,722
+- Year 12: 102,722
+- Year 13: 105,773
+[brighton-college-dubai] ONE-TIME FEES:
+- Application Fee: 525
+[brighton-college-dubai] SOURCE: https://www.brightoncollegedubai.ae/admissions/school-fees
+[brighton-college-dubai] YEAR: 2025-2026
+
+[british-international-school-ajman] ANNUAL FEES:
+- KG 1: 11,000
+- KG 2: 11,500
+- Grade 1: 12,000
+- Grade 2: 12,000
+- Grade 3: 12,000
+- Grade 4: 12,000
+- Grade 5: 12,600
+- Grade 6: 16,200
+- Grade 7: 17,500
+- Grade 8: 17,500
+- Grade 9: 18,500
+- Grade 11: 21,000
+- Grade 12: 22,000
+[british-international-school-ajman] ONE-TIME FEES:
+- Registration Fee: 500
+[british-international-school-ajman] SOURCE: https://bisuae.ae/tuition-fees/
+[british-international-school-ajman] YEAR: 2025-2026
+
+[cambridge-international-school] ANNUAL FEES:
+- FS: 23,795
+- Years 1-2: 27,041
+- Years 3-4: 28,122
+- Years 5-6: 29,204
+- Years 7-9: 32,448
+- Years 10-11: 34,612
+- Years 12-13: 36,775
+[cambridge-international-school] ONE-TIME FEES:
+- Application Fee: 525
+[cambridge-international-school] SOURCE: https://www.gemscis-dubai.com/Admissions/Tuition-Fees
+[cambridge-international-school] YEAR: 2025-2026
+
+[capital-school] ANNUAL FEES:
+- FS1: 23,000
+- FS2: 24,000
+- Year 1: 26,000
+- Year 2: 28,500
+- Year 3: 30,500
+- Year 4: 32,500
+- Year 5: 35,000
+- Year 6: 37,000
+- Year 7: 38,500
+- Year 8: 40,500
+- Year 9: 42,500
+- Year 10: 42,500
+- Year 11: 44,500
+- Year 12: 48,000
+- Year 13: 48,000
+[capital-school] ONE-TIME FEES:
+- Application Fee: 500
+[capital-school] SOURCE: https://www.capitalschooluae.com/fees
+[capital-school] YEAR: 2026-2027

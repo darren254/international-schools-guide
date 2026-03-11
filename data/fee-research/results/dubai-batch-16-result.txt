@@ -1,0 +1,207 @@
+[the-aquila-school] ANNUAL FEES:
+- FS1: 48,673
+- FS2: 51,917
+- Year 1: 54,081
+- Year 2: 54,081
+- Year 3: 56,244
+- Year 4: 56,244
+- Year 5: 59,489
+- Year 6: 59,489
+- Year 7: 64,897
+- Year 8: 64,897
+- Year 9: 71,386
+- Year 10: 71,386
+- Year 11: 71,386
+- Year 12: 77,876
+- Year 13: 77,876
+[the-aquila-school] ONE-TIME FEES:
+- Application Fee: 500
+[the-aquila-school] SOURCE: https://www.theaquilaschool.com/admissions/tuition-fees
+[the-aquila-school] YEAR: 2025-2026
+
+[the-arbor-school] ANNUAL FEES:
+- FS1: 49,500
+- FS2: 54,580
+- Year 1: 61,500
+- Year 2: 61,500
+- Year 3: 65,500
+- Year 4: 65,500
+- Year 5: 70,200
+- Year 6: 70,200
+- Year 7: 80,500
+- Year 8: 80,500
+- Year 9: 85,000
+- Year 10: 85,000
+- Year 11: 85,000
+- Year 12: 90,250
+- Year 13: 90,250
+[the-arbor-school] ONE-TIME FEES:
+- Assessment Fee: 500
+[the-arbor-school] SOURCE: https://thearborschool.ae/fees/
+[the-arbor-school] YEAR: 2025-2026
+
+[the-city-school-international] ANNUAL FEES:
+- FS1: 14,781
+- FS2: 15,087
+- Year 1: 16,460
+- Year 2: 16,460
+- Year 3: 16,460
+- Year 4: 16,460
+- Year 5: 17,833
+- Year 6: 17,833
+- Year 7: 17,833
+- Year 8: 17,833
+- Year 9: 17,833
+- Year 10: 22,220
+- Year 11: 26,746
+- Year 12 (Business): 33,530
+- Year 12 (Science): 35,694
+- Year 13 (Business): 35,694
+- Year 13 (Science): 35,694
+[the-city-school-international] ONE-TIME FEES:
+- Registration Fee: 500
+- Admission Fee: 1,000
+[the-city-school-international] SOURCE: https://thecityschool.sch.ae/admission/fee-payment/
+[the-city-school-international] YEAR: 2025-2026
+
+[the-english-college] ANNUAL FEES:
+- Foundation Stage 1: 41,000
+- Foundation Stage 2: 46,000
+- Year 1: 53,000
+- Year 2: 53,000
+- Year 3: 56,000
+- Year 4: 56,000
+- Year 5: 56,982
+- Year 6: 56,982
+- Year 7: 56,982
+- Year 8: 56,982
+- Year 9: 56,982
+- Year 10: 61,817
+- Year 11: 61,817
+- Year 12: 68,265
+- Year 13: 68,265
+[the-english-college] ONE-TIME FEES:
+- Application Fee: 500
+[the-english-college] SOURCE: https://www.englishcollegedubai.com/admissions/tuition-fees
+[the-english-college] YEAR: 2025-2026
+
+[the-international-school-of-choueifat-ajman] ANNUAL FEES:
+- Pre-KG: 28,000
+- KG1: 28,000
+- KG2: 30,000
+- Grade 1: 32,000
+- Grade 2: 34,000
+- Grade 3: 36,000
+- Grade 4: 38,000
+- Grade 5: 40,000
+- Grade 6: 42,000
+- Grade 7: 44,000
+- Grade 8: 46,000
+- Grade 9: 48,000
+- Grade 10: 50,000
+- Grade 11: 52,000
+- Grade 12: 54,000
+[the-international-school-of-choueifat-ajman] SOURCE: https://iscajman.sabis.net/downloads/other/isc-ajman-tuition-fees-ay25-26.pdf
+[the-international-school-of-choueifat-ajman] YEAR: 2025-2026
+
+[the-international-school-of-choueifat-dubai-investments-park] ANNUAL FEES:
+- Pre-KG: 26,000
+- KG1: 26,298
+- KG2: 28,100
+- Grade 1: 29,902
+- Grade 2: 30,261
+- Grade 3: 30,621
+- Grade 4: 33,144
+- Grade 5: 33,864
+- Grade 6: 35,304
+- Grade 7: 38,189
+- Grade 8: 39,628
+- Grade 9: 41,791
+- Grade 10: 45,032
+- Grade 11: 48,995
+- Grade 12: 50,077
+[the-international-school-of-choueifat-dubai-investments-park] ONE-TIME FEES:
+- Application Fee: 500
+[the-international-school-of-choueifat-dubai-investments-park] SOURCE: https://iscdip.sabis.net/admissions/tuition-fees
+[the-international-school-of-choueifat-dubai-investments-park] YEAR: 2025-2026
+
+[the-international-school-of-choueifat-sharjah] ANNUAL FEES:
+- KG1: 21,000
+- KG2: 22,100
+- Grade 1: 24,000
+- Grade 2: 24,600
+- Grade 3: 25,400
+- Grade 4: 27,000
+- Grade 5: 27,100
+- Grade 6: 28,100
+- Grade 7: 31,500
+- Grade 8: 32,600
+- Grade 9: 32,600
+- Grade 10: 36,000
+- Grade 11: 36,800
+- Grade 12: 37,200
+[the-international-school-of-choueifat-sharjah] SOURCE: https://iscsharjah.sabis.net/admissions/tuition-fees
+[the-international-school-of-choueifat-sharjah] YEAR: 2025-2026
+
+[the-millennium-school] ANNUAL FEES:
+- KG1: 18,278
+- KG2: 18,278
+- Grade 1: 21,179
+- Grade 2: 21,179
+- Grade 3: 22,468
+- Grade 4: 22,468
+- Grade 5: 24,189
+- Grade 6: 24,189
+- Grade 7: 24,189
+- Grade 8: 24,189
+- Grade 9: 25,265
+- Grade 10: 25,265
+- Grade 11: 26,876
+- Grade 12: 26,876
+[the-millennium-school] ONE-TIME FEES:
+- Registration Fee: 525
+[the-millennium-school] SOURCE: https://www.themillenniumschool-dubai.com/Admissions/Fees-and-Payments
+[the-millennium-school] YEAR: 2025-2026
+
+[the-oxford-school] ANNUAL FEES:
+- FS1: 13,681
+- FS2: 13,681
+- Year 1: 15,661
+- Year 2: 15,661
+- Year 3: 15,661
+- Year 4: 15,661
+- Year 5: 15,661
+- Year 6: 16,245
+- Year 7: 16,245
+- Year 8: 16,245
+- Year 9: 16,804
+- Year 10: 16,804
+- Year 11: 19,739
+- Year 12: 21,428
+- Year 13: 21,428
+[the-oxford-school] ONE-TIME FEES:
+- Application Fee: 525
+- Admission Fee: 500
+[the-oxford-school] SOURCE: https://oxford.sch.ae/school-fees-fact-sheet-2025-26/
+[the-oxford-school] YEAR: 2025-2026
+
+[the-scholars-school] ANNUAL FEES:
+- FS1: 61,000
+- FS2: 61,000
+- Year 1: 64,000
+- Year 2: 64,000
+- Year 3: 68,000
+- Year 4: 68,000
+- Year 5: 72,000
+- Year 6: 72,000
+- Year 7: 85,000
+- Year 8: 85,000
+- Year 9: 85,000
+- Year 10: 89,000
+- Year 11: 89,000
+- Year 12: 95,000
+- Year 13: 95,000
+[the-scholars-school] ONE-TIME FEES:
+- Application Fee: 525
+[the-scholars-school] SOURCE: https://scholarsschool.com/admissions/
+[the-scholars-school] YEAR: 2026-2027
