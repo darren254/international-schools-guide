@@ -1,0 +1,168 @@
+[american-international-school] ANNUAL FEES:
+- Early Childhood (half day): 97,000
+- Early Childhood (whole day) – Grade 1 Junior: 146,800
+- Grade 1 – Grade 4: 152,800
+- Grade 5 – Grade 8: 164,400
+- Grade 9 – Grade 12: 180,400
+[american-international-school] ONE-TIME FEES:
+- Application Fee: 1,500
+[american-international-school] SOURCE: https://www.ais.edu.hk/admissions/tuition-fees/
+[american-international-school] YEAR: 2025-2026
+
+[american-school] ANNUAL FEES:
+- KG (Reception): 164,800
+- Grade 1: 189,600
+- Grade 2: 189,600
+- Grade 3: 189,600
+- Grade 4: 189,600
+- Grade 5: 201,500
+- Grade 6: 201,500
+- Grade 7: 211,300
+- Grade 8: 211,300
+- Grade 9: 223,200
+- Grade 10: 223,200
+- Grade 11: 234,500
+- Grade 12: 234,500
+[american-school] ONE-TIME FEES:
+- Application Fee: 900
+[american-school] SOURCE: https://www.ashk.edu.hk/admissions/tuition-and-fees
+[american-school] YEAR: 2025-2026
+
+[anchors-academy] ANNUAL FEES:
+- Pre-Nursery (half day): 107,000
+- K1 (half day): 107,000
+- K2 (half day): 107,000
+- K3 (half day): 107,000
+- K2 (full day): 154,000
+- K3 (full day): 154,000
+- Year 1: 154,000
+- Year 2: 154,000
+- Year 3: 154,000
+[anchors-academy] ONE-TIME FEES:
+- Application Fee (Primary): 1,000
+[anchors-academy] SOURCE: https://anchorsacademy.edu.hk/en/content.php?wid=197
+[anchors-academy] YEAR: 2025-2026
+
+[anfield-school] ANNUAL FEES:
+- Nursery (half day): 102,000
+- K1 (half day): 101,000
+- K2 (half day): 101,000
+- K1 (full day): 126,000
+- K2 (full day): 126,000
+- Year 1 – Year 6: 165,000
+[anfield-school] ONE-TIME FEES:
+- Application Fee (Kindergarten): 800
+- Application Fee (Primary): 1,000
+[anfield-school] SOURCE: https://anfield.edu.hk/tai-wai-campus-fees/
+[anfield-school] YEAR: 2025-2026
+
+[australian-international-school] ANNUAL FEES:
+- Reception: 156,200
+- Preparatory – Year 6: 182,500
+- Year 7 – Year 10: 210,500
+- Year 11 – Year 12 (HSC): 220,900
+- Year 11 – Year 12 (IB): 265,400
+[australian-international-school] ONE-TIME FEES:
+- Application Fee: 1,500
+- Assessment Fee: 500
+- Reservation Deposit: 25,000
+[australian-international-school] SOURCE: https://www.aishk.edu.hk/admissions#tuition-fees
+[australian-international-school] YEAR: 2026
+
+[beacon-hill-school] ANNUAL FEES:
+- Year 1: 139,000
+- Year 2: 139,000
+- Year 3: 139,000
+- Year 4: 139,000
+- Year 5: 139,000
+- Year 6: 139,000
+[beacon-hill-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- Enrolment Deposit: 27,800
+- Capital Levy – Year 1 entry: 38,000
+- Capital Levy – Year 2 entry: 36,000
+- Capital Levy – Year 3 entry: 34,000
+- Capital Levy – Year 4 entry: 32,000
+- Capital Levy – Year 5 entry: 30,000
+- Capital Levy – Year 6 entry: 28,000
+[beacon-hill-school] SOURCE: https://join-us.esf.edu.hk/school-fees/
+[beacon-hill-school] YEAR: 2025-2026
+
+[bloom-kkca-academy] ANNUAL FEES:
+- Grade 1: 191,510
+- Grade 2: 191,510
+- Grade 3: 191,510
+- Grade 4: 191,510
+- Grade 5: 191,510
+- Grade 6: 197,120
+[bloom-kkca-academy] ONE-TIME FEES:
+- Debenture A1 (existing parents): 300,000
+- Debenture A2: 600,000
+- Debenture A3: 900,000
+[bloom-kkca-academy] SOURCE: https://bloom.edu.hk/admissions/tuition-financial-aid
+[bloom-kkca-academy] YEAR: 2025-2026
+
+[bradbury-school] ANNUAL FEES:
+- Year 1: 139,000
+- Year 2: 139,000
+- Year 3: 139,000
+- Year 4: 139,000
+- Year 5: 139,000
+- Year 6: 139,000
+[bradbury-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- Enrolment Deposit: 27,800
+- Capital Levy – Year 1 entry: 38,000
+- Capital Levy – Year 2 entry: 36,000
+- Capital Levy – Year 3 entry: 34,000
+- Capital Levy – Year 4 entry: 32,000
+- Capital Levy – Year 5 entry: 30,000
+- Capital Levy – Year 6 entry: 28,000
+[bradbury-school] SOURCE: https://join-us.esf.edu.hk/school-fees/
+[bradbury-school] YEAR: 2025-2026
+
+[california-school] ANNUAL FEES:
+- Primary 1: 22,000
+- Primary 2: 22,000
+- Primary 3: 22,000
+- Primary 4: 24,750
+- Primary 5: 24,750
+- Primary 6: 24,750
+- Form 1: 29,700
+- Form 2: 30,800
+- Form 3: 34,650
+- Form 4: 41,250
+- Form 5: 40,500
+- Form 6: 51,700
+- Form 7: 46,800
+[california-school] ONE-TIME FEES:
+- Registration Fee: 80
+- Deposit: 1,290
+[california-school] SOURCE: https://www.californiaschool.edu.hk/new-students/
+[california-school] YEAR: 2025-2026
+
+[canadian-international-school-of] ANNUAL FEES:
+- Nursery (half day): 138,600
+- Early Years 1 (half day): 156,300
+- Early Years 2 (whole day): 203,100
+- Preparatory: 210,900
+- Grade 1: 210,900
+- Grade 2: 210,900
+- Grade 3: 191,800
+- Grade 4: 193,600
+- Grade 5: 193,600
+- Grade 6: 212,800
+- Grade 7: 216,600
+- Grade 8: 216,600
+- Grade 9: 237,700
+- Grade 10: 237,700
+- Grade 11: 254,300
+- Grade 12: 254,300
+[canadian-international-school-of] ONE-TIME FEES:
+- Application Fee (Nursery): 1,800
+- Application Fee (EY1 and above): 2,350
+- Assessment Fee (EY1 and above): 1,650
+- Entry Fee (EY1 and above): 12,500
+- Reservation Deposit (EY1 and above): 80,000
+[canadian-international-school-of] SOURCE: https://www.cdnis.edu.hk/admissions/tuition-fees
+[canadian-international-school-of] YEAR: 2025-2026
