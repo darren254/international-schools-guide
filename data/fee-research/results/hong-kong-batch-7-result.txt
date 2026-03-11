@@ -1,0 +1,138 @@
+[saint-too-bloom-academy] ANNUAL FEES:
+- Grade 7 – Grade 8: 202,620
+- Grade 9: 210,760
+- Grade 10: 210,760
+- Grade 11: 216,920
+- Grade 12: 216,920
+[saint-too-bloom-academy] SOURCE: https://secondary.bloom.edu.hk/en
+[saint-too-bloom-academy] YEAR: 2025-2026
+
+[san-wui-commercial-society-ymca-of-hong-kong-christian-school] ANNUAL FEES:
+- Year 1: 137,400
+- Year 2: 128,400
+- Year 3: 128,400
+- Year 4: 128,400
+- Year 5: 127,030
+- Year 6: 120,900
+[san-wui-commercial-society-ymca-of-hong-kong-christian-school] ONE-TIME FEES:
+- Application Fee: 300
+[san-wui-commercial-society-ymca-of-hong-kong-christian-school] SOURCE: https://www.cs.edu.hk/
+[san-wui-commercial-society-ymca-of-hong-kong-christian-school] YEAR: 2025-2026
+
+[sear-rogers-international-school] ANNUAL FEES:
+- Primary 1 to Primary 6: 102,300
+- Year 7 to Year 9: 120,505
+- Year 10 to Year 11: 112,800
+- Year 12: 128,100
+- Year 13: 115,290
+[sear-rogers-international-school] ONE-TIME FEES:
+- Application Fee: 600
+[sear-rogers-international-school] SOURCE: https://sris.edu.hk
+[sear-rogers-international-school] YEAR: 2024-2025
+
+[sha-tin-college] ANNUAL FEES:
+- Year 7: 181,100
+- Year 8: 181,100
+- Year 9: 181,100
+- Year 10: 181,100
+- Year 11: 159,400
+- Year 12: 167,600
+- Year 13: 167,600
+[sha-tin-college] ONE-TIME FEES:
+- Application Fee: 2,800
+- NCL Year 7: 26,000
+- NCL Year 8: 22,300
+- NCL Year 9: 18,600
+- NCL Year 10: 14,900
+- NCL Year 11: 11,200
+- NCL Year 12: 7,500
+- NCL Year 13: 3,800
+[sha-tin-college] SOURCE: https://shatincollege.esf.edu.hk/en/
+[sha-tin-college] YEAR: 2025-2026
+
+[sha-tin-junior-school] ANNUAL FEES:
+- Year 1: 139,000
+- Year 2: 139,000
+- Year 3: 139,000
+- Year 4: 139,000
+- Year 5: 139,000
+- Year 6: 139,000
+[sha-tin-junior-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- Deposit: 27,800
+- NCL Year 1: 38,000
+- NCL Year 2: 36,000
+- NCL Year 3: 34,000
+- NCL Year 4: 32,000
+- NCL Year 5: 30,000
+- NCL Year 6: 28,000
+[sha-tin-junior-school] SOURCE: https://sjs.esf.edu.hk/
+[sha-tin-junior-school] YEAR: 2025-2026
+
+[singapore-international-school] ANNUAL FEES:
+- Preparatory Years: 103,000
+- Primary 1 to Primary 6: 161,100
+- Secondary 1 to Secondary 4: 208,800
+- Diploma Programme Year 1 and Year 2: 254,900
+[singapore-international-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- Entrance Fee: 13,000
+- Personal Debenture: 200,000
+- Corporate Debenture: 500,000
+[singapore-international-school] SOURCE: https://www.singapore.edu.hk/
+[singapore-international-school] YEAR: 2025-2026
+
+[south-island-school] ANNUAL FEES:
+- Year 7: 181,100
+- Year 8: 181,100
+- Year 9: 181,100
+- Year 10: 181,100
+- Year 11: 159,400
+- Year 12: 167,600
+- Year 13: 167,600
+[south-island-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- Admission Deposit: 16,000
+- NCL Year 7: 26,000
+- NCL Year 8: 22,300
+- NCL Year 9: 18,600
+- NCL Year 10: 14,900
+- NCL Year 11: 11,200
+- NCL Year 12: 7,500
+- NCL Year 13: 3,800
+[south-island-school] SOURCE: https://sis.esf.edu.hk/en/
+[south-island-school] YEAR: 2025-2026
+
+[spanish-school-of] ANNUAL FEES:
+- Year 1 to Year 4: 115,000
+- Year 5 to Year 6: 125,000
+- Year 7 to Year 9: 145,000
+[spanish-school-of] ONE-TIME FEES:
+- Capital Levy (one-off option): 80,000
+[spanish-school-of] SOURCE: https://sshk.edu.hk/
+[spanish-school-of] YEAR: 2025-2026
+
+[stamford-american-international-school] ANNUAL FEES:
+- Pre-Primary to Grade 2: 217,100
+- Grade 3 to Grade 5: 220,500
+- Grade 6 to Grade 8: 239,900
+- Grade 9 to Grade 10: 247,300
+- Grade 11 to Grade 12: 264,000
+[stamford-american-international-school] ONE-TIME FEES:
+- Capital Levy (one-time option): 150,000
+- Individual Debenture: 500,000
+[stamford-american-international-school] SOURCE: https://www.sais.edu.hk/
+[stamford-american-international-school] YEAR: 2025-2026
+
+[the-harbour-school] ANNUAL FEES:
+- Junior Grade 1: 202,600
+- Grade 1 to Grade 6: 242,200
+- Grade 7 to Grade 8: 250,900
+- Grade 9 to Grade 12: 259,500
+[the-harbour-school] ONE-TIME FEES:
+- Application Fee: 2,500
+- Entry Fee (first child): 16,000
+- Entry Fee (additional children): 6,000
+- Family Admissions Right: 450,000
+[the-harbour-school] SOURCE: https://www.ths.edu.hk/
+[the-harbour-school] YEAR: 2026-2027

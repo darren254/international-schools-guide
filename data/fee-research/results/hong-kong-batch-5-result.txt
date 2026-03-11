@@ -1,0 +1,124 @@
+[island-school] ANNUAL FEES:
+- Years 7 – 10: 181,100
+- Year 11: 159,400
+- Years 12 – 13: 167,600
+[island-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- NCL Year 7: 26,000
+- NCL Year 8: 22,300
+- NCL Year 9: 18,600
+- NCL Year 10: 14,900
+- NCL Year 11: 11,200
+- NCL Year 12: 7,500
+- NCL Year 13: 3,800
+[island-school] SOURCE: https://join-us.esf.edu.hk/school-fees/
+[island-school] YEAR: 2025-2026
+
+[island-waldorf-school] ANNUAL FEES:
+- Kindergarten (3-6 years): 105,600
+- Class 1 – Class 6: 146,000
+- Class 7 – Class 8: 165,500
+[island-waldorf-school] SOURCE: https://iws.edu.hk/admissions/tuition-fees/
+[island-waldorf-school] YEAR: 2025-2026
+
+[japanese-international-school] ANNUAL FEES:
+- Reception: 140,460
+- Primary 1: 140,460
+- Primary 2: 140,460
+- Primary 3: 140,460
+- Primary 4: 140,460
+- Primary 5: 140,460
+- Primary 6: 140,460
+[japanese-international-school] ONE-TIME FEES:
+- Application and Interview Fee: 600
+[japanese-international-school] SOURCE: https://es.jis.edu.hk/admissions#fees
+[japanese-international-school] YEAR: 2025-2026
+
+[kellett-school] ANNUAL FEES:
+- Preparatory (Reception – Year 6): 208,800
+- Senior (Year 7 – Year 11): 259,600
+- Senior Sixth Form (Year 12 – Year 13): 267,100
+[kellett-school] ONE-TIME FEES:
+- Application Fee (Reception – Year 4): 2,000
+- Application Fee (Year 5 – Year 13): 2,500
+[kellett-school] SOURCE: https://www.kellettschool.com/admissions/fees-debenture-information
+[kellett-school] YEAR: 2025-2026
+
+[kennedy-school] ANNUAL FEES:
+- Years 1 – 6: 139,000
+[kennedy-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- Deposit: 27,800
+- NCL Year 1: 38,000
+- NCL Year 2: 36,000
+- NCL Year 3: 34,000
+- NCL Year 4: 32,000
+- NCL Year 5: 30,000
+- NCL Year 6: 28,000
+[kennedy-school] SOURCE: https://join-us.esf.edu.hk/school-fees/
+[kennedy-school] YEAR: 2025-2026
+
+[kiangsu-chekiang-school-international-sections] ANNUAL FEES:
+- Kindergarten: 85,400
+- Reception: 85,400
+- Primary 1 – Primary 6: 101,500
+- Secondary Years 7 – 13: 128,000
+[kiangsu-chekiang-school-international-sections] ONE-TIME FEES:
+- Application Fee: 500
+- Registration Deposit (KG/Reception): 17,080
+- Registration Deposit (Primary): 20,300
+- Registration Deposit (Secondary): 25,600
+[kiangsu-chekiang-school-international-sections] SOURCE: https://www.kcis.edu.hk/admission.html
+[kiangsu-chekiang-school-international-sections] YEAR: 2025-2026
+
+[king-george-v-school] ANNUAL FEES:
+- Year 7 – Year 10: 181,100
+- Year 11: 159,400
+- Year 12 – Year 13: 167,600
+[king-george-v-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- NCL Year 7: 26,000
+- NCL Year 8: 22,300
+- NCL Year 9: 18,600
+- NCL Year 10: 14,900
+- NCL Year 11: 11,200
+- NCL Year 12: 7,500
+- NCL Year 13: 3,800
+[king-george-v-school] SOURCE: https://join-us.esf.edu.hk/school-fees/
+[king-george-v-school] YEAR: 2025-2026
+
+[kingston-international-school] ANNUAL FEES:
+- Playgroup (2 days/week): 63,800
+- Children Centre 2-Year-Old Class (5 days/week): 109,780
+- Kindergarten 3-5-Year-Old Class (5 days/week): 112,200
+- Primary Year 1 – Year 2: 155,000
+- Primary Year 3 – Year 4: 165,000
+- Primary Year 5 – Year 6: 175,000
+[kingston-international-school] ONE-TIME FEES:
+- Capital Levy (entry Year 1-3): 138,000
+- Capital Levy (entry Year 4-6): 69,000
+[kingston-international-school] SOURCE: https://www.kingston.edu.hk/admissions/school-fees
+[kingston-international-school] YEAR: 2025-2026
+
+[korean-international-school] ANNUAL FEES:
+- Reception: 97,100
+- Year 1 – Year 6: 122,900
+- Year 7 – Year 13: 137,000
+[korean-international-school] ONE-TIME FEES:
+- Admissions Fee: 2,000
+[korean-international-school] SOURCE: https://www.kis.edu.hk/fees/
+[korean-international-school] YEAR: 2025-2026
+
+[kowloon-junior-school] ANNUAL FEES:
+- Years 1 – 6: 139,000
+[kowloon-junior-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- Deposit: 27,800
+- NCL Year 1: 38,000
+- NCL Year 2: 36,000
+- NCL Year 3: 34,000
+- NCL Year 4: 32,000
+- NCL Year 5: 30,000
+- NCL Year 6: 28,000
+[kowloon-junior-school] SOURCE: https://join-us.esf.edu.hk/school-fees/
+[kowloon-junior-school] YEAR: 2025-2026

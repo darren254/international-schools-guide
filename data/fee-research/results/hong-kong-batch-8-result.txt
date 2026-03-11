@@ -1,0 +1,127 @@
+[the-international-montessori-school] ANNUAL FEES:
+- Montessori First Steps (Ages 1-2) 2 Days: 36,000
+- Montessori First Steps (Ages 1-2) 3 Days: 53,000
+- Foundation Group (Ages 2-3) 5 Days: 99,500
+- Foundation Class (Ages 2-3) 5 Days: 106,000
+- Casa dei Bambini (Ages 3-4) Half-Day: 143,000
+- Casa dei Bambini (Ages 4-6) Full Day: 206,500
+- Lower Elementary (Ages 6-9): 209,500
+- Upper Elementary (Ages 9-12): 216,500
+- Middle School (Ages 12-14): 238,100
+[the-international-montessori-school] ONE-TIME FEES:
+- Application Fee: 2,000
+- Personal Nomination Right: 120,000
+- Capital Note: 150,000
+[the-international-montessori-school] SOURCE: https://www.ims.edu.hk/en/admission/school-fees
+[the-international-montessori-school] YEAR: 2025-2026
+
+[the-isf-academy] ANNUAL FEES:
+- Foundation Year to Grade 5 (Primary): 240,320
+- Grade 6 to Grade 10 (Secondary): 279,210
+- Grade 11 to Grade 12: 303,530
+[the-isf-academy] ONE-TIME FEES:
+- Application Fee: 1,000
+[the-isf-academy] SOURCE: https://academy.isf.edu.hk/index.php/welcome-from-dean-of-admissions/fees-tuition/?lang=en
+[the-isf-academy] YEAR: 2025-2026
+
+[the-jockey-club-sarah-roe-school] ANNUAL FEES:
+- Years 1 – 6: 139,000
+- Years 7 – 10: 181,100
+- Year 11: 159,400
+- Years 12 – 13: 167,600
+[the-jockey-club-sarah-roe-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- NCL Year 1: 38,000
+- NCL Year 2: 36,000
+- NCL Year 3: 34,000
+- NCL Year 4: 32,000
+- NCL Year 5: 30,000
+- NCL Year 6: 28,000
+- NCL Year 7: 26,000
+- NCL Year 8: 22,300
+- NCL Year 9: 18,600
+- NCL Year 10: 14,900
+- NCL Year 11: 11,200
+- NCL Year 12: 7,500
+- NCL Year 13: 3,800
+[the-jockey-club-sarah-roe-school] SOURCE: https://join-us.esf.edu.hk/school-fees/
+[the-jockey-club-sarah-roe-school] YEAR: 2025-2026
+
+[victoria-shanghai-academy] ANNUAL FEES:
+- Primary Years Programme (Y1-Y5): 181,200
+- Middle Years Programme (Y6): 200,700
+- Middle Years Programme (Y7-Y8): 203,700
+- Middle Years Programme (Y9-Y10): 205,400
+- Diploma Programme (Y11-Y12): 255,600
+[victoria-shanghai-academy] ONE-TIME FEES:
+- Application Fee: 2,000
+- Refundable Capital Levy: 60,000
+[victoria-shanghai-academy] SOURCE: https://www.vsa.edu.hk/admissions/school-fees
+[victoria-shanghai-academy] YEAR: 2025-2026
+
+[west-island-school] ANNUAL FEES:
+- Years 7 – 10: 181,100
+- Year 11: 159,400
+- Years 12 – 13: 167,600
+[west-island-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- NCL Year 7: 26,000
+- NCL Year 8: 22,300
+- NCL Year 9: 18,600
+- NCL Year 10: 14,900
+- NCL Year 11: 11,200
+- NCL Year 12: 7,500
+- NCL Year 13: 3,800
+[west-island-school] SOURCE: https://join-us.esf.edu.hk/school-fees/
+[west-island-school] YEAR: 2025-2026
+
+[wycombe-abbey-school] ANNUAL FEES:
+- Years 1 – 5: 188,000
+- Years 6 – 8: 198,000
+- Years 9 – 11: 208,000
+- Years 12 – 13 (Sixth Form): 218,000
+[wycombe-abbey-school] SOURCE: https://was.edu.hk/fees-information/
+[wycombe-abbey-school] YEAR: 2025-2026
+
+[yew-chung-international-school] ANNUAL FEES:
+- Twos Whole Day: 223,036
+- Threes Whole Day: 240,801
+- Fours Whole Day: 249,216
+- Fives Whole Day: 261,536
+- Years 1 – 6: 265,420
+- Years 7 – 11 (IB Pathway): 262,220
+- Years 12 – 13: 268,640
+[yew-chung-international-school] ONE-TIME FEES:
+- Application Fee (Primary and Secondary): 1,000
+- ECE Debenture (1st child): 150,000
+- ECE Debenture (2nd child): 100,000
+- ECE Debenture (3rd child or more): 75,000
+- Secondary Debenture (1st child): 470,000
+- Secondary Debenture (2nd child): 235,000
+- Secondary Debenture (3rd child or more): 117,500
+[yew-chung-international-school] SOURCE: https://www.ycis-hk.com/en/admissions/tuition-n-fees
+[yew-chung-international-school] YEAR: 2025-2026
+
+[yk-pao-school] ANNUAL FEES:
+- Years 1 – 3: 220,000
+[yk-pao-school] SOURCE: https://ykpaoschool.hk/
+[yk-pao-school] YEAR: 2026-2027
+
+[ymca-christian-academy] ANNUAL FEES:
+- Year 1 – Year 6: 144,470
+[ymca-christian-academy] ONE-TIME FEES:
+- Application Fee: 2,000
+[ymca-christian-academy] SOURCE: https://yca.edu.hk/tuition-and-other-fees/
+[ymca-christian-academy] YEAR: 2025-2026
+
+[ymca-of-hong-kong-christian-college] ANNUAL FEES:
+- Form 1: 61,000
+- Forms 2 – 3: 58,000
+- Forms 4 – 5 DSE: 57,000
+- Form 6 DSE: 50,500
+- Form 5 GCE: 65,000
+- Form 6 GCE: 62,000
+[ymca-of-hong-kong-christian-college] ONE-TIME FEES:
+- Application Fee: 100
+[ymca-of-hong-kong-christian-college] SOURCE: https://yhkcc.edu.hk/admission/school-fees/the-annual-school-fees/
+[ymca-of-hong-kong-christian-college] YEAR: 2025-2026

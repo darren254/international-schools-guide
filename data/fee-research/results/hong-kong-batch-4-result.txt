@@ -1,0 +1,116 @@
+[harrow-international-school] ANNUAL FEES:
+- Nursery and Reception: 175,812
+- Years 1 – 5: 201,314
+- Years 6 – 8: 229,949
+- Years 9 – 11: 229,949
+- Years 12 – 13: 239,070
+[harrow-international-school] ONE-TIME FEES:
+- Application Fee: 1,500
+[harrow-international-school] SOURCE: https://www.harrowhongkong.hk/his/admissions/fees/
+[harrow-international-school] YEAR: 2025-2026
+
+[hkca-po-leung-kuk-school] ANNUAL FEES:
+- Kindergarten (K1-K3): 93,200
+- Primary (G1-G6): 125,000
+[hkca-po-leung-kuk-school] ONE-TIME FEES:
+- Application Fee: 800
+[hkca-po-leung-kuk-school] SOURCE: https://www.plkis.edu.hk/our-fees-other-costs/
+[hkca-po-leung-kuk-school] YEAR: 2025-2026
+
+[hkila] ANNUAL FEES:
+- Year 1 – Year 9: 212,200
+[hkila] SOURCE: https://www.studyhkila.edu.hk/studyhkila/
+[hkila] YEAR: 2025-2026
+
+[hong-kong-academy] ANNUAL FEES:
+- Pre-K1 to Pre-K2: 119,000
+- Kindergarten to Grade 5: 229,500
+- Grade 6 to Grade 8: 252,600
+- Grade 9 to Grade 10: 263,300
+- Grade 11 to Grade 12: 273,900
+[hong-kong-academy] ONE-TIME FEES:
+- Application Fee (Pre-K1 to Pre-K2): 1,500
+- Application Fee (Kindergarten to Grade 12): 3,000
+- Entrance Fee (first child): 25,000
+- Entrance Fee (additional children): 12,500
+- Tuition Deposit: 30,000
+- Family Debenture: 630,000
+[hong-kong-academy] SOURCE: https://hkacademy.edu.hk/school-fees/
+[hong-kong-academy] YEAR: 2026-2027
+
+[hong-kong-adventist-academy] ANNUAL FEES:
+- Grade 1 to Grade 6: 117,500
+- Grade 7 to Grade 12: 139,000
+[hong-kong-adventist-academy] ONE-TIME FEES:
+- Application Fee: 1,200
+[hong-kong-adventist-academy] SOURCE: https://www.hkaa.edu.hk/tuition-and-fees
+[hong-kong-adventist-academy] YEAR: 2025-2026
+
+[hong-kong-international-school] ANNUAL FEES:
+- Reception 1 to Grade 2: 231,600
+- Grades 3 to 5: 231,600
+- Grades 6 to 8: 244,500
+- Grades 9 to 12: 258,550
+[hong-kong-international-school] ONE-TIME FEES:
+- Application Fee: 2,000
+- Entry Fee: 15,000
+[hong-kong-international-school] SOURCE: https://www.hkis.edu.hk/admissions/tuition-fees
+[hong-kong-international-school] YEAR: 2026-2027
+
+[ichk-kindergarten-and-primary] ANNUAL FEES:
+- Pre-Nursery (3 afternoons/week): 25,170
+- Part-time Nursery: 83,500
+- Full-time Nursery: 145,110
+- Reception: 145,110
+- Year 1: 145,110
+- Year 2: 145,110
+- Year 3: 145,110
+- Year 4: 145,110
+- Year 5: 145,110
+- Year 6: 145,110
+[ichk-kindergarten-and-primary] ONE-TIME FEES:
+- Application Charge: 1,850
+- Assessment Interview Charge: 800
+- One-off Capital Levy: 75,000
+[ichk-kindergarten-and-primary] SOURCE: https://ichkhly.edu.hk/admissions/dates-fees-more/
+[ichk-kindergarten-and-primary] YEAR: 2025-2026
+
+[ichk-secondary] ANNUAL FEES:
+- Years 7 – 9: 184,500
+- Years 10 – 11: 192,500
+- Years 12 – 13: 204,900
+[ichk-secondary] ONE-TIME FEES:
+- Application Fee: 205
+- Administrative Fee: 2,000
+- Capital Fee: 100,000
+- Activity Deposit (refundable): 4,000
+[ichk-secondary] SOURCE: https://www.ichk.edu.hk/join/admissions-info
+[ichk-secondary] YEAR: 2025-2026
+
+[international-christian-school] ANNUAL FEES:
+- Kindergarten (Reception 1-2): 91,000
+- Elementary (Pre-Grade 1 to Grade 5): 148,400
+- Middle School (Grade 6 to Grade 8): 196,600
+- High School (Grade 9 to Grade 12): 201,500
+[international-christian-school] ONE-TIME FEES:
+- Application Fee (Kindergarten): 1,000
+- Application Fee (Pre-Grade 1 to Grade 12): 1,500
+- Individual Debenture (first child): 250,000
+- Individual Debenture (second child): 180,000
+- Individual Debenture (third child): 140,000
+[international-christian-school] SOURCE: https://www.ics.edu.hk/admissions/#financial
+[international-christian-school] YEAR: 2025-2026
+
+[invictus-school] ANNUAL FEES:
+- Kindergarten Half Day: 75,350
+- Kindergarten Whole Day: 113,600
+- Primary (Year 1 to Year 6): 118,100
+- Secondary (Year 7 to Year 11): 139,000
+- Secondary (Year 12 to Year 13): 141,700
+[invictus-school] ONE-TIME FEES:
+- Application Fee (Kindergarten): 40
+- Application Fee (Primary): 1,300
+- Assessment Fee (Year 7 to Year 10): 500
+- Enrolment Fee: 15,000
+[invictus-school] SOURCE: https://www.invictus.edu.hk/admissions/school-fee-structure-and-policy
+[invictus-school] YEAR: 2025-2026

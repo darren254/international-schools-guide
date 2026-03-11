@@ -1,0 +1,131 @@
+[carmel-school] ANNUAL FEES:
+- Tzutzik and Ganeynu: 84,500
+- Nursery and Pre-Kindergarten: 114,000
+- Kindergarten and Elementary: 202,600
+- Elsa High School Main Stream: 202,600
+- Elsa High School International Stream: 237,370
+[carmel-school] ONE-TIME FEES:
+- Application Fee (Ganeynu, Nursery, Pre-K): 1,000
+- Application Fee (Kindergarten, Elementary, High School): 1,500
+[carmel-school] SOURCE: https://www.carmel.edu.hk/admissions/tuition-fees
+[carmel-school] YEAR: 2025-2026
+
+[chinese-international-school] ANNUAL FEES:
+- Reception: 216,100
+- Year 1 – Year 6: 286,600
+- Year 7 – Year 11: 338,300
+- Year 12 – Year 13: 342,800
+[chinese-international-school] ONE-TIME FEES:
+- Application Fee: 2,000
+- Assessment Fee (Reception): 2,000
+- Assessment Fee (Year 7-13): 2,500
+- Reservation Deposit: 150,000
+[chinese-international-school] SOURCE: https://www.cis.edu.hk/admissions/school-fees
+[chinese-international-school] YEAR: 2025-2026
+
+[christian-alliance-international-school] ANNUAL FEES:
+- Preparatory: 141,500
+- Grade 1 to Grade 3: 157,600
+- Grade 4: 165,700
+- Grade 5: 177,700
+- Grade 6: 190,000
+- Grade 7 to Grade 9: 205,400
+- Grade 10 to Grade 12: 224,600
+- IB Diploma Programme (Grade 11 and Grade 12): 237,000
+[christian-alliance-international-school] ONE-TIME FEES:
+- Application Fee (Preparatory to Grade 3): 1,500
+- Application Fee (Grade 4 to Grade 12): 1,800
+- Individual Capital Note (1st child): 560,000
+- Individual Capital Note (2nd child): 504,000
+- Individual Capital Note (3rd child): 476,000
+[christian-alliance-international-school] SOURCE: https://www.caisbv.edu.hk/fees-capital-notes/
+[christian-alliance-international-school] YEAR: 2025-2026
+
+[christian-alliance-p-c-lau-memorial-international-school] ANNUAL FEES:
+- Preparatory: 136,470
+- Grade 1 to Grade 5: 151,940
+- Grade 6: 177,540
+[christian-alliance-p-c-lau-memorial-international-school] ONE-TIME FEES:
+- Application and Assessment Fee: 1,500
+- Individual Capital Note (1st child): 260,000
+- Individual Capital Note (2nd child): 234,000
+- Individual Capital Note (3rd child): 208,000
+[christian-alliance-p-c-lau-memorial-international-school] SOURCE: https://www.capcl.edu.hk/admissions/
+[christian-alliance-p-c-lau-memorial-international-school] YEAR: 2025-2026
+
+[clearwater-bay-school] ANNUAL FEES:
+- Year 1: 139,000
+- Year 2: 139,000
+- Year 3: 139,000
+- Year 4: 139,000
+- Year 5: 139,000
+- Year 6: 139,000
+[clearwater-bay-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- Deposit: 27,800
+- Capital Levy – Year 1 entry: 38,000
+- Capital Levy – Year 2 entry: 36,000
+- Capital Levy – Year 3 entry: 34,000
+- Capital Levy – Year 4 entry: 32,000
+- Capital Levy – Year 5 entry: 30,000
+- Capital Levy – Year 6 entry: 28,000
+[clearwater-bay-school] SOURCE: https://join-us.esf.edu.hk/school-fees/
+[clearwater-bay-school] YEAR: 2025-2026
+
+[concordia-international-school] ANNUAL FEES:
+- Grade 7 – Grade 8: 134,000
+- Grade 9: 139,600
+- Grade 10: 140,200
+- Grade 11: 155,850
+- Grade 12: 156,500
+[concordia-international-school] ONE-TIME FEES:
+- Application Fee: 1,000
+- Advanced Fee: 15,000
+[concordia-international-school] SOURCE: https://www.cihs.edu.hk/admission/tuition-and-fees/
+[concordia-international-school] YEAR: 2025-2026
+
+[creative-primary-school] ANNUAL FEES:
+- P.1 to P.3: 145,970
+- P.4 to P.6: 149,160
+[creative-primary-school] ONE-TIME FEES:
+- Application Fee: 80
+[creative-primary-school] SOURCE: https://www.creativeprisch.edu.hk/
+[creative-primary-school] YEAR: 2025-2026
+
+[creative-secondary-school] ANNUAL FEES:
+- F1 – F2: 173,652
+- F3: 179,512
+- F4: 191,997
+- F5 (HKDSE): 197,127
+- F5 (IBDP): 244,642
+- F6 (HKDSE): 197,177
+- F6 (IBDP): 244,632
+[creative-secondary-school] SOURCE: https://www.css.edu.hk/school-fee
+[creative-secondary-school] YEAR: 2025-2026
+
+[dalton-school] ANNUAL FEES:
+- Primary Reception: 205,480
+- Grade 1: 205,480
+- Grade 2: 205,480
+- Grade 3: 205,480
+- Grade 4: 205,480
+- Grade 5: 205,480
+- Grade 6: 207,680
+- Grade 7: 207,680
+- Grade 8: 207,680
+[dalton-school] ONE-TIME FEES:
+- Application Fee: 1,550
+[dalton-school] SOURCE: https://dshk.edu.hk/admissions-international-program/
+[dalton-school] YEAR: 2025-2026
+
+[discovery-bay-international-school] ANNUAL FEES:
+- FS-1 and FS-2: 132,500
+- Year 1 to Year 6: 143,700
+- Year 7 to Year 11: 190,700
+- Year 12 and Year 13: 196,900
+[discovery-bay-international-school] ONE-TIME FEES:
+- Application Fee: 2,000
+- Standard School Development Levy (1st and 2nd child): 60,000
+- Standard School Development Levy (3rd child onwards): 50,000
+[discovery-bay-international-school] SOURCE: https://drive.google.com/file/d/12t37IM2Yjot23lGHykSOMk_LqKf8S9Vd/view
+[discovery-bay-international-school] YEAR: 2025-2026

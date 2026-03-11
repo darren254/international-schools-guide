@@ -5418,38 +5418,39 @@
   "carmel-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.carmel.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://www.carmel.edu.hk/admissions/tuition-fees",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 2,
-        "grade": "Tzutzik / Ganeynu",
-        "amount": 10833
+        "age": 0,
+        "grade": "Tzutzik and Ganeynu",
+        "amount": 84500
       },
       {
         "age": 3,
-        "grade": "Nursery & Pre-Kindergarten",
-        "amount": 14615
+        "grade": "Nursery and Pre-Kindergarten",
+        "amount": 114000
       },
       {
-        "age": 5,
-        "grade": "Kindergarten & Elementary",
-        "amount": 25974
+        "age": 0,
+        "grade": "Kindergarten and Elementary",
+        "amount": 202600
       },
       {
-        "age": 11,
-        "grade": "Elsa High School (Main Stream)",
-        "amount": 25974
+        "age": 0,
+        "grade": "Elsa High School Main Stream",
+        "amount": 202600
       },
       {
-        "age": 14,
-        "grade": "Elsa High School (International Stream)",
-        "amount": 30432
+        "age": 0,
+        "grade": "Elsa High School International Stream",
+        "amount": 237370
       }
     ],
     "oneTimeFees": {
-      "Capital Levy (Grade 6–12, Annual)": 2375
+      "Application Fee (Ganeynu, Nursery, Pre-K)": 1000,
+      "Application Fee (Kindergarten, Elementary, High School)": 1500
     }
   },
   "cempaka-international-school": {
@@ -5644,116 +5645,122 @@
   "chinese-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.cis.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://www.cis.edu.hk/admissions/school-fees",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 4,
+        "age": 5,
         "grade": "Reception",
-        "amount": 27705
+        "amount": 216100
       },
       {
         "age": 5,
-        "grade": "Year 1–6",
-        "amount": 36744
+        "grade": "Year 1 – Year 6",
+        "amount": 286600
       },
       {
         "age": 11,
-        "grade": "Year 7–11",
-        "amount": 43372
+        "grade": "Year 7 – Year 11",
+        "amount": 338300
       },
       {
         "age": 16,
-        "grade": "Year 12–13",
-        "amount": 43949
+        "grade": "Year 12 – Year 13",
+        "amount": 342800
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 256,
-      "Assessment Fee": 321,
-      "Reservation Deposit": 19231
+      "Application Fee": 2000,
+      "Assessment Fee (Reception)": 2000,
+      "Assessment Fee (Year 7-13)": 2500,
+      "Reservation Deposit": 150000
     }
   },
   "christian-alliance-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.caisbv.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://www.caisbv.edu.hk/fees-capital-notes/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
         "age": 5,
         "grade": "Preparatory",
-        "amount": 18141
+        "amount": 141500
       },
       {
         "age": 6,
-        "grade": "Grade 1–3",
-        "amount": 20205
+        "grade": "Grade 1 to Grade 3",
+        "amount": 157600
       },
       {
         "age": 9,
         "grade": "Grade 4",
-        "amount": 21244
+        "amount": 165700
       },
       {
         "age": 10,
         "grade": "Grade 5",
-        "amount": 22782
+        "amount": 177700
       },
       {
         "age": 11,
         "grade": "Grade 6",
-        "amount": 24359
+        "amount": 190000
       },
       {
         "age": 12,
-        "grade": "Grade 7–9",
-        "amount": 26333
+        "grade": "Grade 7 to Grade 9",
+        "amount": 205400
       },
       {
         "age": 15,
-        "grade": "Grade 10–12",
-        "amount": 28795
+        "grade": "Grade 10 to Grade 12",
+        "amount": 224600
       },
       {
         "age": 16,
-        "grade": "IB Diploma (Grade 11–12)",
-        "amount": 30385
+        "grade": "IB Diploma Programme (Grade 11 and Grade 12)",
+        "amount": 237000
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 231,
-      "Individual Capital Note": 71795
+      "Application Fee (Preparatory to Grade 3)": 1500,
+      "Application Fee (Grade 4 to Grade 12)": 1800,
+      "Individual Capital Note (1st child)": 560000,
+      "Individual Capital Note (2nd child)": 504000,
+      "Individual Capital Note (3rd child)": 476000
     }
   },
   "christian-alliance-p-c-lau-memorial-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.capcl.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://www.capcl.edu.hk/admissions/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
         "age": 5,
         "grade": "Preparatory",
-        "amount": 17496
+        "amount": 136470
       },
       {
         "age": 6,
-        "grade": "Grade 1–5",
-        "amount": 19479
+        "grade": "Grade 1 to Grade 5",
+        "amount": 151940
       },
       {
         "age": 11,
         "grade": "Grade 6",
-        "amount": 22762
+        "amount": 177540
       }
     ],
     "oneTimeFees": {
-      "Application & Assessment Fee": 192,
-      "Annual Capital Levy": 3205
+      "Application and Assessment Fee": 1500,
+      "Individual Capital Note (1st child)": 260000,
+      "Individual Capital Note (2nd child)": 234000,
+      "Individual Capital Note (3rd child)": 208000
     }
   },
   "cikal-school": {
@@ -5912,44 +5919,50 @@
   "clearwater-bay-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://cwbs.esf.edu.hk/en/",
-    "sourceDate": "unverified",
+    "source": "https://join-us.esf.edu.hk/school-fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
         "age": 5,
         "grade": "Year 1",
-        "amount": 17821
+        "amount": 139000
       },
       {
         "age": 6,
         "grade": "Year 2",
-        "amount": 17821
+        "amount": 139000
       },
       {
         "age": 7,
         "grade": "Year 3",
-        "amount": 17821
+        "amount": 139000
       },
       {
         "age": 8,
         "grade": "Year 4",
-        "amount": 17821
+        "amount": 139000
       },
       {
         "age": 9,
         "grade": "Year 5",
-        "amount": 17821
+        "amount": 139000
       },
       {
         "age": 10,
         "grade": "Year 6",
-        "amount": 17821
+        "amount": 139000
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 359,
-      "Capital Levy (Year 1)": 4872
+      "Application Fee": 2800,
+      "Deposit": 27800,
+      "Capital Levy – Year 1 entry": 38000,
+      "Capital Levy – Year 2 entry": 36000,
+      "Capital Levy – Year 3 entry": 34000,
+      "Capital Levy – Year 4 entry": 32000,
+      "Capital Levy – Year 5 entry": 30000,
+      "Capital Levy – Year 6 entry": 28000
     }
   },
   "collegiate-international-school": {
@@ -6106,39 +6119,39 @@
   "concordia-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.cihs.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://www.cihs.edu.hk/admission/tuition-and-fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
         "age": 12,
-        "grade": "Grade 7–8",
-        "amount": 17179
+        "grade": "Grade 7 – Grade 8",
+        "amount": 134000
       },
       {
         "age": 14,
         "grade": "Grade 9",
-        "amount": 17897
+        "amount": 139600
       },
       {
         "age": 15,
         "grade": "Grade 10",
-        "amount": 17974
+        "amount": 140200
       },
       {
         "age": 16,
         "grade": "Grade 11",
-        "amount": 19981
+        "amount": 155850
       },
       {
         "age": 17,
         "grade": "Grade 12",
-        "amount": 20064
+        "amount": 156500
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 128,
-      "Advanced Fee (Deposit)": 1923
+      "Application Fee": 1000,
+      "Advanced Fee": 15000
     }
   },
   "concordian-international-school": {
@@ -6239,56 +6252,65 @@
     "city": "hong-kong",
     "currency": "HKD",
     "source": "https://www.creativeprisch.edu.hk/",
-    "sourceDate": "unverified",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 6,
-        "grade": "P.1–P.3",
-        "amount": 18714
+        "age": 0,
+        "grade": "P.1 to P.3",
+        "amount": 145970
       },
       {
-        "age": 9,
-        "grade": "P.4–P.6",
-        "amount": 19123
+        "age": 0,
+        "grade": "P.4 to P.6",
+        "amount": 149160
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 10,
-      "Registration Fee": 385
+      "Application Fee": 80
     }
   },
   "creative-secondary-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.css.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://www.css.edu.hk/school-fee",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 12,
-        "grade": "F1–F2",
-        "amount": 22263
+        "age": 0,
+        "grade": "F1 – F2",
+        "amount": 173652
       },
       {
-        "age": 14,
+        "age": 0,
         "grade": "F3",
-        "amount": 23014
+        "amount": 179512
       },
       {
-        "age": 15,
+        "age": 0,
         "grade": "F4",
-        "amount": 24615
+        "amount": 191997
       },
       {
-        "age": 16,
+        "age": 0,
+        "grade": "F5 (HKDSE)",
+        "amount": 197127
+      },
+      {
+        "age": 0,
         "grade": "F5 (IBDP)",
-        "amount": 31364
+        "amount": 244642
       },
       {
-        "age": 17,
+        "age": 0,
+        "grade": "F6 (HKDSE)",
+        "amount": 197177
+      },
+      {
+        "age": 0,
         "grade": "F6 (IBDP)",
-        "amount": 31363
+        "amount": 244632
       }
     ],
     "oneTimeFees": {}
@@ -6507,49 +6529,58 @@
   "dalton-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://dshk.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://dshk.edu.hk/admissions-international-program/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 5,
-        "grade": "Reception – Grade 2",
-        "amount": 27613
+        "age": 6,
+        "grade": "Primary Reception",
+        "amount": 205480
+      },
+      {
+        "age": 6,
+        "grade": "Grade 1",
+        "amount": 205480
+      },
+      {
+        "age": 7,
+        "grade": "Grade 2",
+        "amount": 205480
       },
       {
         "age": 8,
-        "grade": "Grade 3–5",
-        "amount": 28036
+        "grade": "Grade 3",
+        "amount": 205480
+      },
+      {
+        "age": 9,
+        "grade": "Grade 4",
+        "amount": 205480
+      },
+      {
+        "age": 10,
+        "grade": "Grade 5",
+        "amount": 205480
       },
       {
         "age": 11,
-        "grade": "Grade 6–8",
-        "amount": 30856
+        "grade": "Grade 6",
+        "amount": 207680
       },
       {
-        "age": 14,
-        "grade": "Grade 9",
-        "amount": 31336
+        "age": 12,
+        "grade": "Grade 7",
+        "amount": 207680
       },
       {
-        "age": 15,
-        "grade": "Grade 10",
-        "amount": 32267
-      },
-      {
-        "age": 16,
-        "grade": "Grade 11",
-        "amount": 32901
-      },
-      {
-        "age": 17,
-        "grade": "Grade 12",
-        "amount": 33677
+        "age": 13,
+        "grade": "Grade 8",
+        "amount": 207680
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 199,
-      "Annual Capital Levy (1st child)": 5769
+      "Application Fee": 1550
     }
   },
   "dar-al-marefa-private-school": {
@@ -7023,144 +7054,102 @@
   "discovery-bay-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.dbis.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://drive.google.com/file/d/12t37IM2Yjot23lGHykSOMk_LqKf8S9Vd/view",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 3,
-        "grade": "FS-1 & FS-2",
-        "amount": 16987
+        "age": 0,
+        "grade": "FS-1 and FS-2",
+        "amount": 132500
       },
       {
         "age": 5,
-        "grade": "Year 1–6",
-        "amount": 18423
+        "grade": "Year 1 to Year 6",
+        "amount": 143700
       },
       {
         "age": 11,
-        "grade": "Year 7–11",
-        "amount": 24449
+        "grade": "Year 7 to Year 11",
+        "amount": 190700
       },
       {
         "age": 16,
-        "grade": "Year 12–13",
-        "amount": 25244
+        "grade": "Year 12 and Year 13",
+        "amount": 196900
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 256,
-      "School Development Levy": 7692
+      "Application Fee": 2000,
+      "Standard School Development Levy (1st and 2nd child)": 60000,
+      "Standard School Development Levy (3rd child onwards)": 50000
     }
   },
   "discovery-college": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.discovery.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://www.esf.edu.hk/fee-levels-for-academic-year-2025-26-esf-dc/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
         "age": 5,
-        "grade": "Year 1",
-        "amount": 21808
-      },
-      {
-        "age": 6,
-        "grade": "Year 2",
-        "amount": 21808
-      },
-      {
-        "age": 7,
-        "grade": "Year 3",
-        "amount": 21808
-      },
-      {
-        "age": 8,
-        "grade": "Year 4",
-        "amount": 21808
-      },
-      {
-        "age": 9,
-        "grade": "Year 5",
-        "amount": 21808
-      },
-      {
-        "age": 10,
-        "grade": "Year 6",
-        "amount": 21808
+        "grade": "Year 1 to Year 6",
+        "amount": 162100
       },
       {
         "age": 11,
-        "grade": "Year 7",
-        "amount": 28421
-      },
-      {
-        "age": 12,
-        "grade": "Year 8",
-        "amount": 28421
-      },
-      {
-        "age": 13,
-        "grade": "Year 9",
-        "amount": 28421
-      },
-      {
-        "age": 14,
-        "grade": "Year 10",
-        "amount": 28421
-      },
-      {
-        "age": 15,
-        "grade": "Year 11",
-        "amount": 28421
+        "grade": "Year 7 to Year 11",
+        "amount": 213600
       },
       {
         "age": 16,
-        "grade": "Year 12",
-        "amount": 28654
-      },
-      {
-        "age": 17,
-        "grade": "Year 13",
-        "amount": 28654
+        "grade": "Year 12 to Year 13",
+        "amount": 215300
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 359,
-      "Building Levy (Annual)": 1033
+      "Application Fee": 2800,
+      "Admission Deposit (Primary)": 10000,
+      "Admission Deposit (Secondary)": 16000
     }
   },
   "discovery-mind-educational-organisation": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://discoverymind.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://applications.edb.gov.hk/schoolsearch/schoolfee/519871.pdf",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 1,
-        "grade": "Play Centre (Half Day)",
-        "amount": 8974
+        "age": 0,
+        "grade": "Play Centre (Ages 2-3)",
+        "amount": 94820
       },
       {
         "age": 3,
-        "grade": "Kindergarten (Half Day)",
-        "amount": 10256
-      },
-      {
-        "age": 3,
-        "grade": "Kindergarten (Full Day)",
-        "amount": 14103
+        "grade": "Nursery",
+        "amount": 94820
       },
       {
         "age": 6,
-        "grade": "Primary (Year 1–5)",
-        "amount": 16667
+        "grade": "Lower Kindergarten",
+        "amount": 94820
+      },
+      {
+        "age": 14,
+        "grade": "Upper Kindergarten",
+        "amount": 94820
+      },
+      {
+        "age": 6,
+        "grade": "Primary 1 to Primary 6",
+        "amount": 130460
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 385
+      "Application Fee (Kindergarten)": 50,
+      "Application Fee (Primary)": 1000
     }
   },
   "dove-green-private-school": {
@@ -7320,33 +7309,34 @@
   "dsc-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.dsc.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://www.dsc.edu.hk/admissions/tuition-fees",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 4,
+        "age": 0,
         "grade": "Pre-Grade 1",
-        "amount": 18859
+        "amount": 147100
       },
       {
-        "age": 5,
-        "grade": "Grade 1–8",
-        "amount": 19962
+        "age": 6,
+        "grade": "Grade 1 to Grade 8",
+        "amount": 155700
       },
       {
-        "age": 13,
-        "grade": "Grade 9–10",
-        "amount": 20705
+        "age": 14,
+        "grade": "Grade 9 and Grade 10",
+        "amount": 161500
       },
       {
-        "age": 15,
-        "grade": "Grade 11–12",
-        "amount": 21551
+        "age": 16,
+        "grade": "Grade 11 and Grade 12",
+        "amount": 168100
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 128
+      "Application Fee": 1000,
+      "Textbook and Resources Deposit (Grade 1-12)": 1000
     }
   },
   "dubai-arabian-american-private-school": {
@@ -9227,73 +9217,83 @@
   "elchk-lutheran-academy": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.luac.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://www.luac.edu.hk/admissions/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 6,
+        "age": 5,
         "grade": "Year 1",
-        "amount": 20741
+        "amount": 161677
+      },
+      {
+        "age": 6,
+        "grade": "Year 2",
+        "amount": 161677
       },
       {
         "age": 7,
-        "grade": "Year 2",
-        "amount": 20741
+        "grade": "Year 3",
+        "amount": 161677
       },
       {
         "age": 8,
-        "grade": "Year 3",
-        "amount": 20741
+        "grade": "Year 4",
+        "amount": 161677
       },
       {
         "age": 9,
-        "grade": "Year 4",
-        "amount": 20741
+        "grade": "Year 5",
+        "amount": 159987
       },
       {
         "age": 10,
-        "grade": "Year 5",
-        "amount": 20510
+        "grade": "Year 6",
+        "amount": 156357
       },
       {
         "age": 11,
-        "grade": "Year 6",
-        "amount": 20111
+        "grade": "Year 7",
+        "amount": 158137
       },
       {
         "age": 12,
-        "grade": "Year 7",
-        "amount": 20271
+        "grade": "Year 8",
+        "amount": 156497
       },
       {
         "age": 13,
-        "grade": "Year 8",
-        "amount": 20061
+        "grade": "Year 9",
+        "amount": 152947
       },
       {
         "age": 14,
-        "grade": "Year 9",
-        "amount": 19605
+        "grade": "Year 10",
+        "amount": 172442
       },
       {
         "age": 15,
-        "grade": "Year 10",
-        "amount": 22109
+        "grade": "Year 11 (HKDSE)",
+        "amount": 170772
+      },
+      {
+        "age": 15,
+        "grade": "Year 11 (IBDP)",
+        "amount": 191972
       },
       {
         "age": 16,
-        "grade": "Year 11 (IBDP)",
-        "amount": 24612
+        "grade": "Year 12 (HKDSE)",
+        "amount": 167172
       },
       {
-        "age": 17,
+        "age": 16,
         "grade": "Year 12 (IBDP)",
-        "amount": 24349
+        "amount": 189922
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 6
+      "Application Fee": 50
     }
   },
   "emirates-american-school": {
@@ -9837,49 +9837,19 @@
   "forest-house-waldorf-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://foresthouse.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://foresthouse.edu.hk/tuition-fee",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
         "age": 6,
-        "grade": "Grade 1",
-        "amount": 18910
-      },
-      {
-        "age": 7,
-        "grade": "Grade 2",
-        "amount": 18910
-      },
-      {
-        "age": 8,
-        "grade": "Grade 3",
-        "amount": 18910
-      },
-      {
-        "age": 9,
-        "grade": "Grade 4",
-        "amount": 18910
-      },
-      {
-        "age": 10,
-        "grade": "Grade 5",
-        "amount": 18910
-      },
-      {
-        "age": 11,
-        "grade": "Grade 6",
-        "amount": 18910
+        "grade": "Grade 1 – Grade 6",
+        "amount": 147500
       },
       {
         "age": 12,
-        "grade": "Grade 7",
-        "amount": 19808
-      },
-      {
-        "age": 13,
-        "grade": "Grade 8",
-        "amount": 19808
+        "grade": "Grade 7 – Grade 8",
+        "amount": 154500
       }
     ],
     "oneTimeFees": {
@@ -9889,61 +9859,37 @@
   "french-international-school-of": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.fis.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://www.fis.edu.hk/admission/tuition-fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
         "age": 3,
-        "grade": "Nursery / Reception (Intl)",
-        "amount": 19485
+        "grade": "Nursery and Reception",
+        "amount": 151984
       },
       {
         "age": 5,
-        "grade": "Year 1–6 (Intl)",
-        "amount": 20689
+        "grade": "Year 1 to Year 6",
+        "amount": 161373
       },
       {
         "age": 11,
-        "grade": "Year 7–11 (Intl)",
-        "amount": 25897
+        "grade": "Year 7 to Year 11",
+        "amount": 202000
       },
       {
         "age": 16,
-        "grade": "Year 12–13 (Intl)",
-        "amount": 27897
-      },
-      {
-        "age": 3,
-        "grade": "PS–MS (French BIM)",
-        "amount": 18730
-      },
-      {
-        "age": 5,
-        "grade": "GS–CM2 (French)",
-        "amount": 19387
-      },
-      {
-        "age": 11,
-        "grade": "6ème–3ème (French)",
-        "amount": 20201
-      },
-      {
-        "age": 15,
-        "grade": "2nde–Term. SIA/BFI",
-        "amount": 27044
-      },
-      {
-        "age": 15,
-        "grade": "2nde–Term. Euro/Oriental",
-        "amount": 24437
+        "grade": "Year 12 and Year 13",
+        "amount": 217599
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 282,
-      "Assessment Fee": 128,
-      "Debenture (Private)": 15385,
-      "Advance Payment": 3205
+      "Application Fee": 2200,
+      "Assessment Fee": 1000,
+      "Registration Deposit": 25000,
+      "Private Debenture (refundable)": 120000,
+      "Corporate Debenture (refundable and transferable)": 250000
     }
   },
   "french-school-jakarta": {
@@ -10112,43 +10058,33 @@
   "garden-house-waldorf-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.gardenhouse.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://www.gardenhouse.edu.hk/tuitions",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 6,
-        "grade": "Grade 1",
-        "amount": 18333
+        "age": 0,
+        "grade": "Kindergarten (full day, ages 3.5-7)",
+        "amount": 141900
       },
       {
-        "age": 7,
-        "grade": "Grade 2",
-        "amount": 18333
+        "age": 0,
+        "grade": "Kindergarten (half day 5 days, ages 2-3.5)",
+        "amount": 105270
       },
       {
-        "age": 8,
-        "grade": "Grade 3",
-        "amount": 18333
+        "age": 0,
+        "grade": "Kindergarten (half day 3 days)",
+        "amount": 77440
       },
       {
-        "age": 9,
-        "grade": "Grade 4",
-        "amount": 18333
-      },
-      {
-        "age": 10,
-        "grade": "Grade 5",
-        "amount": 18333
-      },
-      {
-        "age": 11,
-        "grade": "Grade 6",
-        "amount": 18333
+        "age": 0,
+        "grade": "Class 1 to Class 6 (Primary)",
+        "amount": 143000
       }
     ],
     "oneTimeFees": {
-      "Enrollment Fee": 128
+      "Enrollment Fee": 1000
     }
   },
   "garden-international-school": {
@@ -11828,35 +11764,39 @@
   "german-swiss-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.gsis.edu.hk/en/",
-    "sourceDate": "unverified",
+    "source": "https://www.gsis.edu.hk/en/admissions/fees-and-debenture",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 3,
-        "grade": "Kindergarten (KG1–KG2)",
-        "amount": 25256
+        "age": 0,
+        "grade": "Kindergarten",
+        "amount": 197000
       },
       {
-        "age": 5,
-        "grade": "Primary (Y1–Y6 / DVOR–K05)",
-        "amount": 26115
+        "age": 6,
+        "grade": "Primary",
+        "amount": 203700
       },
       {
-        "age": 11,
-        "grade": "Lower Secondary (Y7–Y11 / K06–K10)",
-        "amount": 31128
+        "age": 6,
+        "grade": "Lower Secondary",
+        "amount": 242800
       },
       {
-        "age": 16,
-        "grade": "Upper Secondary (Y12–Y13 / K11–K12)",
-        "amount": 32910
+        "age": 14,
+        "grade": "Upper Secondary",
+        "amount": 256700
       }
     ],
     "oneTimeFees": {
-      "Application Fee (Primary/Sec)": 474,
-      "Assessment Fee": 551,
-      "Debenture (Standard, Refundable)": 102564
+      "Application Fee (Kindergarten)": 2350,
+      "Application Fee (Primary/Secondary)": 3700,
+      "Assessment Fee (Kindergarten)": 2350,
+      "Assessment Fee (Primary/Secondary)": 3700,
+      "Standard Debenture (refundable)": 800000,
+      "Development Debenture": 350000,
+      "Capital Levy (new students only)": 40000
     }
   },
   "gess": {
@@ -12521,33 +12461,23 @@
   "guidepost": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://guidepost.hk/",
-    "sourceDate": "unverified",
+    "source": "https://guidepost.hk/course-fees",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 1,
-        "grade": "Nido (Ages 1–2)",
-        "amount": 22051
-      },
-      {
-        "age": 2,
-        "grade": "Toddler (Ages 2–3)",
-        "amount": 18077
-      },
-      {
-        "age": 3,
-        "grade": "Children's House (Ages 3–6)",
-        "amount": 17692
-      },
-      {
         "age": 6,
-        "grade": "Primary (Ages 6–12)",
-        "amount": 19872
+        "grade": "Lower Primary (ages 6-9)",
+        "amount": 155000
+      },
+      {
+        "age": 14,
+        "grade": "Upper Primary (ages 9-12)",
+        "amount": 155000
       }
     ],
     "oneTimeFees": {
-      "Administrative Fee": 192
+      "Administrative Fee": 1500
     }
   },
   "hampton-heights-international-school": {
@@ -12611,64 +12541,66 @@
   "han-academy": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.hanacademy.edu.hk/",
-    "sourceDate": "2024",
+    "source": "https://www.hanacademy.edu.hk/en/admission?tab=fee",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Primary School (Y1-Y6)",
-        "amount": 198000,
-        "age": 6
+        "age": 5,
+        "grade": "Year 1 – Year 6 (Primary)",
+        "amount": 198000
       },
       {
-        "grade": "Secondary School (Y7-Y11)",
-        "amount": 208000,
-        "age": 12
+        "age": 11,
+        "grade": "Year 7 – Year 11 (Secondary)",
+        "amount": 208000
       },
       {
-        "grade": "A-Level or IBDP (Y12-Y13)",
-        "amount": 218000,
-        "age": 0
+        "age": 16,
+        "grade": "Year 12 – Year 13 (A-Level/IBDP)",
+        "amount": 218000
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Individual Debenture": 2100000,
+      "Corporate Debenture": 3000000
+    }
   },
   "harrow-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.harrowhongkong.hk/",
-    "sourceDate": "2025",
+    "source": "https://www.harrowhongkong.hk/his/admissions/fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Nursery & Reception",
-        "amount": 175812,
-        "age": 3
+        "age": 3,
+        "grade": "Nursery and Reception",
+        "amount": 175812
       },
       {
-        "grade": "Years 1-5",
-        "amount": 201314,
-        "age": 0
+        "age": 0,
+        "grade": "Years 1 – 5",
+        "amount": 201314
       },
       {
-        "grade": "Years 6-8",
-        "amount": 229949,
-        "age": 0
+        "age": 0,
+        "grade": "Years 6 – 8",
+        "amount": 229949
       },
       {
-        "grade": "Years 9-11",
-        "amount": 229949,
-        "age": 0
+        "age": 0,
+        "grade": "Years 9 – 11",
+        "amount": 229949
       },
       {
-        "grade": "Years 12-13",
-        "amount": 239070,
-        "age": 0
+        "age": 0,
+        "grade": "Years 12 – 13",
+        "amount": 239070
       }
     ],
     "oneTimeFees": {
-      "Reservation Deposit": 10,
-      "Capital Levy": 60000
+      "Application Fee": 1500
     }
   },
   "harrows-international-school": {
@@ -13158,62 +13090,38 @@
   "hkca-po-leung-kuk-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.plkis.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://www.plkis.edu.hk/our-fees-other-costs/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
         "age": 3,
-        "grade": "Kindg. 1",
-        "amount": 11918
-      },
-      {
-        "age": 4,
-        "grade": "Kindg. 2",
-        "amount": 11918
-      },
-      {
-        "age": 5,
-        "grade": "Kindg. 3",
-        "amount": 11918
+        "grade": "Kindergarten (K1-K3)",
+        "amount": 93200
       },
       {
         "age": 6,
-        "grade": "Grade 1",
-        "amount": 15985
-      },
-      {
-        "age": 7,
-        "grade": "Grade 2",
-        "amount": 15985
-      },
-      {
-        "age": 8,
-        "grade": "Grade 3",
-        "amount": 15985
-      },
-      {
-        "age": 9,
-        "grade": "Grade 4",
-        "amount": 15985
-      },
-      {
-        "age": 10,
-        "grade": "Grade 5",
-        "amount": 15985
+        "grade": "Primary (G1-G6)",
+        "amount": 125000
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 102
+      "Application Fee": 800
     }
   },
   "hkila": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
+    "source": "https://www.studyhkila.edu.hk/studyhkila/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 5,
+        "grade": "Year 1 – Year 9",
+        "amount": 212200
+      }
+    ],
     "oneTimeFees": {}
   },
   "holland-international-school": {
@@ -13251,78 +13159,98 @@
     "city": "hong-kong",
     "currency": "HKD",
     "source": "https://hkacademy.edu.hk/school-fees/",
-    "sourceDate": "2025-2026",
+    "sourceDate": "2026-2027",
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 0,
         "grade": "Pre-K1 to Pre-K2",
-        "amount": 116570,
-        "age": 3
+        "amount": 119000
       },
       {
+        "age": 10,
         "grade": "Kindergarten to Grade 5",
-        "amount": 221800,
-        "age": 10
+        "amount": 229500
       },
       {
+        "age": 11,
         "grade": "Grade 6 to Grade 8",
-        "amount": 244100,
-        "age": 11
+        "amount": 252600
       },
       {
+        "age": 14,
         "grade": "Grade 9 to Grade 10",
-        "amount": 254400,
-        "age": 14
+        "amount": 263300
       },
       {
+        "age": 16,
         "grade": "Grade 11 to Grade 12",
-        "amount": 264700,
-        "age": 16
+        "amount": 273900
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 1500,
-      "Entrance Fee": 25000,
-      "Tuition Fee Deposit": 30000,
+      "Application Fee (Pre-K1 to Pre-K2)": 1500,
+      "Application Fee (Kindergarten to Grade 12)": 3000,
+      "Entrance Fee (first child)": 25000,
+      "Entrance Fee (additional children)": 12500,
+      "Tuition Deposit": 30000,
       "Family Debenture": 630000
     }
   },
   "hong-kong-adventist-academy": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.hkaa.edu.hk",
+    "source": "https://www.hkaa.edu.hk/tuition-and-fees",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Grade 1 to Grade 6 (Primary Section)",
-        "amount": 117500,
-        "age": 6
+        "age": 6,
+        "grade": "Grade 1 to Grade 6",
+        "amount": 117500
       },
       {
-        "grade": "Grade 7 to Grade 12 (Secondary Section)",
-        "amount": 139000,
-        "age": 12
+        "age": 12,
+        "grade": "Grade 7 to Grade 12",
+        "amount": 139000
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 1500
+      "Application Fee": 1200
     }
   },
   "hong-kong-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.hkis.edu.hk/",
-    "sourceDate": "2026",
+    "source": "https://www.hkis.edu.hk/admissions/tuition-fees",
+    "sourceDate": "2026-2027",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Reception 1 - Grade 5",
-        "amount": 283050,
-        "age": 5
+        "age": 5,
+        "grade": "Reception 1 to Grade 2",
+        "amount": 231600
+      },
+      {
+        "age": 0,
+        "grade": "Grades 3 to 5",
+        "amount": 231600
+      },
+      {
+        "age": 0,
+        "grade": "Grades 6 to 8",
+        "amount": 244500
+      },
+      {
+        "age": 0,
+        "grade": "Grades 9 to 12",
+        "amount": 258550
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Application Fee": 2000,
+      "Entry Fee": 15000
+    }
   },
   "horizon-english-school": {
     "city": "dubai",
@@ -13507,14 +13435,59 @@
   "ichk-kindergarten-and-primary": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://ichkhly.edu.hk/",
-    "sourceDate": "2025",
+    "source": "https://ichkhly.edu.hk/admissions/dates-fees-more/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Pre-Nursery (3 afternoons a week)",
-        "amount": 25170,
-        "age": 2
+        "age": 0,
+        "grade": "Pre-Nursery (3 afternoons/week)",
+        "amount": 25170
+      },
+      {
+        "age": 0,
+        "grade": "Part-time Nursery",
+        "amount": 83500
+      },
+      {
+        "age": 0,
+        "grade": "Full-time Nursery",
+        "amount": 145110
+      },
+      {
+        "age": 5,
+        "grade": "Reception",
+        "amount": 145110
+      },
+      {
+        "age": 5,
+        "grade": "Year 1",
+        "amount": 145110
+      },
+      {
+        "age": 6,
+        "grade": "Year 2",
+        "amount": 145110
+      },
+      {
+        "age": 7,
+        "grade": "Year 3",
+        "amount": 145110
+      },
+      {
+        "age": 8,
+        "grade": "Year 4",
+        "amount": 145110
+      },
+      {
+        "age": 9,
+        "grade": "Year 5",
+        "amount": 145110
+      },
+      {
+        "age": 10,
+        "grade": "Year 6",
+        "amount": 145110
       }
     ],
     "oneTimeFees": {
@@ -13527,17 +13500,30 @@
     "city": "hong-kong",
     "currency": "HKD",
     "source": "https://www.ichk.edu.hk/join/admissions-info",
-    "sourceDate": "2025",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Years 7-9",
-        "amount": 184500,
-        "age": 0
+        "age": 0,
+        "grade": "Years 7 – 9",
+        "amount": 184500
+      },
+      {
+        "age": 0,
+        "grade": "Years 10 – 11",
+        "amount": 192500
+      },
+      {
+        "age": 0,
+        "grade": "Years 12 – 13",
+        "amount": 204900
       }
     ],
     "oneTimeFees": {
-      "Refundable Capital Fee": 100000
+      "Application Fee": 205,
+      "Administrative Fee": 2000,
+      "Capital Fee": 100000,
+      "Activity Deposit (refundable)": 4000
     }
   },
   "ichthus-school-jakarta": {
@@ -13874,60 +13860,37 @@
   "international-christian-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.ics.edu.hk/",
-    "sourceDate": "2026",
+    "source": "https://www.ics.edu.hk/admissions/#financial",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Kindergarten (Reception 1 & 2)",
-        "amount": 96400,
-        "age": 0
+        "age": 0,
+        "grade": "Kindergarten (Reception 1-2)",
+        "amount": 91000
       },
       {
+        "age": 6,
         "grade": "Elementary (Pre-Grade 1 to Grade 5)",
-        "amount": 156500,
-        "age": 6
+        "amount": 148400
       },
       {
+        "age": 11,
         "grade": "Middle School (Grade 6 to Grade 8)",
-        "amount": 207400,
-        "age": 11
+        "amount": 196600
       },
       {
+        "age": 14,
         "grade": "High School (Grade 9 to Grade 12)",
-        "amount": 212500,
-        "age": 14
-      },
-      {
-        "grade": "Kindergarten",
-        "amount": 91000,
-        "age": 0
-      },
-      {
-        "grade": "Elementary",
-        "amount": 148400,
-        "age": 6
-      },
-      {
-        "grade": "Middle School",
-        "amount": 196600,
-        "age": 11
-      },
-      {
-        "grade": "High School",
-        "amount": 201500,
-        "age": 12
+        "amount": 201500
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 1000,
-      "Kindergarten": 970,
-      "Elementary School": 14840,
-      "Middle School": 19660,
-      "High School": 20150,
-      "1st child": 250000,
-      "2nd child": 180000,
-      "3rd child": 140000
+      "Application Fee (Kindergarten)": 1000,
+      "Application Fee (Pre-Grade 1 to Grade 12)": 1500,
+      "Individual Debenture (first child)": 250000,
+      "Individual Debenture (second child)": 180000,
+      "Individual Debenture (third child)": 140000
     }
   },
   "international-christian-school-nonthaburi": {
@@ -14688,39 +14651,41 @@
   "invictus-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.invictus.edu.hk",
+    "source": "https://www.invictus.edu.hk/admissions/school-fee-structure-and-policy",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Kindergarten (Half Day)",
-        "amount": 75350,
-        "age": 0
+        "age": 0,
+        "grade": "Kindergarten Half Day",
+        "amount": 75350
       },
       {
-        "grade": "Kindergarten (Whole Day)",
-        "amount": 113600,
-        "age": 0
+        "age": 0,
+        "grade": "Kindergarten Whole Day",
+        "amount": 113600
       },
       {
-        "grade": "Primary (Years 1-6)",
-        "amount": 118100,
-        "age": 6
+        "age": 6,
+        "grade": "Primary (Year 1 to Year 6)",
+        "amount": 118100
       },
       {
-        "grade": "Secondary (Years 7-11)",
-        "amount": 139000,
-        "age": 12
+        "age": 12,
+        "grade": "Secondary (Year 7 to Year 11)",
+        "amount": 139000
       },
       {
-        "grade": "Secondary (Years 12-13)",
-        "amount": 141700,
-        "age": 12
+        "age": 12,
+        "grade": "Secondary (Year 12 to Year 13)",
+        "amount": 141700
       }
     ],
     "oneTimeFees": {
-      "Assessment Fee (CEPT)": 500,
-      "Enrollment Fee": 15000
+      "Application Fee (Kindergarten)": 40,
+      "Application Fee (Primary)": 1300,
+      "Assessment Fee (Year 7 to Year 10)": 500,
+      "Enrolment Fee": 15000
     }
   },
   "ipeka-integrated-christian-school": {
@@ -14735,59 +14700,58 @@
   "island-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://island.esf.edu.hk",
+    "source": "https://join-us.esf.edu.hk/school-fees/",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Years 7-10",
-        "amount": 181100,
-        "age": 0
+        "age": 0,
+        "grade": "Years 7 – 10",
+        "amount": 181100
       },
       {
-        "grade": "Year 11 (subvented)",
-        "amount": 159400,
-        "age": 15
+        "age": 15,
+        "grade": "Year 11",
+        "amount": 159400
       },
       {
-        "grade": "Years 12-13 (subvented)",
-        "amount": 167600,
-        "age": 0
+        "age": 0,
+        "grade": "Years 12 – 13",
+        "amount": 167600
       }
     ],
     "oneTimeFees": {
       "Application Fee": 2800,
-      "Year 7": 26000,
-      "Year 8": 22300,
-      "Year 9": 18600,
-      "Year 10": 14900,
-      "Year 11": 11200,
-      "Year 12": 7500,
-      "Year 13": 3800,
-      "Individual Nomination Rights (Optional)": 500000
+      "NCL Year 7": 26000,
+      "NCL Year 8": 22300,
+      "NCL Year 9": 18600,
+      "NCL Year 10": 14900,
+      "NCL Year 11": 11200,
+      "NCL Year 12": 7500,
+      "NCL Year 13": 3800
     }
   },
   "island-waldorf-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://iws.edu.hk/",
+    "source": "https://iws.edu.hk/admissions/tuition-fees/",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Kindergarten (half day)",
-        "amount": 9600,
-        "age": 0
+        "age": 0,
+        "grade": "Kindergarten (3-6 years)",
+        "amount": 105600
       },
       {
-        "grade": "Primary and Middle School (Class 1 to 6)",
-        "amount": 14600,
-        "age": 6
+        "age": 0,
+        "grade": "Class 1 – Class 6",
+        "amount": 146000
       },
       {
-        "grade": "Primary and Middle School (Class 7 to 8)",
-        "amount": 16550,
-        "age": 6
+        "age": 0,
+        "grade": "Class 7 – Class 8",
+        "amount": 165500
       }
     ],
     "oneTimeFees": {}
@@ -14875,17 +14839,49 @@
   "japanese-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://es.jis.edu.hk/",
-    "sourceDate": "2025",
+    "source": "https://es.jis.edu.hk/admissions#fees",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Grades). Annual Capital Levy",
-        "amount": 15960,
-        "age": 0
+        "age": 5,
+        "grade": "Reception",
+        "amount": 140460
+      },
+      {
+        "age": 6,
+        "grade": "Primary 1",
+        "amount": 140460
+      },
+      {
+        "age": 6,
+        "grade": "Primary 2",
+        "amount": 140460
+      },
+      {
+        "age": 6,
+        "grade": "Primary 3",
+        "amount": 140460
+      },
+      {
+        "age": 6,
+        "grade": "Primary 4",
+        "amount": 140460
+      },
+      {
+        "age": 6,
+        "grade": "Primary 5",
+        "amount": 140460
+      },
+      {
+        "age": 6,
+        "grade": "Primary 6",
+        "amount": 140460
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Application and Interview Fee": 600
+    }
   },
   "jebel-ali-school": {
     "city": "dubai",
@@ -15259,73 +15255,53 @@
   "kellett-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.kellettschool.com/",
-    "sourceDate": "2025",
+    "source": "https://www.kellettschool.com/admissions/fees-debenture-information",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Preparatory (Reception - Year 6)",
-        "amount": 208800,
-        "age": 5
+        "age": 5,
+        "grade": "Preparatory (Reception – Year 6)",
+        "amount": 208800
       },
       {
-        "grade": "Senior (Year 7 - 11)",
-        "amount": 259600,
-        "age": 11
+        "age": 12,
+        "grade": "Senior (Year 7 – Year 11)",
+        "amount": 259600
       },
       {
-        "grade": "Senior Sixth Form (Year 12 - 13)",
-        "amount": 267100,
-        "age": 16
+        "age": 12,
+        "grade": "Senior Sixth Form (Year 12 – Year 13)",
+        "amount": 267100
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 2000,
-      "Annual Capital Levy": 40000,
-      "Annual Association Fee": 500
+      "Application Fee (Reception – Year 4)": 2000,
+      "Application Fee (Year 5 – Year 13)": 2500
     }
   },
   "kennedy-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://kennedy.esf.edu.hk/",
-    "sourceDate": "unverified",
+    "source": "https://join-us.esf.edu.hk/school-fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 5,
-        "grade": "Year 1",
-        "amount": 17821
-      },
-      {
-        "age": 6,
-        "grade": "Year 2",
-        "amount": 17821
-      },
-      {
-        "age": 7,
-        "grade": "Year 3",
-        "amount": 17821
-      },
-      {
-        "age": 8,
-        "grade": "Year 4",
-        "amount": 17821
-      },
-      {
-        "age": 9,
-        "grade": "Year 5",
-        "amount": 17821
-      },
-      {
-        "age": 10,
-        "grade": "Year 6",
-        "amount": 17821
+        "age": 0,
+        "grade": "Years 1 – 6",
+        "amount": 139000
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 359,
-      "Capital Levy (Year 1)": 4872
+      "Application Fee": 2800,
+      "Deposit": 27800,
+      "NCL Year 1": 38000,
+      "NCL Year 2": 36000,
+      "NCL Year 3": 34000,
+      "NCL Year 4": 32000,
+      "NCL Year 5": 30000,
+      "NCL Year 6": 28000
     }
   },
   "kent-college": {
@@ -15452,31 +15428,31 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Kindergarten (AM/PM)",
-        "amount": 85400,
-        "age": 0
+        "age": 0,
+        "grade": "Kindergarten",
+        "amount": 85400
       },
       {
-        "grade": "Reception (AM/PM)",
-        "amount": 85400,
-        "age": 5
+        "age": 5,
+        "grade": "Reception",
+        "amount": 85400
       },
       {
-        "grade": "Primary 1-6",
-        "amount": 101500,
-        "age": 6
+        "age": 6,
+        "grade": "Primary 1 – Primary 6",
+        "amount": 101500
       },
       {
-        "grade": "Secondary",
-        "amount": 128000,
-        "age": 12
+        "age": 12,
+        "grade": "Secondary Years 7 – 13",
+        "amount": 128000
       }
     ],
     "oneTimeFees": {
       "Application Fee": 500,
-      "Kindergarten/Reception": 17080,
-      "Primary 1-6": 20300,
-      "Secondary": 25600
+      "Registration Deposit (KG/Reception)": 17080,
+      "Registration Deposit (Primary)": 20300,
+      "Registration Deposit (Secondary)": 25600
     }
   },
   "kids-academy-international-school": {
@@ -15554,35 +15530,35 @@
   "king-george-v-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.kgv.edu.hk/",
-    "sourceDate": "2025",
+    "source": "https://join-us.esf.edu.hk/school-fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Years 7 to 10",
-        "amount": 181100,
-        "age": 0
+        "age": 11,
+        "grade": "Year 7 – Year 10",
+        "amount": 181100
       },
       {
+        "age": 15,
         "grade": "Year 11",
-        "amount": 159400,
-        "age": 15
+        "amount": 159400
       },
       {
-        "grade": "Years 12 to 13",
-        "amount": 167600,
-        "age": 0
+        "age": 16,
+        "grade": "Year 12 – Year 13",
+        "amount": 167600
       }
     ],
     "oneTimeFees": {
       "Application Fee": 2800,
-      "Year 7": 26000,
-      "Year 8": 22300,
-      "Year 9": 18600,
-      "Year 10": 14900,
-      "Year 11": 11200,
-      "Year 12": 7500,
-      "Year 13": 3800
+      "NCL Year 7": 26000,
+      "NCL Year 8": 22300,
+      "NCL Year 9": 18600,
+      "NCL Year 10": 14900,
+      "NCL Year 11": 11200,
+      "NCL Year 12": 7500,
+      "NCL Year 13": 3800
     }
   },
   "king-henry-viii-college": {
@@ -15820,29 +15796,44 @@
   "kingston-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.kingston.edu.hk/",
+    "source": "https://www.kingston.edu.hk/admissions/school-fees",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Primary School Year 1 to Year 2",
-        "amount": 15500,
-        "age": 5
+        "age": 0,
+        "grade": "Playgroup (2 days/week)",
+        "amount": 63800
       },
       {
-        "grade": "Primary School Year 3 to Year 4",
-        "amount": 16500,
-        "age": 7
+        "age": 0,
+        "grade": "Children Centre 2-Year-Old Class (5 days/week)",
+        "amount": 109780
       },
       {
-        "grade": "Primary School Year 5 to Year 6",
-        "amount": 17500,
-        "age": 9
+        "age": 5,
+        "grade": "Kindergarten 3-5-Year-Old Class (5 days/week)",
+        "amount": 112200
+      },
+      {
+        "age": 6,
+        "grade": "Primary Year 1 – Year 2",
+        "amount": 155000
+      },
+      {
+        "age": 6,
+        "grade": "Primary Year 3 – Year 4",
+        "amount": 165000
+      },
+      {
+        "age": 6,
+        "grade": "Primary Year 5 – Year 6",
+        "amount": 175000
       }
     ],
     "oneTimeFees": {
-      "3)": 138000,
-      "6)": 69000
+      "Capital Levy (entry Year 1-3)": 138000,
+      "Capital Levy (entry Year 4-6)": 69000
     }
   },
   "kis-international-school": {
@@ -16070,24 +16061,24 @@
   "korean-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.kis.edu.hk/",
-    "sourceDate": "2025",
+    "source": "https://www.kis.edu.hk/fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 5,
         "grade": "Reception",
-        "amount": 97100,
-        "age": 5
+        "amount": 97100
       },
       {
-        "grade": "Primary",
-        "amount": 122900,
-        "age": 6
+        "age": 5,
+        "grade": "Year 1 – Year 6",
+        "amount": 122900
       },
       {
-        "grade": "Secondary",
-        "amount": 137000,
-        "age": 12
+        "age": 11,
+        "grade": "Year 7 – Year 13",
+        "amount": 137000
       }
     ],
     "oneTimeFees": {
@@ -16097,23 +16088,25 @@
   "kowloon-junior-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.kjs.edu.hk/",
-    "sourceDate": "2025",
+    "source": "https://join-us.esf.edu.hk/school-fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Years 1 to 6",
-        "amount": 139000,
-        "age": 0
+        "age": 0,
+        "grade": "Years 1 – 6",
+        "amount": 139000
       }
     ],
     "oneTimeFees": {
-      "Year 1": 38000,
-      "Year 2": 36000,
-      "Year 3": 34000,
-      "Year 4": 32000,
-      "Year 5": 30000,
-      "Year 6": 28000
+      "Application Fee": 2800,
+      "Deposit": 27800,
+      "NCL Year 1": 38000,
+      "NCL Year 2": 36000,
+      "NCL Year 3": 34000,
+      "NCL Year 4": 32000,
+      "NCL Year 5": 30000,
+      "NCL Year 6": 28000
     }
   },
   "kpis-international-school": {
@@ -16201,17 +16194,26 @@
   "lantau-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.lis.edu.hk/",
+    "source": "https://www.lis.edu.hk/about-us/fees/",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 5,
         "grade": "Reception",
-        "amount": 7910,
-        "age": 5
+        "amount": 94920
+      },
+      {
+        "age": 0,
+        "grade": "P1 to P6",
+        "amount": 123600
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Application Fee": 1300,
+      "Capital Contribution Fund (Reception)": 23730,
+      "Capital Contribution Fund (P1 to P6)": 30900
+    }
   },
   "le-petite-ecole": {
     "city": "singapore",
@@ -16236,10 +16238,21 @@
   "li-po-chun-united-world-college-of": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.lpcuwc.edu.hk",
+    "source": "https://www.lpcuwc.edu.hk/scholarship-fees",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
-    "feeRows": [],
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "IB Diploma (Local HK Student)",
+        "amount": 324000
+      },
+      {
+        "age": 0,
+        "grade": "IB Diploma (Overseas Student)",
+        "amount": 428000
+      }
+    ],
     "oneTimeFees": {}
   },
   "lodestar-montessori-school": {
@@ -16812,28 +16825,27 @@
     "city": "hong-kong",
     "currency": "HKD",
     "source": "https://www.malverncollege.org.hk/fees-and-charges/",
-    "sourceDate": "2025",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Prep 1 to 6 (PYP)",
-        "amount": 198860,
-        "age": 5
+        "age": 5,
+        "grade": "Prep 1 to Prep 6 (PYP)",
+        "amount": 198860
       },
       {
+        "age": 5,
         "grade": "Foundation Year 1 to 3, Remove and Hundred (MYP)",
-        "amount": 226210,
-        "age": 5
+        "amount": 226210
       },
       {
+        "age": 6,
         "grade": "Lower Sixth and Upper Sixth (DP)",
-        "amount": 226210,
-        "age": 6
+        "amount": 226210
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 1800,
-      "Annual Capital Levy": 42000
+      "Application Fee": 1800
     }
   },
   "maple-leaf-kingsley-international-school": {
@@ -18230,56 +18242,59 @@
     "city": "hong-kong",
     "currency": "HKD",
     "source": "https://www.nordangliaeducation.com/nais-hong-kong/admissions/tuition-fees",
-    "sourceDate": "2025",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Nursery Morning Session",
-        "amount": 132300,
-        "age": 3
+        "age": 3,
+        "grade": "Nursery (Morning Session)",
+        "amount": 132300
       },
       {
-        "grade": "Nursery Afternoon Session",
-        "amount": 93900,
-        "age": 3
+        "age": 3,
+        "grade": "Nursery (Afternoon Session)",
+        "amount": 93900
       },
       {
-        "grade": "Lower Kindergarten (Reception) Morning Session",
-        "amount": 91300,
-        "age": 6
+        "age": 6,
+        "grade": "Lower Kindergarten / Reception (Morning)",
+        "amount": 91300
       },
       {
-        "grade": "Lower Kindergarten (Reception) Afternoon Session",
-        "amount": 91300,
-        "age": 6
+        "age": 6,
+        "grade": "Lower Kindergarten / Reception (Afternoon)",
+        "amount": 91300
       },
       {
-        "grade": "Upper Kindergarten (Year 1) Morning Session",
-        "amount": 98500,
-        "age": 5
+        "age": 14,
+        "grade": "Upper Kindergarten / Year 1 (Morning)",
+        "amount": 98500
       },
       {
-        "grade": "Upper Kindergarten (Year 1) Afternoon Session",
-        "amount": 98500,
-        "age": 5
+        "age": 14,
+        "grade": "Upper Kindergarten / Year 1 (Afternoon)",
+        "amount": 98500
       },
       {
-        "grade": "Year 1 - 6",
-        "amount": 197000,
-        "age": 5
+        "age": 5,
+        "grade": "Year 1 to Year 6",
+        "amount": 197000
       },
       {
-        "grade": "Year 7 - 11",
-        "amount": 220500,
-        "age": 11
+        "age": 11,
+        "grade": "Year 7 to Year 11",
+        "amount": 220500
       },
       {
-        "grade": "Year 12 - 13",
-        "amount": 222500,
-        "age": 16
+        "age": 16,
+        "grade": "Year 12 to Year 13",
+        "amount": 222500
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Application Fee": 3000,
+      "Capital Enrolment Fee": 100000
+    }
   },
   "nord-anglia-international-school-dubai": {
     "city": "dubai",
@@ -18605,23 +18620,23 @@
   "norwegian-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://nis.edu.hk/",
+    "source": "https://nis.edu.hk/admission/",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Kindergarten (K1-K2)",
-        "amount": 80850,
-        "age": 0
+        "age": 3,
+        "grade": "K1 to K2",
+        "amount": 80850
       },
       {
-        "grade": "Primary (Year 1 to Year 6)",
-        "amount": 133200,
-        "age": 5
+        "age": 5,
+        "grade": "Year 1 to Year 6",
+        "amount": 133200
       }
     ],
     "oneTimeFees": {
-      "refundable). Annual Capital Levy (ongoing)": 7310
+      "Application Fee": 900
     }
   },
   "nps-international-school": {
@@ -18926,34 +18941,34 @@
   "oxbridge-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.oxbridgeschool.hk",
+    "source": "https://www.oxbridgeschool.hk/admissions/fees/",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 5,
         "grade": "Year 1 to Year 6 (Primary)",
-        "amount": 141120,
-        "age": 5
+        "amount": 141120
       },
       {
-        "grade": "Year 7 and Year 8 (Secondary)",
-        "amount": 159000,
-        "age": 11
+        "age": 11,
+        "grade": "Year 7 to Year 8 (Secondary)",
+        "amount": 159000
       },
       {
+        "age": 13,
         "grade": "Year 9 (Secondary)",
-        "amount": 169800,
-        "age": 13
+        "amount": 169800
       },
       {
-        "grade": "Year 10 and Year 11 (Secondary)",
-        "amount": 169800,
-        "age": 14
+        "age": 14,
+        "grade": "Year 10 to Year 11 (Secondary)",
+        "amount": 169800
       },
       {
-        "grade": "Year 12 and Year 13 (Secondary)",
-        "amount": 188900,
-        "age": 16
+        "age": 16,
+        "grade": "Year 12 to Year 13 (Secondary)",
+        "amount": 188900
       }
     ],
     "oneTimeFees": {}
@@ -19211,23 +19226,25 @@
   "peak-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://ps.esf.edu.hk/en/",
-    "sourceDate": "2025",
+    "source": "https://join-us.esf.edu.hk/school-fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Primary schools (Years 1 to 6)",
-        "amount": 139000,
-        "age": 6
+        "age": 5,
+        "grade": "Year 1 to Year 6",
+        "amount": 139000
       }
     ],
     "oneTimeFees": {
-      "Year 1": 38000,
-      "Year 2": 36000,
-      "Year 3": 34000,
-      "Year 4": 32000,
-      "Year 5": 30000,
-      "Year 6": 28000
+      "Application Fee": 2800,
+      "Acceptance Deposit": 27800,
+      "NCL Year 1": 38000,
+      "NCL Year 2": 36000,
+      "NCL Year 3": 34000,
+      "NCL Year 4": 32000,
+      "NCL Year 5": 30000,
+      "NCL Year 6": 28000
     }
   },
   "pelangi-kasih-school": {
@@ -19510,33 +19527,33 @@
   "po-leung-kuk-choi-kai-yau-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "http://cky.edu.hk",
+    "source": "http://cky.edu.hk/admissions/school-fees/",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 5,
         "grade": "Year 1 to Year 5",
-        "amount": 99825,
-        "age": 5
+        "amount": 99825
       },
       {
+        "age": 10,
         "grade": "Year 6 to Year 8",
-        "amount": 129789,
-        "age": 10
+        "amount": 129789
       },
       {
+        "age": 13,
         "grade": "Year 9 to Year 10",
-        "amount": 145453,
-        "age": 13
+        "amount": 145453
       },
       {
+        "age": 15,
         "grade": "Year 11 to Year 12",
-        "amount": 146927,
-        "age": 15
+        "amount": 146927
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 200
+      "Application Fee": 400
     }
   },
   "pristine-private-school": {
@@ -19770,24 +19787,25 @@
   "quarry-bay-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://qbs.esf.edu.hk/en/",
-    "sourceDate": "2025",
+    "source": "https://join-us.esf.edu.hk/school-fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Years 1 to 6",
-        "amount": 139000,
-        "age": 0
+        "age": 5,
+        "grade": "Year 1 to Year 6",
+        "amount": 139000
       }
     ],
     "oneTimeFees": {
       "Application Fee": 2800,
-      "Year 1": 38000,
-      "Year 2": 36000,
-      "Year 3": 34000,
-      "Year 4": 32000,
-      "Year 5": 30000,
-      "Year 6": 28000
+      "Acceptance Deposit": 27800,
+      "NCL Year 1": 38000,
+      "NCL Year 2": 36000,
+      "NCL Year 3": 34000,
+      "NCL Year 4": 32000,
+      "NCL Year 5": 30000,
+      "NCL Year 6": 28000
     }
   },
   "queen-elizabeth-s-school-dubai-sports-city": {
@@ -20829,29 +20847,40 @@
   "renaissance-college": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://rchk.esf.edu.hk/en/",
-    "sourceDate": "2025",
+    "source": "https://rchk.esf.edu.hk/en/admissions/college_fees_financial_aid/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Primary (Years 1 to 6)",
-        "amount": 148100,
-        "age": 6
+        "age": 0,
+        "grade": "Years 1 to 6",
+        "amount": 148100
       },
       {
-        "grade": "Secondary (Years 7 to 11)",
-        "amount": 193600,
-        "age": 12
+        "age": 0,
+        "grade": "Years 7 to 11",
+        "amount": 193600
       },
       {
-        "grade": "Secondary (Years 12 to 13)",
-        "amount": 195700,
-        "age": 12
+        "age": 0,
+        "grade": "Years 12 to 13",
+        "amount": 195700
       }
     ],
     "oneTimeFees": {
       "Application Fee": 2800,
-      "Non-refundable Building Levy (NBL)": 50000
+      "Non-refundable Building Levy (NBL) Year 1": 50000,
+      "Non-refundable Building Levy (NBL) Year 2": 45800,
+      "Non-refundable Building Levy (NBL) Year 3": 41700,
+      "Non-refundable Building Levy (NBL) Year 4": 37500,
+      "Non-refundable Building Levy (NBL) Year 5": 33300,
+      "Non-refundable Building Levy (NBL) Year 6": 29200,
+      "Non-refundable Building Levy (NBL) Year 7": 25000,
+      "Non-refundable Building Levy (NBL) Year 8": 20800,
+      "Non-refundable Building Levy (NBL) Year 9": 16700,
+      "Non-refundable Building Levy (NBL) Year 10": 12500,
+      "Non-refundable Building Levy (NBL) Year 11": 8300,
+      "Non-refundable Building Levy (NBL) Year 12": 4200
     }
   },
   "repton-school": {
@@ -21757,24 +21786,29 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Grade 1-5",
-        "amount": 17410,
-        "age": 6
+        "age": 12,
+        "grade": "Grade 7 – Grade 8",
+        "amount": 202620
       },
       {
-        "grade": "Grade 6",
-        "amount": 17920,
-        "age": 11
-      },
-      {
-        "grade": "Grade 7-8",
-        "amount": 18420,
-        "age": 12
-      },
-      {
+        "age": 14,
         "grade": "Grade 9",
-        "amount": 19160,
-        "age": 14
+        "amount": 210760
+      },
+      {
+        "age": 15,
+        "grade": "Grade 10",
+        "amount": 210760
+      },
+      {
+        "age": 16,
+        "grade": "Grade 11",
+        "amount": 216920
+      },
+      {
+        "age": 17,
+        "grade": "Grade 12",
+        "amount": 216920
       }
     ],
     "oneTimeFees": {}
@@ -21796,12 +21830,39 @@
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 5,
         "grade": "Year 1",
-        "amount": 137400,
-        "age": 5
+        "amount": 137400
+      },
+      {
+        "age": 6,
+        "grade": "Year 2",
+        "amount": 128400
+      },
+      {
+        "age": 7,
+        "grade": "Year 3",
+        "amount": 128400
+      },
+      {
+        "age": 8,
+        "grade": "Year 4",
+        "amount": 128400
+      },
+      {
+        "age": 9,
+        "grade": "Year 5",
+        "amount": 127030
+      },
+      {
+        "age": 10,
+        "grade": "Year 6",
+        "amount": 120900
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Application Fee": 300
+    }
   },
   "san-yu-adventist-school": {
     "city": "singapore",
@@ -22393,11 +22454,39 @@
   "sear-rogers-international-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://sris.edu.hk",
+    "sourceDate": "2024-2025",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 6,
+        "grade": "Primary 1 to Primary 6",
+        "amount": 102300
+      },
+      {
+        "age": 11,
+        "grade": "Year 7 to Year 9",
+        "amount": 120505
+      },
+      {
+        "age": 14,
+        "grade": "Year 10 to Year 11",
+        "amount": 112800
+      },
+      {
+        "age": 16,
+        "grade": "Year 12",
+        "amount": 128100
+      },
+      {
+        "age": 17,
+        "grade": "Year 13",
+        "amount": 115290
+      }
+    ],
+    "oneTimeFees": {
+      "Application Fee": 600
+    }
   },
   "sekolah-ciputra": {
     "city": "jakarta",
@@ -22778,33 +22867,104 @@
     "city": "hong-kong",
     "currency": "HKD",
     "source": "https://shatincollege.esf.edu.hk/en/",
-    "sourceDate": "2025",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Secondary (Years 7-10)",
-        "amount": 181100,
-        "age": 12
+        "age": 11,
+        "grade": "Year 7",
+        "amount": 181100
+      },
+      {
+        "age": 12,
+        "grade": "Year 8",
+        "amount": 181100
+      },
+      {
+        "age": 13,
+        "grade": "Year 9",
+        "amount": 181100
+      },
+      {
+        "age": 14,
+        "grade": "Year 10",
+        "amount": 181100
+      },
+      {
+        "age": 15,
+        "grade": "Year 11",
+        "amount": 159400
+      },
+      {
+        "age": 16,
+        "grade": "Year 12",
+        "amount": 167600
+      },
+      {
+        "age": 17,
+        "grade": "Year 13",
+        "amount": 167600
       }
     ],
     "oneTimeFees": {
-      "13 (Year 7": 26000
+      "Application Fee": 2800,
+      "NCL Year 7": 26000,
+      "NCL Year 8": 22300,
+      "NCL Year 9": 18600,
+      "NCL Year 10": 14900,
+      "NCL Year 11": 11200,
+      "NCL Year 12": 7500,
+      "NCL Year 13": 3800
     }
   },
   "sha-tin-junior-school": {
     "city": "hong-kong",
     "currency": "HKD",
     "source": "https://sjs.esf.edu.hk/",
-    "sourceDate": "2025",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Primary (Years 1-6)",
-        "amount": 139000,
-        "age": 6
+        "age": 5,
+        "grade": "Year 1",
+        "amount": 139000
+      },
+      {
+        "age": 6,
+        "grade": "Year 2",
+        "amount": 139000
+      },
+      {
+        "age": 7,
+        "grade": "Year 3",
+        "amount": 139000
+      },
+      {
+        "age": 8,
+        "grade": "Year 4",
+        "amount": 139000
+      },
+      {
+        "age": 9,
+        "grade": "Year 5",
+        "amount": 139000
+      },
+      {
+        "age": 10,
+        "grade": "Year 6",
+        "amount": 139000
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Application Fee": 2800,
+      "Deposit": 27800,
+      "NCL Year 1": 38000,
+      "NCL Year 2": 36000,
+      "NCL Year 3": 34000,
+      "NCL Year 4": 32000,
+      "NCL Year 5": 30000,
+      "NCL Year 6": 28000
+    }
   },
   "sharjah-american-international-school": {
     "city": "dubai",
@@ -23281,26 +23441,36 @@
     "city": "hong-kong",
     "currency": "HKD",
     "source": "https://www.singapore.edu.hk/",
-    "sourceDate": "2025",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 5,
         "grade": "Preparatory Years",
-        "amount": 103000,
-        "age": 5
+        "amount": 103000
       },
       {
-        "grade": "Primary 1 to 6",
-        "amount": 161100,
-        "age": 6
+        "age": 6,
+        "grade": "Primary 1 to Primary 6",
+        "amount": 161100
       },
       {
-        "grade": "Secondary 1 to 4",
-        "amount": 208800,
-        "age": 12
+        "age": 12,
+        "grade": "Secondary 1 to Secondary 4",
+        "amount": 208800
+      },
+      {
+        "age": 5,
+        "grade": "Diploma Programme Year 1 and Year 2",
+        "amount": 254900
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Application Fee": 2800,
+      "Entrance Fee": 13000,
+      "Personal Debenture": 200000,
+      "Corporate Debenture": 500000
+    }
   },
   "singapore-international-school-of": {
     "city": "bangkok",
@@ -23723,17 +23893,55 @@
     "city": "hong-kong",
     "currency": "HKD",
     "source": "https://sis.esf.edu.hk/en/",
-    "sourceDate": "2025",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Years 7-10",
-        "amount": 181100,
-        "age": 0
+        "age": 11,
+        "grade": "Year 7",
+        "amount": 181100
+      },
+      {
+        "age": 12,
+        "grade": "Year 8",
+        "amount": 181100
+      },
+      {
+        "age": 13,
+        "grade": "Year 9",
+        "amount": 181100
+      },
+      {
+        "age": 14,
+        "grade": "Year 10",
+        "amount": 181100
+      },
+      {
+        "age": 15,
+        "grade": "Year 11",
+        "amount": 159400
+      },
+      {
+        "age": 16,
+        "grade": "Year 12",
+        "amount": 167600
+      },
+      {
+        "age": 17,
+        "grade": "Year 13",
+        "amount": 167600
       }
     ],
     "oneTimeFees": {
-      "refundable Capital Levy (NCL)": 26000
+      "Application Fee": 2800,
+      "Admission Deposit": 16000,
+      "NCL Year 7": 26000,
+      "NCL Year 8": 22300,
+      "NCL Year 9": 18600,
+      "NCL Year 10": 14900,
+      "NCL Year 11": 11200,
+      "NCL Year 12": 7500,
+      "NCL Year 13": 3800
     }
   },
   "south-view-school": {
@@ -23826,17 +24034,29 @@
   "spanish-school-of": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://sshk.edu.hk/schoolfees/",
+    "source": "https://sshk.edu.hk/",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Year 1 to 4",
-        "amount": 115000,
-        "age": 5
+        "age": 5,
+        "grade": "Year 1 to Year 4",
+        "amount": 115000
+      },
+      {
+        "age": 9,
+        "grade": "Year 5 to Year 6",
+        "amount": 125000
+      },
+      {
+        "age": 11,
+        "grade": "Year 7 to Year 9",
+        "amount": 145000
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Capital Levy (one-off option)": 80000
+    }
   },
   "spectrum-international-school": {
     "city": "kuala-lumpur",
@@ -24736,77 +24956,38 @@
     "city": "hong-kong",
     "currency": "HKD",
     "source": "https://www.sais.edu.hk/",
-    "sourceDate": "unverified",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 5,
-        "grade": "Kindg. 3",
-        "amount": 27762
-      },
-      {
-        "age": 6,
-        "grade": "Grade 1",
-        "amount": 27762
-      },
-      {
-        "age": 7,
-        "grade": "Grade 2",
-        "amount": 27762
+        "age": 0,
+        "grade": "Pre-Primary to Grade 2",
+        "amount": 217100
       },
       {
         "age": 8,
-        "grade": "Grade 3",
-        "amount": 28197
-      },
-      {
-        "age": 9,
-        "grade": "Grade 4",
-        "amount": 28197
-      },
-      {
-        "age": 10,
-        "grade": "Grade 5",
-        "amount": 28197
+        "grade": "Grade 3 to Grade 5",
+        "amount": 220500
       },
       {
         "age": 11,
-        "grade": "Grade 6",
-        "amount": 30678
-      },
-      {
-        "age": 12,
-        "grade": "Grade 7",
-        "amount": 30678
-      },
-      {
-        "age": 13,
-        "grade": "Grade 8",
-        "amount": 30678
+        "grade": "Grade 6 to Grade 8",
+        "amount": 239900
       },
       {
         "age": 14,
-        "grade": "Grade 9",
-        "amount": 31624
-      },
-      {
-        "age": 15,
-        "grade": "Grade 10",
-        "amount": 31624
+        "grade": "Grade 9 to Grade 10",
+        "amount": 247300
       },
       {
         "age": 16,
-        "grade": "Grade 11",
-        "amount": 33760
-      },
-      {
-        "age": 17,
-        "grade": "Grade 12",
-        "amount": 33760
+        "grade": "Grade 11 to Grade 12",
+        "amount": 264000
       }
     ],
     "oneTimeFees": {
-      "Development Fee": 191816
+      "Capital Levy (one-time option)": 150000,
+      "Individual Debenture": 500000
     }
   },
   "stamford-american-international-school-singapore": {
@@ -26801,13 +26982,31 @@
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 6,
         "grade": "Junior Grade 1",
-        "amount": 202600,
-        "age": 6
+        "amount": 202600
+      },
+      {
+        "age": 6,
+        "grade": "Grade 1 to Grade 6",
+        "amount": 242200
+      },
+      {
+        "age": 12,
+        "grade": "Grade 7 to Grade 8",
+        "amount": 250900
+      },
+      {
+        "age": 14,
+        "grade": "Grade 9 to Grade 12",
+        "amount": 259500
       }
     ],
     "oneTimeFees": {
-      "off at time of application); Entry Fee": 16000
+      "Application Fee": 2500,
+      "Entry Fee (first child)": 16000,
+      "Entry Fee (additional children)": 6000,
+      "Family Admissions Right": 450000
     }
   },
   "the-international-montessori-school": {
@@ -26818,52 +27017,56 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Foundation Group (Ages 2-3, 2 Days PM)",
-        "amount": 4300,
-        "age": 0
+        "age": 0,
+        "grade": "Montessori First Steps (Ages 1-2) 2 Days",
+        "amount": 36000
       },
       {
-        "grade": "Foundation Group (Ages 2-3, 3 Days PM)",
-        "amount": 6000,
-        "age": 0
+        "age": 0,
+        "grade": "Montessori First Steps (Ages 1-2) 3 Days",
+        "amount": 53000
       },
       {
-        "grade": "Foundation Group (Ages 2-3, 5 Days)",
-        "amount": 9950,
-        "age": 0
+        "age": 4,
+        "grade": "Foundation Group (Ages 2-3) 5 Days",
+        "amount": 99500
       },
       {
-        "grade": "Foundation Class (Ages 2-3, Mid-Levels, 2 Days PM)",
-        "amount": 4900,
-        "age": 0
+        "age": 4,
+        "grade": "Foundation Class (Ages 2-3) 5 Days",
+        "amount": 106000
       },
       {
-        "grade": "Foundation Class (Ages 2-3, Mid-Levels, 3 Days PM)",
-        "amount": 6500,
-        "age": 0
+        "age": 0,
+        "grade": "Casa dei Bambini (Ages 3-4) Half-Day",
+        "amount": 143000
       },
       {
-        "grade": "Foundation Class (Ages 2-3, Mid-Levels, 5 Days)",
-        "amount": 10600,
-        "age": 0
+        "age": 0,
+        "grade": "Casa dei Bambini (Ages 4-6) Full Day",
+        "amount": 206500
       },
       {
+        "age": 6,
         "grade": "Lower Elementary (Ages 6-9)",
-        "amount": 20950,
-        "age": 6
+        "amount": 209500
       },
       {
+        "age": 14,
         "grade": "Upper Elementary (Ages 9-12)",
-        "amount": 21650,
-        "age": 6
+        "amount": 216500
       },
       {
+        "age": 11,
         "grade": "Middle School (Ages 12-14)",
-        "amount": 23810,
-        "age": 11
+        "amount": 238100
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Application Fee": 2000,
+      "Personal Nomination Right": 120000,
+      "Capital Note": 150000
+    }
   },
   "the-international-school-at-parkcity": {
     "city": "kuala-lumpur",
@@ -27228,64 +27431,73 @@
   "the-isf-academy": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://academy.isf.edu.hk/",
-    "sourceDate": "2025",
+    "source": "https://academy.isf.edu.hk/index.php/welcome-from-dean-of-admissions/fees-tuition/?lang=en",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Primary School (Foundation Year to Grade 5)",
-        "amount": 240320,
-        "age": 9
+        "age": 10,
+        "grade": "Foundation Year to Grade 5 (Primary)",
+        "amount": 240320
+      },
+      {
+        "age": 11,
+        "grade": "Grade 6 to Grade 10 (Secondary)",
+        "amount": 279210
+      },
+      {
+        "age": 16,
+        "grade": "Grade 11 to Grade 12",
+        "amount": 303530
       }
     ],
     "oneTimeFees": {
-      "refundable if student withdraws); Annual Capital Levy": 40000
+      "Application Fee": 1000
     }
   },
   "the-jockey-club-sarah-roe-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://jcsrs.esf.edu.hk/",
-    "sourceDate": "2025",
+    "source": "https://join-us.esf.edu.hk/school-fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Years 1 to 6",
-        "amount": 139000,
-        "age": 0
+        "age": 0,
+        "grade": "Years 1 – 6",
+        "amount": 139000
       },
       {
-        "grade": "Years 7 to 10",
-        "amount": 181100,
-        "age": 0
+        "age": 0,
+        "grade": "Years 7 – 10",
+        "amount": 181100
       },
       {
-        "grade": "Year 11 (subvented)",
-        "amount": 159400,
-        "age": 15
+        "age": 15,
+        "grade": "Year 11",
+        "amount": 159400
       },
       {
-        "grade": "Years 12 to 13 (subvented)",
-        "amount": 167600,
-        "age": 0
+        "age": 0,
+        "grade": "Years 12 – 13",
+        "amount": 167600
       }
     ],
     "oneTimeFees": {
-      "Non-refundable Application Fee": 2800,
-      "Deposit (to confirm school place)": 16000,
-      "Year 1": 38000,
-      "Year 2": 36000,
-      "Year 3": 34000,
-      "Year 4": 32000,
-      "Year 5": 30000,
-      "Year 6": 28000,
-      "Year 7": 26000,
-      "Year 8": 22300,
-      "Year 9": 18600,
-      "Year 10": 14900,
-      "Year 11": 11200,
-      "Year 12": 7500,
-      "Year 13": 3800
+      "Application Fee": 2800,
+      "NCL Year 1": 38000,
+      "NCL Year 2": 36000,
+      "NCL Year 3": 34000,
+      "NCL Year 4": 32000,
+      "NCL Year 5": 30000,
+      "NCL Year 6": 28000,
+      "NCL Year 7": 26000,
+      "NCL Year 8": 22300,
+      "NCL Year 9": 18600,
+      "NCL Year 10": 14900,
+      "NCL Year 11": 11200,
+      "NCL Year 12": 7500,
+      "NCL Year 13": 3800
     }
   },
   "the-millennium-school": {
@@ -29279,39 +29491,34 @@
   "victoria-shanghai-academy": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://www.vsa.edu.hk/",
-    "sourceDate": "2025",
+    "source": "https://www.vsa.edu.hk/admissions/school-fees",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Year 1 to Year 5",
-        "amount": 181200,
-        "age": 5
+        "age": 6,
+        "grade": "Primary Years Programme (Y1-Y5)",
+        "amount": 181200
       },
       {
-        "grade": "Year 6",
-        "amount": 200700,
-        "age": 10
+        "age": 0,
+        "grade": "Middle Years Programme (Y6)",
+        "amount": 200700
       },
       {
-        "grade": "Year 7 to Year 8",
-        "amount": 203700,
-        "age": 11
+        "age": 0,
+        "grade": "Middle Years Programme (Y7-Y8)",
+        "amount": 203700
       },
       {
-        "grade": "Year 9 to Year 10",
-        "amount": 205400,
-        "age": 13
+        "age": 0,
+        "grade": "Middle Years Programme (Y9-Y10)",
+        "amount": 205400
       },
       {
-        "grade": "Year 11",
-        "amount": 255600,
-        "age": 15
-      },
-      {
-        "grade": "Year 12",
-        "amount": 255600,
-        "age": 16
+        "age": 0,
+        "grade": "Diploma Programme (Y11-Y12)",
+        "amount": 255600
       }
     ],
     "oneTimeFees": {
@@ -29682,36 +29889,35 @@
   "west-island-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://wis.esf.edu.hk/en/",
-    "sourceDate": "2025",
+    "source": "https://join-us.esf.edu.hk/school-fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Years 7-10",
-        "amount": 181100,
-        "age": 0
+        "age": 0,
+        "grade": "Years 7 – 10",
+        "amount": 181100
       },
       {
-        "grade": "Year 11 (subvented)",
-        "amount": 159400,
-        "age": 15
+        "age": 15,
+        "grade": "Year 11",
+        "amount": 159400
       },
       {
-        "grade": "Years 12-13 (subvented)",
-        "amount": 167600,
-        "age": 0
+        "age": 0,
+        "grade": "Years 12 – 13",
+        "amount": 167600
       }
     ],
     "oneTimeFees": {
       "Application Fee": 2800,
-      "Admission Deposit": 16000,
-      "Year 7": 26000,
-      "Year 8": 22300,
-      "Year 9": 18600,
-      "Year 10": 14900,
-      "Year 11": 11200,
-      "Year 12": 7500,
-      "Year 13": 3800
+      "NCL Year 7": 26000,
+      "NCL Year 8": 22300,
+      "NCL Year 9": 18600,
+      "NCL Year 10": 14900,
+      "NCL Year 11": 11200,
+      "NCL Year 12": 7500,
+      "NCL Year 13": 3800
     }
   },
   "westbourne-college": {
@@ -29923,29 +30129,29 @@
   "wycombe-abbey-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://was.edu.hk/",
-    "sourceDate": "2025",
+    "source": "https://was.edu.hk/fees-information/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Years 1-5",
-        "amount": 188000,
-        "age": 0
+        "age": 0,
+        "grade": "Years 1 – 5",
+        "amount": 188000
       },
       {
-        "grade": "Years 6-8",
-        "amount": 198000,
-        "age": 0
+        "age": 0,
+        "grade": "Years 6 – 8",
+        "amount": 198000
       },
       {
-        "grade": "Years 9-11",
-        "amount": 208000,
-        "age": 0
+        "age": 0,
+        "grade": "Years 9 – 11",
+        "amount": 208000
       },
       {
-        "grade": "Years 12-13 (Sixth Form)",
-        "amount": 218000,
-        "age": 0
+        "age": 0,
+        "grade": "Years 12 – 13 (Sixth Form)",
+        "amount": 218000
       }
     ],
     "oneTimeFees": {}
@@ -30082,48 +30288,66 @@
     "city": "hong-kong",
     "currency": "HKD",
     "source": "https://www.ycis-hk.com/en/admissions/tuition-n-fees",
-    "sourceDate": "2024-2025",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Infant and Toddler Learning Programme (6 months - 2 years)",
-        "amount": 57959,
-        "age": 1
+        "age": 0,
+        "grade": "Twos Whole Day",
+        "amount": 223036
       },
       {
-        "grade": "Primary (Years 1-6)",
-        "amount": 260220,
-        "age": 6
+        "age": 0,
+        "grade": "Threes Whole Day",
+        "amount": 240801
       },
       {
-        "grade": "Secondary (Years 7-11)",
-        "amount": 254580,
-        "age": 12
+        "age": 0,
+        "grade": "Fours Whole Day",
+        "amount": 249216
       },
       {
-        "grade": "Secondary (Years 12-13)",
-        "amount": 260420,
-        "age": 12
+        "age": 0,
+        "grade": "Fives Whole Day",
+        "amount": 261536
+      },
+      {
+        "age": 0,
+        "grade": "Years 1 – 6",
+        "amount": 265420
+      },
+      {
+        "age": 0,
+        "grade": "Years 7 – 11 (IB Pathway)",
+        "amount": 262220
+      },
+      {
+        "age": 0,
+        "grade": "Years 12 – 13",
+        "amount": 268640
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 1000,
-      "Early Childhood (Twos and above)": 150000,
-      "Primary": 350000,
-      "Secondary": 470000
+      "Application Fee (Primary and Secondary)": 1000,
+      "ECE Debenture (1st child)": 150000,
+      "ECE Debenture (2nd child)": 100000,
+      "ECE Debenture (3rd child or more)": 75000,
+      "Secondary Debenture (1st child)": 470000,
+      "Secondary Debenture (2nd child)": 235000,
+      "Secondary Debenture (3rd child or more)": 117500
     }
   },
   "yk-pao-school": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://ykpaoschool.hk",
-    "sourceDate": "2026",
+    "source": "https://ykpaoschool.hk/",
+    "sourceDate": "2026-2027",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Years 1-3",
-        "amount": 220000,
-        "age": 0
+        "age": 0,
+        "grade": "Years 1 – 3",
+        "amount": 220000
       }
     ],
     "oneTimeFees": {}
@@ -30131,32 +30355,61 @@
   "ymca-christian-academy": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://yca.edu.hk/",
-    "sourceDate": "2025",
+    "source": "https://yca.edu.hk/tuition-and-other-fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Year 1 to Year 6",
-        "amount": 144470,
-        "age": 5
+        "age": 5,
+        "grade": "Year 1 – Year 6",
+        "amount": 144470
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Application Fee": 2000
+    }
   },
   "ymca-of-hong-kong-christian-college": {
     "city": "hong-kong",
     "currency": "HKD",
-    "source": "https://yhkcc.edu.hk/",
-    "sourceDate": "2026-2027",
+    "source": "https://yhkcc.edu.hk/admission/school-fees/the-annual-school-fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "GCE",
-        "amount": 65000,
-        "age": 0
+        "age": 0,
+        "grade": "Form 1",
+        "amount": 61000
+      },
+      {
+        "age": 0,
+        "grade": "Forms 2 – 3",
+        "amount": 58000
+      },
+      {
+        "age": 0,
+        "grade": "Forms 4 – 5 DSE",
+        "amount": 57000
+      },
+      {
+        "age": 0,
+        "grade": "Form 6 DSE",
+        "amount": 50500
+      },
+      {
+        "age": 0,
+        "grade": "Form 5 GCE",
+        "amount": 65000
+      },
+      {
+        "age": 0,
+        "grade": "Form 6 GCE",
+        "amount": 62000
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Application Fee": 100
+    }
   },
   "yuva-bharathi-international-school": {
     "city": "singapore",

@@ -1,0 +1,116 @@
+[lantau-international-school] ANNUAL FEES:
+- Reception: 94,920
+- P1 to P6: 123,600
+[lantau-international-school] ONE-TIME FEES:
+- Application Fee: 1,300
+- Capital Contribution Fund (Reception): 23,730
+- Capital Contribution Fund (P1 to P6): 30,900
+[lantau-international-school] SOURCE: https://www.lis.edu.hk/about-us/fees/
+[lantau-international-school] YEAR: 2025-2026
+
+[li-po-chun-united-world-college-of] ANNUAL FEES:
+- IB Diploma (Local HK Student): 324,000
+- IB Diploma (Overseas Student): 428,000
+[li-po-chun-united-world-college-of] SOURCE: https://www.lpcuwc.edu.hk/scholarship-fees
+[li-po-chun-united-world-college-of] YEAR: 2025-2026
+
+[malvern-college] ANNUAL FEES:
+- Prep 1 to Prep 6 (PYP): 198,860
+- Foundation Year 1 to 3, Remove and Hundred (MYP): 226,210
+- Lower Sixth and Upper Sixth (DP): 226,210
+[malvern-college] ONE-TIME FEES:
+- Application Fee: 1,800
+[malvern-college] SOURCE: https://www.malverncollege.org.hk/fees-and-charges/
+[malvern-college] YEAR: 2025-2026
+
+[nord-anglia-international-school] ANNUAL FEES:
+- Nursery (Morning Session): 132,300
+- Nursery (Afternoon Session): 93,900
+- Lower Kindergarten / Reception (Morning): 91,300
+- Lower Kindergarten / Reception (Afternoon): 91,300
+- Upper Kindergarten / Year 1 (Morning): 98,500
+- Upper Kindergarten / Year 1 (Afternoon): 98,500
+- Year 1 to Year 6: 197,000
+- Year 7 to Year 11: 220,500
+- Year 12 to Year 13: 222,500
+[nord-anglia-international-school] ONE-TIME FEES:
+- Application Fee: 3,000
+- Capital Enrolment Fee: 100,000
+[nord-anglia-international-school] SOURCE: https://www.nordangliaeducation.com/nais-hong-kong/admissions/tuition-fees
+[nord-anglia-international-school] YEAR: 2025-2026
+
+[norwegian-international-school] ANNUAL FEES:
+- K1 to K2: 80,850
+- Year 1 to Year 6: 133,200
+[norwegian-international-school] ONE-TIME FEES:
+- Application Fee: 900
+[norwegian-international-school] SOURCE: https://nis.edu.hk/admission/
+[norwegian-international-school] YEAR: 2025-2026
+
+[oxbridge-school] ANNUAL FEES:
+- Year 1 to Year 6 (Primary): 141,120
+- Year 7 to Year 8 (Secondary): 159,000
+- Year 9 (Secondary): 169,800
+- Year 10 to Year 11 (Secondary): 169,800
+- Year 12 to Year 13 (Secondary): 188,900
+[oxbridge-school] SOURCE: https://www.oxbridgeschool.hk/admissions/fees/
+[oxbridge-school] YEAR: 2025-2026
+
+[peak-school] ANNUAL FEES:
+- Year 1 to Year 6: 139,000
+[peak-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- Acceptance Deposit: 27,800
+- NCL Year 1: 38,000
+- NCL Year 2: 36,000
+- NCL Year 3: 34,000
+- NCL Year 4: 32,000
+- NCL Year 5: 30,000
+- NCL Year 6: 28,000
+[peak-school] SOURCE: https://join-us.esf.edu.hk/school-fees/
+[peak-school] YEAR: 2025-2026
+
+[po-leung-kuk-choi-kai-yau-school] ANNUAL FEES:
+- Year 1 to Year 5: 99,825
+- Year 6 to Year 8: 129,789
+- Year 9 to Year 10: 145,453
+- Year 11 to Year 12: 146,927
+[po-leung-kuk-choi-kai-yau-school] ONE-TIME FEES:
+- Application Fee: 400
+[po-leung-kuk-choi-kai-yau-school] SOURCE: http://cky.edu.hk/admissions/school-fees/
+[po-leung-kuk-choi-kai-yau-school] YEAR: 2025-2026
+
+[quarry-bay-school] ANNUAL FEES:
+- Year 1 to Year 6: 139,000
+[quarry-bay-school] ONE-TIME FEES:
+- Application Fee: 2,800
+- Acceptance Deposit: 27,800
+- NCL Year 1: 38,000
+- NCL Year 2: 36,000
+- NCL Year 3: 34,000
+- NCL Year 4: 32,000
+- NCL Year 5: 30,000
+- NCL Year 6: 28,000
+[quarry-bay-school] SOURCE: https://join-us.esf.edu.hk/school-fees/
+[quarry-bay-school] YEAR: 2025-2026
+
+[renaissance-college] ANNUAL FEES:
+- Years 1 to 6: 148,100
+- Years 7 to 11: 193,600
+- Years 12 to 13: 195,700
+[renaissance-college] ONE-TIME FEES:
+- Application Fee: 2,800
+- Non-refundable Building Levy (NBL) Year 1: 50,000
+- Non-refundable Building Levy (NBL) Year 2: 45,800
+- Non-refundable Building Levy (NBL) Year 3: 41,700
+- Non-refundable Building Levy (NBL) Year 4: 37,500
+- Non-refundable Building Levy (NBL) Year 5: 33,300
+- Non-refundable Building Levy (NBL) Year 6: 29,200
+- Non-refundable Building Levy (NBL) Year 7: 25,000
+- Non-refundable Building Levy (NBL) Year 8: 20,800
+- Non-refundable Building Levy (NBL) Year 9: 16,700
+- Non-refundable Building Levy (NBL) Year 10: 12,500
+- Non-refundable Building Levy (NBL) Year 11: 8,300
+- Non-refundable Building Levy (NBL) Year 12: 4,200
+[renaissance-college] SOURCE: https://rchk.esf.edu.hk/en/admissions/college_fees_financial_aid/
+[renaissance-college] YEAR: 2025-2026

@@ -1,0 +1,117 @@
+[discovery-college] ANNUAL FEES:
+- Year 1 to Year 6: 162,100
+- Year 7 to Year 11: 213,600
+- Year 12 to Year 13: 215,300
+[discovery-college] ONE-TIME FEES:
+- Application Fee: 2,800
+- Admission Deposit (Primary): 10,000
+- Admission Deposit (Secondary): 16,000
+[discovery-college] SOURCE: https://www.esf.edu.hk/fee-levels-for-academic-year-2025-26-esf-dc/
+[discovery-college] YEAR: 2025-2026
+
+[discovery-mind-educational-organisation] ANNUAL FEES:
+- Play Centre (Ages 2-3): 94,820
+- Nursery: 94,820
+- Lower Kindergarten: 94,820
+- Upper Kindergarten: 94,820
+- Primary 1 to Primary 6: 130,460
+[discovery-mind-educational-organisation] ONE-TIME FEES:
+- Application Fee (Kindergarten): 50
+- Application Fee (Primary): 1,000
+[discovery-mind-educational-organisation] SOURCE: https://applications.edb.gov.hk/schoolsearch/schoolfee/519871.pdf
+[discovery-mind-educational-organisation] YEAR: 2025-2026
+
+[dsc-international-school] ANNUAL FEES:
+- Pre-Grade 1: 147,100
+- Grade 1 to Grade 8: 155,700
+- Grade 9 and Grade 10: 161,500
+- Grade 11 and Grade 12: 168,100
+[dsc-international-school] ONE-TIME FEES:
+- Application Fee: 1,000
+- Textbook and Resources Deposit (Grade 1-12): 1,000
+[dsc-international-school] SOURCE: https://www.dsc.edu.hk/admissions/tuition-fees
+[dsc-international-school] YEAR: 2025-2026
+
+[elchk-lutheran-academy] ANNUAL FEES:
+- Year 1: 161,677
+- Year 2: 161,677
+- Year 3: 161,677
+- Year 4: 161,677
+- Year 5: 159,987
+- Year 6: 156,357
+- Year 7: 158,137
+- Year 8: 156,497
+- Year 9: 152,947
+- Year 10: 172,442
+- Year 11 (HKDSE): 170,772
+- Year 11 (IBDP): 191,972
+- Year 12 (HKDSE): 167,172
+- Year 12 (IBDP): 189,922
+[elchk-lutheran-academy] ONE-TIME FEES:
+- Application Fee: 50
+[elchk-lutheran-academy] SOURCE: https://www.luac.edu.hk/admissions/
+[elchk-lutheran-academy] YEAR: 2025-2026
+
+[forest-house-waldorf-school] ANNUAL FEES:
+- Grade 1 – Grade 6: 147,500
+- Grade 7 – Grade 8: 154,500
+[forest-house-waldorf-school] SOURCE: https://foresthouse.edu.hk/tuition-fee
+[forest-house-waldorf-school] YEAR: 2025-2026
+
+[french-international-school-of] ANNUAL FEES:
+- Nursery and Reception: 151,984
+- Year 1 to Year 6: 161,373
+- Year 7 to Year 11: 202,000
+- Year 12 and Year 13: 217,599
+[french-international-school-of] ONE-TIME FEES:
+- Application Fee: 2,200
+- Assessment Fee: 1,000
+- Registration Deposit: 25,000
+- Private Debenture (refundable): 120,000
+- Corporate Debenture (refundable and transferable): 250,000
+[french-international-school-of] SOURCE: https://www.fis.edu.hk/admission/tuition-fees/
+[french-international-school-of] YEAR: 2025-2026
+
+[garden-house-waldorf-school] ANNUAL FEES:
+- Kindergarten (full day, ages 3.5-7): 141,900
+- Kindergarten (half day 5 days, ages 2-3.5): 105,270
+- Kindergarten (half day 3 days): 77,440
+- Class 1 to Class 6 (Primary): 143,000
+[garden-house-waldorf-school] ONE-TIME FEES:
+- Enrollment Fee: 1,000
+[garden-house-waldorf-school] SOURCE: https://www.gardenhouse.edu.hk/tuitions
+[garden-house-waldorf-school] YEAR: 2025-2026
+
+[german-swiss-international-school] ANNUAL FEES:
+- Kindergarten: 197,000
+- Primary: 203,700
+- Lower Secondary: 242,800
+- Upper Secondary: 256,700
+[german-swiss-international-school] ONE-TIME FEES:
+- Application Fee (Kindergarten): 2,350
+- Application Fee (Primary/Secondary): 3,700
+- Assessment Fee (Kindergarten): 2,350
+- Assessment Fee (Primary/Secondary): 3,700
+- Standard Debenture (refundable): 800,000
+- Development Debenture: 350,000
+- Capital Levy (new students only): 40,000
+[german-swiss-international-school] SOURCE: https://www.gsis.edu.hk/en/admissions/fees-and-debenture
+[german-swiss-international-school] YEAR: 2025-2026
+
+[guidepost] ANNUAL FEES:
+- Lower Primary (ages 6-9): 155,000
+- Upper Primary (ages 9-12): 155,000
+[guidepost] ONE-TIME FEES:
+- Administrative Fee: 1,500
+[guidepost] SOURCE: https://guidepost.hk/course-fees
+[guidepost] YEAR: 2025-2026
+
+[han-academy] ANNUAL FEES:
+- Year 1 – Year 6 (Primary): 198,000
+- Year 7 – Year 11 (Secondary): 208,000
+- Year 12 – Year 13 (A-Level/IBDP): 218,000
+[han-academy] ONE-TIME FEES:
+- Individual Debenture: 2,100,000
+- Corporate Debenture: 3,000,000
+[han-academy] SOURCE: https://www.hanacademy.edu.hk/en/admission?tab=fee
+[han-academy] YEAR: 2025-2026
