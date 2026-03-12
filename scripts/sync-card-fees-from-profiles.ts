@@ -19,6 +19,8 @@ import { HONG_KONG_SCHOOLS } from "@/data/hong-kong-schools";
 import { HONG_KONG_SCHOOL_PROFILES } from "@/data/hong-kong-schools-profiles";
 import { KUALA_LUMPUR_SCHOOLS } from "@/data/kuala-lumpur-schools";
 import { KUALA_LUMPUR_SCHOOL_PROFILES } from "@/data/kuala-lumpur-schools-profiles";
+import { JAKARTA_SCHOOLS } from "@/data/jakarta-schools";
+import { JAKARTA_SCHOOL_PROFILES } from "@/data/jakarta-schools-profiles";
 import type { SchoolProfile } from "@/data/schools";
 
 const RATES: Record<string, number> = {
@@ -27,6 +29,7 @@ const RATES: Record<string, number> = {
   THB: 35,
   HKD: 7.8,
   MYR: 4.5,
+  IDR: 16000,
 };
 
 function expectedFromProfile(profile: SchoolProfile): { feeRange: string; feeLowUsd: number; feeHighUsd: number } {
@@ -137,8 +140,13 @@ function run() {
     KUALA_LUMPUR_SCHOOLS.map((s) => ({ slug: s.slug, name: s.name, feeRange: s.feeRange, feeLowUsd: s.feeLowUsd, feeHighUsd: s.feeHighUsd })),
     KUALA_LUMPUR_SCHOOL_PROFILES
   );
+  const jakarta = syncCity(
+    "jakarta",
+    JAKARTA_SCHOOLS.map((s) => ({ slug: s.slug, name: s.name, feeRange: s.feeRange, feeLowUsd: s.feeLowUsd, feeHighUsd: s.feeHighUsd })),
+    JAKARTA_SCHOOL_PROFILES
+  );
 
-  const all = { singapore, dubai, bangkok, "hong-kong": hongKong, "kuala-lumpur": kl };
+  const all = { singapore, dubai, bangkok, "hong-kong": hongKong, "kuala-lumpur": kl, jakarta };
   let total = 0;
   for (const [city, arr] of Object.entries(all)) {
     if (arr.length > 0) {
@@ -162,6 +170,7 @@ function run() {
       { path: path.join(root, "bangkok-schools.ts"), mismatches: bangkok },
       { path: path.join(root, "hong-kong-schools.ts"), mismatches: hongKong },
       { path: path.join(root, "kuala-lumpur-schools.ts"), mismatches: kl },
+      { path: path.join(root, "jakarta-schools.ts"), mismatches: jakarta },
     ];
     for (const { path: filePath, mismatches } of files) {
       if (mismatches.length === 0) continue;

@@ -1,0 +1,66 @@
+[springfield-school-jakarta] ANNUAL FEES:
+- FS1 (Pre-Kindergarten): 38500000
+- KG1/FS2: 42900000
+- KG2/Y1: 46200000
+- Grade 1/Y2 to Grade 3/Y4: 55000000
+- Grade 4/Y5 to Grade 6/Y7: 59400000
+- Grade 7/Y8 to Grade 8/Y9: 67100000
+- Grade 9/Y10 to Grade 10/Y11: 69300000
+- Grade 11/Y12 to Grade 12/Y13: 74800000
+[springfield-school-jakarta] ONE-TIME FEES:
+- Development Fee (Uang Pangkal): 9000000 to 69000000 (varies by grade)
+- Registration Fee: 300000 to 5000000 (varies by program and campus)
+[springfield-school-jakarta] SOURCE: https://www.edarabia.com/springfield-school-jakarta-indonesia/
+[springfield-school-jakarta] YEAR: 2025-2026
+
+[stella-maris-school] ANNUAL FEES:
+- Preschool/Sunnyville (Toddler/Age 2): 19000000
+- SD (Gading Serpong): 54000000
+- SMP (Gading Serpong): 54000000
+- Stema College (Foundation, 8-month): 80000000
+[stella-maris-school] ONE-TIME FEES:
+- Development Fund (Uang Pangkal): 49000000
+- Registration Fee (Biaya Pendaftaran): 300000 to 750000 (varies by level)
+- Book Fee (Uang Buku): 2050000
+[stella-maris-school] SOURCE: https://admission.stella-maris.sch.id
+[stella-maris-school] YEAR: 2025-2026
+
+[tunas-muda-school] ANNUAL FEES:
+- Primary (SD): 98000000
+[tunas-muda-school] ONE-TIME FEES:
+- Registration Fee (includes English test and interview): 2000000
+- Enrolment Fee (Uang Pangkal) - Primary: 96000000
+[tunas-muda-school] SOURCE: https://www.tunasmuda.sch.id
+[tunas-muda-school] YEAR: 2025-2026
+
+[tzu-chi-school] ANNUAL FEES:
+- Nursery 1: 60000000
+- Primary 1: 94800000
+- Secondary (Grades 7-9): 108000000
+- Secondary (Grade 10): 114000000
+- Secondary (Grade 11): 126000000
+[tzu-chi-school] ONE-TIME FEES:
+- Application Form Fee: 1000000
+- Registration Fee: 8000000
+- Admission Fee (Uang Pangkal) Nursery 1 - entry only: 15000000
+- Admission Fee (Uang Pangkal) Nursery 1 - package through K2: 30000000
+- Admission Fee (Uang Pangkal) Primary 1 - entry only: 16000000
+- Admission Fee (Uang Pangkal) Primary 1 - package P1-P6: 96000000
+- Admission Fee (Uang Pangkal) Grade 7 - to Grade 10: 112000000
+- Admission Fee (Uang Pangkal) Grade 7 - to Grade 12: 168000000
+- Admission Fee (Uang Pangkal) Grade 8 - to Grade 10: 84000000
+- Admission Fee (Uang Pangkal) Grade 8 - to Grade 12: 140000000
+- Admission Fee (Uang Pangkal) Grade 10 - to Grade 12: 84000000
+- Admission Fee (Uang Pangkal) Grade 11 - to Grade 12: 56000000
+[tzu-chi-school] SOURCE: https://tzuchi.sch.id/admission/
+[tzu-chi-school] YEAR: 2025-2026
+
+[universal-school-jakarta] ANNUAL FEES:
+- Primary Level 1 - Intensive English: 55500000
+- Primary Level 1 - National Plus: 43750000
+- SMP (Junior High) - Intensive English: 67000000
+- SMP (Junior High) - National Plus: 58000000
+[universal-school-jakarta] ONE-TIME FEES:
+- Registration Fee / Deposit: 1500000
+[universal-school-jakarta] SOURCE: https://www.universalschool.id/admissions.html
+[universal-school-jakarta] YEAR: 2025-2026

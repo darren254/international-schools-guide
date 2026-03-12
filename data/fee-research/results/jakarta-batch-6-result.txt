@@ -1,0 +1,167 @@
+[sekolah-madania] ANNUAL FEES:
+- Primary School (SD): 47400000
+- Grade 12 (Secondary): 59520000
+[sekolah-madania] ONE-TIME FEES:
+- Enrollment Fee (Uang Pangkal) - Primary: 50000000
+- Registration/Form Fee: 350000
+[sekolah-madania] SOURCE: https://www.madania.sch.id
+[sekolah-madania] YEAR: 2025-2026
+NOTE: Monthly SPP x12 used for annual calculation (SD: 3950000x12=47400000; Grade 12: 4960000x12=59520000). General range reported as IDR 47000000-141000000 by International Schools Guide. Discounts of 30-35% on enrollment fees often available during promotional periods. Fees for other grade levels not publicly detailed.
+
+[sekolah-pelita-bangsa] ANNUAL FEES:
+- All Levels (Estimated Range): 21000000 - 25000000
+[sekolah-pelita-bangsa] ONE-TIME FEES:
+- Registration Fee (Uang Pangkal, Estimated Range): 15000000 - 20000000
+- Application/Test Fee (Estimated): 600000 - 1000000
+[sekolah-pelita-bangsa] SOURCE: https://sekolahpelitabangsa.sch.id
+[sekolah-pelita-bangsa] YEAR: 2025-2026
+NOTE: Sekolah Pelita Bangsa does not publish a full fee schedule on its official website. Figures are indicative estimates from third-party directories and parent reviews. Star Kids (Nursery) monthly fee reported at ~2900000/month (~34800000/year). Lampung campus fees may differ significantly. Enquiry via official contact form or WhatsApp recommended for accurate figures.
+
+[sekolah-pelita-harapan] ANNUAL FEES:
+- Baby Eagles: 35000000
+- Pre-Kindergarten: 80000000
+- K1 (Half Day): 121000000
+- K1 (Full Day): 134000000
+- K2 (Half Day): 123000000
+- K2 (Full Day): 134000000
+- K3: 134000000
+- Grade 1-2: 214000000
+- Grade 3-6: 223000000
+- Grade 7-9: 284000000
+- Grade 10: 319000000
+- Grade 11-12: 384000000
+- Annual Development Fee (DPP) - K1 to Grade 12: 56500000
+[sekolah-pelita-harapan] ONE-TIME FEES:
+- Application Fee (non-refundable): 3000000
+- Sibling Application Fee: 1500000
+[sekolah-pelita-harapan] SOURCE: https://sph.edu/admissions/fees
+[sekolah-pelita-harapan] YEAR: 2025-2026
+NOTE: All fees are annual and already stated as annual amounts (Lippo Village campus). DPP (Annual Development Fee) is mandatory for K1 through Grade 12; not applicable for Baby Eagles, Eaglets, and Pre-Kindergarten. DPP advance payment for 2-6 years available with discount. Additional fees may apply for optional courses, field trips, and Discovery Academy programs. Data retrieved for 2026/2027 academic year.
+
+[sekolah-pelita-harapan-kemang-village] ANNUAL FEES:
+- K1: 127000000
+- K2 (Half Day): 131000000
+- K3: 138000000
+- Grade 1: 206000000
+- Grade 2-5: 219000000
+- Grade 6-8: 270000000
+- Grade 9-10: 321000000
+- Grade 11-12: 367000000
+- Annual Development Fee (DPP) - K1 to Grade 12: 71500000
+[sekolah-pelita-harapan-kemang-village] ONE-TIME FEES:
+- Application Fee (non-refundable): 3000000
+- Sibling Application Fee: 1500000
+[sekolah-pelita-harapan-kemang-village] SOURCE: https://sph.edu/admissions/fees
+[sekolah-pelita-harapan-kemang-village] YEAR: 2025-2026
+NOTE: All fees are annual and already stated as annual amounts (Kemang Village campus). DPP (Annual Development Fee) is annual and mandatory for K1 through Grade 12. DPP can be paid for multiple years in advance with a discount. Additional fees may apply for optional courses, field trips, and Discovery Academy programs. Data retrieved for 2026/2027 academic year.
+
+[sekolah-terpadu-pahoa] ANNUAL FEES:
+- SD (Primary): 47088000
+- Activity Fee (Uang Kegiatan) - SD: 1350000
+[sekolah-terpadu-pahoa] ONE-TIME FEES:
+- Application Form (Formulir): 300000
+- Enrollment Fund (Uang Pangkal): 45000000
+- Mandarin Adaptation Fee (Adaptasi Mandarin): 2000000
+[sekolah-terpadu-pahoa] SOURCE: https://pahoa.sch.id/
+[sekolah-terpadu-pahoa] YEAR: 2025-2026
+NOTE: Monthly SPP x12 used for annual calculation (SD: 3924000x12=47088000). Fees reported for SD level only for 2026/2027 academic year. Fees for KB-TK, SMP, and SMA levels not publicly available; provided after selection process via internal portal. Mandarin Adaptation Fee is for 5 months (one-time for new students). Payment available via Virtual Account or 0% installment via BCA Credit Card.
+
+[sekolah-victory-plus] ANNUAL FEES:
+- Toddler: 26400000
+- Nursery: 35400000
+- EY1-EY2: 44100000
+- Primary School (Grade 1-6): 68400000
+- Secondary School (Grade 7-9): 72600000
+- Secondary School (Grade 10): 74400000
+- Secondary School (Grade 11-12): 93000000
+[sekolah-victory-plus] ONE-TIME FEES:
+- Registration Fee (Biaya Pendaftaran): 500000
+- Submission Fee / Uang Pangkal (Annual Rate) - ECE Package 1 (Toddler to EY2, 4 years): 11900000
+- Submission Fee / Uang Pangkal (Annual Rate) - ECE Package 2 (EY1 to EY2, 2 years): 17650000
+- Submission Fee / Uang Pangkal (Annual Rate) - Primary School (Grade 1-6, 6 years): 14400000
+- Submission Fee / Uang Pangkal (Annual Rate) - Secondary (Grade 7-9, 3 years): 31700000
+- Submission Fee / Uang Pangkal (Annual Rate) - Secondary (Grade 7-10, 4 years): 30250000
+- Submission Fee / Uang Pangkal (Annual Rate) - Secondary (Grade 10-12, 3 years): 33500000
+- Submission Fee / Uang Pangkal (Annual Rate) - Secondary (Grade 11-12, 2 years): 33500000
+[sekolah-victory-plus] SOURCE: https://svp.education/admission/
+[sekolah-victory-plus] YEAR: 2025-2026
+NOTE: Tuition fees are per term x4 terms per year (July, Oct, Jan, Apr); annual figures calculated as term fee x4. Submission Fee (Uang Pangkal) is quoted as an annual rate but must be paid upfront in full for the entire learning cycle duration (e.g., 6 years total for Primary). Fees include one-day field trips but exclude textbooks, uniforms, extracurriculars, and overnight stays. Data from 2026-2027 fee schedule.
+
+[sinarmas-world-academy] ANNUAL FEES:
+- Early Years (Toddler-KG): 119195000
+- Primary (Grade 1-6): 198647000
+- Middle School (Grade 7-10): 278117000
+- IB Diploma (Grade 11-12): 347642000
+[sinarmas-world-academy] ONE-TIME FEES:
+- Application Fee (non-refundable): 4963000
+- Enrolment Fee (New Students, one-time): 19871000
+[sinarmas-world-academy] SOURCE: https://www.swa-jkt.com/admission/admission-guidelines/
+[sinarmas-world-academy] YEAR: 2025-2026
+NOTE: SWA does not publicly disclose its detailed fee schedule; fees are indicative estimates converted from USD benchmarks at IDR 16826 per USD (2025/2026). General range reported as IDR 156000000-471000000 per year. Development Fee is required but specific amount not publicly disclosed. Contact admissions office for confirmed figures.
+
+[singapore-intercultural-school-south-jakarta] ANNUAL FEES:
+- Preschool N1: 48500000
+- Preschool N2: 64000000
+- Kindergarten K1: 81000000
+- Kindergarten K2: 83500000
+- Primary P1-P3: 115000000
+- Primary P4-P6: 118000000
+- Secondary S1-S2: 129000000
+- Secondary S3-S4: 132000000
+- Junior College JC1-JC2: 151800000
+- Annual Development Fee N1-N2: 20000000
+- Annual Development Fee K1: 24000000
+- Annual Development Fee K2: 25000000
+- Annual Development Fee P1-P3: 46000000
+- Annual Development Fee P4-P6: 49000000
+- Annual Development Fee S1-S2: 54000000
+- Annual Development Fee S3-S4: 56000000
+- Annual Development Fee JC1-JC2: 63500000
+[singapore-intercultural-school-south-jakarta] ONE-TIME FEES:
+- Registration Fee (non-refundable, non-transferable): 6000000
+[singapore-intercultural-school-south-jakarta] SOURCE: https://sisschools.org/sis-southjakarta/
+[singapore-intercultural-school-south-jakarta] YEAR: 2025-2026
+NOTE: Annual fees are already annual. Development Fees are annual and required in addition to tuition. Total annual cost (Tuition + Development) ranges from IDR 68500000 (N1) to IDR 215300000 (JC). Annual school fees include textbooks and notebooks for Preschool, Primary, and Secondary. Excludes uniforms, school bus, CCAs, field trips, and international exam fees. Lump sum payment of Development Fees offers savings of 25% (2 years) to 50% (6 years).
+
+[sis-kelapa-gading] ANNUAL FEES:
+- N1: 48500000
+- N2: 64000000
+- K1: 81000000
+- K2: 83500000
+- P1-P3: 115000000
+- P4-P6: 118000000
+- S1-S2: 129000000
+- S3-S4: 132000000
+- JC1-JC2: 151800000
+- Annual Development Fee N1-N2: 20000000
+- Annual Development Fee K1: 24000000
+- Annual Development Fee K2: 25000000
+- Annual Development Fee P1-P3: 46000000
+- Annual Development Fee P4-P6: 49000000
+- Annual Development Fee S1-S2: 54000000
+- Annual Development Fee S3-S4: 56000000
+- Annual Development Fee JC1-JC2: 63500000
+[sis-kelapa-gading] ONE-TIME FEES:
+- Registration Fee (non-refundable): 6000000
+- Enrollment Fee / Uang Pangkal (New Joiners, one-time, grade-dependent): 68000000 - 93000000
+[sis-kelapa-gading] SOURCE: https://sisschools.org/sis-kg/
+[sis-kelapa-gading] YEAR: 2025-2026
+NOTE: Tuition and Development Fee structure mirrors SIS Group standard for AY 2025/2026. Enrollment Fee (Uang Pangkal) for new joiners is up to IDR 68000000-93000000 depending on grade level; some sources cite Grade 1 new joiner enrollment at up to IDR 93000000. Some sources note Registration Fee at IDR 600000 (elementary-specific); IDR 6000000 used as standard SIS Group rate. Termly, semesterly, and monthly payment options available with slight surcharge.
+
+[sis-pantai-indah-kapuk] ANNUAL FEES:
+- Preschool N1: 48500000
+- Preschool N2: 64000000
+- Kindergarten K1: 81000000
+- Kindergarten K2: 83500000
+- Primary P1-P3: 115000000
+- Primary P4-P6: 118000000
+- Secondary S1-S2: 129000000
+- Secondary S3-S4: 132000000
+- Junior College JC1-JC2: 151800000
+- Annual Development Fee Preschool: 20000000
+- Annual Development Fee Junior College: 63500000
+[sis-pantai-indah-kapuk] ONE-TIME FEES:
+- Registration Fee (non-refundable, non-transferable): 6000000
+[sis-pantai-indah-kapuk] SOURCE: https://www.sis-pik.com/admission-info/
+[sis-pantai-indah-kapuk] YEAR: 2025-2026
+NOTE: SIS-PIK does not provide a public fee schedule directly; figures are indicative based on SIS Group structure (AY 2025-2026) and SIS South Jakarta fee schedule as reference. Detailed per-grade Development Fees range from IDR 20000000 (Preschool) to IDR 63500000 (JC); intermediate grade breakdowns not separately confirmed for PIK campus. School provides downloadable fee schedule upon form submission. USD range reported as US$4000-US$13000 per year. Semesterly, quarterly, and monthly payment options available with slight surcharge.

@@ -1,0 +1,122 @@
+[global-sevilla-school] ANNUAL FEES:
+- Kindergarten: 50000000 – 150000000
+- Primary School: 80000000 – 300000000
+- Junior High School (Secondary): 100000000 – 400000000
+- Senior High School (Secondary): 150000000 – 600000000
+[global-sevilla-school] SOURCE: https://www.globalsevilla.org/international-school-fee-range
+[global-sevilla-school] YEAR: 2025-2026
+NOTE: Fees are published as ranges on the official website, not fixed per-grade amounts. Figures are indicative and vary by campus (Pulo Mas or Puri Indah). Registration fee and development fee (uang pangkal) amounts are not publicly listed.
+
+[highscope-indonesia] ANNUAL FEES:
+- Toddler – Pre-K: 46000000
+- Grade K: 28400000
+- Grade 1–5: 87600000
+- Grade 6: 90000000
+- Grade 7–9 (Middle School): 92400000
+- Grade 10–12 (High School): 103200000
+[highscope-indonesia] ONE-TIME FEES:
+- Enrollment Fee – Toddler: 40000000
+- Enrollment Fee – Pre-School (30m–6Y): 32000000
+- Enrollment Fee – Pre-Kindy (4Y–6Y): 22000000
+- Enrollment Fee – Elementary (Grade 1–6): 80000000
+- Enrollment Fee – Middle School (Grade 7–9): 75000000
+- Enrollment Fee – High School (Grade 10–12): 80000000
+[highscope-indonesia] SOURCE: https://highscope.or.id/en/admission
+[highscope-indonesia] YEAR: 2025-2026
+NOTE: HighScope TB Simatupang campus. Academic year has 4 terms (Term 1: Jul–Sep, Term 2: Oct–Dec, Term 3: Jan–Mar, Term 4: Apr–Jun). Early childhood fees (Toddler–PreK and Grade K) are per term — multiplied by 4 to get annual. Elementary (Grade 1–5, Grade 6), Middle School, and High School fees are per month — multiplied by 12 to get annual. Enrollment fees are one-time.
+
+[holy-angels-school] FEES NOT AVAILABLE
+[holy-angels-school] SOURCE: https://www.holyangels.sch.id
+[holy-angels-school] YEAR: 2025-2026
+NOTE: Holy Angels School does not publicly disclose fees. Official FAQ (Question 6) states parents must call or visit the school directly for fee information.
+
+[ichthus-school-jakarta] ANNUAL FEES:
+- Grade 2: 89320000
+- Kindergarten 2 (K2): 45600000
+- Activity Fee: 3600000
+[ichthus-school-jakarta] ONE-TIME FEES:
+- Enrollment Fee (Grade 2–6): 70833333
+- Enrollment Fee (Grade 2–12): 110000000
+- Development Fee: 18000000
+- Down Payment: 10000000
+[ichthus-school-jakarta] SOURCE: https://www.ichthusschool.com/admissions/
+[ichthus-school-jakarta] YEAR: 2025-2026
+NOTE: Ichthus does not publish a full fee schedule publicly. Grade 2 annual fee confirmed at 89320000 (also expressed as 24360000 per quarter × ~3.67 quarters; annual figure used directly). K2 fee is 3800000/month × 12 = 45600000. Fees may vary between South Campus (Cilandak) and West Campus (Sunrise Garden). Derived from secondary sources including an early bird offer document for AY 2026/2027. Full grade range not publicly available — contact admissions for complete schedule.
+
+[independent-school-of-jakarta] ANNUAL FEES:
+- Pre-Nursery: 148524000
+- Nursery: 226148000
+- Reception: 332737600
+- Year 1 & 2: 419702400
+- Year 3 & 4: 437819200
+- Year 5 & 6: 464984000
+- Year 7 & 8: 484733600
+[independent-school-of-jakarta] ONE-TIME FEES:
+- Application Fee (non-refundable): 4680000
+- Enrolment Deposit (refundable on leaving): 16328000
+[independent-school-of-jakarta] SOURCE: https://www.isj.id/tuition-fees
+[independent-school-of-jakarta] YEAR: 2025-2026
+NOTE: Annual fees are already stated as full-year totals and used directly. Fees include tuition, materials fee, and capital contribution. Payable annually or termly (3 terms). Sibling discounts apply: 5% for 3rd child, 10% for 4th child, 15% for 5th child and above.
+
+[ipeka-integrated-christian-school] ANNUAL FEES:
+- SMA Grade 11–12: 168000000
+[ipeka-integrated-christian-school] ONE-TIME FEES:
+- Development Fund / Uang Pangkal (SMA, external students): 75000000
+[ipeka-integrated-christian-school] SOURCE: https://iics.sch.id
+[ipeka-integrated-christian-school] YEAR: 2025-2026
+NOTE: IPEKA IICS does not publish a full fee schedule publicly. Fees are shared with parents via email after purchase of the application form and completion of an entrance test. SMA annual fee calculated as 14000000/month × 12 = 168000000. Only SMA-level fees are available from secondary sources. Full grade schedule not publicly available — contact admissions at https://admission.ipeka.org/ for complete details.
+
+[jakarta-indonesia-korean-school] ANNUAL FEES:
+- Elementary School: 106240000
+- Middle School: 111180000
+- High School: 116120000
+[jakarta-indonesia-korean-school] ONE-TIME FEES:
+- Admission Fee – Elementary: 24670000
+- Admission Fee – Middle School: 32890000
+- Admission Fee – High School: 41120000
+- Application Fee (2026): 500000
+[jakarta-indonesia-korean-school] SOURCE: https://www.jiks.com/sub3/sub3_08_2.php
+[jakarta-indonesia-korean-school] YEAR: 2025-2026
+NOTE: JIKS follows a Korean academic calendar (Semester 1 starts March, Semester 2 starts August/September). Fees are charged per semester — multiplied by 2 to get annual totals. Figures above are for the 1st child (full fee). Discounts apply for additional children: 2nd child 10% off, 3rd child 20% off, 4th child 50% off. Semester 1 tuition due by Feb 28; Semester 2 due by Aug 31. Source data is for 2025 Second Semester; 2026 semester fees to be announced separately.
+
+[jakarta-intercultural-school] ANNUAL FEES:
+- Early Years 1 & 2 Shortened (Half) Day: 304863000
+- Early Years 1 & 2 Full Day: 392643000
+- Kindergarten: 527970000
+- Elementary (Grades 1–5): 551483000
+- Middle School (Grades 6–8): 627654000
+- High School (Grades 9–12): 633001000
+- JIS Learning Center – Elementary School: 842847000
+- JIS Learning Center – Middle School: 921309000
+- JIS Learning Center – High School: 921309000
+[jakarta-intercultural-school] ONE-TIME FEES:
+- Application Fee: 5543800
+- Technology Fee – Elementary (Grades 1–5): 6953000
+- Technology Fee – Middle School (Grades 6–8): 24278000
+- Technology Fee – High School (Grades 9–12): 24278000
+- Lane 3 High School Surcharge – Grade 10: 294345000
+- Lane 3 High School Surcharge – Grade 11: 307890100
+- English as Additional Language (EAL) Fee: 89148000
+[jakarta-intercultural-school] SOURCE: https://www.jisedu.or.id/admissions/fees
+[jakarta-intercultural-school] YEAR: 2025-2026
+NOTE: Annual totals are used directly as provided; each total includes Enrollment Guarantee Fee (32250000) + Tuition + Capital Fee (68367000). Fees are invoiced for the full year and payable in advance; installment options (3, 6, or 12 months at 0% interest) available via CIMB and Mandiri. Technology Fee is mandatory one-time for new students only. Lane 3 Surcharge applies only to certain mid-year transfers into Grade 10 or 11. EAL fee applies only if language support is required. Optional annual transportation fees not included above. Data shown is for 2026-2027 academic year as published on the JIS fees page.
+
+[jakarta-multicultural-school] ANNUAL FEES:
+- All grades (range): 40500000 – 142000000
+[jakarta-multicultural-school] ONE-TIME FEES:
+- Development Fund (Enrolment Fee): 20000000
+[jakarta-multicultural-school] SOURCE: https://jms.sch.id/admissions/
+[jakarta-multicultural-school] YEAR: 2025-2026
+NOTE: JMS does not publish a detailed fee table by grade on its website. Annual fee range of 40500000–142000000 is sourced from secondary sources (NOW! Jakarta, International Schools Database). Tuition is paid across four terms (July, October, January, April). Development fee is sometimes waived during promotional periods. Contact admissions at info@jimsch.org for full grade-level breakdown.
+
+[jakarta-nanyang-school] ANNUAL FEES:
+- Kindergarten: 93500000
+- Primary (Years 1–6): 99000000
+- Lower Secondary (Years 7–10): 233800000
+- Junior College / A-Levels (Years 11–13): 299200000
+[jakarta-nanyang-school] ONE-TIME FEES:
+- Application Fee: 2800000
+- Enrolment Fee (new students): 14000000
+[jakarta-nanyang-school] SOURCE: https://jny.sch.id/admissions/how-to-apply/
+[jakarta-nanyang-school] YEAR: 2025-2026
+NOTE: JNY does not publicly list fees — official fees are provided via invoice after student acceptance. Figures are estimates from secondary sources (International Schools Guide, Popmama). USD amounts converted at approximately 1 USD = 15800 IDR. Primary fee of 99000000 is from Popmama (standard rate for 2024/2025); early bird rate was 85700000. All amounts should be verified directly with the school.

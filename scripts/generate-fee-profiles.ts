@@ -91,6 +91,16 @@ const CITIES: CityConfig[] = [
     amountField: "amount",
     comment: "Kuala Lumpur school profile data: annual fees and one-time fees.",
   },
+  {
+    city: "jakarta",
+    tsPath: "src/data/jakarta-school-profiles.ts",
+    interfaceName: "JakartaFeeData",
+    exportName: "JAKARTA_FEE_DATA",
+    rateName: "JAKARTA_RATE",
+    rateValue: 16000,
+    amountField: "amount",
+    comment: "Jakarta school profile data: annual fees and one-time fees.",
+  },
 ];
 
 function parseExistingNonFeeData(

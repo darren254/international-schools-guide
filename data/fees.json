@@ -54,11 +54,72 @@
   "acg-school-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.jakarta.acgedu.com/admissions/fees",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 5,
+        "grade": "Kindergarten 3",
+        "amount": 158015800
+      },
+      {
+        "age": 0,
+        "grade": "Kindergarten 4",
+        "amount": 191007100
+      },
+      {
+        "age": 5,
+        "grade": "Year 1",
+        "amount": 283039300
+      },
+      {
+        "age": 6,
+        "grade": "Year 2",
+        "amount": 288248600
+      },
+      {
+        "age": 0,
+        "grade": "Years 3-4",
+        "amount": 351918000
+      },
+      {
+        "age": 9,
+        "grade": "Year 5",
+        "amount": 355390900
+      },
+      {
+        "age": 10,
+        "grade": "Year 6",
+        "amount": 358863800
+      },
+      {
+        "age": 0,
+        "grade": "Years 7-10",
+        "amount": 371018900
+      },
+      {
+        "age": 15,
+        "grade": "Year 11",
+        "amount": 374491700
+      },
+      {
+        "age": 0,
+        "grade": "Years 12-13",
+        "amount": 375649300
+      }
+    ],
+    "oneTimeFees": {
+      "Application Fee": 4000000,
+      "Development Fee (Kindergarten)": 8100000,
+      "Development Fee (Years 1-13)": 39500000,
+      "Tech Levy (Years 3-6 and 12-13)": 815000,
+      "Tech Levy (Years 7-11)": 1630000,
+      "Residential Learning (Year 4)": 3500000,
+      "Residential Learning (Years 5-6)": 5000000,
+      "Residential Learning (Years 7-13)": 13000000,
+      "DP Language Texts (Year 12)": 1500000
+    }
   },
   "acmar-international-school": {
     "city": "kuala-lumpur",
@@ -133,44 +194,57 @@
   "acs-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "https://www.acsjakarta.sch.id/",
-    "sourceDate": "2026-2027",
+    "source": "https://www.acsjakarta.sch.id/school-fees",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Grades 1 to 6",
-        "amount": 254000000,
-        "age": 0
+        "age": 0,
+        "grade": "Grades 1-6 (Tuition)",
+        "amount": 254000000
       },
       {
-        "grade": "Grades 7 to 8",
-        "amount": 275000000,
-        "age": 0
+        "age": 0,
+        "grade": "Grades 7-8 (Tuition)",
+        "amount": 275000000
       },
       {
-        "grade": "Grades 9 to 10",
-        "amount": 287000000,
-        "age": 0
+        "age": 0,
+        "grade": "Grades 9-10 (Tuition)",
+        "amount": 287000000
       },
       {
-        "grade": "Grades 11 and 12 (IB Diploma Programme)",
-        "amount": 310000000,
-        "age": 0
+        "age": 0,
+        "grade": "Grades 11-12 IB Diploma Programme (Tuition)",
+        "amount": 310000000
       },
       {
-        "grade": "Grades 9 (covers 2 years)",
-        "amount": 20000000,
-        "age": 0
+        "age": 0,
+        "grade": "Grades 1-6 (Learning Materials Fee)",
+        "amount": 8600000
       },
       {
-        "grade": "Grades 11 (covers 2 years)",
-        "amount": 27600000,
-        "age": 0
+        "age": 0,
+        "grade": "Grades 7-8 (Learning Materials Fee)",
+        "amount": 9100000
+      },
+      {
+        "age": 14,
+        "grade": "Grade 9 (Learning Materials Fee, covers 2 years for IGCSE)",
+        "amount": 20000000
+      },
+      {
+        "age": 16,
+        "grade": "Grade 11 (Learning Materials Fee, covers 2 years for IBDP)",
+        "amount": 27600000
       }
     ],
     "oneTimeFees": {
-      "Entrance Test Fee": 1000000,
-      "Admission Fee": 4500000,
+      "Entrance Test Fee (Grades 1 and 10)": 1000000,
+      "Entrance Test Fee (Grades 2-9 and 11)": 2000000,
+      "Admission Fee (paid Sept 2025-Mar 2026)": 4500000,
+      "Admission Fee (paid Apr-May 2026)": 6500000,
+      "Admission Fee (paid June 2026 onwards)": 9000000,
       "Deposit Fee": 30000000
     }
   },
@@ -451,11 +525,29 @@
   "al-azhar-syifa-budi-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://alazhar.syifabudi.id/admission.php",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 4,
+        "grade": "Preschool/TK (SPP monthly x12, estimated)",
+        "amount": 13200000
+      },
+      {
+        "age": 6,
+        "grade": "Primary/SD (SPP monthly x12, estimated)",
+        "amount": 24000000
+      },
+      {
+        "age": 0,
+        "grade": "Junior High/SMP (SPP monthly x12)",
+        "amount": 60000000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Fee": 150000
+    }
   },
   "al-diyafah-high-school": {
     "city": "dubai",
@@ -635,10 +727,49 @@
     "city": "jakarta",
     "currency": "IDR",
     "source": "https://aljabrislamicschool.sch.id/en/admissions/school-fees/",
-    "sourceDate": "2026-2027",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "Pre K (Academic Fee/year + Tuition 4 quarters)",
+        "amount": 26500000
+      },
+      {
+        "age": 3,
+        "grade": "K1-K2 (Academic Fee/year + Tuition 4 quarters)",
+        "amount": 32750000
+      },
+      {
+        "age": 6,
+        "grade": "Grade 1-6 (Academic Fee/year + Tuition 4 quarters)",
+        "amount": 47400000
+      },
+      {
+        "age": 12,
+        "grade": "Grade 7-9 (Academic Fee/year + Tuition 4 quarters)",
+        "amount": 48800000
+      },
+      {
+        "age": 15,
+        "grade": "Grade 10-12 (Academic Fee/year + Tuition 4 quarters)",
+        "amount": 48800000
+      },
+      {
+        "age": 0,
+        "grade": "PA Fee all levels (per 3 months x4)",
+        "amount": 360000
+      }
+    ],
+    "oneTimeFees": {
+      "Enrollment Fee (Pre K)": 20000000,
+      "Enrollment Fee (K1-K2)": 32200000,
+      "Enrollment Fee (Grade 1-6)": 58850000,
+      "Enrollment Fee (Grade 7-9)": 40000000,
+      "Enrollment Fee (Grade 10-12)": 45000000,
+      "Uniform (Pre K, K1-K2, Grade 1-6, Grade 10-12)": 850000,
+      "Uniform (Grade 7-9)": 1000000
+    }
   },
   "al-khaleej-international-school": {
     "city": "dubai",
@@ -2715,77 +2846,77 @@
   "australian-independent-school-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "https://ais-indonesia.com/school-fee-jakarta",
-    "sourceDate": "2026",
+    "source": "https://www.ais-indonesia.com/school-fee-jakarta",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 4,
         "grade": "Preschool 3 (3 days)",
-        "amount": 100530000,
-        "age": 4
+        "amount": 100530000
       },
       {
+        "age": 4,
         "grade": "Preschool 3 (5 days)",
-        "amount": 149890000,
-        "age": 4
+        "amount": 149890000
       },
       {
+        "age": 4,
         "grade": "Preschool 4",
-        "amount": 187050000,
-        "age": 4
+        "amount": 187050000
       },
       {
+        "age": 4,
         "grade": "Foundation",
-        "amount": 307830000,
-        "age": 0
+        "amount": 307830000
       },
       {
+        "age": 5,
         "grade": "Year 1",
-        "amount": 376300000,
-        "age": 5
+        "amount": 376300000
       },
       {
+        "age": 6,
         "grade": "Year 2",
-        "amount": 386450000,
-        "age": 6
+        "amount": 386450000
       },
       {
+        "age": 7,
         "grade": "Year 3",
-        "amount": 388240000,
-        "age": 7
+        "amount": 388240000
       },
       {
+        "age": 8,
         "grade": "Year 4",
-        "amount": 388240000,
-        "age": 8
+        "amount": 388240000
       },
       {
+        "age": 9,
         "grade": "Year 5",
-        "amount": 395380000,
-        "age": 9
+        "amount": 395380000
       },
       {
+        "age": 10,
         "grade": "Year 6",
-        "amount": 401270000,
-        "age": 10
+        "amount": 401270000
       },
       {
-        "grade": "Year 7 to Year 10",
-        "amount": 431220000,
-        "age": 11
+        "age": 11,
+        "grade": "Year 7-10",
+        "amount": 431220000
       },
       {
-        "grade": "Year 11 to Year 12",
-        "amount": 442650000,
-        "age": 15
+        "age": 15,
+        "grade": "Year 11-12",
+        "amount": 442650000
       }
     ],
     "oneTimeFees": {
       "Application Fee": 2000000,
       "Registration Fee": 5000000,
-      "Enrolment Notice Deposit (END)": 5000000,
-      "Technology Levy (Year 3, or new students Year 4-6)": 6500000,
-      "Textbook Deposit (Year 7-12)": 4050000
+      "Enrolment Notice Deposit (END, refundable)": 5000000,
+      "Technology Levy (Year 3-6)": 6500000,
+      "Textbook Deposit (Year 7-12, refundable)": 4050000
     }
   },
   "australian-international-school": {
@@ -3601,11 +3732,37 @@
   "beacon-academy": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://beaconacademy.net/fees/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 6,
+        "grade": "Primary",
+        "amount": 109500000
+      },
+      {
+        "age": 12,
+        "grade": "Secondary",
+        "amount": 115200000
+      },
+      {
+        "age": 12,
+        "grade": "Secondary (upper range)",
+        "amount": 117600000
+      },
+      {
+        "age": 0,
+        "grade": "6th Form",
+        "amount": 121300000
+      }
+    ],
+    "oneTimeFees": {
+      "Application Fee": 2000000,
+      "Admission Fee": 10000000,
+      "Learning Materials Levy": 4500000,
+      "Annual Development Fee (ADF)": 1600000
+    }
   },
   "beacon-hill-school": {
     "city": "hong-kong",
@@ -3847,59 +4004,140 @@
   "bina-bangsa-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
+    "source": "https://binabangsaschool.com/admission.php",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 6,
+        "grade": "Primary/SD (estimated range)",
+        "amount": 113400000
+      },
+      {
+        "age": 12,
+        "grade": "Secondary/SMP-SMA (estimated upper range)",
+        "amount": 203000000
+      }
+    ],
     "oneTimeFees": {}
   },
   "binus-school-bekasi": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
-  },
-  "binus-school-serpong": {
-    "city": "jakarta",
-    "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
-  },
-  "binus-school-simprug": {
-    "city": "jakarta",
-    "currency": "IDR",
-    "source": "https://simprug.binus.sch.id",
+    "source": "https://bekasi.binus.sch.id/how-to-apply/",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Early Years (EY 1-3)",
-        "amount": 79200000,
-        "age": 0
+        "age": 6,
+        "grade": "Primary Grade 1-6 (range)",
+        "amount": 48000000
       },
       {
-        "grade": "Elementary (Grade 1-5)",
-        "amount": 156000000,
-        "age": 6
+        "age": 6,
+        "grade": "Primary Grade 1-6 (upper range)",
+        "amount": 53400000
       },
       {
-        "grade": "Middle School (Grade 7-10)",
-        "amount": 188400000,
-        "age": 12
+        "age": 6,
+        "grade": "Lower Secondary Grade 7-9",
+        "amount": 57600000
       },
       {
-        "grade": "High School (Grade 10-12)",
-        "amount": 220800000,
-        "age": 15
+        "age": 14,
+        "grade": "Upper Secondary Grade 10-12",
+        "amount": 72000000
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Registration Fee": 300000,
+      "Enrollment Fee (Primary/Elementary, for 6 years)": 64500000,
+      "Enrollment Fee (Primary/Elementary upper range, for 6 years)": 76000000,
+      "Enrollment Fee (Lower Secondary Grade 7-9)": 64000000,
+      "Enrollment Fee (Lower Secondary Grade 8-9)": 50500000,
+      "Enrollment Fee (Upper Secondary/SMA)": 70000000,
+      "Development Fund (Building Fund)": 23000000,
+      "Development Fund upper range": 45000000
+    }
+  },
+  "binus-school-serpong": {
+    "city": "jakarta",
+    "currency": "IDR",
+    "source": "https://serpong.binus.sch.id",
+    "sourceDate": "2024-2025",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 6,
+        "grade": "Primary Grade 1-6 (SPP quarterly x4)",
+        "amount": 64800000
+      },
+      {
+        "age": 6,
+        "grade": "Lower Secondary/SMP Grade 7-9 (SPP monthly x12)",
+        "amount": 76800000
+      },
+      {
+        "age": 14,
+        "grade": "Upper Secondary/SMA Grade 10-12 (SPP monthly x12)",
+        "amount": 80400000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Fee": 300000,
+      "Enrollment Fee (Primary Grade 1-6, for 6 years)": 78000000,
+      "Enrollment Fee (Lower Secondary Grade 7-9)": 89000000,
+      "Enrollment Fee (Lower Secondary Grade 8-9)": 78500000,
+      "Enrollment Fee (Lower Secondary Grade 9 only)": 66500000,
+      "Enrollment Fee (Upper Secondary Grade 10-12)": 96000000
+    }
+  },
+  "binus-school-simprug": {
+    "city": "jakarta",
+    "currency": "IDR",
+    "source": "https://link.binus.org/bssimprug_pricelist2024",
+    "sourceDate": "2024-2025",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 2,
+        "grade": "Early Years EY1-EY3 (quarterly x4)",
+        "amount": 79200000
+      },
+      {
+        "age": 6,
+        "grade": "Elementary Grade 1-5 (quarterly x4)",
+        "amount": 146400000
+      },
+      {
+        "age": 11,
+        "grade": "Middle School Grade 6-10 (quarterly x4)",
+        "amount": 177600000
+      },
+      {
+        "age": 14,
+        "grade": "High School Grade 10-12 (quarterly x4)",
+        "amount": 207600000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Fee": 800000,
+      "Enrollment Fee (EY1-EY3 package)": 71000000,
+      "Enrollment Fee (EY1 entry 2024)": 16000000,
+      "Enrollment Fee (EY2 entry 2024)": 28000000,
+      "Enrollment Fee (EY3 entry 2024)": 39000000,
+      "Enrollment Fee (Grade 1-5)": 169000000,
+      "Enrollment Fee (Grade 2-5)": 164000000,
+      "Enrollment Fee (Grade 3-5)": 146000000,
+      "Enrollment Fee (Grade 4-5)": 135000000,
+      "Enrollment Fee (Grade 5 only)": 74000000,
+      "Enrollment Fee (Grade 6-10)": 182000000,
+      "Enrollment Fee (Grade 7-10)": 182000000,
+      "Enrollment Fee (Grade 8-10)": 163000000,
+      "Enrollment Fee (Grade 9-10)": 148000000,
+      "Enrollment Fee (Grade 10-12)": 192000000,
+      "Enrollment Fee (Grade 11-12)": 179000000
+    }
   },
   "bloom-kkca-academy": {
     "city": "hong-kong",
@@ -4706,45 +4944,56 @@
   "british-school-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "https://www.bsj.sch.id",
+    "source": "https://www.bsj.sch.id/admissions/school-fees",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 0,
+        "grade": "Kukangs",
+        "amount": 150078000
+      },
+      {
+        "age": 3,
+        "grade": "Kindergarten 1",
+        "amount": 150078000
+      },
+      {
+        "age": 4,
         "grade": "Kindergarten 2",
-        "amount": 137678000,
-        "age": 4
+        "amount": 197078000
       },
       {
+        "age": 5,
         "grade": "Year 1",
-        "amount": 345819000,
-        "age": 5
+        "amount": 405219000
       },
       {
-        "grade": "Years 2 to 6",
-        "amount": 366046000,
-        "age": 0
+        "age": 6,
+        "grade": "Year 2 to 6",
+        "amount": 425446000
       },
       {
-        "grade": "Years 7 to 11",
-        "amount": 419412000,
-        "age": 0
+        "age": 11,
+        "grade": "Year 7 to 11",
+        "amount": 478812000
       },
       {
+        "age": 16,
         "grade": "Year 12",
-        "amount": 459704000,
-        "age": 16
+        "amount": 519104000
       },
       {
+        "age": 17,
         "grade": "Year 13",
-        "amount": 471704000,
-        "age": 17
+        "amount": 531104000
       }
     ],
     "oneTimeFees": {
       "Application Fee": 7000000,
-      "New Enrolment Deposit (NED)": 30000000,
-      "IB Entrance Fee (Years 12 and 13)": 31200000
+      "New Enrolment Deposit (refundable)": 30000000,
+      "IB Entrance Fee (new Y12-Y13 students)": 31200000,
+      "Re-enrolment Deposit (continuing students)": 20000000
     }
   },
   "bromsgrove-international-school-thailand": {
@@ -4872,26 +5121,56 @@
   "btb-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.instagram.com/p/ClXqVWXyHRR/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "SD (Primary)",
+        "amount": 63600000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Fee": 4000000,
+      "Uang Pangkal (SD)": 63000000
+    }
   },
   "bunda-mulia-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "https://bundamulia.sch.id/",
-    "sourceDate": "2026-2027",
+    "source": "https://www.scribd.com",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Nursery - K2",
-        "amount": 1750000,
-        "age": 3
+        "age": 3,
+        "grade": "Nursery to Kindergarten 2",
+        "amount": 21000000
+      },
+      {
+        "age": 6,
+        "grade": "Primary 1 to Primary 4",
+        "amount": 28800000
+      },
+      {
+        "age": 12,
+        "grade": "Grade 7 to Grade 9",
+        "amount": 31800000
+      },
+      {
+        "age": 15,
+        "grade": "Grade 10 to Grade 12",
+        "amount": 33000000
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Registration Fee": 300000,
+      "Development Fee (Nursery-K2)": 12500000,
+      "Development Fee (P1-P4)": 15500000,
+      "Development Fee (G7-G9)": 16500000,
+      "Development Fee (G10-G12)": 17000000
+    }
   },
   "california-school": {
     "city": "hong-kong",
@@ -5766,20 +6045,38 @@
   "cikal-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://cikal.sch.id",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 6,
+        "grade": "Primary Year 1 and above (SPP from)",
+        "amount": 97200000
+      }
+    ],
+    "oneTimeFees": {
+      "Uang Pangkal": 104300000
+    }
   },
   "cita-buana-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://kumparan.com/kumparanmom/biaya-masuk-sd-swasta-jakarta-selatan-tahun-ajaran-2024-2025-21N7Xh0UdXC",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "SD (Primary)",
+        "amount": 71400000
+      }
+    ],
+    "oneTimeFees": {
+      "Enrollment/Observation Fee": 500000,
+      "Registration Fee": 1000000,
+      "Uang Pangkal (Capital Fee)": 69000000
+    }
   },
   "citizens-school": {
     "city": "dubai",
@@ -6964,11 +7261,52 @@
   "deutsche-internationale-schule-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.germanschooljakarta.id/admission",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "Pre-Nursery (International Program)",
+        "amount": 47550000
+      },
+      {
+        "age": 3,
+        "grade": "Nursery (International Program)",
+        "amount": 65600000
+      },
+      {
+        "age": 0,
+        "grade": "Junior Pre-School (International Program)",
+        "amount": 104600000
+      },
+      {
+        "age": 12,
+        "grade": "Senior Pre-School (International Program)",
+        "amount": 127200000
+      },
+      {
+        "age": 6,
+        "grade": "Primary Grades 1 to 4 (International Program)",
+        "amount": 127200000
+      },
+      {
+        "age": 6,
+        "grade": "Primary Grades 5 to 6 Orientation (International Program)",
+        "amount": 256000000
+      },
+      {
+        "age": 0,
+        "grade": "Grades 7 to 12 DIA (International Program)",
+        "amount": 239900000
+      }
+    ],
+    "oneTimeFees": {
+      "DIA Enrolment Fee (Grades 7-12, International Program)": 140000000,
+      "Krippe One-time Enrolment Fee (German Program)": 75000000,
+      "KiTa One-time Enrolment Fee (German Program)": 75000000,
+      "School Grades 1-12 One-time Enrolment Fee (German Program)": 140000000
+    }
   },
   "dhruv-global-school": {
     "city": "dubai",
@@ -9114,11 +9452,20 @@
   "el-shaddai-intercontinental-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.international-schools-guide.com",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "All Grades",
+        "amount": 94864000
+      }
+    ],
+    "oneTimeFees": {
+      "Entrance Test Fee": 300000,
+      "Application Submission Fee": 4000000
+    }
   },
   "elc-family-of-international-schools": {
     "city": "bangkok",
@@ -9895,37 +10242,44 @@
   "french-school-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "https://frenchschooljakarta.com/",
-    "sourceDate": "2026-2027",
+    "source": "https://frenchschooljakarta.com/tuition-fees/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Kindergarten (K1-K3)",
-        "amount": 150676500,
-        "age": 0
+        "age": 0,
+        "grade": "TPS (2 years old, all categories)",
+        "amount": 93132000
       },
       {
-        "grade": "Elementary (1st-5th Grade)",
-        "amount": 158554500,
-        "age": 6
+        "age": 3,
+        "grade": "Kindergarten K1 to K3 (French/Indonesian)",
+        "amount": 150676500
       },
       {
-        "grade": "Middle School (6th-9th Grade)",
-        "amount": 203697000,
-        "age": 11
+        "age": 6,
+        "grade": "Elementary 1st to 5th Grade (French/Indonesian)",
+        "amount": 158554500
       },
       {
-        "grade": "High School (10th-11th Grade)",
-        "amount": 216040500,
-        "age": 12
+        "age": 11,
+        "grade": "Middle School 6th to 9th Grade (French/Indonesian)",
+        "amount": 203697000
       },
       {
-        "grade": "High School (12th Grade)",
-        "amount": 236886000,
-        "age": 12
+        "age": 14,
+        "grade": "High School 10th to 11th Grade (French/Indonesian)",
+        "amount": 216040500
+      },
+      {
+        "age": 14,
+        "grade": "High School 12th Grade (French/Indonesian)",
+        "amount": 236886000
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Registration Fee (Primary and Secondary)": 47190000
+    }
   },
   "furen-international-school": {
     "city": "singapore",
@@ -10023,37 +10377,49 @@
   "gandhi-memorial-international-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "https://www.gandhijkt.org/",
+    "source": "https://www.edarabia.com",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
-        "grade": "Nursery",
-        "amount": 4620,
-        "age": 3
+        "age": 3,
+        "grade": "FS1 (Preschool)",
+        "amount": 73920000
       },
       {
-        "grade": "Grades 1-5 (Years 2-6)",
-        "amount": 6300,
-        "age": 0
+        "age": 3,
+        "grade": "KG1/FS2",
+        "amount": 77120000
       },
       {
-        "grade": "Grades 6-8 (Years 7-9)",
-        "amount": 7400,
-        "age": 0
+        "age": 4,
+        "grade": "KG2/Year 1",
+        "amount": 80320000
       },
       {
-        "grade": "Grades 9-10 (Years 10-11)",
-        "amount": 8680,
-        "age": 0
+        "age": 6,
+        "grade": "Grade 1 to Grade 5 (Year 2 to Year 6)",
+        "amount": 100800000
       },
       {
-        "grade": "Grades 11-12 (Years 12-13)",
-        "amount": 10000,
-        "age": 0
+        "age": 11,
+        "grade": "Grade 6 to Grade 8 (Year 7 to Year 9)",
+        "amount": 118400000
+      },
+      {
+        "age": 14,
+        "grade": "Grade 9 to Grade 10 (Year 10 to Year 11)",
+        "amount": 138880000
+      },
+      {
+        "age": 16,
+        "grade": "Grade 11 to Grade 12 (Year 12 to Year 13)",
+        "amount": 160000000
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Application Submission Fee": 4000000
+    }
   },
   "garden-house-waldorf-school": {
     "city": "hong-kong",
@@ -12157,32 +12523,36 @@
   "global-jaya-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "https://www.globaljaya.com",
-    "sourceDate": "2026-2027",
+    "source": "https://www.flipsnack.com/9AD89B66AED/schoolfee-enrolment-digital-26-27",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 0,
         "grade": "Early Years",
-        "amount": 82302000,
-        "age": 0
+        "amount": 82302000
       },
       {
-        "grade": "Years 1-6",
-        "amount": 138655000,
-        "age": 0
+        "age": 5,
+        "grade": "Year 1 to Year 6",
+        "amount": 138655000
       },
       {
-        "grade": "Years 7-10",
-        "amount": 164802000,
-        "age": 0
+        "age": 11,
+        "grade": "Year 7 to Year 10",
+        "amount": 164802000
       },
       {
-        "grade": "Years 11-12",
-        "amount": 195844000,
-        "age": 0
+        "age": 15,
+        "grade": "Year 11 to Year 12",
+        "amount": 195844000
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Registration/Enrolment Form": 1000000,
+      "Development Fee (SP) 1 year": 27000000,
+      "Development Fee (SP) 6 years": 113000000
+    }
   },
   "global-modern-international-school": {
     "city": "kuala-lumpur",
@@ -12257,7 +12627,7 @@
   "global-sevilla-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "https://www.globalsevilla.org",
+    "source": "https://www.globalsevilla.org/international-school-fee-range",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
@@ -13081,11 +13451,49 @@
   "highscope-indonesia": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://highscope.or.id/en/admission",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 2,
+        "grade": "Toddler – Pre-K",
+        "amount": 46000000
+      },
+      {
+        "age": 0,
+        "grade": "Grade K",
+        "amount": 28400000
+      },
+      {
+        "age": 6,
+        "grade": "Grade 1–5",
+        "amount": 87600000
+      },
+      {
+        "age": 11,
+        "grade": "Grade 6",
+        "amount": 90000000
+      },
+      {
+        "age": 12,
+        "grade": "Grade 7–9 (Middle School)",
+        "amount": 92400000
+      },
+      {
+        "age": 15,
+        "grade": "Grade 10–12 (High School)",
+        "amount": 103200000
+      }
+    ],
+    "oneTimeFees": {
+      "Enrollment Fee – Toddler": 40000000,
+      "Enrollment Fee – Pre-School (30m–6Y)": 32000000,
+      "Enrollment Fee – Pre-Kindy (4Y–6Y)": 22000000,
+      "Enrollment Fee – Elementary (Grade 1–6)": 80000000,
+      "Enrollment Fee – Middle School (Grade 7–9)": 75000000,
+      "Enrollment Fee – High School (Grade 10–12)": 80000000
+    }
   },
   "hkca-po-leung-kuk-school": {
     "city": "hong-kong",
@@ -13149,8 +13557,8 @@
   "holy-angels-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
+    "source": "https://www.holyangels.sch.id",
+    "sourceDate": "2025-2026",
     "feesAvailable": false,
     "feeRows": [],
     "oneTimeFees": {}
@@ -13529,11 +13937,32 @@
   "ichthus-school-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.ichthusschool.com/admissions/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 7,
+        "grade": "Grade 2",
+        "amount": 89320000
+      },
+      {
+        "age": 4,
+        "grade": "Kindergarten 2 (K2)",
+        "amount": 45600000
+      },
+      {
+        "age": 0,
+        "grade": "Activity Fee",
+        "amount": 3600000
+      }
+    ],
+    "oneTimeFees": {
+      "Enrollment Fee (Grade 2–6)": 70833333,
+      "Enrollment Fee (Grade 2–12)": 110000000,
+      "Development Fee": 18000000,
+      "Down Payment": 10000000
+    }
   },
   "idrissi-international-school": {
     "city": "kuala-lumpur",
@@ -13723,49 +14152,49 @@
   "independent-school-of-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "https://www.isj.id/",
+    "source": "https://www.isj.id/tuition-fees",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 0,
         "grade": "Pre-Nursery",
-        "amount": 148524000,
-        "age": 2
+        "amount": 148524000
       },
       {
+        "age": 3,
         "grade": "Nursery",
-        "amount": 173277795,
-        "age": 3
+        "amount": 226148000
       },
       {
+        "age": 5,
         "grade": "Reception",
-        "amount": 289357440,
-        "age": 5
+        "amount": 332737600
       },
       {
+        "age": 5,
         "grade": "Year 1 & 2",
-        "amount": 419702400,
-        "age": 5
+        "amount": 419702400
       },
       {
+        "age": 7,
         "grade": "Year 3 & 4",
-        "amount": 437819200,
-        "age": 7
+        "amount": 437819200
       },
       {
+        "age": 9,
         "grade": "Year 5 & 6",
-        "amount": 464984000,
-        "age": 9
+        "amount": 464984000
       },
       {
+        "age": 11,
         "grade": "Year 7 & 8",
-        "amount": 484733600,
-        "age": 11
+        "amount": 484733600
       }
     ],
     "oneTimeFees": {
-      "Application Fee": 4680000,
-      "Enrolment Deposit": 16328000
+      "Application Fee (non-refundable)": 4680000,
+      "Enrolment Deposit (refundable on leaving)": 16328000
     }
   },
   "inspiros-international-school": {
@@ -14691,11 +15120,19 @@
   "ipeka-integrated-christian-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://iics.sch.id",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 16,
+        "grade": "SMA Grade 11–12",
+        "amount": 168000000
+      }
+    ],
+    "oneTimeFees": {
+      "Development Fund / Uang Pangkal (SMA, external students)": 75000000
+    }
   },
   "island-school": {
     "city": "hong-kong",
@@ -14803,38 +15240,139 @@
   "jakarta-indonesia-korean-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.jiks.com/sub3/sub3_08_2.php",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 6,
+        "grade": "Elementary School",
+        "amount": 106240000
+      },
+      {
+        "age": 11,
+        "grade": "Middle School",
+        "amount": 111180000
+      },
+      {
+        "age": 14,
+        "grade": "High School",
+        "amount": 116120000
+      }
+    ],
+    "oneTimeFees": {
+      "Admission Fee – Elementary": 24670000,
+      "Admission Fee – Middle School": 32890000,
+      "Admission Fee – High School": 41120000,
+      "Application Fee (2026)": 500000
+    }
   },
   "jakarta-intercultural-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.jisedu.or.id/admissions/fees",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "Early Years 1 & 2 Shortened (Half) Day",
+        "amount": 304863000
+      },
+      {
+        "age": 0,
+        "grade": "Early Years 1 & 2 Full Day",
+        "amount": 392643000
+      },
+      {
+        "age": 0,
+        "grade": "Kindergarten",
+        "amount": 527970000
+      },
+      {
+        "age": 6,
+        "grade": "Elementary (Grades 1–5)",
+        "amount": 551483000
+      },
+      {
+        "age": 11,
+        "grade": "Middle School (Grades 6–8)",
+        "amount": 627654000
+      },
+      {
+        "age": 14,
+        "grade": "High School (Grades 9–12)",
+        "amount": 633001000
+      },
+      {
+        "age": 0,
+        "grade": "JIS Learning Center – Elementary School",
+        "amount": 842847000
+      },
+      {
+        "age": 0,
+        "grade": "JIS Learning Center – Middle School",
+        "amount": 921309000
+      },
+      {
+        "age": 0,
+        "grade": "JIS Learning Center – High School",
+        "amount": 921309000
+      }
+    ],
+    "oneTimeFees": {
+      "Application Fee": 5543800,
+      "Technology Fee – Elementary (Grades 1–5)": 6953000,
+      "Technology Fee – Middle School (Grades 6–8)": 24278000,
+      "Technology Fee – High School (Grades 9–12)": 24278000,
+      "Lane 3 High School Surcharge – Grade 10": 294345000,
+      "Lane 3 High School Surcharge – Grade 11": 307890100,
+      "English as Additional Language (EAL) Fee": 89148000
+    }
   },
   "jakarta-multicultural-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
+    "source": "https://jms.sch.id/admissions/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
     "feeRows": [],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Development Fund (Enrolment Fee)": 20000000
+    }
   },
   "jakarta-nanyang-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://jny.sch.id/admissions/how-to-apply/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "Kindergarten",
+        "amount": 93500000
+      },
+      {
+        "age": 6,
+        "grade": "Primary (Years 1–6)",
+        "amount": 99000000
+      },
+      {
+        "age": 6,
+        "grade": "Lower Secondary (Years 7–10)",
+        "amount": 233800000
+      },
+      {
+        "age": 0,
+        "grade": "Junior College / A-Levels (Years 11–13)",
+        "amount": 299200000
+      }
+    ],
+    "oneTimeFees": {
+      "Application Fee": 2800000,
+      "Enrolment Fee (new students)": 14000000
+    }
   },
   "japanese-international-school": {
     "city": "hong-kong",
@@ -15069,11 +15607,166 @@
   "jubilee-school-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.jubilee-jkt.sch.id/school-fees",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "Pre-nursery (ECP)",
+        "amount": 24000000
+      },
+      {
+        "age": 3,
+        "grade": "Nursery (ECP)",
+        "amount": 24000000
+      },
+      {
+        "age": 0,
+        "grade": "K-1 (ECP)",
+        "amount": 26400000
+      },
+      {
+        "age": 0,
+        "grade": "K-2 (ECP)",
+        "amount": 27600000
+      },
+      {
+        "age": 0,
+        "grade": "SD-2",
+        "amount": 31200000
+      },
+      {
+        "age": 0,
+        "grade": "SD-3",
+        "amount": 32400000
+      },
+      {
+        "age": 0,
+        "grade": "SD-4",
+        "amount": 33600000
+      },
+      {
+        "age": 0,
+        "grade": "SD-5",
+        "amount": 34200000
+      },
+      {
+        "age": 0,
+        "grade": "SD-6",
+        "amount": 36000000
+      },
+      {
+        "age": 6,
+        "grade": "Primary 1 (Full English)",
+        "amount": 42000000
+      },
+      {
+        "age": 7,
+        "grade": "Grade 2 (Full English)",
+        "amount": 45000000
+      },
+      {
+        "age": 8,
+        "grade": "Grade 3 (Full English)",
+        "amount": 46500000
+      },
+      {
+        "age": 9,
+        "grade": "Grade 4 (Full English)",
+        "amount": 48000000
+      },
+      {
+        "age": 10,
+        "grade": "Grade 5 (Full English)",
+        "amount": 48600000
+      },
+      {
+        "age": 11,
+        "grade": "Grade 6 (Full English)",
+        "amount": 49500000
+      },
+      {
+        "age": 0,
+        "grade": "SMP-7",
+        "amount": 37200000
+      },
+      {
+        "age": 0,
+        "grade": "SMP-8",
+        "amount": 37200000
+      },
+      {
+        "age": 0,
+        "grade": "SMP-9",
+        "amount": 39600000
+      },
+      {
+        "age": 0,
+        "grade": "SMA-10",
+        "amount": 40800000
+      },
+      {
+        "age": 0,
+        "grade": "SMA-11",
+        "amount": 40800000
+      },
+      {
+        "age": 0,
+        "grade": "SMA-12",
+        "amount": 42000000
+      },
+      {
+        "age": 12,
+        "grade": "Grade 7 (Full English Secondary)",
+        "amount": 52500000
+      },
+      {
+        "age": 13,
+        "grade": "Grade 8 (Full English Secondary)",
+        "amount": 52500000
+      },
+      {
+        "age": 14,
+        "grade": "Grade 9 (Full English Secondary)",
+        "amount": 55200000
+      },
+      {
+        "age": 15,
+        "grade": "Grade 10 (Full English Secondary)",
+        "amount": 56100000
+      },
+      {
+        "age": 16,
+        "grade": "Grade 11 (Full English Secondary)",
+        "amount": 58200000
+      },
+      {
+        "age": 17,
+        "grade": "Grade 12 (Full English Secondary)",
+        "amount": 58800000
+      }
+    ],
+    "oneTimeFees": {
+      "Form Fee (ECP/SD/Full English Primary)": 1000000,
+      "Form Fee (SMP/SMA/Full English Secondary)": 1250000,
+      "Admission Fee Pre-nursery": 10000000,
+      "Admission Fee Nursery": 10000000,
+      "Admission Fee K-1": 8000000,
+      "Admission Fee K-2": 5000000,
+      "Admission Fee SD-2": 32000000,
+      "Admission Fee SD-3": 27000000,
+      "Admission Fee SD-4": 24000000,
+      "Admission Fee SD-5": 20000000,
+      "Admission Fee SD-6": 12000000,
+      "Admission Fee Primary 1 (FE)": 50000000,
+      "Admission Fee SMP-7": 34000000,
+      "Admission Fee SMP-8": 26000000,
+      "Admission Fee SMP-9": 23000000,
+      "Admission Fee SMA-10": 36000000,
+      "Admission Fee SMA-11": 32000000,
+      "Admission Fee Grade 7 (FE Secondary)": 60000000
+    }
   },
   "jumeira-baccalaureate-school": {
     "city": "dubai",
@@ -15246,11 +15939,29 @@
   "kanaan-global-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.kanaanglobal.sch.id/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 4,
+        "grade": "Preschool Pre-Nursery",
+        "amount": 18960000
+      },
+      {
+        "age": 4,
+        "grade": "Preschool Nursery to Kindergarten B",
+        "amount": 25200000
+      },
+      {
+        "age": 15,
+        "grade": "Grade 10 Activity Fee",
+        "amount": 3600000
+      }
+    ],
+    "oneTimeFees": {
+      "Development Fee / Uang Pangkal (Preschool, 4-year period)": 25500000
+    }
   },
   "kellett-school": {
     "city": "hong-kong",
@@ -15414,11 +16125,34 @@
   "kharisma-bangsa-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://kbs.sch.id/how-to-apply",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 6,
+        "grade": "Elementary (SD)",
+        "amount": 50000000
+      },
+      {
+        "age": 11,
+        "grade": "Middle School (SMP)",
+        "amount": 60000000
+      },
+      {
+        "age": 14,
+        "grade": "High School (SMA)",
+        "amount": 65000000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Fee (Biaya Pendaftaran)": 1500000,
+      "Development Fee / Uang Pangkal SD": 65000000,
+      "Development Fee / Uang Pangkal SMP": 75000000,
+      "Development Fee / Uang Pangkal SMA": 80000000,
+      "Laptop Fee (one-time)": 7000000,
+      "Boarding Development Fee (optional, 3-year)": 25000000
+    }
   },
   "kiangsu-chekiang-school-international-sections": {
     "city": "hong-kong",
@@ -16185,11 +16919,27 @@
   "labschool-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://labschool-unj.sch.id/labschool-jakarta/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "SMP",
+        "amount": 24000000
+      },
+      {
+        "age": 0,
+        "grade": "SMA",
+        "amount": 25200000
+      }
+    ],
+    "oneTimeFees": {
+      "Uang Pangkal SMP (Jalur Tes)": 35000000,
+      "Uang Pangkal SMA (Jalur Tes)": 36000000,
+      "Uang Pangkal SMA (Jalur Prestasi)": 34000000,
+      "Additional Sumbangan (2nd wave admissions)": 2000000
+    }
   },
   "lantau-international-school": {
     "city": "hong-kong",
@@ -17074,20 +17824,52 @@
   "mentari-intercultural-school-bintaro": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.mentarischool.com/mis-bintaro",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 12,
+        "grade": "Grade 7 (Junior High)",
+        "amount": 66000000
+      },
+      {
+        "age": 6,
+        "grade": "Elementary",
+        "amount": 48000000
+      },
+      {
+        "age": 14,
+        "grade": "High School (G10-11)",
+        "amount": 99000000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration and Testing Fee (Grade 7)": 800000,
+      "Development Fee Grade 7-9": 64500000
+    }
   },
   "mentari-intercultural-school-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.mentarischool.com",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "Early Years",
+        "amount": 90000000
+      },
+      {
+        "age": 14,
+        "grade": "High School",
+        "amount": 99000000
+      }
+    ],
+    "oneTimeFees": {
+      "Admission/Enrolment Fee (Early Years)": 20500000
+    }
   },
   "middleton-international-school": {
     "city": "singapore",
@@ -17108,7 +17890,7 @@
     "city": "jakarta",
     "currency": "IDR",
     "source": "codebase (unverified)",
-    "sourceDate": "unverified",
+    "sourceDate": "not available",
     "feesAvailable": false,
     "feeRows": [],
     "oneTimeFees": {}
@@ -17406,11 +18188,50 @@
   "mutiara-harapan-islamic-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://mutiaraharapan.sch.id/admission-applying-to-school-2/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 4,
+        "grade": "Preschool (TK) SPP",
+        "amount": 47400000
+      },
+      {
+        "age": 4,
+        "grade": "Preschool (TK) Annual Fee",
+        "amount": 7260000
+      },
+      {
+        "age": 6,
+        "grade": "Primary (SD) SPP",
+        "amount": 54000000
+      },
+      {
+        "age": 6,
+        "grade": "Primary (SD) Annual Fee",
+        "amount": 10395000
+      },
+      {
+        "age": 12,
+        "grade": "Secondary (SMP) SPP",
+        "amount": 57000000
+      },
+      {
+        "age": 12,
+        "grade": "Secondary (SMP) Annual Fee",
+        "amount": 11088000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Fee TK": 500000,
+      "Registration Fee SD/SMP": 600000,
+      "Development Fee / Uang Pangkal TK": 36700000,
+      "Development Fee / Uang Pangkal SD": 59000000,
+      "Development Fee / Uang Pangkal SMP": 43335000,
+      "Seat Reservation (all levels)": 7500000,
+      "Books and Learning Resources (TK estimate)": 1500000
+    }
   },
   "mutiara-international-grammar-school": {
     "city": "kuala-lumpur",
@@ -17460,7 +18281,7 @@
     "city": "jakarta",
     "currency": "IDR",
     "source": "codebase (unverified)",
-    "sourceDate": "unverified",
+    "sourceDate": "not available",
     "feesAvailable": false,
     "feeRows": [],
     "oneTimeFees": {}
@@ -17565,11 +18386,65 @@
   "new-zealand-school-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.nzsj.sch.id/en/fees",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "Pre-School 8AM-12PM (Indonesian)",
+        "amount": 58140000
+      },
+      {
+        "age": 0,
+        "grade": "Pre-School 8AM-14PM (Indonesian)",
+        "amount": 99700000
+      },
+      {
+        "age": 0,
+        "grade": "Kindergarten (Indonesian)",
+        "amount": 101500000
+      },
+      {
+        "age": 6,
+        "grade": "Grade 1-6 (Indonesian)",
+        "amount": 233300000
+      },
+      {
+        "age": 12,
+        "grade": "Grade 7-12 (Indonesian)",
+        "amount": 241400000
+      },
+      {
+        "age": 0,
+        "grade": "Pre-School 8AM-12PM (International)",
+        "amount": 70700000
+      },
+      {
+        "age": 0,
+        "grade": "Pre-School 8AM-14PM (International)",
+        "amount": 112300000
+      },
+      {
+        "age": 0,
+        "grade": "Kindergarten (International)",
+        "amount": 123600000
+      },
+      {
+        "age": 6,
+        "grade": "Grade 1-6 (International)",
+        "amount": 273900000
+      },
+      {
+        "age": 12,
+        "grade": "Grade 7-12 (International)",
+        "amount": 289800000
+      }
+    ],
+    "oneTimeFees": {
+      "Application Fee Early Years (non-refundable)": 4000000,
+      "Application Fee Primary and Secondary (non-refundable)": 5000000
+    }
   },
   "newlands-school": {
     "city": "dubai",
@@ -18387,11 +19262,39 @@
   "nord-anglia-school-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "nordangliaeducation.com/nas-jakarta",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 3,
+        "grade": "Nursery",
+        "amount": 116284000
+      },
+      {
+        "age": 3,
+        "grade": "Foundation 1",
+        "amount": 156151000
+      },
+      {
+        "age": 4,
+        "grade": "Foundation 2",
+        "amount": 267232000
+      },
+      {
+        "age": 5,
+        "grade": "Year 1",
+        "amount": 346681000
+      },
+      {
+        "age": 6,
+        "grade": "Year 2 to Year 7",
+        "amount": 351233000
+      }
+    ],
+    "oneTimeFees": {
+      "Application Fee (non-refundable)": 4600000
+    }
   },
   "north-american-international-school": {
     "city": "dubai",
@@ -18479,11 +19382,45 @@
   "north-jakarta-intercultural-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "njis.org",
+    "sourceDate": "2026-2027",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 4,
+        "grade": "Preschool 2-3",
+        "amount": 71600000
+      },
+      {
+        "age": 0,
+        "grade": "Pre-K",
+        "amount": 85606000
+      },
+      {
+        "age": 0,
+        "grade": "Kindergarten",
+        "amount": 105680000
+      },
+      {
+        "age": 0,
+        "grade": "PYP 1-5 (Grades 1-5)",
+        "amount": 193194000
+      },
+      {
+        "age": 0,
+        "grade": "MYP 1-5 (Grades 6-10)",
+        "amount": 255620000
+      },
+      {
+        "age": 0,
+        "grade": "DP 1-2 (Grades 11-12)",
+        "amount": 267610000
+      }
+    ],
+    "oneTimeFees": {
+      "Application Fee (non-refundable)": 2840000,
+      "Refundable Deposit": 10000000
+    }
   },
   "north-london-collegiate-school": {
     "city": "singapore",
@@ -19250,20 +20187,54 @@
   "pelangi-kasih-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "pelangikasih.or.id",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 3,
+        "grade": "Nursery",
+        "amount": 34800000
+      },
+      {
+        "age": 6,
+        "grade": "Primary SD (National program)",
+        "amount": 14400000
+      },
+      {
+        "age": 6,
+        "grade": "Primary SD (Cambridge program)",
+        "amount": 60480000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration/Application Form": 200000,
+      "Additional Registration Fee": 6000000
+    }
   },
   "penabur-international-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "penabur-inter.sch.id",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 6,
+        "grade": "Primary",
+        "amount": 92620000
+      },
+      {
+        "age": 12,
+        "grade": "Secondary and Junior College",
+        "amount": 149197500
+      }
+    ],
+    "oneTimeFees": {
+      "Capital Development Fee (Uang Pangkal/SSP)": 58000000,
+      "Annual Fund (Student Activities)": 2500000,
+      "Books and Materials Fee (Primary)": 2500000
+    }
   },
   "peninsula-international-school-australia": {
     "city": "kuala-lumpur",
@@ -20171,11 +21142,15 @@
   "raffles-christian-school-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
+    "source": "raffles.sch.id",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
     "feeRows": [],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Placement Test Fee (Primary 1 to Secondary 4)": 500000,
+      "Placement Test Fee (Junior College)": 1000000,
+      "Development Fee": 32000000
+    }
   },
   "raffles-international-schools": {
     "city": "dubai",
@@ -21816,11 +22791,30 @@
   "sampoerna-academy-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "sampoernaacademy.sch.id",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "Early Learning Centre",
+        "amount": 25000000
+      },
+      {
+        "age": 0,
+        "grade": "Early Years",
+        "amount": 39900000
+      },
+      {
+        "age": 17,
+        "grade": "Up to Grade 12",
+        "amount": 187000000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Fee (Early Years, new students only)": 4750000,
+      "Registration Fee (Primary to Secondary, new students only)": 9500000
+    }
   },
   "san-wui-commercial-society-ymca-of-hong-kong-christian-school": {
     "city": "hong-kong",
@@ -21931,11 +22925,36 @@
   "santa-laurensia-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "santa-laurensia.com",
+    "sourceDate": "2026-2027",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 4,
+        "grade": "Kindergarten K2",
+        "amount": 45600000
+      },
+      {
+        "age": 6,
+        "grade": "Elementary (SD)",
+        "amount": 48000000
+      },
+      {
+        "age": 0,
+        "grade": "Junior High (SMP)",
+        "amount": 66000000
+      },
+      {
+        "age": 12,
+        "grade": "Senior High (SMA)",
+        "amount": 60000000
+      }
+    ],
+    "oneTimeFees": {
+      "Development Fund (Uang Pangkal) Kindergarten": 18000000,
+      "Development Fund (Uang Pangkal) Elementary (Suvarna Sutera)": 59000000,
+      "Development Fund (Uang Pangkal) Junior High (Suvarna Sutera)": 56000000
+    }
   },
   "sarasas-ektra-school": {
     "city": "bangkok",
@@ -22491,117 +23510,261 @@
   "sekolah-ciputra": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "ciputra.sch.id",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 6,
+        "grade": "Grade 1 (Elementary)",
+        "amount": 70897000
+      },
+      {
+        "age": 0,
+        "grade": "Junior High (SMP)",
+        "amount": 98454000
+      },
+      {
+        "age": 12,
+        "grade": "Senior High (SMA)",
+        "amount": 109817000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Fee": 2500000,
+      "Development Fee (DPP) Elementary": 92990000,
+      "Development Fee (DPP) Junior High": 72635000,
+      "Development Fee (DPP) Senior High": 79780000
+    }
   },
   "sekolah-cita-buana": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "sekolahcitabuana.com",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 6,
+        "grade": "Primary (SD)",
+        "amount": 71400000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration/Application Fee (Primary)": 1000000,
+      "Registration/Application Fee (Middle/High School)": 3000000,
+      "Uang Pangkal (Capital Development Fee) Primary SD": 69000000
+    }
   },
   "sekolah-lentera-kasih-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "lenteraschools.com",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 2,
+        "grade": "Toddler",
+        "amount": 18000000
+      },
+      {
+        "age": 2,
+        "grade": "Pre Nursery",
+        "amount": 22000000
+      },
+      {
+        "age": 3,
+        "grade": "Nursery",
+        "amount": 30000000
+      },
+      {
+        "age": 0,
+        "grade": "Kindergarten",
+        "amount": 42000000
+      },
+      {
+        "age": 5,
+        "grade": "Preparatory",
+        "amount": 44000000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Form Fee": 200000,
+      "Entrance Test Fee": 750000,
+      "Registration Fee": 4000000,
+      "Refundable School Deposit (RSD)": 5000000,
+      "Uniform Package": 1000000,
+      "Yearly Resource Fee": 1500000
+    }
   },
   "sekolah-madania": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.madania.sch.id",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 6,
+        "grade": "Primary School (SD)",
+        "amount": 47400000
+      },
+      {
+        "age": 17,
+        "grade": "Grade 12 (Secondary)",
+        "amount": 59520000
+      }
+    ],
+    "oneTimeFees": {
+      "Enrollment Fee (Uang Pangkal) - Primary": 50000000,
+      "Registration/Form Fee": 350000
+    }
   },
   "sekolah-pelita-bangsa": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
+    "source": "https://sekolahpelitabangsa.sch.id",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
     "feeRows": [],
     "oneTimeFees": {}
   },
   "sekolah-pelita-harapan": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "https://sph.edu",
-    "sourceDate": "2026-2027",
+    "source": "https://sph.edu/admissions/fees",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 0,
+        "grade": "Baby Eagles",
+        "amount": 35000000
+      },
+      {
+        "age": 0,
+        "grade": "Pre-Kindergarten",
+        "amount": 80000000
+      },
+      {
+        "age": 3,
+        "grade": "K1 (Half Day)",
+        "amount": 121000000
+      },
+      {
+        "age": 3,
+        "grade": "K1 (Full Day)",
+        "amount": 134000000
+      },
+      {
+        "age": 4,
+        "grade": "K2 (Half Day)",
+        "amount": 123000000
+      },
+      {
+        "age": 4,
+        "grade": "K2 (Full Day)",
+        "amount": 134000000
+      },
+      {
+        "age": 5,
+        "grade": "K3",
+        "amount": 134000000
+      },
+      {
+        "age": 6,
         "grade": "Grade 1-2",
-        "amount": 140000000,
-        "age": 6
+        "amount": 214000000
       },
       {
-        "grade": "Grade 3-5",
-        "amount": 148000000,
-        "age": 8
+        "age": 8,
+        "grade": "Grade 3-6",
+        "amount": 223000000
       },
       {
-        "grade": "Grade 6",
-        "amount": 160000000,
-        "age": 11
+        "age": 12,
+        "grade": "Grade 7-9",
+        "amount": 284000000
       },
       {
-        "grade": "Grade 7-8",
-        "amount": 169000000,
-        "age": 12
+        "age": 15,
+        "grade": "Grade 10",
+        "amount": 319000000
       },
       {
-        "grade": "Grade 9-10",
-        "amount": 173000000,
-        "age": 14
+        "age": 16,
+        "grade": "Grade 11-12",
+        "amount": 384000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee (DPP) - K1 to Grade 12",
+        "amount": 56500000
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Application Fee (non-refundable)": 3000000,
+      "Sibling Application Fee": 1500000
+    }
   },
   "sekolah-pelita-harapan-kemang-village": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "https://sph.edu/our-schools/kemang-village",
-    "sourceDate": "2026-2027",
+    "source": "https://sph.edu/admissions/fees",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 3,
+        "grade": "K1",
+        "amount": 127000000
+      },
+      {
+        "age": 4,
+        "grade": "K2 (Half Day)",
+        "amount": 131000000
+      },
+      {
+        "age": 5,
+        "grade": "K3",
+        "amount": 138000000
+      },
+      {
+        "age": 6,
         "grade": "Grade 1",
-        "amount": 206000000,
-        "age": 6
+        "amount": 206000000
       },
       {
+        "age": 7,
         "grade": "Grade 2-5",
-        "amount": 219000000,
-        "age": 7
+        "amount": 219000000
       },
       {
+        "age": 11,
         "grade": "Grade 6-8",
-        "amount": 270000000,
-        "age": 11
+        "amount": 270000000
       },
       {
+        "age": 14,
         "grade": "Grade 9-10",
-        "amount": 321000000,
-        "age": 14
+        "amount": 321000000
       },
       {
+        "age": 16,
         "grade": "Grade 11-12",
-        "amount": 367000000,
-        "age": 16
+        "amount": 367000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee (DPP) - K1 to Grade 12",
+        "amount": 71500000
       }
     ],
-    "oneTimeFees": {}
+    "oneTimeFees": {
+      "Application Fee (non-refundable)": 3000000,
+      "Sibling Application Fee": 1500000
+    }
   },
   "sekolah-sri-ucsi": {
     "city": "kuala-lumpur",
@@ -22644,62 +23807,79 @@
   "sekolah-terpadu-pahoa": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://pahoa.sch.id/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "SD (Primary)",
+        "amount": 47088000
+      },
+      {
+        "age": 0,
+        "grade": "Activity Fee (Uang Kegiatan) - SD",
+        "amount": 1350000
+      }
+    ],
+    "oneTimeFees": {
+      "Application Form (Formulir)": 300000,
+      "Enrollment Fund (Uang Pangkal)": 45000000,
+      "Mandarin Adaptation Fee (Adaptasi Mandarin)": 2000000
+    }
   },
   "sekolah-victory-plus": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "https://svp.education/",
-    "sourceDate": "2026-2027",
+    "source": "https://svp.education/admission/",
+    "sourceDate": "2025-2026",
     "feesAvailable": true,
     "feeRows": [
       {
+        "age": 2,
         "grade": "Toddler",
-        "amount": 26400000,
-        "age": 2
+        "amount": 26400000
       },
       {
+        "age": 3,
         "grade": "Nursery",
-        "amount": 35400000,
-        "age": 3
+        "amount": 35400000
       },
       {
-        "grade": "Early Years (EY1-EY2)",
-        "amount": 44100000,
-        "age": 0
+        "age": 2,
+        "grade": "EY1-EY2",
+        "amount": 44100000
       },
       {
-        "grade": "Primary (Grade 1-6)",
-        "amount": 68400000,
-        "age": 6
+        "age": 6,
+        "grade": "Primary School (Grade 1-6)",
+        "amount": 68400000
       },
       {
-        "grade": "Secondary (Grade 7-9)",
-        "amount": 72600000,
-        "age": 12
+        "age": 12,
+        "grade": "Secondary School (Grade 7-9)",
+        "amount": 72600000
       },
       {
-        "grade": "Secondary (Grade 10)",
-        "amount": 74400000,
-        "age": 15
+        "age": 12,
+        "grade": "Secondary School (Grade 10)",
+        "amount": 74400000
       },
       {
-        "grade": "Secondary (Grade 11-12)",
-        "amount": 93000000,
-        "age": 16
+        "age": 12,
+        "grade": "Secondary School (Grade 11-12)",
+        "amount": 93000000
       }
     ],
     "oneTimeFees": {
       "Registration Fee (Biaya Pendaftaran)": 500000,
-      "year period)": 14400000,
-      "9 (3-year period)": 31700000,
-      "10 (4-year period)": 30250000,
-      "12 (3-year period)": 33500000,
-      "12 (2-year period)": 33500000
+      "Submission Fee / Uang Pangkal (Annual Rate) - ECE Package 1 (Toddler to EY2, 4 years)": 11900000,
+      "Submission Fee / Uang Pangkal (Annual Rate) - ECE Package 2 (EY1 to EY2, 2 years)": 17650000,
+      "Submission Fee / Uang Pangkal (Annual Rate) - Primary School (Grade 1-6, 6 years)": 14400000,
+      "Submission Fee / Uang Pangkal (Annual Rate) - Secondary (Grade 7-9, 3 years)": 31700000,
+      "Submission Fee / Uang Pangkal (Annual Rate) - Secondary (Grade 7-10, 4 years)": 30250000,
+      "Submission Fee / Uang Pangkal (Annual Rate) - Secondary (Grade 10-12, 3 years)": 33500000,
+      "Submission Fee / Uang Pangkal (Annual Rate) - Secondary (Grade 11-12, 2 years)": 33500000
     }
   },
   "sequoia-nova-international-primary-school": {
@@ -23338,11 +24518,35 @@
   "sinarmas-world-academy": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.swa-jkt.com/admission/admission-guidelines/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "Early Years (Toddler-KG)",
+        "amount": 119195000
+      },
+      {
+        "age": 6,
+        "grade": "Primary (Grade 1-6)",
+        "amount": 198647000
+      },
+      {
+        "age": 11,
+        "grade": "Middle School (Grade 7-10)",
+        "amount": 278117000
+      },
+      {
+        "age": 16,
+        "grade": "IB Diploma (Grade 11-12)",
+        "amount": 347642000
+      }
+    ],
+    "oneTimeFees": {
+      "Application Fee (non-refundable)": 4963000,
+      "Enrolment Fee (New Students, one-time)": 19871000
+    }
   },
   "singapore-american-school": {
     "city": "singapore",
@@ -23434,8 +24638,96 @@
     "source": "https://sisschools.org/sis-southjakarta/",
     "sourceDate": "2025-2026",
     "feesAvailable": true,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "feeRows": [
+      {
+        "age": 4,
+        "grade": "Preschool N1",
+        "amount": 48500000
+      },
+      {
+        "age": 4,
+        "grade": "Preschool N2",
+        "amount": 64000000
+      },
+      {
+        "age": 3,
+        "grade": "Kindergarten K1",
+        "amount": 81000000
+      },
+      {
+        "age": 4,
+        "grade": "Kindergarten K2",
+        "amount": 83500000
+      },
+      {
+        "age": 6,
+        "grade": "Primary P1-P3",
+        "amount": 115000000
+      },
+      {
+        "age": 6,
+        "grade": "Primary P4-P6",
+        "amount": 118000000
+      },
+      {
+        "age": 12,
+        "grade": "Secondary S1-S2",
+        "amount": 129000000
+      },
+      {
+        "age": 12,
+        "grade": "Secondary S3-S4",
+        "amount": 132000000
+      },
+      {
+        "age": 0,
+        "grade": "Junior College JC1-JC2",
+        "amount": 151800000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee N1-N2",
+        "amount": 20000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee K1",
+        "amount": 24000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee K2",
+        "amount": 25000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee P1-P3",
+        "amount": 46000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee P4-P6",
+        "amount": 49000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee S1-S2",
+        "amount": 54000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee S3-S4",
+        "amount": 56000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee JC1-JC2",
+        "amount": 63500000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Fee (non-refundable, non-transferable)": 6000000
+    }
   },
   "singapore-international-school": {
     "city": "hong-kong",
@@ -23726,20 +25018,166 @@
   "sis-kelapa-gading": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://sisschools.org/sis-kg/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 0,
+        "grade": "N1",
+        "amount": 48500000
+      },
+      {
+        "age": 0,
+        "grade": "N2",
+        "amount": 64000000
+      },
+      {
+        "age": 3,
+        "grade": "K1",
+        "amount": 81000000
+      },
+      {
+        "age": 4,
+        "grade": "K2",
+        "amount": 83500000
+      },
+      {
+        "age": 0,
+        "grade": "P1-P3",
+        "amount": 115000000
+      },
+      {
+        "age": 0,
+        "grade": "P4-P6",
+        "amount": 118000000
+      },
+      {
+        "age": 0,
+        "grade": "S1-S2",
+        "amount": 129000000
+      },
+      {
+        "age": 0,
+        "grade": "S3-S4",
+        "amount": 132000000
+      },
+      {
+        "age": 0,
+        "grade": "JC1-JC2",
+        "amount": 151800000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee N1-N2",
+        "amount": 20000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee K1",
+        "amount": 24000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee K2",
+        "amount": 25000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee P1-P3",
+        "amount": 46000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee P4-P6",
+        "amount": 49000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee S1-S2",
+        "amount": 54000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee S3-S4",
+        "amount": 56000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee JC1-JC2",
+        "amount": 63500000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Fee (non-refundable)": 6000000
+    }
   },
   "sis-pantai-indah-kapuk": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.sis-pik.com/admission-info/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 4,
+        "grade": "Preschool N1",
+        "amount": 48500000
+      },
+      {
+        "age": 4,
+        "grade": "Preschool N2",
+        "amount": 64000000
+      },
+      {
+        "age": 3,
+        "grade": "Kindergarten K1",
+        "amount": 81000000
+      },
+      {
+        "age": 4,
+        "grade": "Kindergarten K2",
+        "amount": 83500000
+      },
+      {
+        "age": 6,
+        "grade": "Primary P1-P3",
+        "amount": 115000000
+      },
+      {
+        "age": 6,
+        "grade": "Primary P4-P6",
+        "amount": 118000000
+      },
+      {
+        "age": 12,
+        "grade": "Secondary S1-S2",
+        "amount": 129000000
+      },
+      {
+        "age": 12,
+        "grade": "Secondary S3-S4",
+        "amount": 132000000
+      },
+      {
+        "age": 0,
+        "grade": "Junior College JC1-JC2",
+        "amount": 151800000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee Preschool",
+        "amount": 20000000
+      },
+      {
+        "age": 0,
+        "grade": "Annual Development Fee Junior College",
+        "amount": 63500000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Fee (non-refundable, non-transferable)": 6000000
+    }
   },
   "sish-international-high-school": {
     "city": "singapore",
@@ -24115,10 +25553,51 @@
   "springfield-school-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
+    "source": "https://www.edarabia.com/springfield-school-jakarta-indonesia/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 3,
+        "grade": "FS1 (Pre-Kindergarten)",
+        "amount": 38500000
+      },
+      {
+        "age": 3,
+        "grade": "KG1/FS2",
+        "amount": 42900000
+      },
+      {
+        "age": 4,
+        "grade": "KG2/Y1",
+        "amount": 46200000
+      },
+      {
+        "age": 6,
+        "grade": "Grade 1/Y2 to Grade 3/Y4",
+        "amount": 55000000
+      },
+      {
+        "age": 9,
+        "grade": "Grade 4/Y5 to Grade 6/Y7",
+        "amount": 59400000
+      },
+      {
+        "age": 12,
+        "grade": "Grade 7/Y8 to Grade 8/Y9",
+        "amount": 67100000
+      },
+      {
+        "age": 14,
+        "grade": "Grade 9/Y10 to Grade 10/Y11",
+        "amount": 69300000
+      },
+      {
+        "age": 16,
+        "grade": "Grade 11/Y12 to Grade 12/Y13",
+        "amount": 74800000
+      }
+    ],
     "oneTimeFees": {}
   },
   "sri-bestari-international-school": {
@@ -25318,11 +26797,35 @@
   "stella-maris-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://admission.stella-maris.sch.id",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 4,
+        "grade": "Preschool/Sunnyville (Toddler/Age 2)",
+        "amount": 19000000
+      },
+      {
+        "age": 0,
+        "grade": "SD (Gading Serpong)",
+        "amount": 54000000
+      },
+      {
+        "age": 0,
+        "grade": "SMP (Gading Serpong)",
+        "amount": 54000000
+      },
+      {
+        "age": 4,
+        "grade": "Stema College (Foundation, 8-month)",
+        "amount": 80000000
+      }
+    ],
+    "oneTimeFees": {
+      "Development Fund (Uang Pangkal)": 49000000,
+      "Book Fee (Uang Buku)": 2050000
+    }
   },
   "straits-international-school": {
     "city": "kuala-lumpur",
@@ -28645,20 +30148,68 @@
   "tunas-muda-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.tunasmuda.sch.id",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 6,
+        "grade": "Primary (SD)",
+        "amount": 98000000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Fee (includes English test and interview)": 2000000,
+      "Enrolment Fee (Uang Pangkal) - Primary": 96000000
+    }
   },
   "tzu-chi-school": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "codebase (unverified)",
-    "sourceDate": "unverified",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://tzuchi.sch.id/admission/",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 3,
+        "grade": "Nursery 1",
+        "amount": 60000000
+      },
+      {
+        "age": 6,
+        "grade": "Primary 1",
+        "amount": 94800000
+      },
+      {
+        "age": 12,
+        "grade": "Secondary (Grades 7-9)",
+        "amount": 108000000
+      },
+      {
+        "age": 12,
+        "grade": "Secondary (Grade 10)",
+        "amount": 114000000
+      },
+      {
+        "age": 12,
+        "grade": "Secondary (Grade 11)",
+        "amount": 126000000
+      }
+    ],
+    "oneTimeFees": {
+      "Application Form Fee": 1000000,
+      "Registration Fee": 8000000,
+      "Admission Fee (Uang Pangkal) Nursery 1 - entry only": 15000000,
+      "Admission Fee (Uang Pangkal) Nursery 1 - package through K2": 30000000,
+      "Admission Fee (Uang Pangkal) Primary 1 - entry only": 16000000,
+      "Admission Fee (Uang Pangkal) Primary 1 - package P1-P6": 96000000,
+      "Admission Fee (Uang Pangkal) Grade 7 - to Grade 10": 112000000,
+      "Admission Fee (Uang Pangkal) Grade 7 - to Grade 12": 168000000,
+      "Admission Fee (Uang Pangkal) Grade 8 - to Grade 10": 84000000,
+      "Admission Fee (Uang Pangkal) Grade 8 - to Grade 12": 140000000,
+      "Admission Fee (Uang Pangkal) Grade 10 - to Grade 12": 84000000,
+      "Admission Fee (Uang Pangkal) Grade 11 - to Grade 12": 56000000
+    }
   },
   "ucsi-international-school": {
     "city": "kuala-lumpur",
@@ -29060,11 +30611,34 @@
   "universal-school-jakarta": {
     "city": "jakarta",
     "currency": "IDR",
-    "source": "",
-    "sourceDate": "",
-    "feesAvailable": false,
-    "feeRows": [],
-    "oneTimeFees": {}
+    "source": "https://www.universalschool.id/admissions.html",
+    "sourceDate": "2025-2026",
+    "feesAvailable": true,
+    "feeRows": [
+      {
+        "age": 6,
+        "grade": "Primary Level 1 - Intensive English",
+        "amount": 55500000
+      },
+      {
+        "age": 6,
+        "grade": "Primary Level 1 - National Plus",
+        "amount": 43750000
+      },
+      {
+        "age": 0,
+        "grade": "SMP (Junior High) - Intensive English",
+        "amount": 67000000
+      },
+      {
+        "age": 0,
+        "grade": "SMP (Junior High) - National Plus",
+        "amount": 58000000
+      }
+    ],
+    "oneTimeFees": {
+      "Registration Fee / Deposit": 1500000
+    }
   },
   "uptown-international-school": {
     "city": "dubai",

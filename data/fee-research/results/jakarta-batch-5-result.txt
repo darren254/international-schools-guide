@@ -1,0 +1,130 @@
+[nord-anglia-school-jakarta] ANNUAL FEES:
+- Nursery: 116284000
+- Foundation 1: 156151000
+- Foundation 2: 267232000
+- Year 1: 346681000
+- Year 2 to Year 7: 351233000
+[nord-anglia-school-jakarta] ONE-TIME FEES:
+- Application Fee (non-refundable): 4600000
+[nord-anglia-school-jakarta] SOURCE: nordangliaeducation.com/nas-jakarta
+[nord-anglia-school-jakarta] YEAR: 2025-2026
+NOTE: Annual fees are the sum of three termly payments (Term 1 + Term 2 + Term 3). Term breakdown available on official fee schedule PDF.
+
+[north-jakarta-intercultural-school] ANNUAL FEES:
+- Preschool 2-3: 71600000
+- Pre-K: 85606000
+- Kindergarten: 105680000
+- PYP 1-5 (Grades 1-5): 193194000
+- MYP 1-5 (Grades 6-10): 255620000
+- DP 1-2 (Grades 11-12): 267610000
+[north-jakarta-intercultural-school] ONE-TIME FEES:
+- Application Fee (non-refundable): 2840000
+- Refundable Deposit: 10000000
+[north-jakarta-intercultural-school] SOURCE: njis.org
+[north-jakarta-intercultural-school] YEAR: 2026-2027
+NOTE: Annual fees are the combined total of ACC and Tuition components per the task rule. Fees shown are early payment prices. Sibling discount of 5% on tuition (except Grades 1-5). Additional assessment fees may apply for Grade 10 (approx. SGD 94/subject) and Grade 12 (approx. SGD 150/subject).
+
+[pelangi-kasih-school] ANNUAL FEES:
+- Nursery: 34800000
+- Primary SD (National program): 14400000
+- Primary SD (Cambridge program): 60480000
+[pelangi-kasih-school] ONE-TIME FEES:
+- Registration/Application Form: 200000
+- Admission/Development Fee (Uang Pangkal): 12000000 - 21000000
+- Additional Registration Fee: 6000000
+[pelangi-kasih-school] SOURCE: pelangikasih.or.id
+[pelangi-kasih-school] YEAR: 2025-2026
+NOTE: Nursery fee converted from monthly (2900000 x 12). Primary National converted from monthly (1200000 x 12). Primary Cambridge converted from quarterly (15120000 x 4). Fees not fully detailed on the official website; amounts sourced from third-party educational guides. Official fees require direct inquiry via admissions. Fees generally include snacks, lunch, books, and uniforms.
+
+[penabur-international-school] ANNUAL FEES:
+- Primary: 92620000
+- Secondary and Junior College: 149197500
+[penabur-international-school] ONE-TIME FEES:
+- Registration Fee: 225000 - 1000000
+- Capital Development Fee (Uang Pangkal/SSP): 58000000
+- Annual Fund (Student Activities): 2500000
+- Books and Materials Fee (Primary): 2500000
+[penabur-international-school] SOURCE: penabur-inter.sch.id
+[penabur-international-school] YEAR: 2025-2026
+NOTE: Primary annual fee converted from monthly SPP (8420000 x 11 months). Secondary/JC figure is an estimate; specific fees are accessible via the school's PSB Jakarta enrollment portal post-registration. A 5% discount applies for full annual payment by the specified deadline. Capital Development Fee covers the full duration of the school level (e.g., 6 years for Primary).
+
+[raffles-christian-school-jakarta] ANNUAL FEES:
+- Annual Tuition (range): 60000000 - 165000000
+[raffles-christian-school-jakarta] ONE-TIME FEES:
+- Placement Test Fee (Primary 1 to Secondary 4): 500000
+- Placement Test Fee (Junior College): 1000000
+- Development Fee: 32000000
+[raffles-christian-school-jakarta] SOURCE: raffles.sch.id
+[raffles-christian-school-jakarta] YEAR: 2025-2026
+NOTE: The school does not publish a consolidated public fee schedule. Annual range of 60000000-165000000 is from third-party educational guides; some sources cite a wider range up to 258200000. Fees vary significantly by campus (Pondok Indah, Kelapa Gading, Kebon Jeruk) and grade level. Monthly SPP reported as approximately 3500000-3750000. Data partially from 2024/2025.
+
+[sampoerna-academy-jakarta] ANNUAL FEES:
+- Early Learning Centre: 25000000
+- Early Years: 39900000
+- Up to Grade 12: 187000000
+[sampoerna-academy-jakarta] ONE-TIME FEES:
+- Registration Fee (Early Years, new students only): 4750000
+- Registration Fee (Primary to Secondary, new students only): 9500000
+[sampoerna-academy-jakarta] SOURCE: sampoernaacademy.sch.id
+[sampoerna-academy-jakarta] YEAR: 2025-2026
+NOTE: Fees shown are per campus ranges; specific campus (L'Avenue Jakarta) fees may vary. Sampoerna Academy explicitly does not charge a building or development fund fee. Tuition excludes books, uniforms, field trips, Chromebooks, external exams, and ESL courses. A 5% discount may apply for full-year payment; sibling discounts of 5-20% may also apply.
+
+[santa-laurensia-school] ANNUAL FEES:
+- Kindergarten K2: 45600000
+- Elementary (SD): 48000000
+- Junior High (SMP): 66000000
+- Senior High (SMA): 60000000
+[santa-laurensia-school] ONE-TIME FEES:
+- Registration Fee (Pendaftaran): 500000 - 750000
+- Development Fund (Uang Pangkal) Kindergarten: 18000000
+- Development Fund (Uang Pangkal) Elementary (Suvarna Sutera): 59000000
+- Development Fund (Uang Pangkal) Junior High (Suvarna Sutera): 56000000
+- Development Fund (Uang Pangkal) Junior High (Alam Sutera): 26000000 - 27000000
+[santa-laurensia-school] SOURCE: santa-laurensia.com
+[santa-laurensia-school] YEAR: 2026-2027
+NOTE: Annual fees converted from monthly SPP (K2: 3800000 x 12; SD: 4000000 x 12; SMP: 5500000 x 12; SMA: 5000000 x 12). Fees vary between Alam Sutera and Suvarna Sutera campuses. Official website does not publish a public fee table; a digital brochure is available via the enrollment portal or WhatsApp. Kindergarten K2 annual also includes an activity fee of approximately 3600000. Data sourced from third-party reviews; early bird discounts may apply.
+
+[sekolah-ciputra] ANNUAL FEES:
+- Playgroup/Kindergarten: 40000000 - 60000000
+- Grade 1 (Elementary): 70897000
+- Junior High (SMP): 98454000
+- Senior High (SMA): 109817000
+[sekolah-ciputra] ONE-TIME FEES:
+- Registration Fee: 2500000
+- Development Fee (DPP) Elementary: 92990000
+- Development Fee (DPP) Junior High: 72635000
+- Development Fee (DPP) Senior High: 79780000
+[sekolah-ciputra] SOURCE: ciputra.sch.id
+[sekolah-ciputra] YEAR: 2025-2026
+NOTE: This is the Surabaya campus — Sekolah Ciputra is based in Surabaya, not Jakarta. Annual fees can be paid in full, per semester, or per term. DPP (Development Fee) is a one-time fee payable upon entry to each school level; early-bird discounts of 20-50% may apply during promotional periods. Fees exclude uniforms, books, and external exam fees.
+
+[sekolah-cita-buana] ANNUAL FEES:
+- Early Years (Playgroup/TK): 80000000 - 140000000
+- Primary (SD): 71400000
+- Secondary (Middle/High School): 110000000 - 190000000
+[sekolah-cita-buana] ONE-TIME FEES:
+- Registration/Application Fee (Primary): 1000000
+- Registration/Application Fee (Middle/High School): 3000000
+- Uang Pangkal (Capital Development Fee) Primary SD: 69000000
+- Books and Materials: 1000000 - 4000000 per semester
+[sekolah-cita-buana] SOURCE: sekolahcitabuana.com
+[sekolah-cita-buana] YEAR: 2025-2026
+NOTE: Primary SD annual fee confirmed (5950000/month x 12 = 71400000). Secondary and Early Years ranges are indicative from third-party guides (2025/2026). Uang Pangkal for SD can be paid annually, every 3 years, or as a single one-time payment. School follows a blend of National (K13) and International (IPC, IMYC, ACT) curricula.
+
+[sekolah-lentera-kasih-jakarta] ANNUAL FEES:
+- Toddler: 18000000
+- Pre Nursery: 22000000
+- Nursery: 30000000
+- Kindergarten: 42000000
+- Preparatory: 44000000
+[sekolah-lentera-kasih-jakarta] ONE-TIME FEES:
+- Registration Form Fee: 200000
+- Entrance Test Fee: 750000
+- Package Admission Fee (Regular): 25000000 - 60000000
+- Registration Fee: 4000000
+- Refundable School Deposit (RSD): 5000000
+- Uniform Package: 1000000
+- Yearly Resource Fee: 1500000
+[sekolah-lentera-kasih-jakarta] SOURCE: lenteraschools.com
+[sekolah-lentera-kasih-jakarta] YEAR: 2025-2026
+NOTE: Annual fees converted from quarterly 3-month fees (Toddler: 4500000 x 4; Pre Nursery: 5500000 x 4; Nursery: 7500000 x 4; Kindergarten: 10500000 x 4; Preparatory: 11000000 x 4). Fees are for the associated Lollypop Preschool (SY 2024-2025 detailed schedule). A 10% discount applies for full-year payment upfront. Fees for Grade 1-12 not publicly listed on the main website. Sibling discounts: 5% for 2nd/3rd child, 10% for 4th child.

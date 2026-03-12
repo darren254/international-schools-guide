@@ -7,7 +7,6 @@
 import { JAKARTA_SCHOOLS, type JakartaSchoolListing } from "@/data/jakarta-schools";
 import { extractHighestFee } from "@/lib/utils/fees";
 // Optional CSV export for minimal profiles (address, facilities, nationalities, founded)
-import JAKARTA_CSV_EXPORT from "@/data/jakarta_csv_export.json";
 // Geocoded lat/lng per campus (run scripts/extract-campus-addresses.ts then scripts/geocode-campuses.mjs to regenerate)
 import geocodedCampuses from "@/data/campus-coordinates.json";
 
@@ -2877,131 +2876,6 @@ const jakartaNanyang: SchoolProfile = {
 };
 
 // ═══════════════════════════════════════════════════════
-// MINIMAL PROFILES - for schools with listing data only
-// ═══════════════════════════════════════════════════════
-
-type CsvRow = { addressFull?: string; facilities?: string; nationalitiesCount?: string; foundedYear?: string };
-const getCsvRow = (slug: string): CsvRow | undefined =>
-  (JAKARTA_CSV_EXPORT as Record<string, CsvRow>)[slug];
-
-function createMinimalProfile(L: JakartaSchoolListing): SchoolProfile {
-  const highK = extractHighestFee(L.feeRange);
-  const tuitionIDR = highK > 0 ? Math.round(highK * 1000 * EXCHANGE_RATE) : 100_000_000;
-  const csv = getCsvRow(L.slug);
-  const address = (csv?.addressFull || L.area).trim() || L.area;
-  const facilitiesList =
-    csv?.facilities?.split("|").map((s) => s.trim()).filter(Boolean) ?? [];
-  return {
-    slug: L.slug,
-    citySlug: "jakarta",
-    name: L.name,
-    shortName: L.name.split(" ").slice(0, 2).join(" "),
-    verified: L.verified,
-    metaTitle: `${L.name} - Fees, Review & Contact`,
-    metaDescription: `${L.name} (${L.area}). ${L.editorialSummary.slice(0, 140)}…`,
-    campuses: [
-      { name: "Main Campus", address, grades: L.ageRange, lat: -6.2, lng: 106.8 },
-    ],
-    lastUpdated: "February 2026",
-    curricula: L.curricula,
-    stats: [
-      { value: L.studentCount, label: "Students" },
-      { value: L.ageRange, label: "Age Range" },
-      { value: L.area, label: "Location" },
-      { value: L.feeRange, label: "Annual Fees" },
-    ],
-    head: { name: "School leadership", since: 0, bio: "Contact the school for details." },
-    photoAlts: [L.name, "Campus", "Students"],
-    intelligence: {
-      verdict: L.editorialSummary,
-      paragraphs: [L.editorialSummary],
-      positives: [],
-      considerations: [],
-    },
-    fees: {
-      academicYear: "2025–2026",
-      feeCurrency: "IDR",
-      rows: [
-        {
-          gradeLevel: "All grades",
-          ages: L.ageRange,
-          tuition: tuitionIDR,
-          capital: 0,
-          totalEarlyBird: tuitionIDR,
-          totalStandard: tuitionIDR,
-        },
-      ],
-      oneTime: [],
-      note: L.feeRange === "Contact school" ? "Fees not publicly disclosed. Contact the school for current fee schedule." : `Approximate annual fee range: ${L.feeRange}. Contact the school for the full fee schedule and payment options.`,
-    },
-    academics: {
-      results: L.examResults,
-      paragraphs: L.examResults.length ? [`Key results: ${L.examResults.map((r) => `${r.label} ${r.value}`).join(", ")}.`] : [],
-    },
-    studentBody: { paragraphs: ["Diverse international and local student body. Contact the school for current enrolment details."] },
-    schoolLife: {
-      activitiesCount: facilitiesList.length > 0 ? Math.min(facilitiesList.length * 2, 50) : 0,
-      uniformRequired: true,
-      facilities: facilitiesList,
-      paragraphs: facilitiesList.length > 0 ? ["Facilities include: " + facilitiesList.slice(0, 5).join(", ") + (facilitiesList.length > 5 ? "." : ".")] : ["Contact the school for details on co-curricular activities and facilities."],
-    },
-    contact: {
-      phone: L.phone ?? "",
-      email: L.email ?? "",
-      website: L.website ?? "",
-    },
-    sidebar: {
-      quickFacts: [
-        { label: "Location", value: L.area },
-        { label: "Curriculum", value: L.curricula.slice(0, 2).join(", ") },
-        { label: "Students", value: L.studentCount },
-        { label: "Ages", value: L.ageRange },
-        ...(csv?.nationalitiesCount ? [{ label: "Nationalities", value: csv.nationalitiesCount + "+" }] : []),
-        ...(csv?.foundedYear ? [{ label: "Founded", value: csv.foundedYear }] : []),
-        { label: "Fees", value: L.feeRange },
-      ],
-      otherSchools: [],
-      relatedInsights: [
-        { title: "The Expat Guide to International Schools in Jakarta", slug: "expat-guide-jakarta-international-schools", readTime: "12 min read" },
-      ],
-    },
-    jsonLd: {
-      description: L.editorialSummary,
-      foundingDate: csv?.foundedYear ?? "",
-      numberOfStudents: L.studentCount,
-    },
-  };
-}
-
-const EXISTING_PROFILE_SLUGS = new Set([
-  "jakarta-intercultural-school", "british-school-jakarta", "acg-school-jakarta",
-  "independent-school-of-jakarta", "mentari-intercultural-school-jakarta",
-  "australian-independent-school-jakarta", "sekolah-pelita-harapan",
-  "global-jaya-school", "binus-school-serpong", "sinarmas-world-academy",
-  "tunas-muda-school", "btb-school", "sekolah-pelita-harapan-kemang-village",
-  "nord-anglia-school-jakarta", "new-zealand-school-jakarta", "jakarta-nanyang-school",
-]);
-
-const MINIMAL_PROFILES = JAKARTA_SCHOOLS
-  .filter((s) => !EXISTING_PROFILE_SLUGS.has(s.slug))
-  .map(createMinimalProfile);
-
-const MINIMAL_PROFILES_MAP: Record<string, SchoolProfile> = Object.fromEntries(
-  MINIMAL_PROFILES.map((p) => [p.slug, p])
-);
-
-// ── Multi-campus overrides for minimal-profile Jakarta schools ──
-const raffles = MINIMAL_PROFILES_MAP["raffles-christian-school-jakarta"];
-if (raffles) {
-  raffles.campuses = [
-    { name: "Pondok Indah Campus 1", address: "Jl. Gedung Hijau Raya I, No. 1 Pondok Indah, South Jakarta 12310", grades: "2–18", lat: -6.280197880619824, lng: 106.77843357313061 },
-    { name: "Pondok Indah Campus 2", address: "Jl. Sultan Iskandar Muda No.1, Kebayoran Lama, South Jakarta 12240", grades: "2–18", lat: -6.260788340578404, lng: 106.78209043135442 },
-    { name: "Kelapa Gading Campus", address: "Jl. Gading Pelangi No. 1 Kelapa Gading, North Jakarta 14240", grades: "2–18", lat: -6.175828026826696, lng: 106.91337786573943 },
-    { name: "Kebon Jeruk Campus", address: "Jl. Meruya Ilir No. 89 Meruya Utara, West Jakarta 11620", grades: "2–18", lat: -6.197373355131425, lng: 106.76093999322735 },
-  ];
-}
-
-// ═══════════════════════════════════════════════════════
 // SCHOOL MAP - keyed by slug for O(1) lookup
 // ═══════════════════════════════════════════════════════
 
@@ -3031,8 +2905,10 @@ import { SINGAPORE_SCHOOL_PROFILES } from "@/data/singapore-schools-profiles";
 import { BANGKOK_SCHOOL_PROFILES } from "@/data/bangkok-schools-profiles";
 import { HONG_KONG_SCHOOL_PROFILES } from "@/data/hong-kong-schools-profiles";
 import { KUALA_LUMPUR_SCHOOL_PROFILES } from "@/data/kuala-lumpur-schools-profiles";
+import { JAKARTA_SCHOOL_PROFILES } from "@/data/jakarta-schools-profiles";
 
 const RAW_SCHOOL_PROFILES: Record<string, SchoolProfile> = {
+  ...JAKARTA_SCHOOL_PROFILES,
   "jakarta-intercultural-school": jis,
   "british-school-jakarta": bsj,
   "acg-school-jakarta": acg,
@@ -3049,13 +2925,23 @@ const RAW_SCHOOL_PROFILES: Record<string, SchoolProfile> = {
   "nord-anglia-school-jakarta": nordAnglia,
   "new-zealand-school-jakarta": newZealandSchool,
   "jakarta-nanyang-school": jakartaNanyang,
-  ...MINIMAL_PROFILES_MAP,
   ...DUBAI_SCHOOL_PROFILES,
   ...SINGAPORE_SCHOOL_PROFILES,
   ...BANGKOK_SCHOOL_PROFILES,
   ...HONG_KONG_SCHOOL_PROFILES,
   ...KUALA_LUMPUR_SCHOOL_PROFILES,
 };
+
+// ── Multi-campus overrides for Jakarta schools ──
+const raffles = RAW_SCHOOL_PROFILES["raffles-christian-school-jakarta"];
+if (raffles) {
+  raffles.campuses = [
+    { name: "Pondok Indah Campus 1", address: "Jl. Gedung Hijau Raya I, No. 1 Pondok Indah, South Jakarta 12310", grades: "2–18", lat: -6.280197880619824, lng: 106.77843357313061 },
+    { name: "Pondok Indah Campus 2", address: "Jl. Sultan Iskandar Muda No.1, Kebayoran Lama, South Jakarta 12240", grades: "2–18", lat: -6.260788340578404, lng: 106.78209043135442 },
+    { name: "Kelapa Gading Campus", address: "Jl. Gading Pelangi No. 1 Kelapa Gading, North Jakarta 14240", grades: "2–18", lat: -6.175828026826696, lng: 106.91337786573943 },
+    { name: "Kebon Jeruk Campus", address: "Jl. Meruya Ilir No. 89 Meruya Utara, West Jakarta 11620", grades: "2–18", lat: -6.197373355131425, lng: 106.76093999322735 },
+  ];
+}
 
 export const SCHOOL_PROFILES: Record<string, SchoolProfile> =
   applyGeocodedCampuses(RAW_SCHOOL_PROFILES);

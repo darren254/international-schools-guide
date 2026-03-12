@@ -1,0 +1,161 @@
+[jubilee-school-jakarta] ANNUAL FEES:
+- Pre-nursery (ECP): 24000000
+- Nursery (ECP): 24000000
+- K-1 (ECP): 26400000
+- K-2 (ECP): 27600000
+- SD-2: 31200000
+- SD-3: 32400000
+- SD-4: 33600000
+- SD-5: 34200000
+- SD-6: 36000000
+- Primary 1 (Full English): 42000000
+- Grade 2 (Full English): 45000000
+- Grade 3 (Full English): 46500000
+- Grade 4 (Full English): 48000000
+- Grade 5 (Full English): 48600000
+- Grade 6 (Full English): 49500000
+- SMP-7: 37200000
+- SMP-8: 37200000
+- SMP-9: 39600000
+- SMA-10: 40800000
+- SMA-11: 40800000
+- SMA-12: 42000000
+- Grade 7 (Full English Secondary): 52500000
+- Grade 8 (Full English Secondary): 52500000
+- Grade 9 (Full English Secondary): 55200000
+- Grade 10 (Full English Secondary): 56100000
+- Grade 11 (Full English Secondary): 58200000
+- Grade 12 (Full English Secondary): 58800000
+[jubilee-school-jakarta] ONE-TIME FEES:
+- Form Fee (ECP/SD/Full English Primary): 1000000
+- Form Fee (SMP/SMA/Full English Secondary): 1250000
+- Admission Fee Pre-nursery: 10000000
+- Admission Fee Nursery: 10000000
+- Admission Fee K-1: 8000000
+- Admission Fee K-2: 5000000
+- Admission Fee SD-2: 32000000
+- Admission Fee SD-3: 27000000
+- Admission Fee SD-4: 24000000
+- Admission Fee SD-5: 20000000
+- Admission Fee SD-6: 12000000
+- Admission Fee Primary 1 (FE): 50000000
+- Admission Fee Grade 2-6 (FE): 30000000 - 50000000
+- Admission Fee SMP-7: 34000000
+- Admission Fee SMP-8: 26000000
+- Admission Fee SMP-9: 23000000
+- Admission Fee SMA-10: 36000000
+- Admission Fee SMA-11: 32000000
+- Admission Fee Grade 7 (FE Secondary): 60000000
+- Admission Fee Grade 8-11 (FE Secondary): 50000000 - 60000000
+[jubilee-school-jakarta] SOURCE: https://www.jubilee-jkt.sch.id/school-fees
+[jubilee-school-jakarta] YEAR: 2025-2026
+NOTE: Semester fees multiplied x2 for annual totals. SD-1 annual fee not publicly listed. Admission fees listed are before discount and for external (new) students only. Fee schedules sourced from 2022-2023 published PDF; 2025-2026 enrollment is open but updated schedule not publicly accessible.
+
+[kanaan-global-school] ANNUAL FEES:
+- Preschool Pre-Nursery: 18960000
+- Preschool Nursery to Kindergarten B: 25200000
+- Grade 10 Activity Fee: 3600000
+[kanaan-global-school] ONE-TIME FEES:
+- Development Fee / Uang Pangkal (Preschool, 4-year period): 25500000
+[kanaan-global-school] SOURCE: https://www.kanaanglobal.sch.id/
+[kanaan-global-school] YEAR: 2025-2026
+NOTE: Monthly fees converted to annual (x12). Preschool Pre-Nursery: 1580000/month x12 = 18960000. Nursery-KindergartenB: 2100000/month x12 = 25200000. Primary and Secondary tuition not publicly listed; contact admissions via WhatsApp +62-813-5273-6571 for full schedule. Grade 10 Activity Fee of 3600000/year payable in 3 installments. Promotional enrollment discounts frequently offered.
+
+[kharisma-bangsa-school] ANNUAL FEES:
+- Elementary (SD): 50000000
+- Middle School (SMP): 60000000
+- High School (SMA): 65000000
+[kharisma-bangsa-school] ONE-TIME FEES:
+- Registration Fee (Biaya Pendaftaran): 1500000
+- Development Fee / Uang Pangkal SD: 65000000
+- Development Fee / Uang Pangkal SMP: 75000000
+- Development Fee / Uang Pangkal SMA: 80000000
+- Laptop Fee (one-time): 7000000
+- Boarding Development Fee (optional, 3-year): 25000000
+[kharisma-bangsa-school] SOURCE: https://kbs.sch.id/how-to-apply
+[kharisma-bangsa-school] YEAR: 2025-2026
+NOTE: SMP fee noted as 6000000/month, SMA as 6500000/month — annual figures used as published. Optional boarding fee is 3200000/month (additional). Total first-year costs for SD approximately 116500000 including uniforms, books, and extracurriculars but excluding lunch, yearbook, and Cambridge exams.
+
+[labschool-jakarta] ANNUAL FEES:
+- KB-TK (Kindergarten): 18000000 - 42000000
+- SMP: 24000000
+- SMA: 25200000
+[labschool-jakarta] ONE-TIME FEES:
+- Registration Fee (KB-TK): 350000 - 400000
+- Registration Fee (SMP/SMA): 400000 - 500000
+- Uang Pangkal KB-TK: 25000000 - 50000000
+- Uang Pangkal SMP (Jalur Tes): 35000000
+- Uang Pangkal SMA (Jalur Tes): 36000000
+- Uang Pangkal SMA (Jalur Prestasi): 34000000
+- Additional Sumbangan (2nd wave admissions): 2000000
+[labschool-jakarta] SOURCE: https://labschool-unj.sch.id/labschool-jakarta/
+[labschool-jakarta] YEAR: 2025-2026
+NOTE: Monthly SPP converted to annual (x12). SMP: 2000000/month x12 = 24000000. SMA: 2100000/month x12 = 25200000. KB-TK monthly SPP range 1500000-3500000/month x12 = 18000000-42000000. Uang Pangkal is higher for non-alumni entering via Selection Test (Jalur Tes) vs Achievement Track (Jalur Prestasi). SPP paid monthly via SI Labschool payment system.
+
+[mentari-intercultural-school-bintaro] ANNUAL FEES:
+- Grade 7 (Junior High): 66000000
+- Elementary: 48000000
+- High School (G10-11): 99000000
+[mentari-intercultural-school-bintaro] ONE-TIME FEES:
+- Registration and Testing Fee (Grade 7): 800000
+- Development Fee Grade 7-9: 64500000
+- Elementary Admission Fee: 70000000 - 80000000
+- High School Admission Fee: 67000000 - 79000000
+[mentari-intercultural-school-bintaro] SOURCE: https://www.mentarischool.com/mis-bintaro
+[mentari-intercultural-school-bintaro] YEAR: 2025-2026
+NOTE: Monthly tuition converted to annual (x12). Grade 7: 5500000/month x12 = 66000000. Elementary indicative: 4000000/month x12 = 48000000. High School indicative: 8250000/month x12 = 99000000. Bintaro campus specific. Book & Material Fee 2500000/year and Consumables Fee 3800000/year and Personal Accident Insurance 200000/year are additional annual charges. Prices exclude VAT (PPN). High School seats noted as full for current cycle.
+
+[mentari-intercultural-school-jakarta] ANNUAL FEES:
+- Early Years: 90000000
+- High School: 99000000
+[mentari-intercultural-school-jakarta] ONE-TIME FEES:
+- Registration/Testing Fee: 800000 - 3000000
+- Admission/Enrolment Fee (Early Years): 20500000
+- Admission/Enrolment Fee (High School): 67000000 - 79000000
+[mentari-intercultural-school-jakarta] SOURCE: https://www.mentarischool.com
+[mentari-intercultural-school-jakarta] YEAR: 2025-2026
+NOTE: Monthly tuition converted to annual (x12). Early Years: 7500000/month x12 = 90000000. High School: 8250000/month x12 = 99000000. Jakarta campus data. Registration/Testing Fee often waived during Open House events. Prices exclude VAT (PPN). Upfront payment discounts: 2.5% for 6 months, 5% for 12 months.
+
+[millennia-world-school] FEES NOT AVAILABLE
+NOTE: Tuition details not publicly listed on the school website. Fee range only (approximately 45000000 to 135000000 per year based on external sources). Contact school directly at information@millennia21.id for a full fee schedule.
+
+[mutiara-harapan-islamic-school] ANNUAL FEES:
+- Preschool (TK) SPP: 47400000
+- Preschool (TK) Annual Fee: 7260000
+- Primary (SD) SPP: 54000000
+- Primary (SD) Annual Fee: 10395000
+- Secondary (SMP) SPP: 57000000
+- Secondary (SMP) Annual Fee: 11088000
+[mutiara-harapan-islamic-school] ONE-TIME FEES:
+- Registration Fee TK: 500000
+- Registration Fee SD/SMP: 600000
+- Development Fee / Uang Pangkal TK: 36700000
+- Development Fee / Uang Pangkal SD: 59000000
+- Development Fee / Uang Pangkal SMP: 43335000
+- Seat Reservation (all levels): 7500000
+- Uniform Materials: 600000 - 800000
+- Books and Learning Resources (TK estimate): 1500000
+[mutiara-harapan-islamic-school] SOURCE: https://mutiaraharapan.sch.id/admission-applying-to-school-2/
+[mutiara-harapan-islamic-school] YEAR: 2025-2026
+NOTE: Monthly SPP converted to annual (x12). TK: 3950000/month x12 = 47400000. SD: 4500000/month x12 = 54000000 (also noted as 26000000/semester x2 = 52000000; monthly x12 used). SMP: 4750000/month x12 = 57000000. Annual Fee is a separate yearly charge listed alongside SPP. Ittihada/MHSU annual contribution 200000-225000 additional per level. SPP may be paid monthly, per semester, or annually (annual payment may attract discount).
+
+[nationalhigh-jakarta-school] FEES NOT AVAILABLE
+NOTE: Full fee schedule not publicly disclosed on the official website. External sources indicate a general annual range of approximately 152000000 (Edarabia) or 30000000-110000000 (International Schools Guide) depending on grade. Historical reference (2019-2020): Primary approximately 116400000, Secondary approximately 135600000-163200000. Registration Fee approximately 7000000 (discounts frequently offered). Contact school directly for current fee schedule: https://nh.piagetacademy.org/curriculum/admissions/
+
+[new-zealand-school-jakarta] ANNUAL FEES:
+- Pre-School 8AM-12PM (Indonesian): 58140000
+- Pre-School 8AM-14PM (Indonesian): 99700000
+- Kindergarten (Indonesian): 101500000
+- Grade 1-6 (Indonesian): 233300000
+- Grade 7-12 (Indonesian): 241400000
+- Pre-School 8AM-12PM (International): 70700000
+- Pre-School 8AM-14PM (International): 112300000
+- Kindergarten (International): 123600000
+- Grade 1-6 (International): 273900000
+- Grade 7-12 (International): 289800000
+[new-zealand-school-jakarta] ONE-TIME FEES:
+- Application Fee Early Years (non-refundable): 4000000
+- Application Fee Primary and Secondary (non-refundable): 5000000
+[new-zealand-school-jakarta] SOURCE: https://www.nzsj.sch.id/en/fees
+[new-zealand-school-jakarta] YEAR: 2025-2026
+NOTE: Fees listed as annual plan amounts in IDR. Half-year and termly payment plans also available. Annual Development Levy (ADL) is included in total fees shown. Multi-Year ADL Discount available (50% off ADL for 3+ years upfront). Family Discount: 5% for 2nd sibling, 10% for 3rd+. Late payments incur 2% monthly penalty. Bus, catering, uniforms, and camps are separate charges.

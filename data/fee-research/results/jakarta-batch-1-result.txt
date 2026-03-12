@@ -1,0 +1,180 @@
+[acg-school-jakarta] ANNUAL FEES:
+- Kindergarten 3: 158015800
+- Kindergarten 4: 191007100
+- Year 1: 283039300
+- Year 2: 288248600
+- Years 3-4: 351918000
+- Year 5: 355390900
+- Year 6: 358863800
+- Years 7-10: 371018900
+- Year 11: 374491700
+- Years 12-13: 375649300
+[acg-school-jakarta] ONE-TIME FEES:
+- Application Fee: 4000000
+- Development Fee (Kindergarten): 8100000
+- Development Fee (Years 1-13): 39500000
+- Tech Levy (Years 3-6 and 12-13): 815000
+- Tech Levy (Years 7-11): 1630000
+- Residential Learning (Year 4): 3500000
+- Residential Learning (Years 5-6): 5000000
+- Residential Learning (Years 7-13): 13000000
+- DP Language Texts (Year 12): 1500000
+[acg-school-jakarta] SOURCE: https://www.jakarta.acgedu.com/admissions/fees
+[acg-school-jakarta] YEAR: 2025-2026
+NOTE: Annual tuition fees listed. Development Fee and Tech Levy are billed annually. Residential Learning is a compulsory annual school camp fee. Application Fee is non-refundable. Early payment discount of 2.5% on annual tuition and development fee if paid in full before May 12 2025. Fees exclude IGCSE/IBDP exam fees, transport, and English Language Support.
+
+[acs-jakarta] ANNUAL FEES:
+- Grades 1-6 (Tuition): 254000000
+- Grades 7-8 (Tuition): 275000000
+- Grades 9-10 (Tuition): 287000000
+- Grades 11-12 IB Diploma Programme (Tuition): 310000000
+- Grades 1-6 (Learning Materials Fee): 8600000
+- Grades 7-8 (Learning Materials Fee): 9100000
+- Grade 9 (Learning Materials Fee, covers 2 years for IGCSE): 20000000
+- Grade 11 (Learning Materials Fee, covers 2 years for IBDP): 27600000
+[acs-jakarta] ONE-TIME FEES:
+- Entrance Test Fee (Grades 1 and 10): 1000000
+- Entrance Test Fee (Grades 2-9 and 11): 2000000
+- Admission Fee (paid Sept 2025-Mar 2026): 4500000
+- Admission Fee (paid Apr-May 2026): 6500000
+- Admission Fee (paid June 2026 onwards): 9000000
+- Deposit Fee: 30000000
+[acs-jakarta] SOURCE: https://www.acsjakarta.sch.id/school-fees
+[acs-jakarta] YEAR: 2025-2026
+NOTE: All fees are annual and non-refundable. Students in Grades 9 and 11 pay a 2-year Learning Materials Fee upfront and do not pay again in Grades 10 or 12. Deposit Fee required to secure a place; non-refundable and non-transferable. An Early Bird Discount of 15% is available for new students. Educational camps (Grades 5, 7, 9, 11) are mandatory and range from USD 700 to USD 1600, billed separately in IDR. External exam fees (IGCSE/IBDP) range from USD 800 to USD 1000.
+
+[al-azhar-syifa-budi-jakarta] ANNUAL FEES:
+- Preschool/TK (SPP monthly x12, estimated): 13200000
+- Primary/SD (SPP monthly x12, estimated): 24000000
+- Junior High/SMP (SPP monthly x12): 60000000
+[al-azhar-syifa-budi-jakarta] ONE-TIME FEES:
+- Registration Fee: 150000
+- Development/Admission Fee (Uang Pangkal): 0
+[al-azhar-syifa-budi-jakarta] SOURCE: https://alazhar.syifabudi.id/admission.php
+[al-azhar-syifa-budi-jakarta] YEAR: 2025-2026
+NOTE: Monthly SPP fees converted to annual by multiplying x12. For the 2025/2026 academic year, the Jakarta branch has advertised FREE Uang Pangkal (100% discount on Admission/Development Fee) for all units (PG, KG, SD, SMP, SMA). SMP monthly SPP of Rp 5,000,000/month cited from 2025 external reports; school-specific rates for other levels are approximate. Fees exclude uniforms, annual activities, and other incidentals. Confirm exact level-by-level SPP directly with the school. Source also: Instagram official announcement https://www.instagram.com/p/DSrWNYdk5JM/
+
+[al-jabr-islamic-school] ANNUAL FEES:
+- Pre K (Academic Fee/year + Tuition 4 quarters): 26500000
+- K1-K2 (Academic Fee/year + Tuition 4 quarters): 32750000
+- Grade 1-6 (Academic Fee/year + Tuition 4 quarters): 47400000
+- Grade 7-9 (Academic Fee/year + Tuition 4 quarters): 48800000
+- Grade 10-12 (Academic Fee/year + Tuition 4 quarters): 48800000
+- PA Fee all levels (per 3 months x4): 360000
+[al-jabr-islamic-school] ONE-TIME FEES:
+- Enrollment Fee (Pre K): 20000000
+- Enrollment Fee (K1-K2): 32200000
+- Enrollment Fee (Grade 1-6): 58850000
+- Enrollment Fee (Grade 7-9): 40000000
+- Enrollment Fee (Grade 10-12): 45000000
+- Uniform (Pre K, K1-K2, Grade 1-6, Grade 10-12): 850000
+- Uniform (Grade 7-9): 1000000
+[al-jabr-islamic-school] SOURCE: https://aljabrislamicschool.sch.id/en/admissions/school-fees/
+[al-jabr-islamic-school] YEAR: 2025-2026
+NOTE: Annual fee = Academic Fee (paid yearly) + Tuition Fee (per 3 months x4). Pre K: 2500000 + (6000000 x4) = 26500000. K1-K2: 2750000 + (7500000 x4) = 32750000. Grade 1-6: 5400000 + (10500000 x4) = 47400000. Grade 7-9: 5000000 + (10950000 x4) = 48800000. Grade 10-12: 5000000 + (10950000 x4) = 48800000. PA Fee: 90000 x4 = 360000/year. Fees are for Academic Year 2026/2027 per source. Fees exclude IB Exam for Grade 12, school bus, meals, and certain co-curricular programs. Additional fees may apply for Muslim uniforms. All payments are final and non-refundable.
+
+[australian-independent-school-jakarta] ANNUAL FEES:
+- Preschool 3 (3 days): 100530000
+- Preschool 3 (5 days): 149890000
+- Preschool 4: 187050000
+- Foundation: 307830000
+- Year 1: 376300000
+- Year 2: 386450000
+- Year 3: 388240000
+- Year 4: 388240000
+- Year 5: 395380000
+- Year 6: 401270000
+- Year 7-10: 431220000
+- Year 11-12: 442650000
+[australian-independent-school-jakarta] ONE-TIME FEES:
+- Application Fee: 2000000
+- Registration Fee: 5000000
+- Enrolment Notice Deposit (END, refundable): 5000000
+- Technology Levy (Year 3-6): 6500000
+- Textbook Deposit (Year 7-12, refundable): 4050000
+[australian-independent-school-jakarta] SOURCE: https://www.ais-indonesia.com/school-fee-jakarta
+[australian-independent-school-jakarta] YEAR: 2025-2026
+NOTE: Annual fees shown are for Mainstream students paying in one annual instalment and include Capital Levy (Preschool 3: 26500000/year; Foundation-Year 12: 53000000/year). Capital Levy is an annual component included in the total. Semester and Term payment options are available at slightly higher totals. Bus services are extra (37320000 to 74600000 annually depending on area). Fees exclude EAL and Learning Support surcharges. Source PDF: https://www.ais-indonesia.com/cfind/source/files/2026-ais-jakarta----mainstream-students--12-sept-2025-.pdf
+
+[beacon-academy] ANNUAL FEES:
+- Primary: 109500000
+- Secondary: 115200000
+- Secondary (upper range): 117600000
+- 6th Form: 121300000
+[beacon-academy] ONE-TIME FEES:
+- Application Fee: 2000000
+- Admission Fee: 10000000
+- Learning Materials Levy: 4500000
+- Annual Development Fee (ADF): 1600000
+[beacon-academy] SOURCE: https://beaconacademy.net/fees/
+[beacon-academy] YEAR: 2025-2026
+NOTE: Annual tuition fees sourced from Education Destination Asia. The school does not publicly list current fees on its website without a form submission. Sibling discounts up to 50% for the second child and early bird promotions have been mentioned. Flexible payment options available. A non-refundable deposit is required within 7 days of offer letter; amount not specified.
+
+[bina-bangsa-school] ANNUAL FEES:
+- Primary/SD (estimated range): 113400000
+- Secondary/SMP-SMA (estimated upper range): 203000000
+[bina-bangsa-school] ONE-TIME FEES:
+- Registration Fee: not publicly disclosed
+- Admission/Development Fee: not publicly disclosed
+[bina-bangsa-school] SOURCE: https://binabangsaschool.com/admission.php
+[bina-bangsa-school] YEAR: 2025-2026
+NOTE: Bina Bangsa School does not publicly disclose a detailed fee schedule on its website; prospective parents must contact the admissions office directly for campus-specific fees. Annual tuition range of approximately 113400000 to 203000000 is derived from third-party reports (IDX Channel). Monthly costs have been cited around 8500000 to 25000000/month. Fees are typically structured per semester. Frequent Early Bird promotions offer 10-20% discounts on admission fees. Late payments incur 250000 per week penalty. Source also: https://www.international-schools-database.com/in/jakarta/bina-bangsa-school-jakarta/fees
+
+[binus-school-bekasi] ANNUAL FEES:
+- Primary Grade 1-6 (range): 48000000
+- Primary Grade 1-6 (upper range): 53400000
+- Lower Secondary Grade 7-9: 57600000
+- Upper Secondary Grade 10-12: 72000000
+[binus-school-bekasi] ONE-TIME FEES:
+- Registration Fee: 300000
+- Enrollment Fee (Primary/Elementary, for 6 years): 64500000
+- Enrollment Fee (Primary/Elementary upper range, for 6 years): 76000000
+- Enrollment Fee (Lower Secondary Grade 7-9): 64000000
+- Enrollment Fee (Lower Secondary Grade 8-9): 50500000
+- Enrollment Fee (Upper Secondary/SMA): 70000000
+- Development Fund (Building Fund): 23000000
+- Development Fund upper range: 45000000
+[binus-school-bekasi] SOURCE: https://bekasi.binus.sch.id/how-to-apply/
+[binus-school-bekasi] YEAR: 2025-2026
+NOTE: Annual fees are ranges based on admissions schedules and third-party educational reports for 2024/2025 and 2025/2026. The school website does not publicly list a full fee table. Primary range 48000000-53400000/year calculated from monthly rate of approximately 4450000/month x12 or 12000000-13350000 per quarter x4. Lower Secondary 57600000/year = 4800000/month x12 or 14400000 per quarter x4. Upper Secondary 72000000/year = 6000000/month x12. Development Fund often included in or referred to as part of Enrollment Fee (uang pangkal). Source also: https://mommiesdaily.com/2024/11/06/lengkap-ini-biaya-masuk-smp-dan-sma-2025-2026-di-bekasi-dan-depok/
+
+[binus-school-serpong] ANNUAL FEES:
+- Primary Grade 1-6 (SPP quarterly x4): 64800000
+- Lower Secondary/SMP Grade 7-9 (SPP monthly x12): 76800000
+- Upper Secondary/SMA Grade 10-12 (SPP monthly x12): 80400000
+[binus-school-serpong] ONE-TIME FEES:
+- Registration Fee: 300000
+- Enrollment Fee (Primary Grade 1-6, for 6 years): 78000000
+- Enrollment Fee (Lower Secondary Grade 7-9): 89000000
+- Enrollment Fee (Lower Secondary Grade 8-9): 78500000
+- Enrollment Fee (Lower Secondary Grade 9 only): 66500000
+- Enrollment Fee (Upper Secondary Grade 10-12): 96000000
+[binus-school-serpong] SOURCE: https://serpong.binus.sch.id
+[binus-school-serpong] YEAR: 2024-2025
+NOTE: Fees from Mommies Daily (2024/2025 academic year) and Popmama (2024). The school website (serpong.binus.sch.id) does not publicly list a fee table; prospective parents are directed to contact the admissions centre. Primary SPP: 16200000/quarter x4 = 64800000/year. Lower Secondary SMP SPP: 6400000/month x12 = 76800000/year (or 19200000/quarter x4). Upper Secondary SMA SPP: 6700000/month x12 = 80400000/year (or 20100000/quarter x4). Enrollment Fees are one-time payments for the full level duration. Early Years fees not publicly available; contact school directly. Registration Fee (300000) is non-refundable. Data sourced from: https://mommiesdaily.com/2024/02/20/biaya-masuk-smp-dan-sma-binus-school-simprug-serpong-dan-bekasi/ and https://www.popmama.com/big-kid/6-9-years-old/biaya-sekolah-sd-terbaik-di-bsd-tahun-ajaran-2024-00-ky94d-sflmp5
+
+[binus-school-simprug] ANNUAL FEES:
+- Early Years EY1-EY3 (quarterly x4): 79200000
+- Elementary Grade 1-5 (quarterly x4): 146400000
+- Middle School Grade 6-10 (quarterly x4): 177600000
+- High School Grade 10-12 (quarterly x4): 207600000
+[binus-school-simprug] ONE-TIME FEES:
+- Registration Fee: 800000
+- Enrollment Fee (EY1-EY3 package): 71000000
+- Enrollment Fee (EY1 entry 2024): 16000000
+- Enrollment Fee (EY2 entry 2024): 28000000
+- Enrollment Fee (EY3 entry 2024): 39000000
+- Enrollment Fee (Grade 1-5): 169000000
+- Enrollment Fee (Grade 2-5): 164000000
+- Enrollment Fee (Grade 3-5): 146000000
+- Enrollment Fee (Grade 4-5): 135000000
+- Enrollment Fee (Grade 5 only): 74000000
+- Enrollment Fee (Grade 6-10): 182000000
+- Enrollment Fee (Grade 7-10): 182000000
+- Enrollment Fee (Grade 8-10): 163000000
+- Enrollment Fee (Grade 9-10): 148000000
+- Enrollment Fee (Grade 10-12): 192000000
+- Enrollment Fee (Grade 11-12): 179000000
+[binus-school-simprug] SOURCE: https://link.binus.org/bssimprug_pricelist2024
+[binus-school-simprug] YEAR: 2024-2025
+NOTE: Quarterly fees converted to annual by multiplying x4. EY1-EY3: 19800000/quarter x4 = 79200000/year. Elementary Grade 1-5: 36600000/quarter x4 = 146400000/year. Middle School Grade 6-10: 44400000/quarter x4 = 177600000/year. High School Grade 10-12: 51900000/quarter x4 = 207600000/year. Enrollment Fees are one-time payments upon entry to respective level; partial enrollment fees available for students joining mid-level. A 10% sibling discount on Enrollment Fees may apply. Fees exclude co-curricular programs, uniforms, meals, and specialised equipment. All payments are non-refundable and non-transferable. Source also: https://binus.edu/admissions/school/
