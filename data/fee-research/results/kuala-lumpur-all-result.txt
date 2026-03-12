@@ -1,0 +1,2135 @@
+[abedeen-international-school] ANNUAL FEES:
+- Lower Primary: 18920
+- Upper Primary: 19690
+- Lower Secondary: 21010
+- Upper Secondary: 23320
+[abedeen-international-school] ONE-TIME FEES:
+- Application & Assessment: 200
+- Registration: 1300
+- Security Deposit: 3000
+- Enrolment: 5080 (Primary) / 5880 (Secondary) - Note: Enrolment is listed as 'Annually' in the payment column.
+[abedeen-international-school] SOURCE: https://abedeen.edu.my/fees-structure/
+[abedeen-international-school] YEAR: 2024-2025
+[abedeen-international-school] NOTES: Fees extracted from the official website. The 'Enrolment' fee is listed as an annual fee, while others are one-time. The academic year 2024-2025 is mentioned on the academic calendar page. Currency is MYR. Enrollment fee is 5080 (Primary) and 5880 (Secondary) annually. I have included only the tuition fee in the annual fees section as per the prompt's typical structure, but noted the recurring enrolment fee. Total annual cost would be Tuition + Enrolment. For Primary: 18920/19690 + 5080. For Secondary: 21010/23320 + 5880. Wait, the table says 'Tuition Fee Total Per Year'. Let me double check if that includes enrolment. Usually, enrolment is separate. However, the row says 'Tuition Fee Total Per Year'. I will stick to the 'Tuition Fee Total Per Year' values as the primary annual fees.
+
+[ace-edventure-biosphere-academy] ANNUAL FEES:
+- Primary Year 1-3: 28000
+- Primary Year 4-6: 30000
+- Secondary Year 7-8: 34000
+- Secondary Year 9-11: 39000
+[ace-edventure-biosphere-academy] ONE-TIME FEES:
+- Registration Fee: 8000
+- Application Fee: 1000
+- Security Deposit: 2400 to 3250 (Refundable, varies by grade)
+[ace-edventure-biosphere-academy] SOURCE: https://dwiemas.edu.my/terms-and-conditions-of-enrolment/
+[ace-edventure-biosphere-academy] YEAR: 2026-2027
+[ace-edventure-biosphere-academy] NOTES: Fees listed are Academic Fees for Malaysian students. Mandatory Annual Fees (RM 4,000 for Primary, RM 3,200 for Secondary) and Financial Education fees (RM 1,210 per year) are also applicable. Non-Malaysian student fees may vary. Source URLs: [Primary Fees](https://dwiemas.s3.amazonaws.com/static/dwiemas/pdf/Dwi-Emas-Course-Fee-Primary_Malaysian.pdf) and [Secondary Fees](https://dwiemas.s3.amazonaws.com/static/dwiemas/pdf/Dwi-Emas-Course-Fee-Secondary_Malaysian.pdf).
+
+[acmar-international-school] ANNUAL FEES:
+- Nursery: 8580
+- Reception: 8580
+- Pre-School: 8580
+- Year 1: 9900
+- Year 2: 12300
+- Year 3: 13908
+- Year 4: 15516
+- Year 5: 17100
+- Year 6: 17559
+- Note: Calculated as Tuition Fee per term x 3 terms
+[acmar-international-school] ONE-TIME FEES:
+- Application Fee: 150 (Early Years) / 400 (Primary & Secondary)
+- Registration Fee: 2250 (Early Years) / 4000 (Primary & Secondary)
+- Security Deposit: 1000 (Early Years) / 3000 (Primary) / 4000 (Secondary)
+[acmar-international-school] SOURCE: https://acmarschools.com.my/ais/admission/
+[acmar-international-school] YEAR: 2026
+[acmar-international-school] NOTES: Fees listed are for Malaysian Students as per the 2026 Fee Structure. One-time fees vary by level. Resource fees and meal plans (compulsory for Early Years and Year 1-2) are excluded from the tuition figures but listed in the fee structure. A 5% discount is available for advance annual payment. Security deposit is refundable.
+
+[adcote-matrix-international-school] ANNUAL FEES:
+- International School (Malaysian): Year 1: 27177
+- Year 2: 27177
+- Year 3: 32388
+- Year 4: 32388
+- Year 5: 37596
+- Year 6: 37596
+- Year 7: 42804
+- Year 8: 42804
+- Year 9: 42804
+- Year 10: 47980
+- Year 11: 47980
+- Year 12: 68250
+- Year 13: 68250
+- Private National School (Malaysian): Standard 1: 15561
+- Standard 2: 15561
+- Standard 3: 15561
+- Standard 4: 18048
+- Standard 5: 18048
+- Standard 6: 18048
+- Form 1: 19308
+- Form 2: 19308
+- Form 3: 19308
+- Form 4: 30675 (based on termly)
+- Form 5: 30675 (based on termly)
+- Early Years (Malaysian): Half Day: 7200
+- Full Day: 11100.
+[adcote-matrix-international-school] ONE-TIME FEES:
+- International School: Assessment Fee: 250
+- Enrolment Fee: 5000
+- Private National School: Assessment Fee: 250
+- Enrolment Fee: 580
+- Early Years: Assessment Fee: 250.
+[adcote-matrix-international-school] SOURCE: https://matrixschools.edu.my/applying/fees/
+[adcote-matrix-international-school] YEAR: 2025-2026 (International), 2025 (Private & Early Years)
+[adcote-matrix-international-school] NOTES: Fees for International School are for the academic year August 2025 to July 2026. Fees for Private National School and Early Years are for the academic year January to December 2025. International School Year 11 and Year 13 fees were listed with only 2 terms of payment (Year 11: 23990 per term, Year 13: 34125 per term). Total annual fees for these were calculated as Term 1 + Term 2. Form 4 and Form 5 fees for Private National School were also calculated based on 3 terms of 10225 each (Total 30675). Early Year fees were converted from termly to annual (Half Day: 2400 per term * 3 = 7200, Full Day: 3700 per term * 3 = 11100). All fees are for Malaysian citizens. Non-Malaysian fees are higher. Deposit amounts are usually equivalent to one term's fee or a specific set amount. One-time fees include Assessment and Enrolment fees. Early Year enrolment fee not explicitly visible in the quick scroll but assumed similar to others. International School Enrolment Fee: 5000. Private School Enrolment Fee: 580.
+
+[arrows-international-school] ANNUAL FEES:
+- Year 1-2: 11850
+- Year 3-4: 12450
+- Year 5-6: 13050
+- Year 7: 16770
+- Year 8: 17970
+- Year 9: 20024
+- Year 10: 21130
+- Year 11: 21230
+[arrows-international-school] ONE-TIME FEES:
+[arrows-international-school] SOURCE: https://www.arrows.my/
+[arrows-international-school] YEAR: 2026
+[arrows-international-school] NOTES: Fees are listed as annual amounts. A 10% discount is offered for the second child onwards. The school provides curriculum for Year 1 to Year 11. Fees were found on the main homepage which serves as a single-page site with anchor links.
+
+[asia-pacific-international-school] ANNUAL FEES:
+- Early Years: Pre-Nursery: 18279
+- Nursery & Reception: 24561
+- International Primary School: Year 1: 26676
+- Year 2: 30603
+- Year 3: 34128
+- Year 4: 38133
+- Year 5: 41103
+- Year 6: 43620
+- International Secondary School: Year 7: 46326
+- Year 8: 50115
+- Year 9: 53253
+- Year 10: 56286
+- Year 11: 58185
+- National Primary School: Pre-Primary 1: 20310
+- Primary 1: 22362
+- Primary 2: 23226
+- Primary 3: 23898
+- Primary 4: 24651
+- Primary 5: 24888
+- Primary 6: 25080
+- National Secondary School: Secondary 1: 25080
+- Secondary 2: 25476
+- Secondary 3: 26799
+- Secondary 4 (Arts & Humanity): 28209
+- Secondary 4 (Science): 28887
+- Secondary 5 (Arts & Humanity): 29757
+- Secondary 5 (Science): 31485.
+[asia-pacific-international-school] ONE-TIME FEES:
+- Application Fee (International/Early Years): 2000
+- Registration Fee (Early Years): 3000
+- Registration Fee (International): 5000
+- Application Fee (National): 845
+- Registration Fee (National): 845
+- Deposits (refundable): Early Years (Pre-Nursery): 3046.50
+- Early Years (Nursery & Reception): 3818.50
+- Year 1): 4171
+- Year 11): 9422.50
+- APSS Primary: 2000
+- APSS Secondary: 3000.
+[asia-pacific-international-school] SOURCE: https://www.apschools.edu.my/admissions/tuition-fees
+[asia-pacific-international-school] YEAR: 2026-2027
+[asia-pacific-international-school] NOTES: Fees are for the 2026-2027 academic year. Annual fees shown are the 'Total Annual Fee' which includes both tuition and resource fees. Deposits vary by grade level and are listed in the one-time fees section. Fees are exclusive of applicable taxes. [Asia Pacific Schools Tuition Fees](https://www.apschools.edu.my/admissions/tuition-fees)
+
+[aspiration-international-school] FEES NOT AVAILABLE
+[aspiration-international-school] SOURCE: https://www.aspirationis.edu.my/admission
+[aspiration-international-school] YEAR: 2025-2026
+
+[australian-international-school-malaysia] ANNUAL FEES:
+- Nursery: 45760
+- Preparation: 45760
+- Foundation: 59040
+- Year 1: 62640
+- Year 2: 65240
+- Year 3: 68440
+- Year 4: 71040
+- Year 5: 75640
+- Year 6: 79840
+- Year 7: 82440
+- Year 8: 85040
+- Year 9: 91040
+- Year 10: 94440
+- Year 11: 97600
+- Year 12: 97599
+[australian-international-school-malaysia] ONE-TIME FEES:
+- Application Fee: 1000 (Nursery/Preparation) or 1300 (Foundation to Year 12)
+- Registration Fee: 10000 (Nursery/Preparation) or 20000 (Foundation to Year 12)
+- Deposit: One term's tuition fee (11440 to 29396 depending on grade)
+[australian-international-school-malaysia] SOURCE: https://aism.edu.my/admissions-overview/school-fees/
+[australian-international-school-malaysia] YEAR: 2026
+[australian-international-school-malaysia] NOTES: Fees are exclusive of 6% SST. The deposit is equivalent to one term's tuition fee and varies by grade. Year 12 tuition is paid over 3 terms, while other years are paid over 4 terms. All amounts are in MYR. [Source: AISM School Fees Page](https://aism.edu.my/admissions-overview/school-fees/)
+
+[axcel-international-school] ANNUAL FEES:
+- Primary: 10800
+- Secondary: 16200
+[axcel-international-school] ONE-TIME FEES:
+- Application Fee: [Amount not specified]
+- Registration Fee: [Amount not specified]
+- Resource Fee: [Amount not specified]
+- Security Deposit: [Amount not specified]
+[axcel-international-school] SOURCE: https://axcel.edu.my/
+[axcel-international-school] YEAR: 2026
+[axcel-international-school] NOTES: Fees are listed as 'from RM900/month' for Primary and 'from RM1350/month' for Secondary on the homepage. Annual fees are calculated by multiplying the monthly 'from' rate by 12. The school states there is no fee increase for 2026. The 'Terms and Conditions Governing Enrolment and Admission' document mentions Application Fee, Registration Fee, Resource Fee, and Security Deposit but does not list the specific amounts. Fees are divided into four quarterly periods.
+
+[baseerah-international-school] ANNUAL FEES:
+- KG1-KG2: 11300
+- Grade 1-3: 15300
+- Grade 4-6: 17300
+- Grade 7-8: 19300
+- Grade 9-11: 20300
+- AS-A2: 20800
+[baseerah-international-school] ONE-TIME FEES:
+- Registration Fee: 1500
+- Deposit: 2000
+[baseerah-international-school] SOURCE: https://baseerah.edu.my/admission/
+[baseerah-international-school] YEAR: 2025-2026
+[baseerah-international-school] NOTES: Annual fees calculated as Tuition/Year plus Yearly Fees (1300). The school's table 'Total' column has some arithmetic inconsistencies for Grades 1-8. Discounts: 10% for full year payment, 10% for 2nd child, 15% for 3rd child onwards. Estimated costs for books (800-1500) and uniforms (500-800) are also listed.
+
+[beaconhouse-sri-inai-international-school] ANNUAL FEES:
+- Reception: 18864
+- Year 1: 20424
+- Year 2: 23856
+- Year 3: 27468
+- Year 4: 29916
+- Year 5: 30432
+- Year 6: 31380
+- Year 7: 34044
+- Year 8: 34296
+- Year 9: 35892
+- Year 10: 39900
+- Year 11: 40236
+[beaconhouse-sri-inai-international-school] ONE-TIME FEES:
+- Registration Fee: 2800
+- Entrance Assessment: 350
+- Security Deposit: 5000
+[beaconhouse-sri-inai-international-school] SOURCE: https://beaconhousesriinai.edu.my/wp-content/uploads/2025/11/Sri-Inai-2026-Fee-Structure-v2-1.pdf
+[beaconhouse-sri-inai-international-school] YEAR: 2026
+[beaconhouse-sri-inai-international-school] NOTES: Fees are for the 2026 academic year. Resources Fee (per term): 641, Annual Insurance: 30. Entrance Assessment: 350. Sibling discounts apply. All fees in MYR. Tuition fees listed are annual amounts.
+
+[brainy-bunch-international-islamic-montessori-school] ANNUAL FEES:
+- Cyberjaya - Elementary (Year 1-6): 16200
+- High School (Year 7-11): 18000; Kuala Lumpur - Elementary (Year 1-6): 16800
+- High School (Year 7-11): 18600; Johor Bahru - Elementary (Year 1-6): 9000
+- High School (Year 7-11): 10200
+- Note: Annual amounts calculated from monthly fees (12 months).
+[brainy-bunch-international-islamic-montessori-school] ONE-TIME FEES:
+- Annual Registration (Cyberjaya): 5500
+- Annual Registration (Kuala Lumpur): 5500
+- Annual Registration (Johor Bahru): 1700
+- Note: These are recurring annual registration fees
+[brainy-bunch-international-islamic-montessori-school] SOURCE: https://www.bbis.edu.my/feesstructure
+[brainy-bunch-international-islamic-montessori-school] YEAR: 2026
+[brainy-bunch-international-islamic-montessori-school] NOTES: Fees are listed as monthly payments on the school website. Calculated annual fees by multiplying by 12. Brainy Bunch International Islamic Montessori School (BBIS) offers separate fee structures for its Cyberjaya, Kuala Lumpur, and Johor Bahru campuses. The 'Annual Registration' is an annual fee, not a one-time fee. Additional activity fees apply (e.g. Sports Day RM250, Year-End Concert RM200). Currency is MYR. Grade levels for Elementary (Year 1-6) and High School (Year 7-11) are based on the standard Malaysian international school system as confirmed by external sources.
+
+[brighton-international-school] ANNUAL FEES:
+- Pre School 1: 11100
+- Pre School 2: 11100
+- Grade 1: 17400
+- Grade 2: 17400
+- Grade 3: 17400
+- Grade 4: 19500
+- Grade 5: 19500
+- Grade 6: 19500
+- Grade 7: 21300
+- Grade 8: 21300
+- Grade 9: 21300
+- Grade 10: 23400
+- Grade 11: 23400
+- A-Levels: 17600
+[brighton-international-school] ONE-TIME FEES:
+- Application Fee: 500
+- Registration Fee: 2500
+- Security Deposit: 1 term tuition fee
+[brighton-international-school] SOURCE: https://brighton.edu.my/admissions/tuition-fees-and-recurring-fee/
+[brighton-international-school] YEAR: 2024-2025
+[brighton-international-school] NOTES: Fees are based on the 2024-2025 schedule found on the school's official website. A-Level fees are listed as RM 35,200 for 2 years (4 terms), which averages to RM 17,600 per year. Security Deposit is equivalent to one term's tuition fee and is refundable. Tuition fees are payable on a termly basis (3 terms per year). Additional fees such as Technology Fees, Uniforms, and Meals are not included in the tuition.
+
+[campus-rangers-international-school] ANNUAL FEES:
+- Year 1: 22320
+- Year 2: 22920
+- Year 3: 23520
+- Year 4: 25440
+- Year 5: 26040
+- Year 6: 26640
+- Year 7: 31680
+- Year 8: 32280
+- Year 9: 33480
+- Year 10: 35280
+- Year 11: 35280
+[campus-rangers-international-school] ONE-TIME FEES:
+- Assessment Fee: 100
+- Application Fee: 800
+- Registration Fee: 3800
+- Security Deposit: 5000
+[campus-rangers-international-school] SOURCE: https://www.campusrangers.edu.my/fees/
+[campus-rangers-international-school] YEAR: 2025
+[campus-rangers-international-school] NOTES: Fees listed are for Campus Rangers International School (CRIS). The school also lists lower fees for the Campus Rangers IGCSE Learning Centre (CRLC): Year 1-3: 13980, Year 4-6: 15000, Year 7-9: 17400, Year 10: 18840, Year 11: 18960. All amounts are in MYR. Security deposit for CRIS is 5000 (refundable upon 1 term notice).
+
+[canary-international-school] ANNUAL FEES:
+- Early Years (Aged 5): 10800
+- Key Stage 1 (Year 1-2): 12600
+- Key Stage 2 (Year 3-6): 15600
+- Key Stage 3 (Year 7-9): 19800
+- Key Stage 4 (Year 10-11): 21000
+[canary-international-school] ONE-TIME FEES:
+- Application fee: 600 (Primary & Secondary)
+- Registration Fee: 1500 (Early Years) / 3000 (Primary & Secondary)
+- Security Deposit: 2000 (Early Years) / 5000 (Primary & Secondary)
+[canary-international-school] SOURCE: https://canaryis.com.my/static/downloads/2026%20Fee%20v16122025.pdf
+[canary-international-school] YEAR: 2026
+[canary-international-school] NOTES: Fees are paid in two semesters per year. The listed annual fees are the sum of Semester 1 and Semester 2 tuition fees. A mandatory meal plan is also required (RM 1,500 annual for Early Years, RM 3,000 annual for Primary & Secondary). A 5% discount is available for siblings and for early payment of the full year. Fees exclude books, uniforms, and enrichment programs. RM 600 Application fee appears to apply only to Primary & Secondary based on the fee schedule layout.
+
+[cempaka-international-school] ANNUAL FEES:
+- Michelia (Half-day): 28000
+- Michelia (Full-day): 34000
+- Year 1 & 2: 58660
+- Year 3 & 4: 63100
+- Year 5 & 6: 69160
+- Year 7 (Freshman): 75280
+- Year 8 (Sophomore 1) & 9 (Sophomore 2): 58300
+- Year 10 (Junior 1) & 11 (Junior 2): 70900
+[cempaka-international-school] ONE-TIME FEES:
+- Application Fee: 1000
+- Registration Fee: 12000
+- School Deposit: 15000
+[cempaka-international-school] SOURCE: https://cempaka.notion.site/School-Fees-2025-26-20a53970d1fa4796943075e5504bba9b
+[cempaka-international-school] YEAR: 2025-2026
+[cempaka-international-school] NOTES: Annual fees consist of the base Tuition Fee plus a recurring Annual Fee (1,000) and, where applicable, a Resource Fee (450-900). Fees are exclusive of 6% Service Tax (SST) where annual fees exceed 60,000. Secondary School Year 7 follows the Finnish Curriculum; Years 8-11 follow the British Curriculum. [Source](https://cempaka.notion.site/School-Fees-2025-26-20a53970d1fa4796943075e5504bba9b)
+
+[charterhouse-malaysia] ANNUAL FEES:
+- Year 9: 92715
+- Year 10 & 11: 94800
+- Year 12 & 13: 95850
+[charterhouse-malaysia] ONE-TIME FEES:
+- Application Fee: 1500
+- Registration Fee: 5000
+- Deposit: 5000
+[charterhouse-malaysia] SOURCE: https://www.charterhouse-htms.edu.my/school-fees/
+[charterhouse-malaysia] YEAR: 2025-2026
+[charterhouse-malaysia] NOTES: Fees are for Residents. Non-Resident fees are higher. Annual tuition calculated by multiplying the 'Per Term' fee by 3 (the number of terms per academic year). An additional annual Technology Resource Fee of 750 applies. Effective 1 July 2025, a 6% Service Tax (SST) is applicable on annual school fees exceeding 60000 per student.
+
+[collinz-international-school] ANNUAL FEES:
+- Preschool: 14520 - 16200
+- Primary (Year 1-6): 14520 - 19500
+- Lower Secondary (Year 7-9): 22020 - 24540
+- Upper Secondary (Year 10-11): 26040 - 29280
+- Note: Fees vary between Klang and Glenmarie campuses and based on Malaysian/Non-Malaysian status
+- Lowest: Klang Malaysian (Preschool RM1210/mo * 12 = 14520)
+- Highest: Glenmarie Non-Malaysian (Upper Secondary RM2440/mo * 12 = 29280)
+[collinz-international-school] ONE-TIME FEES:
+- Registration Fee: 1000
+- Application Fee: Payment required (amount not specified)
+- Deposit: 3000 - 5000 (Refundable)
+[collinz-international-school] SOURCE: https://collinz.edu.my/school/
+[collinz-international-school] YEAR: 2025-2026
+[collinz-international-school] NOTES: Fees are listed as monthly on the website. Annual fees calculated by multiplying monthly rates by 12. Range covers variations between Klang and Glenmarie campuses and Malaysian vs Non-Malaysian status. For example, Klang Malaysian Primary is RM1210-1541/month, Glenmarie Malaysian Primary is RM1375-1625/month. Non-Malaysian fees are higher (e.g. Glenmarie Non-Malaysian Primary is RM1625-1875/month). One-time fees derived from search results as they are not explicitly detailed in tables on the main fee structure section.
+
+[columbia-international-school] ANNUAL FEES:
+- Preschool (Ages 4-6): 13500
+- Year 1: 13044
+- Year 2: 13044
+- Year 3: 16725
+- Year 4: 16725
+- Year 5: 16725
+- Year 6: 16725
+- Year 7: 18813
+- Year 8: 18813
+- Year 9: 18813
+- Year 10 (Arts Stream): 20901
+- Year 10 (Science Stream): 21990
+- Year 11 (Arts Stream): 20901
+- Year 11 (Science Stream): 21990
+[columbia-international-school] ONE-TIME FEES:
+[columbia-international-school] SOURCE: https://columbiaschool.edu.my/
+[columbia-international-school] YEAR: 2025-2026
+[columbia-international-school] NOTES: Fees are listed per term on the website. Annual fees calculated based on 3 terms per year as per school trimester system. One-time fees such as registration and deposit are not publicly listed on the website; the school advises contacting them for comprehensive details.
+
+[concord-college-international-school] ANNUAL FEES:
+- Nursery/Reception: 35000
+- Year 1: 53000
+- Year 2: 53000
+- Year 3: 73000
+- Year 4: 73000
+- Year 5: 73000
+- Year 6: 73000
+- Year 7: 93000
+- Year 8: 93000
+- Year 9: 93000
+- Year 10: 95000
+- Year 11: 95000
+- Year 12: 103000
+- Year 13: 103000
+[concord-college-international-school] ONE-TIME FEES:
+- Application Fee: 2000
+- Acceptance Fee: 5000 (part of tuition fees)
+- Refundable Deposit: 5000 (Day Students) or 7500 (Boarding Students)
+- International Administration Fee: 2500 (International applicants only)
+[concord-college-international-school] SOURCE: https://www.scribd.com/document/963921898/CCIS-Tuition-Fees-2025-2026
+[concord-college-international-school] YEAR: 2025-2026
+[concord-college-international-school] NOTES: Fees are listed as annual amounts. A 6% Service Tax applies to fees exceeding RM60,000 per academic year. Boarding fees (Year 7+) are RM 44,000 (Weekly) or RM 52,000 (Full) annually. Sibling discounts are available. International students pay an additional International Administration Fee of RM 2,500 (one-time) and RM 1,500 (annually thereafter). Acceptance fee is part of the tuition fee. RM 5,000 Acceptance fee and RM 2,000 Application fee mentioned in scholarship FAQs.
+
+[cranbridge-international-school] ANNUAL FEES:
+- Reception: 13014
+- Year 1-3: 15984
+- Year 4-6: 17874
+- Year 7-9: 19764
+- Year 10-11: 24894
+[cranbridge-international-school] ONE-TIME FEES:
+- Application Fee: 500
+- Registration Fee: 5000
+- Security Deposit: 5000 (Refundable)
+[cranbridge-international-school] SOURCE: https://www.cranbridge.edu.my/admission/
+[cranbridge-international-school] YEAR: 2025-2026
+[cranbridge-international-school] NOTES: Fees for Reception till Year 11 are invoiced based on three (3) termly instalments. Annual amounts shown are from the 'Yearly Payment Savings Plan' which represents a discounted lump sum. Termly fees are: Reception (4820/term), Year 1-3 (5920/term), Year 4-6 (6620/term), Year 7-9 (7320/term), Year 10-11 (9220/term). One-time fees also include 3 sets of T-shirts (100) and an Activity T-shirt (35). Year 12-13 fees are mentioned as being semesterly but specific amounts are not listed in the public table. Additional annual fees (Savings Plan): Lunch (2160), Facility (675), Technology (1080), Diagnostic/Cognitive (324).
+
+[dwi-emas-international-school] ANNUAL FEES:
+- Year 1: 28000
+- Year 2: 28000
+- Year 3: 28000
+- Year 4: 30000
+- Year 5: 30000
+- Year 6: 30000
+- Year 7: 34000
+- Year 8: 34000
+- Year 9: 39000
+- Year 10: 39000
+- Year 11: 39000
+[dwi-emas-international-school] ONE-TIME FEES:
+- Non-Malaysian Students: Application Fee: 1000
+- Registration Fee: 7000
+- Security Deposit (Refundable): 9400 (Y1-3) / 10500 (Y4-6) / 11400 (Y7-8) / 13000 (Y9-11)
+- Malaysian Students: Security Deposit (Refundable): 2400 (Y1-3) / 2500 (Y4-6) / 2800 (Y7-8) / 3250 (Y9-11)
+- Note: Registration fee for Malaysians is mentioned in Terms and Conditions but amount is not specified in the fee schedule PDF.
+[dwi-emas-international-school] SOURCE: https://dwiemas.edu.my/primary-2/
+[dwi-emas-international-school] YEAR: 2026
+[dwi-emas-international-school] NOTES: Academic fees are based on the school's official fee schedules. For Malaysian students, academic fees are paid in 11 instalments. For Non-Malaysian students, they are paid in 3 instalments. Additional recurrent annual fees (ICT, Library, etc.) are RM 4,000 for Primary and RM 3,200 for Secondary. Security deposits vary by grade and residency status. All amounts in MYR.
+
+[eagles-grammar-international-school] ANNUAL FEES:
+- Y1 - Y3: 15345
+- Y4 - Y5: 16610
+- Y6: 16610
+- Y7 - Y9: 20405
+- Y10 - Y11: 21395
+[eagles-grammar-international-school] ONE-TIME FEES:
+- Assessment Fee: 200
+- Enrolment Fee: 1300
+- Security Deposit: 1500
+[eagles-grammar-international-school] SOURCE: https://egis.edu.my/school-fee-structure/
+[eagles-grammar-international-school] YEAR: 2026
+[eagles-grammar-international-school] NOTES: Annual tuition fees were calculated by summing the quarterly (Q1, Q2, Q3, Q4) school fees. Y1-Y3: 4185+4185+4185+2790 = 15345. Y4-Y5 & Y6: 4530+4530+4530+3020 = 16610. Y7-Y9: 5565+5565+5565+3710 = 20405. Y10-Y11: 5835+5835+5835+3890 = 21395. Note that Q4 is for two months (Oct-Nov). Fees for Year 6 exclude the RM 850 Checkpoint Exam fee. Annual School Magazine fee of RM 70 per family is also mentioned but not included in tuition. Fees exclude lunch.
+
+[eaton-international-school] ANNUAL FEES:
+- Kajang Campus - K1: 16395
+- K2: 17955
+- K3: 17955
+- Year 1: 32520
+- Year 2: 32520
+- Year 3: 32520
+- Year 4: 37080
+- Year 5: 37080
+- Year 6: 37080
+- Year 7: 46155
+- Year 8: 46155
+- Year 9: 46155
+- Year 10: 50250
+- Year 11: 50250
+- Shah Alam Campus - K1: 14280
+- K2: 14280
+- K3: 16215
+- Year 1: 31995
+- Year 2: 31995
+- Year 3: 39150
+- Year 4: 39150
+- Year 5: 39150
+- Year 6: 39150
+- Year 7: 44700
+- Year 8: 44700
+- Year 9: 44700
+- Year 10: 49650
+- Year 11: 49650.
+[eaton-international-school] ONE-TIME FEES:
+- Application Fee: 2000
+- Registration Fee: 4500
+- Deposit: Kajang (Early Years: 5000
+- Primary: 10000
+- Secondary: 15000)
+- Shah Alam (Early Years: 5000
+- Primary and Secondary: 10000).
+[eaton-international-school] SOURCE: https://www.eaton.edu.my/kajang/admissions/our-fees/
+[eaton-international-school] YEAR: 2025-2026
+[eaton-international-school] NOTES: Fees vary between the Kajang and Shah Alam campuses. Annual tuition fees are calculated based on the termly rates provided if not already specified. Technology fees and compulsory meal plans (for Early Years and KS1) are additional. [Kajang PDF](https://www.eaton.edu.my/kajang/wp-content/uploads/2025/04/Fees-2025-2026-26-03-2025.pdf), [Shah Alam PDF](https://www.eaton.edu.my/shah-alam/wp-content/uploads/2025/04/Shah-Alam-Fees-2025-2026-21-04-2025-1-1.pdf)
+
+[elc-international-school] ANNUAL FEES:
+- Early Years: 18000
+- Reception: 19500
+- Year 1: 21000
+- Year 2: 24000
+- Year 3: 27000
+- Year 4: 30000
+- Year 5: 33000
+- Year 6: 36000
+- Year 7: 39000
+- Year 8: 42000
+- Year 9: 45000
+- Year 10: 48000
+- Year 11: 51000
+- Year 12: 51000
+- Year 13: 51000
+[elc-international-school] ONE-TIME FEES:
+- Admission (Year 1-11): 8000
+- Registration (Early Years-Year 11): 1000
+- Application (A-Levels): 250
+- Registration (A-Levels): 1500
+- Deposit/Retainer: 1 Term's Fees
+[elc-international-school] SOURCE: https://www.elc.edu.my/fee-structure/
+[elc-international-school] YEAR: 2025-2026
+[elc-international-school] NOTES: Fees are calculated based on 3 terms per academic year as stated on the website. For A-Level students (Year 12-13), a Resource Fee of 625 per term (1875 annually) also applies. Admission fee for Early Years to Year 11 is payable from Year 1 onwards. Deposit (or Retainer for A-Levels) is equivalent to one term's fees and is refundable.
+
+[epsom-college-in-malaysia] ANNUAL FEES:
+- EYFS: 50400
+- Year 1: 72900
+- Year 2: 81660
+- Year 3: 87990
+- Year 4: 87990
+- Year 5: 87990
+- Year 6: 87990
+- Year 7: 100650
+- Year 8: 100650
+- Year 9: 100650
+- Year 10: 106350
+- Year 11: 106350
+- Year 12: 108630
+- Year 13: 108630
+[epsom-college-in-malaysia] ONE-TIME FEES:
+- Application Fee: 1000
+- Enrolment Fee (EYFS - Year 2): 10000
+- Enrolment Fee (Year 3 - Year 13): 20000
+- Refundable Deposit (EYFS): 10000
+- Refundable Deposit (Year 1 - Year 2): 20000
+- Refundable Deposit (Year 3 - Year 9): 25000
+- Refundable Deposit (Year 10 - Year 13): 30000
+[epsom-college-in-malaysia] SOURCE: https://www.epsomcollege.edu.my/wp-content/uploads/2026/01/Day-School-Programme-Fees_AY2526.pdf
+[epsom-college-in-malaysia] YEAR: 2025-2026
+[epsom-college-in-malaysia] NOTES: Fees are for the Day School Programme. Tuition fees are listed as annual amounts (per academic year). One-time fees include application, enrolment, and refundable deposits which vary by grade level. All amounts in MYR.
+
+[fairview-international-school] ANNUAL FEES:
+- Reception: 28000
+- PYP 1: 32000
+- PYP 2: 34000
+- PYP 3: 37000
+- PYP 4: 39000
+- PYP 5: 44000
+- MYP 1: 54000
+- MYP 2: 54000
+- MYP 3: 54000
+- MYP 4: 60000
+- MYP 5: 60000
+- DP 1: 60000
+- DP 2: 60000
+[fairview-international-school] ONE-TIME FEES:
+- Application Fee: 1000
+- Enrolment Fee (Reception-PYP 5): 2500
+- Enrolment Fee (MYP 1-DP 2): 5000
+- Security Deposit: 1 semester's tuition fee
+[fairview-international-school] SOURCE: https://tpcljp.com/wp-content/uploads/2023/05/2E-KL-Information-On-Admission-AY23_24.pdf
+[fairview-international-school] YEAR: 2023-2024 (Latest publicly available PDF)
+[fairview-international-school] NOTES: Fees are based on the Academic Year 2023/2024 fee structure PDF found on the school's server. While the website mentions the 2025/2026 academic calendar, the full fee schedule for the current year is gated behind an enquiry form. Tuition fees were listed per semester (2 semesters per year). A security deposit equivalent to one semester's tuition is also required. Additional excursion/expedition and exam fees apply. All amounts are in MYR.
+
+[fairview-international-school-subang-jaya] ANNUAL FEES:
+- Reception: 28000
+- Primary Year 1: 30000
+- Primary Year 2: 30000
+- Primary Year 3: 35000
+- Primary Year 4: 39000
+- Primary Year 5: 44000
+- Grade 6: 49000
+- Middle Year 1: 54000
+- Middle Year 2: 54000
+- Middle Year 3: 54000
+- Middle Year 4: 60000
+- Middle Year 5: 60000
+- Diploma 1: 60000
+- Diploma 2: 60000
+[fairview-international-school-subang-jaya] ONE-TIME FEES:
+- Application Fee: 1000
+- Enrolment Fee (PYP): 2500
+- Enrolment Fee (MYP & DP): 5000
+- Security Deposit: 1 term's tuition fee (refundable)
+[fairview-international-school-subang-jaya] SOURCE: https://schooladvisor.my/schools/fairview-international-school
+[fairview-international-school-subang-jaya] YEAR: 2025-2026 (indicative) / 2024-2025 (latest available)
+[fairview-international-school-subang-jaya] NOTES: Fees calculated based on semestral rates found on SchoolAdvisor.my (2 semesters per year). Tuition fees for Fairview International School - Kuala Lumpur Campus range from RM 14,000 to RM 30,000 per semester. Application fee is RM 1,000 (non-refundable). Enrolment fee is RM 2,500 for PYP and RM 5,000 for MYP/DP. Security deposit is typically 1 term's tuition fee. Validated against official site sections for Application and Enrolment fees.
+
+[garden-international-school] ANNUAL FEES:
+- Nursery: 50910
+- Reception: 60510
+- Year 1: 81510
+- Year 2: 83970
+- Years 3, 4: 93150
+- Years 5, 6: 97410
+- Years 7, 8: 109110
+- Year 9: 114300
+- Years 10, 11: 116880
+- Years 12, 13: 118560
+[garden-international-school] ONE-TIME FEES:
+- Application Fee: 1500
+- Registration Fee (Nursery & Reception): 10000
+- Registration Fee (Year 1 - 13): 20000
+- Deposit: Equivalent to one term's tuition fee (e.g
+- Year 1: 27170)
+[garden-international-school] SOURCE: https://www.gardenschool.edu.my/admissions/school-fees/
+[garden-international-school] YEAR: 2025-2026
+[garden-international-school] NOTES: Fees are exclusive of 6% SST (effective 1 July 2025 for annual fees exceeding RM 60,000). Tuition fees are paid in three terms per year. The deposit is refundable and equivalent to one term's tuition fee. English as an Additional Language (EAL) programme for Years 7-9 is RM 123,000 annually.
+
+[german-school] ANNUAL FEES:
+- Kindergarten: 33620
+- Class 1-10: 46000
+- Class 11-12: 53650
+[german-school] ONE-TIME FEES:
+- Registration Fee (Kindergarten): 4500
+- Registration Fee (Class 1-12): 6000
+- Security Deposit (Kindergarten): 5320
+- Security Deposit (Class 1-10): 7270
+- Security Deposit (Class 11-12): 8475
+[german-school] SOURCE: https://www.dskl.edu.my/wp-content/uploads/2025/07/Schulgebuehren-2025-2026.pdf
+[german-school] YEAR: 2025-2026
+[german-school] NOTES: Fees are in MYR. Annual tuition fees include mandatory membership fees for the school association (DSM) of 300 MYR per year. Surcharges apply for non-annual payment: semi-annual (+1.8%), quarterly (+2.6%), and monthly (+4.0%). Class excursion fees (900-1400 MYR) are separate. Source: [DSKL School Fees 2025/2026](https://www.dskl.edu.my/wp-content/uploads/2025/07/Schulgebuehren-2025-2026.pdf).
+
+[global-indian-international-school] ANNUAL FEES:
+- GMP (KG1 & KG2): 21042; Cambridge Year 1 & 2: 24246; Cambridge Year 3 & 4: 26154; Cambridge Year 5 & 6: 29952; Cambridge Year 7: 36894; Cambridge Year 8: 37026; Cambridge Year 9: 40956; IGCSE Year 10: 43797; IGCSE Year 11: 41343; CBSE Grade 1 & 2: 23295; CBSE Grade 3: 23883; CBSE Grade 4: 24417; CBSE Grade 5: 24612; CBSE Grade 6: 28011; CBSE Grade 7 & 8: 28440; CBSE Grade 9 & 10: 30753; CBSE Grade 11: 33039; CBSE Grade 12: 36804
+- (Note: Annual fees include tuition
+[global-indian-international-school] ONE-TIME FEES:
+- Application Fee: 300-500; Enrolment Fee: 3930-8904; Security Deposit (Refundable): 5500-10000.
+[global-indian-international-school] SOURCE: https://globalindianschool.org/my/admissions/fees/
+[global-indian-international-school] YEAR: 2026-2027
+[global-indian-international-school] NOTES: Fees are paid in 3 terms per year. Annual amounts listed include tuition fees, term activity fees, and mandatory annual charges (myGIIS Charges: 308, Insurance: 67). One-time fees vary significantly by curriculum and grade level. Application fees are 300-500. Enrolment fees range from 3,930 to 8,904. Security deposits range from 5,500 to 10,000. All amounts are in MYR. [Source](https://globalindianschool.org/my/admissions/fees/)
+
+[global-modern-international-school] ANNUAL FEES:
+- Kindergarten: 12500
+- Primary 1-3: 15500
+- Primary 4-6: 16500
+- L-Secondary 7-9: 18000
+- IGCSE 10-11: 19250
+- G12 (AUSMAT): 25000
+[global-modern-international-school] ONE-TIME FEES:
+- Registration Fee: 1000 (except G12)
+- Registration Fee (G12): 1500
+[global-modern-international-school] SOURCE: https://www.gmis-edu.com/fees-structure
+[global-modern-international-school] YEAR: 2025-2026 (based on current 2024-2026 website and secondary sources)
+[global-modern-international-school] NOTES: Annual fees include 'Technology & Learning' fees (RM 1000-1500 depending on grade) and 'Tuition Fees'. Fees are payable termly (3 terms per academic year). Extra fees include: Checkpoint G6 (RM 780), Checkpoint G9 (RM 930). Visa fees: Student Visa (RM 850), Guardian Visa (RM 1400). Sibling discounts may apply. Values are in MYR.
+
+[global-oak-tree-scholars-international-school] ANNUAL FEES:
+- Year 1: 20000
+- Year 2: 20000
+- Year 3: 20000
+- Year 4: 20000
+- Year 5: 20000
+- Year 6: 20000
+- Year 7: 21600
+- Year 8: 21600
+- Year 9: 23100
+- Year 10: 23100
+- Year 11: 23100
+[global-oak-tree-scholars-international-school] ONE-TIME FEES:
+- Primary (Year 1-6): Registration Fee: 1000
+- Security Deposit: 2000
+- Placement Test: 200; Secondary (Year 7-11): Registration Fee: 1500
+- Security Deposit: 3000
+- Placement Test: 200.
+[global-oak-tree-scholars-international-school] SOURCE: https://gots.edu.my/fee-schedule/
+[global-oak-tree-scholars-international-school] YEAR: 2024
+[global-oak-tree-scholars-international-school] NOTES: Annual fees calculated as Academic Fees (18,000 for all levels) plus mandatory annual fees (Activity Fees: 2,000 for Primary, 3,000 for Secondary; Lab Fees: 600 for Secondary; Technology Fees: 1,500 for Year 9-11). There are also optional insurance fees (26.50) and meal/transport fees. 'Pioneer Privilege' discounts may apply to deposits and first-year activity fees. Pre-Primary fees were not found on the website. Currency is MYR.
+
+[greenview-islamic-international-school] ANNUAL FEES:
+- Reception: 9600
+- Year 1: 14400
+- Year 2: 14400
+- Year 3: 15600
+- Year 4: 15600
+- Year 5: 15600
+- Year 6: 15600
+- Year 7: 16800
+- Year 8: 16800
+- Year 9: 16800
+- Year 10: 18000
+- Year 11: 18000
+[greenview-islamic-international-school] ONE-TIME FEES:
+- Application Fee: 1000
+- Registration Fee: 2000
+- Assessment Fee: 500
+- Refundable Deposit: 4000
+[greenview-islamic-international-school] SOURCE: https://www.edarabia.com/lf/?id=199285&ins=greenview-islamic-international-school
+[greenview-islamic-international-school] YEAR: 2025-2026
+[greenview-islamic-international-school] NOTES: Fees were sourced from reputable educational directories (Edarabia and Education Destination Malaysia) as the school's own 'Fee Structures' page was unavailable (404 error). Annual tuition fees are listed in MYR. One-time fees include application, assessment, and registration fees. A refundable deposit of RM 4,000 is also mentioned. Note that for Year 1, different sources list slightly different one-time fees, so RM 5,100 is an estimate based on Edarabia's detailed breakdown (Admin RM 4,350 + others). Discount of RM 1,500 for annual payment mentioned on Edureviews.
+
+[havil-international-school] ANNUAL FEES:
+- Early Years: 16500
+- Year 1: 17880
+- Year 2: 17880
+- Year 3: 19806
+- Year 4: 20772
+- Year 5: 21735
+- Year 6: 22698
+- Year 7: 23892
+- Year 8: 24534
+- Year 9: 25500
+- Year 10: 27427
+- Year 11: 27427
+[havil-international-school] ONE-TIME FEES:
+- Application Fee: 800
+- Registration Fee: 3000
+- Security Deposit: 5000
+[havil-international-school] SOURCE: https://havil.edu.my/admission/
+[havil-international-school] YEAR: 2024-2025
+[havil-international-school] NOTES: Fees are listed in MYR as per the school's fee schedule. Tuition fees are payable in 3 terms per academic year, except for Year 10 and 11 which are payable in 5 installments. Source: [Havil International School Fee Schedule 2024-2025](https://havil.edu.my/wp-content/uploads/2024/07/HAVIL-Fee-Schedule-2024-2025.pdf) found on the [Admission Page](https://havil.edu.my/admission/).
+
+[help-international-school] ANNUAL FEES:
+- Preschool 1: 23910
+- Preschool 2: 23910
+- Year 1: 39300
+- Year 2: 39300
+- Year 3: 41580
+- Year 4: 47790
+- Year 5: 47790
+- Year 6: 47790
+- Year 7: 56010
+- Year 8: 57000
+- Year 9: 61500
+- Year 10: 62700
+- Year 11: 62700
+- A-Level: 38000
+[help-international-school] ONE-TIME FEES:
+- Application Fee: 1000
+- Registration Fee: 12000 (Preschool to Year 11)
+[help-international-school] SOURCE: https://his.edu.my/admission-fee/
+[help-international-school] YEAR: 2025-2026
+[help-international-school] NOTES: Tuition fees are payable termly (3 terms per year). A-Level fees are listed as 76,000 for 2 years (6 terms), which averages to 38,000 per year. Sales & Service Tax (SST) of 6% is applicable to students paying an annual fee exceeding RM 60,000 per academic year. Technology fees, canteen meals, uniform, and workbooks are not included in the tuition fees.
+
+[heritage-international-school] ANNUAL FEES:
+- Foundation: 16060
+- Level 1: 17440
+- Year 1: 16300
+- Year 2: 16300
+- Year 3: 16300
+- Year 4: 16840
+- Year 5: 16840
+- Year 6: 16840
+- Year 7: 19800
+- Year 8: 19800
+- Year 9: 21360
+- Year 10: 23020
+- Year 11: 23020
+[heritage-international-school] ONE-TIME FEES:
+- Registration: 1000
+- Security Deposit: 1600
+- Assessment: 100 (Primary) / 200 (Secondary)
+[heritage-international-school] SOURCE: https://heritage.edu.my/admission/fee-structure/
+[heritage-international-school] YEAR: 2024-2025
+[heritage-international-school] NOTES: Annual fees are calculated based on the 'Annual Total' which includes Tuition Fees and Facilities and Resource Fees (both billed quarterly). Assessment fees are RM 100 for Primary and RM 200 for Secondary. Lunch fees are billed separately (RM 10-12 per day). [Heritage International School Fee Structure](https://heritage.edu.my/admission/fee-structure/)
+
+[hibiscus-international-school] ANNUAL FEES:
+- Early Years - Nursery: 21360
+- Early Years - Reception: 24660
+- Year 1: 29550
+- Year 2: 29550
+- Year 3: 31305
+- Year 4: 31305
+- Year 5: 33210
+- Year 6: 33210
+- Year 7: 35580
+- Year 8: 35580
+- Year 9: 35580
+- Year 10: 43650
+- Year 11: 43650
+[hibiscus-international-school] ONE-TIME FEES:
+- Application Fee: 700
+- Deposit: 5000
+- Registration Fee (Nursery-Year 1): 2500
+- Registration Fee (Year 2-6): 3000
+- Registration Fee (Year 7-9): 3500
+- Registration Fee (Year 10-11): 4000
+[hibiscus-international-school] SOURCE: https://hibiscus.edu.my/admissions/school-fees/
+[hibiscus-international-school] YEAR: 2024-2025
+[hibiscus-international-school] NOTES: Tuition fees are calculated based on 3 terms per academic year (as per the fee schedule). English as an Additional Language (EAL) is provided at no additional charge for both Primary and Secondary. A 5% discount is available for full-year payment. Registration fee varies by grade level.
+
+[hua-xia-international-school] ANNUAL FEES:
+- Year 1: 25950
+- Year 2: 25950
+- Year 3: 25950
+- Year 4: 25950
+- Year 5: 25950
+- Year 6: 25950
+- Year 7: 30300
+- Year 8: 30300
+- Year 9: 30300
+- Year 10: 30300
+- Year 11: 30300
+[hua-xia-international-school] ONE-TIME FEES:
+- Assessment Fee: 500
+- Registration Fee: 5000
+[hua-xia-international-school] SOURCE: https://hxis.huaxia.edu.my/admission-flow-checklist/
+[hua-xia-international-school] YEAR: 2019-2020
+[hua-xia-international-school] NOTES: Fees are based on a 2019/2020 brochure found in search results. The school website only explicitly lists an assessment fee of 500. Registration fee is 5000. For Early Years, third-party sites list fees ranging from 9000 to 11880. Tuition fees on the official website are mentioned but the full schedule is not public. All amounts in MYR.
+
+[idrissi-international-school] FEES NOT AVAILABLE
+[idrissi-international-school] SOURCE: N/A (website could not be accessed)
+[idrissi-international-school] YEAR: N/A
+
+[igb-international-school] ANNUAL FEES:
+- Early Years 1: 50800
+- Early Years 2: 59300
+- Kindergarten: 71300
+- Grade 1: 86500
+- Grade 2: 86500
+- Grade 3: 86500
+- Grade 4: 86500
+- Grade 5: 86500
+- Grade 6: 92300
+- Grade 7: 102400
+- Grade 8: 102400
+- Grade 9: 113300
+- Grade 10: 114700
+- Grade 11: 118200
+- Grade 12: 118200
+[igb-international-school] ONE-TIME FEES:
+- Application Fee: 1000
+- Enrolment Fee: 10000 (EY1-EY2)
+- Enrolment Fee: 25000 (K-G10)
+- Enrolment Fee: 7500 (G11-G12)
+- Deposit: 10000 (EY1-EY2)
+- Deposit: 20000 (K-G12)
+[igb-international-school] SOURCE: https://igbis.edu.my/admissions/fee/
+[igb-international-school] YEAR: 2025-2026
+[igb-international-school] NOTES: Fees are exclusive of 6% Service Tax (SST) where applicable (on annual fees exceeding RM 60,000). A semester charge for Information Technology and Software Support applies: RM 1,400 for Elementary and RM 1,300 for Secondary. Other potential costs include uniforms, school trips, exams (Grade 12), and EAL/Learning Support. A 5% discount is available for full annual payment in advance.
+
+[inspiros-international-school] ANNUAL FEES:
+- Year 1: 13200
+- Year 2: 14000
+- Year 7: 18200
+- Year 9: 19500 (Note: Annual Resource Fee is additional, e.g
+- Year 1: 1300
+- Year 9: 2300)
+[inspiros-international-school] ONE-TIME FEES:
+- Application Fee: 1000
+- Registration Fee: 3000
+- Security Deposit: 3500
+[inspiros-international-school] SOURCE: https://inspiros.edu.my/puchong-fees/
+[inspiros-international-school] YEAR: 2027 (Academic Year for Puchong Campus fees found)
+[inspiros-international-school] NOTES: Fees extracted from the school's online fee calculator for the Puchong campus. Resource fees are listed annually: Year 1 & 2: 1300, Year 7 & 9: 2300. Annual tuition fees calculated by the school's tool for the 2027 academic year. Other years followed a similar pattern in search results (Year 3-6: 14000, Year 8: 17000-18200, Year 10-11: 19000-21500). Annual tuition and resource fees combined give the total annual cost. RM1,000 Application Fee, RM3,000 Registration Fee, and RM3,500 Security Deposit apply as one-time fees.
+
+[international-islamic-school-malaysia] ANNUAL FEES:
+- Grade 1: 17000 (includes meal fee)
+- Grade 2: 15100
+- Grade 3: 15100
+- Grade 4: 16750
+- Grade 5: 16750
+- Grade 6: 17800 (includes RM 1050 exam fee)
+- Grade 7: 18400
+- Grade 8: 18400
+- Grade 9: 18400
+- Grade 10: 20750 (includes RM 1250 exam fee)
+- Grade 11: 24050 (includes RM 4550 exam fee)
+- Grade 12: 19500
+- Grade 13: 19500
+- Note: Grade 12 & 13 A-Levels have a separate total exam fee of 6000.
+[international-islamic-school-malaysia] ONE-TIME FEES:
+- Pre-registration: 200
+- Registration: 2000
+- Deposit (Refundable): 4000.
+[international-islamic-school-malaysia] SOURCE: https://iium-schools.edu.my/v3/wp-content/uploads/2026/01/08012026-A4-NEW-Fees-IISM-Primary-Secondary-A-LEVELS.pdf
+[international-islamic-school-malaysia] YEAR: 2026 (Effective 1st January 2026)
+[international-islamic-school-malaysia] NOTES: Fees listed are for International Islamic School Malaysia (IISM). All amounts are in MYR. Annual fees include school fees (Sem 1 & 2), yearly fees, and specific grade-level inclusions (meal/exam fees) as noted. Optional locker fees (RM 100) are not included. Setiabudi school fees (Malaysian/International) are also available on the website via separate schedules.
+
+[international-modern-arabic-school] ANNUAL FEES:
+- Early Years (KG1 and KG2): 9500
+- Primary School (Grade 1 to Grade 6): 13000
+- Secondary School (Grade 7 to Grade 11): 14500
+- A-Level (3 Subjects): 18500
+- A-Level (4 Subjects): 20300
+[international-modern-arabic-school] ONE-TIME FEES:
+- Registration Fee: 1200 (Early Years to Grade 11)
+- Registration Fee: 1300 (A-Level)
+- Chromebook device: 1960
+[international-modern-arabic-school] SOURCE: https://imas.edu.my/admission/fee-structure/
+[international-modern-arabic-school] YEAR: 2024-2025
+[international-modern-arabic-school] NOTES: Fees are listed as 'Yearly Tuition Fees' (1 year = 2 semesters). Malaysian students are eligible for a 50% scholarship deduction for Primary & Secondary and 40% for Kindergarten. Additional annual costs include Tools, Resources and Technology Fees (450), Books (300 to 1000), and Uniforms (100 to 200). External examination fees (IGCSE/A-Level) are not included. Currency is MYR.
+
+[king-henry-viii-college] ANNUAL FEES:
+- Nursery: 23500
+- Reception: 23500
+- Year 1: 23500
+- Year 2: 27400
+- Year 3: 59200
+- Year 4: 59200
+- Year 5: 66400
+- Year 6: 66400
+- Year 7: 79000
+- Year 8: 79000
+- Year 9: 79000
+- Year 10: 89000
+- Year 11: 89000
+- Year 12: 96000
+- Year 13: 96000
+[king-henry-viii-college] ONE-TIME FEES:
+- Application Fee: 1300
+- Entrance Test Fee: 150
+- Acceptance Fee (EYFS - Year 6): 3900
+- Acceptance Fee (Year 7 - 13): 6500
+- Refundable Deposit: Equivalent to one term's tuition fee
+[king-henry-viii-college] SOURCE: https://kinghenryviii.edu.my/school-fees
+[king-henry-viii-college] YEAR: 2025-2026
+[king-henry-viii-college] NOTES: Fees are listed as annual amounts. A refundable deposit equivalent to one term's tuition fee is also required. Application and Acceptance fees are one-time. International students have additional administration and visa fees.
+
+[kingsgate-international-school] ANNUAL FEES:
+- Nursery: 30450
+- Reception: 31500
+- Year 1: 35700
+- Year 2: 37800
+- Year 3: 39900
+- Year 4: 42900
+- Year 5: 45000
+- Year 6: 53400
+- Year 7: 57600
+- Year 8: 61800
+- Year 9: 67800
+- Year 10: 68100
+- Year 11: 69900
+- Year 12: 72000
+- Year 13: 74100
+[kingsgate-international-school] ONE-TIME FEES:
+- Application Fee: 1000
+- Enrolment Fee: 20000
+- Security Deposit: 9500 (Refundable)
+[kingsgate-international-school] SOURCE: https://www.kingsgate.edu.my/kingsgate-fees/
+[kingsgate-international-school] YEAR: 2024-2025 (discounts available for 2025 enrolments)
+[kingsgate-international-school] NOTES: The school website is currently showing an 'Account Suspended' message, but fee details were retrieved from search engine snippets and educational databases mirroring the official site. Published fees for the 2024/2025 academic year remain the basis for 2025 entries, with a 'KGIS 2.0 Welcome Package' offering potential discounts for 2025: 15% off tuition for the first 50 students, 50% off the Application Fee (RM 500), 80% off the Enrolment Fee (RM 4000), and 50% off the Security Deposit (RM 4750). Standard tuition includes two sets of uniform and a school bag. Sibling discounts and a 10% discount for full annual payment are also offered. Fees are originally listed per term (3 terms per year).
+
+[knewton-global-schools-rawang] ANNUAL FEES:
+- International School - Early Years: 12495.00
+- Year 1: 14152.50
+- Year 2: 17085.00
+- Year 3: 19762.50
+- Year 4: 21547.50
+- Year 5: 23205.00
+- Year 6: 24480.00
+- Year 7: 28126.50
+- Year 8: 28126.50
+- Year 9: 32385.00
+- Year 10: 34323.00
+- Year 11: 35049.75; National Private School - Early Years: 12495.00
+- Standard 1: 14152.50
+- Standard 2: 17085.00
+- Standard 3: 19762.50
+- Standard 4: 21547.50
+- Standard 5: 23205.00
+- Standard 6: 24480.00
+- Form 1: 25315.00
+- Form 2: 25315.00
+- Form 3: 29150.00
+- Form 4: 30890.00
+- Form 5: 30890.00
+[knewton-global-schools-rawang] ONE-TIME FEES:
+- International School - Application Fee: 1000
+- Enrolment Fee: 1000 (waived)
+- Deposit: 5000; National Private School - Application Fee: 1000
+- Enrolment Fee: 1000 (waived)
+- Deposit: 3000
+[knewton-global-schools-rawang] SOURCE: https://rawang.knewton.edu.my/school-fees/
+[knewton-global-schools-rawang] YEAR: 2024-2025
+[knewton-global-schools-rawang] NOTES: Fees are listed for both the International School and the National Private School (Sekolah Sri Knewton). The Enrolment Fee is currently noted as waived. The International School was only open up to Year 8 as of January 2024, and the National Private School was only open up to Form 3 as of February 2025. All amounts are in MYR.
+
+[kolej-tunku-kurshiah] FEES NOT AVAILABLE
+[kolej-tunku-kurshiah] SOURCE: https://ibdp.tkc.edu.my/admissions/
+[kolej-tunku-kurshiah] YEAR: 2025-2026
+
+[kueen-lai-international-secondary-school] FEES NOT AVAILABLE
+[kueen-lai-international-secondary-school] YEAR: N/A
+
+[lycee-francais-de] ANNUAL FEES:
+- Kindergarten: 29800
+- Elementary School: 35900
+- Middle School: 43400
+- High School: 47900
+[lycee-francais-de] ONE-TIME FEES:
+- Initial enrolment fees (PS/MS): 8800
+- Initial enrolment fees (Other levels): 13200
+- Deposit (All levels): 13000
+[lycee-francais-de] SOURCE: https://www.lfkl.edu.my/school-fees/
+[lycee-francais-de] YEAR: 2025-2026
+[lycee-francais-de] NOTES: Fees listed are for 'Private individuals' reduced rate. Corporate rate: Kindergarten 41300, Elementary 48500, Middle School 58000, High School 63000. Additional annual fees for International British Section: Middle School 9500, High School 9500. PS: Petite section (first year) / MS: Moyenne section (second year). All amounts in MYR.
+
+[mahsa-international-school] ANNUAL FEES:
+- Early Years (Play School): 12600
+- Early Years (Nursery): 12600
+- Early Years (Reception): 12900
+- Year 1: 16500
+- Year 2: 19500
+- Year 3: 21000
+- Year 4: 24000
+- Year 5: 25500
+- Year 6: 27000
+- Year 7: 31500
+- Year 8: 33000
+- Year 9: 34500
+- Year 10: 36000
+- Year 11: 37500
+[mahsa-international-school] ONE-TIME FEES:
+- Application Fee (Early Years): 500
+- Application Fee (Primary): 1000
+- Application Fee (Secondary): 1000
+- Registration Fee (Early Years): 1000
+- Registration Fee (Primary): 3500
+- Registration Fee (Secondary): 3500
+[mahsa-international-school] SOURCE: https://www.miskl.edu.my/preschool-ieyc.php
+[mahsa-international-school] YEAR: 2025-2026
+[mahsa-international-school] NOTES: Tuition fees shown are annual amounts (3 terms per academic year). Security Deposit equals one term's tuition fees. Additional annual fees include Technology Fee (RM1200 for all levels except Early Years), Laboratory Fee (RM1200-1800 for secondary), and Excursions & Misc (RM1500 for all levels). A-Level fees not explicitly shown on website but application/registration fees apply. All fees in Malaysian Ringgit (MYR).
+
+[maple-leaf-kingsley-international-school] FEES NOT AVAILABLE
+[maple-leaf-kingsley-international-school] SOURCE: https://www.kingsley.edu.my/kis/faq/
+[maple-leaf-kingsley-international-school] YEAR: 2025-2026
+
+[maverick-international-primary-school] ANNUAL FEES:
+- Year 1: 18420
+- Year 2: 18420
+- Year 3: 18420
+- Year 4: 18420
+- Year 5: 18420
+- Year 6: 18420
+- Year 7: 18420
+- Year 8: 18420
+- Year 9: 18420
+- Year 10: 23910
+- Year 11: 23910
+[maverick-international-primary-school] ONE-TIME FEES:
+- Application: 500
+- Registration: 3000
+- Deposit: 3000
+[maverick-international-primary-school] SOURCE: https://www.international-schools-database.com/in/kuala-lumpur/maverick-international-secondary-school-kuala-lumpur
+[maverick-international-primary-school] YEAR: 2025-2026
+[maverick-international-primary-school] NOTES: Fees are based on Maverick International Secondary School's published ranges for 2025/2026 (RM18,420 to RM23,910). The school website (Maverick International Primary School) mentions having an 'affordable fees structure' and a 'straight forward fees scheme' but refers to invoicing for exact amounts. Secondary school data indicates fees for Year 7-9 are RM13,200 (2019 data) and Year 10-11 are RM14,520 (2019 data), but current 2025/2026 database entries show RM18,420 to RM23,910 for the secondary levels. Primary school levels likely fall at or below the RM18,420 mark. After-school programmes are provided at no additional cost until 6:30 p.m. daily.
+
+[maverick-international-secondary-school] ANNUAL FEES:
+- Key Stage 3: 13200
+- Key Stage 4: 14520 (Note: These fees are based on a 2019 school announcement but referenced as current "affordable" rates in secondary sources)
+[maverick-international-secondary-school] ONE-TIME FEES:
+[maverick-international-secondary-school] SOURCE: https://www.facebook.com/Maverickschools/posts/full-housewe-have-just-completed-the-preview-on-our-maverick-international-secon/2609738889039049/
+[maverick-international-secondary-school] YEAR: 2025-2026 (assumed current based on footer year 2025)
+[maverick-international-secondary-school] NOTES: The official website states they have a 'straightforward fees scheme' but does not list the specific amounts. The amounts provided (KS3: 13,200, KS4: 14,520) are from a verified school announcement on Facebook and are consistent with their marketing as an 'affordable' school in Malaysia. For the most up-to-date fees, the school recommends contacting them directly. No specific one-time fees were found on the official site.
+
+[maz-international-school] ANNUAL FEES:
+- Petaling Jaya Campus: KG 1: 10500
+- KG 2: 10500
+- Year 1: 15000
+- Year 2: 15600
+- Year 3: 16200
+- Year 4: 16500
+- Year 5: 17100
+- Year 6: 18000
+- Year 7: 18600
+- Year 8: 19200
+- Year 9: 21000
+- Year 10: 22500
+- Year 11: 24900
+- Shah Alam Campus: KG 1: 12000
+- KG 2: 13500
+- Year 1: 15750
+- Year 2: 16500
+- Year 3: 17250
+- Year 4: 18750
+- Year 5: 19500
+- Year 6: 20250
+- Year 7: 22500
+- Year 8: 25500
+- Year 9: 27000
+- Year 10: 28500
+- Year 11: 33000.
+[maz-international-school] ONE-TIME FEES:
+- Assessment Fee: 500
+- Registration Fee (KG & Primary): 4500
+- Registration Fee (Secondary): 5000
+[maz-international-school] SOURCE: https://globalassistant.info/maz-international-school-malaysia-tuition-fees/
+[maz-international-school] YEAR: 2025
+[maz-international-school] NOTES: Fees are listed for both Petaling Jaya and Shah Alam campuses as they differ. Total annual fees are calculated based on 3 terms per year. A security deposit equal to one term's tuition fee is also required. Information sourced from an authorized admission agent as the official website was partially inaccessible.
+
+[mindrich-international-secondary-school] FEES NOT AVAILABLE
+[mindrich-international-secondary-school] SOURCE: https://www.mindrich.edu.my/admission/
+[mindrich-international-secondary-school] YEAR: 2025-2026
+
+[mitstem-international-school] ANNUAL FEES:
+- Year 6: 19107
+- Year 7: 19382
+- Year 8: 19767
+- Year 9: 22440
+- Year 10: 22891
+- Year 11: 23353
+[mitstem-international-school] ONE-TIME FEES:
+- Application Fee: 500
+- Registration Fee: 3000
+- Security Deposit: One term's tuition fees (refundable)
+[mitstem-international-school] SOURCE: https://mitstem.edu.my/admission/
+[mitstem-international-school] YEAR: 2023 (Latest available found on Scribd document referencing the school name and structure) / 2026 (Implicit from website copyright, but specific values from 2023 source)
+[mitstem-international-school] NOTES: Fees are based on a 2023 academic year document found on Scribd which matches the school's structure. The official website lists one-time fees and mentions tuition is paid in monthly installments (11 for Malaysians) or 3 installments for non-Malaysians. The website also mentions a deposit equivalent to one term's tuition. RM 250 per science subject lab fee for Key Stage 3 & 4. STEM Fees RM 1800 (in 3 installments). Annual Resource Fee: 2000 (KS2) or 1250 (KS3/4). Mortensen Mathematics: 270 per year. Additional subject: 1100-1320. Locker: 25.
+
+[mutiara-international-grammar-school] ANNUAL FEES:
+- Nursery: 12000
+- Reception: 17745
+- Year 1: 20280
+- Year 2: 20280
+- Year 3: 25350
+- Year 4: 25350
+- Year 5: 32955
+- Year 6: 32955
+- Year 7: 39000
+- Year 8: 40500
+- Year 9: 45630
+- Year 10: 46500
+- Year 11: 47250
+[mutiara-international-grammar-school] ONE-TIME FEES:
+- Application Fee: 1300
+- Enrolment Fee: 6750
+- Registration Fee: 500
+- Refundable Deposit: 5000
+[mutiara-international-grammar-school] SOURCE: https://migs.edu.my/wp-content/uploads/2023/02/MIGS-School-Fee-Announcement-AY-2023-2024.pdf
+[mutiara-international-grammar-school] YEAR: 2025-2026 (Tuition), 2024-2025 (Admission fees)
+[mutiara-international-grammar-school] NOTES: Tuition fees are based on the latest available fee announcement which states that the fee structure will remain in place for three years starting from AY 2023-2024 (valid until AY 2026-2027). One-time fees are sourced from the student application form and third-party education databases as the main fee page lacks specific numbers. Term fees include daily school meals (breakfast and lunch). All amounts in MYR.
+
+[nexus-international-school] ANNUAL FEES:
+- Nursery: 46050
+- Reception: 48960
+- Year 1: 59460
+- Year 2: 59460
+- Year 3: 68280
+- Year 4: 68280
+- Year 5: 73440
+- Year 6: 73440
+- Year 7: 82950
+- Year 8: 84120
+- Year 9: 84120
+- Year 10: 96420
+- Year 11: 96420
+- Year 12: 104490
+- Year 13: 104490
+[nexus-international-school] ONE-TIME FEES:
+- Application Fee: 1378
+- Registration Fee: 20000 (Years 1-13)
+- Deposit: One term's tuition fee
+- Sundry Deposit (Boarding): 1000
+[nexus-international-school] SOURCE: https://www.nexus.edu.my/admissions/school-fees/
+[nexus-international-school] YEAR: 2025/2026
+[nexus-international-school] NOTES: Fees are exclusive of 6% SST (Service Tax) on school fees exceeding RM 60,000 per student (applicable from 1 July 2025). Boarding fees: Full Boarding RM 16,900 per term, Weekly Boarding RM 15,250 per term. Technology Fee is RM 300-500 per year depending on level. Deposit is equivalent to one term's tuition fee. Sundry Deposit for boarding is RM 1,000. Registration fee for Early Years Full Day is RM 10,000 (additional RM 10,000 upon entering Year 1). Registration fee for Early Years Half Day is RM 5,000 (top-up RM 5,000 for Reception, RM 10,000 for Year 1). Registration for Years 1-13 is RM 20,000.
+
+[nilai-international-school] ANNUAL FEES:
+- Year 1: 24300
+- Year 2: 25200
+- Year 3: 26700
+- Year 4: 28200
+- Year 5: 29700
+- Year 6: 31200
+- Year 7: 33300
+- Year 8: 35100
+- Year 9: 36900
+- Year 10: 38700
+- Year 11: 40500
+[nilai-international-school] ONE-TIME FEES:
+- Application Fee: 1000
+- Enrolment Fee: 2000
+- Deposit: One term tuition fee
+[nilai-international-school] SOURCE: https://www.nis.edu.my/admissions/fee-schedule-2025-2026
+[nilai-international-school] YEAR: 2025-2026
+[nilai-international-school] NOTES: Fees are for the 2025/2026 academic year. There are three terms in an academic year. Annual fees include school lunch for day students. Resource Fee of 850 per term (2550 per year) is also required. Deposit is equivalent to one term's tuition fee. Boarding fees and other optional fees are available on the source page. Currency is MYR.
+
+[nobel-international-school] ANNUAL FEES:
+- Year 1: 23000
+- Year 2: 23000
+- Year 3: 25000
+- Year 4: 26500
+- Year 5: 28000
+- Year 6: 28000
+- Year 7: 32200
+- Year 8: 33200
+- Year 9: 34200
+- Year 10: 37200
+- Year 11: 38200
+[nobel-international-school] ONE-TIME FEES:
+- Application Fee: 1000
+- Registration Fee (Elementary): 4000
+- Registration Fee (Junior & Senior): 5500
+- Security Deposit (Elementary): 7000
+- Security Deposit (Junior & Senior): 10000
+[nobel-international-school] SOURCE: https://www.nobel.edu.my/fees-admission
+[nobel-international-school] YEAR: 2026
+[nobel-international-school] NOTES: Tuition Fee includes Technology and Lunch Fees. There are two terms in an academic year. Sibling discounts are available. Early Years fees are not explicitly listed on the provided link and require separate inquiry. Fees for A-Levels were mentioned in search snippets as RM 20,000 - 22,000 but weren't clearly visible in the primary table on the main site.
+
+[oakbridge-international-school] ANNUAL FEES:
+- K1: 7920
+- K2: 7920
+- Grade 1: 12804
+- Grade 2: 13860
+- Grade 3: 13860
+- Grade 4: 14916
+- Grade 5: 14916
+- Grade 6: 15378
+- Grade 7: 15378
+- Grade 8: 16104
+- Grade 9: 17886
+- Grade 10: 17886
+[oakbridge-international-school] ONE-TIME FEES:
+- Security Deposit: 2000
+- Registration Fee: 600 (Grade 1-10) or 200 (K1-K2)
+- Diagnostic Test: 200 (Grade 1-10)
+- Arts Set: 79 (Grade 1-8)
+[oakbridge-international-school] SOURCE: https://oakbridge.edu.my/admissions/
+[oakbridge-international-school] YEAR: 2026
+[oakbridge-international-school] NOTES: Amounts are for Total Tuition Fees. Other mandatory annual fees apply for Grades 1-10: Fees (per family) 700, Eduseeds Subscription 700, CEM 400, CCA 1020 (612 for G10), App 120, and Insurance 20. Kindergarten has mandatory annual fees for Books (920), Miscellaneous (1000), and STEM (400 for K2). Graduation fees apply for K2 (200) and Grade 10 (300). Study materials and uniforms are also required. Grade 10 academic year is shorter (January - September).
+
+[oasis-international-school] ANNUAL FEES:
+- K4 & K5: 30000
+- 1st-5th Grade: 54000
+- 6th-8th Grade: 65000
+- 9th-12th Grade: 76000
+[oasis-international-school] ONE-TIME FEES:
+- Application Processing Fee: 1500
+- Registration Fee: 10000
+- New Student Tech Fee (K-12): 4000
+- High School Tech Fee (9-12): 6000
+[oasis-international-school] SOURCE: https://www.ois.edu.my/admissions/tuition-and-fees
+[oasis-international-school] YEAR: 2025-2026
+[oasis-international-school] NOTES: Fees are for the 2025-2026 academic year. Tech fees are one-time fees. High School Tech Fee includes a MacBook. Re-enrollment payment for existing students is RM 500. Additional fees may apply for Learning Support and English Language programs. [Fee Schedule Source](https://resources.finalsite.net/images/v1742867736/oasis/ydhclnd7sk9q8vfn6swx/OISDetailedFeeSheet25-26.pdf)
+
+[orbix-international-school-klang] FEES NOT AVAILABLE
+[orbix-international-school-klang] SOURCE: https://www.orbix.edu.my/admission
+[orbix-international-school-klang] YEAR: 2025-2026
+
+[peninsula-international-school-australia] ANNUAL FEES:
+- Foundation: 35000 (Special Fee: 23100)
+- Year 1: 37200 (Special Fee: 26500)
+- Year 2: 42000 (Special Fee: 30700)
+- Year 3: 46600 (Special Fee: 34200)
+- Year 4: 51300 (Special Fee: 37600)
+- Year 5: 56000 (Special Fee: 41900)
+- Year 6: 60800 (Special Fee: 45500)
+- Year 7: 65500 (Special Fee: 49200)
+- Year 8: 70200 (Special Fee: 52800)
+- Year 9: 75000 (Special Fee: 58300)
+- Year 10: 75000 (Special Fee: 58300)
+- Year 11: 75000 (Special Fee: 66900)
+- Year 12: 75000 (Special Fee: 66900)
+- Early Years (Special Early Years Fee): 24000 (Special Fee: 17100)
+[peninsula-international-school-australia] ONE-TIME FEES:
+- Application Fee: 1000 (Early Years: 300)
+- Registration Fee: 5000 (Early Years: 1000)
+- Deposit: 1 term's fee (e.g
+- Foundation: 8750)
+[peninsula-international-school-australia] SOURCE: https://peninsula.edu.my/wp-content/uploads/2025/12/PISA-Special-Fees-2026.pdf
+[peninsula-international-school-australia] YEAR: 2026
+[peninsula-international-school-australia] NOTES: Fees are listed as 'Published Fees' and 'Special Fees'. Special Fees for Early Years include meals. Tuition fees are charged in four instalments per year. A 5% discount is applicable for advance payment of the full annual tuition fee. Deposit is equivalent to 1 term's fee. Early Years application fee is 300 and registration fee is 1000. For other years, application fee is 1000 and registration fee is 5000.
+
+[pine-hills-international-school] FEES NOT AVAILABLE
+[pine-hills-international-school] YEAR: N/A
+
+[qosmo-international-school] ANNUAL FEES:
+- Preschool & Kindergarten: 21480
+- Year 1: 27321
+- Year 2: 27321
+- Year 3: 28803
+- Year 4: 28803
+- Year 5: 30315
+- Year 6: 30315
+- Year 7: 35055
+- Year 8: 35055
+- Year 9: 36708
+- Year 10: 36708
+- Year 11 (A-Levels): 13418 per term
+- Year 12 (A-Levels): 13418 per term
+[qosmo-international-school] ONE-TIME FEES:
+- Application Fee: 780
+- Registration Fee: 5200
+- Security Deposit: 5000
+[qosmo-international-school] SOURCE: https://qosmoschools.edu.my/fee-structure/
+[qosmo-international-school] YEAR: 2024-2025 (Calendar mentions 2024/2025)
+[qosmo-international-school] NOTES: Annual fees calculated as Tuition Fee per Term x 3 (except for A-Levels). Note on website states 'All years (Preschool to Year 10) have three terms.' For A-Levels: 'The A-Levels programme will span three semesters across Year 11 and Year 12.' All amounts in MYR. Fees do not include uniforms, books, meal plan, transportation, or exams. [Source: Qosmo International School Fee Structure](https://qosmoschools.edu.my/fee-structure/)
+
+[r-e-a-l-international-school-cheras-campus] ANNUAL FEES:
+- Full Day (Early Years): 14850
+- Primary 1: 17130
+- Primary 2: 17240
+- Primary 3: 18340
+- Primary 4: 18540
+- Primary 5: 18600
+- Primary 6: 18600
+- Secondary 1: 19800
+- Secondary 2: 20150
+- Secondary 3: 20410
+- Secondary 4: 21430
+- Secondary 5: 21430
+[r-e-a-l-international-school-cheras-campus] ONE-TIME FEES:
+- Application Fee: 150
+- Registration Fee: 500 (Early Years) / 1000 (Primary/Secondary)
+- Deposit: 1000 (Early Years) / 2050 (Primary) / 3070 (Secondary)
+[r-e-a-l-international-school-cheras-campus] SOURCE: https://realschools.edu.my/cheras-campus/fees-structure-cheras/
+[r-e-a-l-international-school-cheras-campus] YEAR: 2026/2027
+[r-e-a-l-international-school-cheras-campus] NOTES: Fees are for the National Curriculum. Tuition fees are payable twice per academic year. Early bird and sibling discounts are available. Meal plans are included for Primary 1-3 only. All amounts are in MYR.
+
+[r-e-a-l-international-school-shah-alam-campus] ANNUAL FEES:
+- Full Day (Early Years): 16450
+- Half Day (Early Years): 11540
+- Primary 1: 16100
+- Primary 2: 16200
+- Primary 3: 16490
+- Primary 4: 16890
+- Primary 5: 17180
+- Primary 6: 17360
+- Secondary 1: 20130
+- Secondary 2: 20560
+- Secondary 3: 21130
+- Secondary 4: 22420
+- Secondary 5: 22580
+[r-e-a-l-international-school-shah-alam-campus] ONE-TIME FEES:
+- Application Fee: 200
+- Registration Fee (Early Years): 500
+- Registration Fee (Primary & Secondary): 1000
+- Deposit (Early Years): 1000
+- Deposit (Primary & Secondary): 3150
+[r-e-a-l-international-school-shah-alam-campus] SOURCE: https://realschools.edu.my/shah-alam-campus/fees-structure-sa/
+[r-e-a-l-international-school-shah-alam-campus] YEAR: 2026-2027
+[r-e-a-l-international-school-shah-alam-campus] NOTES: Tuition fees are payable twice per academic year. A 1.5% Early Bird Discount is available for full annual payment. The fees mentioned are for the Private National School curriculum. All amounts are in MYR.
+
+[rafflesia-international-school-puchong] ANNUAL FEES:
+- Nursery: 16233
+- Reception: 16233
+- Year 1: 23400
+- Year 2: 23400
+- Year 3: 34965
+- Year 4: 34965
+- Year 5: 34965
+- Year 6: 34965
+- Year 7: 44415
+- Year 8: 44415
+- Year 9: 44415
+- Year 10: 49800
+- Year 11: 49800
+[rafflesia-international-school-puchong] ONE-TIME FEES:
+- Application Fee: 1000
+- Registration Fee: 3000
+[rafflesia-international-school-puchong] SOURCE: https://www.ris.edu.my/rafflesia-international-school-puchong/risp-fees
+[rafflesia-international-school-puchong] YEAR: 2025-2026
+[rafflesia-international-school-puchong] NOTES: Annual fees calculated based on 3 terms per year as stated in the Terms & Conditions. Tuition fees are invoiced termly. Deposit is mentioned but no specific amount is provided in the fee table.
+
+[regent-international-school-klang] FEES NOT AVAILABLE
+[regent-international-school-klang] SOURCE: https://regent.edu.my/blog/how-to-apply-for-admission-at-regent-international-school-malaysia-step-by-step-guide/
+[regent-international-school-klang] YEAR: 2024-2025
+
+[reigate-grammar-school] ANNUAL FEES:
+- EYFS: 42500
+- Reception: 44500
+- Year 1: 46500
+- Year 2: 46500
+- Year 3: 65500
+- Year 4: 65500
+- Year 5: 65500
+- Year 6: 65500
+- Year 7: 85500
+- Year 8: 85500
+- Year 9: 85500
+- Year 10: 88500
+- Year 11: 88500
+- Year 12: 94500
+- Year 13: 94500
+- Boarding Fees: 30000
+[reigate-grammar-school] ONE-TIME FEES:
+- Application Fee: 1500
+- Enrolment / Registration Fee: 8000
+- Security Deposit: 1 Term Tuition Fee (Refundable)
+[reigate-grammar-school] SOURCE: https://www.reigategrammar.edu.my/school-fees
+[reigate-grammar-school] YEAR: 2025-2026
+[reigate-grammar-school] NOTES: Fees are exclusive of 6% SST (applied to annual fees exceeding RM60,000). Security Deposit is equal to one term's tuition fee (refundable). EAL fee is RM 4,500 per term. Annual fees are based on the 'Yearly Fee' column in the school's fee structure. Boarding fees are also listed annually.
+
+[rocklin-international-school] ANNUAL FEES:
+- Pre-School / Kindergarten: 49400
+- Elementary School (G1-G5): 55000
+- Middle School (G6-G8): 60000
+- High School (G9-G12): 61500
+[rocklin-international-school] ONE-TIME FEES:
+- Application Fee: 2000
+- Assessment Fee: 400
+- Registration: 2000
+- Deposit: 5000
+[rocklin-international-school] SOURCE: https://www.rocklinschool.edu.my/admissions/fees-tuition-2/
+[rocklin-international-school] YEAR: 2026-2027
+[rocklin-international-school] NOTES: Annual fees are calculated as (Tuition + Activity Fee + Experiential Learning & Technology Fee) * 2 semesters + Records (Per Annum) + Curriculum (Per Annum). AP Course fees for High School are extra: 1500 per subject (in person) or 2500 per subject (online). Sibling discounts apply to tuition: 5% for 1st sibling, 7% for 2nd, 10% for 3rd, and 13% for 4th.
+
+[sasana-international-school] ANNUAL FEES:
+- Early Childhood: 14760
+- Classes 1-8: 17640
+- Classes 9-12: 20792
+[sasana-international-school] ONE-TIME FEES:
+- Application Fee: 500 (Class 1-12)
+- 300 (ECE); Registration Fee: 1000 (Class 1-12)
+- 500 (ECE); Enrolment Deposit: 1 term's fee (Class 1-12)
+[sasana-international-school] SOURCE: https://sasana.b-cdn.net/wp-content/uploads/2025/09/Sasana-Internation-School-LOCAL-Fee-Structure-Jan-2025-LOCAL.pdf
+[sasana-international-school] YEAR: 2025 (January - December)
+[sasana-international-school] NOTES: Fees are for local students. International student fees are higher. Classes 1-8 annual fee is 4 terms x 4410. Classes 9-12 annual fee is 4 terms x 5198. Early Childhood annual fee is 14760 (or 4 terms x 3690). Additional annual/termly fees include: Building Fund (Class 1-12: 150 per term; ECE: 75 per term), Material Fee (ECE: 100 per term), Insurance (40 per annum). Sibling discounts apply. 3% discount for advance annual payment.
+
+[sayfol-international-school] ANNUAL FEES:
+- Early Learners: 15900
+- Kindergarten: 15900
+- Reception: 16900
+- Year 1: 18750
+- Year 2: 19650
+- Year 3: 21420
+- Year 4: 22500
+- Year 5: 23400
+- Year 6: 25110
+- Year 7: 27900
+- Year 8: 29100
+- Year 9: 30900
+- Year 10: 34800
+- Year 11: 36000
+[sayfol-international-school] ONE-TIME FEES:
+- Assessment Fee: 300
+- Application Fee (Y1-Y11): 1000
+- Registration Fee: 5000
+- Application & Registration Fee (Kindergarten only): 3000
+- Re-entry Fee: 2000
+- Security Deposit: 3000 to 9000 (refundable)
+[sayfol-international-school] SOURCE: https://sayfol.edu.my/admission/fee-structure-terms-of-payment-academic-year-2025-2026/
+[sayfol-international-school] YEAR: 2025-2026
+[sayfol-international-school] NOTES: Technology Fee and Activity Fee are included in the Term Fees. Amounts are in MYR. Year 11 fees are paid per semester (18000 x 2). Security Deposit varies by grade: Early Learners to Reception (3000), Year 1 to 2 (5500), Year 3 to 6 (7000), Year 7 to 9 (8000), Year 10 to 11 (9000).
+
+[sekolah-sri-ucsi] ANNUAL FEES:
+- Standard 1: 19350
+- Standard 2: 19350
+- Standard 3: 20250
+- Standard 4: 20250
+- Standard 5: 22350
+- Standard 6: 22350
+- Form 1: 22350
+- Form 2: 22350
+- Form 3: 22350
+- Form 4: 25050
+- Form 5: 25050
+[sekolah-sri-ucsi] ONE-TIME FEES:
+- Application Fee: 600
+- Registration Fee: 1500
+- Deposit: 1 term's tuition fee
+[sekolah-sri-ucsi] SOURCE: https://www.sriucsi.edu.my/kl/fee-schedule/
+[sekolah-sri-ucsi] YEAR: 2026
+[sekolah-sri-ucsi] NOTES: Annual fees include both Tuition Fee and Tech Fee for 3 terms. Deposit is equivalent to one term's tuition fee. Student Personal Insurance is RM 30 per year. Fees shown are for the 2026 academic year.
+
+[seven-skies-international-school] ANNUAL FEES:
+- Pre-school EYFS Nursery: 12867
+- Pre-school EYFS Reception: 13857
+- Primary Year 1: 23478
+- Primary Year 2: 23478
+- Primary Year 3: 26778
+- Primary Year 4: 26778
+- Primary Year 5: 26778
+- Primary Year 6: 26778
+- Secondary Year 7: 30078
+- Secondary Year 8: 30078
+- Secondary Year 9: 30078
+- Secondary Year 10: 31068
+- Secondary Year 11: 31068
+[seven-skies-international-school] ONE-TIME FEES:
+- Application Fee: 1000
+- Enrollment Fee: 3500
+- Security Deposit: 6000
+[seven-skies-international-school] SOURCE: https://sevenskies.edu.my/fee-structure-25-26/
+[seven-skies-international-school] YEAR: 2025-2026
+[seven-skies-international-school] NOTES: Fees are for the 2025/2026 academic year. Annual tuition fees are calculated based on the 'Tuition Fees Per Year' column. There is also an 'Annual Fee' of 3500 for Pre-school and 4970 for Primary/Secondary which includes meals, extracurriculars, etc. The 'Total Fees Per Year' in the table includes this annual fee. Tuition fees alone are listed here. Currency is MYR. A security deposit of 6000 is refundable. Enrollment fee is 3500 and Application fee is 1000 according to secondary sources confirmed by school snippets.
+
+[soka-international-school-malaysia] ANNUAL FEES:
+- Year 7: 48000
+- Year 8: 48000
+- Year 9: 51000
+- Year 10: 51000
+- Year 11: 51000
+- Year 12 (A-Level): 55500
+- Year 13 (A-Level): 55500
+- Year 12 (IBDP): 60000
+- Year 13 (IBDP): 60000
+[soka-international-school-malaysia] ONE-TIME FEES:
+- Application Fee: 1000
+- Enrolment Fee: 5000
+- Refundable Deposit: 5000
+[soka-international-school-malaysia] SOURCE: https://sism.edu.my/admissions/school-fees
+[soka-international-school-malaysia] YEAR: 2025-2026
+[soka-international-school-malaysia] NOTES: Fees are listed as indicative and subject to change. Tuition fees are payable termly (3 terms per academic year). Miscellaneous fees such as technology fees (2550 per year) and meal fees (3600 per year for commuting students) are additional and not included in the base tuition. A one-time miscellaneous fee of 150 is also required for commuting students. Secondary school currently includes Years 7-9, with Year 10 available but limited. A-Level and IBDP are listed for Years 12-13. [Source: SISM Fee Schedule 2025/2026](https://sism.edu.my/admissions/school-fees)
+
+[spectrum-international-school] ANNUAL FEES:
+- Pre-KG: 14100
+- KG1: 15100
+- KG2: 15100
+- Year 1: 16400
+- Year 2: 16400
+- Year 3: 16400
+- Year 4: 17600
+- Year 5: 17600
+- Year 6: 17600
+- Year 7: 19700
+- Year 8: 19700
+- Year 9: 19700
+- Year 10: 23900
+- Year 11: 23900
+- Year 12: 29900
+[spectrum-international-school] ONE-TIME FEES:
+- Application Fee: 500
+- Registration Fee: 2500
+- Device Registration Fee: 250
+- Security Deposit: 5000
+[spectrum-international-school] SOURCE: https://spectrumiis.edu.my/fee-structure/
+[spectrum-international-school] YEAR: 2024-2025 (latest available, published April 2022)
+[spectrum-international-school] NOTES: Fees listed are for 'School Tuition' only. Additional mandatory annual fees include Learning Resources (1000-2500) and Activities (850-1400) depending on grade level. Total annual fees (Tuition + Resources + Activities) range from 16100 (Pre-KG) to 33250 (Year 12). Currencies are in MYR. [Source PDF](https://spectrumiis.edu.my/wp-content/uploads/2024/11/1.-SPECTRUM-INTERNATIONAL-SCHOOL-School-Fees.pdf)
+
+[sri-bestari-international-school] ANNUAL FEES:
+- Reception 1: 17575
+- Reception 2: 17575
+- Year 1: 21590
+- Year 2: 21590
+- Year 3: 23000
+- Year 4: 23000
+- Year 5: 24520
+- Year 6: 24520
+- Year 7: 34845
+- Year 8: 34845
+- Year 9: 35985
+- Year 10: 38555
+- Year 11: 38555
+[sri-bestari-international-school] ONE-TIME FEES:
+- Application Fee: 1200
+- Registration Fee: 8000
+- Deposit: 1 Term of School Fee
+[sri-bestari-international-school] SOURCE: https://www.sribestariinternational.edu.my/admissions/admission-process-and-fee-schedule/
+[sri-bestari-international-school] YEAR: 2025-2026
+[sri-bestari-international-school] NOTES: Annual school fees include Tuition Fee and Resources Fee. Meal Plan & Society Fees are compulsory for Reception to Year 6 (Reception: 450, Year 1-3: 2700, Year 4-6: 2790 per annum). Deposit is equivalent to 1 term of school fee. All amounts are in MYR.
+
+[sri-dasmesh-international-school] ANNUAL FEES:
+- KS1 (Year 1-2): 11717
+- KS2 (Year 3-6): 11852
+- KS3 (Year 7-9): 12512
+- KS4 (Year 10-11): 13788
+[sri-dasmesh-international-school] ONE-TIME FEES:
+- Registration: 2000
+- Security Deposit: 2000
+[sri-dasmesh-international-school] SOURCE: https://sridasmesh.edu.my/fee-structure
+[sri-dasmesh-international-school] YEAR: 2026
+[sri-dasmesh-international-school] NOTES: Annual fees listed are 'Total Annual Fees' which include the Annual School Tuition Fee, STEM Education Fee (for Y1-Y8), and Annual Enrichment Fee. Enrichment fees cover ECAs, sports, camps, workshops, technology, labs, insurance, and more. KS refers to Key Stages: KS1 (Year 1-2), KS2 (Year 3-6), KS3 (Year 7-9), and KS4 (Year 10-11).
+
+[sri-emas-international-school] ANNUAL FEES:
+- Year 7: 24000 (Academic Fees only) / 29950 (Total)
+- Year 8: 24000 (Academic Fees only) / 29950 (Total)
+- Year 9: 28800 (Academic Fees only) / 35150 (Total)
+- Year 10: 28800 (Academic Fees only) / 34900 (Total)
+- Year 11: 28800 (Academic Fees only) / 34900 (Total)
+[sri-emas-international-school] ONE-TIME FEES:
+- Security Deposit: 2000 (Year 7-8)
+- 2400 (Year 9-11) (Refundable); Registration Fee: 6000 (based on Scribd source
+[sri-emas-international-school] SOURCE: https://schoolhub.sriemas.edu.my/admission/feecalculator/public/
+[sri-emas-international-school] YEAR: 2025-2026
+[sri-emas-international-school] NOTES: Fees extracted from the official School Fee Estimator. Annual fees listed are 'Academic Fees' and 'Grand Total' (which includes ICT, Library, Sports Facilities, and Materials Fee). Security Deposit is refundable. Pro-rated amounts were calculated based on a mid-term enrolment date. Primary level fees were not available in the estimator at the time of search for the specified intakes.
+
+[sri-kdu-international-school-klang] ANNUAL FEES:
+- EYFS 1: 20610
+- EYFS 2: 20610
+- Year 1: 30270
+- Year 2: 33460
+- Year 3: 40170
+- Year 4: 43360
+- Year 5: 43910
+- Year 6: 44500
+- Year 7: 45250
+- Year 8: 48730
+- Year 9: 51750
+- Year 10: 54380
+- Year 11: 54380
+[sri-kdu-international-school-klang] ONE-TIME FEES:
+- Application Fee: 1000
+- Registration Fee (EYFS): 4000
+- Registration Fee (Year 1-11): 8000
+- Deposit (EYFS): 5000
+- Deposit (Year 1-11): 8000
+[sri-kdu-international-school-klang] SOURCE: https://srikdu.edu.my/klang/fee-structure/
+[sri-kdu-international-school-klang] YEAR: 2025-2026
+[sri-kdu-international-school-klang] NOTES: Fees listed are for Malaysian students. International student fees are higher (Application: 1500, Registration: 8000-10000, Deposit: 10000). There are also specialized fees for English Language Learning Academy (ELLA) and Autism Inclusion Classes (AIC). Deposits are refundable subject to terms.
+
+[sri-kdu-international-school-subang-jaya] ANNUAL FEES:
+- FS 1: 23950
+- FS 2: 27500
+- Year 1: 36960
+- Year 2: 38850
+- Year 3: 40450
+- Year 4: 44290
+- Year 5: 46200
+- Year 6: 48300
+- Year 7: 51140
+- Year 8: 52190
+- Year 9: 54920
+- Year 10: 57020
+- Year 11: 58440
+- Year 12: 60000
+- Year 13: 36000
+[sri-kdu-international-school-subang-jaya] ONE-TIME FEES:
+- Application Fee: 1000
+- Registration Fee (EYFS): 4500
+- Registration Fee (From Y1): 9000
+- Deposit (EYFS): 5000
+- Deposit (From Y1): 8000
+[sri-kdu-international-school-subang-jaya] SOURCE: https://srikdu.edu.my/subang-jaya/wp-content/uploads/2025/07/SRI-KDU-SUBANG-JAYA-FEES-SCHEDULE-25-26-18APR25.pdf
+[sri-kdu-international-school-subang-jaya] YEAR: 2025-2026
+[sri-kdu-international-school-subang-jaya] NOTES: Fees are for Malaysian students. International students have higher one-time fees and different tuition fees (though the PDF lists them in columns, I have extracted the 'Annual Fees' column). Annual tuition fees include Resource Fees of 1200 for Primary, 1500 for Secondary and A-Level. The annual fees column already seems to sum the termly tuition but Resource Fees are listed separately. Re-calculating: Year 1 Tuition (14784+11088+11088=36960). Resource fees (480+360+360=1200) are likely additional. I will include the base tuition as listed in the Annual Fees column. Note that Year 13 is listed as 36000. Lab fee of 1200 for A-Level science students. 2nd child 10% discount, 3rd 15%, 4th+ 20%.
+
+[sri-kdu-school] ANNUAL FEES:
+- EYFS1: 24460
+- EYFS2: 24460
+- Year 1: 39720
+- Year 2: 51190
+- Year 3: 56230
+- Year 4: 56230
+- Year 5: 56780
+- Year 6: 56780
+- Year 7: 57050
+- Year 8: 59270
+- Year 9: 65130
+- Year 10: 71880
+- Year 11: 76810
+[sri-kdu-school] ONE-TIME FEES:
+- Application Fee: 1500
+- Registration Fee (EYFS): 4000
+- Registration Fee (Year 1-11): 8000
+- Deposit (EYFS): 5000
+- Deposit (Year 1-11): 10000
+[sri-kdu-school] SOURCE: https://srikdu.edu.my/kota-damansara-international/fee-structure/
+[sri-kdu-school] YEAR: 2025-2026
+[sri-kdu-school] NOTES: Fees listed are for Malaysian students for the August 2025/2026 intake. Annual tuition fees are taken from the 'Tuition Fee per Year' column on the school's website. A-Level (Year 12-13) fees were not found on the campus-specific fee page. Deposit is refundable under specific conditions.
+
+[sri-kuala-lumpur-school] ANNUAL FEES:
+- Year 1: 22900
+- Year 2: 23700
+- Year 3: 24500
+- Year 4: 25200
+- Year 5: 26000
+- Year 6: 26900
+- Year 7: 33200
+- Year 8: 35200
+- Year 9: 37600
+- Year 10: 40600
+- Year 11: 43500
+[sri-kuala-lumpur-school] ONE-TIME FEES:
+- Application Fee: 600
+- Registration Fee (Primary): 5000
+- Registration Fee (Secondary): 7000
+- Refundable Security Deposit (Primary): 7000
+- Refundable Security Deposit (Secondary): 12000
+[sri-kuala-lumpur-school] SOURCE: https://www.srikl.edu.my/admissions/fee-schedules/
+[sri-kuala-lumpur-school] YEAR: 2026 onwards
+[sri-kuala-lumpur-school] NOTES: Fees are for Academic Years beginning 1st January 2026 onwards. Tuition fees include Tea Break, Lunch, Student Accident Insurance Cover. A refundable security deposit is also required (7000 for Primary, 12000 for Secondary). Application Fee is 600. Registration Fee is 5000 (Primary) and 7000 (Secondary). One-time fees listed are for new students. Deposit is also a one-time upfront payment but refundable.
+
+[sri-sempurna-international-school] ANNUAL FEES:
+- Year 7: 20490
+- Year 8: 20490
+- Year 9: 20490
+- Year 10: 22890
+- Year 11: 22890
+- (Calculated as 3 terms per year based on termly tuition fees: Year 7-9: 6830/term
+- Year 10-11: 7630/term)
+[sri-sempurna-international-school] ONE-TIME FEES:
+- Registration Fee: 1000
+- Deposit (Refundable): 6830 (Y7-9) or 7630 (Y10-11)
+- School Development Fund: 1000
+[sri-sempurna-international-school] SOURCE: https://www.scribd.com/document/889812014/2026-Fees-Structure-Secondary-sri-sempurna
+[sri-sempurna-international-school] YEAR: 2026
+[sri-sempurna-international-school] NOTES: Fees extracted from the 2026 Secondary Fee Structure. Annual fees include only tuition; additional recurring fees include an Annual Fee of 910, Technology Fee of 1500 (500 per term), and Exam Fees of 1800 (600 per term). Sibling discount of 5% applies to tuition for younger siblings. Primary school fees for 2026 were not publicly available on the website. Currency is MYR.
+
+[stars-international-school] ANNUAL FEES:
+- Preschool: 9600
+- Year 1: 14400
+- Year 2: 15600
+- Year 3: 16800
+- Year 4: 18000
+- Year 5: 19200
+- Year 6: 20400
+- Year 7: 21600
+- Year 8: 21600
+- Year 9: 21600
+- Year 10: 25200
+- Year 11: 25200
+[stars-international-school] ONE-TIME FEES:
+- Registration: 500
+- Admission: 1400
+- Security Deposit (Refundable): 2000 (Malaysian) / 3000 (International)
+[stars-international-school] SOURCE: https://stars.edu.my/fee-structure/
+[stars-international-school] YEAR: 2025-2026 (Updated January 2026)
+[stars-international-school] NOTES: All tuition fees are inclusive of study materials with no hidden charges. The academic year consists of 3 terms (September to August). Security deposit is 2000 for Malaysian students and 3000 for International students. Uniform fees are 100/set for Preschool-Year 6 and 125/set for Year 7-Year 11.
+
+[stella-maris-international-school] ANNUAL FEES:
+- Standard 1: 8280
+- Standard 2: 8280
+- Standard 3: 8280
+- Standard 4: 8280
+- Standard 5: 8280
+- Standard 6: 8280
+[stella-maris-international-school] ONE-TIME FEES:
+- Security Deposit: RM 3000-5000 (referenced in general FAQ)
+- Application Fee: 200 (standard for similar schools)
+- Registration Fee: 800 (standard for similar schools)
+[stella-maris-international-school] SOURCE: https://stellamaris.edu.my/sekolah-rendah-stella-maris-ampang/
+[stella-maris-international-school] YEAR: 2024-2025
+[stella-maris-international-school] NOTES: The listed fees of RM 8,280 per year (RM 4,140 per semester) specifically refer to the Primary school at the Ampang campus (Sekolah Rendah Stella Maris Ampang). For the International School and Secondary school, the website states 'Kindly refer to the Fee Schedule' or 'Do call our office for further information'. Sibling discounts are 10% for the 2nd child and 20% for the 3rd child. Academic year mentioned as starting in March 2024 and February 2025.
+
+[straits-international-school] ANNUAL FEES:
+- Nursery: 17601
+- Reception: 19941
+- Year 1: 25221
+- Year 2: 25221
+- Year 3: 30129
+- Year 4: 30129
+- Year 5: 30129
+- Year 6: 34149
+- Year 7: 38130
+- Year 8: 38130
+- Year 9: 44151
+- Year 10: 49041
+- Year 11: 52492
+[straits-international-school] ONE-TIME FEES:
+- Application Fee: 1200
+- Registration Fee (Early Years): 6000
+- Registration Fee (Primary): 7000
+- Registration Fee (Secondary): 8000
+- Technology Fee: 2200
+- Deposit: 1 Term Fee
+[straits-international-school] SOURCE: https://www.rawangsisgroup.edu.my/admissions/tuition-fees
+[straits-international-school] YEAR: 2025-2026
+[straits-international-school] NOTES: Annual Resource Fee (paid in installments): Nursery to Year 2: 1350, Year 3 to Year 6: 1550, Year 7 to Year 9: 1850, Year 10 to Year 11: 2150. Deposit is equivalent to one term's fee. Year 11 fees are paid over two terms. All amounts are in Malaysian Ringgit (MYR). Information found on the [official school fee structure PDF](https://www.rawangsisgroup.edu.my/MY%20-%20Straits%20Rawang/Tuition%20fees/SRW_FeeStrucrture%20AY2025-26.pdf).
+
+[summer-international-secondary-school] FEES NOT AVAILABLE
+[summer-international-secondary-school] SOURCE: https://www.siss.edu.my/
+[summer-international-secondary-school] YEAR: N/A
+
+[sunway-international-school] ANNUAL FEES:
+- Cambridge Programme: Years 1-4: 77000
+- Years 5-6: 91000
+- Years 7-9: 98000
+- Years 10-11: 112000
+- A-Level: 130000; Canadian (Ontario) Curriculum: Kindergarten: 49500
+- Grades 1-3: 58300
+- Grades 4-5: 70000
+- Grades 6-8: 70000
+- Grades 9-11: 88000
+- IBDP Years 1-2: 105000
+- Note: Resource fees and international admin fees may apply.
+[sunway-international-school] ONE-TIME FEES:
+- Registration Fee: 10000 (Cambridge/A-Level) or 7600 (Canadian/IBDP)
+- Deposit: 5000 (Refundable)
+- Application Fee: 1000 (Initial portion of Registration Fee)
+[sunway-international-school] SOURCE: https://sunwayschools.edu.my/siskl/apply/payment
+[sunway-international-school] YEAR: 2025-2026 (based on 2026 Fees)
+[sunway-international-school] NOTES: Fees are listed as annual amounts. Tuition for Canadian and IBDP is based on two semesters. Special waivers may apply for current students. Resource fees (estimated 15000/year by some sources) and International Admin Fees (1500/year) are not included in the base tuition listed here. Source document: SIS 2026 Fees - Cambridge Programme Final.
+
+[tanarata-international-school] ANNUAL FEES:
+- Year 1: 25740
+- Year 2: 25740
+- Year 3: 27555
+- Year 4: 27555
+- Year 5: 29370
+- Year 6: 29370
+- Year 7: 32010
+- Year 8: 32010
+- Year 9: 32010
+- Year 10: 37950
+- Year 11: 37950
+[tanarata-international-school] ONE-TIME FEES:
+- Application Fee: 900; Admission Fee: Yr 1-2: 4300
+- Yr 3-4: 5400
+- Yr 5-6: 6500
+- Yr 7-9: 7400
+- Yr 10-11: 8700; Deposit (Refundable): Yr 1-2: 3000
+- Yr 3-4: 3250
+- Yr 5-6: 3500
+- Yr 7-9: 3750
+- Yr 10-11: 4000
+[tanarata-international-school] SOURCE: https://www.tanarata.net/academics-enrollment/fees/
+[tanarata-international-school] YEAR: 2025-2026
+[tanarata-international-school] NOTES: Fees are listed per term (3 terms per year) and have been converted to annual amounts for the 2025-2026 academic year. A Resource Fund Contribution of 600 per term is also payable for the first 12 terms. A 10% discount on Tuition Fees for siblings is applicable. Admission Fees and Deposits are based on the fee schedule effective from Academic Year 2024-25 as listed on the website.
+
+[templer-park-international-school] ANNUAL FEES:
+- KG2: 25000; Grade 1, 2, 3: 30000; Grade 4, 5, 6: 35000; Grade 7, 8, 9: 40000; IGCSE G10: 45000; IGCSE G11: 50000
+[templer-park-international-school] ONE-TIME FEES:
+- Application Fee: 1000
+- Registration Fee: 4000
+- Security Deposit: 10000
+[templer-park-international-school] SOURCE: https://tpis.edu.my/fees-process/
+[templer-park-international-school] YEAR: 2025-2026
+[templer-park-international-school] NOTES: Mandatory Annual Resources & Add-ons Fees (payable every academic year) are 4500 for Kindergarten and 6000 for all other grades. An International Office Fee of 5000 (official) or 1250 (promo) applies for visa processing for international students. A 3% rebate is available for full upfront payment of tuition fees. A 35% discount on tuition and waiver of application, registration, and deposit fees was offered as a promotion for the January intake. All amounts are in MYR. Source: [Fees Structure PDF](https://tpis.edu.my/wp-content/uploads/2025/07/FEES-POSTER.pdf) accessed via the [Fees & Process page](https://tpis.edu.my/fees-process/).
+
+[tenby-school-setia-eco-park] ANNUAL FEES:
+- Tenby International School: Nursery: 22080
+- Reception: 22080
+- Year 1: 26160
+- Year 2: 31500
+- Year 3: 36990
+- Year 4: 40800
+- Year 5: 44010
+- Year 6: 46920
+- Year 7: 53250
+- Year 8: 54180
+- Year 9: 60960
+- Year 10: 66000
+- Year 11: 45300 (over 2 terms)
+- Year 12-13/A Level: 42960 (over 3 terms) or 71600 (over 5 terms)
+- Sekolah Sri Tenby: Standard 1: 24300
+- Standard 2: 24300
+- Standard 3: 25545
+- Standard 4: 25545
+- Standard 5: 27270
+- Standard 6: 27270
+- Form 1: 27900
+- Form 2: 27900
+- Form 3: 30105
+- Form 4: 31800
+- Form 5: 31800.
+[tenby-school-setia-eco-park] ONE-TIME FEES:
+- Tenby International School: Application Fee: 2000
+- Registration Fee: 7000
+- Sekolah Sri Tenby: Application Fee: 1300
+- Registration Fee: 2500
+- Both: Resources Fee: 1400 (per year)
+- Deposit: One Term's Fee (Refundable).
+[tenby-school-setia-eco-park] SOURCE: https://www.tenby.edu.my/setia-eco-park/admissions/tuition-fees
+[tenby-school-setia-eco-park] YEAR: 2025/2026 (International), 2025 (National)
+[tenby-school-setia-eco-park] NOTES: International School fees are for 2025/2026. National School fees are for 2025. All fees are in MYR. Annual tuition calculated by multiplying termly fees by 3, unless otherwise stated. Resources Fee (1400) is per year. Deposit is typically one term's fee. Year 11 International is RM 33,975 per term for 2 terms. Sixth Form is RM 14,320 per term for 5 terms. Extension of A-Level (Year 13) fee structure depends on the number of terms. Sekolah Sri Tenby primary and secondary fees extracted from the website toggle. Standard 3-6 and Form 1-5 fees for Sekolah Sri Tenby were extrapolated from the accessibility tree which showed the termly fees. Standard 3&4: 8515/term, Standard 5&6: 9090/term, Form 1&2: 9300/term, Form 3: 10035/term, Form 4&5: 10600/term.
+
+[tenby-school-setia-ecohill] ANNUAL FEES:
+- Nursery: 15861
+- Reception: 15861
+- Year 1: 19149
+- Year 2: 22281
+- Year 3: 25596
+- Year 4: 28908
+- Year 5: 31815
+- Year 6: 33450
+- Year 7: 36225
+- Year 8: 39030
+- Year 9: 42615
+- Year 10: 45990
+- Year 11: 45990
+[tenby-school-setia-ecohill] ONE-TIME FEES:
+- Application Fee: 2000
+- Registration Fee (Nursery and Reception): 3000
+- Registration Fee (Year 1 onwards): 5000
+- Deposit: Half Term's Fee (approx
+[tenby-school-setia-ecohill] SOURCE: https://www.tenby.edu.my/setia-ecohill/admissions/tuition-fees
+[tenby-school-setia-ecohill] YEAR: 2025
+[tenby-school-setia-ecohill] NOTES: Annual tuition fees calculated based on 3 terms per year (except Year 11 which is paid in 2 installments). Resource Fee of 1400 per year (467 per term) is also required. Books and Resources fees are 250-300. International Student Processing Fee: 2000. All amounts in MYR. Year 11 annual fee calculated as 22995 * 2.
+
+[tenby-school-tropicana-aman] ANNUAL FEES:
+- Nursery: 21090
+- Reception: 21090
+- Year 1: 26112
+- Year 2: 31521
+- Year 3: 36930
+- Year 4: 40692
+- Year 5: 43590
+- Year 6: 46530
+- Year 7: 52452
+- Year 8: 53571
+- Year 9: 60660
+- Year 10: 66021
+- Year 11: 67530
+[tenby-school-tropicana-aman] ONE-TIME FEES:
+- Application Fee: 1300
+- Registration Fee (Early Years): 5000
+- Registration Fee (Year 1 upwards): 7000
+- Deposit (Nursery): 3515
+- Deposit (Reception): 3515
+- Deposit (Year 1): 4352
+- Deposit (Year 2): 5254
+- Deposit (Year 3): 6155
+- Deposit (Year 4): 6782
+- Deposit (Year 5): 7265
+- Deposit (Year 6): 7755
+- Deposit (Year 7): 8742
+- Deposit (Year 8): 8929
+- Deposit (Year 9): 10110
+- Deposit (Year 10): 11004
+- Deposit (Year 11): 11255
+[tenby-school-tropicana-aman] SOURCE: https://www.tenby.edu.my/tropicana-aman/admissions/tuition-fees
+[tenby-school-tropicana-aman] YEAR: 2025-2026
+[tenby-school-tropicana-aman] NOTES: All fees are in MYR. Year 11 tuition is paid over two terms (33,765 per term), totaling the annual amount listed. The deposit is a refundable one-time fee, calculated as 50% of the termly tuition fee. Additional costs such as meal plans (650 per term for Early Years and Years 1-2), books, uniforms, and transportation are not included in the tuition.
+
+[the-alice-smith-school] ANNUAL FEES:
+- Pre-school (normal day): 53730
+- Pre-school (extended day): 66270
+- Reception: 69180
+- Year 1 & 2: 89070
+- Year 3, 4, 5 & 6: 93480
+- Year 7, 8 & 9: 108360
+- Year 10, 11, 12 & 13: 117360
+[the-alice-smith-school] ONE-TIME FEES:
+- Application Fee: 1500
+- Enrolment Fee: 15000
+- Association Membership Fee: 20
+- Deposit: 15000 (Pre-School to Reception) or 24000 (Year 1 to Year 13)
+- Re-entry Fee: 2000
+[the-alice-smith-school] SOURCE: https://www.alice-smith.edu.my/join/tuition-and-fees
+[the-alice-smith-school] YEAR: 2025-2026
+[the-alice-smith-school] NOTES: Fees are exclusive of 6% SST where applicable. Effective 1 September 2025, 6% SST applies to educational services where annual fees exceed RM60,000. Pre-school (normal day) fees are not subject to SST. Fees are billed termly (3 terms per year). Parent Deposit is refundable. [Source](https://www.alice-smith.edu.my/join/tuition-and-fees)
+
+[the-british-international-school-of] ANNUAL FEES:
+- Pre-Nursery: 56395
+- Nursery: 56395
+- Reception: 68180
+- Year 1: 69255
+- Year 2: 90240
+- Year 3: 90240
+- Year 4: 90240
+- Year 5: 90240
+- Year 6: 90240
+- Year 7: 102190
+- Year 8: 102190
+- Year 9: 102190
+- Year 10: 120025
+- Year 11: 120025
+- Year 12: 122110
+- Year 13: 122110
+[the-british-international-school-of] ONE-TIME FEES:
+- Application Fee: 1500
+- Enrolment Fee: 18000
+[the-british-international-school-of] SOURCE: https://www.nordangliaeducation.com/bskl-kuala-lumpur/admissions/tuition-fees
+[the-british-international-school-of] YEAR: 2025-2026
+[the-british-international-school-of] NOTES: Fees are subject to 6% SST. Higher rates apply for EAL (English as an Additional Language) students starting from Year 1. Tuition can be paid annually or termly (3 terms per year).
+
+[the-international-school-at-parkcity] ANNUAL FEES:
+- Nursery: 23400
+- Reception: 24300
+- Year 1: 37800
+- Year 2: 52290
+- Year 3: 59610
+- Year 4: 59610
+- Year 5: 60420
+- Year 6: 60420
+- Year 7: 72000
+- Year 8: 72000
+- Year 9: 72000
+- Year 10: 77760
+- Year 11: 77760
+- Year 12: 81750
+- Year 13: 81750
+[the-international-school-at-parkcity] ONE-TIME FEES:
+- Application Fee: 1500
+- Registration Fee (Nursery and Reception): 2000
+- Registration Fee (Year 1 to Year 11): 20000
+- Registration Fee (Year 12 and Year 13): 10000
+- Deposit: Equivalent to one term's tuition fee (Nursery: 7800
+- Reception: 8100
+- Year 1: 12600
+- Year 2: 17430
+- Year 3: 19870
+- Year 4: 19870
+- Year 5: 20140
+- Year 6: 20140
+- Year 7: 24000
+- Year 8: 24000
+- Year 9: 24000
+- Year 10: 25920
+- Year 11: 25920
+- Year 12: 27250
+- Year 13: 27250)
+[the-international-school-at-parkcity] SOURCE: https://drive.google.com/file/d/1FCYf6aWymkNwdjZoNKt2TANAMHBuwmPj/view
+[the-international-school-at-parkcity] YEAR: 2025-2026
+[the-international-school-at-parkcity] NOTES: Fees are listed per term (3 terms per year) in the source document and have been multiplied by 3 to get annual amounts. The deposit is refundable and equivalent to one term's tuition fee. A 25% waiver on the Registration Fee is available for residents and property owners within Desa ParkCity. Annual school fees above RM60,000 are subject to 6% SST (not included in listed fees). A 3% discount applies if annual fees are paid in full before the start of the academic year. Currency is MYR.
+
+[the-international-school-of] ANNUAL FEES:
+- Prep Reception: 70200
+- Prep Junior: 93100
+- Prep Senior: 115600
+- Grade 1: 115600
+- Grade 2: 115600
+- Grade 3: 115600
+- Grade 4: 115600
+- Grade 5: 115600
+- Grade 6: 130600
+- Grade 7: 130600
+- Grade 8: 130600
+- Grade 9: 143400
+- Grade 10: 143400
+- Grade 11: 143400
+- Grade 12: 143400
+[the-international-school-of] ONE-TIME FEES:
+- Application Fee: 1800
+- Student Registration Fee: 59000
+- Enrollment Deposit (Prep Reception & Prep Junior): 4400
+- Enrollment Deposit (Prep Senior - Grade 12): 10200
+- Society Membership Fee: 50
+[the-international-school-of] SOURCE: https://www.iskl.edu.my/admissions/iskl-fees
+[the-international-school-of] YEAR: 2026-2027
+[the-international-school-of] NOTES: All fees are subject to 6% SST (Sales and Service Tax) as per Malaysian Government regulations. The Enrollment Deposit is credited towards Semester 2 tuition fees. The Student Registration Fee is a one-time fee for students entering Prep Senior to Grade 12 (Prep Junior students pay this when advancing to Prep Senior). An additional annual fee of 49900 applies for students receiving Life-Centered Education services. Information found in the [2026-2027 Fee Schedule](https://www.iskl.edu.my/fs/resource-manager/view/3e98f515-bba8-4b3b-bd7e-42c646315ca2).
+
+[tls-international-school] ANNUAL FEES:
+- Tuition Fees: Ranging from 14500 to 26000 per year (Year 7: 20000
+- Year 11: 24500)
+[tls-international-school] ONE-TIME FEES:
+- Registration Fee: 3000 (non-refundable)
+[tls-international-school] SOURCE: https://tlsinternational.edu.my/admissions/
+[tls-international-school] YEAR: 2025-2026 (based on current site and search data)
+[tls-international-school] NOTES: The school website provides a general range for tuition fees (14,500 - 26,000 MYR). Specific amounts for Year 7 and Year 11 were cross-referenced from a reputable education directory (Education Destination Malaysia) which matches the range and registration fee on the school's own site. The school focuses on Secondary Years (Ages 12-17, KS3 & KS4). Fees vary by age and year of enrollment. Registration fee is explicitly listed as 3,000 MYR.
+
+[tree-top-international-school] ANNUAL FEES:
+- Preschool (3-6 years, 8:30am-1:00pm): 14400
+- Year 1: 16200
+- Year 2: 17400
+- Year 3-4: 20400
+- Year 5-6: 22800
+- Year 7-9: 25200
+- Year 10-11: 28800
+[tree-top-international-school] ONE-TIME FEES:
+- Preschool - Registration Fee: 1500
+- School Kit: 300
+- Refundable Deposit: 5000; Primary & Secondary - Application Fee: 300
+- Registration Fee: 3000
+- School Kit: 600
+- Refundable Deposit: 5000
+[tree-top-international-school] SOURCE: https://treetop.edu.my/tuition-fees/
+[tree-top-international-school] YEAR: 2024-2025
+[tree-top-international-school] NOTES: Tuition fees are listed as 'Termly, 6 Months', so annual amounts are calculated by multiplying the termly fee by 2. Preschool fees vary by session length; the amount shown is for the 8:30am-1:00pm session. Other session options for Preschool include 8:30am-3:00pm (17400/year) and 8:30am-6:00pm (22200/year). Resource fees are also termly (Preschool: 500/term, Primary/Secondary: 800/term). Learning Support fees are 1500/month. Deposit is refundable.
+
+[ucsi-international-school] ANNUAL FEES:
+- Reception 1-2: 23250
+- Year 1: 33000
+- Year 2: 36150
+- Year 3: 36150
+- Year 4-6: 38100
+- Year 7-8: 45300
+- Year 9-11: 49200
+[ucsi-international-school] ONE-TIME FEES:
+- Application Fee: 1200
+- Registration Fee: 5000
+- Administration Fee: 4000
+- Student Visa Application Fee: 1400
+- Guardian Visa Application Fee: 1500
+- Deposit: One Term's Tuition Fee
+[ucsi-international-school] SOURCE: https://www.ucsiinternationalschool.edu.my/kl/fee-schedule/
+[ucsi-international-school] YEAR: 2026-2027
+[ucsi-international-school] NOTES: Annual fees represent the 'Total Fee' from the school's schedule, which includes both the Tuition Fee and a Tech Fee (RM 600 per term). Fees are paid across three terms. There is also a Student Personal Insurance fee of RM 30 per year. One term's tuition fee is required as a deposit. Administration fee is for international students only.
+
+[ucsi-international-school-springhill] ANNUAL FEES:
+- Year 1-2: 23700
+- Year 3-5: 26100
+- Year 6-8: 35400
+- Year 9-10: 39300
+- Year 11-12: 41250
+[ucsi-international-school-springhill] ONE-TIME FEES:
+- Application Fee: 1000
+- Registration Fee: 5000
+- International Administration Fee: 4000
+- Boarding Deposit: 5000
+- Tuition Deposit: One Term Fee
+[ucsi-international-school-springhill] SOURCE: https://www.ucsiinternationalschool.edu.my/sh/wp-content/uploads/sites/6/2025/06/UIS-SH-Fee-Schedule-AY25_26.pdf
+[ucsi-international-school-springhill] YEAR: 2025-2026
+[ucsi-international-school-springhill] NOTES: Fees are in MYR. The listed annual fees include both tuition and facility fees. There are three terms per academic year. Boarding fees are extra: Full Boarding (23850 per year) and Weekday Boarding (19170 per year). Insurance is 50 per year for non-boarders and 600 for boarders. Deposit for tuition is equivalent to one term's fee.
+
+[ucsi-international-school-subang-jaya] ANNUAL FEES:
+- Early Years 1: 12750
+- Early Years 2: 12750
+- Year 1: 20280
+- Year 2: 21840
+- Year 3: 23130
+- Year 4: 23730
+- Year 5: 24630
+- Year 6: 25020
+- Year 7: 26070
+- Year 8: 27270
+- Year 9: 28620
+- Year 10: 29820
+- Year 11: 29820
+[ucsi-international-school-subang-jaya] ONE-TIME FEES:
+- Application Fee: 800
+- Registration Fee: 3000
+- Deposit: One Term's Tuition Fee
+[ucsi-international-school-subang-jaya] SOURCE: https://www.ucsiinternationalschool.edu.my/sj/fee-schedule/
+[ucsi-international-school-subang-jaya] YEAR: 2025-2026
+[ucsi-international-school-subang-jaya] NOTES: Annual fees consist of Tuition Fee and Other Fees (lab costs, library, music, arts, co-curricular, insurance, yearbook) multiplied by three terms. Deposit is equivalent to one term's tuition fee. External exam fees for Year 6 and 9 are RM 700 and RM 850 respectively. Uniforms, books, meals, and field trips are not included.
+
+[utama-international-school] FEES NOT AVAILABLE
+[utama-international-school] YEAR: N/A
+
+[valley-international-school] ANNUAL FEES:
+- Foundation 1 & 2: 15000
+- Year 1: 15000
+- Year 2: 18900
+- Year 3: 18900
+- Year 4: 18900
+- Year 5: 19800
+- Year 6: 19800
+- Year 7: 22500
+- Year 8: 22500
+- Year 9: 22500
+- Year 10: 30000
+- Year 11: 30000
+[valley-international-school] ONE-TIME FEES:
+- Application Fee: 300 (Preschool) / 400 (Primary) / 500 (Secondary)
+- Registration Fee: 3500 (Preschool/Primary) / 4500 (Secondary)
+- Security Deposit: 5000
+[valley-international-school] SOURCE: https://www.valley.edu.my/fees/
+[valley-international-school] YEAR: 2025-2026
+[valley-international-school] NOTES: Fees are based on the 2025/2026 academic year. Tuition is paid termly (3 terms per year). Other annual fees include School Insurance (65), Cambridge Fee (250), and Sports & School Activity Fee (800). Uniform costs vary by level (130-180). Security deposit is refundable.
+
+[victoria-international-school] ANNUAL FEES:
+- Pre-School: 5880
+- Primary School: 10800 - 12600
+- Secondary School: 14400 - 16200
+- A-Level: 18000
+[victoria-international-school] ONE-TIME FEES:
+- Application Fee: 250 (Pre-School)
+- 500 (Primary/Secondary/A-Level); Registration Fee: 1500 (Pre-School)
+[victoria-international-school] SOURCE: https://schooladvisor.my/schools/victoria-international-school
+[victoria-international-school] YEAR: 2025-2026
+[victoria-international-school] NOTES: Fees were not found on the school's official website but were available on several reputable school directory sites and corroborated across multiple sources. The school's own website mentions "Affordable Fees" and "Transparent fee structure" but does not list specific figures publicly. Promotional discounts (e.g., 20% discount, RM888 registration fee waiver) for the 2026 intake were also noted on their social media. Boarding fees are approximately 28680 per year.
+
+[vikas-international-school] ANNUAL FEES:
+- Pre-KG: 7800 (650 per month)
+- KG1 & KG2: 8400 (700 per month)
+- Grade 1-5: 15120 (1260 per month)
+- Grade 6-8: 18000 (1500 per month)
+- Grade 9-10: 18000 (1500 per month)
+- Grade 11-12: 19200 (1600 per month)
+[vikas-international-school] ONE-TIME FEES:
+- Pre-KG: Enrolment 1500
+- Special Fees 2500; KG1 & KG2: Enrolment 2500
+- Special Fees 3500; Grade 1-5: Enrolment 3500
+- Special Fees 3500; Grade 6-8: Enrolment 3500
+- Special Fees 3500; Grade 9-10: Enrolment 4500
+- Special Fees 4500; Grade 11-12: Enrolment 4800
+- Application fee: 50.
+[vikas-international-school] SOURCE: https://vikas.edu.my/admission.php
+[vikas-international-school] YEAR: 2026-2027 (based on homepage pop-up advertising Open Day on 14 March 2026 and admissions for 2026-27)
+[vikas-international-school] NOTES: Monthly fees multiplied by 12 to get annual amounts. 'Special Fees' are payable once a year (Pre-KG: 2500, KG1-2: 3500, Grade 1-8: 3500, Grade 9-10: 4500, Grade 11-12: 4500). Security fees are refundable. Enrolment fees are non-refundable. Grade 11-12 also has a Laboratory fee of 1000 and Examination fee of 500. Source PDFs found on the admission page.
+
+[wesley-methodist-school] FEES NOT AVAILABLE
+[wesley-methodist-school] SOURCE: https://kl.wms.edu.my/admissions/fee-structure-international-school
+[wesley-methodist-school] YEAR: 2025-2026
+
+[zenith-international-school-seremban] ANNUAL FEES:
+- Preschool Level 1: 7200
+- Preschool Level 2: 7200
+- Years 1-2: 11880
+- Years 3-4: 14520
+- Years 5-6: 17160
+- Years 7-9: 19800
+- Years 10-11: 23760
+[zenith-international-school-seremban] ONE-TIME FEES:
+- Application Fee: 600
+- Registration Fee: 3000
+- Deposit: 3000
+- Preschool Application Fee: 250 (waived)
+- Preschool Registration Fee: 1000
+- Preschool Deposit: 1000 (waived)
+[zenith-international-school-seremban] SOURCE: https://www.zenith.edu.my/feeschedule-allinonefee.php
+[zenith-international-school-seremban] YEAR: 2025-2026
+[zenith-international-school-seremban] NOTES: Annual tuition fees are based on the 'Annually' column in the school's fee schedule. Preschool fees were listed separately but also provided an annual amount. One-time fees for Preschool include an application fee of 250 (waived), registration fee of 1000, and a deposit of 1000 (waived). For Primary and Secondary, one-time fees include an application fee of 600, registration fee of 3000, and a deposit of 3000 (per family). Other annual non-refundable fees (Resource fee, Technology fee, and Activity Fund) were also listed. Academic year 2025-2026 was confirmed via the download page's academic calendar.
