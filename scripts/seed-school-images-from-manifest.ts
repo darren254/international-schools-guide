@@ -36,6 +36,10 @@ const VARIANT_ORDER: Record<string, number> = {
   photo1: 5,
   photo2: 6,
   photo3: 7,
+  photo4: 8,
+  photo5: 9,
+  photo6: 10,
+  photo7: 11,
 };
 
 async function main() {
@@ -52,7 +56,7 @@ async function main() {
 
     const variants = Object.keys(entry).filter(
       (k) =>
-        ["card", "profile", "hero", "og", "logo", "photo1", "photo2", "photo3"].includes(k) &&
+        ["card", "profile", "hero", "og", "logo", "photo1", "photo2", "photo3", "photo4", "photo5", "photo6", "photo7"].includes(k) &&
         typeof entry[k] === "string"
     );
     if (variants.length === 0) continue;

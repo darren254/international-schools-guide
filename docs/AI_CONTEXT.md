@@ -35,11 +35,18 @@ Keep this section up to date when we add services. Never suggest alternatives we
 
 ## Publish workflow
 
+**Two ways to publish:**
+
+### A. Admin "Publish" button (preferred for staff)
+The admin backend at `/admin` has a **Publish** button in the header. Clicking it triggers a GitHub Action (`publish-from-admin.yml`) that syncs the DB to static data, commits, and pushes — which triggers the Cloudflare Pages build. Changes are live in ~5 minutes. Requires `GITHUB_PAT` env var in Cloudflare and `DATABASE_URL` secret in GitHub Actions.
+
+### B. Chat publish (AI-assisted)
+When the user says "publish" in chat, the AI runs:
 1. Sync DB → static: `npx tsx scripts/sync-schools-from-db.ts` (uses DATABASE_URL from .env.local).
-2. Git add changed files (e.g. src/data/school-images.json and any other modified files), commit with a clear message, push.
+2. Git add changed files, commit with a clear message, push.
 3. Cloudflare Pages builds and deploys from the push.
 
-When the user says "publish" in chat, the AI runs these steps. Do not ask the user to run wrangler or deploy commands.
+Do not ask the user to run wrangler or deploy commands.
 
 ---
 

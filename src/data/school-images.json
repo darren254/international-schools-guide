@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T14:00:15.034Z",
+  "generatedAt": "2026-03-13T16:28:37.001Z",
   "sourceRoot": "external/jakarta-school-automation-images",
   "slugs": {
     "acg-school-jakarta": {
@@ -772,7 +772,14 @@
       "photo1": "/images/schools/nexus-international-school/photo1.webp",
       "sourceFolder": "The Guide/Images",
       "photo2": "/images/schools/nexus-international-school/photo2.webp",
-      "photo3": "/images/schools/nexus-international-school/photo3.webp"
+      "photo3": "/images/schools/nexus-international-school/photo3.webp",
+      "photo4": "/images/schools/nexus-international-school/photo4.webp",
+      "photo5": "/images/schools/nexus-international-school/photo5.webp",
+      "photo6": "/images/schools/nexus-international-school/photo6.webp",
+      "photo7": "/images/schools/nexus-international-school/photo7.webp",
+      "photo8": "/images/schools/nexus-international-school/photo8.webp",
+      "photo9": "/images/schools/nexus-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "nexus-international-school-singapore": {
       "card": "/images/schools/nexus-international-school/card.webp",
@@ -1128,7 +1135,14 @@
       "sourceFolder": "The Guide/Images",
       "photo1": "/images/schools/garden-international-school/photo1.webp",
       "photo2": "/images/schools/garden-international-school/photo2.webp",
-      "photo3": "/images/schools/garden-international-school/photo3.webp"
+      "photo3": "/images/schools/garden-international-school/photo3.webp",
+      "photo4": "/images/schools/garden-international-school/photo4.webp",
+      "photo5": "/images/schools/garden-international-school/photo5.webp",
+      "photo6": "/images/schools/garden-international-school/photo6.webp",
+      "photo7": "/images/schools/garden-international-school/photo7.webp",
+      "photo8": "/images/schools/garden-international-school/photo8.webp",
+      "photo9": "/images/schools/garden-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "garden-international-school-bangkok": {
       "card": "/images/schools/garden-international-school/card.webp",
@@ -1507,13 +1521,27 @@
       "card": "/images/schools/inspiros-international-school/card.webp",
       "profile": "/images/schools/inspiros-international-school/profile.webp",
       "sourceFolder": "website",
-      "sourceFile": "10.png"
+      "sourceFile": "10.png",
+      "photo1": "/images/schools/inspiros-international-school/photo1.webp",
+      "photo2": "/images/schools/inspiros-international-school/photo2.webp",
+      "photo3": "/images/schools/inspiros-international-school/photo3.webp",
+      "photo4": "/images/schools/inspiros-international-school/photo4.webp",
+      "photo5": "/images/schools/inspiros-international-school/photo5.webp",
+      "photo6": "/images/schools/inspiros-international-school/photo6.webp",
+      "sourceWebsite": "true"
     },
     "maple-leaf-kingsley-international-school": {
       "card": "/images/schools/maple-leaf-kingsley-international-school/card.webp",
       "profile": "/images/schools/maple-leaf-kingsley-international-school/profile.webp",
       "sourceFolder": "website",
-      "sourceFile": "Image-5-1024x1024.png"
+      "sourceFile": "Image-5-1024x1024.png",
+      "photo1": "/images/schools/maple-leaf-kingsley-international-school/photo1.webp",
+      "photo2": "/images/schools/maple-leaf-kingsley-international-school/photo2.webp",
+      "photo3": "/images/schools/maple-leaf-kingsley-international-school/photo3.webp",
+      "photo4": "/images/schools/maple-leaf-kingsley-international-school/photo4.webp",
+      "photo5": "/images/schools/maple-leaf-kingsley-international-school/photo5.webp",
+      "photo6": "/images/schools/maple-leaf-kingsley-international-school/photo6.webp",
+      "sourceWebsite": "true"
     },
     "brighton-college-bangkok-vibhavadi": {
       "profile": "/images/schools/brighton-college-bangkok-vibhavadi/profile.webp",
@@ -3924,7 +3952,14 @@
       "photo2": "/images/schools/abedeen-international-school/photo2.webp",
       "photo3": "/images/schools/abedeen-international-school/photo3.webp",
       "photo4": "/images/schools/abedeen-international-school/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/abedeen-international-school/photo5.webp",
+      "photo6": "/images/schools/abedeen-international-school/photo6.webp",
+      "photo7": "/images/schools/abedeen-international-school/photo7.webp",
+      "photo8": "/images/schools/abedeen-international-school/photo8.webp",
+      "photo9": "/images/schools/abedeen-international-school/photo9.webp",
+      "photo10": "/images/schools/abedeen-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "ace-edventure-biosphere-academy": {
       "profile": "/images/schools/ace-edventure-biosphere-academy/profile.webp",
@@ -3932,7 +3967,14 @@
       "photo1": "/images/schools/ace-edventure-biosphere-academy/photo1.webp",
       "photo2": "/images/schools/ace-edventure-biosphere-academy/photo2.webp",
       "photo3": "/images/schools/ace-edventure-biosphere-academy/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/ace-edventure-biosphere-academy/photo4.webp",
+      "photo5": "/images/schools/ace-edventure-biosphere-academy/photo5.webp",
+      "photo6": "/images/schools/ace-edventure-biosphere-academy/photo6.webp",
+      "photo7": "/images/schools/ace-edventure-biosphere-academy/photo7.webp",
+      "photo8": "/images/schools/ace-edventure-biosphere-academy/photo8.webp",
+      "photo9": "/images/schools/ace-edventure-biosphere-academy/photo9.webp",
+      "sourceWebsite": "true"
     },
     "adcote-matrix-international-school": {
       "profile": "/images/schools/adcote-matrix-international-school/profile.webp",
@@ -3941,7 +3983,14 @@
       "photo2": "/images/schools/adcote-matrix-international-school/photo2.webp",
       "photo3": "/images/schools/adcote-matrix-international-school/photo3.webp",
       "photo4": "/images/schools/adcote-matrix-international-school/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/adcote-matrix-international-school/photo5.webp",
+      "photo6": "/images/schools/adcote-matrix-international-school/photo6.webp",
+      "photo7": "/images/schools/adcote-matrix-international-school/photo7.webp",
+      "photo8": "/images/schools/adcote-matrix-international-school/photo8.webp",
+      "photo9": "/images/schools/adcote-matrix-international-school/photo9.webp",
+      "photo10": "/images/schools/adcote-matrix-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "arrows-international-school": {
       "profile": "/images/schools/arrows-international-school/profile.webp",
@@ -3953,12 +4002,22 @@
       "photo5": "/images/schools/arrows-international-school/photo5.webp",
       "photo6": "/images/schools/arrows-international-school/photo6.webp",
       "photo7": "/images/schools/arrows-international-school/photo7.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo8": "/images/schools/arrows-international-school/photo8.webp",
+      "photo9": "/images/schools/arrows-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "aspiration-international-school": {
       "profile": "/images/schools/aspiration-international-school/profile.webp",
       "card": "/images/schools/aspiration-international-school/card.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/aspiration-international-school/photo1.webp",
+      "photo2": "/images/schools/aspiration-international-school/photo2.webp",
+      "photo3": "/images/schools/aspiration-international-school/photo3.webp",
+      "photo4": "/images/schools/aspiration-international-school/photo4.webp",
+      "photo5": "/images/schools/aspiration-international-school/photo5.webp",
+      "photo6": "/images/schools/aspiration-international-school/photo6.webp",
+      "sourceWebsite": "true"
     },
     "australian-international-school-malaysia": {
       "profile": "/images/schools/australian-international-school-malaysia/profile.webp",
@@ -3968,7 +4027,13 @@
       "photo3": "/images/schools/australian-international-school-malaysia/photo3.webp",
       "photo4": "/images/schools/australian-international-school-malaysia/photo4.webp",
       "photo5": "/images/schools/australian-international-school-malaysia/photo5.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo6": "/images/schools/australian-international-school-malaysia/photo6.webp",
+      "photo7": "/images/schools/australian-international-school-malaysia/photo7.webp",
+      "photo8": "/images/schools/australian-international-school-malaysia/photo8.webp",
+      "photo9": "/images/schools/australian-international-school-malaysia/photo9.webp",
+      "photo10": "/images/schools/australian-international-school-malaysia/photo10.webp",
+      "sourceWebsite": "true"
     },
     "axcel-international-school": {
       "profile": "/images/schools/axcel-international-school/profile.webp",
@@ -3976,7 +4041,14 @@
       "photo1": "/images/schools/axcel-international-school/photo1.webp",
       "photo2": "/images/schools/axcel-international-school/photo2.webp",
       "photo3": "/images/schools/axcel-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/axcel-international-school/photo4.webp",
+      "photo5": "/images/schools/axcel-international-school/photo5.webp",
+      "photo6": "/images/schools/axcel-international-school/photo6.webp",
+      "photo7": "/images/schools/axcel-international-school/photo7.webp",
+      "photo8": "/images/schools/axcel-international-school/photo8.webp",
+      "photo9": "/images/schools/axcel-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "baseerah-international-school": {
       "profile": "/images/schools/baseerah-international-school/profile.webp",
@@ -3984,7 +4056,14 @@
       "photo1": "/images/schools/baseerah-international-school/photo1.webp",
       "photo2": "/images/schools/baseerah-international-school/photo2.webp",
       "photo3": "/images/schools/baseerah-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/baseerah-international-school/photo4.webp",
+      "photo5": "/images/schools/baseerah-international-school/photo5.webp",
+      "photo6": "/images/schools/baseerah-international-school/photo6.webp",
+      "photo7": "/images/schools/baseerah-international-school/photo7.webp",
+      "photo8": "/images/schools/baseerah-international-school/photo8.webp",
+      "photo9": "/images/schools/baseerah-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "beaconhouse-sri-inai-international-school": {
       "profile": "/images/schools/beaconhouse-sri-inai-international-school/profile.webp",
@@ -3993,7 +4072,14 @@
       "photo2": "/images/schools/beaconhouse-sri-inai-international-school/photo2.webp",
       "photo3": "/images/schools/beaconhouse-sri-inai-international-school/photo3.webp",
       "photo4": "/images/schools/beaconhouse-sri-inai-international-school/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/beaconhouse-sri-inai-international-school/photo5.webp",
+      "photo6": "/images/schools/beaconhouse-sri-inai-international-school/photo6.webp",
+      "photo7": "/images/schools/beaconhouse-sri-inai-international-school/photo7.webp",
+      "photo8": "/images/schools/beaconhouse-sri-inai-international-school/photo8.webp",
+      "photo9": "/images/schools/beaconhouse-sri-inai-international-school/photo9.webp",
+      "photo10": "/images/schools/beaconhouse-sri-inai-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "brainy-bunch-international-islamic-montessori-school": {
       "profile": "/images/schools/brainy-bunch-international-islamic-montessori-school/profile.webp",
@@ -4003,7 +4089,13 @@
       "photo3": "/images/schools/brainy-bunch-international-islamic-montessori-school/photo3.webp",
       "photo4": "/images/schools/brainy-bunch-international-islamic-montessori-school/photo4.webp",
       "photo5": "/images/schools/brainy-bunch-international-islamic-montessori-school/photo5.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo6": "/images/schools/brainy-bunch-international-islamic-montessori-school/photo6.webp",
+      "photo7": "/images/schools/brainy-bunch-international-islamic-montessori-school/photo7.webp",
+      "photo8": "/images/schools/brainy-bunch-international-islamic-montessori-school/photo8.webp",
+      "photo9": "/images/schools/brainy-bunch-international-islamic-montessori-school/photo9.webp",
+      "photo10": "/images/schools/brainy-bunch-international-islamic-montessori-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "brighton-international-school": {
       "profile": "/images/schools/brighton-international-school/profile.webp",
@@ -4011,7 +4103,14 @@
       "photo1": "/images/schools/brighton-international-school/photo1.webp",
       "photo2": "/images/schools/brighton-international-school/photo2.webp",
       "photo3": "/images/schools/brighton-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/brighton-international-school/photo4.webp",
+      "photo5": "/images/schools/brighton-international-school/photo5.webp",
+      "photo6": "/images/schools/brighton-international-school/photo6.webp",
+      "photo7": "/images/schools/brighton-international-school/photo7.webp",
+      "photo8": "/images/schools/brighton-international-school/photo8.webp",
+      "photo9": "/images/schools/brighton-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "campus-rangers-international-school": {
       "profile": "/images/schools/campus-rangers-international-school/profile.webp",
@@ -4019,7 +4118,14 @@
       "photo1": "/images/schools/campus-rangers-international-school/photo1.webp",
       "photo2": "/images/schools/campus-rangers-international-school/photo2.webp",
       "photo3": "/images/schools/campus-rangers-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/campus-rangers-international-school/photo4.webp",
+      "photo5": "/images/schools/campus-rangers-international-school/photo5.webp",
+      "photo6": "/images/schools/campus-rangers-international-school/photo6.webp",
+      "photo7": "/images/schools/campus-rangers-international-school/photo7.webp",
+      "photo8": "/images/schools/campus-rangers-international-school/photo8.webp",
+      "photo9": "/images/schools/campus-rangers-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "canary-international-school": {
       "profile": "/images/schools/canary-international-school/profile.webp",
@@ -4029,7 +4135,13 @@
       "photo3": "/images/schools/canary-international-school/photo3.webp",
       "photo4": "/images/schools/canary-international-school/photo4.webp",
       "photo5": "/images/schools/canary-international-school/photo5.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo6": "/images/schools/canary-international-school/photo6.webp",
+      "photo7": "/images/schools/canary-international-school/photo7.webp",
+      "photo8": "/images/schools/canary-international-school/photo8.webp",
+      "photo9": "/images/schools/canary-international-school/photo9.webp",
+      "photo10": "/images/schools/canary-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "cempaka-international-school": {
       "profile": "/images/schools/cempaka-international-school/profile.webp",
@@ -4055,7 +4167,14 @@
       "photo1": "/images/schools/concord-college-international-school/photo1.webp",
       "photo2": "/images/schools/concord-college-international-school/photo2.webp",
       "photo3": "/images/schools/concord-college-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/concord-college-international-school/photo4.webp",
+      "photo5": "/images/schools/concord-college-international-school/photo5.webp",
+      "photo6": "/images/schools/concord-college-international-school/photo6.webp",
+      "photo7": "/images/schools/concord-college-international-school/photo7.webp",
+      "photo8": "/images/schools/concord-college-international-school/photo8.webp",
+      "photo9": "/images/schools/concord-college-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "cranbridge-international-school": {
       "profile": "/images/schools/cranbridge-international-school/profile.webp",
@@ -4065,7 +4184,13 @@
       "photo3": "/images/schools/cranbridge-international-school/photo3.webp",
       "photo4": "/images/schools/cranbridge-international-school/photo4.webp",
       "photo5": "/images/schools/cranbridge-international-school/photo5.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo6": "/images/schools/cranbridge-international-school/photo6.webp",
+      "photo7": "/images/schools/cranbridge-international-school/photo7.webp",
+      "photo8": "/images/schools/cranbridge-international-school/photo8.webp",
+      "photo9": "/images/schools/cranbridge-international-school/photo9.webp",
+      "photo10": "/images/schools/cranbridge-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "dwi-emas-international-school": {
       "profile": "/images/schools/dwi-emas-international-school/profile.webp",
@@ -4075,12 +4200,25 @@
       "photo3": "/images/schools/dwi-emas-international-school/photo3.webp",
       "photo4": "/images/schools/dwi-emas-international-school/photo4.webp",
       "photo5": "/images/schools/dwi-emas-international-school/photo5.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo6": "/images/schools/dwi-emas-international-school/photo6.webp",
+      "photo7": "/images/schools/dwi-emas-international-school/photo7.webp",
+      "photo8": "/images/schools/dwi-emas-international-school/photo8.webp",
+      "photo9": "/images/schools/dwi-emas-international-school/photo9.webp",
+      "photo10": "/images/schools/dwi-emas-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "eagles-grammar-international-school": {
       "profile": "/images/schools/eagles-grammar-international-school/profile.webp",
       "card": "/images/schools/eagles-grammar-international-school/card.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/eagles-grammar-international-school/photo1.webp",
+      "photo2": "/images/schools/eagles-grammar-international-school/photo2.webp",
+      "photo3": "/images/schools/eagles-grammar-international-school/photo3.webp",
+      "photo4": "/images/schools/eagles-grammar-international-school/photo4.webp",
+      "photo5": "/images/schools/eagles-grammar-international-school/photo5.webp",
+      "photo6": "/images/schools/eagles-grammar-international-school/photo6.webp",
+      "sourceWebsite": "true"
     },
     "elc-international-school": {
       "profile": "/images/schools/elc-international-school/profile.webp",
@@ -4089,7 +4227,14 @@
       "photo2": "/images/schools/elc-international-school/photo2.webp",
       "photo3": "/images/schools/elc-international-school/photo3.webp",
       "photo4": "/images/schools/elc-international-school/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/elc-international-school/photo5.webp",
+      "photo6": "/images/schools/elc-international-school/photo6.webp",
+      "photo7": "/images/schools/elc-international-school/photo7.webp",
+      "photo8": "/images/schools/elc-international-school/photo8.webp",
+      "photo9": "/images/schools/elc-international-school/photo9.webp",
+      "photo10": "/images/schools/elc-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "epsom-college-in-malaysia": {
       "profile": "/images/schools/epsom-college-in-malaysia/profile.webp",
@@ -4098,13 +4243,27 @@
       "photo2": "/images/schools/epsom-college-in-malaysia/photo2.webp",
       "photo3": "/images/schools/epsom-college-in-malaysia/photo3.webp",
       "photo4": "/images/schools/epsom-college-in-malaysia/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/epsom-college-in-malaysia/photo5.webp",
+      "photo6": "/images/schools/epsom-college-in-malaysia/photo6.webp",
+      "photo7": "/images/schools/epsom-college-in-malaysia/photo7.webp",
+      "photo8": "/images/schools/epsom-college-in-malaysia/photo8.webp",
+      "photo9": "/images/schools/epsom-college-in-malaysia/photo9.webp",
+      "photo10": "/images/schools/epsom-college-in-malaysia/photo10.webp",
+      "sourceWebsite": "true"
     },
     "fairview-international-school": {
       "profile": "/images/schools/fairview-international-school/profile.webp",
       "card": "/images/schools/fairview-international-school/card.webp",
       "photo1": "/images/schools/fairview-international-school/photo1.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo2": "/images/schools/fairview-international-school/photo2.webp",
+      "photo3": "/images/schools/fairview-international-school/photo3.webp",
+      "photo4": "/images/schools/fairview-international-school/photo4.webp",
+      "photo5": "/images/schools/fairview-international-school/photo5.webp",
+      "photo6": "/images/schools/fairview-international-school/photo6.webp",
+      "photo7": "/images/schools/fairview-international-school/photo7.webp",
+      "sourceWebsite": "true"
     },
     "fairview-international-school-subang-jaya": {
       "profile": "/images/schools/fairview-international-school-subang-jaya/profile.webp",
@@ -4112,12 +4271,23 @@
       "photo1": "/images/schools/fairview-international-school-subang-jaya/photo1.webp",
       "photo2": "/images/schools/fairview-international-school-subang-jaya/photo2.webp",
       "photo3": "/images/schools/fairview-international-school-subang-jaya/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/fairview-international-school-subang-jaya/photo4.webp",
+      "photo5": "/images/schools/fairview-international-school-subang-jaya/photo5.webp",
+      "photo6": "/images/schools/fairview-international-school-subang-jaya/photo6.webp",
+      "photo7": "/images/schools/fairview-international-school-subang-jaya/photo7.webp",
+      "photo8": "/images/schools/fairview-international-school-subang-jaya/photo8.webp",
+      "photo9": "/images/schools/fairview-international-school-subang-jaya/photo9.webp",
+      "sourceWebsite": "true"
     },
     "german-school": {
       "profile": "/images/schools/german-school/profile.webp",
       "card": "/images/schools/german-school/card.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/german-school/photo1.webp",
+      "photo2": "/images/schools/german-school/photo2.webp",
+      "photo3": "/images/schools/german-school/photo3.webp",
+      "sourceWebsite": "true"
     },
     "global-modern-international-school": {
       "profile": "/images/schools/global-modern-international-school/profile.webp",
@@ -4125,7 +4295,14 @@
       "photo1": "/images/schools/global-modern-international-school/photo1.webp",
       "photo2": "/images/schools/global-modern-international-school/photo2.webp",
       "photo3": "/images/schools/global-modern-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/global-modern-international-school/photo4.webp",
+      "photo5": "/images/schools/global-modern-international-school/photo5.webp",
+      "photo6": "/images/schools/global-modern-international-school/photo6.webp",
+      "photo7": "/images/schools/global-modern-international-school/photo7.webp",
+      "photo8": "/images/schools/global-modern-international-school/photo8.webp",
+      "photo9": "/images/schools/global-modern-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "global-oak-tree-scholars-international-school": {
       "profile": "/images/schools/global-oak-tree-scholars-international-school/profile.webp",
@@ -4133,12 +4310,26 @@
       "photo1": "/images/schools/global-oak-tree-scholars-international-school/photo1.webp",
       "photo2": "/images/schools/global-oak-tree-scholars-international-school/photo2.webp",
       "photo3": "/images/schools/global-oak-tree-scholars-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/global-oak-tree-scholars-international-school/photo4.webp",
+      "photo5": "/images/schools/global-oak-tree-scholars-international-school/photo5.webp",
+      "photo6": "/images/schools/global-oak-tree-scholars-international-school/photo6.webp",
+      "photo7": "/images/schools/global-oak-tree-scholars-international-school/photo7.webp",
+      "photo8": "/images/schools/global-oak-tree-scholars-international-school/photo8.webp",
+      "photo9": "/images/schools/global-oak-tree-scholars-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "greenview-islamic-international-school": {
       "profile": "/images/schools/greenview-islamic-international-school/profile.webp",
       "card": "/images/schools/greenview-islamic-international-school/card.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/greenview-islamic-international-school/photo1.webp",
+      "photo2": "/images/schools/greenview-islamic-international-school/photo2.webp",
+      "photo3": "/images/schools/greenview-islamic-international-school/photo3.webp",
+      "photo4": "/images/schools/greenview-islamic-international-school/photo4.webp",
+      "photo5": "/images/schools/greenview-islamic-international-school/photo5.webp",
+      "photo6": "/images/schools/greenview-islamic-international-school/photo6.webp",
+      "sourceWebsite": "true"
     },
     "havil-international-school": {
       "profile": "/images/schools/havil-international-school/profile.webp",
@@ -4147,7 +4338,14 @@
       "photo2": "/images/schools/havil-international-school/photo2.webp",
       "photo3": "/images/schools/havil-international-school/photo3.webp",
       "photo4": "/images/schools/havil-international-school/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/havil-international-school/photo5.webp",
+      "photo6": "/images/schools/havil-international-school/photo6.webp",
+      "photo7": "/images/schools/havil-international-school/photo7.webp",
+      "photo8": "/images/schools/havil-international-school/photo8.webp",
+      "photo9": "/images/schools/havil-international-school/photo9.webp",
+      "photo10": "/images/schools/havil-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "help-international-school": {
       "profile": "/images/schools/help-international-school/profile.webp",
@@ -4155,7 +4353,14 @@
       "photo1": "/images/schools/help-international-school/photo1.webp",
       "photo2": "/images/schools/help-international-school/photo2.webp",
       "photo3": "/images/schools/help-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/help-international-school/photo4.webp",
+      "photo5": "/images/schools/help-international-school/photo5.webp",
+      "photo6": "/images/schools/help-international-school/photo6.webp",
+      "photo7": "/images/schools/help-international-school/photo7.webp",
+      "photo8": "/images/schools/help-international-school/photo8.webp",
+      "photo9": "/images/schools/help-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "heritage-international-school": {
       "profile": "/images/schools/heritage-international-school/profile.webp",
@@ -4163,7 +4368,14 @@
       "photo1": "/images/schools/heritage-international-school/photo1.webp",
       "photo2": "/images/schools/heritage-international-school/photo2.webp",
       "photo3": "/images/schools/heritage-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/heritage-international-school/photo4.webp",
+      "photo5": "/images/schools/heritage-international-school/photo5.webp",
+      "photo6": "/images/schools/heritage-international-school/photo6.webp",
+      "photo7": "/images/schools/heritage-international-school/photo7.webp",
+      "photo8": "/images/schools/heritage-international-school/photo8.webp",
+      "photo9": "/images/schools/heritage-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "hua-xia-international-school": {
       "profile": "/images/schools/hua-xia-international-school/profile.webp",
@@ -4173,7 +4385,13 @@
       "photo3": "/images/schools/hua-xia-international-school/photo3.webp",
       "photo4": "/images/schools/hua-xia-international-school/photo4.webp",
       "photo5": "/images/schools/hua-xia-international-school/photo5.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo6": "/images/schools/hua-xia-international-school/photo6.webp",
+      "photo7": "/images/schools/hua-xia-international-school/photo7.webp",
+      "photo8": "/images/schools/hua-xia-international-school/photo8.webp",
+      "photo9": "/images/schools/hua-xia-international-school/photo9.webp",
+      "photo10": "/images/schools/hua-xia-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "idrissi-international-school": {
       "profile": "/images/schools/idrissi-international-school/profile.webp",
@@ -4182,7 +4400,14 @@
       "photo2": "/images/schools/idrissi-international-school/photo2.webp",
       "photo3": "/images/schools/idrissi-international-school/photo3.webp",
       "photo4": "/images/schools/idrissi-international-school/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/idrissi-international-school/photo5.webp",
+      "photo6": "/images/schools/idrissi-international-school/photo6.webp",
+      "photo7": "/images/schools/idrissi-international-school/photo7.webp",
+      "photo8": "/images/schools/idrissi-international-school/photo8.webp",
+      "photo9": "/images/schools/idrissi-international-school/photo9.webp",
+      "photo10": "/images/schools/idrissi-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "igb-international-school": {
       "profile": "/images/schools/igb-international-school/profile.webp",
@@ -4190,7 +4415,14 @@
       "photo1": "/images/schools/igb-international-school/photo1.webp",
       "photo2": "/images/schools/igb-international-school/photo2.webp",
       "photo3": "/images/schools/igb-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/igb-international-school/photo4.webp",
+      "photo5": "/images/schools/igb-international-school/photo5.webp",
+      "photo6": "/images/schools/igb-international-school/photo6.webp",
+      "photo7": "/images/schools/igb-international-school/photo7.webp",
+      "photo8": "/images/schools/igb-international-school/photo8.webp",
+      "photo9": "/images/schools/igb-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "international-islamic-school-malaysia": {
       "profile": "/images/schools/international-islamic-school-malaysia/profile.webp",
@@ -4198,7 +4430,14 @@
       "photo1": "/images/schools/international-islamic-school-malaysia/photo1.webp",
       "photo2": "/images/schools/international-islamic-school-malaysia/photo2.webp",
       "photo3": "/images/schools/international-islamic-school-malaysia/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/international-islamic-school-malaysia/photo4.webp",
+      "photo5": "/images/schools/international-islamic-school-malaysia/photo5.webp",
+      "photo6": "/images/schools/international-islamic-school-malaysia/photo6.webp",
+      "photo7": "/images/schools/international-islamic-school-malaysia/photo7.webp",
+      "photo8": "/images/schools/international-islamic-school-malaysia/photo8.webp",
+      "photo9": "/images/schools/international-islamic-school-malaysia/photo9.webp",
+      "sourceWebsite": "true"
     },
     "king-henry-viii-college": {
       "profile": "/images/schools/king-henry-viii-college/profile.webp",
@@ -4208,7 +4447,13 @@
       "photo3": "/images/schools/king-henry-viii-college/photo3.webp",
       "photo4": "/images/schools/king-henry-viii-college/photo4.webp",
       "photo5": "/images/schools/king-henry-viii-college/photo5.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo6": "/images/schools/king-henry-viii-college/photo6.webp",
+      "photo7": "/images/schools/king-henry-viii-college/photo7.webp",
+      "photo8": "/images/schools/king-henry-viii-college/photo8.webp",
+      "photo9": "/images/schools/king-henry-viii-college/photo9.webp",
+      "photo10": "/images/schools/king-henry-viii-college/photo10.webp",
+      "sourceWebsite": "true"
     },
     "kingsgate-international-school": {
       "profile": "/images/schools/kingsgate-international-school/profile.webp",
@@ -4226,7 +4471,14 @@
       "photo2": "/images/schools/knewton-global-schools-rawang/photo2.webp",
       "photo3": "/images/schools/knewton-global-schools-rawang/photo3.webp",
       "photo4": "/images/schools/knewton-global-schools-rawang/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/knewton-global-schools-rawang/photo5.webp",
+      "photo6": "/images/schools/knewton-global-schools-rawang/photo6.webp",
+      "photo7": "/images/schools/knewton-global-schools-rawang/photo7.webp",
+      "photo8": "/images/schools/knewton-global-schools-rawang/photo8.webp",
+      "photo9": "/images/schools/knewton-global-schools-rawang/photo9.webp",
+      "photo10": "/images/schools/knewton-global-schools-rawang/photo10.webp",
+      "sourceWebsite": "true"
     },
     "kolej-tunku-kurshiah": {
       "profile": "/images/schools/kolej-tunku-kurshiah/profile.webp",
@@ -4234,7 +4486,14 @@
       "photo1": "/images/schools/kolej-tunku-kurshiah/photo1.webp",
       "photo2": "/images/schools/kolej-tunku-kurshiah/photo2.webp",
       "photo3": "/images/schools/kolej-tunku-kurshiah/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/kolej-tunku-kurshiah/photo4.webp",
+      "photo5": "/images/schools/kolej-tunku-kurshiah/photo5.webp",
+      "photo6": "/images/schools/kolej-tunku-kurshiah/photo6.webp",
+      "photo7": "/images/schools/kolej-tunku-kurshiah/photo7.webp",
+      "photo8": "/images/schools/kolej-tunku-kurshiah/photo8.webp",
+      "photo9": "/images/schools/kolej-tunku-kurshiah/photo9.webp",
+      "sourceWebsite": "true"
     },
     "kueen-lai-international-secondary-school": {
       "sourceFolder": "outscraper-google-maps"
@@ -4242,15 +4501,36 @@
     "maverick-international-primary-school": {
       "profile": "/images/schools/maverick-international-primary-school/profile.webp",
       "card": "/images/schools/maverick-international-primary-school/card.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/maverick-international-primary-school/photo1.webp",
+      "photo2": "/images/schools/maverick-international-primary-school/photo2.webp",
+      "photo3": "/images/schools/maverick-international-primary-school/photo3.webp",
+      "photo4": "/images/schools/maverick-international-primary-school/photo4.webp",
+      "photo5": "/images/schools/maverick-international-primary-school/photo5.webp",
+      "photo6": "/images/schools/maverick-international-primary-school/photo6.webp",
+      "sourceWebsite": "true"
     },
     "maverick-international-secondary-school": {
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/maverick-international-secondary-school/photo1.webp",
+      "photo2": "/images/schools/maverick-international-secondary-school/photo2.webp",
+      "photo3": "/images/schools/maverick-international-secondary-school/photo3.webp",
+      "photo4": "/images/schools/maverick-international-secondary-school/photo4.webp",
+      "photo5": "/images/schools/maverick-international-secondary-school/photo5.webp",
+      "photo6": "/images/schools/maverick-international-secondary-school/photo6.webp",
+      "sourceWebsite": "true"
     },
     "maz-international-school": {
       "profile": "/images/schools/maz-international-school/profile.webp",
       "card": "/images/schools/maz-international-school/card.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/maz-international-school/photo1.webp",
+      "photo2": "/images/schools/maz-international-school/photo2.webp",
+      "photo3": "/images/schools/maz-international-school/photo3.webp",
+      "photo4": "/images/schools/maz-international-school/photo4.webp",
+      "photo5": "/images/schools/maz-international-school/photo5.webp",
+      "photo6": "/images/schools/maz-international-school/photo6.webp",
+      "sourceWebsite": "true"
     },
     "mitstem-international-school": {
       "profile": "/images/schools/mitstem-international-school/profile.webp",
@@ -4258,7 +4538,14 @@
       "photo1": "/images/schools/mitstem-international-school/photo1.webp",
       "photo2": "/images/schools/mitstem-international-school/photo2.webp",
       "photo3": "/images/schools/mitstem-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/mitstem-international-school/photo4.webp",
+      "photo5": "/images/schools/mitstem-international-school/photo5.webp",
+      "photo6": "/images/schools/mitstem-international-school/photo6.webp",
+      "photo7": "/images/schools/mitstem-international-school/photo7.webp",
+      "photo8": "/images/schools/mitstem-international-school/photo8.webp",
+      "photo9": "/images/schools/mitstem-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "mutiara-international-grammar-school": {
       "profile": "/images/schools/mutiara-international-grammar-school/profile.webp",
@@ -4266,12 +4553,26 @@
       "photo1": "/images/schools/mutiara-international-grammar-school/photo1.webp",
       "photo2": "/images/schools/mutiara-international-grammar-school/photo2.webp",
       "photo3": "/images/schools/mutiara-international-grammar-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/mutiara-international-grammar-school/photo4.webp",
+      "photo5": "/images/schools/mutiara-international-grammar-school/photo5.webp",
+      "photo6": "/images/schools/mutiara-international-grammar-school/photo6.webp",
+      "photo7": "/images/schools/mutiara-international-grammar-school/photo7.webp",
+      "photo8": "/images/schools/mutiara-international-grammar-school/photo8.webp",
+      "photo9": "/images/schools/mutiara-international-grammar-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "nobel-international-school": {
       "profile": "/images/schools/nobel-international-school/profile.webp",
       "card": "/images/schools/nobel-international-school/card.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/nobel-international-school/photo1.webp",
+      "photo2": "/images/schools/nobel-international-school/photo2.webp",
+      "photo3": "/images/schools/nobel-international-school/photo3.webp",
+      "photo4": "/images/schools/nobel-international-school/photo4.webp",
+      "photo5": "/images/schools/nobel-international-school/photo5.webp",
+      "photo6": "/images/schools/nobel-international-school/photo6.webp",
+      "sourceWebsite": "true"
     },
     "oasis-international-school": {
       "profile": "/images/schools/oasis-international-school/profile.webp",
@@ -4286,7 +4587,14 @@
     "orbix-international-school-klang": {
       "profile": "/images/schools/orbix-international-school-klang/profile.webp",
       "card": "/images/schools/orbix-international-school-klang/card.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/orbix-international-school-klang/photo1.webp",
+      "photo2": "/images/schools/orbix-international-school-klang/photo2.webp",
+      "photo3": "/images/schools/orbix-international-school-klang/photo3.webp",
+      "photo4": "/images/schools/orbix-international-school-klang/photo4.webp",
+      "photo5": "/images/schools/orbix-international-school-klang/photo5.webp",
+      "photo6": "/images/schools/orbix-international-school-klang/photo6.webp",
+      "sourceWebsite": "true"
     },
     "qosmo-international-school": {
       "profile": "/images/schools/qosmo-international-school/profile.webp",
@@ -4295,7 +4603,13 @@
       "photo2": "/images/schools/qosmo-international-school/photo2.webp",
       "photo3": "/images/schools/qosmo-international-school/photo3.webp",
       "photo4": "/images/schools/qosmo-international-school/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/qosmo-international-school/photo5.webp",
+      "photo6": "/images/schools/qosmo-international-school/photo6.webp",
+      "photo7": "/images/schools/qosmo-international-school/photo7.webp",
+      "photo8": "/images/schools/qosmo-international-school/photo8.webp",
+      "photo9": "/images/schools/qosmo-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "r-e-a-l-international-school-cheras-campus": {
       "profile": "/images/schools/r-e-a-l-international-school-cheras-campus/profile.webp",
@@ -4304,7 +4618,14 @@
       "photo2": "/images/schools/r-e-a-l-international-school-cheras-campus/photo2.webp",
       "photo3": "/images/schools/r-e-a-l-international-school-cheras-campus/photo3.webp",
       "photo4": "/images/schools/r-e-a-l-international-school-cheras-campus/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/r-e-a-l-international-school-cheras-campus/photo5.webp",
+      "photo6": "/images/schools/r-e-a-l-international-school-cheras-campus/photo6.webp",
+      "photo7": "/images/schools/r-e-a-l-international-school-cheras-campus/photo7.webp",
+      "photo8": "/images/schools/r-e-a-l-international-school-cheras-campus/photo8.webp",
+      "photo9": "/images/schools/r-e-a-l-international-school-cheras-campus/photo9.webp",
+      "photo10": "/images/schools/r-e-a-l-international-school-cheras-campus/photo10.webp",
+      "sourceWebsite": "true"
     },
     "rafflesia-international-school-puchong": {
       "profile": "/images/schools/rafflesia-international-school-puchong/profile.webp",
@@ -4314,10 +4635,23 @@
       "photo3": "/images/schools/rafflesia-international-school-puchong/photo3.webp",
       "photo4": "/images/schools/rafflesia-international-school-puchong/photo4.webp",
       "photo5": "/images/schools/rafflesia-international-school-puchong/photo5.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo6": "/images/schools/rafflesia-international-school-puchong/photo6.webp",
+      "photo7": "/images/schools/rafflesia-international-school-puchong/photo7.webp",
+      "photo8": "/images/schools/rafflesia-international-school-puchong/photo8.webp",
+      "photo9": "/images/schools/rafflesia-international-school-puchong/photo9.webp",
+      "photo10": "/images/schools/rafflesia-international-school-puchong/photo10.webp",
+      "sourceWebsite": "true"
     },
     "regent-international-school-klang": {
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/regent-international-school-klang/photo1.webp",
+      "photo2": "/images/schools/regent-international-school-klang/photo2.webp",
+      "photo3": "/images/schools/regent-international-school-klang/photo3.webp",
+      "photo4": "/images/schools/regent-international-school-klang/photo4.webp",
+      "photo5": "/images/schools/regent-international-school-klang/photo5.webp",
+      "photo6": "/images/schools/regent-international-school-klang/photo6.webp",
+      "sourceWebsite": "true"
     },
     "rocklin-international-school": {
       "profile": "/images/schools/rocklin-international-school/profile.webp",
@@ -4326,7 +4660,9 @@
       "photo2": "/images/schools/rocklin-international-school/photo2.webp",
       "photo3": "/images/schools/rocklin-international-school/photo3.webp",
       "photo4": "/images/schools/rocklin-international-school/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/rocklin-international-school/photo5.webp",
+      "sourceWebsite": "true"
     },
     "sayfol-international-school": {
       "profile": "/images/schools/sayfol-international-school/profile.webp",
@@ -4337,7 +4673,12 @@
       "photo4": "/images/schools/sayfol-international-school/photo4.webp",
       "photo5": "/images/schools/sayfol-international-school/photo5.webp",
       "photo6": "/images/schools/sayfol-international-school/photo6.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo7": "/images/schools/sayfol-international-school/photo7.webp",
+      "photo8": "/images/schools/sayfol-international-school/photo8.webp",
+      "photo9": "/images/schools/sayfol-international-school/photo9.webp",
+      "photo10": "/images/schools/sayfol-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "sekolah-sri-ucsi": {
       "profile": "/images/schools/sekolah-sri-ucsi/profile.webp",
@@ -4347,7 +4688,13 @@
       "photo3": "/images/schools/sekolah-sri-ucsi/photo3.webp",
       "photo4": "/images/schools/sekolah-sri-ucsi/photo4.webp",
       "photo5": "/images/schools/sekolah-sri-ucsi/photo5.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo6": "/images/schools/sekolah-sri-ucsi/photo6.webp",
+      "photo7": "/images/schools/sekolah-sri-ucsi/photo7.webp",
+      "photo8": "/images/schools/sekolah-sri-ucsi/photo8.webp",
+      "photo9": "/images/schools/sekolah-sri-ucsi/photo9.webp",
+      "photo10": "/images/schools/sekolah-sri-ucsi/photo10.webp",
+      "sourceWebsite": "true"
     },
     "soka-international-school-malaysia": {
       "profile": "/images/schools/soka-international-school-malaysia/profile.webp",
@@ -4367,7 +4714,12 @@
       "photo4": "/images/schools/sri-bestari-international-school/photo4.webp",
       "photo5": "/images/schools/sri-bestari-international-school/photo5.webp",
       "photo6": "/images/schools/sri-bestari-international-school/photo6.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo7": "/images/schools/sri-bestari-international-school/photo7.webp",
+      "photo8": "/images/schools/sri-bestari-international-school/photo8.webp",
+      "photo9": "/images/schools/sri-bestari-international-school/photo9.webp",
+      "photo10": "/images/schools/sri-bestari-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "sri-dasmesh-international-school": {
       "profile": "/images/schools/sri-dasmesh-international-school/profile.webp",
@@ -4378,12 +4730,22 @@
       "photo4": "/images/schools/sri-dasmesh-international-school/photo4.webp",
       "photo5": "/images/schools/sri-dasmesh-international-school/photo5.webp",
       "photo6": "/images/schools/sri-dasmesh-international-school/photo6.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo7": "/images/schools/sri-dasmesh-international-school/photo7.webp",
+      "photo8": "/images/schools/sri-dasmesh-international-school/photo8.webp",
+      "sourceWebsite": "true"
     },
     "sri-emas-international-school": {
       "profile": "/images/schools/sri-emas-international-school/profile.webp",
       "card": "/images/schools/sri-emas-international-school/card.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/sri-emas-international-school/photo1.webp",
+      "photo2": "/images/schools/sri-emas-international-school/photo2.webp",
+      "photo3": "/images/schools/sri-emas-international-school/photo3.webp",
+      "photo4": "/images/schools/sri-emas-international-school/photo4.webp",
+      "photo5": "/images/schools/sri-emas-international-school/photo5.webp",
+      "photo6": "/images/schools/sri-emas-international-school/photo6.webp",
+      "sourceWebsite": "true"
     },
     "sri-kdu-international-school-klang": {
       "profile": "/images/schools/sri-kdu-international-school-klang/profile.webp",
@@ -4391,7 +4753,14 @@
       "photo1": "/images/schools/sri-kdu-international-school-klang/photo1.webp",
       "photo2": "/images/schools/sri-kdu-international-school-klang/photo2.webp",
       "photo3": "/images/schools/sri-kdu-international-school-klang/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/sri-kdu-international-school-klang/photo4.webp",
+      "photo5": "/images/schools/sri-kdu-international-school-klang/photo5.webp",
+      "photo6": "/images/schools/sri-kdu-international-school-klang/photo6.webp",
+      "photo7": "/images/schools/sri-kdu-international-school-klang/photo7.webp",
+      "photo8": "/images/schools/sri-kdu-international-school-klang/photo8.webp",
+      "photo9": "/images/schools/sri-kdu-international-school-klang/photo9.webp",
+      "sourceWebsite": "true"
     },
     "sri-kdu-international-school-subang-jaya": {
       "profile": "/images/schools/sri-kdu-international-school-subang-jaya/profile.webp",
@@ -4400,7 +4769,14 @@
       "photo2": "/images/schools/sri-kdu-international-school-subang-jaya/photo2.webp",
       "photo3": "/images/schools/sri-kdu-international-school-subang-jaya/photo3.webp",
       "photo4": "/images/schools/sri-kdu-international-school-subang-jaya/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/sri-kdu-international-school-subang-jaya/photo5.webp",
+      "photo6": "/images/schools/sri-kdu-international-school-subang-jaya/photo6.webp",
+      "photo7": "/images/schools/sri-kdu-international-school-subang-jaya/photo7.webp",
+      "photo8": "/images/schools/sri-kdu-international-school-subang-jaya/photo8.webp",
+      "photo9": "/images/schools/sri-kdu-international-school-subang-jaya/photo9.webp",
+      "photo10": "/images/schools/sri-kdu-international-school-subang-jaya/photo10.webp",
+      "sourceWebsite": "true"
     },
     "sri-kdu-school": {
       "profile": "/images/schools/sri-kdu-school/profile.webp",
@@ -4412,7 +4788,11 @@
       "photo5": "/images/schools/sri-kdu-school/photo5.webp",
       "photo6": "/images/schools/sri-kdu-school/photo6.webp",
       "photo7": "/images/schools/sri-kdu-school/photo7.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo8": "/images/schools/sri-kdu-school/photo8.webp",
+      "photo9": "/images/schools/sri-kdu-school/photo9.webp",
+      "photo10": "/images/schools/sri-kdu-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "sri-kuala-lumpur-school": {
       "profile": "/images/schools/sri-kuala-lumpur-school/profile.webp",
@@ -4420,7 +4800,9 @@
       "photo1": "/images/schools/sri-kuala-lumpur-school/photo1.webp",
       "photo2": "/images/schools/sri-kuala-lumpur-school/photo2.webp",
       "photo3": "/images/schools/sri-kuala-lumpur-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/sri-kuala-lumpur-school/photo4.webp",
+      "sourceWebsite": "true"
     },
     "sri-sempurna-international-school": {
       "profile": "/images/schools/sri-sempurna-international-school/profile.webp",
@@ -4428,7 +4810,14 @@
       "photo1": "/images/schools/sri-sempurna-international-school/photo1.webp",
       "photo2": "/images/schools/sri-sempurna-international-school/photo2.webp",
       "photo3": "/images/schools/sri-sempurna-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/sri-sempurna-international-school/photo4.webp",
+      "photo5": "/images/schools/sri-sempurna-international-school/photo5.webp",
+      "photo6": "/images/schools/sri-sempurna-international-school/photo6.webp",
+      "photo7": "/images/schools/sri-sempurna-international-school/photo7.webp",
+      "photo8": "/images/schools/sri-sempurna-international-school/photo8.webp",
+      "photo9": "/images/schools/sri-sempurna-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "stars-international-school": {
       "profile": "/images/schools/stars-international-school/profile.webp",
@@ -4437,7 +4826,14 @@
       "photo2": "/images/schools/stars-international-school/photo2.webp",
       "photo3": "/images/schools/stars-international-school/photo3.webp",
       "photo4": "/images/schools/stars-international-school/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/stars-international-school/photo5.webp",
+      "photo6": "/images/schools/stars-international-school/photo6.webp",
+      "photo7": "/images/schools/stars-international-school/photo7.webp",
+      "photo8": "/images/schools/stars-international-school/photo8.webp",
+      "photo9": "/images/schools/stars-international-school/photo9.webp",
+      "photo10": "/images/schools/stars-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "stella-maris-international-school": {
       "profile": "/images/schools/stella-maris-international-school/profile.webp",
@@ -4445,7 +4841,14 @@
       "photo1": "/images/schools/stella-maris-international-school/photo1.webp",
       "photo2": "/images/schools/stella-maris-international-school/photo2.webp",
       "photo3": "/images/schools/stella-maris-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/stella-maris-international-school/photo4.webp",
+      "photo5": "/images/schools/stella-maris-international-school/photo5.webp",
+      "photo6": "/images/schools/stella-maris-international-school/photo6.webp",
+      "photo7": "/images/schools/stella-maris-international-school/photo7.webp",
+      "photo8": "/images/schools/stella-maris-international-school/photo8.webp",
+      "photo9": "/images/schools/stella-maris-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "straits-international-school": {
       "profile": "/images/schools/straits-international-school/profile.webp",
@@ -4453,7 +4856,14 @@
       "photo1": "/images/schools/straits-international-school/photo1.webp",
       "photo2": "/images/schools/straits-international-school/photo2.webp",
       "photo3": "/images/schools/straits-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/straits-international-school/photo4.webp",
+      "photo5": "/images/schools/straits-international-school/photo5.webp",
+      "photo6": "/images/schools/straits-international-school/photo6.webp",
+      "photo7": "/images/schools/straits-international-school/photo7.webp",
+      "photo8": "/images/schools/straits-international-school/photo8.webp",
+      "photo9": "/images/schools/straits-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "sunway-international-school": {
       "profile": "/images/schools/sunway-international-school/profile.webp",
@@ -4462,7 +4872,13 @@
       "photo2": "/images/schools/sunway-international-school/photo2.webp",
       "photo3": "/images/schools/sunway-international-school/photo3.webp",
       "photo4": "/images/schools/sunway-international-school/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/sunway-international-school/photo5.webp",
+      "photo6": "/images/schools/sunway-international-school/photo6.webp",
+      "photo7": "/images/schools/sunway-international-school/photo7.webp",
+      "photo8": "/images/schools/sunway-international-school/photo8.webp",
+      "photo9": "/images/schools/sunway-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "tenby-school-setia-eco-park": {
       "profile": "/images/schools/tenby-school-setia-eco-park/profile.webp",
@@ -4472,7 +4888,13 @@
       "photo3": "/images/schools/tenby-school-setia-eco-park/photo3.webp",
       "photo4": "/images/schools/tenby-school-setia-eco-park/photo4.webp",
       "photo5": "/images/schools/tenby-school-setia-eco-park/photo5.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo6": "/images/schools/tenby-school-setia-eco-park/photo6.webp",
+      "photo7": "/images/schools/tenby-school-setia-eco-park/photo7.webp",
+      "photo8": "/images/schools/tenby-school-setia-eco-park/photo8.webp",
+      "photo9": "/images/schools/tenby-school-setia-eco-park/photo9.webp",
+      "photo10": "/images/schools/tenby-school-setia-eco-park/photo10.webp",
+      "sourceWebsite": "true"
     },
     "tenby-school-setia-ecohill": {
       "profile": "/images/schools/tenby-school-setia-ecohill/profile.webp",
@@ -4481,7 +4903,14 @@
       "photo2": "/images/schools/tenby-school-setia-ecohill/photo2.webp",
       "photo3": "/images/schools/tenby-school-setia-ecohill/photo3.webp",
       "photo4": "/images/schools/tenby-school-setia-ecohill/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/tenby-school-setia-ecohill/photo5.webp",
+      "photo6": "/images/schools/tenby-school-setia-ecohill/photo6.webp",
+      "photo7": "/images/schools/tenby-school-setia-ecohill/photo7.webp",
+      "photo8": "/images/schools/tenby-school-setia-ecohill/photo8.webp",
+      "photo9": "/images/schools/tenby-school-setia-ecohill/photo9.webp",
+      "photo10": "/images/schools/tenby-school-setia-ecohill/photo10.webp",
+      "sourceWebsite": "true"
     },
     "tenby-school-tropicana-aman": {
       "profile": "/images/schools/tenby-school-tropicana-aman/profile.webp",
@@ -4489,12 +4918,26 @@
       "photo1": "/images/schools/tenby-school-tropicana-aman/photo1.webp",
       "photo2": "/images/schools/tenby-school-tropicana-aman/photo2.webp",
       "photo3": "/images/schools/tenby-school-tropicana-aman/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/tenby-school-tropicana-aman/photo4.webp",
+      "photo5": "/images/schools/tenby-school-tropicana-aman/photo5.webp",
+      "photo6": "/images/schools/tenby-school-tropicana-aman/photo6.webp",
+      "photo7": "/images/schools/tenby-school-tropicana-aman/photo7.webp",
+      "photo8": "/images/schools/tenby-school-tropicana-aman/photo8.webp",
+      "photo9": "/images/schools/tenby-school-tropicana-aman/photo9.webp",
+      "sourceWebsite": "true"
     },
     "the-alice-smith-school": {
       "profile": "/images/schools/the-alice-smith-school/profile.webp",
       "card": "/images/schools/the-alice-smith-school/card.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/the-alice-smith-school/photo1.webp",
+      "photo2": "/images/schools/the-alice-smith-school/photo2.webp",
+      "photo3": "/images/schools/the-alice-smith-school/photo3.webp",
+      "photo4": "/images/schools/the-alice-smith-school/photo4.webp",
+      "photo5": "/images/schools/the-alice-smith-school/photo5.webp",
+      "photo6": "/images/schools/the-alice-smith-school/photo6.webp",
+      "sourceWebsite": "true"
     },
     "the-british-international-school-of": {
       "profile": "/images/schools/the-british-international-school-of/profile.webp",
@@ -4502,7 +4945,14 @@
       "photo1": "/images/schools/the-british-international-school-of/photo1.webp",
       "photo2": "/images/schools/the-british-international-school-of/photo2.webp",
       "photo3": "/images/schools/the-british-international-school-of/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/the-british-international-school-of/photo4.webp",
+      "photo5": "/images/schools/the-british-international-school-of/photo5.webp",
+      "photo6": "/images/schools/the-british-international-school-of/photo6.webp",
+      "photo7": "/images/schools/the-british-international-school-of/photo7.webp",
+      "photo8": "/images/schools/the-british-international-school-of/photo8.webp",
+      "photo9": "/images/schools/the-british-international-school-of/photo9.webp",
+      "sourceWebsite": "true"
     },
     "the-international-school-of": {
       "profile": "/images/schools/the-international-school-of/profile.webp",
@@ -4510,12 +4960,26 @@
       "photo1": "/images/schools/the-international-school-of/photo1.webp",
       "photo2": "/images/schools/the-international-school-of/photo2.webp",
       "photo3": "/images/schools/the-international-school-of/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/the-international-school-of/photo4.webp",
+      "photo5": "/images/schools/the-international-school-of/photo5.webp",
+      "photo6": "/images/schools/the-international-school-of/photo6.webp",
+      "photo7": "/images/schools/the-international-school-of/photo7.webp",
+      "photo8": "/images/schools/the-international-school-of/photo8.webp",
+      "photo9": "/images/schools/the-international-school-of/photo9.webp",
+      "sourceWebsite": "true"
     },
     "tls-international-school": {
       "profile": "/images/schools/tls-international-school/profile.webp",
       "card": "/images/schools/tls-international-school/card.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/tls-international-school/photo1.webp",
+      "photo2": "/images/schools/tls-international-school/photo2.webp",
+      "photo3": "/images/schools/tls-international-school/photo3.webp",
+      "photo4": "/images/schools/tls-international-school/photo4.webp",
+      "photo5": "/images/schools/tls-international-school/photo5.webp",
+      "photo6": "/images/schools/tls-international-school/photo6.webp",
+      "sourceWebsite": "true"
     },
     "tree-top-international-school": {
       "profile": "/images/schools/tree-top-international-school/profile.webp",
@@ -4524,7 +4988,14 @@
       "photo2": "/images/schools/tree-top-international-school/photo2.webp",
       "photo3": "/images/schools/tree-top-international-school/photo3.webp",
       "photo4": "/images/schools/tree-top-international-school/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/tree-top-international-school/photo5.webp",
+      "photo6": "/images/schools/tree-top-international-school/photo6.webp",
+      "photo7": "/images/schools/tree-top-international-school/photo7.webp",
+      "photo8": "/images/schools/tree-top-international-school/photo8.webp",
+      "photo9": "/images/schools/tree-top-international-school/photo9.webp",
+      "photo10": "/images/schools/tree-top-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "ucsi-international-school": {
       "profile": "/images/schools/ucsi-international-school/profile.webp",
@@ -4532,12 +5003,26 @@
       "photo1": "/images/schools/ucsi-international-school/photo1.webp",
       "photo2": "/images/schools/ucsi-international-school/photo2.webp",
       "photo3": "/images/schools/ucsi-international-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/ucsi-international-school/photo4.webp",
+      "photo5": "/images/schools/ucsi-international-school/photo5.webp",
+      "photo6": "/images/schools/ucsi-international-school/photo6.webp",
+      "photo7": "/images/schools/ucsi-international-school/photo7.webp",
+      "photo8": "/images/schools/ucsi-international-school/photo8.webp",
+      "photo9": "/images/schools/ucsi-international-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "ucsi-international-school-springhill": {
       "profile": "/images/schools/ucsi-international-school-springhill/profile.webp",
       "card": "/images/schools/ucsi-international-school-springhill/card.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/ucsi-international-school-springhill/photo1.webp",
+      "photo2": "/images/schools/ucsi-international-school-springhill/photo2.webp",
+      "photo3": "/images/schools/ucsi-international-school-springhill/photo3.webp",
+      "photo4": "/images/schools/ucsi-international-school-springhill/photo4.webp",
+      "photo5": "/images/schools/ucsi-international-school-springhill/photo5.webp",
+      "photo6": "/images/schools/ucsi-international-school-springhill/photo6.webp",
+      "sourceWebsite": "true"
     },
     "utama-international-school": {
       "profile": "/images/schools/utama-international-school/profile.webp",
@@ -4557,12 +5042,26 @@
       "photo2": "/images/schools/victoria-international-school/photo2.webp",
       "photo3": "/images/schools/victoria-international-school/photo3.webp",
       "photo4": "/images/schools/victoria-international-school/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/victoria-international-school/photo5.webp",
+      "photo6": "/images/schools/victoria-international-school/photo6.webp",
+      "photo7": "/images/schools/victoria-international-school/photo7.webp",
+      "photo8": "/images/schools/victoria-international-school/photo8.webp",
+      "photo9": "/images/schools/victoria-international-school/photo9.webp",
+      "photo10": "/images/schools/victoria-international-school/photo10.webp",
+      "sourceWebsite": "true"
     },
     "vikas-international-school": {
       "profile": "/images/schools/vikas-international-school/profile.webp",
       "card": "/images/schools/vikas-international-school/card.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo1": "/images/schools/vikas-international-school/photo1.webp",
+      "photo2": "/images/schools/vikas-international-school/photo2.webp",
+      "photo3": "/images/schools/vikas-international-school/photo3.webp",
+      "photo4": "/images/schools/vikas-international-school/photo4.webp",
+      "photo5": "/images/schools/vikas-international-school/photo5.webp",
+      "photo6": "/images/schools/vikas-international-school/photo6.webp",
+      "sourceWebsite": "true"
     },
     "wesley-methodist-school": {
       "profile": "/images/schools/wesley-methodist-school/profile.webp",
@@ -4570,7 +5069,14 @@
       "photo1": "/images/schools/wesley-methodist-school/photo1.webp",
       "photo2": "/images/schools/wesley-methodist-school/photo2.webp",
       "photo3": "/images/schools/wesley-methodist-school/photo3.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo4": "/images/schools/wesley-methodist-school/photo4.webp",
+      "photo5": "/images/schools/wesley-methodist-school/photo5.webp",
+      "photo6": "/images/schools/wesley-methodist-school/photo6.webp",
+      "photo7": "/images/schools/wesley-methodist-school/photo7.webp",
+      "photo8": "/images/schools/wesley-methodist-school/photo8.webp",
+      "photo9": "/images/schools/wesley-methodist-school/photo9.webp",
+      "sourceWebsite": "true"
     },
     "zenith-international-school-seremban": {
       "profile": "/images/schools/zenith-international-school-seremban/profile.webp",
@@ -4579,7 +5085,191 @@
       "photo2": "/images/schools/zenith-international-school-seremban/photo2.webp",
       "photo3": "/images/schools/zenith-international-school-seremban/photo3.webp",
       "photo4": "/images/schools/zenith-international-school-seremban/photo4.webp",
-      "sourceFolder": "outscraper-google-maps"
+      "sourceFolder": "outscraper-google-maps",
+      "photo5": "/images/schools/zenith-international-school-seremban/photo5.webp",
+      "photo6": "/images/schools/zenith-international-school-seremban/photo6.webp",
+      "photo7": "/images/schools/zenith-international-school-seremban/photo7.webp",
+      "photo8": "/images/schools/zenith-international-school-seremban/photo8.webp",
+      "photo9": "/images/schools/zenith-international-school-seremban/photo9.webp",
+      "photo10": "/images/schools/zenith-international-school-seremban/photo10.webp",
+      "sourceWebsite": "true"
+    },
+    "acmar-international-school": {
+      "photo1": "/images/schools/acmar-international-school/photo1.webp",
+      "photo2": "/images/schools/acmar-international-school/photo2.webp",
+      "photo3": "/images/schools/acmar-international-school/photo3.webp",
+      "photo4": "/images/schools/acmar-international-school/photo4.webp",
+      "photo5": "/images/schools/acmar-international-school/photo5.webp",
+      "photo6": "/images/schools/acmar-international-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "asia-pacific-international-school": {
+      "photo1": "/images/schools/asia-pacific-international-school/photo1.webp",
+      "photo2": "/images/schools/asia-pacific-international-school/photo2.webp",
+      "photo3": "/images/schools/asia-pacific-international-school/photo3.webp",
+      "photo4": "/images/schools/asia-pacific-international-school/photo4.webp",
+      "photo5": "/images/schools/asia-pacific-international-school/photo5.webp",
+      "photo6": "/images/schools/asia-pacific-international-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "charterhouse-malaysia": {
+      "photo1": "/images/schools/charterhouse-malaysia/photo1.webp",
+      "photo2": "/images/schools/charterhouse-malaysia/photo2.webp",
+      "photo3": "/images/schools/charterhouse-malaysia/photo3.webp",
+      "photo4": "/images/schools/charterhouse-malaysia/photo4.webp",
+      "photo5": "/images/schools/charterhouse-malaysia/photo5.webp",
+      "photo6": "/images/schools/charterhouse-malaysia/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "collinz-international-school": {
+      "photo1": "/images/schools/collinz-international-school/photo1.webp",
+      "photo2": "/images/schools/collinz-international-school/photo2.webp",
+      "photo3": "/images/schools/collinz-international-school/photo3.webp",
+      "photo4": "/images/schools/collinz-international-school/photo4.webp",
+      "photo5": "/images/schools/collinz-international-school/photo5.webp",
+      "photo6": "/images/schools/collinz-international-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "eaton-international-school": {
+      "photo1": "/images/schools/eaton-international-school/photo1.webp",
+      "photo2": "/images/schools/eaton-international-school/photo2.webp",
+      "sourceWebsite": "true"
+    },
+    "hibiscus-international-school": {
+      "photo1": "/images/schools/hibiscus-international-school/photo1.webp",
+      "photo2": "/images/schools/hibiscus-international-school/photo2.webp",
+      "photo3": "/images/schools/hibiscus-international-school/photo3.webp",
+      "photo4": "/images/schools/hibiscus-international-school/photo4.webp",
+      "photo5": "/images/schools/hibiscus-international-school/photo5.webp",
+      "photo6": "/images/schools/hibiscus-international-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "international-modern-arabic-school": {
+      "photo1": "/images/schools/international-modern-arabic-school/photo1.webp",
+      "photo2": "/images/schools/international-modern-arabic-school/photo2.webp",
+      "photo3": "/images/schools/international-modern-arabic-school/photo3.webp",
+      "photo4": "/images/schools/international-modern-arabic-school/photo4.webp",
+      "photo5": "/images/schools/international-modern-arabic-school/photo5.webp",
+      "photo6": "/images/schools/international-modern-arabic-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "mahsa-international-school": {
+      "photo1": "/images/schools/mahsa-international-school/photo1.webp",
+      "photo2": "/images/schools/mahsa-international-school/photo2.webp",
+      "photo3": "/images/schools/mahsa-international-school/photo3.webp",
+      "photo4": "/images/schools/mahsa-international-school/photo4.webp",
+      "photo5": "/images/schools/mahsa-international-school/photo5.webp",
+      "photo6": "/images/schools/mahsa-international-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "mindrich-international-secondary-school": {
+      "photo1": "/images/schools/mindrich-international-secondary-school/photo1.webp",
+      "photo2": "/images/schools/mindrich-international-secondary-school/photo2.webp",
+      "photo3": "/images/schools/mindrich-international-secondary-school/photo3.webp",
+      "photo4": "/images/schools/mindrich-international-secondary-school/photo4.webp",
+      "photo5": "/images/schools/mindrich-international-secondary-school/photo5.webp",
+      "photo6": "/images/schools/mindrich-international-secondary-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "nilai-international-school": {
+      "photo1": "/images/schools/nilai-international-school/photo1.webp",
+      "photo2": "/images/schools/nilai-international-school/photo2.webp",
+      "photo3": "/images/schools/nilai-international-school/photo3.webp",
+      "photo4": "/images/schools/nilai-international-school/photo4.webp",
+      "photo5": "/images/schools/nilai-international-school/photo5.webp",
+      "photo6": "/images/schools/nilai-international-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "oakbridge-international-school": {
+      "photo1": "/images/schools/oakbridge-international-school/photo1.webp",
+      "photo2": "/images/schools/oakbridge-international-school/photo2.webp",
+      "photo3": "/images/schools/oakbridge-international-school/photo3.webp",
+      "photo4": "/images/schools/oakbridge-international-school/photo4.webp",
+      "photo5": "/images/schools/oakbridge-international-school/photo5.webp",
+      "photo6": "/images/schools/oakbridge-international-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "peninsula-international-school-australia": {
+      "photo1": "/images/schools/peninsula-international-school-australia/photo1.webp",
+      "sourceWebsite": "true"
+    },
+    "pine-hills-international-school": {
+      "photo1": "/images/schools/pine-hills-international-school/photo1.webp",
+      "photo2": "/images/schools/pine-hills-international-school/photo2.webp",
+      "photo3": "/images/schools/pine-hills-international-school/photo3.webp",
+      "photo4": "/images/schools/pine-hills-international-school/photo4.webp",
+      "photo5": "/images/schools/pine-hills-international-school/photo5.webp",
+      "photo6": "/images/schools/pine-hills-international-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "r-e-a-l-international-school-shah-alam-campus": {
+      "photo1": "/images/schools/r-e-a-l-international-school-shah-alam-campus/photo1.webp",
+      "photo2": "/images/schools/r-e-a-l-international-school-shah-alam-campus/photo2.webp",
+      "photo3": "/images/schools/r-e-a-l-international-school-shah-alam-campus/photo3.webp",
+      "photo4": "/images/schools/r-e-a-l-international-school-shah-alam-campus/photo4.webp",
+      "photo5": "/images/schools/r-e-a-l-international-school-shah-alam-campus/photo5.webp",
+      "photo6": "/images/schools/r-e-a-l-international-school-shah-alam-campus/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "sasana-international-school": {
+      "photo1": "/images/schools/sasana-international-school/photo1.webp",
+      "photo2": "/images/schools/sasana-international-school/photo2.webp",
+      "photo3": "/images/schools/sasana-international-school/photo3.webp",
+      "photo4": "/images/schools/sasana-international-school/photo4.webp",
+      "photo5": "/images/schools/sasana-international-school/photo5.webp",
+      "photo6": "/images/schools/sasana-international-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "spectrum-international-school": {
+      "photo1": "/images/schools/spectrum-international-school/photo1.webp",
+      "photo2": "/images/schools/spectrum-international-school/photo2.webp",
+      "photo3": "/images/schools/spectrum-international-school/photo3.webp",
+      "photo4": "/images/schools/spectrum-international-school/photo4.webp",
+      "photo5": "/images/schools/spectrum-international-school/photo5.webp",
+      "photo6": "/images/schools/spectrum-international-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "summer-international-secondary-school": {
+      "photo1": "/images/schools/summer-international-secondary-school/photo1.webp",
+      "photo2": "/images/schools/summer-international-secondary-school/photo2.webp",
+      "photo3": "/images/schools/summer-international-secondary-school/photo3.webp",
+      "photo4": "/images/schools/summer-international-secondary-school/photo4.webp",
+      "sourceWebsite": "true"
+    },
+    "tanarata-international-school": {
+      "photo1": "/images/schools/tanarata-international-school/photo1.webp",
+      "photo2": "/images/schools/tanarata-international-school/photo2.webp",
+      "photo3": "/images/schools/tanarata-international-school/photo3.webp",
+      "photo4": "/images/schools/tanarata-international-school/photo4.webp",
+      "photo5": "/images/schools/tanarata-international-school/photo5.webp",
+      "photo6": "/images/schools/tanarata-international-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "templer-park-international-school": {
+      "photo1": "/images/schools/templer-park-international-school/photo1.webp",
+      "photo2": "/images/schools/templer-park-international-school/photo2.webp",
+      "photo3": "/images/schools/templer-park-international-school/photo3.webp",
+      "photo4": "/images/schools/templer-park-international-school/photo4.webp",
+      "photo5": "/images/schools/templer-park-international-school/photo5.webp",
+      "photo6": "/images/schools/templer-park-international-school/photo6.webp",
+      "sourceWebsite": "true"
+    },
+    "the-international-school-at-parkcity": {
+      "photo1": "/images/schools/the-international-school-at-parkcity/photo1.webp",
+      "photo2": "/images/schools/the-international-school-at-parkcity/photo2.webp",
+      "photo3": "/images/schools/the-international-school-at-parkcity/photo3.webp",
+      "photo4": "/images/schools/the-international-school-at-parkcity/photo4.webp",
+      "photo5": "/images/schools/the-international-school-at-parkcity/photo5.webp",
+      "sourceWebsite": "true"
+    },
+    "ucsi-international-school-subang-jaya": {
+      "photo1": "/images/schools/ucsi-international-school-subang-jaya/photo1.webp",
+      "photo2": "/images/schools/ucsi-international-school-subang-jaya/photo2.webp",
+      "photo3": "/images/schools/ucsi-international-school-subang-jaya/photo3.webp",
+      "photo4": "/images/schools/ucsi-international-school-subang-jaya/photo4.webp",
+      "photo5": "/images/schools/ucsi-international-school-subang-jaya/photo5.webp",
+      "photo6": "/images/schools/ucsi-international-school-subang-jaya/photo6.webp",
+      "sourceWebsite": "true"
     }
   }
 }
