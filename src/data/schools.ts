@@ -2950,23 +2950,42 @@ export const ALL_SCHOOL_SLUGS = Object.keys(SCHOOL_PROFILES);
 
 export type SchoolNeighbour = { slug: string; name: string; citySlug: string };
 
-export const SCHOOL_PREV_NEXT: Record<
-  string,
-  { prev: SchoolNeighbour | null; next: SchoolNeighbour | null }
-> = (() => {
-  const byCity: Record<string, { slug: string; name: string; citySlug: string }[]> = {};
+export type SchoolNavInfo = {
+  prev: SchoolNeighbour | null;
+  next: SchoolNeighbour | null;
+  position: number;
+  total: number;
+};
+
+function extractHighFee(stats: { label: string; value: string }[]): number {
+  const fee = stats.find((s) => s.label === "Annual Fees")?.value ?? "";
+  const matches = fee.matchAll(/US?\$?(\d+(?:\.\d+)?)K/gi);
+  const vals = Array.from(matches, (m) => parseFloat(m[1]));
+  return vals.length > 0 ? Math.max(...vals) : 0;
+}
+
+export const SCHOOL_PREV_NEXT: Record<string, SchoolNavInfo> = (() => {
+  const byCity: Record<string, { slug: string; name: string; citySlug: string; feeHigh: number }[]> = {};
   for (const [slug, p] of Object.entries(SCHOOL_PROFILES)) {
     const city = p.citySlug;
     if (!byCity[city]) byCity[city] = [];
-    byCity[city].push({ slug, name: p.name, citySlug: city });
+    byCity[city].push({ slug, name: p.name, citySlug: city, feeHigh: extractHighFee(p.stats) });
   }
-  const result: Record<string, { prev: SchoolNeighbour | null; next: SchoolNeighbour | null }> = {};
+  const result: Record<string, SchoolNavInfo> = {};
   for (const list of Object.values(byCity)) {
-    list.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: "base" }));
+    list.sort((a, b) => {
+      const aHas = a.feeHigh > 0;
+      const bHas = b.feeHigh > 0;
+      if (aHas !== bHas) return aHas ? -1 : 1;
+      if (a.feeHigh !== b.feeHigh) return b.feeHigh - a.feeHigh;
+      return a.name.localeCompare(b.name, undefined, { sensitivity: "base" });
+    });
     for (let i = 0; i < list.length; i++) {
       result[list[i].slug] = {
         prev: i > 0 ? list[i - 1] : null,
         next: i < list.length - 1 ? list[i + 1] : null,
+        position: i + 1,
+        total: list.length,
       };
     }
   }

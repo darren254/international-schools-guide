@@ -17,8 +17,7 @@ import {
   ALL_SCHOOL_SLUGS,
   SCHOOL_PREV_NEXT,
 } from "@/data/schools";
-import { SchoolPrevNext } from "@/components/school/SchoolPrevNext";
-import { SwipeableProfileWrapper } from "@/components/school/SwipeableProfileWrapper";
+import { SchoolPrevNextBar, SchoolPrevNextBottom } from "@/components/school/SchoolPrevNext";
 import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 import type { CurrencyCode } from "@/lib/currency/rates";
 import { getSchoolImageUrl, getSchoolOgImageUrl, getSchoolGalleryUrls } from "@/lib/schools/images";
@@ -94,13 +93,7 @@ export default function SchoolProfilePage({
   if (!s) return notFound();
   if (params.city !== s.citySlug) return notFound();
 
-  const neighbours = SCHOOL_PREV_NEXT[params.school] ?? { prev: null, next: null };
-  const prevUrl = neighbours.prev
-    ? `/international-schools/${neighbours.prev.citySlug}/${neighbours.prev.slug}`
-    : null;
-  const nextUrl = neighbours.next
-    ? `/international-schools/${neighbours.next.citySlug}/${neighbours.next.slug}`
-    : null;
+  const neighbours = SCHOOL_PREV_NEXT[params.school] ?? { prev: null, next: null, position: 0, total: 0 };
 
   const canonicalUrl = `${BASE_URL}/international-schools/${s.citySlug}/${params.school}`;
   const displayName = getSchoolDisplayName(s.slug, s);
@@ -156,12 +149,21 @@ export default function SchoolProfilePage({
   };
 
   return (
-    <SwipeableProfileWrapper prevUrl={prevUrl} nextUrl={nextUrl}>
     <div className="container-site">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+
+      {/* Top prev/next bar */}
+      <SchoolPrevNextBar
+        prev={neighbours.prev}
+        next={neighbours.next}
+        position={neighbours.position}
+        total={neighbours.total}
+        cityName={cityName}
+      />
+
       <BackToResults />
       <Breadcrumb
         items={[
@@ -346,8 +348,8 @@ export default function SchoolProfilePage({
         />
       </div>
 
-      {/* Prev / Next school navigation */}
-      <SchoolPrevNext prev={neighbours.prev} next={neighbours.next} />
+      {/* Bottom prev/next links */}
+      <SchoolPrevNextBottom prev={neighbours.prev} next={neighbours.next} />
 
       {/* JSON-LD Schema */}
       <script
@@ -357,6 +359,5 @@ export default function SchoolProfilePage({
         }}
       />
     </div>
-    </SwipeableProfileWrapper>
   );
 }
