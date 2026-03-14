@@ -12,7 +12,7 @@ function buildFeeRows(slug: string): FeeRow[] {
   if (!data?.feeRows?.length) return [];
   return data.feeRows.map((fr) => ({
     gradeLevel: fr.grade,
-    ages: `Age ${fr.age}`,
+    ages: fr.age > 0 ? `Age ${fr.age}` : "—",
     tuition: fr.amount,
     capital: 0,
     totalEarlyBird: fr.amount,

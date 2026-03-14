@@ -88,7 +88,7 @@
         "amount": 158015800
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Kindergarten 4",
         "amount": 191007100
       },
@@ -103,7 +103,7 @@
         "amount": 288248600
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Years 3-4",
         "amount": 351918000
       },
@@ -118,7 +118,7 @@
         "amount": 358863800
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7-10",
         "amount": 371018900
       },
@@ -128,7 +128,7 @@
         "amount": 374491700
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12-13",
         "amount": 375649300
       }
@@ -163,7 +163,7 @@
         "amount": 8580
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Pre-School",
         "amount": 8580
       },
@@ -213,32 +213,32 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grades 1-6 (Tuition)",
         "amount": 254000000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Grades 7-8 (Tuition)",
         "amount": 275000000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Grades 9-10 (Tuition)",
         "amount": 287000000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Grades 11-12 IB Diploma Programme (Tuition)",
         "amount": 310000000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grades 1-6 (Learning Materials Fee)",
         "amount": 8600000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Grades 7-8 (Learning Materials Fee)",
         "amount": 9100000
       },
@@ -335,57 +335,57 @@
         "amount": 68250
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Private National School (Malaysian): Standard 1",
         "amount": 15561
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Standard 2",
         "amount": 15561
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Standard 3",
         "amount": 15561
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Standard 4",
         "amount": 18048
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Standard 5",
         "amount": 18048
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Standard 6",
         "amount": 18048
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Form 1",
         "amount": 19308
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Form 2",
         "amount": 19308
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Form 3",
         "amount": 19308
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years (Malaysian): Half Day",
         "amount": 7200
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Full Day",
         "amount": 11100
       }
@@ -410,17 +410,17 @@
         "amount": 122500
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K1",
         "amount": 122500
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Pre-K2",
         "amount": 122500
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 146500
       },
@@ -470,12 +470,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG Normal Day",
         "amount": 24000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG Extended Day",
         "amount": 27000
       },
@@ -614,7 +614,7 @@
         "amount": 24000000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Junior High/SMP (SPP monthly x12)",
         "amount": 60000000
       }
@@ -636,7 +636,7 @@
         "amount": 11596
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 11596
       },
@@ -805,7 +805,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre K (Academic Fee/year + Tuition 4 quarters)",
         "amount": 26500000
       },
@@ -960,67 +960,67 @@
         "amount": 15726
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "G1 (Garhoud/Barsha)",
         "amount": 15982
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "G2 (Garhoud/Barsha)",
         "amount": 16045
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "G3 (Garhoud/Barsha)",
         "amount": 16457
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "G4 (Garhoud/Barsha)",
         "amount": 16805
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "G5 (Garhoud/Barsha)",
         "amount": 17316
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "G6 (Garhoud/Barsha)",
         "amount": 17502
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "G7 (Garhoud/Barsha)",
         "amount": 19406
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "G8 (Garhoud/Barsha)",
         "amount": 19532
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "G9 (Garhoud/Barsha)",
         "amount": 21246
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "G10 (Garhoud/Barsha)",
         "amount": 21436
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "G11 (Garhoud/Barsha)",
         "amount": 23970
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "G12 (Garhoud/Barsha)",
         "amount": 25493
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K (Khawaneej)",
         "amount": 36181
       },
@@ -1117,67 +1117,67 @@
         "amount": 23795
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "YR 1",
         "amount": 27041
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "YR 2",
         "amount": 27041
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "YR 3",
         "amount": 29204
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "YR 4",
         "amount": 29204
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "YR 5",
         "amount": 31367
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "YR 6",
         "amount": 31367
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "YR 7",
         "amount": 35152
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "YR 8",
         "amount": 35152
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "YR 9",
         "amount": 36775
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "YR 10",
         "amount": 38938
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "YR 11",
         "amount": 38938
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "YR 12",
         "amount": 41102
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "YR 13",
         "amount": 41102
       }
@@ -1286,7 +1286,7 @@
         "amount": 34015
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2/KG-1",
         "amount": 36805
       },
@@ -1373,7 +1373,7 @@
         "amount": 45000
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2/KG-1",
         "amount": 50000
       },
@@ -1455,7 +1455,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 36485
       },
@@ -1497,7 +1497,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K",
         "amount": 32000
       },
@@ -1585,12 +1585,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Childhood (half day)",
         "amount": 97000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Childhood (whole day) – Grade 1 Junior",
         "amount": 146800
       },
@@ -1632,62 +1632,62 @@
         "amount": 13405
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Gr 1",
         "amount": 14314
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Gr 2",
         "amount": 14314
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Gr 3",
         "amount": 14314
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Gr 4",
         "amount": 15422
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Gr 5",
         "amount": 15422
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Gr 6",
         "amount": 15422
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Gr 7",
         "amount": 17919
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Gr 8",
         "amount": 17919
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Gr 9",
         "amount": 17919
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "Gr 10",
         "amount": 19520
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Gr 11",
         "amount": 20653
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "Gr 12",
         "amount": 21732
       }
@@ -1704,7 +1704,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG (Reception)",
         "amount": 164800
       },
@@ -1781,7 +1781,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "PreK",
         "amount": 60571
       },
@@ -1796,7 +1796,7 @@
         "amount": 82945
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grades 1-12",
         "amount": 102303
       }
@@ -1813,7 +1813,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 22850
       },
@@ -1910,37 +1910,37 @@
         "amount": 19200
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Y1",
         "amount": 19200
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Y2",
         "amount": 20800
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Y3",
         "amount": 20800
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Y4",
         "amount": 20800
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Y5",
         "amount": 22400
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Y6",
         "amount": 22400
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Y7",
         "amount": 23250
       }
@@ -1957,7 +1957,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 12760
       },
@@ -2044,77 +2044,77 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 16696
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG-1",
         "amount": 16696
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG-2",
         "amount": 17810
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grade-1",
         "amount": 20036
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Grade-2",
         "amount": 22262
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Grade-3",
         "amount": 25602
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Grade-4",
         "amount": 25602
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Grade-5",
         "amount": 28942
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Grade-6",
         "amount": 28942
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Grade-7",
         "amount": 31168
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Grade-8",
         "amount": 31168
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Grade-9",
         "amount": 32280
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "Grade-10",
         "amount": 32280
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Grade-11",
         "amount": 33394
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "Grade-12",
         "amount": 33394
       }
@@ -2256,7 +2256,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery (half day)",
         "amount": 107000
       },
@@ -2732,7 +2732,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Early Years: Pre-Nursery",
         "amount": 18279
       },
@@ -2797,7 +2797,7 @@
         "amount": 58185
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "National Primary School: Pre-Primary 1",
         "amount": 20310
       },
@@ -2832,7 +2832,7 @@
         "amount": 25080
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "National Secondary School: Secondary 1",
         "amount": 25080
       },
@@ -2898,7 +2898,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery",
         "amount": 317190
       },
@@ -3201,7 +3201,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 52000
       },
@@ -3293,7 +3293,7 @@
         "amount": 45760
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Preparation",
         "amount": 45760
       },
@@ -3445,7 +3445,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 3,
+        "age": 4,
         "grade": "Kindergarten (K1-K3)",
         "amount": 158000
       },
@@ -3614,12 +3614,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery (Half Day)",
         "amount": 295000
       },
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery (Full Day)",
         "amount": 370000
       },
@@ -3786,7 +3786,7 @@
         "amount": 20300
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "AS-A2",
         "amount": 20800
       }
@@ -3809,32 +3809,32 @@
         "amount": 545000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "PreK 1-2",
         "amount": 630000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kinder",
         "amount": 650000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grades 1-3",
         "amount": 775000
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Grades 4-5",
         "amount": 782500
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Grades 6-8",
         "amount": 898000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Grades 9-12",
         "amount": 998000
       }
@@ -3916,7 +3916,7 @@
         "amount": 117600000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "6th Form",
         "amount": 121300000
       }
@@ -4123,7 +4123,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre K",
         "amount": 519200
       },
@@ -4264,7 +4264,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 2,
+        "age": 3,
         "grade": "Early Years EY1-EY3 (quarterly x4)",
         "amount": 79200000
       },
@@ -4355,7 +4355,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 50000
       },
@@ -4492,7 +4492,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 6,
         "grade": "Cyberjaya - Elementary (Year 1-6)",
         "amount": 16200
       },
@@ -4526,7 +4526,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K",
         "amount": 24606
       },
@@ -4594,7 +4594,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 15200
       },
@@ -4624,7 +4624,7 @@
         "amount": 19600
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Grades 11-12",
         "amount": 22500
       }
@@ -4641,7 +4641,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery",
         "amount": 590300
       },
@@ -4735,7 +4735,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery",
         "amount": 590300
       },
@@ -4956,12 +4956,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre School 1",
         "amount": 11100
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre School 2",
         "amount": 11100
       },
@@ -5021,7 +5021,7 @@
         "amount": 23400
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "A-Levels",
         "amount": 17600
       }
@@ -5039,42 +5039,42 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "K.1 - K.3",
         "amount": 387000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "G.1 - G.3",
         "amount": 403000
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "G.4",
         "amount": 463000
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "G.5",
         "amount": 479000
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "G.6",
         "amount": 479000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "G.7 - G.8",
         "amount": 500000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "G.9",
         "amount": 507000
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "G.10 - G.12",
         "amount": 570000
       }
@@ -5180,7 +5180,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Kukangs",
         "amount": 150078000
       },
@@ -5235,7 +5235,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery",
         "amount": 361200
       },
@@ -5304,7 +5304,7 @@
         "amount": 195000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years",
         "amount": 208260
       },
@@ -5357,7 +5357,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 6,
         "grade": "SD (Primary)",
         "amount": 63600000
       }
@@ -5441,37 +5441,37 @@
         "amount": 24750
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Form 1",
         "amount": 29700
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Form 2",
         "amount": 30800
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Form 3",
         "amount": 34650
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "Form 4",
         "amount": 41250
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Form 5",
         "amount": 40500
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "Form 6",
         "amount": 51700
       },
       {
-        "age": 0,
+        "age": 18,
         "grade": "Form 7",
         "amount": 46800
       }
@@ -5489,37 +5489,37 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "FS",
         "amount": 23795
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1-2",
         "amount": 27041
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Years 3-4",
         "amount": 28122
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Years 5-6",
         "amount": 29204
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7-9",
         "amount": 32448
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Years 10-11",
         "amount": 34612
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12-13",
         "amount": 36775
       }
@@ -5623,22 +5623,22 @@
       {
         "grade": "Grades 1 to 3",
         "amount": 40310,
-        "age": 0
+        "age": 6
       },
       {
         "grade": "Grades 4 to 6",
         "amount": 43850,
-        "age": 0
+        "age": 9
       },
       {
         "grade": "Grades 7 to 10",
         "amount": 49360,
-        "age": 0
+        "age": 12
       },
       {
         "grade": "Grades 11 to 12",
         "amount": 51550,
-        "age": 0
+        "age": 16
       }
     ],
     "oneTimeFees": {
@@ -5660,12 +5660,12 @@
         "amount": 138600
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 1 (half day)",
         "amount": 156300
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 2 (whole day)",
         "amount": 203100
       },
@@ -5751,12 +5751,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "PreK2",
         "amount": 189500
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "PreK3-Kindergarten",
         "amount": 189000
       },
@@ -5795,7 +5795,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years (Aged 5)",
         "amount": 10800
       },
@@ -5917,7 +5917,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Tzutzik and Ganeynu",
         "amount": 84500
       },
@@ -5927,17 +5927,17 @@
         "amount": 114000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten and Elementary",
         "amount": 202600
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Elsa High School Main Stream",
         "amount": 202600
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Elsa High School International Stream",
         "amount": 237370
       }
@@ -5955,12 +5955,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Michelia (Half-day)",
         "amount": 28000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Michelia (Full-day)",
         "amount": 34000
       },
@@ -6009,7 +6009,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 4,
+        "age": 3,
         "grade": "Early Years & Foundation",
         "amount": 139000
       },
@@ -6044,7 +6044,7 @@
         "amount": 285000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG-Reception",
         "amount": 432000
       },
@@ -6116,7 +6116,7 @@
       {
         "grade": "Years 1 - 5",
         "amount": 34950,
-        "age": 0
+        "age": 5
       },
       {
         "grade": "Year 6",
@@ -6131,17 +6131,17 @@
       {
         "grade": "Years 8 - 9",
         "amount": 35900,
-        "age": 0
+        "age": 12
       },
       {
         "grade": "Years 10 - 11",
         "amount": 37300,
-        "age": 0
+        "age": 14
       },
       {
         "grade": "Years 12 - 13",
         "amount": 41100,
-        "age": 0
+        "age": 16
       }
     ],
     "oneTimeFees": {}
@@ -6292,7 +6292,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 6,
         "grade": "SD (Primary)",
         "amount": 71400000
       }
@@ -6378,7 +6378,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 6,
         "grade": "Pre Primary",
         "amount": 42080
       },
@@ -6799,7 +6799,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre K - Kindergarten 1",
         "amount": 626400
       },
@@ -6890,12 +6890,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 6,
         "grade": "P.1 to P.3",
         "amount": 145970
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "P.4 to P.6",
         "amount": 149160
       }
@@ -6912,37 +6912,37 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 12,
         "grade": "F1 – F2",
         "amount": 173652
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "F3",
         "amount": 179512
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "F4",
         "amount": 191997
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "F5 (HKDSE)",
         "amount": 197127
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "F5 (IBDP)",
         "amount": 244642
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "F6 (HKDSE)",
         "amount": 197177
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "F6 (IBDP)",
         "amount": 244632
       }
@@ -6957,77 +6957,77 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 15000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG-1",
         "amount": 15850
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG-2",
         "amount": 15850
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grade-1",
         "amount": 17850
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Grade-2",
         "amount": 17850
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Grade-3",
         "amount": 19950
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Grade-4",
         "amount": 19950
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Grade-5",
         "amount": 22050
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Grade-6",
         "amount": 22050
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Grade-7",
         "amount": 24000
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Grade-8",
         "amount": 24000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Grade-9",
         "amount": 26000
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "Grade-10",
         "amount": 26000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Grade-11",
         "amount": 27000
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "Grade-12",
         "amount": 27000
       }
@@ -7053,7 +7053,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG",
         "amount": 13000
       },
@@ -7135,7 +7135,7 @@
         "amount": 440660
       },
       {
-        "age": 3,
+        "age": 4,
         "grade": "Kindergarten (K1-K2)",
         "amount": 519780
       },
@@ -7225,7 +7225,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 39917
       },
@@ -7312,7 +7312,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Mini Dragons (Pre-Nursery)",
         "amount": 530700
       },
@@ -7603,7 +7603,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery (International Program)",
         "amount": 47550000
       },
@@ -7613,7 +7613,7 @@
         "amount": 65600000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Junior Pre-School (International Program)",
         "amount": 104600000
       },
@@ -7633,7 +7633,7 @@
         "amount": 256000000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Grades 7 to 12 DIA (International Program)",
         "amount": 239900000
       }
@@ -7734,7 +7734,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "FS-1 and FS-2",
         "amount": 132500
       },
@@ -7797,7 +7797,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Play Centre (Ages 2-3)",
         "amount": 94820
       },
@@ -7840,7 +7840,7 @@
         "amount": 42000
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 42000
       },
@@ -7964,17 +7964,17 @@
       {
         "grade": "Kindergarten Morning",
         "amount": 490.5,
-        "age": 0
+        "age": 4
       },
       {
         "grade": "Kindergarten Afternoon",
         "amount": 463.25,
-        "age": 0
+        "age": 4
       },
       {
         "grade": "IGCSE / GCE",
         "amount": 1853,
-        "age": 0
+        "age": 16
       }
     ],
     "oneTimeFees": {
@@ -7989,7 +7989,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 5,
         "grade": "Pre-Grade 1",
         "amount": 147100
       },
@@ -8104,7 +8104,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Rising 3s",
         "amount": 53027
       },
@@ -8114,22 +8114,22 @@
         "amount": 53027
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1-2",
         "amount": 53027
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Years 3-6",
         "amount": 60608
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7-11",
         "amount": 71976
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12-13",
         "amount": 79541
       }
@@ -8147,7 +8147,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Rising 3s",
         "amount": 43500
       },
@@ -8157,27 +8157,27 @@
         "amount": 51477
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1-2",
         "amount": 51477
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Years 3-6",
         "amount": 58836
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7-8",
         "amount": 69872
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Years 9-11",
         "amount": 69872
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12-13",
         "amount": 77217
       }
@@ -8195,17 +8195,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1-2",
         "amount": 64160
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Years 3-4",
         "amount": 67490
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Years 5-6",
         "amount": 71950
       },
@@ -8215,7 +8215,7 @@
         "amount": 77490
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Years 8-13",
         "amount": 83015
       }
@@ -8273,17 +8273,17 @@
         "amount": 58836
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7-8",
         "amount": 69872
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Years 9-11",
         "amount": 69872
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12-13",
         "amount": 77217
       }
@@ -8537,7 +8537,7 @@
         "amount": 53320
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1-6",
         "amount": 53320
       }
@@ -9102,7 +9102,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 24172
       },
@@ -9294,22 +9294,22 @@
       {
         "grade": "Years 3 - 6",
         "amount": 44960,
-        "age": 0
+        "age": 7
       },
       {
         "grade": "Years 7 - 9",
         "amount": 51780,
-        "age": 0
+        "age": 11
       },
       {
         "grade": "Years 10 - 11",
         "amount": 54370,
-        "age": 0
+        "age": 14
       },
       {
         "grade": "Years 12 - 13",
         "amount": 56220,
-        "age": 0
+        "age": 16
       }
     ],
     "oneTimeFees": {
@@ -9377,7 +9377,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K",
         "amount": 41500
       },
@@ -9471,7 +9471,7 @@
         "amount": 48105
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 48105
       },
@@ -9611,7 +9611,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K",
         "amount": 65117
       },
@@ -9710,27 +9710,27 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 5,
         "grade": "Y1 - Y3",
         "amount": 15345
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Y4 - Y5",
         "amount": 16610
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Y6",
         "amount": 16610
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Y7 - Y9",
         "amount": 20405
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Y10 - Y11",
         "amount": 21395
       }
@@ -9749,7 +9749,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Kajang Campus - K1",
         "amount": 16395
       },
@@ -9819,7 +9819,7 @@
         "amount": 50250
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Shah Alam Campus - K1",
         "amount": 14280
       },
@@ -9905,7 +9905,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K to K2",
         "amount": 120000
       },
@@ -9975,7 +9975,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 6,
         "grade": "All Grades",
         "amount": 94864000
       }
@@ -10002,7 +10002,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years",
         "amount": 18000
       },
@@ -10174,7 +10174,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 17020
       },
@@ -10189,62 +10189,62 @@
         "amount": 17020
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "G 1",
         "amount": 19856
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "G 2",
         "amount": 19856
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "G 3",
         "amount": 19881
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "G 4",
         "amount": 20976
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "G 5",
         "amount": 21121
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "G 6",
         "amount": 22101
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "G 7",
         "amount": 22130
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "G 8",
         "amount": 22130
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "G 9",
         "amount": 23855
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "G 10",
         "amount": 23885
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "G 11",
         "amount": 25160
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "G 12",
         "amount": 27715
       }
@@ -10435,7 +10435,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "EYFS",
         "amount": 50400
       },
@@ -10592,17 +10592,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 49400
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG-1",
         "amount": 54600
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG-2",
         "amount": 56000
       },
@@ -10684,62 +10684,62 @@
         "amount": 28000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "PYP 1",
         "amount": 32000
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "PYP 2",
         "amount": 34000
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "PYP 3",
         "amount": 37000
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "PYP 4",
         "amount": 39000
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "PYP 5",
         "amount": 44000
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "MYP 1",
         "amount": 54000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "MYP 2",
         "amount": 54000
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "MYP 3",
         "amount": 54000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "MYP 4",
         "amount": 60000
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "MYP 5",
         "amount": 60000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "DP 1",
         "amount": 60000
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "DP 2",
         "amount": 60000
       }
@@ -10818,12 +10818,12 @@
         "amount": 60000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Diploma 1",
         "amount": 60000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Diploma 2",
         "amount": 60000
       }
@@ -10900,12 +10900,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "TPS (2 years old, all categories)",
         "amount": 93132000
       },
       {
-        "age": 3,
+        "age": 4,
         "grade": "Kindergarten K1 to K3 (French/Indonesian)",
         "amount": 150676500
       },
@@ -10951,17 +10951,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery (3 days)",
         "amount": 215000
       },
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery (4 days)",
         "amount": 268500
       },
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery (5 days)",
         "amount": 316000
       },
@@ -11082,22 +11082,22 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Kindergarten (full day, ages 3.5-7)",
         "amount": 141900
       },
       {
-        "age": 0,
+        "age": 2,
         "grade": "Kindergarten (half day 5 days, ages 2-3.5)",
         "amount": 105270
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten (half day 3 days)",
         "amount": 77440
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Class 1 to Class 6 (Primary)",
         "amount": 143000
       }
@@ -11134,17 +11134,17 @@
         "amount": 83970
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Years 3, 4",
         "amount": 93150
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Years 5, 6",
         "amount": 97410
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7, 8",
         "amount": 109110
       },
@@ -11154,12 +11154,12 @@
         "amount": 114300
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Years 10, 11",
         "amount": 116880
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12, 13",
         "amount": 118560
       }
@@ -11178,12 +11178,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery (5 half days/week)",
         "amount": 142500
       },
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery (5 full days/week)",
         "amount": 260100
       },
@@ -11325,27 +11325,27 @@
         "amount": 41388
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1-3",
         "amount": 49013
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Years 4-6",
         "amount": 54458
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7-9",
         "amount": 59904
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Years 10-11",
         "amount": 65350
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12-13",
         "amount": 70796
       }
@@ -11367,7 +11367,7 @@
         "amount": 24749
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 28126
       },
@@ -11459,67 +11459,67 @@
         "amount": 28122
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Y01",
         "amount": 30285
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Y02",
         "amount": 30285
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Y03",
         "amount": 30285
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Y04",
         "amount": 30285
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Y05",
         "amount": 30285
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Y06",
         "amount": 30285
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Y07",
         "amount": 32448
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Y08",
         "amount": 32448
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Y09",
         "amount": 32448
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Y10",
         "amount": 35694
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "Y11",
         "amount": 35694
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Y12",
         "amount": 37856
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "Y13",
         "amount": 37856
       }
@@ -11812,7 +11812,7 @@
         "amount": 51190
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12-13",
         "amount": 51190
       }
@@ -11871,7 +11871,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 6,
         "grade": "Pre-Primary",
         "amount": 30983
       },
@@ -11963,72 +11963,72 @@
         "amount": 23143
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG I (CBSE)",
         "amount": 23143
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG II (CBSE)",
         "amount": 23143
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grade I (CBSE)",
         "amount": 23143
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Grade II (CBSE)",
         "amount": 23143
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Grade III (CBSE)",
         "amount": 25458
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Grade IV (CBSE)",
         "amount": 25458
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Grade V (CBSE)",
         "amount": 31244
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Grade VI (CBSE)",
         "amount": 31244
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Grade VII (CBSE)",
         "amount": 31244
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Grade VIII (CBSE)",
         "amount": 31244
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Grade IX (CBSE)",
         "amount": 32401
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "Grade X (CBSE)",
         "amount": 32401
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Grade XI (CBSE)",
         "amount": 33557
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "Grade XII (CBSE)",
         "amount": 33557
       },
@@ -12071,7 +12071,7 @@
         "amount": 40252
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 50753
       },
@@ -12200,7 +12200,7 @@
         "amount": 47527
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 59862
       },
@@ -12292,7 +12292,7 @@
         "amount": 40340
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 50099
       },
@@ -12379,7 +12379,7 @@
         "amount": 47527
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 59862
       },
@@ -12466,7 +12466,7 @@
         "amount": 13765
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2 / KG 1",
         "amount": 13715
       },
@@ -12558,67 +12558,67 @@
         "amount": 20370
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Y1",
         "amount": 25157
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Y2",
         "amount": 25268
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Y3",
         "amount": 25490
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Y4",
         "amount": 25602
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Y5",
         "amount": 25602
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Y6",
         "amount": 26492
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Y7",
         "amount": 27160
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Y8",
         "amount": 27160
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Y9",
         "amount": 32615
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Y10",
         "amount": 35842
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "Y11",
         "amount": 35842
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Y12",
         "amount": 38403
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "Y13",
         "amount": 38403
       }
@@ -12635,7 +12635,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K",
         "amount": 71113
       },
@@ -12722,7 +12722,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 20950
       },
@@ -12737,7 +12737,7 @@
         "amount": 34200
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Orientation Stage (Class 5)",
         "amount": 36200
       },
@@ -12747,7 +12747,7 @@
         "amount": 38400
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "IB (Class 11-12)",
         "amount": 49800
       }
@@ -12767,17 +12767,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 33620
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Class 1-10",
         "amount": 46000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Class 11-12",
         "amount": 53650
       }
@@ -12798,7 +12798,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 197000
       },
@@ -13020,7 +13020,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 5,
+        "age": 17,
         "grade": "GMP (KG1 & KG2): 21042; Cambridge Year 1 & 2: 24246; Cambridge Year 3 & 4: 26154; Cambridge Year 5 & 6: 29952; Cambridge Year 7: 36894; Cambridge Year 8: 37026; Cambridge Year 9: 40956; IGCSE Year 10: 43797; IGCSE Year 11: 41343; CBSE Grade 1 & 2: 23295; CBSE Grade 3: 23883; CBSE Grade 4: 24417; CBSE Grade 5: 24612; CBSE Grade 6: 28011; CBSE Grade 7 & 8: 28440; CBSE Grade 9 & 10: 30753; CBSE Grade 11: 33039; CBSE Grade 12",
         "amount": 36804
       }
@@ -13038,7 +13038,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 17749
       },
@@ -13126,7 +13126,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years",
         "amount": 82302000
       },
@@ -13160,7 +13160,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 12500
       },
@@ -13175,17 +13175,17 @@
         "amount": 16500
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "L-Secondary 7-9",
         "amount": 18000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "IGCSE 10-11",
         "amount": 19250
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "G12 (AUSMAT)",
         "amount": 25000
       }
@@ -13274,7 +13274,7 @@
       {
         "grade": "Kindergarten",
         "amount": 45100000,
-        "age": 0
+        "age": 4
       },
       {
         "grade": "Primary",
@@ -13348,7 +13348,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K",
         "amount": 34470
       },
@@ -13517,7 +13517,7 @@
         "amount": 155000
       },
       {
-        "age": 14,
+        "age": 9,
         "grade": "Upper Primary (ages 9-12)",
         "amount": 155000
       }
@@ -13625,22 +13625,22 @@
         "amount": 175812
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1 – 5",
         "amount": 201314
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Years 6 – 8",
         "amount": 229949
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Years 9 – 11",
         "amount": 229949
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12 – 13",
         "amount": 239070
       }
@@ -13657,17 +13657,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Lion Cubs Parent Toddler (2 sessions/week)",
         "amount": 136800
       },
       {
-        "age": 0,
+        "age": 2,
         "grade": "Lion Cubs Toddler Only Half Day (3 sessions/week)",
         "amount": 256500
       },
       {
-        "age": 0,
+        "age": 2,
         "grade": "Lion Cubs Toddler Only Full Day (3 sessions/week)",
         "amount": 302100
       },
@@ -13819,7 +13819,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years",
         "amount": 16500
       },
@@ -13893,7 +13893,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery",
         "amount": 258300
       },
@@ -14017,7 +14017,7 @@
         "amount": 62700
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "A-Level",
         "amount": 38000
       }
@@ -14084,7 +14084,7 @@
         "amount": 16060
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Level 1",
         "amount": 17440
       },
@@ -14157,12 +14157,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years - Nursery",
         "amount": 21360
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years - Reception",
         "amount": 24660
       },
@@ -14244,7 +14244,7 @@
         "amount": 46000000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Grade K",
         "amount": 28400000
       },
@@ -14286,7 +14286,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 3,
+        "age": 4,
         "grade": "Kindergarten (K1-K3)",
         "amount": 93200
       },
@@ -14325,7 +14325,7 @@
       {
         "grade": "years old)",
         "amount": 29419,
-        "age": 0
+        "age": 3
       },
       {
         "grade": "year. English Stream Reception-Year 5 (4-10 years old)",
@@ -14354,12 +14354,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K1 to Pre-K2",
         "amount": 119000
       },
       {
-        "age": 10,
+        "age": 4,
         "grade": "Kindergarten to Grade 5",
         "amount": 229500
       },
@@ -14423,17 +14423,17 @@
         "amount": 231600
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Grades 3 to 5",
         "amount": 231600
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Grades 6 to 8",
         "amount": 244500
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Grades 9 to 12",
         "amount": 258550
       }
@@ -14682,17 +14682,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery (3 afternoons/week)",
         "amount": 25170
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Part-time Nursery",
         "amount": 83500
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Full-time Nursery",
         "amount": 145110
       },
@@ -14746,17 +14746,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7 – 9",
         "amount": 184500
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Years 10 – 11",
         "amount": 192500
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12 – 13",
         "amount": 204900
       }
@@ -14815,17 +14815,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 1",
         "amount": 50800
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 2",
         "amount": 59300
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 71300
       },
@@ -14902,7 +14902,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 6,
         "grade": "Pre Primary",
         "amount": 28658
       },
@@ -14999,7 +14999,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery",
         "amount": 148524000
       },
@@ -15083,7 +15083,7 @@
       {
         "grade": "GCE A Level / IAL (Standard 3 subjects)",
         "amount": 9500,
-        "age": 0
+        "age": 16
       },
       {
         "grade": "Junior Secondary, Standard 6 subjects)",
@@ -15108,7 +15108,7 @@
       {
         "grade": "Early Years",
         "amount": 34651.1,
-        "age": 0
+        "age": 3
       },
       {
         "grade": "Primary School",
@@ -15136,7 +15136,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten (Reception 1-2)",
         "amount": 91000
       },
@@ -15257,7 +15257,7 @@
       {
         "grade": "Early Childhood (K4/K5)",
         "amount": 29807,
-        "age": 0
+        "age": 3
       },
       {
         "grade": "Elementary School (Grades 1 to 5)",
@@ -15292,17 +15292,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "PS / Pre-KG",
         "amount": 46350
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "MS / KG-1",
         "amount": 56650
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "GS / KG-2",
         "amount": 59740
       },
@@ -15386,7 +15386,7 @@
       {
         "grade": "Kindergarten (PS, MS, GS)",
         "amount": 23025,
-        "age": 0
+        "age": 4
       }
     ],
     "oneTimeFees": {
@@ -15554,7 +15554,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years (KG1 and KG2)",
         "amount": 9500
       },
@@ -15569,12 +15569,12 @@
         "amount": 14500
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "A-Level (3 Subjects)",
         "amount": 18500
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "A-Level (4 Subjects)",
         "amount": 20300
       }
@@ -15596,27 +15596,27 @@
         "amount": 184000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Y2, Y3, Y4",
         "amount": 202000
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Y5, Y6",
         "amount": 220000
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Y7, Y8, Y9",
         "amount": 260000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Y10, Y11",
         "amount": 262500
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Y12 & Y13",
         "amount": 295000
       }
@@ -15636,7 +15636,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-Kindergarten",
         "amount": 640000
       },
@@ -15646,12 +15646,12 @@
         "amount": 985000
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Middle (6-8)",
         "amount": 1104000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "High (9-12)",
         "amount": 1162000
       }
@@ -15677,7 +15677,7 @@
         "amount": 23080
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 23080
       },
@@ -15764,7 +15764,7 @@
         "amount": 34287
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 34287
       },
@@ -15936,12 +15936,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten Half Day",
         "amount": 75350
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten Whole Day",
         "amount": 113600
       },
@@ -15976,7 +15976,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 16,
+        "age": 15,
         "grade": "SMA Grade 11–12",
         "amount": 168000000
       }
@@ -15993,7 +15993,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7 – 10",
         "amount": 181100
       },
@@ -16003,7 +16003,7 @@
         "amount": 159400
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12 – 13",
         "amount": 167600
       }
@@ -16027,17 +16027,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten (3-6 years)",
         "amount": 105600
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Class 1 – Class 6",
         "amount": 146000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Class 7 – Class 8",
         "amount": 165500
       }
@@ -16126,17 +16126,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 1 & 2 Shortened (Half) Day",
         "amount": 304863000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 1 & 2 Full Day",
         "amount": 392643000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 527970000
       },
@@ -16156,17 +16156,17 @@
         "amount": 633001000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "JIS Learning Center – Elementary School",
         "amount": 842847000
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "JIS Learning Center – Middle School",
         "amount": 921309000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "JIS Learning Center – High School",
         "amount": 921309000
       }
@@ -16200,7 +16200,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 93500000
       },
@@ -16215,7 +16215,7 @@
         "amount": 233800000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Junior College / A-Levels (Years 11–13)",
         "amount": 299200000
       }
@@ -16376,7 +16376,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 12145
       },
@@ -16463,7 +16463,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-nursery (ECP)",
         "amount": 24000000
       },
@@ -16473,37 +16473,37 @@
         "amount": 24000000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "K-1 (ECP)",
         "amount": 26400000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "K-2 (ECP)",
         "amount": 27600000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "SD-2",
         "amount": 31200000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "SD-3",
         "amount": 32400000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "SD-4",
         "amount": 33600000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "SD-5",
         "amount": 34200000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "SD-6",
         "amount": 36000000
       },
@@ -16538,32 +16538,32 @@
         "amount": 49500000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "SMP-7",
         "amount": 37200000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "SMP-8",
         "amount": 37200000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "SMP-9",
         "amount": 39600000
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "SMA-10",
         "amount": 40800000
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "SMA-11",
         "amount": 40800000
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "SMA-12",
         "amount": 42000000
       },
@@ -16772,12 +16772,12 @@
         "amount": 65097
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7-11",
         "amount": 91923
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12-13",
         "amount": 104544
       }
@@ -16850,7 +16850,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1 – 6",
         "amount": 139000
       }
@@ -17013,7 +17013,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 85400
       },
@@ -17057,7 +17057,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 5,
         "grade": "Pre.K - K.3 (Campus 1)",
         "amount": 140000
       },
@@ -17072,7 +17072,7 @@
         "amount": 180000
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Pre.K - K.3 (Campus 2)",
         "amount": 200000
       },
@@ -17244,7 +17244,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-nursery",
         "amount": 616000
       },
@@ -17426,12 +17426,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Playgroup (2 days/week)",
         "amount": 63800
       },
       {
-        "age": 0,
+        "age": 2,
         "grade": "Children Centre 2-Year-Old Class (5 days/week)",
         "amount": 109780
       },
@@ -17469,22 +17469,22 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years Prep (Half day)",
         "amount": 440100
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 1",
         "amount": 596500
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 2",
         "amount": 631600
       },
       {
-        "age": 10,
+        "age": 3,
         "grade": "Early Years 3 to Grade 5",
         "amount": 725500
       },
@@ -17519,22 +17519,22 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "EY Prep",
         "amount": 560000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 1",
         "amount": 661600
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 2",
         "amount": 682600
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 3",
         "amount": 798000
       },
@@ -17568,7 +17568,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "International School - Early Years",
         "amount": 12495
       },
@@ -17623,62 +17623,62 @@
         "amount": 34323
       },
       {
-        "age": 15,
+        "age": 3,
         "grade": "Year 11: 35049.75; National Private School - Early Years",
         "amount": 12495
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Standard 1",
         "amount": 14152.5
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Standard 2",
         "amount": 17085
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Standard 3",
         "amount": 19762.5
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Standard 4",
         "amount": 21547.5
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Standard 5",
         "amount": 23205
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Standard 6",
         "amount": 24480
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Form 1",
         "amount": 25315
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Form 2",
         "amount": 25315
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Form 3",
         "amount": 29150
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "Form 4",
         "amount": 30890
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Form 5",
         "amount": 30890
       }
@@ -17768,7 +17768,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1 – 6",
         "amount": 139000
       }
@@ -17837,12 +17837,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 12,
         "grade": "SMP",
         "amount": 24000000
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "SMA",
         "amount": 25200000
       }
@@ -17867,7 +17867,7 @@
         "amount": 94920
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "P1 to P6",
         "amount": 123600
       }
@@ -17906,12 +17906,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 16,
         "grade": "IB Diploma (Local HK Student)",
         "amount": 324000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "IB Diploma (Overseas Student)",
         "amount": 428000
       }
@@ -17955,17 +17955,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "PS (Pre-KG)",
         "amount": 46350
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "MS (KG-1)",
         "amount": 56650
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "GS (KG-2)",
         "amount": 59740
       },
@@ -18047,7 +18047,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 29800
       },
@@ -18081,17 +18081,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "PS / Pre-KG3 (Oud Metha)",
         "amount": 29488
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "MS / KG1 (Oud Metha)",
         "amount": 29488
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "GS / KG2 (Oud Metha)",
         "amount": 29488
       },
@@ -18156,22 +18156,22 @@
         "amount": 62363
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "PS (Mudon)",
         "amount": 41500
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "MS (Mudon)",
         "amount": 42500
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "GS (Mudon)",
         "amount": 43500
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "CP-CM2 (Mudon)",
         "amount": 48500
       }
@@ -18189,12 +18189,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten (PS, MS, GS) - Other nationalities",
         "amount": 375400
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten (PS, MS, GS) - French/Thai/EU",
         "amount": 297750
       },
@@ -18209,12 +18209,12 @@
         "amount": 297750
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Junior High School - Other nationalities",
         "amount": 463500
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Junior High School - French/Thai/EU",
         "amount": 368200
       },
@@ -18263,82 +18263,82 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Toute Petite Section",
         "amount": 39904
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Petite Section",
         "amount": 39904
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Moyenne Section",
         "amount": 39904
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Grande Section",
         "amount": 42004
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "CP",
         "amount": 42004
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "CE1",
         "amount": 44105
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "CE2",
         "amount": 44105
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "CM1",
         "amount": 46205
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "CM2",
         "amount": 46205
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "6eme",
         "amount": 50405
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "5eme",
         "amount": 50405
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "4eme",
         "amount": 54606
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "3eme",
         "amount": 54606
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "Seconde",
         "amount": 60906
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Premiere",
         "amount": 69307
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "Terminale",
         "amount": 69307
       }
@@ -18355,37 +18355,37 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 1,
         "grade": "Trust & Caring (1 year old) - 3 days",
         "amount": 249600
       },
       {
-        "age": 0,
+        "age": 1,
         "grade": "Trust & Caring (1 year old) - 5 days",
         "amount": 398800
       },
       {
-        "age": 0,
+        "age": 2,
         "grade": "Joy & Confidence (2 years old) - 3 days",
         "amount": 249600
       },
       {
-        "age": 0,
+        "age": 2,
         "grade": "Joy & Confidence (2 years old) - 5 days",
         "amount": 398800
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Peace & Unity (3 years old)",
         "amount": 436800
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Creativity & Service (4 years old)",
         "amount": 601200
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Excellence (5 years old)",
         "amount": 620200
       },
@@ -18395,7 +18395,7 @@
         "amount": 645400
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Middle Years (Grades 6-10)",
         "amount": 645400
       }
@@ -18414,17 +18414,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years (Play School)",
         "amount": 12600
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years (Nursery)",
         "amount": 12600
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years (Reception)",
         "amount": 12900
       },
@@ -18606,7 +18606,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 11,
         "grade": "Key Stage 3",
         "amount": 13200
       }
@@ -18623,7 +18623,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Petaling Jaya Campus: KG 1",
         "amount": 10500
       },
@@ -18688,7 +18688,7 @@
         "amount": 24900
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Shah Alam Campus: KG 1",
         "amount": 12000
       },
@@ -18769,7 +18769,7 @@
       {
         "grade": "Early Years, Pre-Kindergarten & Kindergarten",
         "amount": 28600,
-        "age": 0
+        "age": 3
       },
       {
         "grade": "Foundation 1 & Foundation 2",
@@ -18815,7 +18815,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years",
         "amount": 90000000
       },
@@ -18839,7 +18839,7 @@
       {
         "grade": "Early Years (N2-K2)",
         "amount": 22892.92,
-        "age": 0
+        "age": 3
       }
     ],
     "oneTimeFees": {}
@@ -18870,7 +18870,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K",
         "amount": 25944
       },
@@ -18885,52 +18885,52 @@
         "amount": 27260
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "GR 1",
         "amount": 28498
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "GR 2",
         "amount": 29739
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "GR 3",
         "amount": 30977
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "GR 4",
         "amount": 32217
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "GR 5",
         "amount": 33454
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "GR 6",
         "amount": 34695
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "GR 7",
         "amount": 37172
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "GR 8",
         "amount": 38410
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "GR 9",
         "amount": 41905
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "GR 10",
         "amount": 43952
       }
@@ -19091,7 +19091,7 @@
         "amount": 460000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Casa Program (Ages 3-6)",
         "amount": 545000
       },
@@ -19269,7 +19269,7 @@
         "amount": 21500
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 21500
       },
@@ -19361,17 +19361,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Pre-School 8AM-12PM (Indonesian)",
         "amount": 58140000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Pre-School 8AM-14PM (Indonesian)",
         "amount": 99700000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten (Indonesian)",
         "amount": 101500000
       },
@@ -19386,17 +19386,17 @@
         "amount": 241400000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Pre-School 8AM-12PM (International)",
         "amount": 70700000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Pre-School 8AM-14PM (International)",
         "amount": 112300000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten (International)",
         "amount": 123600000
       },
@@ -19511,7 +19511,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K",
         "amount": 24487
       },
@@ -19698,7 +19698,7 @@
       {
         "grade": "Kindergarten",
         "amount": 36000,
-        "age": 0
+        "age": 4
       },
       {
         "grade": "Year 1",
@@ -19708,32 +19708,32 @@
       {
         "grade": "Years 2 to 3",
         "amount": 41200,
-        "age": 0
+        "age": 6
       },
       {
         "grade": "Years 4 to 5",
         "amount": 42800,
-        "age": 0
+        "age": 8
       },
       {
         "grade": "Years 6 to 7",
         "amount": 43200,
-        "age": 0
+        "age": 10
       },
       {
         "grade": "Years 8 to 9",
         "amount": 45800,
-        "age": 0
+        "age": 12
       },
       {
         "grade": "Years 10 to 11",
         "amount": 47800,
-        "age": 0
+        "age": 14
       },
       {
         "grade": "Years 12 to 13",
         "amount": 49000,
-        "age": 0
+        "age": 16
       },
       {
         "grade": "Foundation Programme Year 7",
@@ -19769,17 +19769,17 @@
         "amount": 25316
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grades 1-3",
         "amount": 28257
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Grades 4-6",
         "amount": 35224
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Grades 7-9",
         "amount": 42580
       },
@@ -19789,7 +19789,7 @@
         "amount": 50320
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Grades 11-12",
         "amount": 50321
       }
@@ -19874,12 +19874,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 1",
         "amount": 628200
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 2",
         "amount": 628200
       },
@@ -20405,27 +20405,27 @@
         "amount": 71600000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K",
         "amount": 85606000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 105680000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "PYP 1-5 (Grades 1-5)",
         "amount": 193194000
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "MYP 1-5 (Grades 6-10)",
         "amount": 255620000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "DP 1-2 (Grades 11-12)",
         "amount": 267610000
       }
@@ -20487,7 +20487,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 91735
       },
@@ -20741,17 +20741,17 @@
         "amount": 30000
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "1st-5th Grade",
         "amount": 54000
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "6th-8th Grade",
         "amount": 65000
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "9th-12th Grade",
         "amount": 76000
       }
@@ -20799,22 +20799,22 @@
         "amount": 7828
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grades 1-3",
         "amount": 9447
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Grades 4-5",
         "amount": 9558
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Grades 6-8",
         "amount": 10724
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Grades 9-10",
         "amount": 13276
       },
@@ -20863,12 +20863,12 @@
       {
         "grade": "Grades 1-5",
         "amount": 35100,
-        "age": 0
+        "age": 6
       },
       {
         "grade": "Grades 6-8",
         "amount": 37500,
-        "age": 0
+        "age": 11
       },
       {
         "grade": "Grade 9-10 (Junior High)",
@@ -21340,22 +21340,22 @@
         "amount": 246800
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grades 1-3",
         "amount": 272800
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Grades 4-6",
         "amount": 323800
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Grades 7-9",
         "amount": 334800
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "Grades 10-12",
         "amount": 415800
       }
@@ -21380,7 +21380,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 19517
       },
@@ -21586,15 +21586,7 @@
     ],
     "oneTimeFees": {
       "Application Fee": 525,
-      "FS1 & FS2": 2000,
-      "Year 1 & Year 2": 2100,
-      "Year 3": 1200,
-      "Year 4 to Year 7": 1300,
-      "Year 8": 1400,
-      "Year 9": 1500,
-      "Year 10": 1800,
-      "Year 11": 1900,
-      "Year 12 & Year 13": 2000
+      "Resource Fee (varies by year)": 1200
     }
   },
   "providence-english-private-school": {
@@ -21879,7 +21871,7 @@
         "amount": 17175
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 15554
       },
@@ -21961,7 +21953,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Full Day (Early Years)",
         "amount": 14850
       },
@@ -22033,12 +22025,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Full Day (Early Years)",
         "amount": 16450
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Half Day (Early Years)",
         "amount": 11540
       },
@@ -22119,22 +22111,22 @@
         "amount": 198000
       },
       {
-        "age": 3,
+        "age": 5,
         "grade": "Kindergarten 1-2 (3-5 years old)",
         "amount": 234000
       },
       {
-        "age": 5,
+        "age": 6,
         "grade": "Kindergarten 3 (5-6 years old)",
         "amount": 255000
       },
       {
-        "age": 6,
+        "age": 10,
         "grade": "Grade 1-4 (6-10 years old)",
         "amount": 279000
       },
       {
-        "age": 10,
+        "age": 18,
         "grade": "Grade 5-12 (10-18 years old)",
         "amount": 297000
       }
@@ -22169,7 +22161,7 @@
         "amount": 34055
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 34055
       },
@@ -22559,7 +22551,7 @@
         "amount": 294000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Pre-Reception",
         "amount": 348000
       },
@@ -22569,27 +22561,27 @@
         "amount": 348000
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1-2",
         "amount": 429000
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Years 3-6",
         "amount": 444000
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7-9",
         "amount": 534000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Years 10-11",
         "amount": 570000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12-13",
         "amount": 564000
       }
@@ -22803,7 +22795,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "EYFS",
         "amount": 42500
       },
@@ -22896,17 +22888,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1 to 6",
         "amount": 148100
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7 to 11",
         "amount": 193600
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12 to 13",
         "amount": 195700
       }
@@ -23124,17 +23116,17 @@
         "amount": 470000
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Grades 3-6",
         "amount": 530000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Grades 7-10",
         "amount": 670000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Grades 11-12",
         "amount": 710000
       }
@@ -23226,7 +23218,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Pre-School / Kindergarten",
         "amount": 49400
       },
@@ -23261,7 +23253,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 11,
         "grade": "Grades 6-12",
         "amount": 450000
       }
@@ -23284,7 +23276,7 @@
         "amount": 550000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Junior High School (Grades 7-8)",
         "amount": 550000
       },
@@ -23453,12 +23445,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K 2-4",
         "amount": 538400
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG",
         "amount": 544400
       },
@@ -23468,17 +23460,17 @@
         "amount": 718400
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Grades 2-5",
         "amount": 686000
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Grades 6-8",
         "amount": 716000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Grades 9-12",
         "amount": 786000
       }
@@ -23498,7 +23490,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-K",
         "amount": 35000
       },
@@ -23576,7 +23568,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "PS",
         "amount": 26000
       },
@@ -23866,12 +23858,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Early Learning Centre",
         "amount": 25000000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years",
         "amount": 39900000
       },
@@ -24010,7 +24002,7 @@
         "amount": 48000000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Junior High (SMP)",
         "amount": 66000000
       },
@@ -24093,17 +24085,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Childhood",
         "amount": 14760
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Classes 1-8",
         "amount": 17640
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Classes 9-12",
         "amount": 20792
       }
@@ -24127,32 +24119,32 @@
         "amount": 218000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "P1",
         "amount": 252800
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "P2-P3",
         "amount": 261800
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "P4-P5",
         "amount": 290200
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "P6",
         "amount": 279800
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "M1-M3",
         "amount": 307000
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "M4-M6",
         "amount": 332800
       }
@@ -24244,12 +24236,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Early Learners",
         "amount": 15900
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 15900
       },
@@ -24335,7 +24327,7 @@
         "amount": 18000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG / FS1",
         "amount": 23500
       },
@@ -24546,7 +24538,7 @@
         "amount": 70897000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Junior High (SMP)",
         "amount": 98454000
       },
@@ -24605,7 +24597,7 @@
         "amount": 30000000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 42000000
       },
@@ -24664,12 +24656,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Baby Eagles",
         "amount": 35000000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-Kindergarten",
         "amount": 80000000
       },
@@ -24724,7 +24716,7 @@
         "amount": 384000000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Annual Development Fee (DPP) - K1 to Grade 12",
         "amount": 56500000
       }
@@ -24782,7 +24774,7 @@
         "amount": 367000000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Annual Development Fee (DPP) - K1 to Grade 12",
         "amount": 71500000
       }
@@ -24800,57 +24792,57 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 7,
         "grade": "Standard 1",
         "amount": 19350
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Standard 2",
         "amount": 19350
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Standard 3",
         "amount": 20250
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Standard 4",
         "amount": 20250
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Standard 5",
         "amount": 22350
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Standard 6",
         "amount": 22350
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Form 1",
         "amount": 22350
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Form 2",
         "amount": 22350
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Form 3",
         "amount": 22350
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "Form 4",
         "amount": 25050
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Form 5",
         "amount": 25050
       }
@@ -24868,7 +24860,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 6,
         "grade": "SD (Primary)",
         "amount": 47088000
       },
@@ -24964,12 +24956,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Pre-school EYFS Nursery",
         "amount": 12867
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Pre-school EYFS Reception",
         "amount": 13857
       },
@@ -25471,22 +25463,22 @@
         "amount": 728700
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1-2",
         "amount": 818700
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Years 3-4",
         "amount": 878100
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Years 5-6",
         "amount": 908400
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7-9",
         "amount": 939300
       },
@@ -25578,7 +25570,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years (Toddler-KG)",
         "amount": 119195000
       },
@@ -25705,7 +25697,7 @@
         "amount": 64000000
       },
       {
-        "age": 3,
+        "age": 4,
         "grade": "Kindergarten K1",
         "amount": 81000000
       },
@@ -25735,47 +25727,47 @@
         "amount": 132000000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Junior College JC1-JC2",
         "amount": 151800000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Annual Development Fee N1-N2",
         "amount": 20000000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Annual Development Fee K1",
         "amount": 24000000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Annual Development Fee K2",
         "amount": 25000000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Annual Development Fee P1-P3",
         "amount": 46000000
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Annual Development Fee P4-P6",
         "amount": 49000000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Annual Development Fee S1-S2",
         "amount": 54000000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Annual Development Fee S3-S4",
         "amount": 56000000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Annual Development Fee JC1-JC2",
         "amount": 63500000
       }
@@ -25807,7 +25799,7 @@
         "amount": 208800
       },
       {
-        "age": 5,
+        "age": 16,
         "grade": "Diploma Programme Year 1 and Year 2",
         "amount": 254900
       }
@@ -26078,12 +26070,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "N1",
         "amount": 48500000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "N2",
         "amount": 64000000
       },
@@ -26098,67 +26090,67 @@
         "amount": 83500000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "P1-P3",
         "amount": 115000000
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "P4-P6",
         "amount": 118000000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "S1-S2",
         "amount": 129000000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "S3-S4",
         "amount": 132000000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "JC1-JC2",
         "amount": 151800000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Annual Development Fee N1-N2",
         "amount": 20000000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Annual Development Fee K1",
         "amount": 24000000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Annual Development Fee K2",
         "amount": 25000000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Annual Development Fee P1-P3",
         "amount": 46000000
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Annual Development Fee P4-P6",
         "amount": 49000000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Annual Development Fee S1-S2",
         "amount": 54000000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Annual Development Fee S3-S4",
         "amount": 56000000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Annual Development Fee JC1-JC2",
         "amount": 63500000
       }
@@ -26185,7 +26177,7 @@
         "amount": 64000000
       },
       {
-        "age": 3,
+        "age": 4,
         "grade": "Kindergarten K1",
         "amount": 81000000
       },
@@ -26215,17 +26207,17 @@
         "amount": 132000000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Junior College JC1-JC2",
         "amount": 151800000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Annual Development Fee Preschool",
         "amount": 20000000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Annual Development Fee Junior College",
         "amount": 63500000
       }
@@ -26284,7 +26276,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Starters",
         "amount": 30037
       },
@@ -26569,7 +26561,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 14100
       },
@@ -26888,12 +26880,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "EYFS 1",
         "amount": 20610
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "EYFS 2",
         "amount": 20610
       },
@@ -26974,7 +26966,7 @@
         "amount": 23950
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 27500
       },
@@ -27060,12 +27052,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "EYFS1",
         "amount": 24460
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "EYFS2",
         "amount": 24460
       },
@@ -27360,7 +27352,7 @@
         "amount": 448000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 506000
       },
@@ -27414,7 +27406,7 @@
         "amount": 562500
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 640000
       },
@@ -27459,7 +27451,7 @@
         "amount": 574500
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG to Reception",
         "amount": 629500
       },
@@ -27678,7 +27670,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 7,
         "grade": "Pre-Primary to Grade 2",
         "amount": 217100
       },
@@ -27793,7 +27785,7 @@
         "amount": 21520
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 25320
       },
@@ -28036,32 +28028,32 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 7,
         "grade": "Standard 1",
         "amount": 8280
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Standard 2",
         "amount": 8280
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Standard 3",
         "amount": 8280
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Standard 4",
         "amount": 8280
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Standard 5",
         "amount": 8280
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Standard 6",
         "amount": 8280
       }
@@ -28076,17 +28068,17 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 4,
+        "age": 2,
         "grade": "Preschool/Sunnyville (Toddler/Age 2)",
         "amount": 19000000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "SD (Gading Serpong)",
         "amount": 54000000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "SMP (Gading Serpong)",
         "amount": 54000000
       },
@@ -28286,52 +28278,52 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 5,
         "grade": "Cambridge Programme: Years 1-4",
         "amount": 77000
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Years 5-6",
         "amount": 91000
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7-9",
         "amount": 98000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Years 10-11",
         "amount": 112000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "A-Level: 130000; Canadian (Ontario) Curriculum: Kindergarten",
         "amount": 49500
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grades 1-3",
         "amount": 58300
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Grades 4-5",
         "amount": 70000
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Grades 6-8",
         "amount": 70000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Grades 9-11",
         "amount": 88000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "IBDP Years 1-2",
         "amount": 105000
       }
@@ -28352,7 +28344,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG (Bilingual)",
         "amount": 68868
       },
@@ -28427,7 +28419,7 @@
         "amount": 114268
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG (English+)",
         "amount": 60834
       },
@@ -28724,7 +28716,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 6,
+        "age": 16,
         "grade": "KG2: 25000; Grade 1, 2, 3: 30000; Grade 4, 5, 6: 35000; Grade 7, 8, 9: 40000; IGCSE G10: 45000; IGCSE G11",
         "amount": 50000
       }
@@ -28743,7 +28735,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Tenby International School: Nursery",
         "amount": 22080
       },
@@ -28803,57 +28795,57 @@
         "amount": 66000
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Sekolah Sri Tenby: Standard 1",
         "amount": 24300
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Standard 2",
         "amount": 24300
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Standard 3",
         "amount": 25545
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Standard 4",
         "amount": 25545
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Standard 5",
         "amount": 27270
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Standard 6",
         "amount": 27270
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Form 1",
         "amount": 27900
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Form 2",
         "amount": 27900
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Form 3",
         "amount": 30105
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "Form 4",
         "amount": 31800
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Form 5",
         "amount": 31800
       }
@@ -29043,12 +29035,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "PK2-PK4",
         "amount": 369603
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG",
         "amount": 369603
       },
@@ -29135,12 +29127,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Pre-school (normal day)",
         "amount": 53730
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Pre-school (extended day)",
         "amount": 66270
       },
@@ -29185,7 +29177,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-Kindergarten",
         "amount": 430000
       },
@@ -29195,17 +29187,17 @@
         "amount": 460000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grades 1-5",
         "amount": 607000
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Grades 6-8",
         "amount": 690000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Grades 9-12",
         "amount": 760000
       }
@@ -29229,7 +29221,7 @@
         "amount": 6993
       },
       {
-        "age": 4,
+        "age": 3,
         "grade": "FS 2",
         "amount": 7244
       },
@@ -29486,7 +29478,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery",
         "amount": 56395
       },
@@ -29890,32 +29882,32 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 1,
         "grade": "Montessori First Steps (Ages 1-2) 2 Days",
         "amount": 36000
       },
       {
-        "age": 0,
+        "age": 1,
         "grade": "Montessori First Steps (Ages 1-2) 3 Days",
         "amount": 53000
       },
       {
-        "age": 4,
+        "age": 2,
         "grade": "Foundation Group (Ages 2-3) 5 Days",
         "amount": 99500
       },
       {
-        "age": 4,
+        "age": 2,
         "grade": "Foundation Class (Ages 2-3) 5 Days",
         "amount": 106000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Casa dei Bambini (Ages 3-4) Half-Day",
         "amount": 143000
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Casa dei Bambini (Ages 4-6) Full Day",
         "amount": 206500
       },
@@ -29925,12 +29917,12 @@
         "amount": 209500
       },
       {
-        "age": 14,
+        "age": 9,
         "grade": "Upper Elementary (Ages 9-12)",
         "amount": 216500
       },
       {
-        "age": 11,
+        "age": 12,
         "grade": "Middle School (Ages 12-14)",
         "amount": 238100
       }
@@ -30144,7 +30136,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 28000
       },
@@ -30231,7 +30223,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 26000
       },
@@ -30425,12 +30417,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1 – 6",
         "amount": 139000
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7 – 10",
         "amount": 181100
       },
@@ -30440,7 +30432,7 @@
         "amount": 159400
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12 – 13",
         "amount": 167600
       }
@@ -31522,7 +31514,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery (Little Lions)",
         "amount": 240000
       },
@@ -31775,12 +31767,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 1",
         "amount": 12750
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 2",
         "amount": 12750
       },
@@ -32011,7 +32003,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 40377
       },
@@ -32108,12 +32100,12 @@
         "amount": 43750000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "SMP (Junior High) - Intensive English",
         "amount": 67000000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "SMP (Junior High) - National Plus",
         "amount": 58000000
       }
@@ -32135,12 +32127,12 @@
         "amount": 31145
       },
       {
-        "age": 0,
+        "age": 2,
         "grade": "Rising 3s",
         "amount": 35045
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 40530
       },
@@ -32309,22 +32301,22 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 2",
         "amount": 528000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 3",
         "amount": 528000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 4",
         "amount": 570000
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Early Years 5",
         "amount": 570000
       },
@@ -32489,12 +32481,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 4,
         "grade": "Pre-School",
         "amount": 5880
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "A-Level",
         "amount": 18000
       }
@@ -32509,12 +32501,12 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-KG",
         "amount": 28350
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "KG",
         "amount": 34250
       },
@@ -32602,22 +32594,22 @@
         "amount": 181200
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Middle Years Programme (Y6)",
         "amount": 200700
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Middle Years Programme (Y7-Y8)",
         "amount": 203700
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Middle Years Programme (Y9-Y10)",
         "amount": 205400
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Diploma Programme (Y11-Y12)",
         "amount": 255600
       }
@@ -32741,7 +32733,7 @@
       {
         "grade": "Foundation Fee (JEE/NEET) (Std 4 to 8)",
         "amount": 1000,
-        "age": 0
+        "age": 4
       }
     ],
     "oneTimeFees": {
@@ -32820,7 +32812,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Pre-Nursery",
         "amount": 615250
       },
@@ -32934,32 +32926,32 @@
         "amount": 290000
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grades 1-2",
         "amount": 373200
       },
       {
-        "age": 0,
+        "age": 8,
         "grade": "Grades 3-4",
         "amount": 412000
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Grades 5-6",
         "amount": 444000
       },
       {
-        "age": 0,
+        "age": 12,
         "grade": "Grades 7-8",
         "amount": 470000
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Grades 9-10",
         "amount": 516000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Grades 11-12",
         "amount": 546000
       }
@@ -32988,7 +32980,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7 – 10",
         "amount": 181100
       },
@@ -32998,7 +32990,7 @@
         "amount": 159400
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12 – 13",
         "amount": 167600
       }
@@ -33228,22 +33220,22 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1 – 5",
         "amount": 188000
       },
       {
-        "age": 0,
+        "age": 10,
         "grade": "Years 6 – 8",
         "amount": 198000
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Years 9 – 11",
         "amount": 208000
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12 – 13 (Sixth Form)",
         "amount": 218000
       }
@@ -33258,37 +33250,37 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-Kindergarten 1A",
         "amount": 453450
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-Kindergarten 1B",
         "amount": 453450
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Pre-Kindergarten 2",
         "amount": 514220
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Kindergarten",
         "amount": 514220
       },
       {
-        "age": 0,
+        "age": 6,
         "grade": "Grades 1-5",
         "amount": 648860
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Grades 6-8",
         "amount": 737340
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Grades 9-12",
         "amount": 808630
       }
@@ -33386,37 +33378,37 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 2,
         "grade": "Twos Whole Day",
         "amount": 223036
       },
       {
-        "age": 0,
+        "age": 3,
         "grade": "Threes Whole Day",
         "amount": 240801
       },
       {
-        "age": 0,
+        "age": 4,
         "grade": "Fours Whole Day",
         "amount": 249216
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Fives Whole Day",
         "amount": 261536
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1 – 6",
         "amount": 265420
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7 – 11 (IB Pathway)",
         "amount": 262220
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Years 12 – 13",
         "amount": 268640
       }
@@ -33439,7 +33431,7 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1 – 3",
         "amount": 220000
       }
@@ -33471,32 +33463,32 @@
     "feesAvailable": true,
     "feeRows": [
       {
-        "age": 0,
+        "age": 12,
         "grade": "Form 1",
         "amount": 61000
       },
       {
-        "age": 0,
+        "age": 13,
         "grade": "Forms 2 – 3",
         "amount": 58000
       },
       {
-        "age": 0,
+        "age": 15,
         "grade": "Forms 4 – 5 DSE",
         "amount": 57000
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "Form 6 DSE",
         "amount": 50500
       },
       {
-        "age": 0,
+        "age": 16,
         "grade": "Form 5 GCE",
         "amount": 65000
       },
       {
-        "age": 0,
+        "age": 17,
         "grade": "Form 6 GCE",
         "amount": 62000
       }
@@ -33570,27 +33562,27 @@
         "amount": 7200
       },
       {
-        "age": 0,
+        "age": 5,
         "grade": "Years 1-2",
         "amount": 11880
       },
       {
-        "age": 0,
+        "age": 7,
         "grade": "Years 3-4",
         "amount": 14520
       },
       {
-        "age": 0,
+        "age": 9,
         "grade": "Years 5-6",
         "amount": 17160
       },
       {
-        "age": 0,
+        "age": 11,
         "grade": "Years 7-9",
         "amount": 19800
       },
       {
-        "age": 0,
+        "age": 14,
         "grade": "Years 10-11",
         "amount": 23760
       }
