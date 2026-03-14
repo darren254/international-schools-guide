@@ -2,24 +2,29 @@ import { CurriculumTag } from "@/components/ui/CurriculumTag";
 import { VerifiedBadge } from "@/components/ui/VerifiedBadge";
 import { displayValue } from "@/lib/utils/display";
 import { ShortlistActions } from "@/components/school/ShortlistActions";
+import { StudentCountPopover } from "@/components/school/StudentCountPopover";
 
 interface Campus {
   name: string;
   address: string;
 }
 
+type StudentSourceData = {
+  sourceCount: number;
+  topSources: { value: string; date: string | null; source: string }[];
+};
+
 interface SchoolMastheadProps {
   slug: string;
   name: string;
   verified: boolean;
   campuses: Campus[];
-  /** Neighbourhood/area (e.g. "Dover", "Arabian Ranches"); from profile Location. */
   locationLabel: string;
-  /** Display city name (e.g. "Singapore", "Dubai"). */
   cityName: string;
   lastUpdated: string;
   curricula: string[];
   stats: { value: string; label: string }[];
+  studentSources?: StudentSourceData;
 }
 
 export function SchoolMasthead({
@@ -32,6 +37,7 @@ export function SchoolMasthead({
   lastUpdated,
   curricula,
   stats,
+  studentSources,
 }: SchoolMastheadProps) {
   const campusSummary = campuses
     .map((c) => c.name.split("(")[0].trim())
@@ -74,6 +80,12 @@ export function SchoolMasthead({
             <div key={stat.label}>
               <span className="font-display text-display-sm font-semibold block leading-none mb-1">
                 {displayValue(stat.value, "—")}
+                {stat.label === "Students" && studentSources && (
+                  <StudentCountPopover
+                    sourceCount={studentSources.sourceCount}
+                    topSources={studentSources.topSources}
+                  />
+                )}
               </span>
               <span className="text-label-xs uppercase tracking-wider text-charcoal-muted font-body">
                 {stat.label}

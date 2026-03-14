@@ -23,6 +23,7 @@ import type { CurrencyCode } from "@/lib/currency/rates";
 import { getSchoolImageUrl, getSchoolOgImageUrl, getSchoolGalleryUrls } from "@/lib/schools/images";
 import { getHeadImageUrl, getHeadOverride, getHeadBioOverride, getSchoolDisplayName } from "@/lib/schools/head-images";
 import photoStripUnique from "@/data/school-photo-strip-unique.json";
+import studentNumbersData from "@/../data/student-numbers.json";
 import { BackToResults } from "@/components/home/BackToResults";
 
 const PHOTO_STRIP_LABELS = ["campus", "facilities", "students", "campus"] as const;
@@ -106,6 +107,16 @@ export default function SchoolProfilePage({
   const lowK = extractLowestFee(feeRangeStr);
   const highK = extractHighestFee(feeRangeStr);
 
+  const studentData = (studentNumbersData as Record<string, { bestEstimate: number; display: string; isApproximate: boolean; sourceCount: number; topSources: { value: string; date: string | null; source: string }[] }>)[params.school];
+  const profileStats = studentData
+    ? s.stats.map((st) =>
+        st.label === "Students" ? { ...st, value: studentData.display } : st
+      )
+    : s.stats;
+  const studentSources = studentData
+    ? { sourceCount: studentData.sourceCount, topSources: studentData.topSources }
+    : undefined;
+
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -133,7 +144,7 @@ export default function SchoolProfilePage({
       addressCountry: COUNTRY_CODES[s.citySlug] ?? "ID",
     })),
     foundingDate: s.jsonLd.foundingDate || undefined,
-    numberOfStudents: s.jsonLd.numberOfStudents || undefined,
+    numberOfStudents: studentData?.bestEstimate || s.jsonLd.numberOfStudents || undefined,
     ...(s.curricula?.length ? { curriculum: s.curricula.join(", ") } : {}),
     ...(feeRangeStr && (lowK > 0 || highK > 0)
       ? {
@@ -189,7 +200,8 @@ export default function SchoolProfilePage({
           .join(" ")}
         lastUpdated={s.lastUpdated}
         curricula={s.curricula}
-        stats={s.stats}
+        stats={profileStats}
+        studentSources={studentSources}
       />
 
       {/* Head of School */}
