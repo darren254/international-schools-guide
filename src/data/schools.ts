@@ -2946,5 +2946,29 @@ if (raffles) {
 export const SCHOOL_PROFILES: Record<string, SchoolProfile> =
   applyGeocodedCampuses(RAW_SCHOOL_PROFILES);
 
-// All slugs for generateStaticParams (Jakarta only — Dubai uses ALL_DUBAI_SCHOOL_SLUGS)
 export const ALL_SCHOOL_SLUGS = Object.keys(SCHOOL_PROFILES);
+
+export type SchoolNeighbour = { slug: string; name: string; citySlug: string };
+
+export const SCHOOL_PREV_NEXT: Record<
+  string,
+  { prev: SchoolNeighbour | null; next: SchoolNeighbour | null }
+> = (() => {
+  const byCity: Record<string, { slug: string; name: string; citySlug: string }[]> = {};
+  for (const [slug, p] of Object.entries(SCHOOL_PROFILES)) {
+    const city = p.citySlug;
+    if (!byCity[city]) byCity[city] = [];
+    byCity[city].push({ slug, name: p.name, citySlug: city });
+  }
+  const result: Record<string, { prev: SchoolNeighbour | null; next: SchoolNeighbour | null }> = {};
+  for (const list of Object.values(byCity)) {
+    list.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: "base" }));
+    for (let i = 0; i < list.length; i++) {
+      result[list[i].slug] = {
+        prev: i > 0 ? list[i - 1] : null,
+        next: i < list.length - 1 ? list[i + 1] : null,
+      };
+    }
+  }
+  return result;
+})();

@@ -15,7 +15,10 @@ import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import {
   SCHOOL_PROFILES,
   ALL_SCHOOL_SLUGS,
+  SCHOOL_PREV_NEXT,
 } from "@/data/schools";
+import { SchoolPrevNext } from "@/components/school/SchoolPrevNext";
+import { SwipeableProfileWrapper } from "@/components/school/SwipeableProfileWrapper";
 import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 import type { CurrencyCode } from "@/lib/currency/rates";
 import { getSchoolImageUrl, getSchoolOgImageUrl, getSchoolGalleryUrls } from "@/lib/schools/images";
@@ -63,6 +66,7 @@ export function generateMetadata({
   const ogImage = getSchoolOgImageUrl(params.school);
   const ogImageUrl = ogImage ? `${BASE_URL}${ogImage}` : `${BASE_URL}/og-default.png`;
   const displayName = getSchoolDisplayName(params.school, school);
+
   return {
     title: school.metaTitle,
     description: school.metaDescription,
@@ -89,6 +93,14 @@ export default function SchoolProfilePage({
   const s = SCHOOL_PROFILES[params.school];
   if (!s) return notFound();
   if (params.city !== s.citySlug) return notFound();
+
+  const neighbours = SCHOOL_PREV_NEXT[params.school] ?? { prev: null, next: null };
+  const prevUrl = neighbours.prev
+    ? `/international-schools/${neighbours.prev.citySlug}/${neighbours.prev.slug}`
+    : null;
+  const nextUrl = neighbours.next
+    ? `/international-schools/${neighbours.next.citySlug}/${neighbours.next.slug}`
+    : null;
 
   const canonicalUrl = `${BASE_URL}/international-schools/${s.citySlug}/${params.school}`;
   const displayName = getSchoolDisplayName(s.slug, s);
@@ -144,6 +156,7 @@ export default function SchoolProfilePage({
   };
 
   return (
+    <SwipeableProfileWrapper prevUrl={prevUrl} nextUrl={nextUrl}>
     <div className="container-site">
       <script
         type="application/ld+json"
@@ -333,6 +346,9 @@ export default function SchoolProfilePage({
         />
       </div>
 
+      {/* Prev / Next school navigation */}
+      <SchoolPrevNext prev={neighbours.prev} next={neighbours.next} />
+
       {/* JSON-LD Schema */}
       <script
         type="application/ld+json"
@@ -341,5 +357,6 @@ export default function SchoolProfilePage({
         }}
       />
     </div>
+    </SwipeableProfileWrapper>
   );
 }
