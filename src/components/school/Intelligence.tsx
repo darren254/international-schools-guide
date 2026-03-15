@@ -33,7 +33,7 @@ export function Intelligence({
 
   return (
     <section id="intelligence" className="pt-10 mb-10 pb-10 border-b border-warm-border-light">
-      <SectionHeader label="Editorial" title="The Intelligence" />
+      <SectionHeader label="Editorial" title="Our Verdict" />
 
       <p className="text-label-sm text-charcoal-muted italic mb-6">
         Schools don&apos;t pay to be listed here. Our reviews are independent, written for parents, not for schools.

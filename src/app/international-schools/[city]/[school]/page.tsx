@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import dynamic from "next/dynamic";
 import { SchoolMasthead } from "@/components/school/SchoolMasthead";
 import { HeadOfSchool } from "@/components/school/HeadOfSchool";
 import { PhotoStrip } from "@/components/school/PhotoStrip";
@@ -8,9 +9,9 @@ import { FeesTable } from "@/components/school/FeesTable";
 import { AcademicResults } from "@/components/school/AcademicResults";
 import { StudentBody } from "@/components/school/StudentBody";
 import { SchoolLife } from "@/components/school/SchoolLife";
-import { CampusMap } from "@/components/school/CampusMap";
 import { ContactSection } from "@/components/school/ContactSection";
 import { ProfileSidebar } from "@/components/school/ProfileSidebar";
+import { RelatedContent } from "@/components/school/RelatedContent";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import {
   SCHOOL_PROFILES,
@@ -25,6 +26,12 @@ import { getHeadImageUrl, getHeadOverride, getHeadBioOverride, getSchoolDisplayN
 import photoStripUnique from "@/data/school-photo-strip-unique.json";
 import studentNumbersData from "@/../data/student-numbers.json";
 import { BackToResults } from "@/components/home/BackToResults";
+import { displayValue } from "@/lib/utils/display";
+
+const CampusMap = dynamic(
+  () => import("@/components/school/CampusMap").then((m) => m.CampusMap),
+  { ssr: false, loading: () => <div className="h-64 bg-warm-white animate-pulse" /> },
+);
 
 const PHOTO_STRIP_LABELS = ["campus", "facilities", "students", "campus"] as const;
 
@@ -202,21 +209,14 @@ export default function SchoolProfilePage({
         curricula={s.curricula}
         stats={profileStats}
         studentSources={studentSources}
+        headlineResult={
+          s.academics.results.length > 0 && displayValue(s.academics.results[0].value, "")
+            ? s.academics.results[0]
+            : undefined
+        }
       />
 
-      {/* Head of School */}
-      <HeadOfSchool
-        name={(() => {
-          const override = getHeadOverride(s.slug);
-          return override ? override.name : s.head.name;
-        })()}
-        since={s.head.since}
-        bio={getHeadBioOverride(s.slug) ?? s.head.bio}
-        photoUrl={getSchoolImageUrl(s.slug, "head") ?? getHeadImageUrl(s.slug)}
-        credentials={getHeadOverride(s.slug)?.title}
-      />
-
-      {/* Photo Strip — content-deduplicated (by hash); placeholders for missing/duplicate slots */}
+      {/* Photo Strip */}
       <PhotoStrip
         images={(() => {
           const uniqueUrls = (photoStripUnique as { slugs: Record<string, string[]> }).slugs[s.slug];
@@ -249,12 +249,12 @@ export default function SchoolProfilePage({
       <nav className="sticky top-16 z-40 bg-cream border-b border-warm-border -mx-5 md:-mx-8 px-5 md:px-8 overflow-x-auto">
         <div className="flex gap-6 py-3 text-label-sm uppercase tracking-wider whitespace-nowrap">
           {[
-            { label: "Review", href: "#intelligence" },
+            { label: "Our Verdict", href: "#intelligence" },
             { label: "Fees", href: "#fees" },
             { label: "Academics", href: "#academics" },
-            { label: "Community", href: "#student-body" },
-            { label: "Campus", href: "#school-life" },
-            { label: "Location", href: "#location" },
+            { label: "Campus", href: "#campus" },
+            { label: "Student Body", href: "#student-body" },
+            { label: "Leadership", href: "#leadership" },
           ].map((link) => (
             <a
               key={link.href}
@@ -271,7 +271,7 @@ export default function SchoolProfilePage({
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-10 lg:gap-14 pt-10 pb-10">
         {/* Main column */}
         <div className="min-w-0">
-          {/* The Intelligence */}
+          {/* Editorial Verdict */}
           <Intelligence
             verdict={s.intelligence.verdict}
             paragraphs={s.intelligence.paragraphs}
@@ -296,44 +296,55 @@ export default function SchoolProfilePage({
             paragraphs={s.academics.paragraphs}
           />
 
-          {/* ── Warm band: Student Body ── */}
+          {/* ── Warm band: Campus, Facilities & School Life ── */}
           <div className="section-band -mx-5 md:-mx-8 px-5 md:px-8 pb-2 bg-warm-white border-y border-warm-border-light">
-            <StudentBody
-              paragraphs={s.studentBody.paragraphs}
-              inspection={s.studentBody.inspection}
+            <SchoolLife
+              activitiesCount={s.schoolLife.activitiesCount}
+              uniformRequired={s.schoolLife.uniformRequired}
+              facilities={s.schoolLife.facilities}
+              paragraphs={s.schoolLife.paragraphs}
+            />
+
+            <CampusMap
+              campuses={s.campuses}
+              currentSchoolName={displayName}
+              citySlug={s.citySlug}
+              otherSchools={s.sidebar.otherSchools
+                .map((os) => {
+                  const profile = SCHOOL_PROFILES[os.slug];
+                  const first = profile?.campuses?.find(
+                    (c) => typeof c.lat === "number" && typeof c.lng === "number" && c.lat !== 0 && c.lng !== 0
+                  );
+                  if (!first) return null;
+                  return {
+                    name: getSchoolDisplayName(os.slug, profile ?? { name: os.name, shortName: os.name.split(" ").slice(0, 3).join(" ") }),
+                    slug: os.slug,
+                    meta: os.meta,
+                    feeRange: os.feeRange,
+                    lat: first.lat,
+                    lng: first.lng,
+                  };
+                })
+                .filter((x): x is NonNullable<typeof x> => x != null)}
             />
           </div>
 
-          {/* School Life */}
-          <SchoolLife
-            activitiesCount={s.schoolLife.activitiesCount}
-            uniformRequired={s.schoolLife.uniformRequired}
-            facilities={s.schoolLife.facilities}
-            paragraphs={s.schoolLife.paragraphs}
+          {/* Student Body */}
+          <StudentBody
+            paragraphs={s.studentBody.paragraphs}
+            inspection={s.studentBody.inspection}
           />
 
-          {/* Location */}
-          <CampusMap
-            campuses={s.campuses}
-            currentSchoolName={displayName}
-            citySlug={s.citySlug}
-            otherSchools={s.sidebar.otherSchools
-              .map((os) => {
-                const profile = SCHOOL_PROFILES[os.slug];
-                const first = profile?.campuses?.find(
-                  (c) => typeof c.lat === "number" && typeof c.lng === "number" && c.lat !== 0 && c.lng !== 0
-                );
-                if (!first) return null;
-                return {
-                  name: getSchoolDisplayName(os.slug, profile ?? { name: os.name, shortName: os.name.split(" ").slice(0, 3).join(" ") }),
-                  slug: os.slug,
-                  meta: os.meta,
-                  feeRange: os.feeRange,
-                  lat: first.lat,
-                  lng: first.lng,
-                };
-              })
-              .filter((x): x is NonNullable<typeof x> => x != null)}
+          {/* Leadership */}
+          <HeadOfSchool
+            name={(() => {
+              const override = getHeadOverride(s.slug);
+              return override ? override.name : s.head.name;
+            })()}
+            since={s.head.since}
+            bio={getHeadBioOverride(s.slug) ?? s.head.bio}
+            photoUrl={getSchoolImageUrl(s.slug, "head") ?? getHeadImageUrl(s.slug)}
+            credentials={getHeadOverride(s.slug)?.title}
           />
 
           {/* Contact */}
@@ -343,7 +354,14 @@ export default function SchoolProfilePage({
             website={s.contact.website}
           />
 
-          {/* Created / Last updated — very subtle */}
+          {/* Related Content */}
+          <RelatedContent
+            citySlug={s.citySlug}
+            cityName={cityName}
+            relatedInsights={s.sidebar.relatedInsights}
+          />
+
+          {/* Created / Last updated */}
           <p className="mt-12 pt-6 border-t border-warm-border-light text-[11px] text-charcoal-muted/70 tracking-wide">
             {s.created && <span>Created {s.created}</span>}
             {s.created && <span className="mx-2" aria-hidden>·</span>}
@@ -352,12 +370,7 @@ export default function SchoolProfilePage({
         </div>
 
         {/* Sidebar */}
-        <ProfileSidebar
-          slug={s.slug}
-          citySlug={s.citySlug}
-          quickFacts={s.sidebar.quickFacts}
-          relatedInsights={s.sidebar.relatedInsights}
-        />
+        <ProfileSidebar />
       </div>
 
       {/* Bottom prev/next links */}

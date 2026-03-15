@@ -25,6 +25,7 @@ interface SchoolMastheadProps {
   curricula: string[];
   stats: { value: string; label: string }[];
   studentSources?: StudentSourceData;
+  headlineResult?: { value: string; label: string };
 }
 
 export function SchoolMasthead({
@@ -38,6 +39,7 @@ export function SchoolMasthead({
   curricula,
   stats,
   studentSources,
+  headlineResult,
 }: SchoolMastheadProps) {
   const campusSummary = campuses
     .map((c) => c.name.split("(")[0].trim())
@@ -92,6 +94,16 @@ export function SchoolMasthead({
               </span>
             </div>
           ))}
+          {headlineResult && (
+            <div>
+              <span className="font-display text-display-sm font-semibold block leading-none mb-1">
+                {headlineResult.value}
+              </span>
+              <span className="text-label-xs uppercase tracking-wider text-charcoal-muted font-body">
+                {headlineResult.label}
+              </span>
+            </div>
+          )}
         </div>
       </div>
 

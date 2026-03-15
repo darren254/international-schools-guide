@@ -26,8 +26,8 @@ export function StudentBody({ paragraphs, inspection }: StudentBodyProps) {
   return (
     <section id="student-body" className="pt-10 mb-10 pb-10 border-b border-warm-border-light">
       <SectionHeader
-        label="Community"
-        title="Student Body & Academics"
+        label="Student Body"
+        title="Student Body"
       />
 
       {paragraphs

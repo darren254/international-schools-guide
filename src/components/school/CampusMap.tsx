@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { SectionHeader } from "@/components/ui/SectionHeader";
+
 import { useCurrency } from "@/context/CurrencyContext";
 import { extractLowestFee, extractHighestFee } from "@/lib/utils/fees";
 
@@ -205,8 +205,8 @@ export function CampusMap({
   const closeCard = useCallback(() => setSelected(null), []);
 
   return (
-    <section id="location" className="pt-10 mb-10 pb-10 border-b border-warm-border-light">
-      <SectionHeader label="Getting There" title="Location" />
+    <div className="pt-8 mb-10">
+      <h3 className="font-display text-display-sm font-medium mb-6">Location & Map</h3>
 
       {hasAnyPoint ? (
         <>
@@ -350,6 +350,6 @@ export function CampusMap({
           directions.
         </div>
       )}
-    </section>
+    </div>
   );
 }

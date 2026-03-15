@@ -32,10 +32,10 @@ export function SchoolLife({
     .filter((text) => text !== "");
 
   return (
-    <section id="school-life" className="pt-10 mb-10 pb-10 border-b border-warm-border-light">
+    <section id="campus" className="pt-10 mb-4 pb-4">
       <SectionHeader
         label="Campus & Culture"
-        title="School Life"
+        title="Campus, Facilities & School Life"
       />
 
       <div className="flex flex-col sm:flex-row gap-8 mb-8">
